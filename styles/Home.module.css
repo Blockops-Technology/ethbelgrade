@@ -12,9 +12,34 @@
   align-items: center;
 }
 
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
+.content {
+  max-width: 860px;
+  padding: 0 20px;
+}
+
+.date {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 5rem;
+  font-size: 1.5rem;
+  color: #000000;
+  background: #fff;
+  padding: 1rem 2.5rem;
+}
+
+.ghostButton {
+  display: inline-block;
+  margin-top: 5rem;
+  font-size: 1.5rem;
 }

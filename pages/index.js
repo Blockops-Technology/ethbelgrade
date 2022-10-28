@@ -11,9 +11,14 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+        <div className={styles.content}>
+          <img src="/NFTBelgrade-text-logo.svg" alt="NFT Belgrade conference logotype" />
+          <p className={styles.date}>June, 2023</p>
+          <div className={styles.buttons}>
+            <a className={styles.button} href="">Get whitelisted</a>
+            <a className={styles.ghostButton} href="">Join telegram</a>
+          </div>
+        </div>
       </main>
     </div>
   )
