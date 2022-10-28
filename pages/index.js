@@ -15,8 +15,8 @@ export default function Home() {
           <img src="/NFTBelgrade-text-logo.svg" alt="NFT Belgrade conference logotype" />
           <p className={styles.date}>June, 2023</p>
           <div className={styles.buttons}>
-            <a className={styles.button} href="">Get whitelisted</a>
-            <a className={styles.ghostButton} href="">Join telegram</a>
+            <a className={styles.button} href="" target="_blank" rel="noreferrer noopener">Get whitelisted</a>
+            <a className={styles.ghostButton} href="https://t.me/+MIGPL5WcN_w2YWQ8" target="_blank" rel="noreferrer noopener">Join telegram</a>
           </div>
         </div>
       </main>
