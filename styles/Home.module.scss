@@ -44,7 +44,6 @@
   }
 
   @include breakpoint(big-mobile) {
-    margin-top: 2.5rem;
     flex-direction: column;
   }
 }
@@ -77,5 +76,16 @@
   @include breakpoint(big-mobile) {
     width: 100%;
     text-align: center;
+  }
+}
+
+.socials {
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+
+  p {
+    color: #929292;
   }
 }
