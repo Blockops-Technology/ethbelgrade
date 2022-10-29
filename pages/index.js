@@ -10,7 +10,7 @@ export default function Home() {
 
 
         <meta property="og:title" content="NFT Belgrade"/>
-        <meta property="og:description" content="The biggest NFT Conference in the CEE region"/>
+        <meta property="og:description" content="The biggest NFT Conference & NFT Gaming Hackathon in the CEE region"/>
         <meta property="og:image" content="https://nftbelgrade.com/nft-blegrade-og.jpg"/>
 
         <meta name="twitter:card" content="summary_large_image" />
