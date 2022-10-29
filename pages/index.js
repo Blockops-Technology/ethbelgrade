@@ -6,7 +6,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>NFT Belgrade</title>
-        <meta name="description" content="The biggest NFT Conference in the CEE region" />
+        <meta name="description" content="The biggest NFT Conference & NFT Gaming Hackathon in the CEE region" />
 
 
         <meta property="og:title" content="NFT Belgrade"/>
@@ -15,7 +15,7 @@ export default function Home() {
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="NFT Belgrade" />
-        <meta name="twitter:description" content="The biggest NFT Conference in the CEE region"/>
+        <meta name="twitter:description" content="The biggest NFT Conference & NFT Gaming Hackathon in the CEE region"/>
         <meta property="og:type" content="website" />
         <meta name="twitter:site" content="@nftbelgrade" />
         <meta name="twitter:image" content="https://nftbelgrade.com/nft-blegrade-og.jpg" />
