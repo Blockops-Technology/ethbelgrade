@@ -11,14 +11,17 @@ export default function Home() {
 
         <meta property="og:title" content="ETH Belgrade"/>
         <meta property="og:description" content="The biggest ETH Conference in the CEE region"/>
-        <meta property="og:image" content="https://nftbelgrade.com/nft-blegrade-og.jpg"/>
+
+        {/*TODO:*/}
+        <meta property="og:image" content="https://nftbelgrade.com/eth-blegrade-og.jpg"/>
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="ETH Belgrade" />
         <meta name="twitter:description" content="The biggest ETH Conference in the CEE region"/>
         <meta property="og:type" content="website" />
-        <meta name="twitter:site" content="@nftbelgrade" />
-        <meta name="twitter:image" content="https://nftbelgrade.com/nft-blegrade-og.jpg" />
+        <meta name="twitter:site" content="@ethbelgrade" />
+        {/*TODO:*/}
+        <meta name="twitter:image" content="https://nftbelgrade.com/eth-blegrade-og.jpg" />
 
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -28,6 +31,7 @@ export default function Home() {
           <img src="/NFTBelgrade-text-logo.svg" alt="ETH Belgrade conference logotype" />
           <p className={styles.date}>5-6th June, 2023</p>
           <div className={styles.buttons}>
+            {/*TODO:*/}
             <a className={styles.button} href="https://xntkpyvzukn.typeform.com/to/ohkYPQyW" target="_blank" rel="noreferrer noopener">Get whitelisted</a>
             <a className={styles.ghostButton} href="https://t.me/+MIGPL5WcN_w2YWQ8" target="_blank" rel="noreferrer noopener">Join telegram</a>
           </div>
