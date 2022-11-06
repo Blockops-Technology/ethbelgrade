@@ -28,7 +28,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <div className={styles.content}>
-          <img src="/NFTBelgrade-text-logo.svg" alt="ETH Belgrade conference logotype" />
+          <img src="/ETH-Belgrade-logotype.svg" alt="ETH Belgrade conference logotype" />
           <p className={styles.date}>5-6th June, 2023</p>
           <div className={styles.buttons}>
             {/*TODO:*/}

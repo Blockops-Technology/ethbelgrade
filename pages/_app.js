@@ -5,6 +5,7 @@ import "../styles/globals.scss";
 function MyApp({ Component, pageProps }) {
   return (
     <>
+      {/*TODO*/}
       <Script
         src="https://www.googletagmanager.com/gtag/js?id=G-NW9VQBBQ61"
         strategy="afterInteractive"

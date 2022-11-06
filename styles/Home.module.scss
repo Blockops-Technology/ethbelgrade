@@ -51,8 +51,8 @@
 .button {
   display: inline-block;
   font-size: 1.5rem;
-  color: #0B0B0B;
-  background: #fff;
+  color: #fff;
+  background: #0B0B0B;
   padding: 1rem 2.5rem;
 
   @include breakpoint(mobile-landscape) {
