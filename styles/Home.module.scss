@@ -28,6 +28,14 @@
   font-size: 4rem;
   margin: 0;
   font-weight: bold;
+
+  @include breakpoint(tablet) {
+    font-size: 3rem;
+  }
+
+  @include breakpoint(big-mobile) {
+    font-size: 2rem;
+  }
 }
 
 .subtitle {
@@ -35,6 +43,14 @@
   margin-top: 0;
   font-weight: bold;
   text-transform: uppercase;
+
+  @include breakpoint(tablet) {
+    font-size: 1.5rem;
+  }
+
+  @include breakpoint(big-mobile) {
+    font-size: 1rem;
+  }
 }
 
 .date {
@@ -44,11 +60,7 @@
   //text-align: center;
 
   @include breakpoint(big-mobile) {
-    font-size: 2rem;
-  }
-
-  @include breakpoint(medium-mobile) {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }
 
