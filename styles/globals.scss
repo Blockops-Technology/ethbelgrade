@@ -2,11 +2,11 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: "Euclid Square", -apple-system, BlinkMacSystemFont, Segoe UI,
+  font-family: var(--rubik-font), -apple-system, BlinkMacSystemFont, Segoe UI,
   Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
   sans-serif;
-  background: #fff;
-  color: #0B0B0B;
+  background: #efe7e4;
+  color: #0f1721;
 }
 
 a {

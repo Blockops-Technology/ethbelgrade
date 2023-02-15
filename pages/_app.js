@@ -1,4 +1,9 @@
 import Script from "next/script";
+import { Rubik } from "@next/font/google";
+
+const rubik = Rubik({
+  subsets: ["latin"]
+})
 
 import "../styles/globals.scss";
 
@@ -18,6 +23,11 @@ function MyApp({ Component, pageProps }) {
       {/*      gtag('config', 'G-NW9VQBBQ61');*/}
       {/*    `}*/}
       {/*</Script>*/}
+      <style jsx global>{`
+        html {
+          font-family: ${rubik.style.fontFamily};
+        }
+      `}</style>
       <Component {...pageProps} />
     </>
   )

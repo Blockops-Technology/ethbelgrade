@@ -19,10 +19,29 @@
   padding: 0 20px;
 }
 
+.logo {
+  margin: 0 auto;
+  display: block;
+}
+
+.title {
+  font-size: 4rem;
+  margin: 0;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 2rem;
+  margin-top: 0;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 .date {
   margin: 0;
-  font-size: 3rem;
-  font-weight: bold;
+  font-size: 1.5rem;
+  color: #ef233c;
+  //text-align: center;
 
   @include breakpoint(big-mobile) {
     font-size: 2rem;
@@ -52,7 +71,7 @@
   display: inline-block;
   font-size: 1.5rem;
   color: #fff;
-  background: #0B0B0B;
+  background: #0f1721;
   padding: 1rem 2.5rem;
 
   @include breakpoint(mobile-landscape) {
@@ -80,7 +99,7 @@
 }
 
 .socials {
-  margin-top: 5rem;
+  margin-top: 2rem;
   display: flex;
   align-items: center;
   gap: 24px;
