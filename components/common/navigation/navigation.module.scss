@@ -53,7 +53,12 @@
 }
 
 .hamburgerIcon {
+  display: none;
   cursor: pointer;
+
+  @include breakpoint(big-tablet) {
+    display: initial;
+  }
 }
 
 .closeIconWrapper {
