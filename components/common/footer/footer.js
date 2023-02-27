@@ -14,13 +14,13 @@ const Footer = () => (
         <div className={styles.socialSection}>
           <p className={styles.sectionTitle}>Social Media</p>
           <div className={styles.socialIcons}>
-            <a href="" target="_blank" rel="noreferrer noopener">
+            <a href="https://t.me/+JHSH1qc-W85kYzdk" target="_blank" rel="noreferrer noopener">
               <img className={styles.socialIcon} src="/icons/telegram.svg" alt="Telegram Icon" />
             </a>
-            <a href="" target="_blank" rel="noreferrer noopener">
+            <a href="https://www.linkedin.com/company/eth-belgrade/" target="_blank" rel="noreferrer noopener">
               <img className={styles.socialIcon} src="/icons/linkedin.svg" alt="Linkedin Icon" />
             </a>
-            <a href="" target="_blank" rel="noreferrer noopener">
+            <a href="https://twitter.com/ethbelgrade" target="_blank" rel="noreferrer noopener">
               <img className={styles.socialIcon} src="/icons/twitter.svg" alt="Twitter Icon" />
             </a>
           </div>
