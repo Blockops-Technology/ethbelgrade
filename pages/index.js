@@ -2,6 +2,7 @@ import Head from "next/head";
 import mainLayout from "../components/common/layout/mainLayout";
 import Hero from "../components/landing/hero/hero";
 import About from "../components/landing/about/about";
+import MediaPartners from "../components/landing/media-partners/mediaPartners";
 
 export default function Home() {
   const description = "The premier ETH event in the heart of the Balkans. Part of Belgrade Blockchain Week. 2-4 June 2023 - see you in Belgrade!";
@@ -29,6 +30,7 @@ export default function Home() {
       </Head>
       <Hero />
       <About />
+      <MediaPartners />
     </div>
   )
 }
