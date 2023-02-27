@@ -1,3 +1,5 @@
+@import "styles/breakpoints";
+
 .mediaPartners {
   padding: 129px 0;
   background: #0078FF;
@@ -7,6 +9,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 40px;
+
+  @include breakpoint(tablet) {
+    flex-direction: column;
+  }
   //margin-bottom: 80px;
 }
 
@@ -15,4 +22,12 @@
   font-size: 40px;
   margin: 0;
   text-transform: uppercase;
+
+  @include breakpoint(big-tablet) {
+    font-size: 30px;
+  }
+
+  @include breakpoint(tablet) {
+    text-align: center;
+  }
 }
