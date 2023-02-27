@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { Roboto_Mono } from "@next/font/google";
 import mainLayout from "../components/common/layout/mainLayout";
+import Hero from "../components/landing/hero/hero";
 
 const robotoMono = Roboto_Mono({
   subsets: ["latin"]
@@ -30,9 +31,7 @@ export default function Home() {
 
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div>
-        <p>Content goes here</p>
-      </div>
+      <Hero />
     </div>
   )
 }
