@@ -1,11 +1,7 @@
 import Head from "next/head";
-import { Roboto_Mono } from "@next/font/google";
 import mainLayout from "../components/common/layout/mainLayout";
 import Hero from "../components/landing/hero/hero";
-
-const robotoMono = Roboto_Mono({
-  subsets: ["latin"]
-});
+import About from "../components/landing/about/about";
 
 export default function Home() {
   const description = "The premier ETH event in the heart of the Balkans. Part of Belgrade Blockchain Week. 2-4 June 2023 - see you in Belgrade!";
@@ -32,6 +28,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero />
+      <About />
     </div>
   )
 }

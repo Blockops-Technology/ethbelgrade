@@ -1,10 +1,13 @@
 import Script from "next/script";
-import { Rubik } from "@next/font/google";
+import { Roboto_Mono, Rubik } from "@next/font/google";
 
 const rubik = Rubik({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700", "800"],
-})
+});
+const robotoMono = Roboto_Mono({
+  subsets: ["latin"],
+});
 
 import "../styles/main.scss";
 
@@ -28,6 +31,10 @@ function MyApp({ Component, pageProps }) {
       <style jsx global>{`
         html {
           font-family: ${rubik.style.fontFamily};
+        }
+        
+        :root {
+          --roboto-mono: ${robotoMono.style.fontFamily};
         }
       `}</style>
       {
