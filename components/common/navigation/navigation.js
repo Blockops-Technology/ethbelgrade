@@ -35,7 +35,7 @@ const Navigation = () => {
   })
 
   return (
-    <div className={styles.container}>
+    <div className="container">
       <nav className={styles.navigation}>
         <Link href="/">
           <img className={styles.logo} src="/logo.svg" alt="ETH Belgrade logo" />

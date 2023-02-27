@@ -1,0 +1,63 @@
+@import "styles/breakpoints";
+
+.footer {
+  padding: 90px 0;
+  border-top: 1px solid var(--primary-green);
+}
+
+.footerContent {
+  display: grid;
+  grid-auto-columns: minmax(0, 1fr);
+  grid-template-areas: "first first second third";
+  gap: 100px;
+
+  @include breakpoint(medium-screen) {
+    grid-template-areas: "first second third";
+  }
+
+  @include breakpoint(big-tablet) {
+    grid-template-areas: "first" "second" "third";
+  }
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-top: 0;
+  grid-area: first;
+}
+
+.sectionTitle {
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--primary-green);
+  margin: 0 0 40px;
+}
+
+.bgbwLogo {
+  max-width: 353px;
+  width: 100%;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 24px;
+}
+
+.bgbwSection {
+  grid-area: second;
+
+  .sectionTitle {
+    rotate: -3deg;
+  }
+}
+
+.socialSection {
+  grid-area: third;
+
+  .sectionTitle {
+    margin-top: 10px;
+    rotate: 3deg;
+  }
+}

@@ -22,3 +22,11 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+:root {
+  .container {
+    max-width: 1700px;
+    padding: 0 40px;
+    margin: 0 auto;
+  }
+}
