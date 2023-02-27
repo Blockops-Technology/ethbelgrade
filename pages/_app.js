@@ -8,6 +8,8 @@ const rubik = Rubik({
 import "../styles/main.scss";
 
 function MyApp({ Component, pageProps }) {
+  const getLayout = Component.getLayout ?? ((page) => page);
+
   return (
     <>
       <Script
@@ -27,7 +29,9 @@ function MyApp({ Component, pageProps }) {
           font-family: ${rubik.style.fontFamily};
         }
       `}</style>
-      <Component {...pageProps} />
+      {
+        getLayout(<Component {...pageProps} />)
+      }
     </>
   )
 }
