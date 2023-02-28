@@ -7,8 +7,6 @@
 }
 
 .ticket {
-  width: 100%;
-  max-width: 706px;
 
   @include breakpoint(landscape) {
     display: none;
