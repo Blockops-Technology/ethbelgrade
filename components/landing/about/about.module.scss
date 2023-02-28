@@ -79,6 +79,11 @@
   grid-auto-rows: minmax(0, 1fr);
   max-width: 860px;
   margin: 0 auto;
+
+  @include breakpoint(big-mobile) {
+    grid-auto-rows: initial;
+    padding: 100px 0  150px;
+  }
 }
 
 .sectionTitle {
