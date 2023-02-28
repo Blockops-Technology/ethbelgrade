@@ -8,6 +8,7 @@ import Hackathon from "../components/landing/hackathon/hackathon";
 import Quote from "../components/landing/quote/quote";
 import TicketCta from "../components/landing/ticket-cta/ticketCta";
 import Team from "../components/landing/team/team";
+import Speakers from "../components/landing/speakers/speakers";
 
 export default function Home() {
   const description = "The premier ETH event in the heart of the Balkans. Part of Belgrade Blockchain Week. 2-4 June 2023 - see you in Belgrade!";
@@ -35,6 +36,7 @@ export default function Home() {
       </Head>
       <Hero />
       <About />
+      <Speakers />
       <MediaPartners />
       <Team />
       <TicketCta />
