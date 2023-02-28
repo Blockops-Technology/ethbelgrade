@@ -1,5 +1,6 @@
 import Script from "next/script";
 import { Roboto_Mono, Rubik } from "@next/font/google";
+import { ToastContainer } from "react-toastify";
 
 const rubik = Rubik({
   subsets: ["latin", "latin-ext"],
@@ -10,6 +11,7 @@ const robotoMono = Roboto_Mono({
 });
 
 import "../styles/main.scss";
+import "react-toastify/dist/ReactToastify.css";
 
 function MyApp({ Component, pageProps }) {
   const getLayout = Component.getLayout ?? ((page) => page);
@@ -40,6 +42,10 @@ function MyApp({ Component, pageProps }) {
       {
         getLayout(<Component {...pageProps} />)
       }
+      <ToastContainer
+        position="top-right"
+        // theme="dark"
+      />
     </>
   )
 }

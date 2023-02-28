@@ -9,12 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@formspark/use-formspark": "^0.1.39",
     "@next/font": "^13.1.6",
     "@svgr/webpack": "^6.5.1",
     "classnames": "^2.3.2",
     "next": "13.0.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-toastify": "^9.1.1"
   },
   "devDependencies": {
     "eslint": "8.26.0",
