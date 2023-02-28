@@ -1,0 +1,24 @@
+@import "styles/breakpoints";
+
+.ticketWrapper {
+  background: url("/images/tikcet-section-vector.svg") no-repeat center center;
+  background-size: contain;
+  text-align: center;
+}
+
+.ticket {
+  width: 100%;
+  max-width: 706px;
+
+  @include breakpoint(landscape) {
+    display: none;
+  }
+}
+
+.mobileSection {
+  display: none;
+
+  @include breakpoint(landscape) {
+    display: initial;
+  }
+}

@@ -26,6 +26,7 @@
   @include breakpoint(big-tablet) {
     display: initial;
     position: fixed;
+    z-index: 100000;
     top: 0;
     bottom: 0;
     left: 0;
