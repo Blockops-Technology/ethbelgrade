@@ -97,6 +97,14 @@
   flex-flow: wrap;
   gap: 30px;
 
+  a {
+    flex-grow: 1;
+  }
+
+  button {
+    width: 100%;
+  }
+
   @include breakpoint(big-mobile) {
     padding-top: 0;
   }
