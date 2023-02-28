@@ -24,6 +24,9 @@ const Hero = () => (
               Apply as a speaker
           </Button>
         </a>
+        <a href="https://xntkpyvzukn.typeform.com/to/FvwgCUus" target="_blank" rel="noreferrer noopener">
+          <Button>Get Whitgit selisted</Button>
+        </a>
         <a href="https://forms.gle/JN8jHHGT5KRmAbZz8" target="_blank" rel="noreferrer noopener">
           <Button ghost>
             Apply to hack
