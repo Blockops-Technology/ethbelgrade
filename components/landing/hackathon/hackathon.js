@@ -2,7 +2,7 @@ import styles from "./hackathon.module.scss";
 import Button from "../../common/button/button";
 
 const Hackathon = () => (
-  <div className={styles.hackathon}>
+  <div id="hackathon" className={styles.hackathon}>
     <div className="container">
       <div className={styles.content}>
         <img className={styles.image} src="/images/hackathon-label.png" alt="ETH Belgrade Hackathon label"/>

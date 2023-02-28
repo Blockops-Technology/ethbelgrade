@@ -2,7 +2,7 @@ import styles from "./about.module.scss";
 import Button from "../../common/button/button";
 
 const About = () => (
-  <div className={styles.about}>
+  <div id="about" className={styles.about}>
     <div className="container">
       <p className={styles.subtitle}>Our manifesto</p>
       <div className={styles.titleWrapper}>
