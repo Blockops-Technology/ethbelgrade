@@ -5,6 +5,7 @@ import About from "../components/landing/about/about";
 import MediaPartners from "../components/landing/media-partners/mediaPartners";
 import Newsletter from "../components/landing/newsletter/newsletter";
 import Hackathon from "../components/landing/hackathon/hackathon";
+import Quote from "../components/landing/quote/quote";
 
 export default function Home() {
   const description = "The premier ETH event in the heart of the Balkans. Part of Belgrade Blockchain Week. 2-4 June 2023 - see you in Belgrade!";
@@ -33,6 +34,7 @@ export default function Home() {
       <Hero />
       <About />
       <MediaPartners />
+      <Quote />
       <Newsletter />
       <Hackathon />
     </div>

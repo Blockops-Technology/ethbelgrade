@@ -2,7 +2,7 @@ import Script from "next/script";
 import { Roboto_Mono, Rubik } from "@next/font/google";
 
 const rubik = Rubik({
-  subsets: ["latin"],
+  subsets: ["latin", "latin-ext"],
   weight: ["300", "400", "500", "600", "700", "800"],
 });
 const robotoMono = Roboto_Mono({
