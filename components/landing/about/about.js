@@ -9,7 +9,7 @@ const About = () => (
         <p className={styles.title}>
           <span className={styles.indent}>Come for conference,</span>
           <br />
-          <div className={styles.rotate}>stay for <span className={styles.underline}>Belgrade</span></div>
+          <span className={styles.rotate}>stay for <span className={styles.underline}>Belgrade</span></span>
         </p>
       </div>
     </div>
