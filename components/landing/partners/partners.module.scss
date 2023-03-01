@@ -1,0 +1,63 @@
+@import "styles/breakpoints";
+
+.partners {
+  margin-top: 200px;
+  padding: 80px 0;
+  background: url("/images/partners-vector.svg") no-repeat right top;
+}
+
+.content {
+  //display: grid;
+  //grid-template-areas: "first first second";
+  //grid-auto-columns: minmax(0, 1fr);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 200px;
+
+  @include breakpoint(medium-screen) {
+    flex-direction: column;
+    gap: 100px;
+  }
+}
+
+.sponsors {
+  //grid-area: first;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin: 0 0 27px;
+}
+
+.sponsorsList {
+  margin-top: 87px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px;
+  align-items: center;
+
+  img {
+    max-height: 40px;
+  }
+
+  @include breakpoint(tablet) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @include breakpoint(big-mobile) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.ctaSection {
+  //grid-area: second;
+  max-width: 400px;
+}
+
+.ctaTitle {
+  font-weight: 700;
+  font-size: 32px;
+}
