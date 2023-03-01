@@ -27,6 +27,9 @@ const Partners = () => (
             <a href="https://blockops.technology/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/blockops-logo.png" alt="Blockops logo" />
             </a>
+            <a href="https://walk.rs/" target="_blank" rel="noreferrer noopener">
+              <img src="/images/partners/walk-logo.png" alt="WALK logo" />
+            </a>
           </div>
         </div>
         <div className={styles.ctaSection}>
