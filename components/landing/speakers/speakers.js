@@ -86,7 +86,7 @@ const Speakers = () => {
             <a href="https://twitter.com/rakitadragan" target="_blank" rel="noreferrer noopener">
               <img src="/images/Speakers/dragan-rakita%20-%20224x173.png" alt="Dragan Rakita photo" />
               <p className={styles.name}>Dragan Rakita</p>
-              <p className={styles.position}>revm author, Paradigm</p>
+              <p className={styles.position}>Ethereum Core Developer, Paradigm</p>
             </a>
           </div>
           <div className={styles.speaker}>
