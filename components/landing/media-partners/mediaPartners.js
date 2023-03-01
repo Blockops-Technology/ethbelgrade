@@ -6,7 +6,7 @@ const MediaPartners = () => (
     <div className="container">
       <div className={styles.header}>
         <p className={styles.title}>Thanks for spreading the word</p>
-        <a href="#" target="_blank" rel="noreferrer noopener">
+        <a href="mailto:tanja@ethbelgrade.rs">
           <Button>Become a media partner</Button>
         </a>
       </div>
