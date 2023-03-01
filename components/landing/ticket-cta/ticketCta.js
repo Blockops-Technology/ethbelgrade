@@ -9,7 +9,7 @@ const TicketCta = () => (
       </div>
       <a href="https://xntkpyvzukn.typeform.com/to/FvwgCUus" target="_blank" rel="noreferrer noopener">
         <img className={styles.ticket} src="/images/ticket.png" alt="Ticket illustration" />
-        <Button ghost className={styles.mobileSection}>Get Whitelisted</Button>
+        <Button ghost className={styles.mobileSection}>Join the waitlist</Button>
       </a>
     </div>
   </div>
