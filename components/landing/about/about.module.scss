@@ -1,0 +1,120 @@
+@import "styles/breakpoints";
+
+.about {
+  padding: 34px 0;
+}
+
+.subtitle {
+  font-family: var(--roboto-mono);
+  text-transform: uppercase;
+  font-size: 32px;
+  color: var(--primary-red);
+  transform: rotate(2.4deg);
+  text-align: center;
+  margin: 0;
+
+  @include breakpoint(landscape) {
+    font-size: 16px;
+  }
+}
+
+.titleWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 60px;
+  margin: 0;
+  text-transform: uppercase;
+  text-align: right;
+
+  @include breakpoint(big-tablet) {
+    font-size: 40px;
+  }
+
+  @include breakpoint(landscape) {
+    font-size: 25px;
+  }
+
+  @include breakpoint(big-mobile) {
+    font-size: 18px;
+  }
+
+  @include breakpoint(medium-mobile) {
+    font-size: 16px;
+  }
+}
+
+.indent {
+  margin-right: 50px;
+
+  @include breakpoint(landscape) {
+    margin-right: 20px;
+  }
+}
+
+.rotate {
+  transform: rotate(-1.25deg);
+  display: block;
+}
+
+.underline {
+  border-bottom: 3px solid #057AFF;;
+}
+
+.contentWrapper {
+  background-image: url("/images/about-diamond.svg"), url("/images/about-hourglass.svg");
+  background-repeat: no-repeat;
+  background-position: top left, right bottom;
+
+  @include breakpoint(big-tablet) {
+    background-size: 300px, 500px;
+  }
+}
+
+.content {
+  padding: 206px 0;
+  display: grid;
+  grid-auto-rows: minmax(0, 1fr);
+  max-width: 860px;
+  margin: 0 auto;
+
+  @include breakpoint(big-mobile) {
+    grid-auto-rows: initial;
+    padding: 100px 0  150px;
+  }
+}
+
+.sectionTitle {
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin: 0 0 48px;
+}
+
+.sectionText {
+  margin-bottom: 46px;
+}
+
+.button {
+  margin-top: 18px;
+}
+
+.belgradeCalling {
+  max-width: 428px;
+  justify-self: end;
+  position: relative;
+
+  &:before {
+    position: absolute;
+    content: url("/images/about-section-logo.png");
+    top: -90px;
+    left: -420px;
+  }
+}
+
+.whyBelgrade {
+  max-width: 428px;
+}

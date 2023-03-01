@@ -1,13 +1,23 @@
 import Script from "next/script";
-import { Rubik } from "@next/font/google";
+import { Roboto_Mono, Rubik } from "@next/font/google";
+import { ToastContainer } from "react-toastify";
 
 const rubik = Rubik({
-  subsets: ["latin"]
-})
+  subsets: ["latin", "latin-ext"],
+  weight: ["300", "400", "500", "600", "700", "800"],
+});
+const robotoMono = Roboto_Mono({
+  subsets: ["latin"],
+});
 
-import "../styles/globals.scss";
+import "react-toastify/dist/ReactToastify.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import "../styles/main.scss";
 
 function MyApp({ Component, pageProps }) {
+  const getLayout = Component.getLayout ?? ((page) => page);
+
   return (
     <>
       <Script
@@ -26,8 +36,18 @@ function MyApp({ Component, pageProps }) {
         html {
           font-family: ${rubik.style.fontFamily};
         }
+        
+        :root {
+          --roboto-mono: ${robotoMono.style.fontFamily};
+        }
       `}</style>
-      <Component {...pageProps} />
+      {
+        getLayout(<Component {...pageProps} />)
+      }
+      <ToastContainer
+        position="top-right"
+        // theme="dark"
+      />
     </>
   )
 }

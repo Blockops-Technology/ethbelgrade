@@ -1,0 +1,67 @@
+@import "styles/breakpoints";
+
+.navigation {
+  padding: 70px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 200px;
+}
+
+.menu {
+  display: flex;
+  gap: 30px;
+
+  @include breakpoint(big-tablet) {
+    display: none;
+  }
+}
+
+.mobileMenu {
+  display: none;
+
+  @include breakpoint(big-tablet) {
+    display: initial;
+    position: fixed;
+    z-index: 100000;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    background: var(--backgroung-color);
+  }
+}
+
+.menuItem {
+  font-weight: 500;
+  font-size: 20px;
+  text-transform: uppercase;
+
+  @include breakpoint(big-tablet) {
+    display: block;
+    padding: 20px 40px;
+  }
+}
+
+.hamburgerIcon {
+  display: none;
+  cursor: pointer;
+
+  @include breakpoint(big-tablet) {
+    display: initial;
+  }
+}
+
+.closeIconWrapper {
+  padding: 70px 40px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.closeIcon {
+  cursor: pointer;
+}

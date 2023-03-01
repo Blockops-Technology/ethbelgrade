@@ -1,16 +1,20 @@
 import Head from "next/head";
-import { Roboto_Mono } from "@next/font/google";
-
-import styles from "../styles/Home.module.scss";
-
-const robotoMono = Roboto_Mono({
-  subsets: ["latin"]
-});
+import mainLayout from "../components/common/layout/mainLayout";
+import Hero from "../components/landing/hero/hero";
+import About from "../components/landing/about/about";
+import MediaPartners from "../components/landing/media-partners/mediaPartners";
+import Newsletter from "../components/landing/newsletter/newsletter";
+import Hackathon from "../components/landing/hackathon/hackathon";
+import Quote from "../components/landing/quote/quote";
+import TicketCta from "../components/landing/ticket-cta/ticketCta";
+import Team from "../components/landing/team/team";
+import Speakers from "../components/landing/speakers/speakers";
+import Partners from "../components/landing/partners/partners";
 
 export default function Home() {
   const description = "The premier ETH event in the heart of the Balkans. Part of Belgrade Blockchain Week. 2-4 June 2023 - see you in Belgrade!";
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>ETH Belgrade</title>
         <meta name="description" content={description} />
@@ -31,25 +35,18 @@ export default function Home() {
 
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <main className={styles.main}>
-        <div className={styles.content}>
-          <img className={styles.logo} src="/logo.png" alt="ETH Belgrade logo" />
-          <p className={styles.title}>ETH Belgrade</p>
-          <p className={styles.subtitle}>Conference & Hackathon</p>
-          <p className={`${styles.date} ${robotoMono.className}`}>2-4 & 5-6 June, 2023</p>
-          <div className={styles.buttons}>
-            <a className={styles.button} href="https://xntkpyvzukn.typeform.com/to/FvwgCUus" target="_blank" rel="noreferrer noopener">Get whitelisted</a>
-            <a className={styles.ghostButton} href="https://t.me/+G3fTH2wX8TpiMzJk" target="_blank" rel="noreferrer noopener">Join telegram</a>
-          </div>
-          <div className={styles.socials}>
-            <p>Let&apos;s connect:</p>
-            <a href="https://twitter.com/ethbelgrade" target="_blank" rel="noreferrer noopener">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="#0f1721" d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg>
-            </a>
-          </div>
-        </div>
-      </main>
+      <Hero />
+      <About />
+      <Speakers />
+      <Partners />
+      <MediaPartners />
+      <Team />
+      <TicketCta />
+      <Quote />
+      <Newsletter />
+      <Hackathon />
     </div>
   )
 }
+
+Home.getLayout = mainLayout;

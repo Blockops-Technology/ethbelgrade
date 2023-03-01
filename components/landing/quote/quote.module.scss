@@ -1,0 +1,66 @@
+@import "styles/breakpoints";
+
+.quoteWrapper {
+  background: url("/images/quote-transaprent-el.svg"), url("/images/quote-el.png");
+  background-repeat: no-repeat;
+  background-position: 150px center, bottom right;
+
+
+  @include breakpoint(big-tablet) {
+    background-position: center 90px, bottom right;
+    background-size: 250px, 300px;
+  }
+
+  @include breakpoint(big-mobile) {
+    background-position: center 60px, bottom right;
+    background-size: contain, contain;
+  }
+}
+
+.content {
+  max-width: 944px;
+  margin: 0 auto;
+  padding: 300px 0;
+  display: flex;
+  align-items: center;
+  gap: 100px;;
+
+  @include breakpoint(big-tablet) {
+    flex-direction: column;
+    padding: 150px 0;
+  }
+}
+
+.quote {
+  @include breakpoint(big-tablet) {
+    max-width: 600px;
+  }
+}
+
+.quoteText {
+  font-size: 20px;
+  margin: 0 0 65px;
+  position: relative;
+
+  &:before {
+    content: url("/images/quote-marks.svg");
+    position: absolute;
+    top: -35px;
+    left: -35px;
+  }
+}
+
+.name {
+  font-weight: 800;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.title {
+  font-family: var(--roboto-mono);
+  font-size: 20px;
+  color: var(--primary-red);
+  transform: rotate(-2.7deg);
+  margin: 0 0 20px -20px;
+}
