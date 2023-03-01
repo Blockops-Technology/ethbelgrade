@@ -32,7 +32,7 @@ const Partners = () => (
         <div className={styles.ctaSection}>
           <p className={styles.ctaTitle}>Consider becoming a partner?</p>
           <a href="mailto:partnerships@ethbelgrade.rs">
-            <Button>Be in good company</Button>
+            <Button>Request a deck</Button>
           </a>
         </div>
       </div>
