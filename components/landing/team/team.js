@@ -82,7 +82,7 @@ const Team = () => (
           <a href="https://twitter.com/LawyerWooden" target="_blank" rel="noreferrer noopener">
             <img src="/images/team/Ilija-Rilakovic.png" alt="Ilija Rilakovic profile picture" />
             <p className={styles.title}>Ilija Rilakovic</p>
-            <p>Ilija Rilakovic</p>
+            <p>Legal</p>
           </a>
         </div>
       </div>
