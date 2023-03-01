@@ -16,7 +16,7 @@ const Hero = () => (
       <div className={styles.buttons}>
         <a href="https://forms.gle/89GkWspMwfCoNyqj9" target="_blank" rel="noreferrer noopener">
           <Button ghost>
-            Become a sponsor
+            Become a partner
           </Button>
         </a>
         <a href="https://forms.gle/Xf3wV3qp5Jq7oM1W9" target="_blank" rel="noreferrer noopener">
