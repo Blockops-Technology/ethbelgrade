@@ -7,9 +7,9 @@ const About = () => (
       <p className={styles.subtitle}>Our manifesto</p>
       <div className={styles.titleWrapper}>
         <p className={styles.title}>
-          <span className={styles.indent}><span className={styles.underline}>Belgrade</span>, in fact is not a city</span>
+          <span className={styles.indent}>"<span className={styles.underline}>Belgrade</span>, in fact is not a city</span>
           {/*<br />*/}
-          <span className={styles.rotate}> – it’s a metaphor, a way of life, a way of thinking.</span>
+          <span className={styles.rotate}> – it’s a metaphor, a way of life, a way of thinking."</span>
           {/*<span className={styles.indent}>Come for conference,</span>*/}
           {/*<br />*/}
           {/*<span className={styles.rotate}>stay for <span className={styles.underline}>Belgrade</span></span>*/}
