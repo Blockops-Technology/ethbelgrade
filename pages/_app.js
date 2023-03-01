@@ -10,8 +10,10 @@ const robotoMono = Roboto_Mono({
   subsets: ["latin"],
 });
 
-import "../styles/main.scss";
 import "react-toastify/dist/ReactToastify.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import "../styles/main.scss";
 
 function MyApp({ Component, pageProps }) {
   const getLayout = Component.getLayout ?? ((page) => page);
