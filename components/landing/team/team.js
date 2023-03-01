@@ -68,7 +68,7 @@ const Team = () => (
           <a href="https://www.linkedin.com/in/vasilije-glomazic/" target="_blank" rel="noreferrer noopener">
             <img src="/images/team/Vasilije-Glomazic.png" alt="Vasilije Glomazic profile picture" />
             <p className={styles.title}>Vasilije Glomazic</p>
-            <p>Content Writer</p>
+            <p>Creative Director</p>
           </a>
         </div>
         <div>
