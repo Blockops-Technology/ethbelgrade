@@ -2,7 +2,7 @@ import styles from "./partners.module.scss";
 import Button from "../../common/button/button";
 
 const Partners = () => (
-  <div className={styles.partners}>
+  <div id="partners" className={styles.partners}>
     <div className="container">
       <div className={styles.content}>
         <div className={styles.sponsors}>
