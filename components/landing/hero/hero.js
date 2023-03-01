@@ -14,7 +14,7 @@ const Hero = () => (
         </div>
       </div>
       <div className={styles.buttons}>
-        <a href="mailto:partnerships@ethbelgrade.rs">
+        <a href="https://forms.gle/89GkWspMwfCoNyqj9" target="_blank" rel="noreferrer noopener">
           <Button ghost>
             Become a sponsor
           </Button>
