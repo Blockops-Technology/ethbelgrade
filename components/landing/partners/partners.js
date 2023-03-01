@@ -31,7 +31,9 @@ const Partners = () => (
         </div>
         <div className={styles.ctaSection}>
           <p className={styles.ctaTitle}>Consider becoming a partner?</p>
-          <Button>Be in good company</Button>
+          <a href="mailto:partnerships@ethbelgrade.rs">
+            <Button>Be in good company</Button>
+          </a>
         </div>
       </div>
     </div>
