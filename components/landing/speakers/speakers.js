@@ -55,7 +55,7 @@ const Speakers = () => {
             </a>
           </div>
           <div className={styles.speaker}>
-            <a href="https://www.linkedin.com/in/marija-miki%C4%87-878842a2/" target="_blank" rel="noreferrer noopener">
+            <a href="https://twitter.com/bitfalls" target="_blank" rel="noreferrer noopener">
               <img src="/images/Speakers/bruno-skvorc%20-%20224x173.png" alt="Bruno Skvorc photo" />
               <p className={styles.name}>Bruno Skvorc</p>
               <p className={styles.position}>Founder, RMRK</p>
