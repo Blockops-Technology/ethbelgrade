@@ -48,11 +48,9 @@ const Speakers = () => {
             </a>
           </div>
           <div className={styles.speaker}>
-            <a href="https://www.linkedin.com/in/marija-miki%C4%87-878842a2/" target="_blank" rel="noreferrer noopener">
-              <img src="/images/Speakers/marija-mikic%20-%20224x173.png" alt="Marija Mikic photo" />
-              <p className={styles.name}>Marija Mikic</p>
-              <p className={styles.position}>Senior Researcher, 3327</p>
-            </a>
+              <img src="/images/Speakers/juan - 224x173.png" alt="Juan MakerDAO photo" />
+              <p className={styles.name}>Juan</p>
+              <p className={styles.position}>MakerDAO</p>
           </div>
           <div className={styles.speaker}>
             <a href="https://twitter.com/bitfalls" target="_blank" rel="noreferrer noopener">
