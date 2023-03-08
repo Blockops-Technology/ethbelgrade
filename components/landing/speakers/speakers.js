@@ -48,7 +48,7 @@ const Speakers = () => {
             </a>
           </div>
           <div className={styles.speaker}>
-              <img src="/images/Speakers/juan - 224x173.png" alt="Juan MakerDAO photo" />
+              <img src="/images/Speakers/juan - 224x173.png" alt="Juan photo" />
               <p className={styles.name}>Juan</p>
               <p className={styles.position}>MakerDAO</p>
           </div>
