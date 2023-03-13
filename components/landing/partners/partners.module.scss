@@ -3,7 +3,8 @@
 .partners {
   margin-top: 200px;
   padding: 80px 0;
-  background: url("/images/partners-vector.svg") no-repeat right top;
+  background: url("/images/partners-vector.svg") no-repeat right bottom;
+  background-size: contain;
 }
 
 .content {
@@ -33,11 +34,12 @@
 }
 
 .sponsorsList {
-  margin-top: 87px;
+  margin-bottom: 37px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 50px;
   align-items: center;
+  text-align: center;
 
   img {
     max-height: 40px;
@@ -60,4 +62,19 @@
 .ctaTitle {
   font-weight: 700;
   font-size: 32px;
+}
+
+.tier {
+  font-size: 32px;
+  color: #057AFF;
+  display: inline-block;
+
+  transform: rotate(-3.55deg);
+  margin-left: -30px;
+}
+
+.tierAlt {
+  @extend .tier;
+
+  transform: rotate(7.6deg);
 }
