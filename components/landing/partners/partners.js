@@ -36,6 +36,9 @@ const Partners = () => (
             <a href="https://taikai.network/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/taikai.svg" alt="TAIKAI logo" />
             </a>
+            <a href="https://blocksplit.net/" target="_blank" rel="noreferrer noopener">
+              <img src="/images/partners/BlockSplit_logo.png" alt="BlockSplit logo" />
+            </a>
           </div>
         </div>
         {/* TODO: Comment oput when ready */}
