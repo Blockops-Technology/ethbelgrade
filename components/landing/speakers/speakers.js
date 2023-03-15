@@ -60,10 +60,10 @@ const Speakers = () => {
             </a>
           </div>
           <div className={styles.speaker}>
-            <a href="https://twitter.com/wukoje" target="_blank" rel="noreferrer noopener">
-              <img src="/images/Speakers/vukoje%20-%20224x173.png" alt="Vukasin Vukoje photo" />
-              <p className={styles.name}>Vukasin Vukoje</p>
-              <p className={styles.position}>Founder, Alt Labs</p>
+            <a href="https://twitter.com/cryptomastery_" target="_blank" rel="noreferrer noopener">
+              <img src="/images/Speakers/kevin.png" alt="Kevin Jones photo" />
+              <p className={styles.name}>Kevin Jones</p>
+              <p className={styles.position}>Dev Advocate, Buidl Guidl / Scaffold-ETH</p>
             </a>
           </div>
           <div className={styles.speaker}>
@@ -74,12 +74,19 @@ const Speakers = () => {
             </a>
           </div>
           <div className={styles.speaker}>
-            <a href="https://twitter.com/0xMislav" target="_blank" rel="noreferrer noopener">
-              <img src="/images/Speakers/mislav-javor%20-%20224x173.png" alt="Mislav Javor photo" />
-              <p className={styles.name}>Mislav Javor</p>
-              <p className={styles.position}>Founder & CEO, DEV3</p>
+            <a href="https://twitter.com/wukoje" target="_blank" rel="noreferrer noopener">
+              <img src="/images/Speakers/vukoje%20-%20224x173.png" alt="Vukasin Vukoje photo" />
+              <p className={styles.name}>Vukasin Vukoje</p>
+              <p className={styles.position}>Founder, Alt Labs</p>
             </a>
           </div>
+          {/*<div className={styles.speaker}>*/}
+          {/*  <a href="https://twitter.com/0xMislav" target="_blank" rel="noreferrer noopener">*/}
+          {/*    <img src="/images/Speakers/mislav-javor%20-%20224x173.png" alt="Mislav Javor photo" />*/}
+          {/*    <p className={styles.name}>Mislav Javor</p>*/}
+          {/*    <p className={styles.position}>Founder & CEO, DEV3</p>*/}
+          {/*  </a>*/}
+          {/*</div>*/}
           <div className={styles.speaker}>
             <a href="https://twitter.com/rakitadragan" target="_blank" rel="noreferrer noopener">
               <img src="/images/Speakers/dragan-rakita%20-%20224x173.png" alt="Dragan Rakita photo" />
