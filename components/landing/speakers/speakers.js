@@ -67,10 +67,10 @@ const Speakers = () => {
             </a>
           </div>
           <div className={styles.speaker}>
-            <a href="https://twitter.com/vuksansan" target="_blank" rel="noreferrer noopener">
-              <img src="/images/Speakers/vuksan%20-%20224x173.png" alt="Vuksan Simunovic photo" />
-              <p className={styles.name}>Vuksan Simunovic</p>
-              <p className={styles.position}>CEO & Co-Founder, Trapesys</p>
+            <a href="https://twitter.com/AnnaAlexaK" target="_blank" rel="noreferrer noopener">
+              <img src="/images/Speakers/anna%20alexa%20-%20224x173.png" alt="Anna Alexa photo" />
+              <p className={styles.name}>Anna Alexa</p>
+              <p className={styles.position}>DevRel, Celo Foundation</p>
             </a>
           </div>
           <div className={styles.speaker}>
@@ -102,10 +102,10 @@ const Speakers = () => {
             </a>
           </div>
           <div className={styles.speaker}>
-            <a href="https://twitter.com/malisapusonja" target="_blank" rel="noreferrer noopener">
-              <img src="/images/Speakers/malisa-pusonja%20-%20224x173.png" alt="Malisa Pusonja photo" />
-              <p className={styles.name}>Malisa Pusonja</p>
-              <p className={styles.position}>CTO, MVP Workshop</p>
+            <a href="https://twitter.com/vuksansan" target="_blank" rel="noreferrer noopener">
+              <img src="/images/Speakers/vuksan%20-%20224x173.png" alt="Vuksan Simunovic photo" />
+              <p className={styles.name}>Vuksan Simunovic</p>
+              <p className={styles.position}>CEO & Co-Founder, Trapesys</p>
             </a>
           </div>
           <div className={styles.speaker}>
@@ -116,12 +116,19 @@ const Speakers = () => {
             </a>
           </div>
           <div className={styles.speaker}>
-            <a href="https://twitter.com/veryhighlander" target="_blank" rel="noreferrer noopener">
-              <img src="/images/Speakers/danijel%20-%20224x173.png" alt="Danijel Gornjakovic photo" />
-              <p className={styles.name}>Danijel Gornjakovic</p>
-              <p className={styles.position}>Founder, Thales</p>
+            <a href="https://twitter.com/malisapusonja" target="_blank" rel="noreferrer noopener">
+              <img src="/images/Speakers/malisa-pusonja%20-%20224x173.png" alt="Malisa Pusonja photo" />
+              <p className={styles.name}>Malisa Pusonja</p>
+              <p className={styles.position}>CTO, MVP Workshop</p>
             </a>
           </div>
+          {/*<div className={styles.speaker}>*/}
+          {/*  <a href="https://twitter.com/veryhighlander" target="_blank" rel="noreferrer noopener">*/}
+          {/*    <img src="/images/Speakers/danijel%20-%20224x173.png" alt="Danijel Gornjakovic photo" />*/}
+          {/*    <p className={styles.name}>Danijel Gornjakovic</p>*/}
+          {/*    <p className={styles.position}>Founder, Thales</p>*/}
+          {/*  </a>*/}
+          {/*</div>*/}
           <div className={styles.speaker}>
             <a href="https://twitter.com/edisinovcic" target="_blank" rel="noreferrer noopener">
               <img src="/images/Speakers/edi-sinovcic%20-%20224x173.png" alt="Edi Sinovcic" />
