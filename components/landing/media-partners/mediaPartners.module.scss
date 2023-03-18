@@ -31,3 +31,25 @@
     text-align: center;
   }
 }
+
+.mediaPartnersList {
+  margin: 70px 0 0;
+  //display: grid;
+  //grid-template-columns: repeat(4, 1fr);
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  text-align: center;
+
+  img {
+    max-height: 40px;
+  }
+
+  @include breakpoint(tablet) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @include breakpoint(big-mobile) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
