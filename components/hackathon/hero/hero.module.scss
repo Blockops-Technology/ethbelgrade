@@ -75,6 +75,29 @@
    }
 }
 
+
+.date {
+  font-family: var(--roboto-mono);
+  font-size: 48px;
+  color: var(--primary-purple);
+  transform: rotate(-3.93deg);
+  margin: -23px 0 0 70px;
+
+  @include breakpoint(tablet) {
+    font-size: 38px;
+    margin: -17px 0 0 50px;
+  }
+
+  @include breakpoint(big-mobile) {
+    font-size: 30px;
+    margin: -10px 0 0 30px;
+  }
+
+  @include breakpoint(big-mobile) {
+    margin: -10px 0 0;
+  }
+}
+
 .buttons {
   padding: 66px 0 100px;
   display: flex;
