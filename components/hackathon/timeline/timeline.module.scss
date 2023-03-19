@@ -1,0 +1,41 @@
+@import "styles/breakpoints";
+
+.header {
+  text-align: center;
+  margin: 100px 0;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 64px;
+  text-transform: uppercase;
+  margin: 0;
+
+  @include breakpoint(tablet) {
+    font-size: 50px;
+  }
+
+  @include breakpoint(big-mobile) {
+    font-size: 40px;
+  }
+}
+
+.rotate {
+  @extend .title;
+
+  color: var(--primary-purple);
+  font-family: var(--roboto-mono);
+  font-weight: 400;
+  transform: rotate(-3deg);
+  margin-left: 70px;
+
+  @include breakpoint(medium-mobile) {
+    margin-left: 40px;
+  }
+}
+
+.tba {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 300px;
+}
