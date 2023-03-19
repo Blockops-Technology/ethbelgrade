@@ -1,0 +1,72 @@
+@import "styles/breakpoints";
+
+.about {
+  padding: 0 0;
+}
+
+.deadlineContainer {
+  text-align: center;
+}
+
+.deadline {
+  margin: 0;
+  display: inline-block;
+  padding: 26px 0;
+  border-bottom: 2px solid var(--primary-purple);
+}
+
+
+.contentWrapper {
+  background-image: url("/images/hackathon/about-hack-vector.svg");
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: contain;
+
+  @include breakpoint(tablet) {
+    background-size: cover;
+  }
+}
+
+.content {
+  padding: 42px 0 400px;
+  display: grid;
+  grid-auto-rows: minmax(0, 1fr);
+  max-width: 860px;
+  margin: 0 auto;
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
+  justify-items: center;
+  gap: 50px;
+
+  @include breakpoint(tablet) {
+    grid-template-columns: 1fr;
+  }
+
+  @include breakpoint(big-mobile) {
+    grid-auto-rows: initial;
+    padding: 100px 0  150px;
+  }
+}
+
+.sectionTitle {
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin: 0 0 48px;
+}
+
+.sectionText {
+  margin-bottom: 46px;
+}
+
+.button {
+  margin-top: 45px;
+  background: var(--primary-emerald);
+  border-color: var(--primary-emerald);
+}
+
+.aboutContent {
+  margin-top: 70px;
+  max-width: 428px;
+  position: relative;
+}
