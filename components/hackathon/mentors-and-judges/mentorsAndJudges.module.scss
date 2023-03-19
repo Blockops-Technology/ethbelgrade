@@ -1,0 +1,37 @@
+.mjWrapper {
+  margin-top: -50px;
+  padding: 100px 0;
+  background: url("/images/hackathon/mentors-judges-vector.svg") no-repeat center top;
+}
+
+.mentors {
+  margin-bottom: 200px;
+}
+
+.mentorsTitle {
+  font-size: 40px;
+  font-weight: 700;
+  padding: 40px 0;
+  text-transform: uppercase;
+  text-align: center;
+
+  background: url("/images/hackathon/mentors-title-vector.svg") no-repeat center;
+  background-size: contain;
+}
+
+
+.judgesTitle {
+  font-size: 40px;
+  font-weight: 700;
+  padding: 40px 0;
+  text-transform: uppercase;
+  text-align: center;
+
+  background: url("/images/hackathon/judges-title-vector.svg") no-repeat center;
+  background-size: contain;
+}
+
+.tba {
+ text-align: center;
+  font-size: 40px;
+}
