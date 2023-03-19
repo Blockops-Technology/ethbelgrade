@@ -11,14 +11,21 @@
   text-align: center;
 
   background: url("/images/hackathon/sponsors-title-vector.svg") no-repeat center bottom;
-
 }
 
-.tba {
- text-align: center;
-  font-size: 40px;
+.sponsorList {
+  display: grid;
+  //grid-template-columns: repeat(5, 1fr);
 }
 
+.sponsor {
+  padding: 46px 33px;
+  text-align: center;
+
+  img {
+    max-height: 70px;
+  }
+}
 
 .cta {
   margin-top: 100px;

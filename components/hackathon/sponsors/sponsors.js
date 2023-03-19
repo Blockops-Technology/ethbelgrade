@@ -5,7 +5,13 @@ const Sponsors = () => (
     <div className="container">
       <div>
         <p className={styles.title}>Sponsors</p>
-        <p className={styles.tba}>TBA</p>
+        <div className={styles.sponsorList}>
+          <div className={styles.sponsor}>
+            <a href="https://taikai.network/" target="_blank" rel="noreferrer noopener">
+              <img src="/images/partners/taikai.svg" alt="TAIKAI logo" />
+            </a>
+          </div>
+        </div>
       </div>
       <div className={styles.cta}>
         <Button className={styles.button}>Sponsor the hackathon</Button>
