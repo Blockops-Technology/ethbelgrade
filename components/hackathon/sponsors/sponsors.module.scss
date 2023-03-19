@@ -1,0 +1,31 @@
+.wrapper {
+  margin-top: -50px;
+  padding: 100px 0;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 700;
+  padding: 40px 0;
+  text-transform: uppercase;
+  text-align: center;
+
+  background: url("/images/hackathon/sponsors-title-vector.svg") no-repeat center bottom;
+
+}
+
+.tba {
+ text-align: center;
+  font-size: 40px;
+}
+
+
+.cta {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.button {
+  background-color: var(--primary-emerald);
+  border-color: var(--primary-emerald);
+}
