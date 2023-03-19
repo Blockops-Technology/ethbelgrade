@@ -14,7 +14,9 @@ const Sponsors = () => (
         </div>
       </div>
       <div className={styles.cta}>
-        <Button className={styles.button}>Sponsor the hackathon</Button>
+        <a href="mailto:partnerships@ethbelgrade.rs">
+          <Button className={styles.button}>Sponsor the hackathon</Button>
+        </a>
       </div>
     </div>
   </div>

@@ -1,0 +1,29 @@
+@import "styles/breakpoints";
+
+.header {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.prizeAmount {
+  font-weight: 700;
+  font-size: 64px;
+  text-transform: uppercase;
+  color: var(--primary-emerald);
+  margin: 0;
+
+  @include breakpoint(tablet) {
+    font-size: 50px;
+  }
+
+  @include breakpoint(big-mobile) {
+    font-size: 40px;
+  }
+}
+
+.prizeTitle {
+  @extend .prizeAmount;
+
+  color: white;
+  transform: rotate(-3deg);
+}

@@ -4,6 +4,7 @@ import Hero from "../../components/hackathon/hero/hero";
 import About from "../../components/hackathon/about/about";
 import MentorsAndJudges from "../../components/hackathon/mentors-and-judges/mentorsAndJudges";
 import Sponsors from "../../components/hackathon/sponsors/sponsors";
+import Prizes from "../../components/hackathon/prizes/prizes";
 
 export default function Hackathon() {
   const description = "ETH Belgrade Hackathon (5-6 June 2023) is a two-day event that gathers Web3 talents from around the world to compete for bounties provided by our sponsors and partners and the main prize.";
@@ -33,6 +34,7 @@ export default function Hackathon() {
       <About />
       <MentorsAndJudges />
       <Sponsors />
+      <Prizes />
     </div>
   )
 }
