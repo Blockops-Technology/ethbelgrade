@@ -41,6 +41,15 @@
   }
 }
 
+.row {
+  @extend .topRow;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  @include breakpoint(tablet) {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 .prize {
   text-align: center;
   padding: 68px 40px;
