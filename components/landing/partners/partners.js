@@ -18,6 +18,9 @@ const Partners = () => (
             <a href="https://renfter.com/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/renfter-logo.svg" alt="Renfter logo" />
             </a>
+            <a href="https://www.liquity.org/" target="_blank" rel="noreferrer noopener">
+              <img src="/images/partners/liquity-logo-white.svg" alt="Liquity logo" />
+            </a>
             <a href="https://unusualsour.com/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/Unusual-Sour-Logo.png" alt="Unusual Sour logo" />
             </a>
