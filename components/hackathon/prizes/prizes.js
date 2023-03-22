@@ -21,7 +21,7 @@ const Prizes = () => (
         <div className={styles.row}>
           <div className={styles.prize}>
             <img src="/images/partners/taikai.svg" alt="TAIKAI logo"/>
-            <p className={styles.prizeAmount}>$15,000</p>
+            <p className={styles.prizeAmount}>$1,000</p>
           </div>
           <div className={styles.prize}>
             {/*<img src="/images/partners/renfter-logo.svg" alt="RENFTER logo"/>*/}
