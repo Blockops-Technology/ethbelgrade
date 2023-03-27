@@ -24,8 +24,8 @@ const Hero = () => (
               Apply as a speaker
           </Button>
         </a>
-        <a href="https://xntkpyvzukn.typeform.com/to/FvwgCUus" target="_blank" rel="noreferrer noopener">
-          <Button>Join the waitlist</Button>
+        <a href="https://app.moongate.id/events/ethbelgrade" target="_blank" rel="noreferrer noopener">
+          <Button>Get Tickets</Button>
         </a>
         <a href="https://forms.gle/JN8jHHGT5KRmAbZz8" target="_blank" rel="noreferrer noopener">
           <Button ghost>
