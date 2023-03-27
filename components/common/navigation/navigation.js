@@ -13,10 +13,10 @@ const Menu = () => (
     <Link href="/#speakers">
       <span className={styles.menuItem}>Speakers</span>
     </Link>
-    <Link href="#partners">
+    <Link href="/#partners">
       <span className={styles.menuItem}>Partners</span>
     </Link>
-    <Link href="/hackathon">
+    <Link href="/#hackathon">
       <span className={styles.menuItem}>Hackathon</span>
     </Link>
     {/*<Link href="#faq">*/}
