@@ -15,6 +15,9 @@ const Partners = () => (
             <a href="https://defisaver.com/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/defi-saver.png" alt="DeFi Saver logo" />
             </a>
+            <a href="https://www.liquity.org/" target="_blank" rel="noreferrer noopener">
+              <img src="/images/partners/liquity-logo-white.svg" alt="Liquity logo" />
+            </a>
             <a href="https://renfter.com/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/renfter-logo.svg" alt="Renfter logo" />
             </a>
@@ -35,6 +38,9 @@ const Partners = () => (
             </a>
             <a href="https://taikai.network/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/taikai.svg" alt="TAIKAI logo" />
+            </a>
+            <a href="https://moongate.id/" target="_blank" rel="noreferrer noopener">
+              <img src="/images/partners/moongate-logo.png" alt="Moongate logo" />
             </a>
             <a href="https://blocksplit.net/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/BlockSplit_logo.png" alt="BlockSplit logo" />

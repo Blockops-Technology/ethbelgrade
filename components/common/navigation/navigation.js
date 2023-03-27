@@ -7,16 +7,16 @@ import CloseIcon from "../../../public/icons/x.svg";
 
 const Menu = () => (
   <>
-    <Link href="#about">
+    <Link href="/#about">
       <span className={styles.menuItem}>About</span>
     </Link>
-    <Link href="#speakers">
+    <Link href="/#speakers">
       <span className={styles.menuItem}>Speakers</span>
     </Link>
-    <Link href="#partners">
+    <Link href="/#partners">
       <span className={styles.menuItem}>Partners</span>
     </Link>
-    <Link href="#hackathon">
+    <Link href="/#hackathon">
       <span className={styles.menuItem}>Hackathon</span>
     </Link>
     {/*<Link href="#faq">*/}

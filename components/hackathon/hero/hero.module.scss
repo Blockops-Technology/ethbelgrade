@@ -1,0 +1,122 @@
+@import "styles/breakpoints";
+
+.hero {
+  background: url("/images/hackathon/left-hero-vector.svg"), url("/images/hackathon/right-hero-vector.svg");
+  background-repeat: no-repeat;
+  background-position: left top, right top;
+  padding: 0 0 100px;
+
+  background-size: contain;
+}
+
+
+.heroContent {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 100px;
+  margin-top: 60px;
+
+  @include breakpoint(medium-screen) {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+}
+
+.labelContainer {
+  position: relative;
+  margin: 80px auto;
+}
+
+.sticker {
+  position: absolute;
+  top: -100px;
+  right: 10%;
+  animation: rotate 20s linear infinite;
+
+  @include breakpoint(medium-screen) {
+    top: -80px;
+    //left: 13%;
+    width: 130px;
+  }
+
+  @include breakpoint(medium-screen) {
+    width: initial;
+  }
+
+  @include breakpoint(tablet) {
+    top: -80px;
+    //left: 13%;
+    width: 130px;
+  }
+
+  @include breakpoint(landscape) {
+    top: -80px;
+    //left: 13%;
+    width: 120px;
+  }
+
+  @include breakpoint(big-mobile) {
+    top: -70px;
+    //left: 10%;
+    width: 100px;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+     -webkit-transform: rotate(1turn);
+     -moz-transform: rotate(1turn);
+     transform: rotate(1turn);
+   }
+}
+
+
+.date {
+  font-family: var(--roboto-mono);
+  font-size: 48px;
+  color: var(--primary-purple);
+  transform: rotate(-3.93deg);
+  margin: -23px 0 0 70px;
+
+  @include breakpoint(tablet) {
+    font-size: 38px;
+    margin: -17px 0 0 50px;
+  }
+
+  @include breakpoint(big-mobile) {
+    font-size: 30px;
+    margin: -10px 0 0 30px;
+  }
+
+  @include breakpoint(big-mobile) {
+    margin: -10px 0 0;
+  }
+}
+
+.buttons {
+  padding: 66px 0 100px;
+  display: flex;
+  flex-flow: wrap;
+  gap: 30px;
+
+  a {
+    flex-grow: 1;
+  }
+
+  button {
+    width: 100%;
+  }
+
+  @include breakpoint(big-mobile) {
+    padding-top: 0;
+  }
+}
+

@@ -1,0 +1,68 @@
+@import "styles/breakpoints";
+
+.prizes {
+  padding: 100px 0;
+}
+
+.header {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.totalAmount {
+  font-weight: 700;
+  font-size: 64px;
+  text-transform: uppercase;
+  color: var(--primary-emerald);
+  margin: 0;
+
+  @include breakpoint(tablet) {
+    font-size: 50px;
+  }
+
+  @include breakpoint(big-mobile) {
+    font-size: 40px;
+  }
+}
+
+.prizeTitle {
+  @extend .totalAmount;
+
+  color: white;
+  transform: rotate(-3deg);
+}
+
+.topRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  @include breakpoint(tablet) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.row {
+  @extend .topRow;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  @include breakpoint(tablet) {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.prize {
+  text-align: center;
+  padding: 68px 40px;
+  border: 1px solid var(--primary-purple);
+
+  img {
+    max-height: 80px;
+  }
+}
+
+.prizeAmount {
+  font-family: var(--roboto-mono);
+  font-size: 20px;
+  color: var(--primary-emerald);
+  margin: 17px 0 0;
+}
