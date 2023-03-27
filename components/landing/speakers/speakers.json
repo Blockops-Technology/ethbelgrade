@@ -37,10 +37,10 @@
       "photo": "muhammed-tanrikulu.png"
     },
     {
-      "name": "Bogdan Habic",
-      "twitter": "https://twitter.com/BogdanHabic",
-      "position": "Tenderly",
-      "photo": "bogdan-habic%20-%20224x173.png"
+      "name": "Daniela Zschaber",
+      "twitter": "https://twitter.com/danimimm",
+      "position": "NFTFY",
+      "photo": "daniela-zschaber.png"
     },
     {
       "name": "Nenad Palinkasevic",
@@ -49,10 +49,10 @@
       "photo": "nenad-palinkasevic%20-%20224x173.png"
     },
     {
-      "name": "Branimir Rakic",
-      "twitter": "https://twitter.com/BranaRakic",
-      "position": "OriginTrail",
-      "photo": "branimir-rakic%20-%20224x173.png"
+      "name": "Bogdan Habic",
+      "twitter": "https://twitter.com/BogdanHabic",
+      "position": "Tenderly",
+      "photo": "bogdan-habic%20-%20224x173.png"
     },
     {
       "name": "Bruno Skvorc",
@@ -61,10 +61,10 @@
       "photo": "bruno-skvorc%20-%20224x173.png"
     },
     {
-      "name": "Daniela Zschaber",
-      "twitter": "https://twitter.com/danimimm",
-      "position": "NFTFY",
-      "photo": "daniela-zschaber.png"
+      "name": "Branimir Rakic",
+      "twitter": "https://twitter.com/BranaRakic",
+      "position": "OriginTrail",
+      "photo": "branimir-rakic%20-%20224x173.png"
     },
     {
       "name": "Andrej Rakic",
@@ -119,6 +119,36 @@
       "twitter": "https://twitter.com/veryhighlander",
       "position": "Thales",
       "photo": "danijel%20-%20224x173.png"
+    },
+    {
+      "name": "Andrija Novakovic",
+      "twitter": "https://twitter.com/AndrijaNovakov6",
+      "position": "Geometry",
+      "photo": "andrija-novakovic.png"
+    },
+    {
+      "name": "Miljan Martic",
+      "twitter": "https://twitter.com/miljan0x",
+      "position": "Kosen Labs",
+      "photo": "miljan-martic.png"
+    },
+    {
+      "name": "Pavle Batuta",
+      "twitter": "",
+      "position": "Moonstruck / Renfter",
+      "photo": "pavle-batuta.png"
+    },
+    {
+      "name": "Vlaho Hrdalo",
+      "twitter": "https://twitter.com/VlahoHrdalo",
+      "position": "UBIK.hr",
+      "photo": "vlaho-hrdalo.png"
+    },
+    {
+      "name": "Ilija Rilakovic",
+      "twitter": "https://twitter.com/LawyerWooden",
+      "position": "WALK",
+      "photo": "ilija-rilakovic.png"
     }
   ]
 }
