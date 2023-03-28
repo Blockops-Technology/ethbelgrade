@@ -9,6 +9,7 @@
   background: var(--primary-green);
   border: 1px solid var(--primary-green);
   cursor: pointer;
+  font-family: inherit;
 
   @include breakpoint(big-tablet) {
     font-size: 20px;
