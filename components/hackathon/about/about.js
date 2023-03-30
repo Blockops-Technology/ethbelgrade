@@ -5,7 +5,7 @@ const About = () => (
   <div id="about" className={styles.about}>
     <div className="container">
       <div className={styles.deadlineContainer}>
-        <p className={styles.deadline}>Registration will close on (date and time)</p>
+        <p className={styles.deadline}>Registration will close on May 26, 2023</p>
       </div>
     </div>
     <div className={styles.contentWrapper}>
