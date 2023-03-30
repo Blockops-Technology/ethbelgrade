@@ -1,0 +1,85 @@
+@import "styles/breakpoints";
+
+.banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  padding: 20px 0;
+  background-color: var(--primary-red);
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+
+  @include breakpoint(big-mobile) {
+    display: initial;
+  }
+}
+
+.textWrapper {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-grow: 1;
+
+  @include breakpoint(big-tablet) {
+    display: initial;
+  }
+}
+
+.text {
+  font-size: 26px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+
+  @include breakpoint(medium-screen) {
+    font-size: 20px;
+  }
+
+  @include breakpoint(landscape) {
+    font-size: 16px;
+  }
+
+  @include breakpoint(big-mobile) {
+    text-align: center !important;
+  }
+}
+
+.time {
+  @extend .text;
+
+  font-family: var(--roboto-mono);
+  text-transform: initial;
+  text-align: center;
+  flex-grow: 1;
+
+  @include breakpoint(big-tablet) {
+    text-align: left;
+  }
+}
+
+.button {
+  font-size: 18px;
+
+  @include breakpoint(medium-screen) {
+    font-size: 16px !important;
+  }
+
+  @include breakpoint(landscape) {
+    padding: 16px 20px;
+  }
+
+  @include breakpoint(big-mobile) {
+    margin-top: 20px;
+    padding: 0;
+    background: transparent;
+    border: none;
+    color: var(--primary-green);
+  }
+}
