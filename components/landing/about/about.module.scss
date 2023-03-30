@@ -4,6 +4,27 @@
   padding: 34px 0;
 }
 
+.numbersWrapper {
+  text-align: center;
+}
+
+.numbers {
+  margin-bottom: 70px;
+
+  @include breakpoint(tablet) {
+    display: none;
+  }
+}
+
+.numbersMobile {
+  display: none;
+
+  @include breakpoint(tablet) {
+    margin-bottom: 70px;
+    display: initial;
+  }
+}
+
 .subtitle {
   font-family: var(--roboto-mono);
   text-transform: uppercase;

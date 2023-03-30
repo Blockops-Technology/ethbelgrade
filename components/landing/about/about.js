@@ -3,6 +3,10 @@ import Button from "../../common/button/button";
 
 const About = () => (
   <div id="about" className={styles.about}>
+    <div className={styles.numbersWrapper}>
+      <img className={styles.numbers} src="/images/stats.png" alt="ETH belrgade numbers" />
+      <img className={styles.numbersMobile} src="/images/stats-mobile.png" alt="ETH belrgade numbers" />
+    </div>
     <div className="container">
       <p className={styles.subtitle}>Our manifesto</p>
       <div className={styles.titleWrapper}>
