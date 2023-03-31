@@ -1,15 +1,15 @@
-import styles from "./timeline.module.scss";
+import styles from "./agenda.module.scss";
 
-const Timeline = () => (
+const Agenda = () => (
   <div>
     <div className="container">
       <div className={styles.header}>
         <p className={styles.title}>Hackathon</p>
-        <p className={styles.rotate}>Timeline</p>
+        <p className={styles.rotate}>Agenda</p>
       </div>
       <p className={styles.tba}>TBA</p>
     </div>
   </div>
 );
 
-export default Timeline;
+export default Agenda;
