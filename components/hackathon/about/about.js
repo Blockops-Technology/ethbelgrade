@@ -20,7 +20,7 @@ const About = () => (
               <br/>
               To find detailed information about ETH Belgrade Hackathon, please visit our official TAIKAI page.
             </p>
-            <a href="" target="_blank" rel="noreferrer noopener">
+            <a href="https://taikai.network/ethbelgrade/hackathons/hackathon-2023" target="_blank" rel="noreferrer noopener">
               <Button className={styles.button}>
                 See the guide
               </Button>
