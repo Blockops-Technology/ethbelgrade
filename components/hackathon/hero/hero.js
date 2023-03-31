@@ -14,7 +14,7 @@ const Hero = () => (
         </div>
       </div>
       <div className={styles.buttons}>
-        <a href="https://forms.gle/JN8jHHGT5KRmAbZz8" target="_blank" rel="noreferrer noopener">
+        <a href="https://taikai.network/ethbelgrade/hackathons/hackathon-2023" target="_blank" rel="noreferrer noopener">
           <Button ghost>
             Apply to hack
           </Button>
