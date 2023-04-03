@@ -17,6 +17,9 @@ const MediaPartners = () => (
         <a href="http://itindustrija.com/" target="_blank" rel="noreferrer noopener">
           <img src="/images/media-partners/IT_Industrija_logo_beli.svg" alt="Startit logo" />
         </a>
+        <a href="https://www.netokracija.rs/" target="_blank" rel="noreferrer noopener">
+          <img src="/images/media-partners/netokracija-logo.svg" alt="Netokracija logo" />
+        </a>
       </div>
     </div>
   </div>
