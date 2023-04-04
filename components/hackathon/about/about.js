@@ -15,7 +15,7 @@ const About = () => (
           <div className={styles.aboutContent}>
             <p className={styles.sectionTitle}>About the hackathon</p>
             <p className={styles.sectionText}>
-              ETH Belgrade Hackathon is a two-day competition that gathers talents from all around the world. Our mission is to empower engineers to push the limits of new technologies and build innovative real-world use cases on the Ethereum blockchain.
+              ETH Belgrade Hackathon is a three-day competition that gathers talents from all around the world. Our mission is to empower engineers to push the limits of new technologies and build innovative real-world use cases on the Ethereum blockchain.
               <br/>
               <br/>
               To find detailed information about ETH Belgrade Hackathon, please visit our official TAIKAI page.

@@ -25,7 +25,7 @@ const About = () => (
         <div className={styles.content}>
           <div className={styles.belgradeCalling}>
             <p className={styles.sectionTitle}>ETH Belgrade calling</p>
-            <p className={styles.sectionText}>ETH Belgrade is a playground for exploring Ethereum possibilities. As part of <strong>Belgrade Blockchain Week</strong>, this three-day conference gathers extraordinary minds and Ethereum enthusiasts to share knowledge and spark ideas that will ignite the whole ecosystem. And what’s best, as soon as the conference ends, the “after party” begins - the <strong>ETH Belgrade Hackathon</strong>, which will gather brilliant minds in two days of non-stop action.</p>
+            <p className={styles.sectionText}>ETH Belgrade is a playground for exploring Ethereum possibilities. As part of <strong>Belgrade Blockchain Week</strong>, this three-day conference gathers extraordinary minds and Ethereum enthusiasts to share knowledge and spark ideas that will ignite the whole ecosystem. And what’s best, as soon as the conference ends, the “after party” begins - the <strong>ETH Belgrade Hackathon</strong>, which will gather brilliant minds in three days of non-stop action.</p>
           </div>
           <div className={styles.whyBelgrade}>
             <p className={styles.sectionTitle}>Why Belgrade?</p>
