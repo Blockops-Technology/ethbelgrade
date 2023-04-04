@@ -43,6 +43,54 @@
       "photo": "daniela-zschaber.png"
     },
     {
+      "name": "Kevin Olsen",
+      "twitter": "https://twitter.com/kevinrolsen",
+      "position": "Gitcoin",
+      "photo": "kevin-olsen.png"
+    },
+    {
+      "name": "Abena Asante",
+      "twitter": "https://twitter.com/abena_eth",
+      "position": "SheFi, DeFi Africa and Bankless Africa",
+      "photo": "abena-asante.png"
+    },
+    {
+      "name": "Max Lomuscio",
+      "twitter": "https://twitter.com/maxlomu",
+      "position": "Connext",
+      "photo": "max-lomuscio.png"
+    },
+    {
+      "name": "TokenBrice",
+      "twitter": "https://twitter.com/TokenBrice",
+      "position": "Liquity",
+      "photo": "token-brice.png"
+    },
+    {
+      "name": "Vlad Temian",
+      "twitter": "",
+      "position": "Sandbox",
+      "photo": "vlad-temian.png"
+    },
+    {
+      "name": "Marius Balaj",
+      "twitter": "https://twitter.com/balajmarius",
+      "position": "Sandbox",
+      "photo": "marius-balaj.png"
+    },
+    {
+      "name": "Marcin Kazmierczak",
+      "twitter": "https://twitter.com/Marcin_Kaz13",
+      "position": "RedStone & Warp.cc",
+      "photo": "marcin-kazmierczak.png"
+    },
+    {
+      "name": "Noah Jelich",
+      "twitter": "https://twitter.com/NoahJelich",
+      "position": "Hacken",
+      "photo": "noah-jelich.png"
+    },
+    {
       "name": "Nenad Palinkasevic",
       "twitter": "https://twitter.com/NPalinkasevic",
       "position": "DeFi Saver",
