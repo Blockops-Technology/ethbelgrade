@@ -45,6 +45,9 @@ const Partners = () => (
             <a href="https://blocksplit.net/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/BlockSplit_logo.png" alt="BlockSplit logo" />
             </a>
+            <a href="https://ecd.rs/en" target="_blank" rel="noreferrer noopener">
+              <img src="/images/partners/ecd-logo.png" alt="ECD logo" />
+            </a>
           </div>
         </div>
         {/* TODO: Comment oput when ready */}
