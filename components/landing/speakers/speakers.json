@@ -13,6 +13,12 @@
       "photo": "andy-tudhope.png"
     },
     {
+      "name": "Özgür Armanc Yiğit",
+      "twitter": "https://twitter.com/ozgurarmanc",
+      "position": "Ethereum Foundation",
+      "photo": "ozgur.png"
+    },
+    {
       "name": "Juan",
       "twitter": "",
       "position": "MakerDAO",
@@ -22,13 +28,13 @@
       "name": "Anna Alexa",
       "twitter": "https://twitter.com/AnnaAlexaK",
       "position": "Celo Foundation",
-      "photo": "anna%20alexa%20-%20224x173.png"
+      "photo": "anna-alexa.png"
     },
     {
-      "name": "Kevin Jones",
-      "twitter": "https://twitter.com/cryptomastery_",
-      "position": "Buidl Guidl / Scaffold-ETH",
-      "photo": "kevin.png"
+      "name": "TokenBrice",
+      "twitter": "https://twitter.com/TokenBrice",
+      "position": "Liquity",
+      "photo": "token-brice.png"
     },
     {
       "name": "Muhammed Tanrikulu",
@@ -61,10 +67,10 @@
       "photo": "max-lomuscio.png"
     },
     {
-      "name": "TokenBrice",
-      "twitter": "https://twitter.com/TokenBrice",
-      "position": "Liquity",
-      "photo": "token-brice.png"
+      "name": "Kevin Jones",
+      "twitter": "https://twitter.com/cryptomastery_",
+      "position": "Buidl Guidl / Scaffold-ETH",
+      "photo": "kevin.png"
     },
     {
       "name": "Vlad Temian",
@@ -79,12 +85,6 @@
       "photo": "marius-balaj.png"
     },
     {
-      "name": "Marcin Kazmierczak",
-      "twitter": "https://twitter.com/Marcin_Kaz13",
-      "position": "RedStone & Warp.cc",
-      "photo": "marcin-kazmierczak.png"
-    },
-    {
       "name": "Noah Jelich",
       "twitter": "https://twitter.com/NoahJelich",
       "position": "Hacken",
@@ -94,7 +94,7 @@
       "name": "Nenad Palinkasevic",
       "twitter": "https://twitter.com/NPalinkasevic",
       "position": "DeFi Saver",
-      "photo": "nenad-palinkasevic%20-%20224x173.png"
+      "photo": "nenad-palinkasevic.png"
     },
     {
       "name": "Bogdan Habic",
@@ -103,16 +103,16 @@
       "photo": "bogdan-habic%20-%20224x173.png"
     },
     {
+      "name": "Sahil Sen",
+      "twitter": "https://twitter.com/sensahil",
+      "position": "QuickNode",
+      "photo": "sahil-sen.png"
+    },
+    {
       "name": "Bruno Skvorc",
       "twitter": "https://twitter.com/bitfalls",
       "position": "RMRK",
-      "photo": "bruno-skvorc%20-%20224x173.png"
-    },
-    {
-      "name": "Branimir Rakic",
-      "twitter": "https://twitter.com/BranaRakic",
-      "position": "OriginTrail",
-      "photo": "branimir-rakic%20-%20224x173.png"
+      "photo": "bruno-skvorc.png"
     },
     {
       "name": "Andrej Rakic",
@@ -121,16 +121,40 @@
       "photo": "andrej-rakic.png"
     },
     {
+      "name": "Dragan Rakita",
+      "twitter": "https://twitter.com/rakitadragan",
+      "position": "Paradigm",
+      "photo": "dragan-rakita.png"
+    },
+    {
+      "name": "Momir Amidzic",
+      "twitter": "https://twitter.com/momir_amidzic",
+      "position": "IOSG Ventures",
+      "photo": "momir-amidzic.png"
+    },
+    {
+      "name": "Marcin Kazmierczak",
+      "twitter": "https://twitter.com/Marcin_Kaz13",
+      "position": "RedStone & Warp.cc",
+      "photo": "marcin-kazmierczak.png"
+    },
+    {
+      "name": "Cristina Chacon Santa",
+      "twitter": "",
+      "position": "NODOSTECH",
+      "photo": "christina-chacon.png"
+    },
+    {
+      "name": "Branimir Rakic",
+      "twitter": "https://twitter.com/BranaRakic",
+      "position": "OriginTrail",
+      "photo": "branimir-rakic%20-%20224x173.png"
+    },
+    {
       "name": "Mislav javor",
       "twitter": "https://twitter.com/0xMislav",
       "position": "DEV3",
       "photo": "mislav-javor%20-%20224x173.png"
-    },
-    {
-      "name": "Dragan Rakita",
-      "twitter": "https://twitter.com/rakitadragan",
-      "position": "Paradigm",
-      "photo": "dragan-rakita%20-%20224x173.png"
     },
     {
       "name": "Vukasin Vukoje",
@@ -142,19 +166,19 @@
       "name": "Vuksan Simunovic",
       "twitter": "https://twitter.com/vuksansan",
       "position": "Trapesys",
-      "photo": "vuksan%20-%20224x173.png"
+      "photo": "vuksan-simunovic.png"
     },
     {
       "name": "Petar Atanasovski",
       "twitter": "https://twitter.com/AtanasovskiP",
       "position": "Attic42",
-      "photo": "petar-atanasovksi.png"
+      "photo": "petar-atanasovski.png"
     },
     {
       "name": "Malisa Pusonja",
       "twitter": "https://twitter.com/malisapusonja",
       "position": "Attic42",
-      "photo": "malisa-pusonja%20-%20224x173.png"
+      "photo": "malisa-pusonja.png"
     },
     {
       "name": "Edi Sinovcic",
@@ -166,7 +190,7 @@
       "name": "Danijel Gornjakovic",
       "twitter": "https://twitter.com/veryhighlander",
       "position": "Thales",
-      "photo": "danijel%20-%20224x173.png"
+      "photo": "danijel-gornjakovic.png"
     },
     {
       "name": "Andrija Novakovic",
