@@ -1,34 +1,28 @@
 {
   "list": [
     {
-      "name": "Abril Zucchi",
-      "twitter": "https://twitter.com/abruzuc",
-      "position": "Fleek",
-      "photo": "Abril-zucchi%20-%20224x173.png"
-    },
-    {
-      "name": "Andy Tudhope",
-      "twitter": "https://twitter.com/cryptowanderer",
-      "position": "Kernel",
-      "photo": "andy-tudhope.png"
-    },
-    {
       "name": "Özgür Armanc Yiğit",
       "twitter": "https://twitter.com/ozgurarmanc",
       "position": "Ethereum Foundation",
-      "photo": "ozgur.png"
+      "photo": "ozgur-armanc-yigit.png"
     },
     {
       "name": "Juan",
       "twitter": "",
       "position": "MakerDAO",
-      "photo": "juan - 224x173.png"
+      "photo": "juan-makerdao.png"
     },
     {
       "name": "Anna Alexa",
       "twitter": "https://twitter.com/AnnaAlexaK",
       "position": "Celo Foundation",
       "photo": "anna-alexa.png"
+    },
+    {
+      "name": "Kevin Olsen",
+      "twitter": "https://twitter.com/kevinrolsen",
+      "position": "Gitcoin",
+      "photo": "kevin-olsen.png"
     },
     {
       "name": "TokenBrice",
@@ -40,7 +34,13 @@
       "name": "Muhammed Tanrikulu",
       "twitter": "https://twitter.com/md_tanrikulu",
       "position": "Ethereum Name Service",
-      "photo": "muhammed-tanrikulu.png"
+      "photo": "muhammed-ens.png"
+    },
+    {
+      "name": "Abril Zucchi",
+      "twitter": "https://twitter.com/abruzuc",
+      "position": "Fleek",
+      "photo": "abru-zuchi.png"
     },
     {
       "name": "Daniela Zschaber",
@@ -49,16 +49,16 @@
       "photo": "daniela-zschaber.png"
     },
     {
-      "name": "Kevin Olsen",
-      "twitter": "https://twitter.com/kevinrolsen",
-      "position": "Gitcoin",
-      "photo": "kevin-olsen.png"
-    },
-    {
       "name": "Abena Asante",
       "twitter": "https://twitter.com/abena_eth",
       "position": "SheFi, DeFi Africa and Bankless Africa",
       "photo": "abena-asante.png"
+    },
+    {
+      "name": "Andy Tudhope",
+      "twitter": "https://twitter.com/cryptowanderer",
+      "position": "Kernel",
+      "photo": "andy-tudhope.png"
     },
     {
       "name": "Max Lomuscio",
@@ -70,7 +70,7 @@
       "name": "Kevin Jones",
       "twitter": "https://twitter.com/cryptomastery_",
       "position": "Buidl Guidl / Scaffold-ETH",
-      "photo": "kevin.png"
+      "photo": "kevin-jones.png"
     },
     {
       "name": "Vlad Temian",
@@ -100,7 +100,7 @@
       "name": "Bogdan Habic",
       "twitter": "https://twitter.com/BogdanHabic",
       "position": "Tenderly",
-      "photo": "bogdan-habic%20-%20224x173.png"
+      "photo": "bogdan-habic.png"
     },
     {
       "name": "Sahil Sen",
@@ -142,25 +142,25 @@
       "name": "Cristina Chacon Santa",
       "twitter": "",
       "position": "NODOSTECH",
-      "photo": "christina-chacon.png"
+      "photo": "cristina-chacon-santa.png"
     },
     {
       "name": "Branimir Rakic",
       "twitter": "https://twitter.com/BranaRakic",
       "position": "OriginTrail",
-      "photo": "branimir-rakic%20-%20224x173.png"
+      "photo": "branimir-rakic.png"
     },
     {
       "name": "Mislav javor",
       "twitter": "https://twitter.com/0xMislav",
       "position": "DEV3",
-      "photo": "mislav-javor%20-%20224x173.png"
+      "photo": "mislav-javor.png"
     },
     {
       "name": "Vukasin Vukoje",
       "twitter": "https://twitter.com/wukoje",
       "position": "Alt Labs",
-      "photo": "vukoje%20-%20224x173.png"
+      "photo": "vukasin-vukoje.png"
     },
     {
       "name": "Vuksan Simunovic",
@@ -172,7 +172,7 @@
       "name": "Petar Atanasovski",
       "twitter": "https://twitter.com/AtanasovskiP",
       "position": "Attic42",
-      "photo": "petar-atanasovski.png"
+      "photo": "petar.png"
     },
     {
       "name": "Malisa Pusonja",
@@ -184,13 +184,19 @@
       "name": "Edi Sinovcic",
       "twitter": "https://twitter.com/edisinovcic",
       "position": "SpaceShard",
-      "photo": "edi-sinovcic%20-%20224x173.png"
+      "photo": "edi-sinovcic.png"
     },
     {
       "name": "Danijel Gornjakovic",
       "twitter": "https://twitter.com/veryhighlander",
       "position": "Thales",
       "photo": "danijel-gornjakovic.png"
+    },
+    {
+      "name": "Marija Mikic",
+      "twitter": "https://www.linkedin.com/in/marija-miki%C4%87-878842a2/",
+      "position": "3327",
+      "photo": "marija-mikic.png"
     },
     {
       "name": "Andrija Novakovic",
