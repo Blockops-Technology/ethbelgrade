@@ -104,7 +104,7 @@
 .position {
   font-size: 20px;
   margin: 5px 0 0;
-  text-transform: uppercase;
+  //text-transform: uppercase;
 
   @include breakpoint(medium-screen) {
     font-size: 16px;
