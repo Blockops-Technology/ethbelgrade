@@ -22,7 +22,14 @@ const Speakers = () => {
             speakers.list.map((speaker, i) => (
               <div key={i} className={styles.speaker}>
                 <a href={speaker.twitter} target="_blank" rel="noreferrer noopener">
-                  <img src={`/images/Speakers/${speaker.photo}`} alt={speaker.name + " photo"} />
+                  <div>
+                    <img src={`/images/Speakers/${speaker.photo}`} alt={speaker.name + " photo"} />
+                  </div>
+                  {
+                    speaker.category && (
+                      <div className={styles.category}>{speaker.category}</div>
+                    )
+                  }
                   <p className={styles.name}>{speaker.name}</p>
                   <p className={styles.position}>{speaker.position}</p>
                 </a>
