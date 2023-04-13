@@ -272,6 +272,13 @@
       "position": "WALK",
       "photo": "ilija-rilakovic.png",
       "category": "Regulations"
+    },
+    {
+      "name": "Anton Mozghovoi",
+      "twitter": "https://twitter.com/niarbnotna",
+      "position": "Mover",
+      "photo": "anton-mozghovoi.png",
+      "category": "DeFi"
     }
   ]
 }
