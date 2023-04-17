@@ -106,6 +106,20 @@
       "category": "Dev Tooling"
     },
     {
+      "name": "Nenad Palinkasevic",
+      "twitter": "https://twitter.com/NPalinkasevic",
+      "position": "DeFi Saver",
+      "photo": "nenad-palinkasevic.png",
+      "category": "DeFi"
+    },
+    {
+      "name": "Bogdan Habic",
+      "twitter": "https://twitter.com/BogdanHabic",
+      "position": "Tenderly",
+      "photo": "bogdan-habic.png",
+      "category": "Dev Tooling"
+    },
+    {
       "name": "Vlad Temian",
       "twitter": "",
       "position": "Sandbox",
@@ -120,25 +134,18 @@
       "category": "NFT"
     },
     {
+      "name": "Valentin Mixov",
+      "twitter": "https://twitter.com/valentinmihov",
+      "position": "Daedalus",
+      "photo": "valentin-mixov.png",
+      "category": "TBA"
+    },
+    {
       "name": "Noah Jelich",
       "twitter": "https://twitter.com/NoahJelich",
       "position": "Hacken",
       "photo": "noah-jelich.png",
       "category": "Security"
-    },
-    {
-      "name": "Nenad Palinkasevic",
-      "twitter": "https://twitter.com/NPalinkasevic",
-      "position": "DeFi Saver",
-      "photo": "nenad-palinkasevic.png",
-      "category": "DeFi"
-    },
-    {
-      "name": "Bogdan Habic",
-      "twitter": "https://twitter.com/BogdanHabic",
-      "position": "Tenderly",
-      "photo": "bogdan-habic.png",
-      "category": "Dev Tooling"
     },
     {
       "name": "Sahil Sen",
