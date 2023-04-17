@@ -10,7 +10,7 @@ const Banner = () => {
     days,
     seconds,
     isRunning,
-  } = useTimer({ expiryTimestamp: new Date('17 April 2023 15:00:00 GMT+0200 (Central European Summer Time)'), onExpire: () => console.warn('onExpire called') });
+  } = useTimer({ expiryTimestamp: new Date('27 April 2023 15:00:00 GMT+0200 (Central European Summer Time)'), onExpire: () => console.warn('onExpire called') });
 
 
   return (
