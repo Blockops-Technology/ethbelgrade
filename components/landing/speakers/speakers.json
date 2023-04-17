@@ -71,6 +71,20 @@
       "category": "NFT"
     },
     {
+      "name": "Miros",
+      "twitter": "",
+      "position": "Polygon",
+      "photo": "miros.png",
+      "category": "Infrastructure & Scaling"
+    },
+    {
+      "name": "Mikhail Krupin",
+      "twitter": "https://twitter.com/mike_krupin",
+      "position": "zkBob",
+      "photo": "mikhail-krupin.png",
+      "category": "Infrastructure & Scaling"
+    },
+    {
       "name": "Andy Tudhope",
       "twitter": "https://twitter.com/cryptowanderer",
       "position": "Kernel",
@@ -162,6 +176,13 @@
       "category": "Fundraising"
     },
     {
+      "name": "Maria Begoña Cuesta",
+      "twitter": "https://twitter.com/itsdevilcrypto",
+      "position": "GMX",
+      "photo": "maria-begona-cuesta.png",
+      "category": "Legal"
+    },
+    {
       "name": "Marcin Kazmierczak",
       "twitter": "https://twitter.com/Marcin_Kaz13",
       "position": "RedStone & Warp.cc",
@@ -174,6 +195,20 @@
       "position": "NODOSTECH",
       "photo": "cristina-chacon-santa.png",
       "category": "Web3 Marketing"
+    },
+    {
+      "name": "Edi Sinovcic",
+      "twitter": "https://twitter.com/edisinovcic",
+      "position": "SpaceShard",
+      "photo": "edi-sinovcic.png",
+      "category": "Zero Knowledge"
+    },
+    {
+      "name": "Danijel Gornjakovic",
+      "twitter": "https://twitter.com/veryhighlander",
+      "position": "Thales",
+      "photo": "danijel-gornjakovic.png",
+      "category": "DeFi"
     },
     {
       "name": "Branimir Rakic",
@@ -218,20 +253,6 @@
       "category": "Startup"
     },
     {
-      "name": "Edi Sinovcic",
-      "twitter": "https://twitter.com/edisinovcic",
-      "position": "SpaceShard",
-      "photo": "edi-sinovcic.png",
-      "category": "Zero Knowledge"
-    },
-    {
-      "name": "Danijel Gornjakovic",
-      "twitter": "https://twitter.com/veryhighlander",
-      "position": "Thales",
-      "photo": "danijel-gornjakovic.png",
-      "category": "DeFi"
-    },
-    {
       "name": "Marija Mikic",
       "twitter": "https://www.linkedin.com/in/marija-miki%C4%87-878842a2/",
       "position": "3327",
@@ -260,6 +281,13 @@
       "category": "NFT"
     },
     {
+      "name": "Mario Alves",
+      "twitter": "https://twitter.com/marioralves",
+      "position": "LayerX",
+      "photo": "mario-alves.png",
+      "category": "WorkFi"
+    },
+    {
       "name": "Vlaho Hrdalo",
       "twitter": "https://twitter.com/VlahoHrdalo",
       "position": "UBIK.hr",
@@ -279,6 +307,34 @@
       "position": "Mover",
       "photo": "anton-mozghovoi.png",
       "category": "DeFi"
+    },
+    {
+      "name": "Marijo Radman",
+      "twitter": "https://twitter.com/Marijo_radman",
+      "position": "Solity Network UG",
+      "photo": "marijo-radman.png",
+      "category": "DeFi"
+    },
+    {
+      "name": "Joshua Bate",
+      "twitter": "https://twitter.com/jb87ua",
+      "position": "DeSciWorld",
+      "photo": "joshua-bate.png",
+      "category": "DeSci"
+    },
+    {
+      "name": "Johannes Kern",
+      "twitter": "https://twitter.com/jonk93",
+      "position": "Nerif Network",
+      "photo": "johannes-kern.png",
+      "category": "dApps"
+    },
+    {
+      "name": "Vukasin Gostovic",
+      "twitter": "https://twitter.com/makemake_kbo",
+      "position": "Rainshower",
+      "photo": "vukasin-gostovic.png",
+      "category": "Infrastructure & Scaling"
     }
   ]
 }
