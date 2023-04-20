@@ -127,11 +127,11 @@
       "category": "NFT"
     },
     {
-      "name": "Valentin Mihov",
-      "twitter": "https://twitter.com/valentinmihov",
-      "position": "Daedalus",
-      "photo": "valentin-mixov.png",
-      "category": "TBA"
+      "name": "Dragan Rakita",
+      "twitter": "https://twitter.com/rakitadragan",
+      "position": "Paradigm",
+      "photo": "dragan-rakita.png",
+      "category": "Infrastructure & Scaling"
     },
     {
       "name": "Noah Jelich",
@@ -162,11 +162,18 @@
       "category": "Dev Tooling"
     },
     {
-      "name": "Dragan Rakita",
-      "twitter": "https://twitter.com/rakitadragan",
-      "position": "Paradigm",
-      "photo": "dragan-rakita.png",
+      "name": "Sergei Boiko",
+      "twitter": "",
+      "position": "Binance",
+      "photo": "sergei-boiko.png",
       "category": "Infrastructure & Scaling"
+    },
+    {
+      "name": "Valentin Mihov",
+      "twitter": "https://twitter.com/valentinmihov",
+      "position": "Daedalus",
+      "photo": "valentin-mixov.png",
+      "category": "TBA"
     },
     {
       "name": "Momir Amidzic",
@@ -246,18 +253,32 @@
       "category": "Zero Knowledge"
     },
     {
+      "name": "Ivan Bjelajac",
+      "twitter": "https://twitter.com/instantfinality",
+      "position": "MVP Workshop Studio",
+      "photo": "ivan-bjelajac.pnggi",
+      "category": "Startups"
+    },
+    {
+      "name": "Aleksandar Bijelic",
+      "twitter": "https://www.linkedin.com/in/bijelic/",
+      "position": "MVP Workshop Studio",
+      "photo": "aleksandar-bijelic.png",
+      "category": "Startups"
+    },
+    {
       "name": "Petar Atanasovski",
       "twitter": "https://twitter.com/AtanasovskiP",
       "position": "Attic42",
       "photo": "petar.png",
-      "category": "Startup"
+      "category": "Startups"
     },
     {
       "name": "Malisa Pusonja",
       "twitter": "https://twitter.com/malisapusonja",
       "position": "Attic42",
       "photo": "malisa-pusonja.png",
-      "category": "Startup"
+      "category": "Startups"
     },
     {
       "name": "Marija Mikic",
