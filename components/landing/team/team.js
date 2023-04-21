@@ -37,13 +37,6 @@ const Team = () => (
           </a>
         </div>
         <div>
-          <a href="https://www.linkedin.com/in/nikolaivezic/" target="_blank" rel="noreferrer noopener">
-            <img src="/images/team/Nikola-Ivezic.png" alt="Nikola Ivezic profile picture" />
-            <p className={styles.title}>Nikola Ivezic</p>
-            <p>Project Coordinator</p>
-          </a>
-        </div>
-        <div>
           <a href="https://twitter.com/strangestrain_" target="_blank" rel="noreferrer noopener">
             <img src="/images/team/Natasa-Bujosevic.png" alt="Natasa Bujosevic profile picture" />
             <p className={styles.title}>Natasa Bujosevic</p>

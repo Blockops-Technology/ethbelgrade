@@ -65,7 +65,7 @@
     },
     {
       "name": "Miros",
-      "twitter": "",
+      "twitter": "https://twitter.com/HackBugs",
       "position": "Polygon",
       "photo": "miros.png",
       "category": "Infrastructure & Scaling"
