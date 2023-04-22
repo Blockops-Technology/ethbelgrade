@@ -10,7 +10,7 @@ const Team = () => (
         </div>
         <div>
           <a href="https://twitter.com/0xdevelopera" target="_blank" rel="noreferrer noopener">
-            <img src="/images/team/Petar-Popovic.png" alt="Petar Popovic profile picture" />
+            <img src="/images/team/Petar-Popovic-2.png" alt="Petar Popovic profile picture" />
             <p className={styles.title}>Petar Popovic</p>
             <p>Founder & Chief Project Manager</p>
           </a>
