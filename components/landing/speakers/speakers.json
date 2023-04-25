@@ -22,6 +22,13 @@
       "category": "DAOs and governance"
     },
     {
+      "name": "Solange Gueiros",
+      "twitter": "https://twitter.com/solangegueiros",
+      "position": "Chainlink",
+      "photo": "solange.png",
+      "category": "Infrastructure & Scaling"
+    },
+    {
       "name": "Kevin Olsen",
       "twitter": "https://twitter.com/kevinrolsen",
       "position": "Gitcoin",
@@ -141,6 +148,13 @@
       "category": "Security"
     },
     {
+      "name": "Sifis Lagouvardos",
+      "twitter": "https://twitter.com/dedaub",
+      "position": "Dedaub",
+      "photo": "sifis.png",
+      "category": "Security"
+    },
+    {
       "name": "Sahil Sen",
       "twitter": "https://twitter.com/sensahil",
       "position": "QuickNode",
@@ -195,6 +209,13 @@
       "position": "RedStone & Warp.cc",
       "photo": "marcin-kazmierczak.png",
       "category": "DeFi"
+    },
+    {
+      "name": "bytes032",
+      "twitter": "https://twitter.com/bytes032",
+      "position": "Web3Security DAO",
+      "photo": "bytes032.png",
+      "category": "Security"
     },
     {
       "name": "Cristina Chacon Santa",
