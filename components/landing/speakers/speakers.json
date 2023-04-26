@@ -190,11 +190,11 @@
       "category": "TBA"
     },
     {
-      "name": "Momir Amidzic",
-      "twitter": "https://twitter.com/momir_amidzic",
-      "position": "IOSG Ventures",
-      "photo": "momir-amidzic.png",
-      "category": "Fundraising"
+      "name": "Artem Goryunov",
+      "twitter": "",
+      "position": "Trust Wallet",
+      "photo": "artem-goryunov.png",
+      "category": "Dev Tooling"
     },
     {
       "name": "Maria Begoña Cuesta",
@@ -300,6 +300,13 @@
       "position": "Attic42",
       "photo": "malisa-pusonja.png",
       "category": "Startups"
+    },
+    {
+      "name": "Gurpreet Singh",
+      "twitter": "https://www.linkedin.com/in/gurpreetsingh101/",
+      "position": "Stealth",
+      "photo": "gurpreet.png",
+      "category": "TBA"
     },
     {
       "name": "Marija Mikic",
