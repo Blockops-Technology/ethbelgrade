@@ -253,6 +253,20 @@
       "category": "Public goods and community"
     },
     {
+      "name": "Blendor Sefaj",
+      "twitter": "https://twitter.com/blendorsefaj",
+      "position": "Clover Labs",
+      "photo": "blendor.png",
+      "category": "Public goods and community"
+    },
+    {
+      "name": "Gurpreet Singh",
+      "twitter": "https://www.linkedin.com/in/gurpreetsingh101/",
+      "position": "Stealth",
+      "photo": "gurpreet.png",
+      "category": "TBA"
+    },
+    {
       "name": "Mislav Javor",
       "twitter": "https://twitter.com/0xMislav",
       "position": "DEV3",
@@ -300,13 +314,6 @@
       "position": "Attic42",
       "photo": "malisa-pusonja.png",
       "category": "Startups"
-    },
-    {
-      "name": "Gurpreet Singh",
-      "twitter": "https://www.linkedin.com/in/gurpreetsingh101/",
-      "position": "Stealth",
-      "photo": "gurpreet.png",
-      "category": "TBA"
     },
     {
       "name": "Marija Mikic",
