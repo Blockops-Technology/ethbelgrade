@@ -78,6 +78,13 @@
       "category": "Infrastructure & Scaling"
     },
     {
+      "name": "Dave Lockie",
+      "twitter": "https://twitter.com/divydovy",
+      "position": "Automattic",
+      "photo": "dave-lockie.png",
+      "category": "Infrastructure & Scaling"
+    },
+    {
       "name": "Mikhail Krupin",
       "twitter": "https://twitter.com/mike_krupin",
       "position": "zkBob",
@@ -228,7 +235,7 @@
       "name": "Edi Sinovcic",
       "twitter": "https://twitter.com/edisinovcic",
       "position": "SpaceShard",
-      "photo": "edi-sinovcic.png",
+      "photo": "edi.png",
       "category": "Zero Knowledge"
     },
     {
