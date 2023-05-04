@@ -14,6 +14,12 @@ const MediaPartners = () => (
         <a href="https://cointelegraph.com/" target="_blank" rel="noreferrer noopener">
           <img className={styles.cointelegraph} src="/images/media-partners/cointelegraph-logo.png" alt="Cointelegraph logo" />
         </a>
+        <a href="https://beincrypto.com" target="_blank" rel="noreferrer noopener">
+          <img src="/images/media-partners/beincrypto-logo.svg" alt="Be in Crypto logo" />
+        </a>
+        <a href="https://coinedition.com/" target="_blank" rel="noreferrer noopener">
+          <img src="/images/media-partners/Coin-Edition.png" alt="Coin Edition logo" />
+        </a>
         <a href="https://startit.rs/" target="_blank" rel="noreferrer noopener">
           <img src="/images/media-partners/startit_logo_beli.svg" alt="Startit logo" />
         </a>
