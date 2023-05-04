@@ -386,11 +386,25 @@
       "category": "DeFi"
     },
     {
+      "name": "Anton Umnov",
+      "twitter": "https://twitter.com/helikaanalytics",
+      "position": "Helika Analytics",
+      "photo": "anton-umnov.png",
+      "category": "NFT + Web3 Gaming"
+    },
+    {
       "name": "Joshua Bate",
       "twitter": "https://twitter.com/jb87ua",
       "position": "DeSciWorld",
       "photo": "joshua-bate.png",
       "category": "DeSci"
+    },
+    {
+      "name": "Dave | d1onys1us",
+      "twitter": "https://twitter.com/indraynor",
+      "position": "Taiko Labs",
+      "photo": "dave-d1onys1s.png",
+      "category": "Infrastructure & Scaling"
     },
     {
       "name": "Johannes Kern",
