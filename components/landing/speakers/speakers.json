@@ -8,6 +8,13 @@
       "category": "ZK Circuits"
     },
     {
+      "name": "Michelle Wu",
+      "twitter": "https://twitter.com/web3wu",
+      "position": "Metamask",
+      "photo": "michelle-wu.png",
+      "category": "Product"
+    },
+    {
       "name": "Juan",
       "twitter": "",
       "position": "MakerDAO",
@@ -127,6 +134,13 @@
       "category": "Dev Tooling"
     },
     {
+      "name": "John Shutt",
+      "twitter": "https://twitter.com/jdshutt",
+      "position": "UMA",
+      "photo": "john-shutt.png",
+      "category": "DAOs and governance"
+    },
+    {
       "name": "Vlad Temian",
       "twitter": "",
       "position": "Sandbox",
@@ -202,6 +216,13 @@
       "position": "Trust Wallet",
       "photo": "artem-goryunov.png",
       "category": "Dev Tooling"
+    },
+    {
+      "name": "Nikita Kirillov",
+      "twitter": "https://twitter.com/urbittesweet",
+      "position": "Pessimistic Security",
+      "photo": "nikita-kirilov.png",
+      "category": "Security"
     },
     {
       "name": "@itsdevilcrypto",
@@ -398,6 +419,13 @@
       "position": "DeSciWorld",
       "photo": "joshua-bate.png",
       "category": "DeSci"
+    },
+    {
+      "name": "Mladen Milankovic",
+      "twitter": "https://twitter.com/mladenmilankovi",
+      "position": "HTEC Group",
+      "photo": "mladen-milankovic.png",
+      "category": "Dev Tooling"
     },
     {
       "name": "Dave | d1onys1us",
