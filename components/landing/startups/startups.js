@@ -31,11 +31,11 @@ const Startups = () => (
           </div>
 
           <div className={styles.ctaWrapper}>
-            <a href="" target="_blank" rel="noreferrer">
-              <Button>Apply to pitch</Button>
-            </a>
-            <a href="" target="_blank" rel="noreferrer">
+            <a href="https://app.moongate.id/events/ethbelgrade" target="_blank" rel="noreferrer noopener">
               <Button ghost>Get tickets</Button>
+            </a>
+            <a href="https://forms.gle/wBR93x9uuAaSDQz8A" target="_blank" rel="noopener noreferrer">
+              <Button>Apply to pitch</Button>
             </a>
           </div>
         </div>
