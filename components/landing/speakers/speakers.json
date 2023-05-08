@@ -330,6 +330,20 @@
       "category": "Startups"
     },
     {
+      "name": "Irina Andelic (Grinkina)",
+      "twitter": "",
+      "position": "Varius Systems",
+      "photo": "irina-andelic.png",
+      "category": "NFT"
+    },
+    {
+      "name": "Lejla Muratčauš Blagojević",
+      "twitter": "https://twitter.com/beincrypto",
+      "position": "BeInCrypto",
+      "photo": "lejla.png",
+      "category": "Web3 Marketing"
+    },
+    {
       "name": "Petar Atanasovski",
       "twitter": "https://twitter.com/AtanasovskiP",
       "position": "Attic42",
@@ -356,6 +370,13 @@
       "position": "Geometry",
       "photo": "andrija-novakovic.png",
       "category": "Zero Knowledge"
+    },
+    {
+      "name": "parazyd",
+      "twitter": "https://twitter.com/parazyd",
+      "position": "DarkFi",
+      "photo": "parazyd.png",
+      "category": "Security"
     },
     {
       "name": "Miljan Martic",
@@ -398,6 +419,20 @@
       "position": "Holyheld",
       "photo": "anton-mozghovoi.png",
       "category": "DeFi"
+    },
+    {
+      "name": "Zeki",
+      "twitter": "https://twitter.com/zekiblue",
+      "position": "Arcadia Finance",
+      "photo": "zeki.png",
+      "category": "Dev Tooling"
+    },
+    {
+      "name": "Anton Cheng",
+      "twitter": "https://twitter.com/antonttc",
+      "position": "Lyra Finance",
+      "photo": "anotn-cheng.png",
+      "category": "Security"
     },
     {
       "name": "Marijo Radman",
