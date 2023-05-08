@@ -15,8 +15,14 @@ const Partners = () => (
             <a href="https://defisaver.com/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/defi-saver.png" alt="DeFi Saver logo" />
             </a>
+            <a href="https://esp.ethereum.foundation/" target="_blank" rel="noreferrer noopener">
+              <img src="/images/partners/EF-ESP-logo.svg" alt="Ethereum Foundation Ecosystem Support Program logo" />
+            </a>
             <a href="https://www.superchain.network/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/superchain-logo.png" alt="Superchain logo" />
+            </a>
+            <a href="https://blockanalitica.com/" target="_blank" rel="noreferrer noopener">
+              <img src="/images/partners/BlockAnalitica-logo.png" alt="Block Analitica logo" />
             </a>
             <a href="https://www.liquity.org/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/liquity-logo-white.svg" alt="Liquity logo" />
