@@ -33,23 +33,26 @@ const Partners = () => (
             <a href="https://renfter.com/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/renfter-logo.svg" alt="Renfter logo" />
             </a>
+            <a href="https://tangem.com/" target="_blank" rel="noreferrer noopener">
+              <img src="/images/partners/tangem-white.png" alt="Tangem logo" />
+            </a>
             <a href="https://unusualsour.com/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/Unusual-Sour-Logo.png" alt="Unusual Sour logo" />
-            </a>
-            <a href="https://mvpworkshop.co/" target="_blank" rel="noreferrer noopener">
-              <img src="/images/partners/mvp-logo.png" alt="MVP Workshop logo" />
-            </a>
-            <a href="https://blockops.technology/" target="_blank" rel="noreferrer noopener">
-              <img src="/images/partners/blockops-logo.png" alt="Blockops logo" />
-            </a>
-            <a href="https://walk.rs/" target="_blank" rel="noreferrer noopener">
-              <img src="/images/partners/walk-logo.png" alt="WALK logo" />
             </a>
             <a href="https://www.decenter.com/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/decenter.svg" alt="Decenter logo" />
             </a>
+            <a href="https://blockops.technology/" target="_blank" rel="noreferrer noopener">
+              <img src="/images/partners/blockops-logo.png" alt="Blockops logo" />
+            </a>
             <a href="https://taikai.network/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/taikai.svg" alt="TAIKAI logo" />
+            </a>
+            <a href="https://mvpworkshop.co/" target="_blank" rel="noreferrer noopener">
+              <img src="/images/partners/mvp-logo.png" alt="MVP Workshop logo" />
+            </a>
+            <a href="https://walk.rs/" target="_blank" rel="noreferrer noopener">
+              <img src="/images/partners/walk-logo.png" alt="WALK logo" />
             </a>
             <a href="https://moongate.id/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/moongate-logo.png" alt="Moongate logo" />
