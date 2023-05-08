@@ -1,6 +1,5 @@
 import styles from "./venue.module.scss";
 import Button from "../../common/button/button";
-import venueMap from "../../../public/images/venue/venue-map.png";
 
 const Venue = () => (
   <div id="venue" className={styles.venue}>
