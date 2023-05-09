@@ -7,6 +7,11 @@ const Sponsors = () => (
         <p className={styles.title}>Sponsors</p>
         <div className={styles.sponsorList}>
           <div className={styles.sponsor}>
+            <a href="https://esp.ethereum.foundation/" target="_blank" rel="noreferrer noopener">
+              <img src="/images/partners/EF-ESP-logo.svg" alt="EF ESP logo" />
+            </a>
+          </div>
+          <div className={styles.sponsor}>
             <a href="https://renfter.com/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/renfter-logo.svg" alt="Renfter logo" />
             </a>
