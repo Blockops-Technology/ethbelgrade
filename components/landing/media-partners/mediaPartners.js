@@ -32,6 +32,9 @@ const MediaPartners = () => (
         <a href="https://cryptodataspace.com/" target="_blank" rel="noreferrer noopener">
           <img src="/images/media-partners/CDS_LOGO_WHITE.svg" alt="Crypto Data Space logo" />
         </a>
+        <a href="https://aiovel.com/" target="_blank" rel="noreferrer noopener">
+          <img src="/images/media-partners/AIOVEL_logo.png" alt="AIOVEL logo" />
+        </a>
         <a href="https://web-mind.io/" target="_blank" rel="noreferrer noopener">
           <img src="/images/media-partners/WEBMIND-logo.png" alt="Webmind logo" />
         </a>
