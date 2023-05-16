@@ -85,6 +85,20 @@
       "category": "Infrastructure & Scaling"
     },
     {
+      "name": "Sebastian Rodriguez",
+      "twitter": "https://twitter.com/PolygonSSI",
+      "position": "Polygon",
+      "photo": "sebastian-rodrigez.png",
+      "category": "Infrastructure & Scaling"
+    },
+    {
+      "name": "Nena Dokuzov",
+      "twitter": "",
+      "position": "Ministry of the Economy, Tourism and Sport in Slovenia",
+      "photo": "nena-dokuzov.png",
+      "category": "Regulations"
+    },
+    {
       "name": "Dave Lockie",
       "twitter": "https://twitter.com/divydovy",
       "position": "Automattic",
@@ -132,6 +146,20 @@
       "position": "Tenderly",
       "photo": "bogdan-habic.png",
       "category": "Dev Tooling"
+    },
+    {
+      "name": "Primož Kordež",
+      "twitter": "https://twitter.com/PrimozKordez",
+      "position": "Block Analitica",
+      "photo": "primoz-kordez.png",
+      "category": "DeFi"
+    },
+    {
+      "name": "Jan Osolnik",
+      "twitter": "https://twitter.com/JanOsolnik",
+      "position": "Block Analitica",
+      "photo": "jan-solnik.png",
+      "category": "DeFi"
     },
     {
       "name": "John Shutt",
@@ -432,6 +460,13 @@
       "twitter": "https://twitter.com/LawyerWooden",
       "position": "WALK",
       "photo": "ilija-rilakovic.png",
+      "category": "Regulations"
+    },
+    {
+      "name": "Xenofon Kontouris",
+      "twitter": "https://twitter.com/xenofonofathens",
+      "position": "Athens Labs",
+      "photo": "xenofon-kontouris.png",
       "category": "Regulations"
     },
     {
