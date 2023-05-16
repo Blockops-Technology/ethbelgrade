@@ -232,6 +232,13 @@
       "category": "Legal"
     },
     {
+      "name": "Michael Jacobs",
+      "twitter": "https://twitter.com/fxnction",
+      "position": "Ratio",
+      "photo": "fxnction.png",
+      "category": "DAOs and governance"
+    },
+    {
       "name": "Marcin Kazmierczak",
       "twitter": "https://twitter.com/Marcin_Kaz13",
       "position": "RedStone & Warp.cc",
@@ -400,6 +407,20 @@
       "category": "WorkFi"
     },
     {
+      "name": "Aleeza Howitt",
+      "twitter": "https://twitter.com/aleezagroks",
+      "position": "Cowri Labs",
+      "photo": "aleeza-howitt.png",
+      "category": "DeFi"
+    },
+    {
+      "name": "engn33r",
+      "twitter": "https://twitter.com/bl4ckb1rd71",
+      "position": "yAudit",
+      "photo": "engn33r.png",
+      "category": "Security"
+    },
+    {
       "name": "Vlaho Hrdalo",
       "twitter": "https://twitter.com/VlahoHrdalo",
       "position": "UBIK.hr",
@@ -454,6 +475,13 @@
       "position": "DeSciWorld",
       "photo": "joshua-bate.png",
       "category": "DeSci"
+    },
+    {
+      "name": "Andrei Văcaru",
+      "twitter": "https://twitter.com/anvacaru",
+      "position": "Runtime Verification, Inc.",
+      "photo": "andrei-vacaru.png",
+      "category": "Security"
     },
     {
       "name": "Mladen Milankovic",
