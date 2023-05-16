@@ -33,7 +33,7 @@ const Partners = () => (
             <a href="https://renfter.com/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/renfter-logo.svg" alt="Renfter logo" />
             </a>
-            <a href="https://tangem.com/" target="_blank" rel="noreferrer noopener">
+            <a href="https://tangem.com/pricing/?promocode=BELGRADE" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/tangem-white.png" alt="Tangem logo" />
             </a>
             <a href="https://unusualsour.com/" target="_blank" rel="noreferrer noopener">
