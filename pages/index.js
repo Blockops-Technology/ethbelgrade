@@ -42,9 +42,9 @@ export default function Home() {
       <Speakers />
       <Partners />
       <MediaPartners />
-      <Team />
-      <TicketCta />
       <Startups />
+      <TicketCta />
+      <Team />
       <Quote />
       <Newsletter />
       <Hackathon />
