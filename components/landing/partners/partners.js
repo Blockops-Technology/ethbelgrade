@@ -42,6 +42,9 @@ const Partners = () => (
             <a href="https://unusualsour.com/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/Unusual-Sour-Logo.png" alt="Unusual Sour logo" />
             </a>
+            <a href="https://chainide.com/" target="_blank" rel="noreferrer noopener">
+              <img src="/images/partners/ChainIDE.svg" alt="ChainIDE logo" />
+            </a>
             <a href="https://www.decenter.com/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/decenter.svg" alt="Decenter logo" />
             </a>
