@@ -92,11 +92,18 @@
       "category": "Infrastructure & Scaling"
     },
     {
-      "name": "Nena Dokuzov",
-      "twitter": "",
-      "position": "Ministry of the Economy, Tourism and Sport in Slovenia",
-      "photo": "nena-dokuzov.png",
-      "category": "Regulations"
+      "name": "Daria Shakhbazova",
+      "twitter": "https://twitter.com/0xdaryashakh",
+      "position": "0x",
+      "photo": "daria-shakhbazova.png",
+      "category": "Infrastructure & Scaling"
+    },
+    {
+      "name": "Vikas Pandey",
+      "twitter": "https://twitter.com/vikpande",
+      "position": "NEAR",
+      "photo": "vikas-pandey.png",
+      "category": "Infrastructure & Scaling"
     },
     {
       "name": "Dave Lockie",
@@ -258,6 +265,13 @@
       "position": "GMX",
       "photo": "maria-begona-cuesta.png",
       "category": "Legal"
+    },
+    {
+      "name": "Nena Dokuzov",
+      "twitter": "",
+      "position": "Ministry of the Economy, Tourism and Sport in Slovenia",
+      "photo": "nena-dokuzov.png",
+      "category": "Regulations"
     },
     {
       "name": "Michael Jacobs",
