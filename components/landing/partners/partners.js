@@ -51,7 +51,7 @@ const Partners = () => (
             <a href="https://blockops.technology/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/blockops-logo.png" alt="Blockops logo" />
             </a>
-            <a href="https://taikai.network/" target="_blank" rel="noreferrer noopener">
+            <a href="https://layerx.xyz/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/LayerX-logo.svg" alt="LayerX logo" />
             </a>
             <a href="https://mvpworkshop.co/" target="_blank" rel="noreferrer noopener">
