@@ -18,7 +18,7 @@ const Sponsors = () => (
           </div>
           <div className={styles.sponsor}>
             <a href="https://taikai.network/" target="_blank" rel="noreferrer noopener">
-              <img src="/images/partners/taikai.svg" alt="TAIKAI logo" />
+              <img src="/images/partners/LayerX-logo.svg" alt="LayerX logo" />
             </a>
           </div>
         </div>
