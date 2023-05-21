@@ -32,6 +32,9 @@ const MediaPartners = () => (
         <a href="https://cryptodataspace.com/" target="_blank" rel="noreferrer noopener">
           <img src="/images/media-partners/CDS_LOGO_WHITE.svg" alt="Crypto Data Space logo" />
         </a>
+        <a href="https://itez.com/events" target="_blank" rel="noreferrer noopener">
+          <img src="/images/media-partners/itez-logo.png" alt="Itez logo" />
+        </a>
         <a href="https://cryptorank.io/" target="_blank" rel="noreferrer noopener">
           <img src="/images/media-partners/cryptorank-logo.svg" alt="Cryptorank logo" />
         </a>
