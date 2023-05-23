@@ -696,7 +696,7 @@
               "time": "3:50 PM",
               "title": "Aligning incentives to enable decentralized storage and compute",
               "speaker": "Vukasin Vukoje",
-              "speakerImage": "vukasin-gostovic.png",
+              "speakerImage": "vukasin-vukoje.png",
               "company": "Alt Labs",
               "category": "Infrastructure and scaling"
             },
@@ -1042,7 +1042,7 @@
               "time": "2:10 PM",
               "title": "Solidity considered harmful",
               "speaker": "Vukasin Gostovic",
-              "speakerImage": "vukasin-vukoje.png",
+              "speakerImage": "vukasin-gostovic.png",
               "company": "Rainshower",
               "category": "Dev Tooling"
             },
