@@ -1,0 +1,302 @@
+{
+  "stages": [
+    {
+      "stageName": "Main",
+      "programme": [
+        {
+          "day": "Day 1",
+          "date": "Fri, June 2",
+          "talks": [
+            {
+              "time": "8:30 AM",
+              "title": "Registration + coffee",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "category": ""
+            },
+            {
+              "time": "9:25 AM",
+              "title": "Really short opening talk \uD83D\uDE01",
+              "speaker": "Petar Popovic",
+              "speakerImage": "",
+              "company": "ETH Belgrade",
+              "category": ""
+            },
+            {
+              "time": "9:30 AM",
+              "title": "",
+              "speaker": "Bogdan Habic",
+              "speakerImage": "bogdan-habic.png",
+              "company": "Tenderly",
+              "category": ""
+            },
+            {
+              "time": "10:10 AM",
+              "title": "",
+              "speaker": "Solange",
+              "speakerImage": "solange.png",
+              "company": "Chainlink",
+              "category": ""
+            },
+            {
+              "time": "10:50 AM",
+              "title": "Zero Knowledge in 2023",
+              "speaker": "Andrija Novakovic + Nico",
+              "speakerImage": "andrija-novakovic.png",
+              "company": "Geometry",
+              "category": "Zero Knowledge"
+            },
+            {
+              "time": "11:20 AM",
+              "title": "Coffee break (20 min)",
+              "speaker": "",
+              "speakerImage": "",
+              "company": ""
+            },
+            {
+              "time": "11:40 AM",
+              "title": "Non-Native Field Arithmetic",
+              "speaker": "Özgür Armanc Yiğit",
+              "speakerImage": "ozgur-armanc-yigit.png",
+              "company": "Ethereum Foundation",
+              "category": "Zero Knowledge"
+            },
+            {
+              "time": "12:20 PM",
+              "title": "Tales of a sleepy dev: Common pitfalls, exploits, and other lessons learned building in the DeFi space for 3+ years",
+              "speaker": "Nenad Palinkasevic",
+              "speakerImage": "nenad-palinkasevic.png",
+              "company": "DeFi Saver",
+              "category": "DeFi"
+            },
+            {
+              "time": "1:00 PM",
+              "title": "Stablecoins, built for DeFi: introducing the stablecoin pentemma",
+              "speaker": "TokenBrice",
+              "speakerImage": "token-brice.png",
+              "company": "Liquity",
+              "category": "DeFi"
+            },
+            {
+              "time": "1:30 PM",
+              "title": "Lunch break (40 min)",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "category": ""
+            },
+            {
+              "time": "2:10 PM",
+              "title": "NFT Panel",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "category": "NFT"
+            },
+            {
+              "time": "3:10 PM",
+              "title": "The Marketplace of trusted credentials in Web3",
+              "speaker": "Sebastian Rodriguez",
+              "speakerImage": "sebastian-rodrigez.png",
+              "company": "Polygon",
+              "category": "Zero Knowledge"
+            },
+            {
+              "time": "3:50 PM",
+              "title": "Interoperability as a premise to better sharing assets, seamless onboarding, lower costs and higher value generation for all stakeholders",
+              "speaker": "Vikas Pandey",
+              "speakerImage": "vikas-pandey.png",
+              "company": "NEAR Protocol",
+              "category": "Infrastructure and scaling "
+            },
+            {
+              "time": "4:30 PM",
+              "title": "Introduction to DeSci",
+              "speaker": "Joshua Bate",
+              "speakerImage": "joshua-bate.png",
+              "company": "DeSciWorld",
+              "category": "Public goods and community"
+            },
+            {
+              "time": "5:10 PM",
+              "title": "Closing Day 1",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "category": ""
+            }
+          ]
+        },
+        {
+          "day": "Day 2",
+          "date": "Sat, June 3",
+          "talks": [
+            {
+              "time": "9:00 AM",
+              "title": "GM + Coffee",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "category": ""
+            },
+            {
+              "time": "9:30 AM",
+              "title": "From Apples to Objectives: Directing Decentralized Autonomous Organizations with a Focus on Work",
+              "speaker": "Juan",
+              "speakerImage": "juan-makerdao.png",
+              "company": "MakerDAO",
+              "category": "DAOs and governance"
+            },
+            {
+              "time": "10:10 AM",
+              "title": "DAOs and Governance Design",
+              "speaker": "Anna Alexa",
+              "speakerImage": "anna-alexa.png",
+              "company": "Celo Foundation",
+              "category": "DAOs and governance"
+            },
+            {
+              "time": "10:50 AM",
+              "title": "The immediate next steps of ZKML",
+              "speaker": "Cathie So",
+              "speakerImage": "cathie-so.png",
+              "company": "Ethereum Foundation",
+              "category": "Zero Knowledge"
+            },
+            {
+              "time": "11:20 AM",
+              "title": "Coffee break (20 min)",
+              "speaker": "",
+              "speakerImage": "",
+              "company": ""
+            },
+            {
+              "time": "11:40 AM",
+              "title": "Intro to Web3 Profiles with ENS",
+              "speaker": "Muhammed Tanrikulu",
+              "speakerImage": "muhammed-ens.png",
+              "company": "Ethereum Name Service",
+              "category": "Infrastructure and scaling"
+            },
+            {
+              "time": "12:20 PM",
+              "title": "NFT collections at scale",
+              "speaker": "Marius Balaj + Vlad Temian",
+              "speakerImage": "marius-balaj.png",
+              "company": "Sandbox",
+              "category": "NFT"
+            },
+            {
+              "time": "1:00 PM",
+              "title": "NFT - beyond the hype.",
+              "speaker": "Abena Asante",
+              "speakerImage": "abena-asante.png",
+              "company": "SheFi, DeFi Africa and Bankless Africa",
+              "category": "NFT"
+            },
+            {
+              "time": "1:30 PM",
+              "title": "Lunch break (40 min)",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "category": ""
+            },
+            {
+              "time": "2:10 PM",
+              "title": "Zero Knowledge Panel",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "category": "Zero Knowledge"
+            },
+            {
+              "time": "3:10 PM",
+              "title": "Latest developments in DeFi: A comprehensive overview of developing trends in the decentralized finance space",
+              "speaker": "Nikola Markovic",
+              "speakerImage": "",
+              "company": "DeFi Saver",
+              "category": "DeFi"
+            },
+            {
+              "time": "3:50 PM",
+              "title": "Quadratic Collective Intelligence",
+              "speaker": "Kevin Olsen",
+              "speakerImage": "kevin-olsen.png",
+              "company": "Gitcoin",
+              "category": "Public goods and community"
+            },
+            {
+              "time": "4:30 PM",
+              "title": "Evaluating Trust: Open Peer-to-Peer Dialogues",
+              "speaker": "Andy Tudhope",
+              "speakerImage": "andy-tudhope.png",
+              "company": "Kernel",
+              "category": "Public goods and community"
+            },
+            {
+              "time": "5:10 PM",
+              "title": "Closing Day 2",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "category": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageName": "Builders",
+      "programme": [
+        {
+          "day": "Day 1",
+          "date": "Fri, June 2",
+          "talks": [
+            {
+              "time": "09:00 am",
+              "title": "Some Title",
+              "speaker": "Some speaker",
+              "speakerImage": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageName": "Community",
+      "programme": [
+        {
+          "day": "Day 1",
+          "date": "Fri, June 2",
+          "talks": [
+            {
+              "time": "09:00 am",
+              "title": "Some Title",
+              "speaker": "Some speaker",
+              "speakerImage": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageName": "Hands on",
+      "programme": [
+        {
+          "day": "Day 1",
+          "date": "Fri, June 2",
+          "talks": [
+            {
+              "time": "09:00 am",
+              "title": "Some Title",
+              "speaker": "Some speaker",
+              "speakerImage": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

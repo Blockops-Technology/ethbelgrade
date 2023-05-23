@@ -15,7 +15,7 @@
   display: flex;
   gap: 30px;
 
-  @include breakpoint(big-tablet) {
+  @include breakpoint(small-screen) {
     display: none;
   }
 }
@@ -23,7 +23,7 @@
 .mobileMenu {
   display: none;
 
-  @include breakpoint(big-tablet) {
+  @include breakpoint(small-screen) {
     display: initial;
     position: fixed;
     z-index: 100000;
@@ -41,7 +41,7 @@
   font-size: 20px;
   text-transform: uppercase;
 
-  @include breakpoint(big-tablet) {
+  @include breakpoint(small-screen) {
     display: block;
     padding: 20px 40px;
   }
@@ -51,7 +51,7 @@
   display: none;
   cursor: pointer;
 
-  @include breakpoint(big-tablet) {
+  @include breakpoint(small-screen) {
     display: initial;
   }
 }
