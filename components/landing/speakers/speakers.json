@@ -29,6 +29,13 @@
       "category": "DAOs and governance"
     },
     {
+      "name": "Simon Emanuel Schmid",
+      "twitter": "https://twitter.com/schmid_si",
+      "position": "The Graph",
+      "photo": "simon-emanuel-schmid.png",
+      "category": "Dev Tooling"
+    },
+    {
       "name": "Solange Gueiros",
       "twitter": "https://twitter.com/solangegueiros",
       "position": "Chainlink",
@@ -89,13 +96,6 @@
       "twitter": "https://twitter.com/PolygonSSI",
       "position": "Polygon",
       "photo": "sebastian-rodrigez.png",
-      "category": "Infrastructure & Scaling"
-    },
-    {
-      "name": "Daria Shakhbazova",
-      "twitter": "https://twitter.com/0xdaryashakh",
-      "position": "0x",
-      "photo": "daria-shakhbazova.png",
       "category": "Infrastructure & Scaling"
     },
     {
