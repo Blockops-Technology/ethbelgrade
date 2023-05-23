@@ -72,12 +72,13 @@
 .tab {
   padding: 20px 30px;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 30px;
   border-left: 1px solid var(--primary-green);
   border-top: 1px solid var(--primary-green);
   border-bottom: 1px solid var(--primary-green);
   flex-grow: 1;
   text-align: center;
+  text-transform: uppercase;
 
   &:nth-last-child(1) {
     border-right: 1px solid var(--primary-green);;
@@ -89,15 +90,15 @@
   }
 
   @include breakpoint(small-screen) {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   @include breakpoint(big-tablet) {
-    font-size: 24px;
+    font-size: 18px;
   }
 
   @include breakpoint(tablet) {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   @include breakpoint(landscape) {
@@ -116,7 +117,7 @@
 }
 
 .dayWrapper {
-  background: var(--primary-red);
+  background: #0078FF;
   padding: 45px 30px 20px;
 
   @include breakpoint(big-tablet) {
@@ -220,7 +221,7 @@
 }
 
 .talkCategoryDeFi {
-  background-color: var(--primary-red);
+  background-color: lightpink;
 }
 
 .talkCategoryNFT {
@@ -238,6 +239,27 @@
 .talkCategoryDAOsandgovernance {
   background-color: lightskyblue;
 }
+
+.talkCategorySecurity {
+  background-color: var(--primary-red);
+}
+
+.talkCategoryEnterpreneurship {
+  background-color: rebeccapurple;
+}
+
+.talkCategoryDevTooling {
+  background-color: darkgrey;
+}
+
+.talkCategoryUX {
+  background-color: darkgreen;
+}
+
+.talkCategoryRegulations {
+  background-color: dodgerblue;
+}
+
 
 .speaker {
   display: flex;
