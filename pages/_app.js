@@ -32,18 +32,18 @@ function MyApp({ Component, pageProps }) {
             gtag('config', 'G-9SJ21ZMV21');
           `}
       </Script>
-      <style jsx global>{`
-        html {
-          font-family: ${rubik.style.fontFamily};
-        }
-        
-        :root {
-          --roboto-mono: ${robotoMono.style.fontFamily};
-        }
-      `}</style>
-      {
-        getLayout(<Component {...pageProps} />)
-      }
+      <style jsx global>
+        {`
+          html {
+            font-family: ${rubik.style.fontFamily};
+          }
+          
+          :root {
+            --roboto-mono: ${robotoMono.style.fontFamily};
+          }
+        `}
+      </style>
+        { getLayout(<Component {...pageProps} />) }
       <ToastContainer
         position="top-right"
         // theme="dark"

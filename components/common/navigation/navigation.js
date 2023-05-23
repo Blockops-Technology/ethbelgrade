@@ -13,6 +13,9 @@ const Menu = () => (
     <Link href="/#speakers">
       <span className={styles.menuItem}>Speakers</span>
     </Link>
+    <Link href="/#agenda">
+      <span className={styles.menuItem}>Agenda</span>
+    </Link>
     <Link href="/#partners">
       <span className={styles.menuItem}>Partners</span>
     </Link>

@@ -21,7 +21,6 @@
     grid-template-columns: 1fr;
     gap: 20px;
     justify-items: center;
-    img { max-width: 300px;}
   }
 }
 
@@ -48,6 +47,10 @@
   @include breakpoint(big-tablet) {
     font-size: 30px;
   }
+
+  @include breakpoint(big-mobile) {
+    font-size: 26px;
+  }
 }
 
 .bigTitle {
@@ -55,6 +58,10 @@
 
   @include breakpoint(big-tablet) {
     font-size: 48px;
+  }
+
+  @include breakpoint(big-mobile) {
+    font-size: 40px;
   }
 }
 
@@ -74,6 +81,10 @@
     margin-top: -80px;
     margin-bottom: 80px;
     font-size: 20px;
+  }
+
+  @include breakpoint(big-mobile) {
+    margin-right: -5px;
   }
 }
 
