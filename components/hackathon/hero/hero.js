@@ -29,7 +29,7 @@ const Hero = () => (
             Apply to judge
           </Button>
         </a>
-        <a href="https://discord.gg/hUtuwMqAWD" target="_blank" rel="noreferrer noopener">
+        <a href="https://discord.gg/jQvtXAFHmS" target="_blank" rel="noreferrer noopener">
           <Button ghost>Join Discord</Button>
         </a>
       </div>
