@@ -24,6 +24,9 @@ const Partners = () => (
             <a href="https://blockanalitica.com/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/BlockAnalitica-logo.png" alt="Block Analitica logo" />
             </a>
+            <a href="https://metamask.io/" target="_blank" rel="noreferrer noopener">
+              <img src="/images/partners/MetaMaskSnaps-logo.svg" alt="MetaMask logo" />
+            </a>
             <a href="https://www.liquity.org/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/liquity-logo-white.svg" alt="Liquity logo" />
             </a>
