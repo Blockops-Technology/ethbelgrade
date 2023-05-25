@@ -30,11 +30,11 @@ const Partners = () => (
             <a href="https://www.liquity.org/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/liquity-logo-white.svg" alt="Liquity logo" />
             </a>
-            <a href="http://cloverlabs.io/" target="_blank" rel="noreferrer noopener">
-              <img src="/images/partners/clover.svg" alt="Clover logo" />
-            </a>
             <a href="https://renfter.com/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/renfter-logo.svg" alt="Renfter logo" />
+            </a>
+            <a href="http://cloverlabs.io/" target="_blank" rel="noreferrer noopener">
+              <img src="/images/partners/clover.svg" alt="Clover logo" />
             </a>
             <a href="https://tangem.com/pricing/?promocode=BELGRADE" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/tangem-white.png" alt="Tangem logo" />
@@ -50,6 +50,9 @@ const Partners = () => (
             </a>
             <a href="https://gno.land/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/gnoland-logo.png" alt="Gno.land logo" />
+            </a>
+            <a href="https://streamflow.finance/" target="_blank" rel="noreferrer noopener">
+              <img src="/images/partners/streamflow-logo-min.svg" alt="Streamflow Finance logo" />
             </a>
             <a href="https://chainide.com/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/ChainIDE.svg" alt="ChainIDE logo" />
