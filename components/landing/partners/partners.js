@@ -48,6 +48,9 @@ const Partners = () => (
             <a href="https://electrocoin.hr/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/electrocoin-logo.png" alt="Electrocoin logo" />
             </a>
+            <a href="https://gno.land/" target="_blank" rel="noreferrer noopener">
+              <img src="/images/partners/gnoland-logo.png" alt="Gno.land logo" />
+            </a>
             <a href="https://chainide.com/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/ChainIDE.svg" alt="ChainIDE logo" />
             </a>
