@@ -39,11 +39,14 @@ const Partners = () => (
             <a href="https://tangem.com/pricing/?promocode=BELGRADE" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/tangem-white.png" alt="Tangem logo" />
             </a>
+            <a href="https://unusualsour.com/" target="_blank" rel="noreferrer noopener">
+              <img src="/images/partners/Unusual-Sour-Logo.png" alt="Unusual Sour logo" />
+            </a>
             <a href="https://bloxico.com/" target="_blank" rel="noreferrer noopener">
               <img className={styles.bloxico} src="/images/partners/bloxico-logo.png" alt="Bloxico logo" />
             </a>
-            <a href="https://unusualsour.com/" target="_blank" rel="noreferrer noopener">
-              <img src="/images/partners/Unusual-Sour-Logo.png" alt="Unusual Sour logo" />
+            <a href="https://electrocoin.hr/" target="_blank" rel="noreferrer noopener">
+              <img src="/images/partners/electrocoin-logo.png" alt="Electrocoin logo" />
             </a>
             <a href="https://chainide.com/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/ChainIDE.svg" alt="ChainIDE logo" />
