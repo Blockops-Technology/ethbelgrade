@@ -6,9 +6,9 @@ const MediaPartners = () => (
     <div className="container">
       <div className={styles.header}>
         <p className={styles.title}>Thanks for spreading the word</p>
-        <a href="mailto:tanja@ethbelgrade.rs">
-          <Button>Become a media partner</Button>
-        </a>
+        {/*<a href="mailto:tanja@ethbelgrade.rs">*/}
+        {/*  <Button>Become a media partner</Button>*/}
+        {/*</a>*/}
       </div>
       <div className={styles.mediaPartnersList}>
         <a href="https://cointelegraph.com/" target="_blank" rel="noreferrer noopener">
