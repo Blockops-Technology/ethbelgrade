@@ -5,14 +5,14 @@
       "twitter": "https://twitter.com/ozgurarmanc",
       "position": "Ethereum Foundation",
       "photo": "ozgur-armanc-yigit.png",
-      "category": "ZK Circuits"
+      "category": "Zero Knowledge"
     },
     {
       "name": "Michelle Wu",
       "twitter": "https://twitter.com/web3wu",
       "position": "Metamask",
       "photo": "michelle-wu.png",
-      "category": "Product"
+      "category": "Entrepreneurship"
     },
     {
       "name": "Juan",
@@ -40,7 +40,7 @@
       "twitter": "https://twitter.com/solangegueiros",
       "position": "Chainlink",
       "photo": "solange.png",
-      "category": "Infrastructure & Scaling"
+      "category": "Infrastructure and Scaling"
     },
     {
       "name": "Kevin Olsen",
@@ -68,12 +68,12 @@
       "twitter": "https://twitter.com/md_tanrikulu",
       "position": "Ethereum Name Service",
       "photo": "muhammed-ens.png",
-      "category": "Infrastructure & Scaling"
+      "category": "Infrastructure and Scaling"
     },
     {
       "name": "Daniela Zschaber",
       "twitter": "https://twitter.com/danimimm",
-      "position": "NFTFY & Nouns BR ",
+      "position": "NFTFY and Nouns BR ",
       "photo": "daniela-zschaber.png",
       "category": "DAOs and governance"
     },
@@ -89,35 +89,35 @@
       "twitter": "https://twitter.com/HackBugs",
       "position": "Polygon",
       "photo": "miros.png",
-      "category": "Infrastructure & Scaling"
+      "category": "Infrastructure and Scaling"
     },
     {
       "name": "Sebastian Rodriguez",
       "twitter": "https://twitter.com/PolygonSSI",
       "position": "Polygon",
       "photo": "sebastian-rodrigez.png",
-      "category": "Infrastructure & Scaling"
+      "category": "Infrastructure and Scaling"
     },
     {
       "name": "Vikas Pandey",
       "twitter": "https://twitter.com/vikpande",
       "position": "NEAR",
       "photo": "vikas-pandey.png",
-      "category": "Infrastructure & Scaling"
+      "category": "Infrastructure and Scaling"
     },
     {
       "name": "Dave Lockie",
       "twitter": "https://twitter.com/divydovy",
       "position": "Automattic",
       "photo": "dave-lockie.png",
-      "category": "Infrastructure & Scaling"
+      "category": "Infrastructure and Scaling"
     },
     {
       "name": "Mikhail Krupin",
       "twitter": "https://twitter.com/mike_krupin",
       "position": "zkBob",
       "photo": "mikhail-krupin.png",
-      "category": "Infrastructure & Scaling"
+      "category": "Infrastructure and Scaling"
     },
     {
       "name": "Andy Tudhope",
@@ -131,7 +131,7 @@
       "twitter": "https://twitter.com/maxlomu",
       "position": "Connext",
       "photo": "max-lomuscio.png",
-      "category": "Infrastructure & Scaling"
+      "category": "Infrastructure and Scaling"
     },
     {
       "name": "Kevin Jones",
@@ -194,7 +194,7 @@
       "twitter": "https://twitter.com/rakitadragan",
       "position": "Paradigm",
       "photo": "dragan-rakita.png",
-      "category": "Infrastructure & Scaling"
+      "category": "Infrastructure and Scaling"
     },
     {
       "name": "Noah Jelich",
@@ -215,19 +215,19 @@
       "twitter": "https://twitter.com/sensahil",
       "position": "QuickNode",
       "photo": "sahil-sen.png",
-      "category": "Infrastructure & Scaling"
+      "category": "Infrastructure and Scaling"
     },
     {
       "name": "Bruno Skvorc",
       "twitter": "https://twitter.com/bitfalls",
       "position": "RMRK",
       "photo": "bruno-skvorc.png",
-      "category": "NFT, DAOs and governance"
+      "category": "NFT"
     },
     {
       "name": "Andrej Rakic",
       "twitter": "https://twitter.com/andrej_dev",
-      "position": "Chainlink & MVPW",
+      "position": "Chainlink and MVPW",
       "photo": "andrej-rakic.png",
       "category": "Dev Tooling"
     },
@@ -236,7 +236,7 @@
       "twitter": "",
       "position": "Trust Wallet",
       "photo": "sergei-boiko.png",
-      "category": "Infrastructure & Scaling"
+      "category": "Infrastructure and Scaling"
     },
     {
       "name": "Valentin Mihov",
@@ -264,7 +264,7 @@
       "twitter": "https://twitter.com/itsdevilcrypto",
       "position": "GMX",
       "photo": "maria-begona-cuesta.png",
-      "category": "Legal"
+      "category": "Regulations"
     },
     {
       "name": "Nena Dokuzov",
@@ -283,7 +283,7 @@
     {
       "name": "Marcin Kazmierczak",
       "twitter": "https://twitter.com/Marcin_Kaz13",
-      "position": "RedStone & Warp.cc",
+      "position": "RedStone and Warp.cc",
       "photo": "marcin-kazmierczak.png",
       "category": "DeFi"
     },
@@ -299,7 +299,7 @@
       "twitter": "",
       "position": "NODOSTECH",
       "photo": "cristina-chacon-santa.png",
-      "category": "Web3 Marketing"
+      "category": "Public goods and community"
     },
     {
       "name": "Edi Sinovcic",
@@ -307,6 +307,13 @@
       "position": "SpaceShard",
       "photo": "edi.png",
       "category": "Zero Knowledge"
+    },
+    {
+      "name": "definikola",
+      "twitter": "https://twitter.com/definikola",
+      "position": "DeFi Saver",
+      "photo": "defi-nikola.png",
+      "category": "DeFi"
     },
     {
       "name": "Danijel Gornjakovic",
@@ -320,12 +327,12 @@
       "twitter": "https://twitter.com/BranaRakic",
       "position": "OriginTrail",
       "photo": "branimir-rakic.png",
-      "category": "Infrastructure & Scaling"
+      "category": "Infrastructure and Scaling"
     },
     {
       "name": "Zeynep Ecenaz Altınok",
       "twitter": "https://twitter.com/zecenazaltinok",
-      "position": "CoinTR & SheFi & BUchain",
+      "position": "CoinTR and SheFi and BUchain",
       "photo": "zeynep.png",
       "category": "Public goods and community"
     },
@@ -355,7 +362,7 @@
       "twitter": "https://twitter.com/wukoje",
       "position": "Alt Labs",
       "photo": "vukasin-vukoje.png",
-      "category": "Infrastructure & Scaling"
+      "category": "Infrastructure and Scaling"
     },
     {
       "name": "Vuksan Simunovic",
@@ -369,14 +376,14 @@
       "twitter": "https://twitter.com/instantfinality",
       "position": "Attic42",
       "photo": "ivan-bjelajac.png",
-      "category": "Startups"
+      "category": "Entrepreneurship"
     },
     {
       "name": "Aleksandar Bijelic",
       "twitter": "https://www.linkedin.com/in/bijelic/",
       "position": "MVP",
       "photo": "aleksandar-bijelic.png",
-      "category": "Startups"
+      "category": "Entrepreneurship"
     },
     {
       "name": "Irina Andelic (Grinkina)",
@@ -390,21 +397,21 @@
       "twitter": "https://twitter.com/beincrypto",
       "position": "BeInCrypto",
       "photo": "lejla.png",
-      "category": "Web3 Marketing"
+      "category": "Public goods and community"
     },
     {
       "name": "Petar Atanasovski",
       "twitter": "https://twitter.com/AtanasovskiP",
       "position": "Attic42",
       "photo": "petar.png",
-      "category": "Startups"
+      "category": "Entrepreneurship"
     },
     {
       "name": "Malisa Pusonja",
       "twitter": "https://twitter.com/malisapusonja",
       "position": "Attic42",
       "photo": "malisa-pusonja.png",
-      "category": "Startups"
+      "category": "Entrepreneurship"
     },
     {
       "name": "Marija Mikic",
@@ -432,7 +439,7 @@
       "twitter": "https://twitter.com/miljan0x",
       "position": "Kosen Labs",
       "photo": "miljan-martic.png",
-      "category": "AI + Zero Knowledge"
+      "category": "Zero Knowledge"
     },
     {
       "name": "Pavle Batuta",
@@ -537,21 +544,21 @@
       "twitter": "https://twitter.com/indraynor",
       "position": "Taiko Labs",
       "photo": "dave-d1onys1s.png",
-      "category": "Infrastructure & Scaling"
+      "category": "Infrastructure and Scaling"
     },
     {
       "name": "Johannes Kern",
       "twitter": "https://twitter.com/jonk93",
       "position": "Nerif Network",
       "photo": "johannes-kern.png",
-      "category": "dApps"
+      "category": "Dev Tooling"
     },
     {
       "name": "Vukasin Gostovic",
       "twitter": "https://twitter.com/makemake_kbo",
       "position": "Rainshower",
       "photo": "vukasin-gostovic.png",
-      "category": "Infrastructure & Scaling"
+      "category": "Infrastructure and Scaling"
     }
   ]
 }
