@@ -26,7 +26,7 @@ const Speakers = () => {
                   {
                     speaker.category && (
                       <div>
-                        <div className={styles.category}>{speaker.category}</div>
+                        <div className={`${styles.category} ${styles["category" + speaker.category.replaceAll(" ", "")]}`}>{speaker.category}</div>
                       </div>
                     )
                   }

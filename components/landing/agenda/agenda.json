@@ -214,8 +214,8 @@
             {
               "time": "3:10 PM",
               "title": "Latest developments in DeFi: A comprehensive overview of developing trends in the decentralized finance space",
-              "speaker": "Nikola Markovic",
-              "speakerImage": "",
+              "speaker": "definikola",
+              "speakerImage": "defi-nikola.png",
               "company": "DeFi Saver",
               "category": "DeFi"
             },
@@ -393,7 +393,7 @@
               "speaker": "Michelle Wu",
               "speakerImage": "michelle-wu.png",
               "company": "MetaMask",
-              "category": "Enterpreneurship"
+              "category": "Entrepreneurship"
             },
             {
               "time": "10:50 AM",
@@ -502,7 +502,7 @@
               "speaker": "Valentin Mihov",
               "speakerImage": "valentin-mixov.png",
               "company": "Daedalus",
-              "category": "Infrastructure and scaling "
+              "category": "Infrastructure and scaling"
             },
             {
               "time": "10:10 AM",
@@ -510,7 +510,7 @@
               "speaker": "Dragan Rakita",
               "speakerImage": "dragan-rakita.png",
               "company": "Paradigm",
-              "category": "Infrastructure and scaling "
+              "category": "Infrastructure and scaling"
             },
             {
               "time": "10:50 AM",
@@ -904,7 +904,7 @@
               "speaker": "Petar Atanasovski",
               "speakerImage": "petar.png",
               "company": "Attic42",
-              "category": "Enterpreneurship"
+              "category": "Entrepreneurship"
             },
             {
               "time": "1:30 PM",
@@ -1020,7 +1020,7 @@
               "speaker": "Aleksandar Bijelic",
               "speakerImage": "aleksandar-bijelic.png",
               "company": "Attic42",
-              "category": "Enterpreneurship"
+              "category": "Entrepreneurship"
             },
             {
               "time": "1:00 PM",
