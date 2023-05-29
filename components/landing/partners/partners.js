@@ -133,12 +133,12 @@ const Partners = () => (
         {/*</div>*/}
         {/* TODO: Comment oput when ready ENDS */}
 
-        {/*<div className={styles.ctaSection}>*/}
-        {/*  <p className={styles.ctaTitle}>Consider becoming a partner?</p>*/}
-        {/*  <a href="https://forms.gle/89GkWspMwfCoNyqj9" target="_blank" rel="noreferrer noopener">*/}
-        {/*    <Button>Get in touch</Button>*/}
-        {/*  </a>*/}
-        {/*</div>*/}
+        <div className={styles.ctaSection}>
+          <p className={styles.ctaTitle}>Consider becoming a partner?</p>
+          <a href="https://forms.gle/89GkWspMwfCoNyqj9" target="_blank" rel="noreferrer noopener">
+            <Button>Get in touch</Button>
+          </a>
+        </div>
       </div>
     </div>
   </div>
