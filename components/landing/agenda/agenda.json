@@ -88,30 +88,14 @@
             },
             {
               "time": "2:10 PM",
-              "title": "NFT Panel",
-              "speaker": "",
+              "title": "NFT Panel: One Utility for all NFTs",
+              "speaker": "Abena Asante, Dave Lockie, Fxnction",
               "speakerImage": "",
-              "company": "",
+              "company": "SheFi/DeFi Africa, Automattic, Ratio",
               "category": "NFT"
             },
             {
               "time": "3:10 PM",
-              "title": "The Marketplace of trusted credentials in Web3",
-              "speaker": "Sebastian Rodriguez",
-              "speakerImage": "sebastian-rodrigez.png",
-              "company": "Polygon",
-              "category": "Zero Knowledge"
-            },
-            {
-              "time": "3:50 PM",
-              "title": "Interoperability as a premise to better sharing assets, seamless onboarding, lower costs and higher value generation for all stakeholders",
-              "speaker": "Vikas Pandey",
-              "speakerImage": "vikas-pandey.png",
-              "company": "NEAR Protocol",
-              "category": "Infrastructure and scaling "
-            },
-            {
-              "time": "4:30 PM",
               "title": "Introduction to DeSci",
               "speaker": "Joshua Bate",
               "speakerImage": "joshua-bate.png",
@@ -119,7 +103,15 @@
               "category": "Public goods and community"
             },
             {
-              "time": "5:10 PM",
+              "time": "3:50 PM",
+              "title": "The Marketplace of trusted credentials in Web3",
+              "speaker": "Sebastian Rodriguez",
+              "speakerImage": "sebastian-rodrigez.png",
+              "company": "Polygon",
+              "category": "Zero Knowledge"
+            },
+            {
+              "time": "4:20 PM",
               "title": "Closing Day 1",
               "speaker": "",
               "speakerImage": "",
@@ -142,18 +134,18 @@
             },
             {
               "time": "9:30 AM",
-              "title": "From Apples to Objectives: Directing Decentralized Autonomous Organizations with a Focus on Work",
-              "speaker": "Juan",
+              "title": "Trust, Value, and Honour: What Are Blockchains Actually Good For?",
+              "speaker": "Andy Tudhope, Anna Alexa",
               "speakerImage": "juan-makerdao.png",
-              "company": "MakerDAO",
+              "company": "Kernel, Celo Foundation",
               "category": "DAOs and governance"
             },
             {
               "time": "10:10 AM",
-              "title": "DAOs and Governance Design",
-              "speaker": "Anna Alexa",
-              "speakerImage": "anna-alexa.png",
-              "company": "Celo Foundation",
+              "title": "Trust, Value, and Honour: What Are Blockchains Actually Good For?",
+              "speaker": "Andy Tudhope, Anna Alexa",
+              "speakerImage": "juan-makerdao.png",
+              "company": "Kernel, Celo Foundation",
               "category": "DAOs and governance"
             },
             {
@@ -205,10 +197,10 @@
             },
             {
               "time": "2:10 PM",
-              "title": "Zero Knowledge Panel",
-              "speaker": "",
+              "title": "Zero Knowledge Panel: Validity rollups and beyond (potential for Cloud 2.0)",
+              "speaker": "Edi Sinovcic, Cathie So, Andrija Novakovic",
               "speakerImage": "",
-              "company": "",
+              "company": "Shard Labs, Ethereum Foundation, Geometry",
               "category": "Zero Knowledge"
             },
             {
@@ -221,22 +213,22 @@
             },
             {
               "time": "3:50 PM",
-              "title": "Quadratic Collective Intelligence",
-              "speaker": "Kevin Olsen",
-              "speakerImage": "kevin-olsen.png",
-              "company": "Gitcoin",
-              "category": "Public goods and community"
+              "title": "Interoperability as a premise to better sharing assets, seamless onboarding, lower costs and higher value generation for all stakeholders",
+              "speaker": "Vikas Pandey",
+              "speakerImage": "vikas-pandey.png",
+              "company": "NEAR Protocol",
+              "category": "Infrastructure and scaling"
             },
             {
               "time": "4:30 PM",
-              "title": "Evaluating Trust: Open Peer-to-Peer Dialogues",
-              "speaker": "Andy Tudhope",
-              "speakerImage": "andy-tudhope.png",
-              "company": "Kernel",
-              "category": "Public goods and community"
+              "title": "From Apples to Objectives: Directing Decentralized Autonomous Organizations with a Focus on Work",
+              "speaker": "Juan",
+              "speakerImage": "juan-makerdao.png",
+              "company": "MakerDAO",
+              "category": "DAOs and governance"
             },
             {
-              "time": "5:10 PM",
+              "time": "5:00 PM",
               "title": "Closing Day 2",
               "speaker": "",
               "speakerImage": "",
@@ -322,30 +314,22 @@
             },
             {
               "time": "2:10 PM",
-              "title": "DeFi Panel",
-              "speaker": "",
+              "title": "DeFi Panel: Navigating Risk in DeFi in the last 12 months (how different negative events made an impact)",
+              "speaker": "Definikola, TokenBrice, Daria Shakhbazova, Primož Kordež",
               "speakerImage": "",
-              "company": "",
+              "company": "DeFi Saver, Liquity, 0x, Block Analitica",
               "category": "DeFi"
             },
             {
               "time": "3:10 PM",
-              "title": "",
-              "speaker": "",
-              "speakerImage": "",
-              "company": "",
-              "category": ""
+              "title": "DeFi & Infrastructure (Swaps – regular and gasless ones)",
+              "speaker": "Daria Shakhbazova",
+              "speakerImage": "daria-shakhbazova.png",
+              "company": "0x",
+              "category": "DeFi"
             },
             {
               "time": "3:50 PM",
-              "title": "",
-              "speaker": "",
-              "speakerImage": "",
-              "company": "",
-              "category": ""
-            },
-            {
-              "time": "4:30 PM",
               "title": "Securely scaling web3: Exploring shared security responsibilities",
               "speaker": "Stefan Sopic",
               "speakerImage": "",
@@ -353,7 +337,15 @@
               "category": "Infrastructure and scaling "
             },
             {
-              "time": "5:10 PM",
+              "time": "4:30 PM",
+              "title": "Aligning incentives to enable decentralized storage and compute",
+              "speaker": "Vukasin Vukoje",
+              "speakerImage": "vukasin-vukoje.png",
+              "company": "Alt Labs",
+              "category": "Infrastructure and scaling "
+            },
+            {
+              "time": "5:00 PM",
               "title": "Closing Day 3",
               "speaker": "",
               "speakerImage": "",
@@ -404,14 +396,7 @@
               "category": "Security"
             },
             {
-              "time": "11:20 AM",
-              "title": "Coffee break (20 min)",
-              "speaker": "",
-              "speakerImage": "",
-              "company": ""
-            },
-            {
-              "time": "11:40 AM",
+              "time": "11:30 AM",
               "title": "Honeypots - Hacker traps on the blockchain",
               "speaker": "Noah Jelich",
               "speakerImage": "noah-jelich.png",
@@ -419,15 +404,15 @@
               "category": "Security"
             },
             {
-              "time": "12:20 PM",
-              "title": "Infrastructure Panel",
-              "speaker": "",
+              "time": "12:00 PM",
+              "title": "Infrastructure Panel: Developer tools and infrastructure in a multichain world",
+              "speaker": "PBogdan Habic, Sahil Sen, Lei Wu",
               "speakerImage": "",
-              "company": "",
+              "company": "Tenderly, QuickNode, BlockSec",
               "category": "Infrastructure and scaling "
             },
             {
-              "time": "1:10 PM",
+              "time": "12:30 PM",
               "title": "Lunch break (40 min)",
               "speaker": "",
               "speakerImage": "",
@@ -435,15 +420,15 @@
               "category": ""
             },
             {
-              "time": "1:50 PM",
-              "title": "Why web3 is failing",
-              "speaker": "Malisa Pusonja",
-              "speakerImage": "malisa-pusonja.png",
-              "company": "Attic42",
+              "time": "1:10 PM",
+              "title": "How Web3 Ecosystems and Protocols evolve?",
+              "speaker": "Lazar Travica",
+              "speakerImage": "",
+              "company": "Route 3",
               "category": "Infrastructure and scaling "
             },
             {
-              "time": "2:30 PM",
+              "time": "1:50 PM",
               "title": "Demystifying read only reentrancy",
               "speaker": "Bytes",
               "speakerImage": "bytes032.png",
@@ -451,7 +436,7 @@
               "category": "Security"
             },
             {
-              "time": "3:10 PM",
+              "time": "2:30 PM",
               "title": "Tips and tricks for generating vanity addresses",
               "speaker": "Andrej Rakic",
               "speakerImage": "andrej-rakic.png",
@@ -459,15 +444,15 @@
               "category": "Dev Tooling"
             },
             {
-              "time": "3:50 PM",
-              "title": "",
-              "speaker": "",
-              "speakerImage": "",
-              "company": "",
-              "category": ""
+              "time": "3:10 PM",
+              "title": "Fixing Defi with Open Data",
+              "speaker": "James Corbett",
+              "speakerImage": "james-corbett.png",
+              "company": "Superchain",
+              "category": "DeFi"
             },
             {
-              "time": "4:30 PM",
+              "time": "3:50 PM",
               "title": "Why is DeFI still a sandbox, and how do we integrate it into traditional finance natively",
               "speaker": "Anton Mozghovoi",
               "speakerImage": "anton-mozghovoi.png",
@@ -475,7 +460,7 @@
               "category": "DeFi"
             },
             {
-              "time": "5:00 PM",
+              "time": "4:20 PM",
               "title": "Closing Day 1",
               "speaker": "",
               "speakerImage": "",
@@ -537,10 +522,10 @@
             },
             {
               "time": "12:20 PM",
-              "title": "Security Panel",
-              "speaker": "",
+              "title": "Security Panel: Scalable ideas for reducing smart contract hacks in the next 3 years",
+              "speaker": "Nebojsa Urosevic, Nenad Palinkasevic, Bytes, engn33r",
               "speakerImage": "",
-              "company": "",
+              "company": "Tenderly, DeFi Saver, Web3SecurityDAO, yAudit",
               "category": "Security"
             },
             {
@@ -561,11 +546,11 @@
             },
             {
               "time": "2:30 PM",
-              "title": "Wallet UX - Lessons and learnings in Crypto Wallet UX",
-              "speaker": "Artem Goryunov",
-              "speakerImage": "artem-goryunov.png",
-              "company": "Trust Wallet",
-              "category": "UX"
+              "title": "",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "category": ""
             },
             {
               "time": "3:10 PM",
@@ -654,8 +639,8 @@
             },
             {
               "time": "12:20 PM",
-              "title": "Regulations Panel",
-              "speaker": "",
+              "title": "Regulations Panel: Edgy and hot sticks - disentangling EU regulatory conundrum.",
+              "speaker": "Thibault Schrepel, Xenofon Kontouris, Nena Dokuzov",
               "speakerImage": "",
               "company": "",
               "category": "Regulations"
@@ -670,14 +655,6 @@
             },
             {
               "time": "1:50 PM",
-              "title": "",
-              "speaker": "",
-              "speakerImage": "",
-              "company": "",
-              "category": ""
-            },
-            {
-              "time": "2:30 PM",
               "title": "Digital Identity Trust (How to implement KYC and Proof of uniqueness with Polygon ID)",
               "speaker": "Miros",
               "speakerImage": "miros.png",
@@ -685,20 +662,20 @@
               "category": "Infrastructure and scaling "
             },
             {
-              "time": "3:10 PM",
-              "title": "",
-              "speaker": "",
-              "speakerImage": "",
-              "company": "",
-              "category": ""
+              "time": "2:30 PM",
+              "title": "Why web3 is failing",
+              "speaker": "Malisa Pusonja",
+              "speakerImage": "malisa-pusonja.png",
+              "company": "Attic42",
+              "category": "Infrastructure and scaling "
             },
             {
-              "time": "3:50 PM",
-              "title": "Aligning incentives to enable decentralized storage and compute",
-              "speaker": "Vukasin Vukoje",
-              "speakerImage": "vukasin-vukoje.png",
-              "company": "Alt Labs",
-              "category": "Infrastructure and scaling"
+              "time": "3:10 PM",
+              "title": "Fundraising Panel",
+              "speaker": "Timur Daudpota, Gurpreet Singh, Momir Amidzic",
+              "speakerImage": "",
+              "company": "2080 Ventures, Ilana Capital,  iOSG Ventures",
+              "category": "Entrepreneurship"
             },
             {
               "time": "4:30 PM",
@@ -776,11 +753,11 @@
             },
             {
               "time": "12:20 PM",
-              "title": "The anatomy of a web3 application: A janitor’s dream",
-              "speaker": "Johannes Kern",
-              "speakerImage": "johannes-kern.png",
-              "company": "Nerif Network",
-              "category": "Dev Tooling"
+              "title": "Is your company really ready to go global?",
+              "speaker": "Aleksandar Bijelic",
+              "speakerImage": "aleksandar-bijelic.png",
+              "company": "Attic42",
+              "category": "Entrepreneurship"
             },
             {
               "time": "1:00 PM",
@@ -808,21 +785,14 @@
             },
             {
               "time": "2:50 PM",
-              "title": "Trust: The First 10.000 Years",
-              "speaker": "Pavle Batuta",
+              "title": "Modular vs Monolithic Scaling",
+              "speaker": "Pavle Batuta, James Corbett, Marija Matic",
               "speakerImage": "pavle-batuta.png",
-              "company": "Moonstruck / Renfter",
-              "category": ""
+              "company": "Moonstruck / Renfter, Superchain",
+              "category": "Infrastructure and scaling "
             },
             {
               "time": "3:20 PM",
-              "title": "Coffee break (20 min)",
-              "speaker": "",
-              "speakerImage": "",
-              "company": ""
-            },
-            {
-              "time": "3:40 PM",
               "title": "Efforts to create transparency in Decentralized Finance (DeFi) through the use of statistics and machine learning",
               "speaker": "Marijo Radman",
               "speakerImage": "marijo-radman.png",
@@ -830,7 +800,7 @@
               "category": "DeFi"
             },
             {
-              "time": "4:20 PM",
+              "time": "4:00 PM",
               "title": "The challenges of analytics on multi-chain web3 apps",
               "speaker": "Mislav Javor",
               "speakerImage": "mislav-javor.png",
@@ -838,7 +808,7 @@
               "category": "Dev Tooling"
             },
             {
-              "time": "5:00 PM",
+              "time": "4:30 PM",
               "title": "Closing Day 1",
               "speaker": "",
               "speakerImage": "",
@@ -884,11 +854,11 @@
             },
             {
               "time": "11:40 AM",
-              "title": "Automating MakerDAO's Economic Risk Assessment",
-              "speaker": "Jan Osolnik",
-              "speakerImage": "jan-solnik.png",
-              "company": "Block Analitica",
-              "category": "DeFi"
+              "title": "Investing in Web3 and Blockchain: Opportunities and Challenges",
+              "speaker": "Timur Daudpota",
+              "speakerImage": "",
+              "company": "2080 Ventures",
+              "category": "Enterpreneurship"
             },
             {
               "time": "12:20 PM",
@@ -1016,19 +986,19 @@
             },
             {
               "time": "12:20 PM",
-              "title": "Is your company really ready to go global?",
-              "speaker": "Aleksandar Bijelic",
-              "speakerImage": "aleksandar-bijelic.png",
-              "company": "Attic42",
-              "category": "Entrepreneurship"
+              "title": "Incentive Structures in Web3 Security",
+              "speaker": "Oliver Hörr",
+              "speakerImage": "",
+              "company": "Hats Finance",
+              "category": "Security"
             },
             {
               "time": "1:00 PM",
-              "title": "",
-              "speaker": "",
-              "speakerImage": "",
-              "company": "",
-              "category": ""
+              "title": "The anatomy of a web3 application: A janitor’s dream",
+              "speaker": "Johannes Kern",
+              "speakerImage": "johannes-kern.png",
+              "company": "Nerif Network",
+              "category": "Dev Tooling"
             },
             {
               "time": "1:30 PM",
@@ -1048,11 +1018,11 @@
             },
             {
               "time": "2:50 PM",
-              "title": "",
-              "speaker": "",
-              "speakerImage": "",
-              "company": "",
-              "category": ""
+              "title": "Automating MakerDAO's Economic Risk Assessment",
+              "speaker": "Jan Osolnik",
+              "speakerImage": "jan-solnik.png",
+              "company": "Block Analitica",
+              "category": "DeFi"
             },
             {
               "time": "3:20 PM",
@@ -1097,10 +1067,154 @@
           "date": "Fri, June 2",
           "talks": [
             {
-              "time": "",
-              "title": "Coming soon",
+              "time": "8:30 AM",
+              "title": "Registration + coffee",
               "speaker": "",
-              "speakerImage": ""
+              "speakerImage": "",
+              "company": "",
+              "category": ""
+            },
+            {
+              "time": "9:30 AM",
+              "title": "Opening talk - Main stage",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "category": ""
+            },
+            {
+              "time": "10:00 AM",
+              "title": "Startup Pitching",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "category": ""
+            },
+            {
+              "time": "11:00 AM",
+              "title": "Startup Pitching",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "category": ""
+            },
+            {
+              "time": "12:00 PM",
+              "title": "Build your first smart contract and dapp with AI",
+              "speaker": "Xiao Wu",
+              "speakerImage": "",
+              "company": "ChainIDE",
+              "category": "Workshop"
+            },
+            {
+              "time": "1:00 PM",
+              "title": "Lunch break (60 min)",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "category": ""
+            },
+            {
+              "time": "2:00 PM",
+              "title": "Allice in Gnoland",
+              "speaker": "Milos Zivkovic",
+              "speakerImage": "",
+              "company": "Gno.land",
+              "category": "Workshop"
+            },
+            {
+              "time": "3:00 PM",
+              "title": "MetaMask Snaps",
+              "speaker": "Ariella",
+              "speakerImage": "",
+              "company": "MetaMask",
+              "category": "Workshop"
+            },
+            {
+              "time": "4:00 PM",
+              "title": "Closing Day 1",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "category": ""
+            }
+          ]
+        },
+        {
+          "day": "Day 2",
+          "date": "Sat, June 3",
+          "talks": [
+            {
+              "time": "9:00 AM",
+              "title": "GM + coffee",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "category": ""
+            },
+            {
+              "time": "9:30 AM",
+              "title": "Investor Speed Dating",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "category": ""
+            },
+            {
+              "time": "10:00 AM",
+              "title": "Investor Speed Dating",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "category": ""
+            },
+            {
+              "time": "11:00 AM",
+              "title": "Investor Speed Dating",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "category": ""
+            },
+            {
+              "time": "12:00 PM",
+              "title": "Investor Speed Dating",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "category": ""
+            },
+            {
+              "time": "1:20 PM",
+              "title": "Lunch break (40 min)",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "category": ""
+            },
+            {
+              "time": "2:00 PM",
+              "title": "Workshop about Developer Tooling / Scaffold-ETH",
+              "speaker": "Kevin Jones",
+              "speakerImage": "",
+              "company": "Scaffold-ETH",
+              "category": "Workshop"
+            },
+            {
+              "time": "3:00 PM",
+              "title": "The Graph workshop",
+              "speaker": "Kevin Jones",
+              "speakerImage": "",
+              "company": "The Graph",
+              "category": "Workshop"
+            },
+            {
+              "time": "4:00 PM - 8PM",
+              "title": "Tenderly x DeFi Saver War room",
+              "speaker": "More info coming soon!",
+              "speakerImage": "",
+              "company": "Tenderly, DeFi saver",
+              "category": ""
             }
           ]
         }
