@@ -69,6 +69,9 @@ const Partners = () => (
             <a href="https://mvpworkshop.co/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/mvp-logo.png" alt="MVP Workshop logo" />
             </a>
+            <a href="https://ethernal.tech/" target="_blank" rel="noreferrer noopener">
+              <img src="/images/partners/ethernal-logo-white.svg" alt="Ethernal logo" />
+            </a>
             <a href="https://walk.rs/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/walk-logo.png" alt="WALK logo" />
             </a>
