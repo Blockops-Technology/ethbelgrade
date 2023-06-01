@@ -552,6 +552,13 @@
       "position": "Rainshower",
       "photo": "vukasin-gostovic.png",
       "category": "Infrastructure and Scaling"
+    },
+    {
+      "name": "Lazar Travica",
+      "twitter": "https://twitter.com/lazartravica",
+      "position": "Route3",
+      "photo": "lazartravica.png",
+      "category": "Infrastructure and Scaling"
     }
   ]
 }
