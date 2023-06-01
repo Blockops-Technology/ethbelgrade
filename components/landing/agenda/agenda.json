@@ -34,7 +34,7 @@
             {
               "time": "10:10 AM",
               "title": "Connecting Smart Contracts to the Real World",
-              "speaker": "Solange",
+              "speaker": "Solange Gueiros",
               "speakerImage": "solange.png",
               "company": "Chainlink",
               "category": "Infrastructure and scaling"
@@ -89,9 +89,9 @@
             {
               "time": "2:10 PM",
               "title": "NFT Panel: One Utility for all NFTs",
-              "speaker": "Abena Asante, Dave Lockie, Fxnction",
+              "speaker": "Dave Lockie, Fxnction",
               "speakerImage": "",
-              "company": "SheFi/DeFi Africa, Automattic, Ratio",
+              "company": "Automattic, Ratio",
               "category": "NFT"
             },
             {
@@ -1215,6 +1215,36 @@
               "speakerImage": "",
               "company": "Tenderly, DeFi saver",
               "category": ""
+            }
+          ]
+        },
+        {
+          "day": "Day 3",
+          "date": "Sun, June 4",
+          "talks": [
+            {
+              "time": "8:30 AM",
+              "title": "GM & coffee",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "category": ""
+            },
+            {
+              "time": "11:00 AM",
+              "title": "Blockchain Operating System by NEAR protocol - A common layer for browsing and discovering Open Web experiences, compatible with any blockchain.",
+              "speaker": "Vikas Pandey",
+              "speakerImage": "vikas-pandey.png",
+              "company": "NEAR Protocol",
+              "category": "Infrastructure and scaling"
+            },
+            {
+              "time": "12:00 AM",
+              "title": "Connecting Smart Contracts to the Real World",
+              "speaker": "Solange Gueiros",
+              "speakerImage": "solange.png",
+              "company": "Chainlink",
+              "category": "Infrastructure and scaling"
             }
           ]
         }
