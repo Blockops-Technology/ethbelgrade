@@ -424,7 +424,7 @@
               "title": "How Web3 Ecosystems and Protocols evolve?",
               "speaker": "Lazar Travica",
               "speakerImage": "",
-              "company": "Route 3",
+              "company": "Route3",
               "category": "Infrastructure and scaling "
             },
             {
@@ -548,7 +548,7 @@
               "time": "2:30 PM",
               "title": "Automating MakerDAO's Economic Risk Assessment",
               "speaker": "Jan Osolnik",
-              "speakerImage": "",
+              "speakerImage": "jan-solnik.png",
               "company": "Block Analitica",
               "category": "DeFi"
             },
@@ -1116,7 +1116,7 @@
             },
             {
               "time": "2:00 PM",
-              "title": "Allice in Gnoland",
+              "title": "Alice in Gno.land",
               "speaker": "Milos Zivkovic",
               "speakerImage": "",
               "company": "Gno.land",
