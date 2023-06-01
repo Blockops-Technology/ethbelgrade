@@ -25,7 +25,7 @@
             },
             {
               "time": "9:30 AM",
-              "title": "",
+              "title": "Keynote - Lost in the Hype - From Innovation to Million-Dollar JPEGs",
               "speaker": "Bogdan Habic",
               "speakerImage": "bogdan-habic.png",
               "company": "Tenderly",
@@ -42,7 +42,7 @@
             {
               "time": "10:50 AM",
               "title": "Zero Knowledge in 2023",
-              "speaker": "Andrija Novakovic + Nico",
+              "speaker": "Andrija Novakovic",
               "speakerImage": "andrija-novakovic.png",
               "company": "Geometry",
               "category": "Zero Knowledge"
@@ -282,7 +282,7 @@
             },
             {
               "time": "11:40 AM",
-              "title": "You all heard about zk hype and how zk will solve all the issues of blockchain scaling and privacy. But where are we today at this roadmap and what you can do now vs what will you be able to do in the future and what use cases does it open",
+              "title": "ZKPs: Future VS Reality",
               "speaker": "Edi Sinovcic",
               "speakerImage": "edi-sinovcic.png",
               "company": "SpaceShard",
@@ -406,7 +406,7 @@
             {
               "time": "12:00 PM",
               "title": "Infrastructure Panel: Developer tools and infrastructure in a multichain world",
-              "speaker": "PBogdan Habic, Sahil Sen, Lei Wu",
+              "speaker": "Bogdan Habic, Sahil Sen, Lei Wu",
               "speakerImage": "",
               "company": "Tenderly, QuickNode, BlockSec",
               "category": "Infrastructure and scaling "
@@ -546,11 +546,11 @@
             },
             {
               "time": "2:30 PM",
-              "title": "",
-              "speaker": "",
+              "title": "Automating MakerDAO's Economic Risk Assessment",
+              "speaker": "Jan Osolnik",
               "speakerImage": "",
-              "company": "",
-              "category": ""
+              "company": "Block Analitica",
+              "category": "DeFi"
             },
             {
               "time": "3:10 PM",
@@ -574,7 +574,7 @@
               "speaker": "Mikhail Krupin",
               "speakerImage": "mikhail-krupin.png",
               "company": "zkBob",
-              "category": "Infrastructure and scaling "
+              "category": "UX"
             },
             {
               "time": "5:00 PM",
@@ -601,7 +601,7 @@
             {
               "time": "9:30 AM",
               "title": "How we can front run crypto exploits before they even happen",
-              "speaker": "Alexander Seleznev",
+              "speaker": "Evgeny Marchenko",
               "speakerImage": "",
               "company": "Pessimistic Security",
               "category": "Security"
@@ -640,7 +640,7 @@
             {
               "time": "12:20 PM",
               "title": "Regulations Panel: Edgy and hot sticks - disentangling EU regulatory conundrum.",
-              "speaker": "Thibault Schrepel, Xenofon Kontouris, Nena Dokuzov",
+              "speaker": "Aleksandar Begovic, Thibault Schrepel, Xenofon Kontouris, Nena Dokuzov",
               "speakerImage": "",
               "company": "",
               "category": "Regulations"
@@ -722,11 +722,11 @@
             },
             {
               "time": "10:10 AM",
-              "title": "Forest-Based Real Estate Investment Trusts: A New Frontier in Real World Asset Tokenization for Conservation",
-              "speaker": "Gurpreet Singh",
-              "speakerImage": "gurpreet.png",
+              "title": "",
+              "speaker": "",
+              "speakerImage": "",
               "company": "",
-              "category": "NFT"
+              "category": ""
             },
             {
               "time": "10:50 AM",
@@ -753,10 +753,10 @@
             },
             {
               "time": "12:20 PM",
-              "title": "Is your company really ready to go global?",
+              "title": "Crossing the Chasm - How to bring Enterprise to Web3",
               "speaker": "Aleksandar Bijelic",
               "speakerImage": "aleksandar-bijelic.png",
-              "company": "Attic42",
+              "company": "MVP Workshop",
               "category": "Entrepreneurship"
             },
             {
@@ -1018,11 +1018,11 @@
             },
             {
               "time": "2:50 PM",
-              "title": "Automating MakerDAO's Economic Risk Assessment",
-              "speaker": "Jan Osolnik",
-              "speakerImage": "jan-solnik.png",
-              "company": "Block Analitica",
-              "category": "DeFi"
+              "title": "",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "category": ""
             },
             {
               "time": "3:20 PM",
