@@ -1018,42 +1018,11 @@
             },
             {
               "time": "2:50 PM",
-              "title": "",
-              "speaker": "",
-              "speakerImage": "",
-              "company": "",
-              "category": ""
-            },
-            {
-              "time": "3:20 PM",
-              "title": "Coffee break (20 min)",
-              "speaker": "",
-              "speakerImage": "",
-              "company": ""
-            },
-            {
-              "time": "3:40 PM",
-              "title": "Creation and execution of marketing strategies for blockchain projects and NFT collections.",
-              "speaker": "Cristina Chacon Santa",
-              "speakerImage": "cristina-chacon-santa.png",
-              "company": "NODOSTECH",
-              "category": "Public goods and community"
-            },
-            {
-              "time": "4:20 PM",
               "title": "The art of re-marketing - data driven marketing for crypto",
               "speaker": "Lejla Muratčauš Blagojević",
               "speakerImage": "lejla.png",
               "company": "Be in Crypto",
               "category": "Public goods and community"
-            },
-            {
-              "time": "5:00 PM",
-              "title": "Closing Day 3",
-              "speaker": "",
-              "speakerImage": "",
-              "company": "",
-              "category": ""
             }
           ]
         }
@@ -1124,7 +1093,7 @@
             },
             {
               "time": "3:00 PM",
-              "title": "MetaMask Snaps",
+              "title": "Building with MetaMask Snaps",
               "speaker": "Ariella",
               "speakerImage": "",
               "company": "MetaMask",
