@@ -39,9 +39,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero />
+      <Agenda />
       <About />
       <Speakers />
-      <Agenda />
       <Partners />
       <MediaPartners />
       <Startups />

@@ -5,7 +5,6 @@ export default function mainLayout(page) {
   return (
     <main>
       {page}
-      <Banner />
       <Footer />
     </main>
   );
