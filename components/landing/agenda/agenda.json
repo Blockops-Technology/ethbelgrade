@@ -1,7 +1,7 @@
 {
   "stages": [
     {
-      "stageName": "Main",
+      "stageName": "Main (Stage 1)",
       "programme": [
         {
           "day": "Day 1",
@@ -357,7 +357,7 @@
       ]
     },
     {
-      "stageName": "Builders",
+      "stageName": "Builders (Stage 6)",
       "programme": [
         {
           "day": "Day 1",
@@ -698,7 +698,7 @@
       ]
     },
     {
-      "stageName": "Community",
+      "stageName": "Community (Stage 3)",
       "programme": [
         {
           "day": "Day 1",
