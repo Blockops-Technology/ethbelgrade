@@ -88,7 +88,7 @@
             },
             {
               "time": "2:10 PM",
-              "title": "NFT Panel: One Utility for all NFTs",
+              "title": "NFT Panel: Exploring NFT Usecases",
               "speaker": "Dave Lockie, Fxnction",
               "speakerImage": "",
               "company": "Automattic, Ratio",
@@ -136,15 +136,7 @@
               "time": "9:30 AM",
               "title": "Trust, Value, and Honour: What Are Blockchains Actually Good For?",
               "speaker": "Andy Tudhope, Anna Alexa",
-              "speakerImage": "juan-makerdao.png",
-              "company": "Kernel, Celo Foundation",
-              "category": "DAOs and governance"
-            },
-            {
-              "time": "10:10 AM",
-              "title": "Trust, Value, and Honour: What Are Blockchains Actually Good For?",
-              "speaker": "Andy Tudhope, Anna Alexa",
-              "speakerImage": "juan-makerdao.png",
+              "speakerImage": "",
               "company": "Kernel, Celo Foundation",
               "category": "DAOs and governance"
             },
@@ -314,7 +306,7 @@
             },
             {
               "time": "2:10 PM",
-              "title": "DeFi Panel: Navigating Risk in DeFi in the last 12 months (how different negative events made an impact)",
+              "title": "DeFi Panel: Navigating Risk in DeFi in the last 12 months (through UST and FTX fallouts, USDC depeg & more)",
               "speaker": "Definikola, TokenBrice, Daria Shakhbazova, Primož Kordež",
               "speakerImage": "",
               "company": "DeFi Saver, Liquity, 0x, Block Analitica",
@@ -405,14 +397,6 @@
             },
             {
               "time": "12:00 PM",
-              "title": "Infrastructure Panel: Developer tools and infrastructure in a multichain world",
-              "speaker": "Bogdan Habic, Sahil Sen, Lei Wu",
-              "speakerImage": "",
-              "company": "Tenderly, QuickNode, BlockSec",
-              "category": "Infrastructure and scaling "
-            },
-            {
-              "time": "12:30 PM",
               "title": "Lunch break (40 min)",
               "speaker": "",
               "speakerImage": "",
@@ -429,11 +413,11 @@
             },
             {
               "time": "1:50 PM",
-              "title": "Demystifying read only reentrancy",
-              "speaker": "Bytes",
-              "speakerImage": "bytes032.png",
-              "company": "Web3SecurityDAO",
-              "category": "Security"
+              "title": "",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "category": ""
             },
             {
               "time": "2:30 PM",
@@ -461,11 +445,11 @@
             },
             {
               "time": "4:20 PM",
-              "title": "Closing Day 1",
-              "speaker": "",
+              "title": "Infrastructure Panel: Developer tools and infrastructure in a multichain world",
+              "speaker": "Bogdan Habic, Sahil Sen, Lei Wu",
               "speakerImage": "",
-              "company": "",
-              "category": ""
+              "company": "Tenderly, QuickNode, BlockSec",
+              "category": "Infrastructure and scaling "
             }
           ]
         },
@@ -523,7 +507,7 @@
             {
               "time": "12:20 PM",
               "title": "Security Panel: Scalable ideas for reducing smart contract hacks in the next 3 years",
-              "speaker": "Nebojsa Urosevic, Nenad Palinkasevic, Bytes, engn33r",
+              "speaker": "Nebojsa Urosevic, Nenad Palinkasevic, engn33r",
               "speakerImage": "",
               "company": "Tenderly, DeFi Saver, Web3SecurityDAO, yAudit",
               "category": "Security"
