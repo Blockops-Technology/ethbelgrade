@@ -47,6 +47,13 @@
 .tablist {
   padding: 0;
   margin: 0;
+  //position: sticky;
+  top: 0;
+  z-index: 1;
+
+  @include breakpoint(landscape) {
+    margin: 0 -40px;
+  }
 }
 
 .tablistTitle {
@@ -62,11 +69,7 @@
 .tabsContainer {
   display: flex;
   align-items: center;
-  //background-color: var(--primary-emerald);
-
-  @include breakpoint(landscape) {
-    display: initial;
-  }
+  background-color: var(--backgroung-color);
 }
 
 .tab {
@@ -80,8 +83,12 @@
   text-align: center;
   text-transform: uppercase;
 
+  @include breakpoint(landscape) {
+    padding: 3px;
+  }
+
   &:nth-last-child(1) {
-    border-right: 1px solid var(--primary-green);;
+    border-right: 1px solid var(--primary-green);
   }
 
   &::marker {
@@ -164,6 +171,11 @@
   display: flex;
   align-items: center;
 
+  &.day1 {
+    background-color: rgba(white, .1);
+    opacity: .6;
+  }
+
   @include breakpoint(big-mobile) {
     display: block;
   }
@@ -183,7 +195,7 @@
 
   @include breakpoint(big-mobile) {
     max-width: 100%;
-    padding: 29px 33px;
+    padding: 10px 10px 0px;
     text-align: left;
   }
 }
@@ -194,6 +206,7 @@
 
   @include breakpoint(big-mobile) {
     border-left: none;
+    padding: 10px;
   }
 }
 

@@ -13,7 +13,7 @@ const Agenda = () => (
       <div className={styles.agendaContainer}>
         <Tabs className={styles.tabs}>
           <TabList className={styles.tablist}>
-            <div className={styles.tablistTitle}>Stages</div>
+            {/*<div className={styles.tablistTitle}>Stages</div>*/}
             <div className={styles.tabsContainer}>
               {
                 agenda.stages.map((stage, i) => (
@@ -37,7 +37,7 @@ const Agenda = () => (
                       </div>
                       {
                         day.talks.map((talk, i) => (
-                          <div className={styles.talk} key={i}>
+                          <div className={`${styles.talk} ${styles[day.day.toLowerCase().replace(' ', '')]}`} key={i}>
                             <div className={styles.time}>{talk.time}</div>
                             <div className={styles.talkDetails}>
                               <p className={styles.talkTitle}>{talk.title}</p>
