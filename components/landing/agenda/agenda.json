@@ -297,12 +297,12 @@
               "category": "Infrastructure and scaling "
             },
             {
-              "time": "1:30 PM",
-              "title": "Lunch break (40 min)",
-              "speaker": "",
+              "time": "1:40 PM",
+              "title": "Building the next generation of DeFi",
+              "speaker": "Albert Chon",
               "speakerImage": "",
-              "company": "",
-              "category": ""
+              "company": "Injective Labs",
+              "category": "DeFi"
             },
             {
               "time": "2:10 PM",
@@ -655,19 +655,19 @@
             },
             {
               "time": "3:10 PM",
-              "title": "Fundraising Panel",
-              "speaker": "Timur Daudpota, Gurpreet Singh, Momir Amidzic",
-              "speakerImage": "",
-              "company": "2080 Ventures, Ilana Capital,  iOSG Ventures",
-              "category": "Entrepreneurship"
+              "title": "The Marketplace of trusted credentials in Web3",
+              "speaker": "Sebastian Rodriguez",
+              "speakerImage": "sebastian-rodrigez.png",
+              "company": "Polygon",
+              "category": "Zero Knowledge"
             },
             {
-              "time": "4:30 PM",
-              "title": "Building the right abstractions in a multi chain future",
-              "speaker": "Dave | d1onys1us",
-              "speakerImage": "dave-d1onys1s.png",
-              "company": "Taiko Labs",
-              "category": "Infrastructure and scaling"
+              "time": "3:50 PM",
+              "title": "The challenges of analytics on multi-chain web3 apps",
+              "speaker": "Mislav Javor",
+              "speakerImage": "mislav-javor.png",
+              "company": "DEV3",
+              "category": "Dev Tooling"
             },
             {
               "time": "5:00 PM",
@@ -785,11 +785,11 @@
             },
             {
               "time": "4:00 PM",
-              "title": "The challenges of analytics on multi-chain web3 apps",
-              "speaker": "Mislav Javor",
-              "speakerImage": "mislav-javor.png",
-              "company": "DEV3",
-              "category": "Dev Tooling"
+              "title": "",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "category": ""
             },
             {
               "time": "4:30 PM",
@@ -1166,6 +1166,14 @@
               "speakerImage": "solange.png",
               "company": "Chainlink",
               "category": "Infrastructure and scaling"
+            },
+            {
+              "time": "1:00 PM",
+              "title": "Build a L2 ready dapp in one click",
+              "speaker": "Dave | d1onys1us",
+              "speakerImage": "dave-d1onys1s.png",
+              "company": "Taiko Labs",
+              "category": "Dev Tooling"
             }
           ]
         }
