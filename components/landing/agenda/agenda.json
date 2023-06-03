@@ -507,9 +507,9 @@
             {
               "time": "12:20 PM",
               "title": "Security Panel: Scalable ideas for reducing smart contract hacks in the next 3 years",
-              "speaker": "Nebojsa Urosevic, Nenad Palinkasevic, engn33r",
+              "speaker": "Nebojsa Urosevic, Nenad Palinkasevic, engn33r, Noah Jelich",
               "speakerImage": "",
-              "company": "Tenderly, DeFi Saver, Web3SecurityDAO, yAudit",
+              "company": "Tenderly, DeFi Saver, Web3SecurityDAO, yAudit, Hacken",
               "category": "Security"
             },
             {
@@ -1078,7 +1078,7 @@
             {
               "time": "3:00 PM",
               "title": "MetaMask Snaps",
-              "speaker": "Ariella BVu",
+              "speaker": "Ariella Vu",
               "speakerImage": "ariella-wu.png",
               "company": "MetaMask",
               "category": "Workshop"
@@ -1106,43 +1106,11 @@
               "category": ""
             },
             {
-              "time": "9:30 AM",
+              "time": "2:00 PM",
               "title": "Investor Speed Dating",
-              "speaker": "",
+              "speaker": "RELOCATED to OG Lounge",
               "speakerImage": "",
-              "company": "",
-              "category": ""
-            },
-            {
-              "time": "10:00 AM",
-              "title": "Investor Speed Dating",
-              "speaker": "",
-              "speakerImage": "",
-              "company": "",
-              "category": ""
-            },
-            {
-              "time": "11:00 AM",
-              "title": "Investor Speed Dating",
-              "speaker": "",
-              "speakerImage": "",
-              "company": "",
-              "category": ""
-            },
-            {
-              "time": "12:00 PM",
-              "title": "Investor Speed Dating",
-              "speaker": "",
-              "speakerImage": "",
-              "company": "",
-              "category": ""
-            },
-            {
-              "time": "1:20 PM",
-              "title": "Lunch break (40 min)",
-              "speaker": "",
-              "speakerImage": "",
-              "company": "",
+              "company": "Ends 4:00 PM",
               "category": ""
             },
             {
@@ -1193,7 +1161,7 @@
             },
             {
               "time": "12:00 AM",
-              "title": "Connecting Smart Contracts to the Real World",
+              "title": "How to create a automated raffle using Chainlink",
               "speaker": "Solange Gueiros",
               "speakerImage": "solange.png",
               "company": "Chainlink",
