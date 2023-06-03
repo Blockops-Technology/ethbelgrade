@@ -22,6 +22,22 @@
   }
 }
 
+.subtitle {
+  font-weight: 700;
+  font-size: 42px;
+  max-width: 500px;
+  text-transform: uppercase;
+
+  @include breakpoint(tablet) {
+    font-size: 36px;
+    max-width: 400px;
+  }
+
+  @include breakpoint(big-mobile) {
+    font-size: 28px;
+  }
+}
+
 .heroContent {
   display: flex;
   align-items: flex-end;
@@ -111,6 +127,7 @@
 }
 
 .mapWrapper {
+  margin-top: 50px;
   justify-content: center;
   align-items: flex-end;
   display: flex;
