@@ -608,10 +608,11 @@
             },
             {
               "time": "11:20 AM",
-              "title": "Coffee break (20 min)",
-              "speaker": "",
-              "speakerImage": "",
-              "company": ""
+              "title": "The Marketplace of trusted credentials in Web3",
+              "speaker": "Sebastian Rodriguez",
+              "speakerImage": "sebastian-rodrigez.png",
+              "company": "Polygon",
+              "category": "Zero Knowledge"
             },
             {
               "time": "11:40 AM",
@@ -655,11 +656,11 @@
             },
             {
               "time": "3:10 PM",
-              "title": "The Marketplace of trusted credentials in Web3",
-              "speaker": "Sebastian Rodriguez",
-              "speakerImage": "sebastian-rodrigez.png",
-              "company": "Polygon",
-              "category": "Zero Knowledge"
+              "title": "",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "category": ""
             },
             {
               "time": "3:50 PM",
