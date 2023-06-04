@@ -931,19 +931,19 @@
             },
             {
               "time": "9:30 AM",
+              "title": "",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "category": ""
+            },
+            {
+              "time": "10:10 AM",
               "title": "How web3 changed open source",
               "speaker": "Ivan Bjelajac",
               "speakerImage": "ivan-bjelajac.png",
               "company": "Attic42",
               "category": "Public goods and community"
-            },
-            {
-              "time": "10:10 AM",
-              "title": "The balance between building fast & building safe",
-              "speaker": "Anton Cheng",
-              "speakerImage": "anotn-cheng.png",
-              "company": "Lyra Finance",
-              "category": "Dev Tooling"
             },
             {
               "time": "10:50 AM",
