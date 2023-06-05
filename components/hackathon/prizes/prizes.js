@@ -34,12 +34,12 @@ const Prizes = () => (
         </div>
         <div className={styles.row}>
           <div className={styles.prize}>
-            <img src="/images/partners/LayerX-logo.svg" alt="Layerx logo"/>
+            <img src="/images/partners/polygon-logo.svg" alt="Polygon logo"/>
             <p className={styles.prizeAmount}>$1,000</p>
           </div>
           <div className={styles.prize}>
-            {/*<img src="/images/partners/MetaMaskSnaps-logo.svg" alt="MetaMask logo"/>*/}
-            {/*<p className={styles.prizeAmount}>$3,000</p>*/}
+            <img src="/images/partners/LayerX-logo.svg" alt="Layerx logo"/>
+            <p className={styles.prizeAmount}>$1,000</p>
           </div>
           <div className={styles.prize}>
             {/*<img src="/images/partners/LayerX-logo.svg" alt="Layerx logo"/>*/}

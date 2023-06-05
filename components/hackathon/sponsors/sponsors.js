@@ -37,6 +37,11 @@ const Sponsors = () => (
           {/*  </a>*/}
           {/*</div>*/}
           <div className={styles.sponsor}>
+            <a href="https://polygon.technology/" target="_blank" rel="noreferrer noopener">
+              <img src="/images/partners/polygon-logo.svg" alt="Polygon logo" />
+            </a>
+          </div>
+          <div className={styles.sponsor}>
             <a href="https://layerx.xyz/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/LayerX-logo.svg" alt="LayerX logo" />
             </a>
