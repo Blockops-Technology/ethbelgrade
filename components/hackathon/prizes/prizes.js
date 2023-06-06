@@ -10,7 +10,7 @@ const Prizes = () => (
       <div>
         <div className={styles.topRow}>
           <div className={styles.prize}>
-            <img src="/images/hackathon/eth-logo.png" alt="ETH Belgrade logo"/>
+            <img src="/images/hackathon/eth-general-track.png" alt="ETH Belgrade logo"/>
             <p className={styles.prizeAmount}>$10,000</p>
           </div>
           <div className={styles.prize}>

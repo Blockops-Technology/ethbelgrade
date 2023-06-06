@@ -7,7 +7,7 @@ const Agenda = () => (
         <p className={styles.title}>Hackathon</p>
         <p className={styles.rotate}>Agenda</p>
       </div>
-      <p className={styles.tba}>TBA</p>
+      <img className={styles.image} src="/images/hackathon/hackathon-agenda.jpeg" alt="Agenda" />
     </div>
   </div>
 );
