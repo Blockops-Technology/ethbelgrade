@@ -41,6 +41,11 @@ const MentorsAndJudges = () => (
             <p className={styles.name}>Solange Gueiros</p>
             <p>Chainlink</p>
           </div>
+          <div className={styles.person}>
+            <img src="/images/hackathon/pavle-krivokuca.png" alt="MPerson" />
+            <p className={styles.name}>Pavle Krivokuca</p>
+            <p>Fireblocksgit </p>
+          </div>
         </div>
       </div>
       <div>
