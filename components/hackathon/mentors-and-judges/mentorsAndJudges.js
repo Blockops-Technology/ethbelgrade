@@ -36,6 +36,11 @@ const MentorsAndJudges = () => (
             <p className={styles.name}>Miros</p>
             <p>Polygon</p>
           </div>
+          <div className={styles.person}>
+            <img src="/images/hackathon/solange.png" alt="MPerson" />
+            <p className={styles.name}>Solange Gueiros</p>
+            <p>Chainlink</p>
+          </div>
         </div>
       </div>
       <div>
