@@ -171,10 +171,14 @@
   display: flex;
   align-items: center;
 
-  &.day1 {
-    background-color: rgba(white, .1);
-    opacity: .6;
-  }
+  //&.day1 {
+  //  background-color: rgba(white, .1);
+  //  opacity: .6;
+  //}
+  // &.day2 {
+  //  background-color: rgba(white, .1);
+  //  opacity: .6;
+  //}
 
   @include breakpoint(big-mobile) {
     display: block;

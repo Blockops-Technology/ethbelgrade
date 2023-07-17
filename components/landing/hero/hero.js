@@ -13,6 +13,18 @@ const Hero = () => (
           <img className={styles.label} src="/images/hero-label.png" alt="ETH Belgrade conference label" />
         </div>
       </div>
+
+      <div className={styles.videoPlaylistWrapper}>
+        <p>All talks from ETH Belgrade 2023:</p>
+        <iframe width="800" height="450"
+                src="https://www.youtube-nocookie.com/embed/videoseries?list=PLNRa-ajAcEWRfTRMEeYWGJbtk0RoVRMz7"
+                title="YouTube video player" frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen></iframe>
+        <p>See you next year!</p>
+      </div>
+
+
       {/*<div className={styles.buttons}>*/}
       {/*  /!*<a href="https://forms.gle/89GkWspMwfCoNyqj9" target="_blank" rel="noreferrer noopener">*!/*/}
       {/*  /!*  <Button ghost>*!/*/}
@@ -24,24 +36,27 @@ const Hero = () => (
       {/*  /!*      Apply as a speaker*!/*/}
       {/*  /!*  </Button>*!/*/}
       {/*  </a>*/}
-      <p className={styles.subtitle}>Tickets are still available! 60% off</p>
-        <a href="https://app.moongate.id/events/ethbelgrade" target="_blank" rel="noreferrer noopener">
-          <Button>Get Tickets</Button>
-        </a>
+
+      {/*<p className={styles.subtitle}>Tickets are still available! 60% off</p>*/}
+      {/*  <a href="https://app.moongate.id/events/ethbelgrade" target="_blank" rel="noreferrer noopener">*/}
+      {/*    <Button>Get Tickets</Button>*/}
+      {/*  </a>*/}
+
       {/*  /!*<a href="https://taikai.network/ethbelgrade/hackathons/hackathon-2023" target="_blank" rel="noreferrer noopener">*!/*/}
       {/*  /!*  <Button ghost>*!/*/}
       {/*  /!*    Apply to hack*!/*/}
       {/*  /!*  </Button>*!/*/}
       {/*  /!*</a>*!/*/}
       {/*</div>*/}
-      <div className={styles.mapWrapper}>
-        <a href="/images/GROUND.png">
-          <img src="/images/GROUND.png" alt="ground floor map" />
-        </a>
-        <a href="/images/UPPER.png">
-          <img src="/images/UPPER.png" alt="upper floor map" />
-        </a>
-      </div>
+
+      {/*<div className={styles.mapWrapper}>*/}
+      {/*  <a href="/images/GROUND.png">*/}
+      {/*    <img src="/images/GROUND.png" alt="ground floor map" />*/}
+      {/*  </a>*/}
+      {/*  <a href="/images/UPPER.png">*/}
+      {/*    <img src="/images/UPPER.png" alt="upper floor map" />*/}
+      {/*  </a>*/}
+      {/*</div>*/}
     </div>
   </div>
 );

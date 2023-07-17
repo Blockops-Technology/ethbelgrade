@@ -138,3 +138,22 @@
     padding: 20px;
   }
 }
+
+.videoPlaylistWrapper {
+  text-align: center;
+  font-weight: 700;
+  font-size: 32px;
+
+  iframe {
+    max-width: 100%;
+
+    @include breakpoint(tablet) {
+      width: 600px;
+      height: 338px;
+    }
+    @include breakpoint(big-mobile) {
+      width: 400px;
+      height: 225px;
+    }
+  }
+}
