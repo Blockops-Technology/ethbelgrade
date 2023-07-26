@@ -1,7 +1,29 @@
+import Link from "next/link";
 import styles from "./agenda.module.scss";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 
 import agenda from "./agenda.json";
+import speakers from "../speakers/speakers.json";
+
+const twitter = new Map();
+
+speakers.list.forEach(element => {
+  twitter.set(element.name, element.twitter);
+});
+
+const SpeakerList = (props) => {
+  var first = true;
+  return props.name.split(",").map(name => {
+    const handle = twitter.get(name.trim());
+    const comma = first ? "" : ", ";
+    first = false;
+    if (handle) {
+      return <>{comma}<Link href={`${handle}`} target="_blank" rel="noreferrer noopener">{name}</Link></>;
+    } else {
+      return <>{comma}{name}</>;
+    }
+  });
+}
 
 const Agenda = () => (
   <div id="agenda" className={styles.agenda}>
@@ -52,7 +74,9 @@ const Agenda = () => (
                                     talk.speakerImage &&
                                     <img src={`/images/Speakers/${talk.speakerImage}`} alt={talk.speaker} />
                                   }
-                                  <p>{talk.speaker}</p>
+                                  <p>
+                                    <SpeakerList name={`${talk.speaker}`} />
+                                  </p>
                                   <span>|</span>
                                   <p>{talk.company}</p>
                                 </div>
