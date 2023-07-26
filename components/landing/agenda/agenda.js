@@ -1,4 +1,5 @@
 import styles from "./agenda.module.scss";
+import Link from "next/link";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 
 import agenda from "./agenda.json";
@@ -40,7 +41,7 @@ const Agenda = () => (
                           <div className={`${styles.talk} ${styles[day.day.toLowerCase().replace(' ', '')]}`} key={i}>
                             <div className={styles.time}>{talk.time}</div>
                             <div className={styles.talkDetails}>
-                              <p className={styles.talkTitle}>{talk.title}</p>
+                              <p className={styles.talkTitle}>{talk.recording ? <Link href={`${talk.recording}`} target="_blank" rel="noreferrer noopener">{talk.title}</Link> : talk.title}</p>
                               {
                                 talk.category &&
                                 <p className={`${styles.talkCategory} ${styles["talkCategory" + talk.category.replaceAll(" ", "")]}`}>{talk.category}</p>
