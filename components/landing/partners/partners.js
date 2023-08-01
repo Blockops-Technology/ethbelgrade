@@ -7,7 +7,7 @@ const Partners = () => (
       <div className={styles.content}>
         <div className={styles.sponsors}>
           <p className={styles.title}>They’ve helped us BIG TIME!</p>
-          <p>Shout out to key industry players for supporting this year’s ETH Belgrade!</p>
+          <p>Shout out to key industry players for supporting ETH Belgrade 2023!</p>
           <div className={styles.sponsorsList}>
             <a href="https://tenderly.co/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/tenderly.svg" alt="Tenderly logo" />
@@ -136,12 +136,12 @@ const Partners = () => (
         {/*</div>*/}
         {/* TODO: Comment oput when ready ENDS */}
 
-        <div className={styles.ctaSection}>
-          <p className={styles.ctaTitle}>Consider becoming a partner?</p>
-          <a href="https://forms.gle/89GkWspMwfCoNyqj9" target="_blank" rel="noreferrer noopener">
-            <Button>Get in touch</Button>
-          </a>
-        </div>
+        {/*<div className={styles.ctaSection}>*/}
+        {/*  <p className={styles.ctaTitle}>Consider becoming a partner?</p>*/}
+        {/*  <a href="https://forms.gle/89GkWspMwfCoNyqj9" target="_blank" rel="noreferrer noopener">*/}
+        {/*    <Button>Get in touch</Button>*/}
+        {/*  </a>*/}
+        {/*</div>*/}
       </div>
     </div>
   </div>

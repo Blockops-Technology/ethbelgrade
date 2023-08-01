@@ -7,10 +7,10 @@ const Venue = () => (
       <div className={styles.content}>
         <div className={styles.header}>
           <div className={styles.titleWrapper}>
-            <p className={styles.title}>The Venue</p>
+            <p className={styles.title}>2023 Venue</p>
             <p className={styles.subtitle}>MTS Dvorana</p>
           </div>
-          <p>Join us at the historic Trade Union Hall building. Originally built in the 1950, it hosted everything
+          <p>The historic Trade Union Hall building. Originally built in the 1950, it hosted everything
             from chess championships to music and film festivals. After the most-recent renovation, it serves as a multiplex,
             gallery, and event center. </p>
         </div>

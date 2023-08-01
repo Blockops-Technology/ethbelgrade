@@ -44,12 +44,12 @@ export default function Home() {
       <Speakers />
       <Partners />
       <MediaPartners />
-      <Startups />
-      <TicketCta />
-      <Team />
+      {/*<Startups />*/}
+      {/*<TicketCta />*/}
+      {/*<Team />*/}
       <Quote />
       <Newsletter />
-      <Hackathon />
+      {/*<Hackathon />*/}
       <Venue />
     </div>
   )
