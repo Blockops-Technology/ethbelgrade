@@ -1,6 +1,5 @@
 import Link from "next/link";
 import styles from "./agenda.module.scss";
-import Link from "next/link";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 
 import agenda from "./agenda.json";
