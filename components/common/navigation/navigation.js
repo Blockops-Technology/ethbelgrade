@@ -7,23 +7,26 @@ import CloseIcon from "../../../public/icons/x.svg";
 
 const Menu = () => (
   <>
-    <Link href="/#about">
-      <span className={styles.menuItem}>About</span>
+    <Link href="/">
+      <span className={styles.menuItem}>Conference</span>
     </Link>
-    <Link href="/#speakers">
-      <span className={styles.menuItem}>Speakers</span>
-    </Link>
-    <Link href="/#agenda">
-      <span className={styles.menuItem}>Agenda</span>
-    </Link>
-    <Link href="/#partners">
-      <span className={styles.menuItem}>Partners</span>
-    </Link>
+    {/*<Link href="/#speakers">*/}
+    {/*  <span className={styles.menuItem}>Speakers</span>*/}
+    {/*</Link>*/}
+    {/*<Link href="/#agenda">*/}
+    {/*  <span className={styles.menuItem}>Agenda</span>*/}
+    {/*</Link>*/}
+    {/*<Link href="/#partners">*/}
+    {/*  <span className={styles.menuItem}>Partners</span>*/}
+    {/*</Link>*/}
     {/*<Link href="/#startups">*/}
     {/*  <span className={styles.menuItem}>Startups</span>*/}
     {/*</Link>*/}
     <Link href="/hackathon">
       <span className={styles.menuItem}>Hackathon</span>
+    </Link>
+    <Link href="/community">
+      <span className={styles.menuItem}>Community</span>
     </Link>
     {/*<Link href="#faq">*/}
     {/*  <span className={styles.menuItem}>FAQ</span>*/}
