@@ -1,0 +1,161 @@
+@import "styles/breakpoints";
+
+.hero {
+  background: url("/images/community/vektor.svg");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 64px;
+  max-width: 640px;
+  text-transform: uppercase;
+
+  @include breakpoint(tablet) {
+    font-size: 50px;
+    max-width: 400px;
+  }
+
+  @include breakpoint(big-mobile) {
+    font-size: 40px;
+  }
+}
+
+.subtitle {
+  font-weight: 700;
+  font-size: 42px;
+  max-width: 500px;
+  text-transform: uppercase;
+
+  @include breakpoint(tablet) {
+    font-size: 36px;
+    max-width: 400px;
+  }
+
+  @include breakpoint(big-mobile) {
+    font-size: 28px;
+  }
+}
+
+.heroContent {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+  margin-top: 60px;
+
+  @include breakpoint(medium-screen) {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+}
+
+.labelContainer {
+  position: relative;
+  margin: 80px 0;
+
+}
+
+.sticker {
+  position: absolute;
+  top: -100px;
+  left: 15%;
+  animation: rotate 20s linear infinite;
+
+  @include breakpoint(medium-screen) {
+    top: -80px;
+    left: 13%;
+    width: 130px;
+  }
+
+  @include breakpoint(medium-screen) {
+    width: initial;
+  }
+
+  @include breakpoint(tablet) {
+    top: -80px;
+    left: 13%;
+    width: 130px;
+  }
+
+  @include breakpoint(landscape) {
+    top: -80px;
+    left: 13%;
+    width: 120px;
+  }
+
+  @include breakpoint(big-mobile) {
+    top: -70px;
+    left: 10%;
+    width: 100px;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+     -webkit-transform: rotate(1turn);
+     -moz-transform: rotate(1turn);
+     transform: rotate(1turn);
+   }
+}
+
+.buttons {
+  padding: 66px 0 100px;
+  display: flex;
+  flex-flow: wrap;
+  gap: 30px;
+
+  a {
+    flex-grow: 1;
+  }
+
+  button {
+    width: 100%;
+  }
+
+  @include breakpoint(big-mobile) {
+    padding-top: 0;
+  }
+}
+
+.mapWrapper {
+  margin-top: 50px;
+  justify-content: center;
+  align-items: flex-end;
+  display: flex;
+  flex-wrap: wrap;
+  a {
+    min-width: 300px;
+    flex: 0 1 500px;
+    padding: 20px;
+  }
+}
+
+.videoPlaylistWrapper {
+  text-align: center;
+  font-weight: 700;
+  font-size: 32px;
+
+  iframe {
+    max-width: 100%;
+
+    @include breakpoint(tablet) {
+      width: 600px;
+      height: 338px;
+    }
+    @include breakpoint(big-mobile) {
+      width: 400px;
+      height: 225px;
+    }
+  }
+}
