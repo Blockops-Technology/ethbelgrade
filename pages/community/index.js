@@ -17,7 +17,7 @@ export default function Community() {
         <meta property="og:description" content={description} />
 
         {/*TODO:*/}
-        <meta property="og:image" content="https://ethbelgrade.rs/eth-blegrade-community-og.jpg"/>
+        <meta property="og:image" content="https://ethbelgrade.rs/images/community/eth-blegrade-community-og.jpg"/>
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="ETH Belgrade Community" />
@@ -25,7 +25,7 @@ export default function Community() {
         <meta property="og:type" content="website" />
         <meta name="twitter:site" content="@ethbelgrade" />
         {/*TODO:*/}
-        <meta name="twitter:image" content="https://ethbelgrade.rs/eth-blegrade-community-og.jpg" />
+        <meta name="twitter:image" content="https://ethbelgrade.rs/images/community/eth-blegrade-community-og.jpg" />
 
         <link rel="icon" href="/favicon.ico" />
       </Head>
