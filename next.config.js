@@ -20,6 +20,14 @@ module.exports = {
       },
     ];
   },
+  async rewrites() {
+    return [
+      {
+        source: '/blog',
+        destination: 'https://mirror-next-mmlado.vercel.app/',
+      },
+    ]
+  },
   webpack(config) {
     config.module.rules.push({
       test: /\.svg$/,
