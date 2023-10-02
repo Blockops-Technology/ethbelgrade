@@ -1,7 +1,7 @@
 {
     "rewrites": [
       {
-        "source": "/blog/",
+        "source": "/blog",
         "destination": "https://mirror-next-mmlado.vercel.app/"
       }
     ]
