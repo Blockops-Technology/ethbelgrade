@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
 }
-const { BLOG_URL } = 'https://mirror-next-mmlado.vercel.app/'
+const BLOG_URL = 'https://mirror-next-mmlado.vercel.app/'
 
 module.exports = {
   ...nextConfig,
