@@ -3,6 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
 }
+const { BLOG_URL } = 'https://mirror-next-mmlado.vercel.app/'
 
 module.exports = {
   ...nextConfig,
@@ -23,8 +24,16 @@ module.exports = {
   async rewrites() {
     return [
       {
+        source: '/:path*',
+        destination: `/:path*`,
+      },
+      {
         source: '/blog',
-        destination: 'https://mirror-next-mmlado.vercel.app/',
+        destination: `${BLOG_URL}/blog`,
+      },
+      {
+        source: '/blog/:path*',
+        destination: `${BLOG_URL}/blog/:path*`,
       },
     ]
   },
