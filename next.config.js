@@ -1,9 +1,34 @@
+// const { BLOG_URL } = process.env
+
+// /** @type {import('next').NextConfig} */
+// const nextConfig = {
+//   async rewrites() {
+//     return [
+//       {
+//         source: '/:path*',
+//         destination: `/:path*`,
+//       },
+//       {
+//         source: '/blog',
+//         destination: `${BLOG_URL}/blog`,
+//       },
+//       {
+//         source: '/blog/:path*',
+//         destination: `${BLOG_URL}/blog/:path*`,
+//       },
+//     ]
+//   },
+// }
+
+// module.exports = nextConfig
+
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
 }
-const BLOG_URL = 'https://mirror-next-mmlado.vercel.app/'
+const BLOG_URL = 'https://mirror-next-nine.vercel.app'
 
 module.exports = {
   // ...nextConfig,
