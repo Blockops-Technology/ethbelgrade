@@ -3,6 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
 }
+const BLOG_URL = 'https://mirror-next-nine.vercel.app'
 
 module.exports = {
   ...nextConfig,
@@ -19,6 +20,22 @@ module.exports = {
         permanent: false,
       },
     ];
+  },
+  async rewrites() {
+    return [
+      {
+        source: '/:path*',
+        destination: `/:path*`,
+      },
+      {
+        source: '/blog',
+        destination: `${BLOG_URL}/blog`,
+      },
+      {
+        source: '/blog/:path*',
+        destination: `${BLOG_URL}/blog/:path*`,
+      },
+    ]
   },
   webpack(config) {
     config.module.rules.push({

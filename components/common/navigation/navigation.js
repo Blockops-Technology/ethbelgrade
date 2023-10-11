@@ -28,6 +28,9 @@ const Menu = () => (
     <Link href="/community">
       <span className={styles.menuItem}>Community</span>
     </Link>
+    <Link href="/blog">
+      <span className={styles.menuItem}>Blog</span>
+    </Link>
     {/*<Link href="#faq">*/}
     {/*  <span className={styles.menuItem}>FAQ</span>*/}
     {/*</Link>*/}
