@@ -57,6 +57,13 @@
       "category": "Infrastructure and Scaling"
     },
     {
+      "name": "Bogdan Habic",
+      "twitter": "https://twitter.com/BogdanHabic",
+      "position": "Tenderly",
+      "photo": "bogdan-habic.png",
+      "category": "Dev Tooling"
+    },
+    {
       "name": "Abena Asante",
       "twitter": "https://twitter.com/abena_eth",
       "position": "SheFi, DeFi Africa and Bankless Africa",
@@ -71,11 +78,11 @@
       "category": "DeFi"
     },
     {
-      "name": "Bogdan Habic",
-      "twitter": "https://twitter.com/BogdanHabic",
-      "position": "Tenderly",
-      "photo": "bogdan-habic.png",
-      "category": "Dev Tooling"
+      "name": "Kenny White",
+      "twitter": "https://twitter.com/Dark__Kenny__",
+      "position": "Shell Protocol",
+      "photo": "kenny-white.png",
+      "category": "DeFi"
     },
     {
       "name": "engn33r",
