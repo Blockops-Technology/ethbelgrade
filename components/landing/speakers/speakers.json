@@ -8,18 +8,25 @@
       "category": "Entrepreneurship"
     },
     {
-      "name": "Simon Emanuel Schmid",
-      "twitter": "https://twitter.com/schmid_si",
-      "position": "The Graph",
-      "photo": "simon-emanuel-schmid.png",
-      "category": "Dev Tooling"
-    },
-    {
       "name": "Solange Gueiros",
       "twitter": "https://twitter.com/solangegueiros",
       "position": "Chainlink",
       "photo": "solange.png",
       "category": "Infrastructure and Scaling"
+    },
+    {
+      "name": "Jelena Djuric",
+      "twitter": "https://www.linkedin.com/in/djuricjelena",
+      "position": "Noble",
+      "photo": "jelena-djuric.png",
+      "category": "Infrastructure and Scaling"
+    },
+    {
+      "name": "Simon Emanuel Schmid",
+      "twitter": "https://twitter.com/schmid_si",
+      "position": "The Graph",
+      "photo": "simon-emanuel-schmid.png",
+      "category": "Dev Tooling"
     },
     {
       "name": "TokenBrice",
