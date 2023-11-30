@@ -7,7 +7,7 @@ const Venue = () => (
       <div className={styles.content}>
         <div className={styles.header}>
           <div className={styles.titleWrapper}>
-            <p className={styles.title}>2023 Venue</p>
+            <p className={styles.title}>2024 Venue</p>
             <p className={styles.subtitle}>MTS Dvorana</p>
           </div>
           <p>The historic Trade Union Hall building. Originally built in the 1950, it hosted everything

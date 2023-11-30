@@ -1,6 +1,7 @@
 import styles from "./hero.module.scss";
 import Navigation from "../../common/navigation/navigation";
 import Button from "../../common/button/button";
+import { SPEAKER_APPLICATION_FORM_URL, SPONSOR_APPLICATION_FORM_URL, TICKETING_PLATFORM_URL } from "../../../constants";
 
 const Hero = () => (
   <div className={styles.hero}>
@@ -14,41 +15,39 @@ const Hero = () => (
         </div>
       </div>
 
-      <div className={styles.videoPlaylistWrapper}>
-        <p>All talks from ETH Belgrade 2023:</p>
-        <iframe width="800" height="450"
-                src="https://www.youtube-nocookie.com/embed/videoseries?list=PLNRa-ajAcEWRfTRMEeYWGJbtk0RoVRMz7"
-                title="YouTube video player" frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowFullScreen></iframe>
-        <p>See you next year!</p>
-      </div>
-
-
-      {/*<div className={styles.buttons}>*/}
-      {/*  /!*<a href="https://forms.gle/89GkWspMwfCoNyqj9" target="_blank" rel="noreferrer noopener">*!/*/}
-      {/*  /!*  <Button ghost>*!/*/}
-      {/*  /!*    Become a partner*!/*/}
-      {/*  /!*  </Button>*!/*/}
-      {/*  /!*</a>*!/*/}
-      {/*  /!*<a href="https://forms.gle/Xf3wV3qp5Jq7oM1W9" target="_blank" rel="noreferrer noopener">*!/*/}
-      {/*  /!*  <Button ghost>*!/*/}
-      {/*  /!*      Apply as a speaker*!/*/}
-      {/*  /!*  </Button>*!/*/}
-      {/*  </a>*/}
-
-      {/*<p className={styles.subtitle}>Tickets are still available! 60% off</p>*/}
-      {/*  <a href="https://app.moongate.id/events/ethbelgrade" target="_blank" rel="noreferrer noopener">*/}
-      {/*    <Button>Get Tickets</Button>*/}
-      {/*  </a>*/}
-
-      {/*  /!*<a href="https://taikai.network/ethbelgrade/hackathons/hackathon-2023" target="_blank" rel="noreferrer noopener">*!/*/}
-      {/*  /!*  <Button ghost>*!/*/}
-      {/*  /!*    Apply to hack*!/*/}
-      {/*  /!*  </Button>*!/*/}
-      {/*  /!*</a>*!/*/}
+      {/*<div className={styles.videoPlaylistWrapper}>*/}
+      {/*  <p>All talks from ETH Belgrade 2023:</p>*/}
+      {/*  <iframe width="800" height="450"*/}
+      {/*          src="https://www.youtube-nocookie.com/embed/videoseries?list=PLNRa-ajAcEWRfTRMEeYWGJbtk0RoVRMz7"*/}
+      {/*          title="YouTube video player" frameBorder="0"*/}
+      {/*          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"*/}
+      {/*          allowFullScreen></iframe>*/}
+      {/*  <p>See you next year!</p>*/}
       {/*</div>*/}
 
+
+      <div className={styles.buttons}>
+        <a href={SPONSOR_APPLICATION_FORM_URL} target="_blank" rel="noreferrer noopener">
+          <Button ghost>
+            Become a sponsor
+          </Button>
+        </a>
+        <a href={SPEAKER_APPLICATION_FORM_URL} target="_blank" rel="noreferrer noopener">
+          <Button ghost>
+              Apply as a speaker
+          </Button>
+        </a>
+        <a href={TICKETING_PLATFORM_URL} target="_blank" rel="noreferrer noopener">
+          <Button>Get Tickets</Button>
+        </a>
+        {/*<a href="https://taikai.network/ethbelgrade/hackathons/hackathon-2023" target="_blank" rel="noreferrer noopener">*/}
+        {/*  <Button ghost>*/}
+        {/*    Apply to hack*/}
+        {/*  </Button>*/}
+        {/*</a>*/}
+      </div>
+
+      {/* Venue map */}
       {/*<div className={styles.mapWrapper}>*/}
       {/*  <a href="/images/GROUND.png">*/}
       {/*    <img src="/images/GROUND.png" alt="ground floor map" />*/}

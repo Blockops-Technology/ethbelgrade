@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@formspark/use-formspark": "^0.1.39",
+    "@headlessui/react": "^1.7.17",
     "@next/font": "^13.2.4",
     "@svgr/webpack": "^6.5.1",
     "classnames": "^2.3.2",

@@ -39,13 +39,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero />
-      <Agenda />
+      {/*<Agenda />*/}
       <About />
       <Speakers />
       <Partners />
       <MediaPartners />
       {/*<Startups />*/}
-      {/*<TicketCta />*/}
+      <TicketCta />
       {/*<Team />*/}
       <Quote />
       <Newsletter />

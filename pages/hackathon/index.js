@@ -33,10 +33,10 @@ export default function Hackathon() {
       </Head>
       <Hero />
       <About />
-      <MentorsAndJudges />
-      <Sponsors />
-      <Prizes />
-      <Agenda />
+      {/*<MentorsAndJudges />*/}
+      {/*<Sponsors />*/}
+      {/*<Prizes />*/}
+      {/*<Agenda />*/}
     </div>
   )
 }

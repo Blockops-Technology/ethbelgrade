@@ -1,32 +1,11 @@
 {
   "list": [
     {
-      "name": "Özgür Armanc Yiğit",
-      "twitter": "https://twitter.com/ozgurarmanc",
-      "position": "Ethereum Foundation",
-      "photo": "ozgur-armanc-yigit.png",
-      "category": "Zero Knowledge"
-    },
-    {
-      "name": "Michelle Wu",
-      "twitter": "https://twitter.com/web3wu",
-      "position": "Metamask",
-      "photo": "michelle-wu.png",
+      "name": "John Lilic",
+      "twitter": "https://www.johnlilic.info/jo",
+      "position": "johnlilic.info",
+      "photo": "john-lilic.png",
       "category": "Entrepreneurship"
-    },
-    {
-      "name": "Juan",
-      "twitter": "",
-      "position": "MakerDAO",
-      "photo": "juan-makerdao.png",
-      "category": "DAOs and governance"
-    },
-    {
-      "name": "Anna Alexa",
-      "twitter": "https://twitter.com/AnnaAlexaK",
-      "position": "Celo Foundation",
-      "photo": "anna-alexa.png",
-      "category": "DAOs and governance"
     },
     {
       "name": "Simon Emanuel Schmid",
@@ -43,23 +22,9 @@
       "category": "Infrastructure and Scaling"
     },
     {
-      "name": "Ariella Vu",
-      "twitter": "https://twitter.com/digiwand_",
-      "position": "MetaMask",
-      "photo": "ariella-wu.png",
-      "category": "Workshop"
-    },
-    {
-      "name": "Cathie So",
-      "twitter": "https://twitter.com/drCathieSo_eth",
-      "position": "Ethereum Foundation",
-      "photo": "cathie-so.png",
-      "category": "Zero Knowledge"
-    },
-    {
       "name": "TokenBrice",
       "twitter": "https://twitter.com/TokenBrice",
-      "position": "Liquity",
+      "position": "The DeFi Collective",
       "photo": "token-brice.png",
       "category": "DeFi"
     },
@@ -78,67 +43,18 @@
       "category": "DAOs and governance"
     },
     {
+      "name": "Dragan Rakita",
+      "twitter": "https://twitter.com/rakitadragan",
+      "position": "Paradigm",
+      "photo": "dragan-rakita.png",
+      "category": "Infrastructure and Scaling"
+    },
+    {
       "name": "Abena Asante",
       "twitter": "https://twitter.com/abena_eth",
       "position": "SheFi, DeFi Africa and Bankless Africa",
       "photo": "abena-asante.png",
       "category": "NFT"
-    },
-    {
-      "name": "Miros",
-      "twitter": "https://twitter.com/HackBugs",
-      "position": "Polygon",
-      "photo": "miros.png",
-      "category": "Infrastructure and Scaling"
-    },
-    {
-      "name": "Sebastian Rodriguez",
-      "twitter": "https://twitter.com/PolygonSSI",
-      "position": "Polygon",
-      "photo": "sebastian-rodrigez.png",
-      "category": "Infrastructure and Scaling"
-    },
-    {
-      "name": "Vikas Pandey",
-      "twitter": "https://twitter.com/vikpande",
-      "position": "NEAR",
-      "photo": "vikas-pandey.png",
-      "category": "Infrastructure and Scaling"
-    },
-    {
-      "name": "Dave Lockie",
-      "twitter": "https://twitter.com/divydovy",
-      "position": "Automattic",
-      "photo": "dave-lockie.png",
-      "category": "Infrastructure and Scaling"
-    },
-    {
-      "name": "Mikhail Krupin",
-      "twitter": "https://twitter.com/mike_krupin",
-      "position": "zkBob",
-      "photo": "mikhail-krupin.png",
-      "category": "Infrastructure and Scaling"
-    },
-    {
-      "name": "Andy Tudhope",
-      "twitter": "https://twitter.com/cryptowanderer",
-      "position": "Kernel",
-      "photo": "andy-tudhope.png",
-      "category": "Public goods and community"
-    },
-    {
-      "name": "Max Lomuscio",
-      "twitter": "https://twitter.com/maxlomu",
-      "position": "Connext",
-      "photo": "max-lomuscio.png",
-      "category": "Infrastructure and Scaling"
-    },
-    {
-      "name": "Kevin Jones",
-      "twitter": "https://twitter.com/cryptomastery_",
-      "position": "Buidl Guidl / Scaffold-ETH",
-      "photo": "kevin-jones.png",
-      "category": "Dev Tooling"
     },
     {
       "name": "Nenad Palinkasevic",
@@ -155,158 +71,18 @@
       "category": "Dev Tooling"
     },
     {
-      "name": "Primož Kordež",
-      "twitter": "https://twitter.com/PrimozKordez",
-      "position": "Block Analitica",
-      "photo": "primoz-kordez.png",
-      "category": "DeFi"
-    },
-    {
-      "name": "Jan Osolnik",
-      "twitter": "https://twitter.com/JanOsolnik",
-      "position": "Block Analitica",
-      "photo": "jan-solnik.png",
-      "category": "DeFi"
+      "name": "engn33r",
+      "twitter": "https://twitter.com/bl4ckb1rd71",
+      "position": "yAudit",
+      "photo": "engn33r.png",
+      "category": "Security"
     },
     {
       "name": "James Corbett",
       "twitter": "https://twitter.com/l__c__m",
       "position": "Superchain",
       "photo": "james-corbett.png",
-      "category": "DeFi"
-    },
-    {
-      "name": "John Shutt",
-      "twitter": "https://twitter.com/jdshutt",
-      "position": "UMA",
-      "photo": "john-shutt.png",
-      "category": "DAOs and governance"
-    },
-    {
-      "name": "Vlad Temian",
-      "twitter": "",
-      "position": "Sandbox",
-      "photo": "vlad-temian.png",
-      "category": "NFT"
-    },
-    {
-      "name": "Marius Balaj",
-      "twitter": "https://twitter.com/balajmarius",
-      "position": "Sandbox",
-      "photo": "marius-balaj.png",
-      "category": "NFT"
-    },
-    {
-      "name": "Dragan Rakita",
-      "twitter": "https://twitter.com/rakitadragan",
-      "position": "Paradigm",
-      "photo": "dragan-rakita.png",
-      "category": "Infrastructure and Scaling"
-    },
-    {
-      "name": "Noah Jelich",
-      "twitter": "https://twitter.com/NoahJelich",
-      "position": "Hacken",
-      "photo": "noah-jelich.png",
-      "category": "Security"
-    },
-    {
-      "name": "Sifis Lagouvardos",
-      "twitter": "https://twitter.com/dedaub",
-      "position": "Dedaub",
-      "photo": "sifis.png",
-      "category": "Security"
-    },
-    {
-      "name": "Sahil Sen",
-      "twitter": "https://twitter.com/sensahil",
-      "position": "QuickNode",
-      "photo": "sahil-sen.png",
-      "category": "Infrastructure and Scaling"
-    },
-    {
-      "name": "Andrej Rakic",
-      "twitter": "https://twitter.com/andrej_dev",
-      "position": "Chainlink and MVPW",
-      "photo": "andrej-rakic.png",
-      "category": "Dev Tooling"
-    },
-    {
-      "name": "Sergei Boiko",
-      "twitter": "",
-      "position": "Trust Wallet",
-      "photo": "sergei-boiko.png",
-      "category": "Infrastructure and Scaling"
-    },
-    {
-      "name": "Valentin Mihov",
-      "twitter": "https://twitter.com/valentinmihov",
-      "position": "Daedalus",
-      "photo": "valentin-mixov.png",
-      "category": "Infrastructure and Scaling"
-    },
-    {
-      "name": "Artem Goryunov",
-      "twitter": "",
-      "position": "Trust Wallet",
-      "photo": "artem-goryunov.png",
-      "category": "Dev Tooling"
-    },
-    {
-      "name": "Nikita Kirillov",
-      "twitter": "https://twitter.com/urbittesweet",
-      "position": "Pessimistic Security",
-      "photo": "nikita-kirilov.png",
-      "category": "Security"
-    },
-    {
-      "name": "@itsdevilcrypto",
-      "twitter": "https://twitter.com/itsdevilcrypto",
-      "position": "GMX",
-      "photo": "maria-begona-cuesta.png",
-      "category": "Regulations"
-    },
-    {
-      "name": "Nena Dokuzov",
-      "twitter": "",
-      "position": "Ministry of the Economy, Tourism and Sport in Slovenia",
-      "photo": "nena-dokuzov.png",
-      "category": "Regulations"
-    },
-    {
-      "name": "Michael Jacobs",
-      "twitter": "https://twitter.com/fxnction",
-      "position": "Ratio",
-      "photo": "fxnction.png",
-      "category": "DAOs and governance"
-    },
-    {
-      "name": "Marcin Kazmierczak",
-      "twitter": "https://twitter.com/Marcin_Kaz13",
-      "position": "RedStone and Warp.cc",
-      "photo": "marcin-kazmierczak.png",
-      "category": "DeFi"
-    },
-    {
-      "name": "bytes032",
-      "twitter": "https://twitter.com/bytes032",
-      "position": "Web3Security DAO",
-      "photo": "bytes032.png",
-      "category": "Security"
-    },
-    {
-      "name": "Cristina Chacon Santa",
-      "twitter": "",
-      "position": "NODOSTECH",
-      "photo": "cristina-chacon-santa.png",
-      "category": "Public goods and community"
-    },
-    {
-      "name": "Edi Sinovcic",
-      "twitter": "https://twitter.com/edisinovcic",
-      "position": "SpaceShard",
-      "photo": "edi.png",
-      "category": "Zero Knowledge"
+      "category": "Workshop"
     },
     {
       "name": "definikola",
@@ -316,158 +92,11 @@
       "category": "DeFi"
     },
     {
-      "name": "Danijel Gornjakovic",
-      "twitter": "https://twitter.com/veryhighlander",
-      "position": "Thales",
-      "photo": "danijel-gornjakovic.png",
-      "category": "DeFi"
-    },
-    {
-      "name": "Branimir Rakic",
-      "twitter": "https://twitter.com/BranaRakic",
-      "position": "OriginTrail",
-      "photo": "branimir-rakic.png",
-      "category": "Infrastructure and Scaling"
-    },
-    {
-      "name": "Zeynep Ecenaz Altınok",
-      "twitter": "https://twitter.com/zecenazaltinok",
-      "position": "CoinTR and SheFi and BUchain",
-      "photo": "zeynep.png",
-      "category": "Public goods and community"
-    },
-    {
-      "name": "Blendor Sefaj",
-      "twitter": "https://twitter.com/blendorsefaj",
-      "position": "Clover Labs",
-      "photo": "blendor.png",
-      "category": "Public goods and community"
-    },
-    {
-      "name": "Gurpreet Singh",
-      "twitter": "https://www.linkedin.com/in/gurpreetsingh101/",
-      "position": "Stealth",
-      "photo": "gurpreet.png",
-      "category": "TBA"
-    },
-    {
-      "name": "Mislav Javor",
-      "twitter": "https://twitter.com/0xMislav",
-      "position": "DEV3",
-      "photo": "mislav-javor.png",
-      "category": "Dev Tooling"
-    },
-    {
-      "name": "Vukasin Vukoje",
-      "twitter": "https://twitter.com/wukoje",
-      "position": "Alt Labs",
-      "photo": "vukasin-vukoje.png",
-      "category": "Infrastructure and Scaling"
-    },
-    {
-      "name": "Ivan Bjelajac",
-      "twitter": "https://twitter.com/instantfinality",
-      "position": "Attic42",
-      "photo": "ivan-bjelajac.png",
-      "category": "Entrepreneurship"
-    },
-    {
-      "name": "Aleksandar Bijelic",
-      "twitter": "https://www.linkedin.com/in/bijelic/",
-      "position": "MVP",
-      "photo": "aleksandar-bijelic.png",
-      "category": "Entrepreneurship"
-    },
-    {
-      "name": "Irina Andelic (Grinkina)",
-      "twitter": "",
-      "position": "Varius Systems",
-      "photo": "irina-andelic.png",
-      "category": "NFT"
-    },
-    {
-      "name": "Lejla Muratčauš Blagojević",
-      "twitter": "https://twitter.com/beincrypto",
-      "position": "BeInCrypto",
-      "photo": "lejla.png",
-      "category": "Public goods and community"
-    },
-    {
-      "name": "Petar Atanasovski",
-      "twitter": "https://twitter.com/AtanasovskiP",
-      "position": "Attic42",
-      "photo": "petar.png",
-      "category": "Entrepreneurship"
-    },
-    {
-      "name": "Malisa Pusonja",
-      "twitter": "https://twitter.com/malisapusonja",
-      "position": "Attic42",
-      "photo": "malisa-pusonja.png",
-      "category": "Entrepreneurship"
-    },
-    {
-      "name": "Marija Mikic",
-      "twitter": "https://www.linkedin.com/in/marija-miki%C4%87-878842a2/",
-      "position": "3327",
-      "photo": "marija-mikic.png",
-      "category": "Zero Knowledge"
-    },
-    {
-      "name": "Andrija Novakovic",
-      "twitter": "https://twitter.com/AndrijaNovakov6",
-      "position": "Geometry",
-      "photo": "andrija-novakovic.png",
-      "category": "Zero Knowledge"
-    },
-    {
-      "name": "parazyd",
-      "twitter": "https://twitter.com/parazyd",
-      "position": "DarkFi",
-      "photo": "parazyd.png",
-      "category": "Security"
-    },
-    {
-      "name": "Miljan Martic",
-      "twitter": "https://twitter.com/miljan0x",
-      "position": "Kosen Labs",
-      "photo": "miljan-martic.png",
-      "category": "Zero Knowledge"
-    },
-    {
-      "name": "Pavle Batuta",
-      "twitter": "",
-      "position": "Moonstruck / Renfter",
-      "photo": "pavle-batuta.png",
-      "category": "NFT"
-    },
-    {
-      "name": "Mario Alves",
-      "twitter": "https://twitter.com/marioralves",
-      "position": "LayerX",
-      "photo": "mario-alves.png",
-      "category": "Public goods and community"
-    },
-    {
-      "name": "Aleeza Howitt",
-      "twitter": "https://twitter.com/aleezagroks",
-      "position": "Cowri Labs",
-      "photo": "aleeza-howitt.png",
-      "category": "DeFi"
-    },
-    {
-      "name": "engn33r",
-      "twitter": "https://twitter.com/bl4ckb1rd71",
-      "position": "yAudit",
-      "photo": "engn33r.png",
-      "category": "Security"
-    },
-    {
-      "name": "Vlaho Hrdalo",
-      "twitter": "https://twitter.com/VlahoHrdalo",
-      "position": "UBIK.hr",
-      "photo": "vlaho-hrdalo.png",
-      "category": "Regulations"
+      "name": "Kevin Jones",
+      "twitter": "https://twitter.com/cryptomastery_",
+      "position": "The Graph / Buidl Guidl",
+      "photo": "kevin-jones.png",
+      "category": "Workshop"
     },
     {
       "name": "Ilija Rilakovic",
@@ -477,88 +106,11 @@
       "category": "Regulations"
     },
     {
-      "name": "Xenofon Kontouris",
-      "twitter": "https://twitter.com/xenofonofathens",
-      "position": "Athens Labs",
-      "photo": "xenofon-kontouris.png",
-      "category": "Regulations"
-    },
-    {
-      "name": "Anton Mozgovoy",
-      "twitter": "https://twitter.com/niarbnotna",
-      "position": "Holyheld",
-      "photo": "anton-mozghovoi.png",
-      "category": "DeFi"
-    },
-    {
-      "name": "Zeki",
-      "twitter": "https://twitter.com/zekiblue",
-      "position": "Arcadia Finance",
-      "photo": "zeki.png",
-      "category": "Dev Tooling"
-    },
-    {
-      "name": "Anton Cheng",
-      "twitter": "https://twitter.com/antonttc",
-      "position": "Lyra Finance",
-      "photo": "anotn-cheng.png",
-      "category": "Security"
-    },
-    {
-      "name": "Marijo Radman",
-      "twitter": "https://twitter.com/Marijo_radman",
-      "position": "Solity Network",
-      "photo": "marijo-radman.png",
-      "category": "DeFi"
-    },
-    {
-      "name": "Joshua Bate",
-      "twitter": "https://twitter.com/jb87ua",
-      "position": "DeSciWorld",
-      "photo": "joshua-bate.png",
-      "category": "Public goods and community"
-    },
-    {
-      "name": "Andrei Văcaru",
-      "twitter": "https://twitter.com/anvacaru",
-      "position": "Runtime Verification, Inc.",
-      "photo": "andrei-vacaru.png",
-      "category": "Security"
-    },
-    {
       "name": "Mladen Milankovic",
       "twitter": "https://twitter.com/mladenmilankovi",
       "position": "HTEC Group",
       "photo": "mladen-milankovic.png",
       "category": "Dev Tooling"
-    },
-    {
-      "name": "Dave | d1onys1us",
-      "twitter": "https://twitter.com/indraynor",
-      "position": "Taiko Labs",
-      "photo": "dave-d1onys1s.png",
-      "category": "Infrastructure and Scaling"
-    },
-    {
-      "name": "Johannes Kern",
-      "twitter": "https://twitter.com/jonk93",
-      "position": "Nerif Network",
-      "photo": "johannes-kern.png",
-      "category": "Dev Tooling"
-    },
-    {
-      "name": "Vukasin Gostovic",
-      "twitter": "https://twitter.com/makemake_kbo",
-      "position": "Rainshower",
-      "photo": "vukasin-gostovic.png",
-      "category": "Infrastructure and Scaling"
-    },
-    {
-      "name": "Lazar Travica",
-      "twitter": "https://twitter.com/lazartravica",
-      "position": "Route3",
-      "photo": "lazartravica.png",
-      "category": "Infrastructure and Scaling"
     }
   ]
 }

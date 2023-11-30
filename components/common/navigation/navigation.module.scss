@@ -37,13 +37,46 @@
 }
 
 .menuItem {
+  cursor: pointer;
   font-weight: 500;
   font-size: 20px;
   text-transform: uppercase;
+  background: none;
+  color: white;
+  font-family: var(--rubik);
 
   @include breakpoint(small-screen) {
     display: block;
     padding: 20px 40px;
+  }
+}
+
+.dropdownWrapper {
+  position: relative;
+}
+
+.dropdown {
+  position: absolute;
+  top: 40px;
+  width: 100%;
+  padding: 0 6px 0 0;
+
+  @include breakpoint(small-screen) {
+    position: initial;
+    padding: 0 0 0 60px;
+  }
+}
+
+.dropdownLink {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+  margin: 10px 0;
+
+  @include breakpoint(small-screen) {
+    justify-content: flex-start;
+    gap: 20px;
   }
 }
 
