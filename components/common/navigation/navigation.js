@@ -37,6 +37,8 @@ const MainMenu = () => (
             {({ active }) => (
               <Link
                 href="https://2023.ethbelgrade.rs"
+                target="_blank"
+                rel="noreferrer noopener"
                 className={styles.dropdownLink}
               >
                 <img src="/icons/play-arrow.svg" alt="arrow icon" />
