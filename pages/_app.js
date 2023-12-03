@@ -40,6 +40,7 @@ function MyApp({ Component, pageProps }) {
           
           :root {
             --roboto-mono: ${robotoMono.style.fontFamily};
+            --rubik: ${rubik.style.fontFamily};
           }
         `}
       </style>

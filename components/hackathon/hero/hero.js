@@ -10,7 +10,7 @@ const Hero = () => (
         <div className={styles.labelContainer}>
           <img className={styles.sticker} src="/images/hackathon/hero-sticker.svg" alt="ETH Belgrade hackathon sticker" />
           <img className={styles.label} src="/images/hackathon/hero-label.png" alt="ETH Belgrade hackathonx label" />
-          <p className={styles.date}>Coming back in 2024</p>
+          <p className={styles.date}>More info soon</p>
         </div>
       </div>
       {/*<div className={styles.buttons}>*/}

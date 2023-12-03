@@ -8,7 +8,7 @@ const Quote = () => (
         <div className={styles.quote}>
           <p className={styles.quoteText}>Belgrade equals Web3. Some of the biggest Web3 projects in the world started here,  and it’s our mission to make Belgrade’s name as recognizable as they are.”</p>
           <p className={styles.name}>Petar POPOVIĆ</p>
-          <p  className={styles.title}>ETH Belgrade Core Organiser, CEO & Founder at Renfter</p>
+          <p  className={styles.title}>ETH Belgrade Core Organiser, Founder at Blockops</p>
         </div>
       </div>
     </div>
