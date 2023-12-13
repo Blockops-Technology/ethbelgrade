@@ -11,11 +11,18 @@
   width: 200px;
 }
 
-.menu {
+.menuLinks {
   display: flex;
-  gap: 30px;
+  align-items: center;
+  gap: 25px;
 
-  @include breakpoint(small-screen) {
+  @include breakpoint(medium-screen) {
+    display: initial;
+  }
+}
+
+.menu {
+  @include breakpoint(medium-screen) {
     display: none;
   }
 }
@@ -23,7 +30,7 @@
 .mobileMenu {
   display: none;
 
-  @include breakpoint(small-screen) {
+  @include breakpoint(medium-screen) {
     display: initial;
     position: fixed;
     z-index: 100000;
@@ -39,13 +46,13 @@
 .menuItem {
   cursor: pointer;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 18px;
   text-transform: uppercase;
   background: none;
   color: white;
   font-family: var(--rubik);
 
-  @include breakpoint(small-screen) {
+  @include breakpoint(medium-screen) {
     display: block;
     padding: 20px 40px;
   }
@@ -61,7 +68,7 @@
   width: 100%;
   padding: 0 6px 0 0;
 
-  @include breakpoint(small-screen) {
+  @include breakpoint(medium-screen) {
     position: initial;
     padding: 0 0 0 60px;
   }
@@ -74,9 +81,22 @@
   font-weight: bold;
   margin: 10px 0;
 
-  @include breakpoint(small-screen) {
+  @include breakpoint(medium-screen) {
     justify-content: flex-start;
     gap: 20px;
+  }
+}
+
+.button {
+  font-size: 18px;
+  padding: 20px 25px;
+
+  @include breakpoint(medium-screen) {
+    padding: 20px 40px;
+    background: none;
+    border: none;
+    color: var(--primary-green);
+    text-align: left;
   }
 }
 
@@ -84,7 +104,7 @@
   display: none;
   cursor: pointer;
 
-  @include breakpoint(small-screen) {
+  @include breakpoint(medium-screen) {
     display: initial;
   }
 }
