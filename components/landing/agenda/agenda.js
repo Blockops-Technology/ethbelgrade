@@ -62,7 +62,8 @@ const Agenda = () => (
                           <div className={`${styles.talk} ${styles[day.day.toLowerCase().replace(' ', '')]}`} key={i}>
                             <div className={styles.time}>{talk.time}</div>
                             <div className={styles.talkDetails}>
-                              <p className={styles.talkTitle}>{talk.recording ? <Link href={`${talk.recording}`} target="_blank" rel="noreferrer noopener">{talk.title}</Link> : talk.title}</p>
+                              <p className={styles.talkTitle}>{talk.recording ? <Link href={`${talk.recording}`} target="_blank" rel="noreferrer noopener">
+                                 <img className={styles.playIcon} src="/icons/play.webp" alt="Play icon" />{talk.title}</Link> : talk.title}</p>
                               {
                                 talk.category &&
                                 <p className={`${styles.talkCategory} ${styles["talkCategory" + talk.category.replaceAll(" ", "")]}`}>{talk.category}</p>
