@@ -20,7 +20,7 @@ const Hero = () => (
             Become a sponsor
           </Button>
         </a>
-        <a href="mailto:hello@ethbelgrade.rs" target="_blank" rel="noreferrer noopener">
+        <a href="https://forms.gle/4p5sQNTQsZmwcSJR7" target="_blank" rel="noreferrer noopener">
           <Button ghost>
               Apply as a speaker
           </Button>

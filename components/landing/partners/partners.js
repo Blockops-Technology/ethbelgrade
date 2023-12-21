@@ -67,9 +67,6 @@ const Partners = () => (
         {/*    <a href="https://layerx.xyz/" target="_blank" rel="noreferrer noopener">*/}
         {/*      <img src="/images/partners/LayerX-logo.svg" alt="LayerX logo" />*/}
         {/*    </a>*/}
-        {/*    <a href="https://mvpworkshop.co/" target="_blank" rel="noreferrer noopener">*/}
-        {/*      <img src="/images/partners/mvp-logo.png" alt="MVP Workshop logo" />*/}
-        {/*    </a>*/}
         {/*    <a href="https://ethernal.tech/" target="_blank" rel="noreferrer noopener">*/}
         {/*      <img src="/images/partners/ethernal-logo-white.svg" alt="Ethernal logo" />*/}
         {/*    </a>*/}
@@ -131,9 +128,14 @@ const Partners = () => (
             <a href="https://moongate.id/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/moongate-logo.png" alt="Moongate logo" />
             </a>
+            <a href="https://mvpworkshop.co/" target="_blank" rel="noreferrer noopener">
+              <img src="/images/partners/mvp-logo.png" alt="MVP Workshop logo" />
+            </a>
+            <a href="https://attic42.com/" target="_blank" rel="noreferrer noopener">
+              <img src="/images/partners/attic42-logo.svg" alt="Attic 42 logo" />
+            </a>
           </div>
         </div>
-        {/* TODO: Comment oput when ready ENDS */}
 
         <div className={styles.ctaSection}>
           <p className={styles.ctaTitle}>Consider becoming a sponsor?</p>
