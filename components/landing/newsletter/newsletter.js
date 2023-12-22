@@ -13,11 +13,22 @@ const Newsletter = () => {
   const [email, setEmail] = useState("");
   const onInputChange = (e) => setEmail(e.target.value);
 
+  const validateEmail = (email) => {
+    return email.match(
+      /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+    );
+  };
+
   const submitForm = async (e) => {
     if (!email) {
       toast.error("Email required")
       return;
     };
+
+    if (!validateEmail(email)) {
+      toast.error("Not a valid email address")
+      return;
+    }
 
     await submit({ email });
     toast.success("Form submitted");
