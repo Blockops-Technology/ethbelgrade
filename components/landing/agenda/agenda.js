@@ -4,6 +4,7 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 
 import agenda from "./agenda.json";
 import speakers from "../speakers/speakers.json";
+import Button from "../../common/button/button";
 
 const twitter = new Map();
 
@@ -62,7 +63,18 @@ const Agenda = () => (
                           <div className={`${styles.talk} ${styles[day.day.toLowerCase().replace(' ', '')]}`} key={i}>
                             <div className={styles.time}>{talk.time}</div>
                             <div className={styles.talkDetails}>
-                              <p className={styles.talkTitle}>{talk.recording ? <Link href={`${talk.recording}`} target="_blank" rel="noreferrer noopener">{talk.title}</Link> : talk.title}</p>
+                              <p className={styles.talkTitle}>{talk.title}</p>
+                              {
+                                talk.recording &&
+                                <div>
+                                  <Link href={`${talk.recording}`} target="_blank" rel="noreferrer noopener">
+                                    <Button className={styles.viewOnYt}>
+                                      <img className={styles.playIcon} src="/icons/play.svg" alt="Play icon" />
+                                      View recording on YouTube
+                                    </Button>
+                                  </Link>
+                                </div>
+                              }
                               {
                                 talk.category &&
                                 <p className={`${styles.talkCategory} ${styles["talkCategory" + talk.category.replaceAll(" ", "")]}`}>{talk.category}</p>

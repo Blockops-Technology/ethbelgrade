@@ -13,6 +13,12 @@
   }
 }
 
+.playIcon {
+  max-width: 24px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
 .title {
   font-weight: 700;
   font-size: 40px;
@@ -216,6 +222,20 @@
   @include breakpoint(landscape) {
     font-size: 18px;
   }
+
+  a {
+    font-weight: 400;
+  }
+}
+
+.viewOnYt {
+  font-size: 14px;
+  padding: 10px;
+  margin: 10px 0;
+  background: white;
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
 .talkCategory {
@@ -286,5 +306,9 @@
 
   img {
     width: 30px;
+  }
+
+  a {
+    font-weight: 400;
   }
 }
