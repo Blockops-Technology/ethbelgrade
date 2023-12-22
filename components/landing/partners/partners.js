@@ -119,6 +119,9 @@ const Partners = () => (
           </div>
           <p className={styles.tierAlt}>Partners</p>
           <div className={styles.sponsorsList}>
+            <a href="https://esp.ethereum.foundation/" target="_blank" rel="noreferrer noopener">
+              <img src="/images/partners/EF-ESP-logo.svg" alt="Ethereum Foundation Ecosystem Support Program logo" />
+            </a>
             <a href="https://blocksplit.net/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/BlockSplit_logo.png" alt="BlockSplit logo" />
             </a>
