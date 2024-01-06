@@ -122,6 +122,12 @@ const Partners = () => (
             <a href="https://esp.ethereum.foundation/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/EF-ESP-logo.svg" alt="Ethereum Foundation Ecosystem Support Program logo" />
             </a>
+            <a href="https://web3securitysummit.com//" target="_blank" rel="noreferrer noopener">
+              <img src="/images/partners/web3-sec-summit-logo-light.png" alt="Web3 Security Summit logo" />
+            </a>
+            <a href="https://rustsummit.com/" target="_blank" rel="noreferrer noopener">
+              <img src="/images/partners/rust-summit-logo.svg" alt="Rust Summit logo" />
+            </a>
             <a href="https://blocksplit.net/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/BlockSplit_logo.png" alt="BlockSplit logo" />
             </a>
@@ -136,6 +142,9 @@ const Partners = () => (
             </a>
             <a href="https://attic42.com/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/attic42-logo.svg" alt="Attic 42 logo" />
+            </a>
+            <a href="https://moonstruck.io/" target="_blank" rel="noreferrer noopener">
+              <img src="/images/partners/moonstruck-logo.svg" alt="Moonstruck logo" />
             </a>
           </div>
         </div>
