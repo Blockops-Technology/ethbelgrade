@@ -122,7 +122,7 @@ const Partners = () => (
             <a href="https://esp.ethereum.foundation/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/EF-ESP-logo.svg" alt="Ethereum Foundation Ecosystem Support Program logo" />
             </a>
-            <a href="https://web3securitysummit.com//" target="_blank" rel="noreferrer noopener">
+            <a href="https://web3securitysummit.com/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/web3-sec-summit-logo-light.png" alt="Web3 Security Summit logo" />
             </a>
             <a href="https://rustsummit.com/" target="_blank" rel="noreferrer noopener">
