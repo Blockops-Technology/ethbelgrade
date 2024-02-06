@@ -134,11 +134,14 @@ const Partners = () => (
             <a href="https://blocksplit.net/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/BlockSplit_logo.png" alt="BlockSplit logo" />
             </a>
-            <a href="https://walk.rs/" target="_blank" rel="noreferrer noopener">
-              <img src="/images/partners/walk-logo.png" alt="WALK logo" />
+            <a href="https://layerx.xyz/" target="_blank" rel="noreferrer noopener">
+              <img src="/images/partners/LayerX-logo.svg" alt="LayerX logo" />
             </a>
             <a href="https://moongate.id/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/moongate-logo.png" alt="Moongate logo" />
+            </a>
+            <a href="https://walk.rs/" target="_blank" rel="noreferrer noopener">
+              <img src="/images/partners/walk-logo.png" alt="WALK logo" />
             </a>
             <a href="https://mvpworkshop.co/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/mvp-logo.png" alt="MVP Workshop logo" />
