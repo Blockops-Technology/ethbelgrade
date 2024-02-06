@@ -128,6 +128,9 @@ const Partners = () => (
             <a href="https://rustsummit.com/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/rust-summit-logo.svg" alt="Rust Summit logo" />
             </a>
+            <a href="https://www.ethbucharest.xyz/" target="_blank" rel="noreferrer noopener">
+              <img src="/images/partners/eth-bucharest-logo-white.svg" alt="ETH Bucharest logo" />
+            </a>
             <a href="https://blocksplit.net/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/BlockSplit_logo.png" alt="BlockSplit logo" />
             </a>
