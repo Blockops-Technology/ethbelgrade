@@ -3,3 +3,4 @@ export const SPEAKER_APPLICATION_FORM_URL = "https://docs.google.com/forms/d/e/1
 export const SPONSOR_APPLICATION_FORM_URL = "https://forms.gle/noyd3TYynSh1yuPv8";
 export const TICKETING_PLATFORM_URL = "https://app.moongate.id/e/ethbelgrade2024";
 export const BGBW_URL = "https://belgradeblockchainweek.com/"
+export const HACKATHON_APPLICATION_FORM_URL = "https://taikai.network/ethbelgrade/hackathons/eth-belgrade-hackathon-2024";
