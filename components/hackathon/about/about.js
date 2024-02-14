@@ -19,10 +19,10 @@ const About = () => (
               ETH Belgrade Hackathon offers a three-day hacking experience with a primary focus on building on Ethereum. Following the success of the inaugural hackathon in 2023, we aim to surpass it in every aspect.
               <br />
               <br />
-              This year, we're opening the doors for builders from all around the globe to join us both in-person and online (hybrid). Our goal is to gather hundreds of hackers and curious minds to develop projects and use cases that will reshape the Ethereum landscape and enhance people's lives.
+              This year, we&apos;re opening the doors for builders from all around the globe to join us both in-person and online (hybrid). Our goal is to gather hundreds of hackers and curious minds to develop projects and use cases that will reshape the Ethereum landscape and enhance people&apos;s lives.
               <br />
               <br />
-              An attractive prize pool, numerous bounties, collaborations with people from top-tier protocols and an unparalleled opportunity to bring your fresh ideas to life—these are just some of the benefits you'll gain by participating in the second edition of the ETH Belgrade conference.
+              An attractive prize pool, numerous bounties, collaborations with people from top-tier protocols and an unparalleled opportunity to bring your fresh ideas to life—these are just some of the benefits you&apos;ll gain by participating in the second edition of the ETH Belgrade conference.
             </p>
             <p className={styles.sectionText}>To find detailed information about ETH Belgrade Hackathon, please visit our official TAIKAI page.</p>
             
