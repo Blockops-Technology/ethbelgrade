@@ -15,10 +15,10 @@
       "category": "Core protocol and Infra"
     },
     {
-      "name": "Jelena Djuric",
-      "twitter": "https://www.linkedin.com/in/djuricjelena",
-      "position": "Noble",
-      "photo": "jelena-djuric.png",
+      "name": "Dragan Rakita",
+      "twitter": "https://twitter.com/rakitadragan",
+      "position": "Paradigm",
+      "photo": "dragan-rakita.png",
       "category": "Core protocol and Infra"
     },
     {
@@ -36,18 +36,18 @@
       "category": "DeFi"
     },
     {
+      "name": "Niklas Kunkel",
+      "twitter": "https://twitter.com/nomos_paradox",
+      "position": "MakerDAO (chronicle labs)",
+      "photo": "niklas-kunkel.png",
+      "category": "DeFi"
+    },
+    {
       "name": "Daniela Zschaber",
       "twitter": "https://twitter.com/danimimm",
       "position": "NFTFY and Nouns BR ",
       "photo": "daniela-zschaber.png",
       "category": "DAOs and governance"
-    },
-    {
-      "name": "Dragan Rakita",
-      "twitter": "https://twitter.com/rakitadragan",
-      "position": "Paradigm",
-      "photo": "dragan-rakita.png",
-      "category": "Core protocol and Infra"
     },
     {
       "name": "Bogdan Habic",
@@ -63,18 +63,33 @@
       "photo": "nenad-palinkasevic.png",
       "category": "DeFi"
     },
+
     {
       "name": "Abena Asante",
       "twitter": "https://twitter.com/abena_eth",
-      "position": "SheFi, DeFi Africa and Bankless Africa",
+      "position": "ETHAccra & SheFi",
       "photo": "abena-asante.png",
       "category": "NFT"
+    },
+    {
+      "name": "Jelena Djuric",
+      "twitter": "https://www.linkedin.com/in/djuricjelena",
+      "position": "Noble",
+      "photo": "jelena-djuric.png",
+      "category": "Core protocol and Infra"
     },
     {
       "name": "Kenny White",
       "twitter": "https://twitter.com/Dark__Kenny__",
       "position": "Shell Protocol",
       "photo": "kenny-white.png",
+      "category": "DeFi"
+    },
+    {
+      "name": "definikola",
+      "twitter": "https://twitter.com/definikola",
+      "position": "DeFi Saver",
+      "photo": "defi-nikola.png",
       "category": "DeFi"
     },
     {
@@ -91,17 +106,32 @@
       "photo": "james-corbett.png",
       "category": "Workshop"
     },
+
     {
-      "name": "definikola",
-      "twitter": "https://twitter.com/definikola",
-      "position": "DeFi Saver",
-      "photo": "defi-nikola.png",
+      "name": "Yehor Balytskyi",
+      "twitter": "https://twitter.com/turbofakesmile",
+      "position": "rektoff.xyz",
+      "photo": "yehor-balytskyi.png",
+      "category": "Security"
+    },
+    {
+      "name": "Vukasin Gostovic",
+      "twitter": "https://twitter.com/makemake_kbo",
+      "position": "",
+      "photo": "vukasin-gostovic.png",
+      "category": "Core protocol and Infra"
+    },
+    {
+      "name": "Tadeo",
+      "twitter": "https://twitter.com/tadeongmi",
+      "position": "Phoenix Labs, Spark, Maker",
+      "photo": "tadeo.png",
       "category": "DeFi"
     },
     {
       "name": "Ilija Rilakovic",
       "twitter": "https://twitter.com/LawyerWooden",
-      "position": "WALK",
+      "position": "",
       "photo": "ilija-rilakovic.png",
       "category": "Regulations"
     },
@@ -111,6 +141,13 @@
       "position": "HTEC Group",
       "photo": "mladen-milankovic.png",
       "category": "Dev Tooling"
+    },
+    {
+      "name": "Jan Zibelnik",
+      "twitter": "https://twitter.com/zibmacher",
+      "position": "Lossless",
+      "photo": "jan-zibelnik.png",
+      "category": "Security"
     }
   ]
 }
