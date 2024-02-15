@@ -140,9 +140,6 @@ const Partners = () => (
             <a href="https://moongate.id/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/moongate-logo.png" alt="Moongate logo" />
             </a>
-            <a href="https://walk.rs/" target="_blank" rel="noreferrer noopener">
-              <img src="/images/partners/walk-logo.png" alt="WALK logo" />
-            </a>
             <a href="https://mvpworkshop.co/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/mvp-logo.png" alt="MVP Workshop logo" />
             </a>
