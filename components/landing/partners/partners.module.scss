@@ -56,6 +56,11 @@
   }
 }
 
+.superSponsorsList {
+  @extend .sponsorsList;
+  grid-template-columns: repeat(3, 1fr);
+}
+
 .bloxico {
   max-height: 70px !important;
 }

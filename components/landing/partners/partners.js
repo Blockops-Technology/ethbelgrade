@@ -84,16 +84,22 @@ const Partners = () => (
         {/* TODO: Comment oput when ready */}
 
           <p className={styles.tier}>Supersponsors</p>
-          <div className={styles.sponsorsList}>
+          <div className={styles.superSponsorsList}>
             <a href="https://tenderly.co/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/tenderly.svg" alt="Tenderly logo" />
             </a>
             <a href="https://defisaver.com/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/defi-saver.png" alt="DeFi Saver logo" />
             </a>
-            <a style={{display: "flex", gap: 20, alignItems: "center"}} href="https://www.johnlilic.info/" target="_blank" rel="noreferrer noopener">
+            <a href="https://www.web3mine.io/" target="_blank" rel="noreferrer noopener">
+              <img src="/images/partners/web3mine-logo.svg" alt="web3mine logo" />
+            </a>
+            <a style={{display: "flex", gap: 20, alignItems: "center", justifyContent: "center"}} href="https://www.johnlilic.info/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/johnlilic.jpg" alt="John Lilic logo" />
               <p style={{fontWeight: "bold", fontSize: 20, textTransform: "uppercase"}}>John Lilic</p>
+            </a>
+            <a href="https://www.telos.net/" target="_blank" rel="noreferrer noopener">
+              <img src="/images/partners/telos.svg" alt="Telos logo" />
             </a>
           </div>
         {/*  /!*<p className={styles.tierAlt}>Platinum sponsors</p>*!/*/}
