@@ -29,6 +29,9 @@ const MediaPartners = () => (
         <a href="https://www.netokracija.rs/" target="_blank" rel="noreferrer noopener">
           <img src="/images/media-partners/netokracija-logo.svg" alt="Netokracija logo" />
         </a>
+        <a href="https://listing.help/" target="_blank" rel="noreferrer noopener">
+          <img src="/images/media-partners/listing-help.svg" alt="Listing help logo" />
+        </a>
         {/*<a href="https://cryptodataspace.com/" target="_blank" rel="noreferrer noopener">*/}
         {/*  <img src="/images/media-partners/CDS_LOGO_WHITE.svg" alt="Crypto Data Space logo" />*/}
         {/*</a>*/}
