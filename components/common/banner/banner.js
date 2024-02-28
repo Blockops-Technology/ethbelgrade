@@ -11,7 +11,7 @@ const Banner = () => {
     days,
     seconds,
     isRunning,
-  } = useTimer({ expiryTimestamp: new Date('29 February 2024 00:00:00 GMT+0200 (Central European Summer Time)'), onExpire: () => console.warn('onExpire called') });
+  } = useTimer({ expiryTimestamp: new Date('1 March 2024 00:00:00 GMT+0200 (Central European Summer Time)'), onExpire: () => console.warn('onExpire called') });
 
 
   return (
