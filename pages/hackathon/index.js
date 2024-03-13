@@ -32,6 +32,7 @@ export default function Hackathon() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero />
+      <Prizes />
       <About />
       {/*<MentorsAndJudges />*/}
       {/*<Sponsors />*/}
