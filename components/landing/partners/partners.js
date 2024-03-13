@@ -102,18 +102,24 @@ const Partners = () => (
               <img src="/images/partners/telos.svg" alt="Telos logo" />
             </a>
           </div>
-        {/*  /!*<p className={styles.tierAlt}>Platinum sponsors</p>*!/*/}
-        {/*  /!*<div className={styles.sponsorsList}>*!/*/}
-        {/*  /!*</div>*!/*/}
-        {/*  /!*<p className={styles.tier}>Gold sponsors</p>*!/*/}
-        {/*  /!*<div className={styles.sponsorsList}>*!/*/}
-        {/*  /!*</div>*!/*/}
-        {/*  <p className={styles.tierAlt}>Silver sponsors</p>*/}
-        {/*  <div className={styles.sponsorsList}>*/}
-        {/*    <a href="https://taikai.network/" target="_blank" rel="noreferrer noopener">*/}
-        {/*      <img src="/images/partners/taikai.svg" alt="TAIKAI logo" />*/}
-        {/*    </a>*/}
-        {/*  </div>*/}
+
+          {/*<p className={styles.tierAlt}>Tier 2 sponsors</p>*/}
+          {/*<div className={styles.sponsorsList}>*/}
+          {/*</div>*/}
+
+          <p className={styles.tier}>Tier 3 sponsors</p>
+          <div className={styles.sponsorsList}>
+            <a href="https://blockanalitica.com/" target="_blank" rel="noreferrer noopener">
+              <img src="/images/partners/BlockAnalitica-logo.png" alt="Block Analitica logo" />
+            </a>
+          </div>
+
+          <p className={styles.tierAlt}>Tier 4 sponsors</p>
+          <div className={styles.sponsorsList}>
+            <a href="https://li.fi/" target="_blank" rel="noreferrer noopener">
+              <img style={{width: "100%"}} src="/images/partners/lifi-logo.svg" alt="LiFi logo" />
+            </a>
+          </div>
           <p className={styles.tier}>Supported by</p>
           <div className={styles.sponsorsList}>
             <a href="https://blockops.technology/" target="_blank" rel="noreferrer noopener">
@@ -133,6 +139,9 @@ const Partners = () => (
             </a>
             <a href="https://rustsummit.com/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/rust-summit-logo.svg" alt="Rust Summit logo" />
+            </a>
+            <a href="https://jumper.exchange/" target="_blank" rel="noreferrer noopener">
+              <img style={{width: "100%"}} src="/images/partners/jumper-logo.svg" alt="Jumper logo" />
             </a>
             <a href="https://www.ethbucharest.xyz/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/eth-bucharest-logo-white.svg" alt="ETH Bucharest logo" />
