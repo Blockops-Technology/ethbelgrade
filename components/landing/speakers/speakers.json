@@ -117,7 +117,7 @@
     {
       "name": "Vukasin Gostovic",
       "twitter": "https://twitter.com/makemake_kbo",
-      "position": "",
+      "position": "Independent Rust Developer",
       "photo": "vukasin-gostovic.png",
       "category": "Core protocol and Infra"
     },
@@ -131,7 +131,7 @@
     {
       "name": "Ilija Rilakovic",
       "twitter": "https://twitter.com/LawyerWooden",
-      "position": "",
+      "position": "Attorney at Rilakovic office",
       "photo": "ilija-rilakovic.png",
       "category": "Regulations"
     },
@@ -148,6 +148,41 @@
       "position": "Lossless",
       "photo": "jan-zibelnik.png",
       "category": "Security"
+    },
+    {
+      "name": "Abhimanyu Nag",
+      "twitter": "https://twitter.com/AbhiMan1601",
+      "position": "ChainRisk",
+      "photo": "abhimanyu-nag.png",
+      "category": "Security"
+    },
+    {
+      "name": "Marcin Kazmierczak",
+      "twitter": "https://twitter.com/Marcin_Kaz13",
+      "position": "RedStone",
+      "photo": "marcin-kazmierczak.png",
+      "category": "DeFi"
+    },
+    {
+      "name": "Marija Mikic",
+      "twitter": "",
+      "position": "3327",
+      "photo": "marija-mikic.png",
+      "category": "Zero Knowledge"
+    },
+    {
+      "name": "Alex Mukhin",
+      "twitter": "https://twitter.com/alex__mcl",
+      "position": "Cryptomeria Capital",
+      "photo": "alex-mukhin.png",
+      "category": "Zero Knowledge"
+    },
+    {
+      "name": "James Glasscock",
+      "twitter": "https://twitter.com/0xJMG",
+      "position": "Reserve protocol",
+      "photo": "james-glasscock.png",
+      "category": "DeFi"
     }
   ]
 }
