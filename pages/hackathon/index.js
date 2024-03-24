@@ -8,7 +8,7 @@ import Prizes from "../../components/hackathon/prizes/prizes";
 import Agenda from "../../components/hackathon/agenda/agenda";
 
 export default function Hackathon() {
-  const description = "ETH Belgrade Hackathon (5-6 June 2023) is a three-day event that gathers Web3 talents from around the world to compete for bounties provided by our sponsors and partners and the main prize.";
+  const description = "ETH Belgrade Hackathon offers a three-day hacking experience with a primary focus on building on Ethereum. We're opening the doors for builders from all around the globe to join us both in-person and online (hybrid).";
   return (
     <div>
       <Head>
