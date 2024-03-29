@@ -36,6 +36,13 @@
       "category": "DeFi"
     },
     {
+      "name": "Lefteris Karapetsas",
+      "twitter": "https://twitter.com/LefterisJP",
+      "position": "rotki",
+      "photo": "lefteris-karapetsas.png",
+      "category": "DeFi"
+    },
+    {
       "name": "Niklas Kunkel",
       "twitter": "https://twitter.com/nomos_paradox",
       "position": "MakerDAO (chronicle labs)",
@@ -63,7 +70,13 @@
       "photo": "nenad-palinkasevic.png",
       "category": "DeFi"
     },
-
+    {
+      "name": "adcv",
+      "twitter": "https://twitter.com/adcv_",
+      "position": "Steakhouse / Lido",
+      "photo": "adcv.png",
+      "category": "DeFi"
+    },
     {
       "name": "Abena Asante",
       "twitter": "https://twitter.com/abena_eth",
