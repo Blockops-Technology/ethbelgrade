@@ -149,6 +149,9 @@ const Partners = () => (
             <a href="https://blocksplit.net/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/BlockSplit_logo.png" alt="BlockSplit logo" />
             </a>
+            <a href="https://www.ethsofia.com/" target="_blank" rel="noreferrer noopener">
+              <img src="/images/partners/ethsofia-logo.svg" alt="ETH Sofia logo" />
+            </a>
             <a href="https://layerx.xyz/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/LayerX-logo.svg" alt="LayerX logo" />
             </a>
