@@ -4,7 +4,7 @@ const Prizes = () => (
   <div className={styles.prizes}>
     <div className="container">
       <div className={styles.header}>
-        <p className={styles.totalAmount}>$15,000</p>
+        <p className={styles.totalAmount}>$25,000</p>
         <p className={styles.prizeTitle}>Available in prizes</p>
       </div>
       {/*<div>*/}
