@@ -128,6 +128,9 @@ const Partners = () => (
             <a href="https://unusualsour.com/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/Unusual-Sour-Logo.png" alt="Unusual Sour logo" />
             </a>
+            <a href="https://www.decenter.com/" target="_blank" rel="noreferrer noopener">
+              <img src="/images/partners/decenter.svg" alt="Decenter logo" />
+            </a>
           </div>
           <p className={styles.tierAlt}>Partners</p>
           <div className={styles.sponsorsList}>
