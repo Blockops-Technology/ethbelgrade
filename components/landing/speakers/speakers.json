@@ -106,6 +106,13 @@
       "category": "Core protocol and Infra"
     },
     {
+      "name": "Brenda Loya",
+      "twitter": "https://twitter.com/JustBrendax",
+      "position": "Tellor",
+      "photo": "brenda-loya.png",
+      "category": "Core protocol and Infra"
+    },
+    {
       "name": "Kenny White",
       "twitter": "https://twitter.com/Dark__Kenny__",
       "position": "Shell Protocol",
@@ -120,11 +127,32 @@
       "category": "DeFi"
     },
     {
+      "name": "Najdana Majors ",
+      "twitter": "https://twitter.com/najdana_m",
+      "position": "Connext Foundation",
+      "photo": "najdana-majors.png",
+      "category": "DAOs and governance"
+    },
+    {
       "name": "engn33r",
       "twitter": "https://twitter.com/bl4ckb1rd71",
       "position": "yAudit",
       "photo": "engn33r.png",
       "category": "Security"
+    },
+    {
+      "name": "Igor Barinov",
+      "twitter": "https://twitter.com/barinov",
+      "position": "Blockscout",
+      "photo": "igor-barinov.png",
+      "category": "Dev Tooling"
+    },
+    {
+      "name": "Sahil Sen",
+      "twitter": "https://twitter.com/sensahil",
+      "position": "QuickNode",
+      "photo": "sahil-sen.png",
+      "category": "Core protocol and Infra"
     },
     {
       "name": "James Corbett",
@@ -133,7 +161,6 @@
       "photo": "james-corbett.png",
       "category": "Workshop"
     },
-
     {
       "name": "Yehor Balytskyi",
       "twitter": "https://twitter.com/turbofakesmile",
@@ -168,6 +195,20 @@
       "position": "HTEC Group",
       "photo": "mladen-milankovic.png",
       "category": "Dev Tooling"
+    },
+    {
+      "name": "drCathieSo.eth",
+      "twitter": "https://twitter.com/drCathieSo_eth",
+      "position": "ORA",
+      "photo": "cathie-so.png",
+      "category": "Zero Knowledge"
+    },
+    {
+      "name": "Andreea Cia",
+      "twitter": "https://twitter.com/iandreeacia",
+      "position": "ETH Bucharest",
+      "photo": "andreaa-cia.png",
+      "category": "DeSci"
     },
     {
       "name": "Jan Zibelnik",
@@ -210,6 +251,48 @@
       "position": "Reserve protocol",
       "photo": "james-glasscock.png",
       "category": "DeFi"
+    },
+    {
+      "name": "Cyrille",
+      "twitter": "https://twitter.com/cyrille_briere",
+      "position": "f(x) protocol",
+      "photo": "cyrille.png",
+      "category": "DeFi"
+    },
+    {
+      "name": "Andrija Novakovic",
+      "twitter": "",
+      "position": "Geometry Research",
+      "photo": "andrija-novakovic.png",
+      "category": "Zero Knowledge"
+    },
+    {
+      "name": "Michael Halepas",
+      "twitter": "https://twitter.com/MikeHalepas",
+      "position": "BlockAML",
+      "photo": "michael-halepas.png",
+      "category": "Regulations"
+    },
+    {
+      "name": "benedictvs",
+      "twitter": "https://twitter.com/b3nedictvs",
+      "position": "Raid Guild PORTERS",
+      "photo": "benedictvs.png",
+      "category": "Core protocol and Infra"
+    },
+    {
+      "name": "Marijo Radman",
+      "twitter": "https://twitter.com/marijo_radman",
+      "position": "Alterscope",
+      "photo": "marijo-radman.png",
+      "category": "DeFi"
+    },
+    {
+      "name": "exwhyzee",
+      "twitter": "https://twitter.com/exxyzee",
+      "position": "Eden Protocol, Developer DAO",
+      "photo": "exwhyzee.png",
+      "category": "UX"
     }
   ]
 }
