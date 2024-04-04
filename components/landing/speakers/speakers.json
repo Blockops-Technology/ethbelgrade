@@ -43,16 +43,30 @@
       "category": "DeFi"
     },
     {
+      "name": "Mariia Yatskovska",
+      "twitter": "https://twitter.com/MariiaYatskovs2",
+      "position": "CoW DAO, CoW Swap",
+      "photo": "mariia-yatskovska.png",
+      "category": "DeFi"
+    },
+    {
+      "name": "fungibletaco",
+      "twitter": "https://twitter.com/fungibletaco",
+      "position": "Consensys",
+      "photo": "fungibletaco.png",
+      "category": "Public goods and community"
+    },
+    {
       "name": "Niklas Kunkel",
       "twitter": "https://twitter.com/nomos_paradox",
-      "position": "MakerDAO (chronicle labs)",
+      "position": "MakerDAO, Chronicle Labs",
       "photo": "niklas-kunkel.png",
       "category": "DeFi"
     },
     {
       "name": "Daniela Zschaber",
       "twitter": "https://twitter.com/danimimm",
-      "position": "NFTFY and Nouns BR ",
+      "position": "blockful.io",
       "photo": "daniela-zschaber.png",
       "category": "DAOs and governance"
     },
@@ -73,7 +87,7 @@
     {
       "name": "adcv",
       "twitter": "https://twitter.com/adcv_",
-      "position": "Steakhouse / Lido",
+      "position": "Steakhouse, Lido",
       "photo": "adcv.png",
       "category": "DeFi"
     },
@@ -137,7 +151,7 @@
     {
       "name": "Tadeo",
       "twitter": "https://twitter.com/tadeongmi",
-      "position": "Phoenix Labs, Spark, Maker",
+      "position": "Phoenix Labs, Spark, MakerDAO",
       "photo": "tadeo.png",
       "category": "DeFi"
     },
