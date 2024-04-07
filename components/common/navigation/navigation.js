@@ -8,6 +8,8 @@ import CloseIcon from "../../../public/icons/x.svg";
 import { BGBW_URL } from "../../../constants";
 import Button from "../button/button";
 
+import { TICKETING_PLATFORM_URL } from "../../../constants";
+
 const MainMenu = () => (
   <>
     <Menu>
@@ -15,18 +17,6 @@ const MainMenu = () => (
         <Link href="/">
           <span className={styles.menuItem}>Conference</span>
         </Link>
-        {/*<Link href="/#speakers">*/}
-        {/*  <span className={styles.menuItem}>Speakers</span>*/}
-        {/*</Link>*/}
-        {/*<Link href="/#agenda">*/}
-        {/*  <span className={styles.menuItem}>Agenda</span>*/}
-        {/*</Link>*/}
-        {/*<Link href="/#partners">*/}
-        {/*  <span className={styles.menuItem}>Partners</span>*/}
-        {/*</Link>*/}
-        {/*<Link href="/#startups">*/}
-        {/*  <span className={styles.menuItem}>Startups</span>*/}
-        {/*</Link>*/}
         <Link href="/hackathon">
           <span className={styles.menuItem}>Hackathon</span>
         </Link>
@@ -51,12 +41,12 @@ const MainMenu = () => (
             </Menu.Item>
           </Menu.Items>
         </div>
-        <a href={BGBW_URL} target="_blank" rel="noreferrer noopener">
-          <Button className={styles.button}>Side Events</Button>
+        <Link href={BGBW_URL} target="_blank" rel="noreferrer noopener">
+          <span className={styles.menuItem}>Side Events</span>
+        </Link>
+        <a href={TICKETING_PLATFORM_URL} target="_blank" rel="noreferrer noopener">
+          <Button className={styles.button}>Get Tickets</Button>
         </a>
-        {/*<Link href="#faq">*/}
-        {/*  <span className={styles.menuItem}>FAQ</span>*/}
-        {/*</Link>*/}
       </div>
     </Menu>
   </>
@@ -73,6 +63,7 @@ const Navigation = () => {
 
   return (
     <div className="container">
+      <div className={styles.container}>
       <nav className={styles.navigation}>
         <Link href="/">
           <img className={styles.logo} src="/logo.svg" alt="ETH Belgrade logo" />
@@ -93,6 +84,7 @@ const Navigation = () => {
         }
         <HamburgerMenu className={styles.hamburgerIcon} onClick={toggleMobileMenu} />
       </nav>
+      </div>
     </div>
   );
 }

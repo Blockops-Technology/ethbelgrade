@@ -1,9 +1,16 @@
 @import "styles/breakpoints";
 
+.container {
+  border-bottom: 1px solid var(--primary-blue);
+  width: 100%;
+}
+
 .navigation {
-  padding: 70px 0;
+  height: 80px;
+  margin-top: 42px;
   display: flex;
   align-items: center;
+  vertical-align: center;
   justify-content: space-between;
 }
 
@@ -45,12 +52,13 @@
 
 .menuItem {
   cursor: pointer;
-  font-weight: 500;
-  font-size: 18px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
   text-transform: uppercase;
   background: none;
-  color: white;
-  font-family: var(--rubik);
+  color: var(--primary-gray);
+  font-family: var(--space-grotesk);
 
   @include breakpoint(medium-screen) {
     display: block;
@@ -89,10 +97,16 @@
 
 .button {
   font-size: 18px;
-  padding: 20px 25px;
+  padding: 13px 50px;
+  background-color: var(--primary-pinkish);
+  color: var(--primary-black);
+  font-family: var(--anton);
+  font-size: 24px;
+  line-height: 28.4px;
+  border-color: var(--primary-blue);
 
   @include breakpoint(medium-screen) {
-    padding: 20px 40px;
+    padding: 13px 70px;
     background: none;
     border: none;
     color: var(--primary-green);
