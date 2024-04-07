@@ -2,12 +2,13 @@
 
 .banner {
   position: fixed;
-  bottom: 0;
+  top: 0;
   left: 0;
   right: 0;
   z-index: 1000;
-  padding: 20px 0;
-  background-color: var(--primary-red);
+  height: 42px;
+  vertical-align: middle;
+  background-color: var(--primary-pinkish);
 }
 
 .content {
@@ -24,6 +25,7 @@
 .textWrapper {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 30px;
   flex-grow: 1;
 
@@ -33,10 +35,10 @@
 }
 
 .text {
-  font-size: 26px;
+  font-size: 14px;
+  line-height: 18px;
   font-weight: 700;
   text-transform: uppercase;
-  margin: 0;
 
   @include breakpoint(medium-screen) {
     font-size: 20px;
@@ -54,32 +56,12 @@
 .time {
   @extend .text;
 
-  font-family: var(--roboto-mono);
+  font-family: var(--space-grotesk);
   text-transform: initial;
   text-align: center;
-  flex-grow: 1;
+  font-weight: 400;
 
   @include breakpoint(big-tablet) {
     text-align: left;
-  }
-}
-
-.button {
-  font-size: 18px;
-
-  @include breakpoint(medium-screen) {
-    font-size: 16px !important;
-  }
-
-  @include breakpoint(landscape) {
-    padding: 16px 20px;
-  }
-
-  @include breakpoint(big-mobile) {
-    margin-top: 20px;
-    padding: 0;
-    background: transparent;
-    border: none;
-    color: var(--primary-green);
   }
 }
