@@ -7,7 +7,6 @@
 
 .navigation {
   height: 80px;
-  margin-top: 42px;
   display: flex;
   align-items: center;
   vertical-align: center;
@@ -131,4 +130,26 @@
 
 .closeIcon {
   cursor: pointer;
+}
+
+.button {
+  font-size: 18px;
+  padding: 13px 23px; 
+  border: 1px solid var(--primary-blue);
+
+  @include breakpoint(medium-screen) {
+    font-size: 16px !important;
+  }
+
+  @include breakpoint(landscape) {
+    padding: 16px 20px;
+  }
+
+  @include breakpoint(big-mobile) {
+    margin-top: 20px;
+    padding: 0;
+    background: transparent;
+    border: none;
+    color: var(--primary-green);
+  }
 }

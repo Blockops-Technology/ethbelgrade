@@ -1,11 +1,6 @@
 @import "styles/breakpoints";
 
 .banner {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1000;
   height: 42px;
   vertical-align: middle;
   background-color: var(--primary-pinkish);
