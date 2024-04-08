@@ -1,8 +1,6 @@
 import { useTimer } from "react-timer-hook";
 
 import styles from "./banner.module.scss";
-import Button from "../button/button";
-import { TICKETING_PLATFORM_URL } from "../../../constants";
 
 const Banner = () => {
   const {
