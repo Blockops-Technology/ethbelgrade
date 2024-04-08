@@ -170,6 +170,9 @@ const Partners = () => (
             <a href="https://moonstruck.io/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/moonstruck-logo.svg" alt="Moonstruck logo" />
             </a>
+            <a href="https://www.ethtallinn.org/" target="_blank" rel="noreferrer noopener">
+              <img style={{maxHeight: 120}} src="/images/partners/ETHTallinn-logo.svg" alt="ETH Tallinn logo" />
+            </a>
           </div>
         </div>
 
