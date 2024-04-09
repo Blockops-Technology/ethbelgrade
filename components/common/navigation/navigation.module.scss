@@ -1,6 +1,6 @@
 @import "styles/breakpoints";
 
-.container {
+.border {
   border-bottom: 1px solid var(--primary-blue);
   width: 100%;
 }
@@ -54,6 +54,7 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 18px;
+  padding: 0 24px;
   text-transform: uppercase;
   background: none;
   color: var(--primary-gray);
@@ -132,9 +133,9 @@
   cursor: pointer;
 }
 
-.button {
+a .button {
   font-size: 18px;
-  padding: 13px 23px; 
+  padding: 13px 50.24px; 
   border: 1px solid var(--primary-blue);
 
   @include breakpoint(medium-screen) {

@@ -44,9 +44,9 @@ const MainMenu = () => (
         <Link href={BGBW_URL} target="_blank" rel="noreferrer noopener">
           <span className={styles.menuItem}>Side Events</span>
         </Link>
-        <a href={TICKETING_PLATFORM_URL} target="_blank" rel="noreferrer noopener">
+        <Link href={TICKETING_PLATFORM_URL} target="_blank" rel="noreferrer noopener">
           <Button className={styles.button}>Get Tickets</Button>
-        </a>
+        </Link>
       </div>
     </Menu>
   </>
@@ -62,28 +62,30 @@ const Navigation = () => {
   })
 
   return (
-    <div className="container">
-      <div className={styles.container}>
-      <nav className={styles.navigation}>
-        <Link href="/">
-          <img className={styles.logo} src="/logo.svg" alt="ETH Belgrade logo" />
-        </Link>
-        <div className={styles.menu}>
-          <MainMenu />
-        </div>
-        {
-          openMobileMenu ? (
-            <div className={styles.mobileMenu}>
-              <div className={styles.closeIconWrapper}>
-                <CloseIcon className={styles.closeIcon} onClick={toggleMobileMenu} />
+    <div className={styles.border}>
+      <div className="container">
+        <div className={styles.container}>
+        <nav className={styles.navigation}>
+          <Link href="/">
+            <img className={styles.logo} src="/logo.svg" alt="ETH Belgrade logo" />
+          </Link>
+          <div className={styles.menu}>
+            <MainMenu />
+          </div>
+          {
+            openMobileMenu ? (
+              <div className={styles.mobileMenu}>
+                <div className={styles.closeIconWrapper}>
+                  <CloseIcon className={styles.closeIcon} onClick={toggleMobileMenu} />
+                </div>
+                <MainMenu />
               </div>
-              <MainMenu />
-            </div>
-          ) :
-            <></>
-        }
-        <HamburgerMenu className={styles.hamburgerIcon} onClick={toggleMobileMenu} />
-      </nav>
+            ) :
+              <></>
+          }
+          <HamburgerMenu className={styles.hamburgerIcon} onClick={toggleMobileMenu} />
+        </nav>
+        </div>
       </div>
     </div>
   );
