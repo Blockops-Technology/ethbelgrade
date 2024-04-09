@@ -20,11 +20,12 @@ const Hero = () => (
            Apply to hack
          </Button>
        </a>
-       {/* <a href="https://form.typeform.com/to/nese2ESV" target="_blank" rel="noreferrer noopener">
+       <a href="https://docs.google.com/forms/d/e/1FAIpQLSfvWabL5ytG_conUTEOGqkKrBIxiSLpycGf6hlQGv8IGfcZeA/viewform" target="_blank" rel="noreferrer noopener">
          <Button ghost>
            Apply to mentor
          </Button>
        </a>
+        {/*
        <a href="https://form.typeform.com/to/SwUgSexI" target="_blank" rel="noreferrer noopener">
          <Button ghost>
            Apply to judge
