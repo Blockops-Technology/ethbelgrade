@@ -24,9 +24,9 @@ const MainMenu = () => (
         {/*<Link href="/#partners">*/}
         {/*  <span className={styles.menuItem}>Partners</span>*/}
         {/*</Link>*/}
-        {/*<Link href="/#startups">*/}
-        {/*  <span className={styles.menuItem}>Startups</span>*/}
-        {/*</Link>*/}
+        <Link href="/#startups">
+          <span className={styles.menuItem}>Startups</span>
+        </Link>
         <Link href="/hackathon">
           <span className={styles.menuItem}>Hackathon</span>
         </Link>

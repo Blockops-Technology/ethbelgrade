@@ -117,7 +117,7 @@ const Partners = () => (
               <img style={{width: "100%"}} src="/images/partners/lifi-logo.svg" alt="LiFi logo" />
             </a>
             <a href="https://ethernal.tech/" target="_blank" rel="noreferrer noopener">
-              <img src="/images/partners/ethernal-logo-white.svg" alt="Ethernal logo" />
+              <img src="/images/partners/ethernal-lonpm rugo-white.svg" alt="Ethernal logo" />
             </a>
           </div>
           <p className={styles.tier}>Supported by</p>
