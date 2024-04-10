@@ -1,7 +1,6 @@
 @import "styles/breakpoints";
 
 .banner {
-  height: 42px;
   vertical-align: middle;
   background-color: var(--primary-pinkish);
 }
@@ -26,6 +25,7 @@
 
   @include breakpoint(big-tablet) {
     display: initial;
+    padding: 16px;
   }
 }
 
@@ -34,6 +34,7 @@
   line-height: 18px;
   font-weight: 700;
   text-transform: uppercase;
+  color: var(--primary-black);
 
   @include breakpoint(medium-screen) {
     font-size: 20px;
@@ -45,6 +46,11 @@
 
   @include breakpoint(big-mobile) {
     text-align: center !important;
+    margin: 0;
+  }
+
+  @include breakpoint(big-tablet) {
+    text-align: center !important;
   }
 }
 
@@ -55,8 +61,4 @@
   text-transform: initial;
   text-align: center;
   font-weight: 400;
-
-  @include breakpoint(big-tablet) {
-    text-align: left;
-  }
 }
