@@ -64,10 +64,6 @@
     display: block;
     padding: 20px 40px;
   }
-
-  @include breakpoint(larger-screen) {
-    padding: 0 10px;
-  }
 }
 
 .dropdownWrapper {
@@ -122,7 +118,8 @@ a .button {
   font-size: 18px;
   padding: 13px 50.24px; 
   border: 1px solid var(--primary-blue);
-
+  white-space: nowrap;
+  
   @include breakpoint(medium-screen) {
     font-size: 16px !important;
     width: auto;
@@ -130,6 +127,8 @@ a .button {
 }
 
 .ticketLink {
-  display: block;
-  text-align: center;
+  @include breakpoint(medium-screen) {
+    display: block;
+    text-align: center;
+  }
 }
