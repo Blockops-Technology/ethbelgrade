@@ -13,7 +13,7 @@
 
 .mainGrid {
   display: grid;
-  grid-template-columns: 420px minmax(400px, 810px);
+  grid-template-columns: 420px minmax(400px, 610px);
   align-items: center;
   grid-gap: 0 100px;
 
@@ -54,10 +54,10 @@
 }
 
 .bigTitle {
-  font-size: 64px;
+  //font-size: 64px;
 
   @include breakpoint(big-tablet) {
-    font-size: 48px;
+    font-size: 42px;
   }
 
   @include breakpoint(big-mobile) {
@@ -78,8 +78,8 @@
 
   @include breakpoint(big-tablet) {
     margin-right: -60px;
-    margin-top: -80px;
-    margin-bottom: 80px;
+    margin-top: -150px;
+    margin-bottom: 180px;
     font-size: 20px;
   }
 

@@ -17,6 +17,18 @@ const MainMenu = () => (
         <Link href="/">
           <span className={styles.menuItem}>Conference</span>
         </Link>
+        {/*<Link href="/#speakers">*/}
+        {/*  <span className={styles.menuItem}>Speakers</span>*/}
+        {/*</Link>*/}
+        {/*<Link href="/#agenda">*/}
+        {/*  <span className={styles.menuItem}>Agenda</span>*/}
+        {/*</Link>*/}
+        {/*<Link href="/#partners">*/}
+        {/*  <span className={styles.menuItem}>Partners</span>*/}
+        {/*</Link>*/}
+        <Link href="/#startups">
+          <span className={styles.menuItem}>Startups</span>
+        </Link>
         <Link href="/hackathon">
           <span className={styles.menuItem}>Hackathon</span>
         </Link>
