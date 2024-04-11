@@ -67,9 +67,6 @@ const Partners = () => (
         {/*    <a href="https://layerx.xyz/" target="_blank" rel="noreferrer noopener">*/}
         {/*      <img src="/images/partners/LayerX-logo.svg" alt="LayerX logo" />*/}
         {/*    </a>*/}
-        {/*    <a href="https://ethernal.tech/" target="_blank" rel="noreferrer noopener">*/}
-        {/*      <img src="/images/partners/ethernal-logo-white.svg" alt="Ethernal logo" />*/}
-        {/*    </a>*/}
         {/*    <a href="https://walk.rs/" target="_blank" rel="noreferrer noopener">*/}
         {/*      <img src="/images/partners/walk-logo.png" alt="WALK logo" />*/}
         {/*    </a>*/}
@@ -118,6 +115,9 @@ const Partners = () => (
           <div className={styles.sponsorsList}>
             <a href="https://li.fi/" target="_blank" rel="noreferrer noopener">
               <img style={{width: "100%"}} src="/images/partners/lifi-logo.svg" alt="LiFi logo" />
+            </a>
+            <a href="https://ethernal.tech/" target="_blank" rel="noreferrer noopener">
+              <img src="/images/partners/ethernal-logo-white.svg" alt="Ethernal logo" />
             </a>
           </div>
           <p className={styles.tier}>Supported by</p>
@@ -169,6 +169,9 @@ const Partners = () => (
             </a>
             <a href="https://moonstruck.io/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/moonstruck-logo.svg" alt="Moonstruck logo" />
+            </a>
+            <a href="https://www.ethtallinn.org/" target="_blank" rel="noreferrer noopener">
+              <img style={{maxHeight: 120}} src="/images/partners/ETHTallinn-logo.svg" alt="ETH Tallinn logo" />
             </a>
           </div>
         </div>
