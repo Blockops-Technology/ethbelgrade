@@ -100,12 +100,12 @@ const Partners = () => (
             </a>
           </div>
 
-          {/*<p className={styles.tierAlt}>Tier 2 sponsors</p>*/}
-          {/*<div className={styles.sponsorsList}>*/}
-          {/*  <a href="https://chain.link/" target="_blank" rel="noreferrer noopener">*/}
-          {/*    <img src="/images/partners/chainlink-logo.svg" alt="Chainlink logo" />*/}
-          {/*  </a>*/}
-          {/*</div>*/}
+          <p className={styles.tierAlt}>Tier 2 sponsors</p>
+          <div className={styles.sponsorsList}>
+            <a href="https://chain.link/" target="_blank" rel="noreferrer noopener">
+              <img src="/images/partners/chainlink-logo.svg" alt="Chainlink logo" />
+            </a>
+          </div>
 
           <p className={styles.tier}>Tier 3 sponsors</p>
           <div className={styles.sponsorsList}>
