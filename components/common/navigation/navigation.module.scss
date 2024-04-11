@@ -64,6 +64,10 @@
     display: block;
     padding: 20px 40px;
   }
+
+  @include breakpoint(larger-screen) {
+    padding: 0 10px;
+  }
 }
 
 .dropdownWrapper {
@@ -95,25 +99,6 @@
   }
 }
 
-.button {
-  font-size: 18px;
-  padding: 13px 50px;
-  background-color: var(--primary-pinkish);
-  color: var(--primary-black);
-  font-family: var(--anton);
-  font-size: 24px;
-  line-height: 28.4px;
-  border-color: var(--primary-blue);
-
-  @include breakpoint(medium-screen) {
-    padding: 13px 70px;
-    background: none;
-    border: none;
-    color: var(--primary-green);
-    text-align: left;
-  }
-}
-
 .hamburgerIcon {
   display: none;
   cursor: pointer;
@@ -141,6 +126,10 @@ a .button {
   @include breakpoint(medium-screen) {
     font-size: 16px !important;
     width: auto;
-    margin: 40px;
   }
+}
+
+.ticketLink {
+  display: block;
+  text-align: center;
 }
