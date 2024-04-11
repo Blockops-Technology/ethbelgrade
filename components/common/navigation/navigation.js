@@ -47,7 +47,7 @@ const MainMenu = () => (
         <Link href={BGBW_URL} target="_blank" rel="noreferrer noopener">
           <span className={styles.menuItem}>Side Events</span>
         </Link>
-        <Link href={TICKETING_PLATFORM_URL} target="_blank" rel="noreferrer noopener">
+        <Link className={styles.ticketLink} href={TICKETING_PLATFORM_URL} target="_blank" rel="noreferrer noopener">
           <Button className={styles.button}>Get Tickets</Button>
         </Link>
       </div>
