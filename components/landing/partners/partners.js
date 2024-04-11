@@ -102,6 +102,9 @@ const Partners = () => (
 
           {/*<p className={styles.tierAlt}>Tier 2 sponsors</p>*/}
           {/*<div className={styles.sponsorsList}>*/}
+          {/*  <a href="https://chain.link/" target="_blank" rel="noreferrer noopener">*/}
+          {/*    <img src="/images/partners/chainlink-logo.svg" alt="Chainlink logo" />*/}
+          {/*  </a>*/}
           {/*</div>*/}
 
           <p className={styles.tier}>Tier 3 sponsors</p>
@@ -120,6 +123,7 @@ const Partners = () => (
               <img src="/images/partners/ethernal-logo-white.svg" alt="Ethernal logo" />
             </a>
           </div>
+
           <p className={styles.tier}>Supported by</p>
           <div className={styles.sponsorsList}>
             <a href="https://blockops.technology/" target="_blank" rel="noreferrer noopener">
