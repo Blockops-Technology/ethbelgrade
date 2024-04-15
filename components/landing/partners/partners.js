@@ -119,7 +119,7 @@ const Partners = () => (
             <a href="https://lido.fi/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/lido-logo.svg" alt="Lido logo" />
             </a>
-            <a href="https://ethernal.tech/" target="_blank" rel="noreferrer noopener">
+            <a href="https://ledger.com/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/ledger-logo.svg" alt="Ledger logo" />
             </a>
             <a href="https://li.fi/" target="_blank" rel="noreferrer noopener">
