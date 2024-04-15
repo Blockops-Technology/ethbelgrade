@@ -1,9 +1,15 @@
 @import "styles/breakpoints";
 
+.border {
+  border-bottom: 1px solid var(--primary-blue);
+  width: 100%;
+}
+
 .navigation {
-  padding: 70px 0;
+  height: 80px;
   display: flex;
   align-items: center;
+  vertical-align: center;
   justify-content: space-between;
 }
 
@@ -45,12 +51,14 @@
 
 .menuItem {
   cursor: pointer;
-  font-weight: 500;
-  font-size: 18px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 0 24px;
   text-transform: uppercase;
   background: none;
-  color: white;
-  font-family: var(--rubik);
+  color: var(--primary-gray);
+  font-family: var(--space-grotesk);
 
   @include breakpoint(medium-screen) {
     display: block;
@@ -87,19 +95,6 @@
   }
 }
 
-.button {
-  font-size: 18px;
-  padding: 20px 25px;
-
-  @include breakpoint(medium-screen) {
-    padding: 20px 40px;
-    background: none;
-    border: none;
-    color: var(--primary-green);
-    text-align: left;
-  }
-}
-
 .hamburgerIcon {
   display: none;
   cursor: pointer;
@@ -117,4 +112,23 @@
 
 .closeIcon {
   cursor: pointer;
+}
+
+a .button {
+  font-size: 18px;
+  padding: 13px 50.24px; 
+  border: 1px solid var(--primary-blue);
+  white-space: nowrap;
+  
+  @include breakpoint(medium-screen) {
+    font-size: 16px !important;
+    width: auto;
+  }
+}
+
+.ticketLink {
+  @include breakpoint(medium-screen) {
+    display: block;
+    text-align: center;
+  }
 }
