@@ -71,6 +71,13 @@
       "category": "DAOs and governance"
     },
     {
+      "name": "Akram El Milligy",
+      "twitter": "https://twitter.com/liquid4teur",
+      "position": "Ledger",
+      "photo": "akram.png",
+      "category": "Dev Tooling"
+    },
+    {
       "name": "Bogdan Habic",
       "twitter": "https://twitter.com/BogdanHabic",
       "position": "Tenderly",
@@ -185,7 +192,7 @@
     {
       "name": "Tadeo",
       "twitter": "https://twitter.com/tadeongmi",
-      "position": "Phoenix Labs, Spark, MakerDAO",
+      "position": "Spark, MakerDAO",
       "photo": "tadeo.png",
       "category": "DeFi"
     },
