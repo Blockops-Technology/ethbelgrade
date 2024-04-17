@@ -11,12 +11,8 @@ const About = () => (
       <p className={styles.subtitle}>Our manifesto</p>
       <div className={styles.titleWrapper}>
         <p className={styles.title}>
-          <span className={styles.indent}>&quot;<span className={styles.underline}>Belgrade</span>, in fact is not a city</span>
-          {/*<br />*/}
-          <span className={styles.rotate}> – it’s a metaphor, a way of life, a way of thinking.&quot;</span>
-          {/*<span className={styles.indent}>Come for conference,</span>*/}
-          {/*<br />*/}
-          {/*<span className={styles.rotate}>stay for <span className={styles.underline}>Belgrade</span></span>*/}
+          <div><span className={styles.highlight}>&quot;Belgrade,</span> in fact is not a city <span className={styles.highlight}>– it’s a metaphor,</span></div>
+          <div>a way of life, a way of thinking<span className={styles.highlight}>.&quot;</span></div>
         </p>
       </div>
     </div>
