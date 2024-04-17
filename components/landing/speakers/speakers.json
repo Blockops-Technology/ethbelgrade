@@ -71,6 +71,13 @@
       "category": "DAOs and governance"
     },
     {
+      "name": "Akram El Milligy",
+      "twitter": "https://twitter.com/liquid4teur",
+      "position": "Ledger",
+      "photo": "akram.png",
+      "category": "Dev Tooling"
+    },
+    {
       "name": "Bogdan Habic",
       "twitter": "https://twitter.com/BogdanHabic",
       "position": "Tenderly",
@@ -111,6 +118,13 @@
       "position": "Tellor",
       "photo": "brenda-loya.png",
       "category": "Core protocol and Infra"
+    },
+    {
+      "name": "Bojan",
+      "twitter": "https://twitter.com/bjnpck",
+      "position": "Liquity",
+      "photo": "bojan.png",
+      "category": "DeFi"
     },
     {
       "name": "Kenny White",
@@ -171,14 +185,14 @@
     {
       "name": "Vukasin Gostovic",
       "twitter": "https://twitter.com/makemake_kbo",
-      "position": "Independent Rust Developer",
+      "position": "Enso",
       "photo": "vukasin-gostovic.png",
       "category": "Core protocol and Infra"
     },
     {
       "name": "Tadeo",
       "twitter": "https://twitter.com/tadeongmi",
-      "position": "Phoenix Labs, Spark, MakerDAO",
+      "position": "Spark, MakerDAO",
       "photo": "tadeo.png",
       "category": "DeFi"
     },

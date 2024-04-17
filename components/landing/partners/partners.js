@@ -100,9 +100,12 @@ const Partners = () => (
             </a>
           </div>
 
-          {/*<p className={styles.tierAlt}>Tier 2 sponsors</p>*/}
-          {/*<div className={styles.sponsorsList}>*/}
-          {/*</div>*/}
+          <p className={styles.tierAlt}>Tier 2 sponsors</p>
+          <div className={styles.sponsorsList}>
+            <a href="https://chain.link/" target="_blank" rel="noreferrer noopener">
+              <img src="/images/partners/chainlink-logo.svg" alt="Chainlink logo" />
+            </a>
+          </div>
 
           <p className={styles.tier}>Tier 3 sponsors</p>
           <div className={styles.sponsorsList}>
@@ -113,6 +116,12 @@ const Partners = () => (
 
           <p className={styles.tierAlt}>Tier 4 sponsors</p>
           <div className={styles.sponsorsList}>
+            <a href="https://lido.fi/" target="_blank" rel="noreferrer noopener">
+              <img src="/images/partners/lido-logo.svg" alt="Lido logo" />
+            </a>
+            <a href="https://ledger.com/" target="_blank" rel="noreferrer noopener">
+              <img src="/images/partners/ledger-logo.svg" alt="Ledger logo" />
+            </a>
             <a href="https://li.fi/" target="_blank" rel="noreferrer noopener">
               <img style={{width: "100%"}} src="/images/partners/lifi-logo.svg" alt="LiFi logo" />
             </a>
@@ -120,6 +129,7 @@ const Partners = () => (
               <img src="/images/partners/ethernal-logo-white.svg" alt="Ethernal logo" />
             </a>
           </div>
+
           <p className={styles.tier}>Supported by</p>
           <div className={styles.sponsorsList}>
             <a href="https://blockops.technology/" target="_blank" rel="noreferrer noopener">
