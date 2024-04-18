@@ -85,38 +85,38 @@
   border-bottom: 3px solid #057AFF;;
 }
 
-.contentWrapper {
-  background-image: url("/images/about-diamond.svg"), url("/images/about-hourglass.svg");
-  background-repeat: no-repeat;
-  background-position: top left, right bottom;
-
-  @include breakpoint(big-tablet) {
-    background-size: 300px, 500px;
-  }
-}
-
 .content {
-  padding: 206px 0;
-  display: grid;
-  grid-auto-rows: minmax(0, 1fr);
-  max-width: 860px;
   margin: 0 auto;
 
   @include breakpoint(big-mobile) {
-    grid-auto-rows: initial;
     padding: 100px 0  150px;
   }
 }
 
 .sectionTitle {
-  font-weight: 700;
-  font-size: 40px;
+  font-size: 24px;
   text-transform: uppercase;
   margin: 0 0 48px;
+  color: var(--primary-blue);
 }
 
 .sectionText {
+  font-family: var(--space-grotesk);
+  font-size: 14px;
+  line-height: 20px;
   margin-bottom: 46px;
+}
+
+.belgradeCalling {
+  border: 1px solid var(--primary-blue);
+  display: inline-block;
+  padding: 49px 62px 63px 48px;
+}
+
+.whyBelgrade {
+  border: 1px solid var(--primary-blue);
+  display: inline-block;
+  padding: 49px 62px 63px 48px;
 }
 
 .button {
@@ -125,15 +125,6 @@
 
 .belgradeCalling {
   max-width: 428px;
-  justify-self: end;
-  position: relative;
-
-  &:before {
-    position: absolute;
-    content: url("/images/about-section-logo.png");
-    top: -90px;
-    left: -420px;
-  }
 }
 
 .whyBelgrade {
