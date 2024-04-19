@@ -50,11 +50,18 @@
       "category": "DeFi"
     },
     {
-      "name": "fungibletaco",
+      "name": "Stilyan Mitrev",
       "twitter": "https://twitter.com/fungibletaco",
       "position": "Consensys",
       "photo": "fungibletaco.png",
       "category": "Public goods and community"
+    },
+    {
+      "name": "Rotorless",
+      "twitter": "https://twitter.com/Rotorless",
+      "position": "Lido",
+      "photo": "rotorless.png",
+      "category": "DAOs and governance"
     },
     {
       "name": "Niklas Kunkel",
@@ -62,13 +69,6 @@
       "position": "MakerDAO, Chronicle Labs",
       "photo": "niklas-kunkel.png",
       "category": "DeFi"
-    },
-    {
-      "name": "Daniela Zschaber",
-      "twitter": "https://twitter.com/danimimm",
-      "position": "blockful.io",
-      "photo": "daniela-zschaber.png",
-      "category": "DAOs and governance"
     },
     {
       "name": "Akram El Milligy",
@@ -92,6 +92,20 @@
       "category": "DeFi"
     },
     {
+      "name": "Igor Barinov",
+      "twitter": "https://twitter.com/barinov",
+      "position": "Blockscout",
+      "photo": "igor-barinov.png",
+      "category": "Dev Tooling"
+    },
+    {
+      "name": "Sahil Sen",
+      "twitter": "https://twitter.com/sensahil",
+      "position": "QuickNode",
+      "photo": "sahil-sen.png",
+      "category": "Core protocol and Infra"
+    },
+    {
       "name": "adcv",
       "twitter": "https://twitter.com/adcv_",
       "position": "Steakhouse, Lido",
@@ -99,11 +113,25 @@
       "category": "DeFi"
     },
     {
+      "name": "Vukasin Gostovic",
+      "twitter": "https://twitter.com/makemake_kbo",
+      "position": "Enso",
+      "photo": "vukasin-gostovic.png",
+      "category": "Core protocol and Infra"
+    },
+    {
       "name": "Abena Asante",
       "twitter": "https://twitter.com/abena_eth",
       "position": "ETHAccra & SheFi",
       "photo": "abena-asante.png",
       "category": "NFT"
+    },
+    {
+      "name": "Primoz Kordez",
+      "twitter": "https://twitter.com/PrimozKordez",
+      "position": "Block Analitica",
+      "photo": "primoz-kordez.png",
+      "category": "DeFi"
     },
     {
       "name": "Jelena Djuric",
@@ -155,20 +183,6 @@
       "category": "Security"
     },
     {
-      "name": "Igor Barinov",
-      "twitter": "https://twitter.com/barinov",
-      "position": "Blockscout",
-      "photo": "igor-barinov.png",
-      "category": "Dev Tooling"
-    },
-    {
-      "name": "Sahil Sen",
-      "twitter": "https://twitter.com/sensahil",
-      "position": "QuickNode",
-      "photo": "sahil-sen.png",
-      "category": "Core protocol and Infra"
-    },
-    {
       "name": "James Corbett",
       "twitter": "https://twitter.com/l__c__m",
       "position": "Superchain",
@@ -183,11 +197,11 @@
       "category": "Security"
     },
     {
-      "name": "Vukasin Gostovic",
-      "twitter": "https://twitter.com/makemake_kbo",
-      "position": "Enso",
-      "photo": "vukasin-gostovic.png",
-      "category": "Core protocol and Infra"
+      "name": "Daniela Zschaber",
+      "twitter": "https://twitter.com/danimimm",
+      "position": "blockful.io",
+      "photo": "daniela-zschaber.png",
+      "category": "DAOs and governance"
     },
     {
       "name": "Tadeo",
@@ -288,7 +302,7 @@
       "category": "Regulations"
     },
     {
-      "name": "benedictvs",
+      "name": "Ben Biedermann",
       "twitter": "https://twitter.com/b3nedictvs",
       "position": "Raid Guild PORTERS",
       "photo": "benedictvs.png",
@@ -300,13 +314,33 @@
       "position": "Alterscope",
       "photo": "marijo-radman.png",
       "category": "DeFi"
+    },{
+      "name": "Stefan Velkoski",
+      "twitter": "https://twitter.com/velkoskiss",
+      "position": "Sarma ZK",
+      "photo": "stefan-velkoski.png",
+      "category": "Zero Knowledge"
     },
     {
-      "name": "exwhyzee",
+      "name": "Sundaram Jha",
       "twitter": "https://twitter.com/exxyzee",
       "position": "Eden Protocol, Developer DAO",
       "photo": "exwhyzee.png",
       "category": "UX"
+    },
+    {
+      "name": "Lazar Bucan",
+      "twitter": "https://twitter.com/0xlazar",
+      "position": "Cookbook.dev",
+      "photo": "lazar-bucan.png",
+      "category": "Dev tooling"
+    },
+    {
+      "name": "Vladislav Sopov",
+      "twitter": "https://twitter.com/VanceWood18",
+      "position": "GetBlock",
+      "photo": "vladislav-sopov.png",
+      "category": "Dev tooling"
     }
   ]
 }
