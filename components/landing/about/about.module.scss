@@ -86,9 +86,13 @@
 }
 
 .content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   margin: 0 auto;
-
+  max-width: 860px;
+  
   @include breakpoint(big-mobile) {
+    grid-auto-rows: initial;
     padding: 100px 0  150px;
   }
 }
@@ -120,6 +124,7 @@
 }
 
 .button {
+  display: block;
   margin-top: 18px;
 }
 
