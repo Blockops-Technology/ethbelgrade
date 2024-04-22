@@ -43,6 +43,13 @@
       "category": "DeFi"
     },
     {
+      "name": "Andrei Kirkkonen",
+      "twitter": "https://twitter.com/pirunpoika",
+      "position": "Safe{Wallet}",
+      "photo": "andrei-kirkkonen.png",
+      "category": "UX"
+    },
+    {
       "name": "Mariia Yatskovska",
       "twitter": "https://twitter.com/MariiaYatskovs2",
       "position": "CoW DAO, CoW Swap",
@@ -333,14 +340,14 @@
       "twitter": "https://twitter.com/0xlazar",
       "position": "Cookbook.dev",
       "photo": "lazar-bucan.png",
-      "category": "Dev tooling"
+      "category": "Dev Tooling"
     },
     {
       "name": "Vladislav Sopov",
       "twitter": "https://twitter.com/VanceWood18",
       "position": "GetBlock",
       "photo": "vladislav-sopov.png",
-      "category": "Dev tooling"
+      "category": "Dev Tooling"
     }
   ]
 }
