@@ -1,7 +1,18 @@
 @import "styles/breakpoints";
 
+.section {
+  display: flex;
+  padding: 0px 382.5px;
+  flex-direction: column;
+  align-items: center;
+}
+
 .about {
-  padding: 34px 0;
+  display: flex;
+  max-width: 1155px;
+  padding: 0px 16px;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .numbersWrapper {
@@ -25,10 +36,21 @@
   }
 }
 
+.topbot {
+  display: flex;
+  padding: 84px 0px 101px 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-shrink: 0;
+  align-self: stretch;
+}
+
 .subtitle {
   font-family: var(--space-grotesk);
   font-size: 24px;
-  line-height: 30.62px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
   margin: 0;
 
   @include breakpoint(landscape) {
@@ -86,22 +108,47 @@
 }
 
 .content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin: 0 auto;
-  max-width: 860px;
+  display: flex;
+  padding: 36px 0.5px 56px 59.5px;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 45px;
+  // display: flex;
+  // padding: 36px 0.5px 56px 59.5px;
+  // justify-content: flex-end;
+  // align-items: flex-start;
+  // gap: 45px; 
+  // display: grid;
+  // grid-template-columns: 1fr 1fr;
+  // margin: 0 auto;
+  // max-width: 860px;
   
   @include breakpoint(big-mobile) {
-    grid-auto-rows: initial;
     padding: 100px 0  150px;
   }
 }
 
 .sectionTitle {
-  font-size: 24px;
-  text-transform: uppercase;
-  margin: 0 0 48px;
+  display: flex;
+  padding: 0px 78.13px 102.5px 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 29.5px;
+  align-self: stretch;
+  // font-size: 24px;
+  // text-transform: uppercase;
+  // margin: 0 0 48px;
+  // color: var(--primary-blue);
+}
+
+.title {
   color: var(--primary-blue);
+  font-family: var(--anton);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px; /* 145.833% */
+  text-transform: uppercase;
 }
 
 .sectionText {
@@ -112,15 +159,27 @@
 }
 
 .belgradeCalling {
-  border: 1px solid var(--primary-blue);
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.useCase {
+  display: flex;
   padding: 49px 62px 63px 48px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: -70px;
+  border: 1px solid #0078FF;
 }
 
 .whyBelgrade {
   border: 1px solid var(--primary-blue);
-  display: inline-block;
-  padding: 49px 62px 63px 48px;
+  display: flex;
+  padding: 49px 62px 63px 47px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: -70px;
 }
 
 .button {
