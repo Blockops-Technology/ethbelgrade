@@ -43,7 +43,7 @@ function MyApp({ Component, pageProps }) {
       <style jsx global>
         {`
           html {
-            font-family: ${rubik.style.fontFamily};
+            font-family: ${spaceGrotesk.style.fontFamily};
           }
           
           :root {

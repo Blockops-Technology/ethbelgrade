@@ -14,8 +14,12 @@ const Button = ({primary, ghost, children, className, disabled, styleType, ...pr
       break;
     case "pink":
       applyStyle = styles.buttonPink;
+      break;
     case "emerald":
       applyStyle = styles.buttonEmerald;
+      break;
+    case "yellow":
+      applyStyle = styles.buttonYellow;
       break;
     default:
       applyStyle = "";

@@ -76,9 +76,9 @@
   padding: 20px 30px;
   font-weight: 700;
   font-size: 30px;
-  border-left: 1px solid var(--primary-green);
-  border-top: 1px solid var(--primary-green);
-  border-bottom: 1px solid var(--primary-green);
+  border-left: 1px solid var(--primary-yellow);
+  border-top: 1px solid var(--primary-yellow);
+  border-bottom: 1px solid var(--primary-yellow);
   flex-grow: 1;
   text-align: center;
   text-transform: uppercase;
@@ -92,7 +92,7 @@
   }
 
   &:nth-last-child(1) {
-    border-right: 1px solid var(--primary-green);
+    border-right: 1px solid var(--primary-yellow);
   }
 
   &::marker {
@@ -123,7 +123,7 @@
 }
 
 .selectedTab {
-  background-color: var(--primary-green);
+  background-color: var(--primary-yellow);
   color: black;
 }
 
@@ -171,7 +171,7 @@
 }
 
 .talk {
-  border: 1.5px solid var(--primary-green);
+  border: 1.5px solid var(--primary-yellow);
   display: flex;
   align-items: center;
 
@@ -201,7 +201,7 @@
 
 .talkDetails {
   padding: 29px 33px;
-  border-left: 1.5px solid var(--primary-green);
+  border-left: 1.5px solid var(--primary-yellow);
 
   @include breakpoint(big-mobile) {
     border-left: none;

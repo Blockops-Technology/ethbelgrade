@@ -159,7 +159,7 @@
 }
 
 .categoryUX {
-  color: var(--primary-green);
+  color: var(--primary-yellow);
 }
 
 .categoryRegulations {
@@ -183,6 +183,7 @@
 
 .position {
   font-size: 20px;
+  margin: 0;
 
   @include breakpoint(medium-screen) {
     font-size: 16px;
