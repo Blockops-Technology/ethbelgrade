@@ -17,7 +17,7 @@ import Agenda from "../components/landing/agenda/agenda";
 export default function Home() {
   const description = "The most welcoming ETH event in the heart of the Balkans. Part of Belgrade Blockchain Week. 3-5 June 2024 - see you in Belgrade!";
   return (
-    <div>
+    <div style={{overflow: "hidden"}}>
       <Head>
         <title>ETH Belgrade</title>
         <meta name="description" content={description} />
