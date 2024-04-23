@@ -1,7 +1,7 @@
 @import "styles/breakpoints";
 
 .border {
-  border-bottom: 1px solid var(--primary-blue);
+  border-bottom: 1px solid var(--ETH-Hollywood-Cerise-blue);
   width: 100%;
 }
 
@@ -117,7 +117,7 @@
 a .button {
   font-size: 18px;
   padding: 13px 50.24px; 
-  border: 1px solid var(--primary-blue);
+  border: 1px solid var(--ETH-Hollywood-Cerise);
   white-space: nowrap;
   
   @include breakpoint(medium-screen) {

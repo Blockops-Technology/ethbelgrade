@@ -8,10 +8,15 @@ const Hero = () => (
     <Navigation />
     <div className="container">
       <div className={styles.heroContent}>
-        <p className={styles.title}>The confluence of knowledge</p>
+        <div className={styles.heroMargin}>
+          <div className={styles.title}>MOST WELCOMING CONFERENCE</div>
+        </div>
+        <div className={styles.subtitle}>
+          <div>ETH event in the heart of the Balkans. </div>
+          <div>Part of Belgrade Blockchain Week.</div>
+        </div>
         <div className={styles.labelContainer}>
           <img className={styles.sticker} src="/images/hero-sticker.svg" alt="ETH Belgrade conference sticker" />
-          <img className={styles.label} src="/images/hero-label.png" alt="ETH Belgrade conference label" />
         </div>
       </div>
 
