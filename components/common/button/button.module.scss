@@ -1,7 +1,7 @@
 @import "styles/breakpoints";
 
 .button {
-  padding: 10px;
+  padding: 13px 31px;
   text-transform: uppercase;
   font-size: 24px;
   font-weight: 400;
@@ -32,5 +32,5 @@
 .buttonBlue {
   @extend .button;
 
-  background: var(--ETH-Hollywood-Cerise);
+  background: var(--primary-blue);
 }
