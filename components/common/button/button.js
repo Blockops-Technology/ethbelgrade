@@ -9,11 +9,13 @@ const Button = ({primary, ghost, children, className, disabled, styleType, ...pr
     case "blue":
       applyStyle = styles.buttonBlue;
       break;
-    case "green":
-      applyStyle = styles.buttonGreen;
+    case "purple":
+      applyStyle = styles.buttonPurple;
       break;
-    case "red":
-      applyStyle = styles.buttonRed;
+    case "pink":
+      applyStyle = styles.buttonPink;
+    case "emerald":
+      applyStyle = styles.buttonEmerald;
       break;
     default:
       applyStyle = "";

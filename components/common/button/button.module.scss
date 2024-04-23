@@ -30,7 +30,17 @@
 }
 
 .buttonBlue {
-  @extend .button;
-
   background: var(--primary-blue);
+}
+
+.buttonPurple {
+  background: var(--primary-purple);
+}
+
+.buttonPink {
+  background: var(--primary-pink);
+}
+
+.buttonEmerald {
+  background: var(--primary-emerald);
 }
