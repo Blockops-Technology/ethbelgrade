@@ -105,6 +105,9 @@ const Partners = () => (
             <a href="https://chain.link/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/chainlink-logo.svg" alt="Chainlink logo" />
             </a>
+            <a href="https://neonevm.org/" target="_blank" rel="noreferrer noopener">
+              <img src="/images/partners/neon-evm.png" alt="Neon EVM logo" />
+            </a>
           </div>
 
           <p className={styles.tier}>Tier 3 sponsors</p>
