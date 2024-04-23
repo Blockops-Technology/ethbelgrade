@@ -128,6 +128,9 @@ const Partners = () => (
             <a href="https://li.fi/" target="_blank" rel="noreferrer noopener">
               <img style={{width: "100%"}} src="/images/partners/lifi-logo.svg" alt="LiFi logo" />
             </a>
+            <a href="https://oasisprotocol.org/" target="_blank" rel="noreferrer noopener">
+              <img src="/images/partners/oasis-logo.svg" alt="Oasis logo" />
+            </a>
             <a href="https://ethernal.tech/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/ethernal-logo-white.svg" alt="Ethernal logo" />
             </a>
