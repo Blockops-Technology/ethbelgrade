@@ -10,7 +10,7 @@
 }
 
 .title {
-  color: var(--ETH-Hollywood-Cerise);
+  color: var(--primary-blue);
   font-family: var(--anton);
   font-size: 190px;
   line-height: 1;
@@ -104,7 +104,7 @@
 }
 
 .buttons {
-  padding: 66px 0 100px;
+  padding: 66px 0 80px;
   display: flex;
   flex-flow: wrap;
   gap: 12px;
@@ -118,34 +118,3 @@
   }
 }
 
-.mapWrapper {
-  margin-top: 50px;
-  justify-content: center;
-  align-items: flex-end;
-  display: flex;
-  flex-wrap: wrap;
-  a {
-    min-width: 300px;
-    flex: 0 1 500px;
-    padding: 20px;
-  }
-}
-
-.videoPlaylistWrapper {
-  text-align: center;
-  font-weight: 700;
-  font-size: 32px;
-
-  iframe {
-    max-width: 100%;
-
-    @include breakpoint(tablet) {
-      width: 600px;
-      height: 338px;
-    }
-    @include breakpoint(big-mobile) {
-      width: 400px;
-      height: 225px;
-    }
-  }
-}
