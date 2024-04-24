@@ -1,6 +1,5 @@
 @import "styles/breakpoints";
 
-
 .pageTitleContainer {
   padding: 150px 16px 100px;
   background-color: var(--primary-orange);
@@ -23,7 +22,7 @@
   line-height: 1;
   text-align: left;
   font-family: var(--anton);
-  color: black;
+  color: #0A0A12;
   text-transform: uppercase;
 
   @include breakpoint(medium-screen) {
@@ -93,7 +92,7 @@
   gap: 36px;
   align-items: flex-start;
   justify-content: end;
-  margin-top: 32px;
+  margin: 32px 0 160px;
 
   @include breakpoint (tablet) {
     flex-grow: 1;

@@ -45,9 +45,8 @@ export default function Home() {
       <MediaPartners />
       <Quote />
       <Newsletter />
-      <Hackathon />
-
       <Venue />
+      <Hackathon />
     </div>
   )
 }

@@ -15,6 +15,9 @@ const Button = ({primary, ghost, children, className, disabled, styleType, ...pr
     case "pink":
       applyStyle = styles.buttonPink;
       break;
+    case "pinkish":
+      applyStyle = styles.buttonPinkish;
+      break;
     case "emerald":
       applyStyle = styles.buttonEmerald;
       break;

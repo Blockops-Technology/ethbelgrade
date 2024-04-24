@@ -1,137 +1,100 @@
 @import "styles/breakpoints";
 
 .venue {
-  padding: 100px 0 200px;
-  //@include breakpoint(big-tablet) {
-  //  padding: 200px 0;
-  //}
-  //
-  //@include breakpoint(landscape) {
-  //  padding: 100px 0;
-  //  background-position: center;
-  //}
+  margin-bottom: 130px;
 }
 
-.content {
-  //display: grid;
-  //grid-template-columns: repeat(2, 1fr);
-  //align-items: center;
+.heroImage {
+  height: 670px;
+  background: url("/images/venue/dvorana.jpeg") no-repeat center center;
+  background-size: cover;
 
-  //@include breakpoint(big-tablet) {
-  //  grid-template-columns: repeat(1, 1fr);
-  //  gap: 50px;
-  //  justify-items: center;
-  //}
-}
+  @include breakpoint(big-screen) {
+    height: 500px;
+  }
 
-.header {
-  p {
-    max-width: 410px;
+  @include breakpoint(medium-screen) {
+    height: 400px;
+  }
+
+  @include breakpoint(landscape) {
+    height: 300px;
+  }
+
+  @include breakpoint(big-mobile) {
+    height: 200px;
   }
 }
 
-.titleWrapper {
-  width: fit-content;
-  text-align: right;
-  @include breakpoint(big-tablet) {
-    text-align: center;
+.pageTitleContainer {
+  padding: 150px 16px 100px;
+  background-color: var(--primary-pinkish);
+  text-align: center;
+
+  @include breakpoint(landscape) {
+    padding: 50px 16px;
   }
 }
 
-.title {
-  font-weight: 700;
-  font-size: 40px;
-  text-transform: uppercase;
+.pageTitleWrapper {
+  display: inline-block;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.pageTitle {
+  font-size: 250px;
   margin: 0;
+  line-height: 1;
+  text-align: left;
+  font-family: var(--anton);
+  color: #0A0A12;
+  text-transform: uppercase;
 
-  @include breakpoint(big-tablet) {
-    font-size: 30px;
+  @include breakpoint(medium-screen) {
+    font-size: 190px;
+  }
+
+  @include breakpoint(small-screen) {
+    font-size: 160px;
+  }
+
+  @include breakpoint(tablet) {
+    font-size: 130px;
+  }
+
+  @include breakpoint(landscape) {
+    font-size: 90px;
+  }
+
+  @include breakpoint(big-mobile) {
+    font-size: 60px;
   }
 }
 
 .subtitle {
-  font-size: 32px;
-  //text-transform: uppercase;
-  color: var(--primary-red);
-  transform: rotate(-2.84deg);
-  margin-top: 0;
-  margin-right: -100px;
-  margin-bottom: 0;
+  margin: 0;
+  font-size: 36px;
+  color: black;
+  text-transform: capitalize;
 
-  @include breakpoint(big-tablet) {
-    margin-right: -30px;
-    font-size: 20px;
+  @include breakpoint(landscape) {
+    font-size: 30px;
+  }
+
+  @include breakpoint(big-mobile) {
+    font-size: 24px;
   }
 }
 
-.imgWrapper {
-  position: relative;
-  text-align: center;
-  margin-bottom: 30px;
-  @media (max-width: 500px) {
-    margin-bottom: 160px; // accomodate .venueFlag
-  }
-
-  .venuePin {
-    position: absolute;
-    left: 46%;
-    top: 35%;
-    cursor: pointer;
-    transition: all .2s;
-    width: 3.076923077%;
-    &:hover {
-      transform: translateY(-5%);
-    }
-    &:hover + img {
-      //transform: scale(1.1);
-    }
-  }
-
-  .venueFlag {
-    position: absolute;
-    left: 50%;
-    top: 44%;
-    width: 30%;
-    transition: all .2s;
-    background-image: url('/images/venue/venue-flag.png');
-    background-size: 100%;
-    background-repeat: no-repeat;
-    min-height: 200px;
-    padding: 1.5% 1.5% 1.5% 16%;
-    box-sizing: border-box;
-    color: black;
-    font-size: 20px;
-    text-align: left;
-    @media (max-width: 1650px) { font-size: 18px; }
-    @media (max-width: 1400px) { font-size: 16px; }
-    @media (max-width: 1200px) {
-      font-size: 14px;
-      width: 330px;
-      padding: 14px 14px 14px 170px;
-      min-height: 0;
-      left: calc(50% - 165px);
-      top: 50%;
-    }
-    @media (max-width: 500px) {
-      top: 110%;
-    }
-    .venueFlagTitle {
-      font-weight: bold;
-      font-size: 1.2em;
-      margin: 0;
-    }
-    .venueFlagAddress {
-      font-size: 1em;
-      font-family: var(--roboto-mono);
-      margin: .5em 0 0;
-      a {
-        text-decoration: underline;
-      }
-    }
-
-  }
+.text {
+  max-width: 950px;
+  padding: 60px 45px;
+  border: 1px solid var(--primary-pinkish);
+  border-top: none;
 }
 
 .pullRight {
-  text-align: right;
+  display: grid;
+  justify-items: end;
 }
