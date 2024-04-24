@@ -44,6 +44,9 @@ const Partners = () => (
 
         <p className={styles.tier}>Tier 3 sponsors</p>
         <div className={styles.sponsorsList}>
+          <a href="https://esp.ethereum.foundation/" target="_blank" rel="noreferrer noopener">
+            <img src="/images/partners/EF-ESP-logo.svg" alt="Ethereum Foundation Ecosystem Support Program logo" />
+          </a>
           <a href="https://blockanalitica.com/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/BlockAnalitica-logo.png" alt="Block Analitica logo" />
           </a>
@@ -62,6 +65,9 @@ const Partners = () => (
           </a>
           <a href="https://oasisprotocol.org/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/oasis-logo.svg" alt="Oasis logo" />
+          </a>
+          <a href="https://www.blockscout.com/" target="_blank" rel="noreferrer noopener">
+            <img src="/images/partners/blockscout-logo.svg" alt="Blockscout logo" />
           </a>
           <a href="https://ethernal.tech/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/ethernal-logo-white.svg" alt="Ethernal logo" />
@@ -83,9 +89,6 @@ const Partners = () => (
         </div>
         <p className={styles.tier}>Partners</p>
         <div className={styles.sponsorsList}>
-          <a href="https://esp.ethereum.foundation/" target="_blank" rel="noreferrer noopener">
-            <img src="/images/partners/EF-ESP-logo.svg" alt="Ethereum Foundation Ecosystem Support Program logo" />
-          </a>
           <a href="https://web3securitysummit.com/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/web3-sec-summit-logo-light.png" alt="Web3 Security Summit logo" />
           </a>
