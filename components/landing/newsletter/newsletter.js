@@ -35,19 +35,21 @@ const Newsletter = () => {
   };
 
   return (
-    <div className={styles.newsletter}>
+    <div>
+      <div className={styles.pageTitleContainer}>
+        <div className={styles.pageTitleWrapper}>
+          <p className={styles.pageTitle}>Newsletter</p>
+          <p className={styles.subtitle}>Thanks for spreading the word</p>
+        </div>
+      </div>
       <div className="container">
-        <div className={styles.contentWrapper}>
-          <div className={styles.content}>
-            <p className={styles.title}>Newsletter</p>
-            <p className={styles.text}>Don&apos;t miss anything important about ETH Belgrade*</p>
-          </div>
+        <div>
           <div className={styles.form}>
             <div className={styles.inputWrapper}>
-              <input value={email} onChange={onInputChange} type="text" placeholder="enter your email" />
+              <input className={styles.input} value={email} onChange={onInputChange} type="text" placeholder="enter your email" />
               <p className={styles.disclaimer}>*Only essential information. We promise.</p>
             </div>
-            <Button onClick={submitForm} className={styles.button}>Sign up</Button>
+            <Button onClick={submitForm} className={styles.button} styleType="orange">Sign up</Button>
           </div>
         </div>
       </div>

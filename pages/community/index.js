@@ -4,6 +4,7 @@ import Hero from "../../components/community/hero/hero";
 import Sponsors from "../../components/community/sponsors/sponsors";
 import CommunityEvents from "../../components/community/communityEvents/communityEvents";
 import About from "../../components/community/about/about";
+import Navigation from "../../components/common/navigation/navigation";
 
 export default function Community() {
   const description = "ETH Belgrade Community is a natural extension of the ETH Belgrade conference. ETH Belgrade organize various high-quality events (meetups, build & chill gatherings, etc.) throughout the year.";
@@ -29,6 +30,7 @@ export default function Community() {
 
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Navigation />
       <Hero />
       <About />
       <Sponsors />

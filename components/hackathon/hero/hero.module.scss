@@ -1,66 +1,90 @@
 @import "styles/breakpoints";
 
-.hero {
-  background: url("/images/hackathon/left-hero-vector.svg"), url("/images/hackathon/right-hero-vector.svg");
-  background-repeat: no-repeat;
-  background-position: left top, right top;
-  padding: 0 0 100px;
-
-  background-size: contain;
+.relative {
+  position: relative;
 }
 
-
 .heroContent {
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-  gap: 100px;
-  margin-top: 60px;
+  max-width: 1123px;
+  margin: 71px auto 0;
+}
+
+.title {
+  color: var(--primary-blue);
+  font-family: var(--anton);
+  font-size: 190px;
+  line-height: 1;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0 0 30px;
 
   @include breakpoint(medium-screen) {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 20px;
+    font-size: 120px;
+  }
+
+  @include breakpoint(tablet) {
+    font-size: 70px;
+    max-width: 400px;
+  }
+
+  @include breakpoint(big-mobile) {
+    font-size: 50px;
+    margin-bottom: 15px;
+    max-width: 300px;
+  }
+}
+
+.subtitle {
+  color: var(--ETH-Cyan-Aqua);
+  font-family: var(--space-grotesk);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28.368px;
+
+  @include breakpoint(tablet) {
+    font-size: 20px;
+  }
+
+  @include breakpoint(big-mobile) {
+    font-size: 16px;
+  }
+
+  @include breakpoint(medium-mobile) {
+    font-size: 14px;
+  }
+
+  p {
+    margin: 0;
   }
 }
 
 .labelContainer {
-  position: relative;
-  margin: 80px auto;
+  position: absolute;
 }
 
 .sticker {
   position: absolute;
-  top: -100px;
-  right: 10%;
+  max-width: 250px;
+  top: 0;
+  right: 20px;
   animation: rotate 20s linear infinite;
 
   @include breakpoint(medium-screen) {
-    top: -80px;
-    //left: 13%;
-    width: 130px;
-  }
-
-  @include breakpoint(medium-screen) {
-    width: initial;
+    width: 200px !important;
   }
 
   @include breakpoint(tablet) {
-    top: -80px;
-    //left: 13%;
-    width: 130px;
-  }
-
-  @include breakpoint(landscape) {
-    top: -80px;
-    //left: 13%;
-    width: 120px;
+    width: 130px !important;
   }
 
   @include breakpoint(big-mobile) {
-    top: -70px;
-    //left: 10%;
-    width: 100px;
+    width: 90px !important;
+  }
+
+  @include breakpoint(medium-mobile) {
+   top: -20px;
   }
 }
 
@@ -78,34 +102,11 @@
    }
 }
 
-
-.date {
-  font-family: var(--roboto-mono);
-  font-size: 48px;
-  color: var(--primary-purple);
-  transform: rotate(-3.93deg);
-  margin: -23px 0 0 70px;
-
-  @include breakpoint(tablet) {
-    font-size: 38px;
-    margin: -17px 0 0 50px;
-  }
-
-  @include breakpoint(big-mobile) {
-    font-size: 30px;
-    margin: -10px 0 0 30px;
-  }
-
-  @include breakpoint(big-mobile) {
-    margin: -10px 0 0;
-  }
-}
-
 .buttons {
-  padding: 66px 0 100px;
+  padding: 66px 0 80px;
   display: flex;
   flex-flow: wrap;
-  gap: 30px;
+  gap: 12px;
 
   a {
     flex-grow: 1;
@@ -113,10 +114,6 @@
 
   button {
     width: 100%;
-  }
-
-  @include breakpoint(big-mobile) {
-    padding-top: 0;
   }
 }
 

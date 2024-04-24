@@ -1,27 +1,63 @@
 @import "styles/breakpoints";
 
-.newsletter {
-  padding: 105px 0;
-  background: var(--primary-green);
-}
+.pageTitleContainer {
+  padding: 150px 16px 100px;
+  background-color: var(--primary-orange);
+  text-align: center;
 
-.contentWrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  @include breakpoint (medium-screen) {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 50px;
+  @include breakpoint(landscape) {
+    padding: 50px 16px;
   }
 }
 
-.content {
-  max-width: 410px;
+.pageTitleWrapper {
+  display: inline-block;
+  margin: 0 auto;
+  text-align: left;
+}
 
-  @include breakpoint (medium-screen) {
-    max-width: 100%;
+.pageTitle {
+  font-size: 250px;
+  margin: 0;
+  line-height: 1;
+  text-align: left;
+  font-family: var(--anton);
+  color: #0A0A12;
+  text-transform: uppercase;
+
+  @include breakpoint(medium-screen) {
+    font-size: 190px;
+  }
+
+  @include breakpoint(small-screen) {
+    font-size: 160px;
+  }
+
+  @include breakpoint(tablet) {
+    font-size: 130px;
+  }
+
+  @include breakpoint(landscape) {
+    font-size: 90px;
+  }
+
+  @include breakpoint(big-mobile) {
+    font-size: 60px;
+  }
+}
+
+.subtitle {
+  margin: 0;
+  font-size: 36px;
+  color: black;
+  text-transform: capitalize;
+
+  @include breakpoint(landscape) {
+    font-size: 30px;
+  }
+
+  @include breakpoint(big-mobile) {
+    font-size: 24px;
   }
 }
 
@@ -55,8 +91,10 @@
   display: flex;
   gap: 36px;
   align-items: flex-start;
+  justify-content: end;
+  margin: 32px 0 160px;
 
-  @include breakpoint (medium-screen) {
+  @include breakpoint (tablet) {
     flex-grow: 1;
     width: 100%;
 
@@ -71,7 +109,7 @@
 }
 
 .inputWrapper {
-  @include breakpoint (medium-screen) {
+  @include breakpoint (tablet) {
     flex-grow: 1;
   }
 
@@ -80,17 +118,23 @@
   }
 }
 
+.input {
+  border-color: var(--primary-orange);
+  font-size: 24px;
+  padding: 9px 24px;
+  &::placeholder {
+    color: var(--primary-orange);
+  }
+}
+
 .disclaimer {
-  font-size: 20px;
+  font-size: 14px;
   margin: 16px 0 0;
-  color: black;
+  color: var(--primary-orange);
 }
 
 .button {
   padding: 16px 27px;
-  background: #000;
-  border-color: black;
-  color: white;
 
   @include breakpoint(landscape) {
     width: 100%;

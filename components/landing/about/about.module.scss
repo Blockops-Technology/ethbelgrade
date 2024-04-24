@@ -1,37 +1,51 @@
 @import "styles/breakpoints";
 
+.stats {
+  font-family: var(--anton);
+  font-size: 24px;
+  text-transform: uppercase;
+  display: flex;
+  gap: 50px;
+  margin-right: 50px;
+  margin-bottom: 90px;
+}
+
+.purple {
+  color: var(--primary-purple);
+}
+
+.blue {
+  color: var(--primary-blue);
+}
+
+.pink {
+  color: var(--primary-pink)
+}
+
+.emerald {
+  color: var(--primary-emerald);
+}
+
+.green {
+  color: var(--primary-yellow);
+}
+
+.orange {
+  color: var(--primary-orange);
+}
+
 .about {
-  padding: 34px 0;
-}
-
-.numbersWrapper {
-  text-align: center;
-}
-
-.numbers {
-  margin-bottom: 70px;
-
-  @include breakpoint(tablet) {
-    display: none;
-  }
-}
-
-.numbersMobile {
-  display: none;
-
-  @include breakpoint(tablet) {
-    margin-bottom: 70px;
-    display: initial;
-  }
+  max-width: 1155px;
+  padding: 0px 16px 90px;
+  margin: 0 auto;
 }
 
 .subtitle {
-  font-family: var(--roboto-mono);
-  text-transform: uppercase;
-  font-size: 32px;
-  color: var(--primary-red);
-  transform: rotate(2.4deg);
-  text-align: center;
+  font-family: var(--space-grotesk);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
   margin: 0;
 
   @include breakpoint(landscape) {
@@ -39,28 +53,29 @@
   }
 }
 
-.titleWrapper {
-  display: flex;
-  justify-content: center;
-}
-
 .title {
-  font-weight: 700;
-  font-size: 60px;
+  font-size: 45px;
+  line-height: 54.44px;
+  font-family: var(--anton);
   margin: 0;
   text-transform: uppercase;
-  text-align: right;
 
   @include breakpoint(big-tablet) {
     font-size: 40px;
   }
 
+  @include breakpoint(tablet) {
+    font-size: 34px;
+    line-height: 42px;
+  }
+
   @include breakpoint(landscape) {
-    font-size: 25px;
+    font-size: 30px;
   }
 
   @include breakpoint(big-mobile) {
     font-size: 18px;
+    line-height: 28px;
   }
 
   @include breakpoint(medium-mobile) {
@@ -68,74 +83,60 @@
   }
 }
 
-.indent {
-  margin-right: 50px;
-
-  @include breakpoint(landscape) {
-    margin-right: 20px;
-  }
-}
-
-.rotate {
-  transform: rotate(-1.25deg);
-  display: block;
-}
-
-.underline {
-  border-bottom: 3px solid #057AFF;;
-}
-
-.contentWrapper {
-  background-image: url("/images/about-diamond.svg"), url("/images/about-hourglass.svg");
-  background-repeat: no-repeat;
-  background-position: top left, right bottom;
-
-  @include breakpoint(big-tablet) {
-    background-size: 300px, 500px;
-  }
+.highlight {
+  color: var(--primary-blue);
 }
 
 .content {
-  padding: 206px 0;
   display: grid;
-  grid-auto-rows: minmax(0, 1fr);
-  max-width: 860px;
-  margin: 0 auto;
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
+  padding: 90px 0 0;
 
-  @include breakpoint(big-mobile) {
-    grid-auto-rows: initial;
-    padding: 100px 0  150px;
+  @include breakpoint(tablet) {
+    grid-template-columns: 1fr;
+  }
+  
+  //@include breakpoint(big-mobile) {
+  //  padding: 100px 0  150px;
+  //}
+}
+
+.section {
+  border: 1px solid var(--primary-blue);
+  padding: 49px;
+
+  &:nth-last-child(2) {
+    border-right-width: 0px;
+  }
+
+  @include breakpoint(tablet) {
+    &:nth-last-child(2) {
+      border-right-width: 1px;
+    }
   }
 }
 
 .sectionTitle {
-  font-weight: 700;
-  font-size: 40px;
+  font-family: var(--anton);
+  color: var(--primary-blue);
+  font-size: 24px;
   text-transform: uppercase;
-  margin: 0 0 48px;
 }
 
 .sectionText {
-  margin-bottom: 46px;
+  font-family: var(--space-grotesk);
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.buttonWrapper {
+  display: flex;
+  justify-content: end;
 }
 
 .button {
-  margin-top: 18px;
-}
-
-.belgradeCalling {
-  max-width: 428px;
-  justify-self: end;
-  position: relative;
-
-  &:before {
-    position: absolute;
-    content: url("/images/about-section-logo.png");
-    top: -90px;
-    left: -420px;
-  }
-}
-
-.whyBelgrade {
-  max-width: 428px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }

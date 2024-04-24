@@ -1,5 +1,5 @@
 import Script from "next/script";
-import { Roboto_Mono, Rubik } from "@next/font/google";
+import { Anton, Roboto_Mono, Rubik, Space_Grotesk } from "@next/font/google";
 import { ToastContainer } from "react-toastify";
 
 const rubik = Rubik({
@@ -9,6 +9,14 @@ const rubik = Rubik({
 const robotoMono = Roboto_Mono({
   subsets: ["latin"],
 });
+const anton = Anton({
+  subsets: ["latin", "latin-ext"],
+  weight: ["400"],
+})
+const spaceGrotesk = Space_Grotesk({
+  subsets: ["latin", "latin-ext"],
+  weight: ["400"],
+})
 
 import "react-toastify/dist/ReactToastify.css";
 import "slick-carousel/slick/slick.css";
@@ -35,19 +43,21 @@ function MyApp({ Component, pageProps }) {
       <style jsx global>
         {`
           html {
-            font-family: ${rubik.style.fontFamily};
+            font-family: ${spaceGrotesk.style.fontFamily};
           }
           
           :root {
             --roboto-mono: ${robotoMono.style.fontFamily};
             --rubik: ${rubik.style.fontFamily};
+            --anton: ${anton.style.fontFamily};
+            --space-grotesk: ${spaceGrotesk.style.fontFamily};
           }
         `}
       </style>
         { getLayout(<Component {...pageProps} />) }
       <ToastContainer
         position="top-right"
-        // theme="dark"
+        theme="dark"
       />
     </>
   )

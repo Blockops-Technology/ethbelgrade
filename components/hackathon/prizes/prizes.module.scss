@@ -5,11 +5,11 @@
 }
 
 .header {
-  padding: 0 0 100px;
   text-align: center;
 }
 
 .totalAmount {
+  font-family: var(--anton);
   font-weight: 700;
   font-size: 64px;
   text-transform: uppercase;
@@ -26,10 +26,9 @@
 }
 
 .prizeTitle {
-  @extend .totalAmount;
-
+  font-size: 24px;
+  margin: 0;
   color: white;
-  transform: rotate(-3deg);
 }
 
 .topRow {

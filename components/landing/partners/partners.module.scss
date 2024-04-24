@@ -1,16 +1,47 @@
 @import "styles/breakpoints";
 
-.partners {
-  margin-top: 200px;
-  padding: 80px 0;
-  //background: url("/images/partners-vector.svg") no-repeat right bottom;
-  background-size: contain;
+.pageTitleContainer {
+  padding: 90px 16px;
+  background-color: var(--primary-yellow);
+
+  @include breakpoint(landscape) {
+    padding: 50px 16px;
+  }
 }
 
+.pageTitle {
+  font-size: 300px;
+  margin: 0;
+  text-align: center;
+  font-family: var(--anton);
+  color: #0A0A12;
+  text-transform: uppercase;
+
+  @include breakpoint(medium-screen) {
+    font-size: 200px;
+  }
+
+  @include breakpoint(medium-screen) {
+    font-size: 200px;
+  }
+
+  @include breakpoint(tablet) {
+    font-size: 150px;
+  }
+
+  @include breakpoint(landscape) {
+    font-size: 100px;
+  }
+
+  @include breakpoint(big-mobile) {
+    font-size: 70px;
+  }
+}
+
+
+
+
 .content {
-  //display: grid;
-  //grid-template-areas: "first first second";
-  //grid-auto-columns: minmax(0, 1fr);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -22,20 +53,29 @@
   }
 }
 
-.sponsors {
-  //grid-area: first;
+.title {
+  font-family: var(--anton);
+  font-size: 40px;
+  color: var(--primary-yellow);
+  text-transform: uppercase;
+  margin: 90px 0 0;
 }
 
-.title {
-  font-weight: 700;
-  font-size: 40px;
-  text-transform: uppercase;
-  margin: 0 0 27px;
+.subtitle {
+  margin: 0 0 70px;
+}
+
+.tier {
+  font-size: 24px;
+  color: var(--primary-yellow);
+  padding-bottom: 22px;
+  margin: 0 0 60px;
+  border-bottom: 1px solid var(--primary-yellow);
 }
 
 .sponsorsList {
   margin-top: 30px;
-  margin-bottom: 37px;
+  margin-bottom: 90px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 70px;
@@ -59,33 +99,47 @@
 .superSponsorsList {
   @extend .sponsorsList;
   grid-template-columns: repeat(3, 1fr);
-}
 
-.bloxico {
-  max-height: 70px !important;
+  @include breakpoint(tablet) {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 .ctaSection {
-  //grid-area: second;
-  max-width: 400px;
+  max-width: 860px;
+  margin: 150px auto 120px;
 }
 
 .ctaTitle {
-  font-weight: 700;
-  font-size: 32px;
+  font-family: var(--anton);
+  text-transform: uppercase;
+  font-size: 110px;
+  line-height: 1;
+  text-align: center;
+  margin-bottom: 70px;
+
+  span {
+    color: var(--primary-yellow);
+  }
+
+  @include breakpoint(landscape) {
+    font-size: 80px;
+  }
+
+  @include breakpoint(big-mobile) {
+    font-size: 60px;
+  }
+
+  @include breakpoint(medium-mobile) {
+    font-size: 55px;
+  }
 }
 
-.tier {
-  font-size: 32px;
-  color: #057AFF;
-  display: inline-block;
-
-  transform: rotate(-3.55deg);
-  margin-left: -30px;
+.buttonWrapper {
+  text-align: center;
 }
 
-.tierAlt {
-  @extend .tier;
-
-  transform: rotate(7.6deg);
+.button {
+  width: 100%;
+  max-width: 290px;
 }

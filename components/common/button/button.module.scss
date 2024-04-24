@@ -1,16 +1,16 @@
 @import "styles/breakpoints";
 
 .button {
-  padding: 21px 32px;
+  padding: 10px 31px;
   text-transform: uppercase;
-  font-size: 26px;
-  font-weight: 700;
-  color: black;
-  background: var(--primary-green);
-  border: 1px solid var(--primary-green);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1;
+  font-family: var(--anton);
+  color: var(--primary-black);
+  background: var(--primary-pinkish);
   cursor: pointer;
-  font-family: inherit;
-
+ 
   @include breakpoint(big-tablet) {
     font-size: 20px;
   }
@@ -27,4 +27,81 @@
   background: transparent;
   color: #fff;
   border: 1px solid #fff;
+}
+
+.buttonBlue {
+  background: var(--primary-blue);
+}
+
+.buttonPurple {
+  background: var(--primary-purple);
+}
+
+.buttonPink {
+  background: var(--primary-pink);
+}
+
+.buttonPinkish {
+  background: var(--primary-pinkish);
+}
+
+.buttonEmerald {
+  background: var(--primary-emerald);
+}
+
+.buttonYellow {
+  background: var(--primary-yellow);
+}
+
+.buttonRed {
+  background: var(--primary-red);
+}
+
+.buttonOrange {
+  background: var(--primary-orange);
+}
+
+.buttonGhost {
+  @extend .button;
+  background: transparent;
+
+  &.buttonBlue {
+    color: var(--primary-blue);
+    border: 1px solid var(--primary-blue);
+  }
+
+  &.buttonPurple {
+    color: var(--primary-purple);
+    border: 1px solid var(--primary-purple);
+  }
+
+  &.buttonPink {
+    color: var(--primary-pink);
+    border: 1px solid var(--primary-pink);
+  }
+
+  &.buttonPinkish {
+      color: var(--primary-pinkish);
+      border: 1px solid var(--primary-pinkish);
+  }
+
+  &.buttonEmerald {
+    color: var(--primary-emerald);
+    border: 1px solid var(--primary-emerald);
+  }
+
+  &.buttonYellow {
+    color: var(--primary-yellow);
+    border: 1px solid var(--primary-yellow);
+  }
+
+  &.buttonRed {
+    color: var(--primary-red);
+    border: 1px solid var(--primary-red);
+  }
+
+  &.buttonOrange {
+    color: var(--primary-orange);
+    border: 1px solid var(--primary-orange);
+  }
 }
