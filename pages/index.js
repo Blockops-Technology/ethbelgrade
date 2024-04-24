@@ -6,8 +6,6 @@ import MediaPartners from "../components/landing/media-partners/mediaPartners";
 import Newsletter from "../components/landing/newsletter/newsletter";
 import Hackathon from "../components/landing/hackathon/hackathon";
 import Quote from "../components/landing/quote/quote";
-import TicketCta from "../components/landing/ticket-cta/ticketCta";
-import Team from "../components/landing/team/team";
 import Speakers from "../components/landing/speakers/speakers";
 import Partners from "../components/landing/partners/partners";
 import Venue from "../components/landing/venue/venue";
@@ -45,8 +43,6 @@ export default function Home() {
       <Partners />
       <Startups />
       <MediaPartners />
-      <TicketCta />
-      {/*<Team />*/}
       <Quote />
       <Newsletter />
       <Hackathon />

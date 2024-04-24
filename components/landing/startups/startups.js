@@ -2,7 +2,7 @@ import styles from "./startups.module.scss";
 import Button from "../../common/button/button";
 
 const Startups = () => (
-  <div id="startups" className={styles.startups}>
+  <div id="startups">
     <div className={styles.pageTitleContainer}>
       <p className={styles.pageTitle}>Startups</p>
     </div>

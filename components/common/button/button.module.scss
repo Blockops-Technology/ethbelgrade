@@ -52,3 +52,38 @@
 .buttonRed {
   background: var(--primary-red);
 }
+
+.buttonGhost {
+  @extend .button;
+  background: transparent;
+
+  &.buttonBlue {
+    color: var(--primary-blue);
+    border: 1px solid var(--primary-blue);
+  }
+
+  &.buttonPurple {
+    color: var(--primary-purple);
+    border: 1px solid var(--primary-purple);
+  }
+
+  &.buttonPink {
+    color: var(--primary-pink);
+    border: 1px solid var(--primary-pink);
+  }
+
+  &.buttonEmerald {
+    color: var(--primary-emerald);
+    border: 1px solid var(--primary-emerald);
+  }
+
+  &.buttonYellow {
+    color: var(--primary-yellow);
+    border: 1px solid var(--primary-yellow);
+  }
+
+  &.buttonRed {
+    color: var(--primary-red);
+    border: 1px solid var(--primary-red);
+  }
+}
