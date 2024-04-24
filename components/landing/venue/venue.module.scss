@@ -98,3 +98,9 @@
   display: grid;
   justify-items: end;
 }
+
+.button {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}

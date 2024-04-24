@@ -19,7 +19,7 @@ const Venue = () => (
         </div>
         <div>
           <a href="https://goo.gl/maps/5errnhEko9BNP4Fs8" target="_blank" rel="noreferrer">
-            <Button styleType="pinkish">Open with Google Maps</Button>
+            <Button className={styles.button} styleType="pinkish">Open with Google Maps <img src="/icons/arrow-right.svg" alt="Arrow right direction icon" /></Button>
           </a>
         </div>
       </div>

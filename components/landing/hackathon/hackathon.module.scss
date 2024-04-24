@@ -1,49 +1,98 @@
 @import "styles/breakpoints";
 
 .hackathon {
-  padding: 200px 0 430px;
-  background: url("/images/hackathon-vector.svg") no-repeat bottom left;
 
-  @include breakpoint(big-tablet) {
-    padding: 200px 0;
+}
+
+.heroImage {
+  height: 570px;
+  background: url("/images/hackathon.jpeg") no-repeat center center;
+  background-size: cover;
+
+  @include breakpoint(big-screen) {
+    height: 470px;
+  }
+
+  @include breakpoint(medium-screen) {
+    height: 400px;
   }
 
   @include breakpoint(landscape) {
-    padding: 100px 0;
-    background-position: center;
+    height: 300px;
+  }
+
+  @include breakpoint(big-mobile) {
+    height: 200px;
   }
 }
 
-.content {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  align-items: center;
+.pageTitleContainer {
+  padding: 150px 16px 100px;
+  background-color: var(--primary-emerald);
+  text-align: center;
 
-  @include breakpoint(big-tablet) {
-    grid-template-columns: repeat(1, 1fr);
-    gap: 50px;
-    justify-items: center;
+  @include breakpoint(landscape) {
+    padding: 50px 16px;
   }
 }
 
-.image {
-  @include breakpoint(big-tablet) {
-    max-width: 500px;
-    width: 100%;
-  }
-}
-
-.data {
+.pageTitleWrapper {
+  display: inline-block;
   margin: 0 auto;
-  @include breakpoint(big-tablet) {
-    text-align: center;
+  text-align: left;
+}
+
+.pageTitle {
+  font-size: 270px;
+  margin: 0;
+  line-height: 1;
+  text-align: left;
+  font-family: var(--anton);
+  color: #0A0A12;
+  text-transform: uppercase;
+
+  @include breakpoint(medium-screen) {
+    font-size: 210px;
+  }
+
+  @include breakpoint(small-screen) {
+    font-size: 170px;
+  }
+
+  @include breakpoint(tablet) {
+    font-size: 140px;
+  }
+
+  @include breakpoint(landscape) {
+    font-size: 100px;
+  }
+
+  @include breakpoint(big-mobile) {
+    font-size: 70px;
   }
 }
 
-.date {
-  color: #4CE0B3;
-  font-size: 40px;
-  font-family: var(--roboto-mono);
-  transform: rotate(-3.93deg);
-  margin-top: 0;
+.subtitle {
+  margin: 0;
+  font-size: 36px;
+  color: black;
+  text-transform: capitalize;
+
+  span {
+    color: white;
+  }
+
+  @include breakpoint(landscape) {
+    font-size: 30px;
+  }
+
+  @include breakpoint(big-mobile) {
+    font-size: 24px;
+  }
+}
+
+.buttonWrapper {
+  display: grid;
+  justify-content: end;
+  margin: 45px 0 170px;
 }
