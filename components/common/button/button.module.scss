@@ -1,11 +1,11 @@
 @import "styles/breakpoints";
 
 .button {
-  padding: 13px 31px;
+  padding: 10px 31px;
   text-transform: uppercase;
   font-size: 24px;
   font-weight: 400;
-  line-height: 28.4px;
+  line-height: 1;
   font-family: var(--anton);
   color: var(--primary-black);
   background: var(--primary-pinkish);
@@ -53,6 +53,10 @@
   background: var(--primary-red);
 }
 
+.buttonOrange {
+  background: var(--primary-orange);
+}
+
 .buttonGhost {
   @extend .button;
   background: transparent;
@@ -85,5 +89,10 @@
   &.buttonRed {
     color: var(--primary-red);
     border: 1px solid var(--primary-red);
+  }
+
+  &.buttonOrange {
+    color: var(--primary-orange);
+    border: 1px solid var(--primary-orange);
   }
 }
