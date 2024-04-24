@@ -22,7 +22,7 @@ const Sponsors = () => (
             </a>
           </div>
           <div className={styles.sponsor}>
-            <a style={{display: "flex", gap: 20, alignItems: "center"}} href="https://www.johnlilic.info/" target="_blank" rel="noreferrer noopener">
+            <a style={{display: "flex", gap: 20, alignItems: "center", justifyContent: "center"}} href="https://www.johnlilic.info/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/johnlilic.jpg" alt="John Lilic logo" />
               <p style={{fontWeight: "bold", fontSize: 20, textTransform: "uppercase"}}>John Lilic</p>
             </a>

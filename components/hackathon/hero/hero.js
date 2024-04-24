@@ -14,7 +14,7 @@ const Hero = () => (
           <p>Participate IRL from Belgrade or online from all over the world.</p>
         </div>
         {/*<div className={styles.labelContainer}>*/}
-        {/*  <img className={styles.sticker} src="/images/hero-sticker.svg" alt="ETH Belgrade conference sticker" />*/}
+        {/*  <img className={styles.sticker} src="/images/hero2-sticker.svg" alt="ETH Belgrade conference sticker" />*/}
         {/*</div>*/}
 
         <div className={styles.buttons}>
