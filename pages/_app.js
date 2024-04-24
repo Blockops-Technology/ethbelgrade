@@ -57,7 +57,7 @@ function MyApp({ Component, pageProps }) {
         { getLayout(<Component {...pageProps} />) }
       <ToastContainer
         position="top-right"
-        // theme="dark"
+        theme="dark"
       />
     </>
   )
