@@ -13,7 +13,7 @@ const Hackathon = () => (
     </div>
     <div className="container">
       <div className={styles.buttonWrapper}>
-        <a href="/hackathon">
+        <a href={HACKATHON_APPLICATION_FORM_URL}>
           <Button ghost styleType="emerald">Apply to hack</Button>
         </a>
       </div>
