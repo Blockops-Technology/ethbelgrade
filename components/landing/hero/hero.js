@@ -1,11 +1,9 @@
 import styles from "./hero.module.scss";
-import Navigation from "../../common/navigation/navigation";
 import Button from "../../common/button/button";
 import { SPEAKER_APPLICATION_FORM_URL, SPONSOR_APPLICATION_FORM_URL, TICKETING_PLATFORM_URL } from "../../../constants";
 
 const Hero = () => (
   <div className={styles.hero}>
-    <Navigation />
     <div className={`${styles.relative} container`}>
       <div className={styles.heroContent}>
         <p className={styles.title}>MOST WELCOMING CONFERENCE</p>
