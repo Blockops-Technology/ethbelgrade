@@ -1,8 +1,6 @@
 import { useTimer } from "react-timer-hook";
 
 import styles from "./banner.module.scss";
-import Button from "../button/button";
-import { TICKETING_PLATFORM_URL } from "../../../constants";
 
 const Banner = () => {
   const {
@@ -23,9 +21,6 @@ const Banner = () => {
             <p className={styles.text}>Ticket sale (30% off) available for</p>
             <p className={styles.time}>{days} days  {hours} hours  {minutes} minutes {seconds} seconds</p>
           </div>
-          <a href={TICKETING_PLATFORM_URL} target="_blank" rel="noreferrer noopener">
-            <Button className={styles.button}>Get Tickets</Button>
-          </a>
         </div>
       </div>
     </div>
