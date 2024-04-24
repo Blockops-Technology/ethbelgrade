@@ -43,8 +43,8 @@ export default function Home() {
       <About />
       <Speakers />
       <Partners />
-      <MediaPartners />
       <Startups />
+      <MediaPartners />
       <TicketCta />
       {/*<Team />*/}
       <Quote />

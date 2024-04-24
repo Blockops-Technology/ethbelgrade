@@ -1,41 +1,66 @@
 @import "styles/breakpoints";
 
-.startups {
-  padding: 150px 0 50px;
-  display: flex;
+.pageTitleContainer {
+  padding: 90px 16px;
+  background-color: var(--primary-red);
+
+  @include breakpoint(landscape) {
+    padding: 50px 16px;
+  }
 }
 
-.content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.pageTitle {
+  font-size: 300px;
+  margin: 0;
+  text-align: center;
+  font-family: var(--anton);
+  color: black;
+  text-transform: uppercase;
+
+  @include breakpoint(medium-screen) {
+    font-size: 200px;
+  }
+
+  @include breakpoint(medium-screen) {
+    font-size: 200px;
+  }
+
+  @include breakpoint(tablet) {
+    font-size: 150px;
+  }
+
+  @include breakpoint(landscape) {
+    font-size: 100px;
+  }
+
+  @include breakpoint(big-mobile) {
+    font-size: 70px;
+  }
 }
 
 .mainGrid {
+  margin-top: 70px;
   display: grid;
-  grid-template-columns: 420px minmax(400px, 610px);
-  align-items: center;
+  grid-template-columns: minmax(400px, 480px) minmax(400px, 610px);
   grid-gap: 0 100px;
 
   @include breakpoint(big-tablet) {
     grid-template-columns: 1fr;
     gap: 20px;
-    justify-items: center;
+    justify-items: start;
   }
 }
 
-.header {
-  p {
-    max-width: 410px;
-  }
+.sectionTitle {
+  font-family: var(--anton);
+  margin: 90px 0 0;
+  font-size: 32px;
+  text-transform: uppercase;
+  color: var(--primary-red);
 }
 
-.titleWrapper {
-  width: fit-content;
-  text-align: right;
-  @include breakpoint(big-tablet) {
-    text-align: center;
-  }
+.subtitle {
+  margin: 0;
 }
 
 .title {
@@ -53,54 +78,14 @@
   }
 }
 
-.bigTitle {
-  //font-size: 64px;
-
-  @include breakpoint(big-tablet) {
-    font-size: 42px;
-  }
-
-  @include breakpoint(big-mobile) {
-    font-size: 40px;
-  }
-}
-
-.subtitle {
-  font-size: 32px;
-  text-transform: uppercase;
-  color: var(--primary-orange);
-  transform: rotate(3deg);
-  margin-top: -110px;
-  margin-right: -80px;
-  margin-bottom: 110px;
-
-  text-align: right;
-
-  @include breakpoint(big-tablet) {
-    margin-right: -60px;
-    margin-top: -150px;
-    margin-bottom: 180px;
-    font-size: 20px;
-  }
-
-  @include breakpoint(big-mobile) {
-    margin-right: -5px;
-  }
-}
-
 .ctaWrapper {
-  margin-top: 30px;
-  display: flex;
-  gap: 60px;
-  grid-column: span 2;
-  @include breakpoint(big-tablet) {
-    grid-column: 1;
-  }
-  @include breakpoint(big-mobile) {
-    gap: 20px;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+  margin: 70px 0 120px;
+  text-align: center;
+}
+
+.button {
+  width: 100%;
+  max-width: 290px;
 }
 
 .investors {
