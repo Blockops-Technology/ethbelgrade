@@ -7,6 +7,7 @@ const Hero = () => (
     <div className={`${styles.relative} container`}>
       <div className={styles.heroContent}>
         <p className={styles.title}>MOST WELCOMING CONFERENCE</p>
+        <p className={styles.dates}>3 - 5 June, 2024</p>
         <div className={styles.subtitle}>
           <p>ETH event in the heart of the Balkans.</p>
           <p>Part of Belgrade Blockchain Week.</p>
