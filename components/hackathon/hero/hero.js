@@ -9,8 +9,8 @@ const Hero = () => (
     <div className={`${styles.relative} container`}>
       <div className={styles.heroContent}>
         <p className={styles.title}>ETH Belgrade Hackathon</p>
+        <p className={styles.dates}>31 May - 2 June, 2024</p>
         <div className={styles.subtitle}>
-          <p>31 May - 2 June, 2024</p>
           <p>Participate IRL from Belgrade or online from all over the world.</p>
         </div>
         {/*<div className={styles.labelContainer}>*/}
