@@ -1,16 +1,15 @@
+@import "styles/breakpoints";
+
 .wrapper {
-  margin-top: -50px;
-  padding: 100px 0;
+  padding: 0 0 170px;
 }
 
 .title {
+  font-family: var(--anton);
   font-size: 40px;
-  font-weight: 700;
   padding: 40px 0;
   text-transform: uppercase;
   text-align: center;
-
-  background: url("/images/hackathon/sponsors-title-vector.svg") no-repeat center bottom;
 }
 
 .sponsorList {
@@ -22,14 +21,25 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 40px;
+
+  @include breakpoint(landscape) {
+    gap: 0px;
+  }
 }
 
 .sponsor {
   padding: 46px 33px;
   text-align: center;
 
+  @include breakpoint(landscape) {
+    width: 100%;
+  }
+
   img {
-    height: 70px;
+    height: auto;
+    max-height: 70px;
+    width: 100%;
+    max-width: 250px;
   }
 }
 

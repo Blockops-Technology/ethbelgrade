@@ -16,9 +16,6 @@ const MediaPartners = () => (
           <a href="https://beincrypto.com" target="_blank" rel="noreferrer noopener">
             <img src="/images/media-partners/beincrypto-logo.svg" alt="Be in Crypto logo" />
           </a>
-          {/*<a href="https://coinedition.com/" target="_blank" rel="noreferrer noopener">*/}
-          {/*  <img src="/images/media-partners/Coin-Edition.png" alt="Coin Edition logo" />*/}
-          {/*</a>*/}
           <a href="https://startit.rs/" target="_blank" rel="noreferrer noopener">
             <img src="/images/media-partners/startit_logo.svg" alt="Startit logo" />
           </a>
@@ -31,20 +28,14 @@ const MediaPartners = () => (
           <a href="https://listing.help/" target="_blank" rel="noreferrer noopener">
             <img src="/images/media-partners/listing-help.svg" alt="Listing help logo" />
           </a>
-          {/*<a href="https://cryptodataspace.com/" target="_blank" rel="noreferrer noopener">*/}
-          {/*  <img src="/images/media-partners/CDS_LOGO_WHITE.svg" alt="Crypto Data Space logo" />*/}
-          {/*</a>*/}
+          <a href="https://u.today/" target="_blank" rel="noreferrer noopener">
+            <img src="/images/media-partners/utoday-logo.svg" alt="u.today logo" />
+          </a>
+          <a href="https://mpost.io/" target="_blank" rel="noreferrer noopener">
+            <img src="/images/media-partners/mpost.png" alt="Metaverse post logo" />
+          </a>
           {/*<a href="https://itez.com/events" target="_blank" rel="noreferrer noopener">*/}
           {/*  <img src="/images/media-partners/itez-logo.png" alt="Itez logo" />*/}
-          {/*</a>*/}
-          {/*<a href="https://cryptorank.io/" target="_blank" rel="noreferrer noopener">*/}
-          {/*  <img src="/images/media-partners/cryptorank-logo.svg" alt="Cryptorank logo" />*/}
-          {/*</a>*/}
-          {/*<a href="https://aiovel.com/" target="_blank" rel="noreferrer noopener">*/}
-          {/*  <img src="/images/media-partners/AIOVEL_logo.png" alt="AIOVEL logo" />*/}
-          {/*</a>*/}
-          {/*<a href="https://web-mind.io/" target="_blank" rel="noreferrer noopener">*/}
-          {/*  <img src="/images/media-partners/WEBMIND-logo.png" alt="Webmind logo" />*/}
           {/*</a>*/}
         </div>
       </div>

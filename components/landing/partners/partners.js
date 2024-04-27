@@ -54,6 +54,9 @@ const Partners = () => (
 
         <p className={styles.tier}>Tier 4 sponsors</p>
         <div className={styles.sponsorsList}>
+          <a href="https://www.optimism.io/" target="_blank" rel="noreferrer noopener">
+            <img src="/images/partners/optimism.svg" alt="Optimism logo" />
+          </a>
           <a href="https://lido.fi/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/lido-logo.svg" alt="Lido logo" />
           </a>
@@ -106,6 +109,9 @@ const Partners = () => (
           </a>
           <a href="https://www.ethsofia.com/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/ethsofia-logo.svg" alt="ETH Sofia logo" />
+          </a>
+          <a href="https://www.ethaccra.xyz/" target="_blank" rel="noreferrer noopener">
+            <img style={{maxHeight: 90}} src="/images/partners/eth-accra-logo.svg" alt="ETH Accra logo" />
           </a>
           <a href="https://layerx.xyz/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/LayerX-logo.svg" alt="LayerX logo" />

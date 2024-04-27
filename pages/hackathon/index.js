@@ -37,7 +37,7 @@ export default function Hackathon() {
       <Prizes />
       <About />
       {/*<MentorsAndJudges />*/}
-      {/*<Sponsors />*/}
+      <Sponsors />
       {/*<Prizes />*/}
       {/*<Agenda />*/}
     </div>

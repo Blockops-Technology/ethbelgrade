@@ -4,55 +4,40 @@ const Sponsors = () => (
   <div className={styles.wrapper}>
     <div className="container">
       <div>
-        <p className={styles.title}>Sponsors</p>
+        <p className={styles.title}>Hackathon Sponsors</p>
         <div className={styles.sponsorList}>
           <div className={styles.sponsor}>
             <a href="https://esp.ethereum.foundation/" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/EF-ESP-logo.svg" alt="EF ESP logo" />
             </a>
           </div>
-          {/*<div className={styles.sponsor}>*/}
-          {/*  <a href="https://renfter.com/" target="_blank" rel="noreferrer noopener">*/}
-          {/*    <img src="/images/partners/renfter-logo.svg" alt="Renfter logo" />*/}
-          {/*  </a>*/}
-          {/*</div>*/}
           <div className={styles.sponsor}>
-            <a href="https://metamask.io/" target="_blank" rel="noreferrer noopener">
-              <img src="/images/partners/MetaMaskSnaps-logo.svg" alt="MetaMask logo" />
+            <a href="https://chain.link/" target="_blank" rel="noreferrer noopener">
+              <img src="/images/partners/chainlink-logo.svg" alt="Chainlink logo" />
             </a>
           </div>
           <div className={styles.sponsor}>
-            <a href="https://illuminate.finance/" target="_blank" rel="noreferrer noopener">
-              <img src="/images/hackathon/illuminate.png" alt="Illuminate logo" />
+            <a href="https://www.optimism.io/" target="_blank" rel="noreferrer noopener">
+              <img src="/images/partners/optimism.svg" alt="Optimism logo" />
             </a>
           </div>
           <div className={styles.sponsor}>
-            <a href="https://attest.sh/" target="_blank" rel="noreferrer noopener">
-              <img src="/images/hackathon/EAS.png" alt="EAS logo" />
-            </a>
-          </div>
-          {/*<div className={styles.sponsor}>*/}
-          {/*  <a href="https://layerx.xyz/" target="_blank" rel="noreferrer noopener">*/}
-          {/*    <img src="/images/partners/LayerX-logo.svg" alt="LayerX logo" />*/}
-          {/*  </a>*/}
-          {/*</div>*/}
-          <div className={styles.sponsor}>
-            <a href="https://polygon.technology/" target="_blank" rel="noreferrer noopener">
-              <img src="/images/partners/polygon-logo.svg" alt="Polygon logo" />
+            <a href="https://neonevm.org/" target="_blank" rel="noreferrer noopener">
+              <img src="/images/partners/neon-evm.png" alt="Neon EVM logo" />
             </a>
           </div>
           <div className={styles.sponsor}>
-            <a href="https://layerx.xyz/" target="_blank" rel="noreferrer noopener">
-              <img src="/images/partners/LayerX-logo.svg" alt="LayerX logo" />
+            <a href="https://ledger.com/" target="_blank" rel="noreferrer noopener">
+              <img src="/images/partners/ledger-logo.svg" alt="Ledger logo" />
             </a>
           </div>
         </div>
       </div>
-      {/*<div className={styles.cta}>*/}
-      {/*  <a href="mailto:partnerships@ethbelgrade.rs">*/}
-      {/*    <Button className={styles.button}>Sponsor the hackathon</Button>*/}
-      {/*  </a>*/}
-      {/*</div>*/}
+      <div className={styles.cta}>
+        <a href="mailto:partnerships@ethbelgrade.rs">
+          <Button className={styles.button}>Sponsor the hackathon</Button>
+        </a>
+      </div>
     </div>
   </div>
 );
