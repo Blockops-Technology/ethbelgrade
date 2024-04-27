@@ -355,6 +355,62 @@
       "position": "GetBlock",
       "photo": "vladislav-sopov.png",
       "category": "Dev Tooling"
+    },
+    {
+      "name": "Pavel Fedotov",
+      "twitter": "https://twitter.com/pfedprog",
+      "position": "PinSave",
+      "photo": "pavel-fedotov.png",
+      "category": "NFT"
+    },
+    {
+      "name": "Simone Engel",
+      "twitter": "https://twitter.com/Engel_Simon",
+      "position": "SAP",
+      "photo": "simon-engel.png",
+      "category": "Core protocol and Infra"
+    },
+    {
+      "name": "Petr Korolev",
+      "twitter": "https://twitter.com/skywinder",
+      "position": "OXORIO",
+      "photo": "petr-korolev.png",
+      "category": "Security"
+    },
+    {
+      "name": "Denis Vuckovac",
+      "twitter": "https://twitter.com/dnsvckvc",
+      "position": "very early Ventures",
+      "photo": "denis-vuckovac.png",
+      "category": "Entrepreneurship"
+    },
+    {
+      "name": "Dayana Aleksandrova",
+      "twitter": "https://twitter.com/dee_centralized",
+      "position": "Activated Community",
+      "photo": "dayana-aleksandrova.png",
+      "category": "Marketing"
+    },
+    {
+      "name": "James Rae",
+      "twitter": "https://twitter.com/jayrae21212",
+      "position": "Advocate Agency",
+      "photo": "james-rae.png",
+      "category": "Marketing"
+    },
+    {
+      "name": "Damian Rusinek",
+      "twitter": "https://twitter.com/drdr_zz",
+      "position": "Composable Security",
+      "photo": "damian-rusinek.png",
+      "category": "Security"
+    },
+    {
+      "name": "Vyara Savova",
+      "twitter": "https://twitter.com/vyarasavova",
+      "position": "EUCI",
+      "photo": "vyara-savova.png",
+      "category": "Regulations"
     }
   ]
 }
