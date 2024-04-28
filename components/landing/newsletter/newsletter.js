@@ -39,7 +39,7 @@ const Newsletter = () => {
       <div className={styles.pageTitleContainer}>
         <div className={styles.pageTitleWrapper}>
           <p className={styles.pageTitle}>Newsletter</p>
-          <p className={styles.subtitle}>Thanks for spreading the word</p>
+          <p className={styles.subtitle}>Don’t miss anything important about  ETH Belgrade*</p>
         </div>
       </div>
       <div className="container">
