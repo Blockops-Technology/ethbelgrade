@@ -101,6 +101,9 @@ const Partners = () => (
           <a href="https://jumper.exchange/" target="_blank" rel="noreferrer noopener">
             <img style={{width: "100%"}} src="/images/partners/jumper-logo.svg" alt="Jumper logo" />
           </a>
+          <a href="https://www.txfusion.io/" target="_blank" rel="noreferrer noopener">
+            <img src="/images/partners/tx-fusion.svg" alt="TX Fusion logo" />
+          </a>
           <a href="https://www.ethbucharest.xyz/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/eth-bucharest-logo-white.svg" alt="ETH Bucharest logo" />
           </a>
