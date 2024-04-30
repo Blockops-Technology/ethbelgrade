@@ -34,6 +34,9 @@ const MediaPartners = () => (
           <a href="https://mpost.io/" target="_blank" rel="noreferrer noopener">
             <img src="/images/media-partners/mpost.png" alt="Metaverse post logo" />
           </a>
+          <a href="https://jinse.cn/" target="_blank" rel="noreferrer noopener">
+            <img src="/images/media-partners/jinse-cn.png" alt="Jinse logo" />
+          </a>
           {/*<a href="https://itez.com/events" target="_blank" rel="noreferrer noopener">*/}
           {/*  <img src="/images/media-partners/itez-logo.png" alt="Itez logo" />*/}
           {/*</a>*/}
