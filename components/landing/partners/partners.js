@@ -57,6 +57,9 @@ const Partners = () => (
           <a href="https://www.optimism.io/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/optimism.svg" alt="Optimism logo" />
           </a>
+          <a href="https://linea.build/" target="_blank" rel="noreferrer noopener">
+            <img src="/images/partners/linea-logo.svg" alt="Linea logo" />
+          </a>
           <a href="https://lido.fi/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/lido-logo.svg" alt="Lido logo" />
           </a>

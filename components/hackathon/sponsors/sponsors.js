@@ -31,6 +31,11 @@ const Sponsors = () => (
               <img src="/images/partners/ledger-logo.svg" alt="Ledger logo" />
             </a>
           </div>
+          <div className={styles.sponsor}>
+            <a href="https://linea.build/" target="_blank" rel="noreferrer noopener">
+              <img src="/images/partners/linea-logo.svg" alt="Linea logo" />
+            </a>
+          </div>
         </div>
       </div>
       <div className={styles.cta}>
