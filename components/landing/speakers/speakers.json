@@ -78,11 +78,11 @@
       "category": "DAOs and governance"
     },
     {
-      "name": "Niklas Kunkel",
-      "twitter": "https://twitter.com/nomos_paradox",
-      "position": "MakerDAO, Chronicle Labs",
-      "photo": "niklas-kunkel.png",
-      "category": "DeFi"
+      "name": "gmhacker",
+      "twitter": "https://twitter.com/realgmhacker",
+      "position": "Immunefi",
+      "photo": "gmhacker.png",
+      "category": "Security"
     },
     {
       "name": "Akram El Milligy",
@@ -103,6 +103,13 @@
       "twitter": "https://twitter.com/NPalinkasevic",
       "position": "DeFi Saver",
       "photo": "nenad-palinkasevic.png",
+      "category": "DeFi"
+    },
+    {
+      "name": "Niklas Kunkel",
+      "twitter": "https://twitter.com/nomos_paradox",
+      "position": "MakerDAO, Chronicle Labs",
+      "photo": "niklas-kunkel.png",
       "category": "DeFi"
     },
     {
@@ -139,6 +146,13 @@
       "position": "Enso",
       "photo": "vukasin-gostovic.png",
       "category": "Core protocol and Infra"
+    },
+    {
+      "name": "Luka Isailovic",
+      "twitter": "https://twitter.com/lukaisailovic",
+      "position": "WalletConnect",
+      "photo": "luka-isailovic.png",
+      "category": "UX"
     },
     {
       "name": "Abena Asante",
@@ -425,6 +439,27 @@
       "position": "EUCI",
       "photo": "vyara-savova.png",
       "category": "Regulations"
+    },
+    {
+      "name": "Figue",
+      "twitter": "https://twitter.com/Figue_me",
+      "position": "Paladin",
+      "photo": "figue.png",
+      "category": "DeFi"
+    },
+    {
+      "name": "Emir Kurtovic",
+      "twitter": "https://twitter.com/kurtovicemir",
+      "position": "dare2play.games",
+      "photo": "emir-kurtovic.png",
+      "category": "Core protocol and Infra"
+    },
+    {
+      "name": "Rastko Misulic",
+      "twitter": "https://twitter.com/rmisulic",
+      "position": "Ceres Blockchain Solutions",
+      "photo": "rastko-misulic.png",
+      "category": "Dev Tooling"
     }
   ]
 }
