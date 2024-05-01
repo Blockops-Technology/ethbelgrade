@@ -113,6 +113,13 @@
       "category": "Dev Tooling"
     },
     {
+      "name": "Vukasin Vukoje",
+      "twitter": "https://twitter.com/wukoje",
+      "position": "web3mine",
+      "photo": "vukasin-vukoje.png",
+      "category": "Core protocol and Infra"
+    },
+    {
       "name": "Sahil Sen",
       "twitter": "https://twitter.com/sensahil",
       "position": "QuickNode",
@@ -202,6 +209,13 @@
       "position": "Superchain",
       "photo": "james-corbett.png",
       "category": "Workshop"
+    },
+    {
+      "name": "Matej Janez",
+      "twitter": "https://twitter.com/matejanez",
+      "position": "Oasis",
+      "photo": "matej-janez.png",
+      "category": "Privacy"
     },
     {
       "name": "Yehor Balytskyi",
