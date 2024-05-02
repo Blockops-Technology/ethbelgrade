@@ -78,6 +78,9 @@ const Partners = () => (
           <a href="https://ethernal.tech/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/ethernal-logo-white.svg" alt="Ethernal logo" />
           </a>
+          <a href="https://metamask.io/" target="_blank" rel="noreferrer noopener">
+            <img src="/images/partners/metamask-logo.svg" alt="MetaMask logo" />
+          </a>
         </div>
 
 
