@@ -31,6 +31,19 @@
   color: white;
 }
 
+.plus {
+  @extend .totalAmount;
+  margin: 30px 0 40px;
+  line-height: 1;
+  color: white;
+}
+
+.devconLogo {
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 15px;
+}
+
 .topRow {
   display: grid;
   grid-template-columns: 1fr 1fr;

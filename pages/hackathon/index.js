@@ -6,7 +6,7 @@ import MentorsAndJudges from "../../components/hackathon/mentors-and-judges/ment
 import Sponsors from "../../components/hackathon/sponsors/sponsors";
 import Prizes from "../../components/hackathon/prizes/prizes";
 import Agenda from "../../components/hackathon/agenda/agenda";
-import Navigation from "../../components/common/navigation/navigation";
+import AboutDevconScholarships from "../../components/hackathon/aboutDevconScholarships/aboutDevconScholarships";
 
 export default function Hackathon() {
   const description = "ETH Belgrade Hackathon offers a three-day hacking experience with a primary focus on building on Ethereum. We're opening the doors for builders from all around the globe to join us both in-person and online (hybrid).";
@@ -32,10 +32,10 @@ export default function Hackathon() {
 
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Navigation />
       <Hero />
       <Prizes />
       <About />
+      <AboutDevconScholarships />
       {/*<MentorsAndJudges />*/}
       <Sponsors />
       {/*<Prizes />*/}

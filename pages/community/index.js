@@ -30,7 +30,6 @@ export default function Community() {
 
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Navigation />
       <Hero />
       <About />
       <Sponsors />

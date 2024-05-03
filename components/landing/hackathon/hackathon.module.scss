@@ -72,7 +72,7 @@
   }
 }
 
-.subtitle {
+.pageSubtitle {
   margin: 0;
   font-size: 36px;
   color: black;
@@ -88,6 +88,57 @@
 
   @include breakpoint(big-mobile) {
     font-size: 24px;
+  }
+}
+
+.mainGrid {
+  display: grid;
+  grid-template-columns: minmax(400px, 100%) minmax(200px, 610px);
+  grid-gap: 0 100px;
+  align-items: center;
+
+  @include breakpoint(big-tablet) {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    justify-items: start;
+  }
+}
+
+.amount {
+  font-family: var(--anton);
+  margin: 90px 0 0;
+  font-size: 50px;
+  text-transform: uppercase;
+  color: var(--primary-emerald);
+}
+
+.amountDescription {
+  margin: 0;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin: 50px 0 0;
+
+  @include breakpoint(big-tablet) {
+    font-size: 30px;
+  }
+
+  @include breakpoint(big-mobile) {
+    font-size: 26px;
+  }
+}
+
+.listTitle {
+  font-size: 24px;
+}
+
+.image {
+  @include breakpoint(big-tablet) {
+    width: 100%;
+    max-width: 400px;
   }
 }
 

@@ -1,8 +1,11 @@
 @import "styles/breakpoints";
 
-.border {
+.wrapper {
   border-bottom: 1px solid var(--primary-blue);
+  background: var(--backgroung-color);
   width: 100%;
+  //position: fixed;
+  //  z-index: 10000;
 }
 
 .navigation {

@@ -1,11 +1,15 @@
 import styles from "./prizes.module.scss";
+import { HACKATHON_PRIZE_AMOUNT } from "../../../constants";
 
 const Prizes = () => (
   <div className={styles.prizes}>
     <div className="container">
       <div className={styles.header}>
-        <p className={styles.totalAmount}>$25,000</p>
+        <p className={styles.totalAmount}>${HACKATHON_PRIZE_AMOUNT}</p>
         <p className={styles.prizeTitle}>Available in prizes</p>
+        <p className={styles.plus}>+</p>
+        <img className={styles.devconLogo} src="/images/hackathon/devcon-logo.png" alt="Devcon logo" />
+        <p className={styles.prizeTitle}>Scholarships</p>
       </div>
       {/*<div>*/}
       {/*  <div className={styles.topRow}>*/}

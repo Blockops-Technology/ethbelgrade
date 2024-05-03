@@ -11,7 +11,6 @@ import Partners from "../components/landing/partners/partners";
 import Venue from "../components/landing/venue/venue";
 import Startups from "../components/landing/startups/startups";
 import Agenda from "../components/landing/agenda/agenda";
-import Navigation from "../components/common/navigation/navigation";
 
 export default function Home() {
   const description = "The most welcoming ETH event in the heart of the Balkans. Part of Belgrade Blockchain Week. 3-5 June 2024 - see you in Belgrade!";
@@ -37,18 +36,17 @@ export default function Home() {
 
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Navigation />
       <Hero />
       {/*<Agenda />*/}
       <About />
       <Speakers />
       <Partners />
       <Startups />
+      <Hackathon />
       <MediaPartners />
       <Quote />
       <Newsletter />
       <Venue />
-      <Hackathon />
     </div>
   )
 }
