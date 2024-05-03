@@ -9,6 +9,7 @@ import { BGBW_URL } from "../../../constants";
 import Button from "../button/button";
 
 import { TICKETING_PLATFORM_URL } from "../../../constants";
+import Banner from "../banner/banner";
 
 const MainMenu = () => (
   <>
@@ -65,7 +66,8 @@ const Navigation = () => {
   })
 
   return (
-    <div className={styles.border}>
+    <div className={styles.wrapper}>
+      <Banner />
       <div className="container">
         <div className={styles.container}>
         <nav className={styles.navigation}>

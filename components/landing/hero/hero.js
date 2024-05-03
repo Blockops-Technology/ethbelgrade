@@ -1,6 +1,11 @@
 import styles from "./hero.module.scss";
 import Button from "../../common/button/button";
-import { SPEAKER_APPLICATION_FORM_URL, SPONSOR_APPLICATION_FORM_URL, TICKETING_PLATFORM_URL } from "../../../constants";
+import {
+  HACKATHON_APPLICATION_FORM_URL,
+  SPEAKER_APPLICATION_FORM_URL,
+  SPONSOR_APPLICATION_FORM_URL,
+  TICKETING_PLATFORM_URL
+} from "../../../constants";
 
 const Hero = () => (
   <div className={styles.hero}>
@@ -17,6 +22,11 @@ const Hero = () => (
         {/*</div>*/}
 
         <div className={styles.buttons}>
+          <a href={HACKATHON_APPLICATION_FORM_URL} target="_blank" rel="noreferrer noopener">
+            <Button styleType="emerald">
+              Apply to hack
+            </Button>
+          </a>
           <a href={SPONSOR_APPLICATION_FORM_URL} target="_blank" rel="noreferrer noopener">
             <Button styleType="blue">
               Become a sponsor

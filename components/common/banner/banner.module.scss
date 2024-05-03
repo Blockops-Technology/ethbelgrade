@@ -5,17 +5,6 @@
   background-color: var(--primary-pinkish);
 }
 
-.content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 30px;
-
-  @include breakpoint(big-mobile) {
-    display: initial;
-  }
-}
-
 .textWrapper {
   display: flex;
   align-items: center;
@@ -23,7 +12,7 @@
   gap: 30px;
   flex-grow: 1;
 
-  @include breakpoint(big-tablet) {
+  @include breakpoint(landscape) {
     display: initial;
     padding: 16px;
   }
@@ -36,20 +25,13 @@
   text-transform: uppercase;
   color: var(--primary-black);
 
-  @include breakpoint(medium-screen) {
-    font-size: 20px;
-  }
 
   @include breakpoint(landscape) {
-    font-size: 16px;
-  }
-
-  @include breakpoint(big-mobile) {
     text-align: center !important;
     margin: 0;
   }
 
-  @include breakpoint(big-tablet) {
+  @include breakpoint(landscape) {
     text-align: center !important;
   }
 }

@@ -1,0 +1,37 @@
+@import "styles/breakpoints";
+
+.about {
+  padding: 0 0;
+}
+
+.deadlineContainer {
+  text-align: center;
+}
+
+.deadline {
+  margin: 0;
+  display: inline-block;
+  padding: 26px 0;
+  border-bottom: 2px solid var(--primary-purple);
+}
+
+.content {
+  padding: 0 0 150px;
+}
+
+.sectionTitle {
+  font-family: var(--anton);
+  font-size: 40px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.sectionText {
+  margin-bottom: 46px;
+}
+
+.button {
+  margin-top: 10px;
+  background: var(--primary-emerald);
+  border-color: var(--primary-emerald);
+}

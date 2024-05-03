@@ -83,7 +83,6 @@ const Partners = () => (
           </a>
         </div>
 
-
         <p className={styles.tier}>Supported by</p>
         <div className={styles.sponsorsList}>
           <a href="https://blockops.technology/" target="_blank" rel="noreferrer noopener">
