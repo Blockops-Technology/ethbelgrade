@@ -9,7 +9,7 @@ const AboutDevconScholarships = () => (
         <div>
           <p className={styles.sectionTitle}>About the Devcon Scholarship</p>
           <p className={styles.sectionText}>
-            Road to Devcon leads to Belgrade. In addition to monetary prize and bounties, ETH Belgrade Hackathon winners will get scholarships to attend Devcon 7 in Bangkok, Thailand. The scholarship includes:
+            Road to Devcon leads through Belgrade. In addition to monetary prize and bounties, ETH Belgrade Hackathon winners will get scholarships to attend Devcon 7 in Bangkok, Thailand. The scholarship includes:
           </p>
           <ul style={{marginBottom: 50}}>
             <li style={{marginBottom: 7}}>Tickets for <a style={{color: "var(--primary-emerald)"}} href="https://devcon.org/" target="_blank" rel="noreferrer noopener">Devcon</a></li>
