@@ -55,6 +55,12 @@
       "position": "CoW DAO, CoW Swap",
       "photo": "mariia-yatskovska.png",
       "category": "DeFi"
+    },{
+      "name": "Francesco Andreoli",
+      "twitter": "https://twitter.com/francescoswiss",
+      "position": "MetaMask",
+      "photo": "francesco-andreoli.png",
+      "category": "Core protocol and Infra"
     },
     {
       "name": "Josselin Feist",
@@ -62,13 +68,6 @@
       "position": "Trail of Bits",
       "photo": "josselin-feist.png",
       "category": "Security"
-    },
-    {
-      "name": "Stilyan Mitrev",
-      "twitter": "https://twitter.com/fungibletaco",
-      "position": "Consensys",
-      "photo": "fungibletaco.png",
-      "category": "Public goods and community"
     },
     {
       "name": "Rotorless",
@@ -113,6 +112,13 @@
       "category": "DeFi"
     },
     {
+      "name": "Vukasin Vukoje",
+      "twitter": "https://twitter.com/wukoje",
+      "position": "web3mine",
+      "photo": "vukasin-vukoje.png",
+      "category": "Core protocol and Infra"
+    },
+    {
       "name": "Igor Barinov",
       "twitter": "https://twitter.com/barinov",
       "position": "Blockscout",
@@ -120,11 +126,11 @@
       "category": "Dev Tooling"
     },
     {
-      "name": "Vukasin Vukoje",
-      "twitter": "https://twitter.com/wukoje",
-      "position": "web3mine",
-      "photo": "vukasin-vukoje.png",
-      "category": "Core protocol and Infra"
+      "name": "Stilyan Mitrev",
+      "twitter": "https://twitter.com/fungibletaco",
+      "position": "Consensys",
+      "photo": "fungibletaco.png",
+      "category": "Public goods and community"
     },
     {
       "name": "Sahil Sen",
