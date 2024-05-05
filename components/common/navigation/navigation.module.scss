@@ -36,6 +36,20 @@
   }
 }
 
+.showOnHamburger {
+  display: none;
+
+  @include breakpoint(medium-screen) {
+    display: initial;
+  }
+}
+
+.hideOnHamburger {
+  @include breakpoint(medium-screen) {
+    display: none;
+  }
+}
+
 .mobileMenu {
   display: none;
 
