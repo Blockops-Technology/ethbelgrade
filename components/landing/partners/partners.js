@@ -139,6 +139,9 @@ const Partners = () => (
           <a href="https://www.ethtallinn.org/" target="_blank" rel="noreferrer noopener">
             <img style={{maxHeight: 120}} src="/images/partners/ETHTallinn-logo.svg" alt="ETH Tallinn logo" />
           </a>
+          <a href="https://metaschool.so/" target="_blank" rel="noreferrer noopener">
+            <img style={{maxHeight: 120}} src="/images/partners/metaschool-logo.png" alt="Metaschool logo" />
+          </a>
         </div>
       </div>
 
