@@ -175,6 +175,13 @@
       "category": "DeFi"
     },
     {
+      "name": "Oliver Hörr",
+      "twitter": "https://twitter.com/0xAngler",
+      "position": "Hats Finance",
+      "photo": "oliver-horr.png",
+      "category": "Security"
+    },
+    {
       "name": "Jelena Djuric",
       "twitter": "https://www.linkedin.com/in/djuricjelena",
       "position": "Noble",
@@ -362,12 +369,6 @@
       "position": "Alterscope",
       "photo": "marijo-radman.png",
       "category": "DeFi"
-    },{
-      "name": "Stefan Velkoski",
-      "twitter": "https://twitter.com/velkoskiss",
-      "position": "Sarma ZK",
-      "photo": "stefan-velkoski.png",
-      "category": "Zero Knowledge"
     },
     {
       "name": "Sundaram Jha",
@@ -466,6 +467,20 @@
       "position": "Ceres Blockchain Solutions",
       "photo": "rastko-misulic.png",
       "category": "Dev Tooling"
+    },
+    {
+      "name": "Armin Bosto",
+      "twitter": "https://twitter.com/vanbossto",
+      "position": "itez",
+      "photo": "armin-bosto.png",
+      "category": "Public goods and community"
+    },
+    {
+      "name": "Ilya Koshelev",
+      "twitter": "https://twitter.com/gotbit_io",
+      "position": "Gotbit Hedge Fund",
+      "photo": "ilya-koshelev.png",
+      "category": "Marketing"
     }
   ]
 }

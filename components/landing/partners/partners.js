@@ -50,6 +50,9 @@ const Partners = () => (
           <a href="https://blockanalitica.com/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/BlockAnalitica-logo.png" alt="Block Analitica logo" />
           </a>
+          <a href="https://www.superchain.network/" target="_blank" rel="noreferrer noopener">
+            <img src="/images/partners/superchain-logo.png" alt="Superchain logo" />
+          </a>
         </div>
 
         <p className={styles.tier}>Tier 4 sponsors</p>
@@ -80,6 +83,12 @@ const Partners = () => (
           </a>
           <a href="https://metamask.io/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/metamask-logo.svg" alt="MetaMask logo" />
+          </a>
+          <a href="https://www.risczero.com/" target="_blank" rel="noreferrer noopener">
+            <img src="/images/partners/risc-zero-logo.png" alt="RISC Zero logo" />
+          </a>
+          <a href="https://ton.org/en" target="_blank" rel="noreferrer noopener">
+            <img src="/images/partners/ton_logo.svg" alt="TON logo" />
           </a>
         </div>
 
