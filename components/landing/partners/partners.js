@@ -84,6 +84,12 @@ const Partners = () => (
           <a href="https://metamask.io/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/metamask-logo.svg" alt="MetaMask logo" />
           </a>
+          <a href="https://www.risczero.com/" target="_blank" rel="noreferrer noopener">
+            <img src="/images/partners/risc-zero-logo.png" alt="RISC Zero logo" />
+          </a>
+          <a href="https://ton.org/en" target="_blank" rel="noreferrer noopener">
+            <img src="/images/partners/ton_logo.svg" alt="TON logo" />
+          </a>
         </div>
 
         <p className={styles.tier}>Supported by</p>
