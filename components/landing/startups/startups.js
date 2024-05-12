@@ -9,14 +9,14 @@ const Startups = () => (
     <div className="container">
       <div>
         <p className={styles.sectionTitle}>For startups</p>
-        <p className={styles.subtitle}>ETH Belgrade VC</p>
+        <p className={styles.subtitle}>ETH Belgrade Ventures</p>
         <div className={styles.mainGrid}>
           <div>
             <p className={styles.title}>
               Pitch your project and meet world-class investors
             </p>
             <p>Your project is innovative and can help resolve a real-world problem? We have great news for you. <b>ETH Belgrade</b> allows startups in all funding stages to establish relationships with top-tier VC funds and get funding.</p>
-            <p>ETH Belgrade VC is an exclusive track for the most promising startups and carefully selected VCs and investors.</p>
+            <p>ETH Belgrade Ventures is an exclusive track for the most promising startups and carefully selected VCs and investors.</p>
           </div>
           <div>
             <p style={{fontWeight: "bold", fontSize: 24, marginTop: 0}}>What will selected startups get:</p>
