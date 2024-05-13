@@ -42,6 +42,11 @@ const Sponsors = () => (
             </a>
           </div>
           <div className={styles.sponsor}>
+            <a href="https://www.bnbchain.org/en" target="_blank" rel="noreferrer noopener">
+              <img src="/images/partners/bnb-chain-logo.svg" alt="BNB Chain logo" />
+            </a>
+          </div>
+          <div className={styles.sponsor}>
             <a href="https://ton.org/en" target="_blank" rel="noreferrer noopener">
               <img src="/images/partners/ton_logo.svg" alt="TON logo" />
             </a>

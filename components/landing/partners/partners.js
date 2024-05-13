@@ -53,6 +53,9 @@ const Partners = () => (
           <a href="https://www.superchain.network/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/superchain-logo.png" alt="Superchain logo" />
           </a>
+          <a href="https://www.bnbchain.org/en" target="_blank" rel="noreferrer noopener">
+            <img src="/images/partners/bnb-chain-logo.svg" alt="BNB Chain logo" />
+          </a>
         </div>
 
         <p className={styles.tier}>Tier 4 sponsors</p>
