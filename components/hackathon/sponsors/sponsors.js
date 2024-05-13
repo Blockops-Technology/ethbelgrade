@@ -42,8 +42,8 @@ const Sponsors = () => (
             </a>
           </div>
           <div className={styles.sponsor}>
-            <a href="https://linea.build/" target="_blank" rel="noreferrer noopener">
-              <img src="/images/partners/linea-logo.svg" alt="Linea logo" />
+            <a href="https://ton.org/en" target="_blank" rel="noreferrer noopener">
+              <img src="/images/partners/ton_logo.svg" alt="TON logo" />
             </a>
           </div>
         </div>
