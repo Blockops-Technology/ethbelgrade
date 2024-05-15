@@ -56,6 +56,9 @@ const Partners = () => (
           <a href="https://www.bnbchain.org/en" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/bnb-chain-logo.svg" alt="BNB Chain logo" />
           </a>
+          <a href="https://www.mantle.xyz/" target="_blank" rel="noreferrer noopener">
+            <img src="/images/partners/mantle-logo.svg" alt="Mantle logo" />
+          </a>
         </div>
 
         <p className={styles.tier}>Tier 4 sponsors</p>
