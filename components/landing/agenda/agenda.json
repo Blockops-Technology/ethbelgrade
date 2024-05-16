@@ -1,4 +1,21 @@
 {
+  "days" : [
+    {
+      "dayName": "Day 1",
+      "date": "3 June",
+      "programe": []
+    },   
+    {
+      "dayName": "Day 2",
+      "date": "4 June",
+      "programe": []
+    },
+    {
+      "dayName": "Day 3",
+      "date": "5 June",
+      "programe": []
+    }     
+  ],
   "stages": [
     {
       "stageName": "Main (Stage 1)",

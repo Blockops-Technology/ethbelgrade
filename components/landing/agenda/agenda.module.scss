@@ -14,8 +14,11 @@
 }
 
 .title {
-  font-weight: 700;
-  font-size: 40px;
+  color: var(--primary-blue);
+  font-family: var(--anton);
+  font-weight: 400;
+  font-size: 194.16px;
+  line-height: 194.16px;
   text-transform: uppercase;
   margin: 0;
 
@@ -40,7 +43,7 @@
 }
 
 .agendaContainer {
-  max-width: 960px;
+  max-width: 1060px;
   margin: 0 auto;
 }
 
@@ -76,11 +79,10 @@
   padding: 20px 30px;
   font-weight: 700;
   font-size: 30px;
-  border-left: 1px solid var(--primary-yellow);
-  border-top: 1px solid var(--primary-yellow);
-  border-bottom: 1px solid var(--primary-yellow);
+  border-left: 1px solid var(--primary-blue);
+  border-top: 1px solid var(--primary-blue);
+  border-bottom: 1px solid var(--primary-blue);
   flex-grow: 1;
-  text-align: center;
   text-transform: uppercase;
 
   &:hover {
@@ -92,7 +94,7 @@
   }
 
   &:nth-last-child(1) {
-    border-right: 1px solid var(--primary-yellow);
+    border-right: 1px solid var(--primary-blue);
   }
 
   &::marker {
@@ -123,8 +125,15 @@
 }
 
 .selectedTab {
-  background-color: var(--primary-yellow);
+  background-color: var(--primary-blue);
+}
+
+.selectedTab .tabName {
   color: black;
+}
+
+.tabName {
+  color: var(--primary-blue);
 }
 
 .dayWrapper {

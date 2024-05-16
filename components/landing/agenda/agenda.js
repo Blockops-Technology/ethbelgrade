@@ -29,26 +29,27 @@ const Agenda = () => (
   <div id="agenda" className={styles.agenda}>
     <div className="container">
       <div className={styles.titleWrapper}>
-        <p className={styles.title}>Conference</p>
-        <p className={styles.subtitle}>Agenda</p>
+        <p className={styles.title}>Agenda</p>
       </div>
       <div className={styles.agendaContainer}>
         <Tabs className={styles.tabs}>
           <TabList className={styles.tablist}>
-            {/*<div className={styles.tablistTitle}>Stages</div>*/}
             <div className={styles.tabsContainer}>
               {
-                agenda.stages.map((stage, i) => (
-                  <Tab key={i} className={styles.tab} selectedClassName={styles.selectedTab}>{stage.stageName}</Tab>
+                agenda.days.map((day, i) => (
+                  <Tab key={i} className={styles.tab} selectedClassName={styles.selectedTab}>
+                    <div className={styles.tabName}>{day.dayName}</div>
+                    <div className={styles.tabDate}>{day.date}</div>
+                  </Tab>
                 ))
               }
             </div>
           </TabList>
 
           {
-            agenda.stages.map((stage, i) => (
+            agenda.days.map((day, i) => (
               <TabPanel key={i}>
-                {
+                {/* {
                   stage.programme.map((day, i) => (
                     <div key={i}>
                       <div className={styles.dayWrapper}>
@@ -87,7 +88,7 @@ const Agenda = () => (
                       }
                     </div>
                   ))
-                }
+                } */}
               </TabPanel>
             ))
           }
