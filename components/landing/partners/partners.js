@@ -96,6 +96,9 @@ const Partners = () => (
           <a href="https://ton.org/en" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/ton_logo.svg" alt="TON logo" />
           </a>
+          <a href="https://fluence.network/" target="_blank" rel="noreferrer noopener">
+            <img src="/images/partners/fluence-logo.svg" alt="Fluence logo" />
+          </a>
         </div>
 
         <p className={styles.tier}>Supported by</p>
