@@ -210,10 +210,10 @@
       "category": "DeFi"
     },
     {
-      "name": "Kenny White",
-      "twitter": "https://twitter.com/Dark__Kenny__",
+      "name": "Viraz Malhotra",
+      "twitter": "https://twitter.com/Viraz04",
       "position": "Shell Protocol",
-      "photo": "kenny-white.png",
+      "photo": "viraz-malhotra.png",
       "category": "DeFi"
     },
     {
@@ -315,10 +315,10 @@
       "category": "Security"
     },
     {
-      "name": "Marcin Kazmierczak",
-      "twitter": "https://twitter.com/Marcin_Kaz13",
+      "name": "Jakub Jaworski",
+      "twitter": "https://twitter.com/0xjvrsky",
       "position": "RedStone",
-      "photo": "marcin-kazmierczak.png",
+      "photo": "jakub-jaworski.png",
       "category": "DeFi"
     },
     {
@@ -488,6 +488,202 @@
       "position": "Gotbit Hedge Fund",
       "photo": "ilya-koshelev.png",
       "category": "Marketing"
+    },
+    {
+      "name": "Srdjan Vukmirovic",
+      "twitter": "https://twitter.com/SrdjanVukmirovi",
+      "position": "Ethernal",
+      "photo": "srdjan-vukmirovic.png",
+      "category": "Core protocol and Infra"
+    },
+    {
+      "name": "Jacob Haap",
+      "twitter": "https://twitter.com/jacobhaap",
+      "position": "Anomaly Science",
+      "photo": "jacob-haap.png",
+      "category": "NFT"
+    },
+    {
+      "name": "Hubert Kotliński",
+      "twitter": "https://twitter.com/hubkotl",
+      "position": "L2BEAT",
+      "photo": "hubert-kotlinski.png",
+      "category": "Core protocol and Infra"
+    },
+    {
+      "name": "Jason Smythe",
+      "twitter": "https://twitter.com/jasoonsmythe",
+      "position": "envio.dev",
+      "photo": "jason-smythe.png",
+      "category": "Core protocol and Infra"
+    },
+    {
+      "name": "Aleksei Babenkov",
+      "twitter": "https://twitter.com/",
+      "position": "",
+      "photo": "aleksei-babenkov.png",
+      "category": "DeFi"
+    },
+    {
+      "name": "Mirdul",
+      "twitter": "https://twitter.com/",
+      "position": "Ethereum Foundation",
+      "photo": "mirdul.png",
+      "category": "Zero Knowledge"
+    },
+    {
+      "name": "Daniel Sobol",
+      "twitter": "https://twitter.com/",
+      "position": "libportal.net",
+      "photo": "daniel-sobol.png",
+      "category": "Core protocol and Infra"
+    },
+    {
+      "name": "Sergei Tikhomirov",
+      "twitter": "https://twitter.com/serg_tikhomirov",
+      "position": "Waku",
+      "photo": "sergei-tikhomirov.png",
+      "category": "Dev Tooling"
+    },
+    {
+      "name": "Ilja Zakharov",
+      "twitter": "https://twitter.com/ZakharovIlja",
+      "position": "Pi Squared",
+      "photo": "ilja-zakharov.png",
+      "category": "Core protocol and Infra"
+    },
+    {
+      "name": "Roman Kolpakov",
+      "twitter": "https://twitter.com/rkolpakov_",
+      "position": "Lido",
+      "photo": "roman-kolpakov.png",
+      "category": "DAOs and governance"
+    },
+    {
+      "name": "Özgür Armanc Yiğit",
+      "twitter": "https://twitter.com/",
+      "position": "Ethereum Foundation",
+      "photo": "armanc.png",
+      "category": "Zero Knowledge"
+    },
+    {
+      "name": "Igor Gulamov",
+      "twitter": "https://twitter.com/igorgulamov",
+      "position": "ZeroPool",
+      "photo": "igor-gulamov.png",
+      "category": "Zero Knowledge"
+    },
+    {
+      "name": "Wayne Marcel",
+      "twitter": "https://twitter.com/blockchaynwayne",
+      "position": "FIO Protocol",
+      "photo": "wayne-marcel.png",
+      "category": "Core protocol and Infra"
+    },
+    {
+      "name": "Edi Sinovcic",
+      "twitter": "https://twitter.com/edisinovcic",
+      "position": "SpaceShard",
+      "photo": "edi-sinovcic.png",
+      "category": "Zero Knowledge"
+    },
+    {
+      "name": "Konstantin Molodykh",
+      "twitter": "https://twitter.com/0xMolodykh",
+      "position": "Mezen.io",
+      "photo": "konstantin-molodykh.png",
+      "category": "Entrepreneurship"
+    },
+    {
+      "name": "Glovin",
+      "twitter": "https://twitter.com/Glovin_",
+      "position": "Heroglyphs",
+      "photo": "glovin.png",
+      "category": "Public goods and community"
+    },
+    {
+      "name": "Markus B.",
+      "twitter": "https://twitter.com/seliqui_at",
+      "position": "BONSAI Token",
+      "photo": "markus-b.png",
+      "category": "Public goods and community"
+    },
+    {
+      "name": "Anirudha Bose",
+      "twitter": "https://twitter.com/onybose",
+      "position": "Brave",
+      "photo": "anirudha-bose.png",
+      "category": "Security"
+    },
+    {
+      "name": "Raoul Schaffranek",
+      "twitter": "https://twitter.com/RaoulSaffron",
+      "position": "Runtime Verification, Inc.",
+      "photo": "raoul-schaffranek.png",
+      "category": "Dev Tooling"
+    },
+    {
+      "name": "Branimir Rakic",
+      "twitter": "https://twitter.com/branarakic",
+      "position": "OriginTrail",
+      "photo": "branimir-rakic.png",
+      "category": "Core protocol and Infra"
+    },
+    {
+      "name": "Petar Atanasovski",
+      "twitter": "https://twitter.com/AtanasovskiP",
+      "position": "Attic42 & MVP Workshop",
+      "photo": "petar-atanasovski.png",
+      "category": "DAOs and governance"
+    },
+    {
+      "name": "Simeon Kotashki",
+      "twitter": "https://twitter.com/blockdegenfren",
+      "position": "Neon EVM",
+      "photo": "simeon-kotashki.png",
+      "category": "Core protocol and Infra"
+    },
+    {
+      "name": "Rami Khalil",
+      "twitter": "https://twitter.com/hashcashier",
+      "position": "RISC Zero",
+      "photo": "rami-khalil.png",
+      "category": "Core protocol and Infra"
+    },
+    {
+      "name": "Artem Dubinin",
+      "twitter": "https://twitter.com/artem_mighty",
+      "position": "Mighty",
+      "photo": "artem-dubinin.png",
+      "category": "Entrepreneurship"
+    },
+    {
+      "name": "Pavle Krivokuca",
+      "twitter": "https://twitter.com/",
+      "position": "Fireblocks",
+      "photo": "pavle-krivokuca.png",
+      "category": "Security"
+    },
+    {
+      "name": "Pietro Carta",
+      "twitter": "https://twitter.com/ptrcarta",
+      "position": "ChainSecurity",
+      "photo": "pietro-carta.png",
+      "category": "Security"
+    },
+    {
+      "name": "Evgeny Ponomarev",
+      "twitter": "https://twitter.com/eponomarev",
+      "position": "Fluence Labs",
+      "photo": "evgeny-ponomarev.png",
+      "category": "DAOs and governance"
+    },
+    {
+      "name": "Kimberly Rowland",
+      "twitter": "https://twitter.com/",
+      "position": "Blockchain Balancers",
+      "photo": "kimberly-rowland.png",
+      "category": "Regulations"
     }
   ]
 }
