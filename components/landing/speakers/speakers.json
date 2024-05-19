@@ -182,6 +182,13 @@
       "category": "DeFi"
     },
     {
+      "name": "Simeon Kotashki",
+      "twitter": "https://twitter.com/blockdegenfren",
+      "position": "Neon EVM",
+      "photo": "simeon-kotashki.png",
+      "category": "Core protocol and Infra"
+    },
+    {
       "name": "Oliver Hörr",
       "twitter": "https://twitter.com/0xAngler",
       "position": "Hats Finance",
@@ -252,6 +259,13 @@
       "category": "Privacy"
     },
     {
+      "name": "Rami Khalil",
+      "twitter": "https://twitter.com/hashcashier",
+      "position": "RISC Zero",
+      "photo": "rami-khalil.png",
+      "category": "Core protocol and Infra"
+    },
+    {
       "name": "Yehor Balytskyi",
       "twitter": "https://twitter.com/turbofakesmile",
       "position": "rektoff.xyz",
@@ -306,6 +320,13 @@
       "position": "Lossless",
       "photo": "jan-zibelnik.png",
       "category": "Security"
+    },
+    {
+      "name": "Petar Atanasovski",
+      "twitter": "https://twitter.com/AtanasovskiP",
+      "position": "Attic42 & MVP Workshop",
+      "photo": "petar-atanasovski.png",
+      "category": "DAOs and governance"
     },
     {
       "name": "Abhimanyu Nag",
@@ -630,25 +651,11 @@
       "category": "Core protocol and Infra"
     },
     {
-      "name": "Petar Atanasovski",
-      "twitter": "https://twitter.com/AtanasovskiP",
-      "position": "Attic42 & MVP Workshop",
-      "photo": "petar-atanasovski.png",
-      "category": "DAOs and governance"
-    },
-    {
-      "name": "Simeon Kotashki",
-      "twitter": "https://twitter.com/blockdegenfren",
-      "position": "Neon EVM",
-      "photo": "simeon-kotashki.png",
-      "category": "Core protocol and Infra"
-    },
-    {
-      "name": "Rami Khalil",
-      "twitter": "https://twitter.com/hashcashier",
-      "position": "RISC Zero",
-      "photo": "rami-khalil.png",
-      "category": "Core protocol and Infra"
+      "name": "Pietro Carta",
+      "twitter": "https://twitter.com/ptrcarta",
+      "position": "ChainSecurity",
+      "photo": "pietro-carta.png",
+      "category": "Security"
     },
     {
       "name": "Artem Dubinin",
@@ -662,13 +669,6 @@
       "twitter": "https://twitter.com/",
       "position": "Fireblocks",
       "photo": "pavle-krivokuca.png",
-      "category": "Security"
-    },
-    {
-      "name": "Pietro Carta",
-      "twitter": "https://twitter.com/ptrcarta",
-      "position": "ChainSecurity",
-      "photo": "pietro-carta.png",
       "category": "Security"
     },
     {
