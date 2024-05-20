@@ -9,8 +9,8 @@ module.exports = {
   async redirects() {
     return [
       {
-        source: '/guide',
-        destination: 'https://belgrade-blockchain-week.notion.site/Manual-69d7a82d41fb4eea8ba7e450ec0f12a8',
+        source: '/speakerskit',
+        destination: 'https://neon-pick-d1c.notion.site/ETH-Belgrade-2024-Speaker-s-Kit-1e07d7cf775c41a89fa7f7f01f8255da',
         permanent: false,
       },
       {
