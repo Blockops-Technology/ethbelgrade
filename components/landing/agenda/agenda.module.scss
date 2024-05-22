@@ -136,6 +136,27 @@
   color: var(--primary-blue);
 }
 
+.timeTable {
+  display: grid;
+  // grid-template-columns: repeat(4, 1fr); /* Four equally sized columns */
+  gap: 10px;
+}
+
+.timeSlot {
+  display: grid;
+  grid-template-columns: 150px repeat(3, 1fr); /* First column for time, rest for details */
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.details {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
 .dayWrapper {
   background: #0078FF;
   padding: 45px 30px 20px;
