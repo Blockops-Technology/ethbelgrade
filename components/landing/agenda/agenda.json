@@ -3,17 +3,37 @@
     {
       "dayName": "Day 1",
       "date": "3 June",
-      "programe": []
+      "programe": {
+        "12:00" : [
+          {
+            "title": "Lunch"
+          }
+        ] 
+      } 
     },   
     {
       "dayName": "Day 2",
       "date": "4 June",
-      "programe": []
+      "programe": {
+        "12:00" : [
+          {
+            "title": "Lunch"
+          }
+        ] 
+        
+      }
     },
     {
       "dayName": "Day 3",
       "date": "5 June",
-      "programe": []
+      "programe": {
+        "12:00" : [
+          {
+            "title": "Lunch"
+          }
+        ] 
+
+      }
     }     
   ],
   "stages": [

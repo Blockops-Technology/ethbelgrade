@@ -65,17 +65,28 @@ const Agenda = () => (
               <TabPanel key={i}>
                 <div className={styles.timeTable}>
                   <div className={styles.timeSlot}>
-                    &nbsp;
+                    <div></div>
                     <div>Stage 1</div>
                     <div>Stage 2</div>
                     <div>Stage 3</div>
+                    <div>Workshop</div>
                   </div>
                   {timeSlots.map((time, index) => (
                     <div key={index} className={styles.timeSlot}>
-                      {time}
-                      <div className={styles.details}></div>
-                      <div className={styles.details}></div>
-                      <div className={styles.details}></div>
+                      <div className={styles.time}>{time}</div>
+                      {time in day.programe ?
+                        day.programe[time].map((element, i) => (
+                          <div className={styles.details}>
+                            {element.title}
+                          </div>  
+                        )) :
+                        <> 
+                        <div className={styles.details}></div>
+                        <div className={styles.details}></div>
+                        <div className={styles.details}></div>
+                        <div className={styles.details}></div>
+                        </>
+                      }
                     </div>
                   ))}
                 </div>
