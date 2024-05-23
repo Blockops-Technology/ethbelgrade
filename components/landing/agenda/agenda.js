@@ -26,7 +26,7 @@ const SpeakerList = (props) => {
 }
 
 const startTime = 9;
-const endTime = 16;
+const endTime = 17;
 const timeSlots = [
   "8:30"
 ];

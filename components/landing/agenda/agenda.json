@@ -4,23 +4,654 @@
       "dayName": "Day 1",
       "date": "3 June",
       "programe": {
+        "10:00": [
+          {
+            "type": "",
+            "title": "Opening keynote",
+            "speaker": "Nenad Palinkasevic",
+            "company": "DeFi Saver"
+          }
+        ],
+        "10:30" : [
+          {
+            "type": "",
+            "title": "Harnessing DeFi to Better DeFi: The DeFi Collective",
+            "speaker": "Tokenbrice",
+            "company": "The DeFi Collective"
+          },
+          {
+            "type": "",
+            "title": "Oasis Sapphire: Privacy in Use",
+            "speaker": "Matej Janez",
+            "company": "Oasis"
+          },
+          {
+            "type": "ZK",
+            "title": "ZK, past, present and future ZK",
+            "speaker": "Edi Sinovcic",
+            "company": "Shard labs, SpaceShard, Nimbora"
+          }
+        ],
+        "11:00": [
+          {
+            "type": "DeFi, DAOs and governance, Public goods and community",
+            "title": "Building collaborative lending infrastructure",
+            "speaker": "Tadeo",
+            "company": "Spark / Maker"
+          },
+          {
+            "type": "",
+            "title": "TBA",
+            "speaker": "TBD Telos",
+            "company": "Telos"
+          },
+          {
+            "type": "ZK",
+            "title": "Elliptic Curves and ZK Proofs",
+            "speaker": "Özgür Armanc Yiğit",
+            "company": ""
+          }          
+        ],
+        "11:30": [
+          {
+            "type": "",
+            "title": "TBA",
+            "speaker": "Lefteris Karapetsas",
+            "company": "rotki"
+          },
+          {
+            "type": "Infrastructure and scaling",
+            "title": "BNB Chain: Scaling for the next billion users",
+            "speaker": "Jimmy Zhao",
+            "company": "BNB Chain"
+          },
+          {
+            "type": "ZK",
+            "title": "Zero Knowledge proofs on Mina, zkPassport and SoulBound NFTs",
+            "speaker": "Pavel Fedotov",
+            "company": "PinSave"
+          }          
+        ],
         "12:00" : [
+          {
+            "type": "DeFi, Dev tooling",
+            "title": "Scaling composable DEFI protocol to 400M from dev side",
+            "speaker": "0xmikko",
+            "company": "Gearbox Protocol"
+          },
           {
             "title": "Lunch"
           }
-        ] 
+        ],
+        "12:30": [
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
+          },
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
+          },
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
+          }          
+        ], 
+        "13:00": [
+          {
+            "type": "",
+            "title": "Lunch",
+            "speaker": "",
+            "company": ""
+          },
+          {
+            "type": "DePIN",
+            "title": "Portal Network and libportalnet",
+            "speaker": "Daniel Sobol",
+            "company": "libportalnet"
+          },
+          {
+            "type": "Infrastructure and scaling, Security, Dev tooling",
+            "title": "STEEL: Ethereum View Calls on the RISC Zero zkCoprocessor",
+            "speaker": "Rami Khalil",
+            "company": "RISC Zero"
+          }          
+        ],
+        "13:30": [
+          {
+            "type": "",
+            "title": "DeFi Panel",
+            "speaker": "",
+            "company": ""
+          },
+          {
+            "type": "Infrastructure and scaling, DePIN",
+            "title": "Heroglyphs - Incentives to transforming Ethereum validator dynamics",
+            "speaker": "Glovin",
+            "company": "Heroglyphs"
+          },
+          {
+            "type": "ZK",
+            "title": "Ring and Module LWE Stealth Address Protocol",
+            "speaker": "Marija Mikić",
+            "company": "3327 team, Attic42 company & Faculty of Mathematics University of Belgrade"
+          },          
+          {
+            "type": "",
+            "title": "Build a Cross-Chain DeFi Super Dapp",
+            "speaker": "Kenny White",
+            "company": "Shell Protocol"
+          }
+        ],
+        "14:00": [
+          {
+            "type": "DePIN",
+            "title": "State of DePIN 2024",
+            "speaker": "Alex Mukhin",
+            "company": "Cryptomeria Capital"
+          },
+          {
+            "type": "ZK",
+            "title": "On proving of pairings",
+            "speaker": "Andrija Novakovic",
+            "company": "On behalf of Geometry Research"
+          },
+          {
+            "type": "",
+            "title": "Workshop",
+            "speaker": "TBD Blockscout",
+            "company": "Blockscout"
+          }          
+        ],
+        "14:30": [
+          {
+            "type": "DeFi",
+            "title": "Navigating the Complexities of Restaking in Web3: Risks, Impacts, and Mitigation Strategies",
+            "speaker": "Marijo Radman",
+            "company": "Alterscope"
+          },
+          {
+            "type": "DePIN",
+            "title": "Making DePIN Work for Developers of Web3 Consumer applications.",
+            "speaker": "Ben Biedermann (benedictvs)",
+            "company": "Raid Guild PORTERS"
+          },
+          {
+            "type": "",
+            "title": "ZK Panel",
+            "speaker": "",
+            "company": ""
+          }          
+        ],
+        "15:00": [
+          {
+            "type": "Staking",
+            "title": "Economics and Evolution of the Ethereum Staking Landscape",
+            "speaker": "adcv",
+            "company": "Steakhouse/Lido"
+          },
+          {
+            "type": "Core protocol and Infrasturcture",
+            "title": "TBA",
+            "speaker": "Vukasin Vukoje",
+            "company": "web3mine"
+          },
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
+          }          
+        ],
+        "15:30": [
+          {
+            "type": "",
+            "title": "Coffee break",
+            "speaker": "",
+            "company": ""
+          }
+        ],
+        "16:00": [
+          {
+            "type": "",
+            "title": "TBD",
+            "speaker": "Bogdan Habic",
+            "company": "Tenderly"
+          },
+          {
+            "type": "Infrastructure and scaling",
+            "title": "Should everyone launch their own rollup?",
+            "speaker": "Hubert Kotliński/Hoobi",
+            "company": "L2BEAT"
+          },          
+          {
+            "type": "Infrastructure and scaling",
+            "title": "Solving Vitalik's trilemma with zk-driven DA&Storage",
+            "speaker": "Igor Gulamov",
+            "company": "ZeroPool"
+          }          
+        ],
+        "16:30": [
+          {
+            "type": "",
+            "title": "A eulogy to Frankensteins tech stack",
+            "speaker": "James Corbett",
+            "company": "Superchain"
+          },
+          {
+            "type": "",
+            "title": "Onchain Reputation: From Plutocracy to Valocracy",
+            "speaker": "Daniela Zschaber",
+            "company": "NFTFY and Nouns BR"
+          },
+          {
+            "type": "Security",
+            "title": "Common Vulnerabilities in ZK Proofs: from bugs to fixes",
+            "speaker": "Petr Korolev",
+            "company": "OXORIO"
+          }          
+        ],
+        "17:00": [
+          {
+            "type": "",
+            "title": "Designing Culture-Sensitive Hackathons for Empowering African Youth with Ethereum",
+            "speaker": "Abena Asante",
+            "company": "ETHAccra & SheFi"
+          },
+          {
+            "type": "Infrastructure and scaling",
+            "title": "Evolution of Ethereum Infrastructure",
+            "speaker": "Sahil Sen",
+            "company": ""
+          },
+          {
+            "type": "ZK, Security",
+            "title": "Tips for secure Circom circuits",
+            "speaker": "Mridul",
+            "company": ""
+          }          
+        ]
       } 
     },   
     {
       "dayName": "Day 2",
       "date": "4 June",
       "programe": {
+        "10:00" : [
+          {
+            "type": "DeFi, DAOs and governance",
+            "title": "Becoming an External Solver & Contributing to DAO Grants",
+            "speaker": "Mariia Yatskovska",
+            "company": "CoW Dao (CoW Swap)"
+          },
+          {
+            "type": "Product",
+            "title": "The Intersection of Blockchain and Gaming",
+            "speaker": "Emir Kurtovic",
+            "company": ""
+          },
+          {
+            "type": "Public goods and community, Regulations",
+            "title": "Crypto mass-adoption, are we there yet?",
+            "speaker": "Armin Bosto",
+            "company": "itez.com"
+          },
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
+          }
+        ],
+        "10:30" : [
+          {
+            "type": "",
+            "title": "Latest developments in DeFi 2024",
+            "speaker": "definikola",
+            "company": "DeFi Saver"
+          },
+          {
+            "type": "UX, Product",
+            "title": "The Importance of User Needs in web3",
+            "speaker": "Stilyan Mitrev (fungibletaco)",
+            "company": "Consensys / VillageDAO"
+          },
+          {
+            "type": "Regulations",
+            "title": "Navigating Privacy in Crypto: Current Challenges and (Future) Solutions",
+            "speaker": "Vyara Savova",
+            "company": "EUCI"
+          },
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
+          }
+        ],
+        "11:00" : [
+          {
+            "type": "",
+            "title": "Living only from crypto assets",
+            "speaker": "Bojan",
+            "company": "Liquity"
+          },
+          {
+            "type": "DeFi, UX",
+            "title": "DeFi and smart accounts: resolving UX challenges",
+            "speaker": "Andrei Kirkkonen",
+            "company": "Safe{Wallet}"
+          },
+          {
+            "type": "Security, Regulations",
+            "title": "Building Bridges: Harmonising Security and Compliance in Digital Asset Infrastructure",
+            "speaker": "Pavle Krivokuca",
+            "company": "Fireblocks"
+          },
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
+          }
+        ],
+        "11:30" : [
+          {
+            "type": "DeFi, Regulations",
+            "title": "Are RWAs the answer to the DeFi boom-bust cycle?",
+            "speaker": "Niklas Kunkel",
+            "company": "Yes, MakerDAO (Chronicle Labs)"
+          },
+          {
+            "type": "Security, UX",
+            "title": "Better UX == Better Security",
+            "speaker": "Jan Zibelnik",
+            "company": "Lossless.io"
+          },
+          {
+            "type": "Regulations",
+            "title": "A Law Enforcement Approach To Digital Assets",
+            "speaker": "Michael Halepas",
+            "company": "BlockAML"
+          },
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
+          }
+        ],
         "12:00" : [
+          {
+            "type": "DeFi, Regulations",
+            "title": "Tokenized RWAs - brave new world or unnecessary fad?",
+            "speaker": "Timo Lehes",
+            "company": "Swarm"
+          },
+          {
+            "title": "Lunch"
+          },
+          {
+            "title": "Lunch"
+          },
           {
             "title": "Lunch"
           }
-        ] 
-        
+        ], 
+        "12:30" : [
+          {
+            "type": "",
+            "title": "Lunch",
+            "speaker": "",
+            "company": ""
+          },
+          {
+            "type": "",
+            "title": "Lunch",
+            "speaker": "",
+            "company": ""
+          },
+          {
+            "type": "",
+            "title": "Lunch",
+            "speaker": "",
+            "company": ""
+          },
+          {
+            "type": "",
+            "title": "Lunch",
+            "speaker": "",
+            "company": ""
+          }
+        ],
+        "13:00" : [
+          {
+            "type": "",
+            "title": "Lunch",
+            "speaker": "",
+            "company": ""
+          },
+          {
+            "type": "UX",
+            "title": "Designing the Future: Empowering Web3 Adoption Through Intuitive UX",
+            "speaker": "Sundaram Jha (exwhyzee)",
+            "company": ""
+          },
+          {
+            "type": "",
+            "title": "Lessons learned from years of having a DeFi incorporated in the US: fireside chat",
+            "speaker": "",
+            "company": ""
+          },
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
+          }
+        ],
+        "13:30" : [
+          {
+            "type": "DeFi",
+            "title": "The Big Bang of Stable Currencies",
+            "speaker": "James Glasscock",
+            "company": "reserve protocol"
+          },
+          {
+            "type": "Infrastructure and scaling",
+            "title": "Simplifying The User Experience Is The Key To Mass Onboarding",
+            "speaker": "Wayne Marcel/ Blockchain Wayne",
+            "company": "FIO Protocol(DAO)"
+          },
+          {
+            "type": "",
+            "title": "Virtual TestNets Workshop",
+            "speaker": "Nenad Vitorovic",
+            "company": "Tenderly"
+          }
+        ],
+        "14:00" : [
+          {
+            "type": "DeFi, DAOs and governance",
+            "title": "All roads lead to liquidity",
+            "speaker": "Figue",
+            "company": "Paladin"
+          },
+          {
+            "type": "UX",
+            "title": "Enabling the Future of Blockchain UX with Session Keys",
+            "speaker": "Luka Isailovic",
+            "company": "WalletConnect"
+          },
+          {
+            "type": "",
+            "title": "Frontend providers for DeFi as operators under MiCA",
+            "speaker": "Ilija Rilakovic",
+            "company": ""
+          },
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
+          }
+        ],
+        "14:30" : [
+          {
+            "type": "Marketing",
+            "title": "Marketing side of MEME coins",
+            "speaker": "Ilya Koshelev",
+            "company": "Gotbit Hedge Fund"
+          },
+          {
+            "type": "",
+            "title": "TBA",
+            "speaker": "Marc Baumann",
+            "company": "FiftyOne Ventures"
+          },
+          {
+            "type": "DAOs and governance",
+            "title": "Is contributor group design flawed?",
+            "speaker": "Rotorless",
+            "company": ""
+          },
+          {
+            "type": "Infrastructure and scaling, Security, Dev tooling",
+            "title": "Waku: a generalized P2P communication protocol with ZK-based rate limiting",
+            "speaker": "Sergei Tikhomirov",
+            "company": "Waku"
+          }
+        ],
+        "15:00" : [
+          {
+            "type": "",
+            "title": "Infra/tooling panel",
+            "speaker": "",
+            "company": ""
+          },
+          {
+            "type": "NFTs",
+            "title": "Why no one cares about your NFT project.",
+            "speaker": "Jacob Haap",
+            "company": ""
+          },
+          {
+            "type": "Entrepreneurship & management",
+            "title": "Cracking the code: navigating tokenomics for successful fundraising",
+            "speaker": "Konstantin Molodykh",
+            "company": "Mezen.io"
+          },
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
+          }
+        ],
+        "15:30" : [
+          {
+            "type": "",
+            "title": "Coffee break",
+            "speaker": "",
+            "company": ""
+          },
+          {
+            "type": "",
+            "title": "Coffee break",
+            "speaker": "",
+            "company": ""
+          },
+          {
+            "type": "",
+            "title": "Coffee break",
+            "speaker": "",
+            "company": ""
+          }
+        ],
+        "16:00" : [
+          {
+            "type": "DAOs and governance, Entrepreneurship & management",
+            "title": "Collaborative Investments - Can DAOs shape the fundraising future",
+            "speaker": "Petar Atanasovski",
+            "company": "Attic42"
+          },
+          {
+            "type": "",
+            "title": "TBD",
+            "speaker": "TBD Mantle",
+            "company": "Mantle"
+          },
+          {
+            "type": "DeFi",
+            "title": "Risk Management and Economic Security in DeFi",
+            "speaker": "Abhimanyu Nag",
+            "company": "Yes, ChainRisk"
+          },
+          {
+            "type": "",
+            "title": "Exposing Your Digital Self: The Symbiosis of Ethereum and W3C in SSI",
+            "speaker": "Mladen Milankovic",
+            "company": "HTEC"
+          }
+        ],
+        "16:30" : [
+          {
+            "type": "Public goods and community",
+            "title": "BONSAI - the culture currency of Lens Protocol",
+            "speaker": "Markus B. (seliqui)",
+            "company": "BONSAI"
+          },
+          {
+            "type": "Simon Engel",
+            "title": "Enterprise Adoption in the Ethereum Ecosystem",
+            "speaker": "SAP",
+            "company": "Product"
+          },
+          {
+            "type": "DeFi",
+            "title": "I'll Share Some Alpha: No, [INSERT TOKEN TICKER] is not Beta on ETH",
+            "speaker": "Denis Vuckovac",
+            "company": "very early Ventures"
+          },
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
+          }
+        ],
+        "17:00" : [
+          {
+            "type": "DeFi",
+            "title": "The reserve-backed stablecoin: a paradigm shift.",
+            "speaker": "Cyrille",
+            "company": "f(x) protocol"
+          },
+          {
+            "type": "Product",
+            "title": "Interoperability thesis: building cheap & useful",
+            "speaker": "Artem Dubinin",
+            "company": "@mighty_study (twitter)"
+          },
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
+          },
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
+          }
+        ]
       }
     },
     {
