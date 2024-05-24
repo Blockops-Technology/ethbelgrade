@@ -4,12 +4,40 @@
       "dayName": "Day 1",
       "date": "3 June",
       "programe": {
+        "08:30": [
+          {
+            "type": "",
+            "title": "Registration",
+            "speaker": "",
+            "company": "",
+            "spaces": 4,
+            "slots": 3
+          }
+        ],
         "10:00": [
           {
             "type": "",
             "title": "Opening keynote",
             "speaker": "Nenad Palinkasevic",
             "company": "DeFi Saver"
+          },
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
+          },
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
+          },
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
           }
         ],
         "10:30" : [
@@ -30,6 +58,12 @@
             "title": "ZK, past, present and future ZK",
             "speaker": "Edi Sinovcic",
             "company": "Shard labs, SpaceShard, Nimbora"
+          },
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
           }
         ],
         "11:00": [
@@ -49,6 +83,12 @@
             "type": "ZK",
             "title": "Elliptic Curves and ZK Proofs",
             "speaker": "Özgür Armanc Yiğit",
+            "company": ""
+          },
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
             "company": ""
           }          
         ],
@@ -70,6 +110,12 @@
             "title": "Zero Knowledge proofs on Mina, zkPassport and SoulBound NFTs",
             "speaker": "Pavel Fedotov",
             "company": "PinSave"
+          },
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
           }          
         ],
         "12:00" : [
@@ -80,7 +126,22 @@
             "company": "Gearbox Protocol"
           },
           {
-            "title": "Lunch"
+            "type": "",
+            "title": "Lunch",
+            "speaker": "",
+            "company": ""
+          },
+          {
+            "type": "",
+            "title": "Lunch",
+            "speaker": "",
+            "company": ""
+          },
+          {
+            "type": "",
+            "title": "Lunch",
+            "speaker": "",
+            "company": ""
           }
         ],
         "12:30": [
@@ -101,7 +162,13 @@
             "title": "",
             "speaker": "",
             "company": ""
-          }          
+          },
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
+          }     
         ], 
         "13:00": [
           {
@@ -121,7 +188,13 @@
             "title": "STEEL: Ethereum View Calls on the RISC Zero zkCoprocessor",
             "speaker": "Rami Khalil",
             "company": "RISC Zero"
-          }          
+          },
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
+          } 
         ],
         "13:30": [
           {
@@ -167,6 +240,12 @@
             "title": "Workshop",
             "speaker": "TBD Blockscout",
             "company": "Blockscout"
+          },
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
           }          
         ],
         "14:30": [
@@ -187,7 +266,13 @@
             "title": "ZK Panel",
             "speaker": "",
             "company": ""
-          }          
+          },
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
+          }           
         ],
         "15:00": [
           {
@@ -207,6 +292,12 @@
             "title": "",
             "speaker": "",
             "company": ""
+          },
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
           }          
         ],
         "15:30": [
@@ -215,7 +306,25 @@
             "title": "Coffee break",
             "speaker": "",
             "company": ""
-          }
+          },
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
+          },
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
+          },
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
+          } 
         ],
         "16:00": [
           {
@@ -235,6 +344,12 @@
             "title": "Solving Vitalik's trilemma with zk-driven DA&Storage",
             "speaker": "Igor Gulamov",
             "company": "ZeroPool"
+          },
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
           }          
         ],
         "16:30": [
@@ -255,6 +370,12 @@
             "title": "Common Vulnerabilities in ZK Proofs: from bugs to fixes",
             "speaker": "Petr Korolev",
             "company": "OXORIO"
+          },
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
           }          
         ],
         "17:00": [
@@ -274,6 +395,12 @@
             "type": "ZK, Security",
             "title": "Tips for secure Circom circuits",
             "speaker": "Mridul",
+            "company": ""
+          },
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
             "company": ""
           }          
         ]
@@ -474,7 +601,13 @@
             "title": "Virtual TestNets Workshop",
             "speaker": "Nenad Vitorovic",
             "company": "Tenderly"
-          }
+          },
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
+          } 
         ],
         "14:00" : [
           {
@@ -559,20 +692,9 @@
             "type": "",
             "title": "Coffee break",
             "speaker": "",
-            "company": ""
-          },
-          {
-            "type": "",
-            "title": "Coffee break",
-            "speaker": "",
-            "company": ""
-          },
-          {
-            "type": "",
-            "title": "Coffee break",
-            "speaker": "",
-            "company": ""
-          }
+            "company": "",
+            "spacec": "4"
+          } 
         ],
         "16:00" : [
           {

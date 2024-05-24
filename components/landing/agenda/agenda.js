@@ -5,6 +5,37 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import agenda from "./agenda.json";
 import speakers from "../speakers/speakers.json";
 
+function Detail({item}) {
+  const style = {
+    "--duration": item.slots ? item.slots : 1,
+    "--spaces": item.spaces ? item.spaces : 1,
+  };
+  return (          
+    <div className={styles.details} style={style}>
+      {item.title}
+    </div>  
+  )
+}
+
+function TimeSlot({time, programe}) {
+  return (
+    <>
+      <div className={styles.time}>{time}</div>
+      {programe ?
+        programe.map((element, i) => (
+          <Detail item={element} />
+        )) :
+        <> 
+          <div className={styles.details}></div>
+          <div className={styles.details}></div>
+          <div className={styles.details}></div>
+          <div className={styles.details}></div>
+        </>
+      }
+    </>
+  )
+}
+
 const twitter = new Map();
 
 speakers.list.forEach(element => {
@@ -64,30 +95,13 @@ const Agenda = () => (
             agenda.days.map((day, i) => (
               <TabPanel key={i}>
                 <div className={styles.timeTable}>
-                  <div className={styles.timeSlot}>
-                    <div></div>
-                    <div>Stage 1</div>
-                    <div>Stage 2</div>
-                    <div>Stage 3</div>
-                    <div>Workshop</div>
-                  </div>
+                  <div></div>
+                  <div className={styles.header}>Stage 1</div>
+                  <div className={styles.header}>Stage 2</div>
+                  <div className={styles.header}>Stage 3</div>
+                  <div className={styles.header}>Workshop</div>
                   {timeSlots.map((time, index) => (
-                    <div key={index} className={styles.timeSlot}>
-                      <div className={styles.time}>{time}</div>
-                      {time in day.programe ?
-                        day.programe[time].map((element, i) => (
-                          <div className={styles.details}>
-                            {element.title}
-                          </div>  
-                        )) :
-                        <> 
-                        <div className={styles.details}></div>
-                        <div className={styles.details}></div>
-                        <div className={styles.details}></div>
-                        <div className={styles.details}></div>
-                        </>
-                      }
-                    </div>
+                    <TimeSlot programe={day.programe[time]} time={time} index={index} start={1} duration={1} />
                   ))}
                 </div>
                 {/* {

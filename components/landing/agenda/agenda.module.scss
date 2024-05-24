@@ -138,15 +138,18 @@
 
 .timeTable {
   display: grid;
-}
-
-.timeSlot {
-  display: grid;
-  grid-template-columns: 150px repeat(4, 1fr); /* First column for time, rest for details */
-  align-items: center;
+  align-items: stretch;
+  grid-template-columns: 100px repeat(4, 1fr); /* First column for time, rest for details */
 }
 
 .details {
+  grid-row: span var(--duration);
+  grid-column: span var(--spaces);
+  border: 1px solid var(--primary-blue);
+  text-align: center;
+}
+
+.header {
   border: 1px solid var(--primary-blue);
   text-align: center;
 }
