@@ -24,13 +24,7 @@ function TimeSlot({time, programe}) {
       {programe ?
         programe.map((element, i) => (
           <Detail item={element} />
-        )) :
-        <> 
-          <div className={styles.details}></div>
-          <div className={styles.details}></div>
-          <div className={styles.details}></div>
-          <div className={styles.details}></div>
-        </>
+        )) : <></>
       }
     </>
   )
@@ -59,7 +53,7 @@ const SpeakerList = (props) => {
 const startTime = 9;
 const endTime = 17;
 const timeSlots = [
-  "8:30"
+  "08:30"
 ];
 
 for (let hour = startTime; hour < endTime; hour++) {

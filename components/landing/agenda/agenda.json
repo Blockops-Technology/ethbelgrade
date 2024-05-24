@@ -129,54 +129,21 @@
             "type": "",
             "title": "Lunch",
             "speaker": "",
-            "company": ""
-          },
-          {
-            "type": "",
-            "title": "Lunch",
-            "speaker": "",
-            "company": ""
-          },
-          {
-            "type": "",
-            "title": "Lunch",
-            "speaker": "",
-            "company": ""
+            "company": "",
+            "spaces": 3,
+            "slots": 2
           }
         ],
         "12:30": [
           {
             "type": "",
-            "title": "",
+            "title": "Lunch",
             "speaker": "",
-            "company": ""
-          },
-          {
-            "type": "",
-            "title": "",
-            "speaker": "",
-            "company": ""
-          },
-          {
-            "type": "",
-            "title": "",
-            "speaker": "",
-            "company": ""
-          },
-          {
-            "type": "",
-            "title": "",
-            "speaker": "",
-            "company": ""
+            "company": "",
+            "slots": 2
           }     
         ], 
         "13:00": [
-          {
-            "type": "",
-            "title": "Lunch",
-            "speaker": "",
-            "company": ""
-          },
           {
             "type": "DePIN",
             "title": "Portal Network and libportalnet",
@@ -201,7 +168,8 @@
             "type": "",
             "title": "DeFi Panel",
             "speaker": "",
-            "company": ""
+            "company": "",
+            "slots": 2
           },
           {
             "type": "Infrastructure and scaling, DePIN",
@@ -240,12 +208,6 @@
             "title": "Workshop",
             "speaker": "TBD Blockscout",
             "company": "Blockscout"
-          },
-          {
-            "type": "",
-            "title": "",
-            "speaker": "",
-            "company": ""
           }          
         ],
         "14:30": [
@@ -265,7 +227,8 @@
             "type": "",
             "title": "ZK Panel",
             "speaker": "",
-            "company": ""
+            "company": "",
+            "slots": 2
           },
           {
             "type": "",
@@ -292,12 +255,6 @@
             "title": "",
             "speaker": "",
             "company": ""
-          },
-          {
-            "type": "",
-            "title": "",
-            "speaker": "",
-            "company": ""
           }          
         ],
         "15:30": [
@@ -305,26 +262,9 @@
             "type": "",
             "title": "Coffee break",
             "speaker": "",
-            "company": ""
-          },
-          {
-            "type": "",
-            "title": "",
-            "speaker": "",
-            "company": ""
-          },
-          {
-            "type": "",
-            "title": "",
-            "speaker": "",
-            "company": ""
-          },
-          {
-            "type": "",
-            "title": "",
-            "speaker": "",
-            "company": ""
-          } 
+            "company": "",
+            "spaces": 4
+          }
         ],
         "16:00": [
           {
@@ -410,6 +350,16 @@
       "dayName": "Day 2",
       "date": "4 June",
       "programe": {
+        "08:30": [
+          {
+            "type": "",
+            "title": "Registration",
+            "speaker": "",
+            "company": "",
+            "spaces": 4,
+            "slots": 3
+          }
+        ],
         "10:00" : [
           {
             "type": "DeFi, DAOs and governance",
@@ -574,7 +524,8 @@
             "type": "",
             "title": "Lessons learned from years of having a DeFi incorporated in the US: fireside chat",
             "speaker": "",
-            "company": ""
+            "company": "",
+            "slots": 2
           },
           {
             "type": "",
@@ -600,14 +551,9 @@
             "type": "",
             "title": "Virtual TestNets Workshop",
             "speaker": "Nenad Vitorovic",
-            "company": "Tenderly"
-          },
-          {
-            "type": "",
-            "title": "",
-            "speaker": "",
-            "company": ""
-          } 
+            "company": "Tenderly",
+            "slots": 2
+          }
         ],
         "14:00" : [
           {
@@ -626,12 +572,6 @@
             "type": "",
             "title": "Frontend providers for DeFi as operators under MiCA",
             "speaker": "Ilija Rilakovic",
-            "company": ""
-          },
-          {
-            "type": "",
-            "title": "",
-            "speaker": "",
             "company": ""
           }
         ],
@@ -666,7 +606,8 @@
             "type": "",
             "title": "Infra/tooling panel",
             "speaker": "",
-            "company": ""
+            "company": "",
+            "slots": 2
           },
           {
             "type": "NFTs",
@@ -693,7 +634,7 @@
             "title": "Coffee break",
             "speaker": "",
             "company": "",
-            "spaces": "4"
+            "spaces": "3"
           } 
         ],
         "16:00" : [
@@ -780,110 +721,16 @@
       "dayName": "Day 3",
       "date": "5 June",
       "programe": {
-        "08:00" : [
+        "08:30": [
           {
             "type": "",
             "title": "Registration",
             "speaker": "",
-            "company": ""
-          },
-          {
-            "type": "",
-            "title": "",
-            "speaker": "",
-            "company": ""
-          },
-          {
-            "type": "",
-            "title": "",
-            "speaker": "",
-            "company": ""
-          },
-          {
-            "type": "",
-            "title": "",
-            "speaker": "",
-            "company": ""
+            "company": "",
+            "spaces": 4,
+            "slots": 3
           }
-        ], 
-        "08:30" : [
-          {
-            "type": "",
-            "title": "",
-            "speaker": "",
-            "company": ""
-          },
-          {
-            "type": "",
-            "title": "",
-            "speaker": "",
-            "company": ""
-          },
-          {
-            "type": "",
-            "title": "",
-            "speaker": "",
-            "company": ""
-          },
-          {
-            "type": "",
-            "title": "",
-            "speaker": "",
-            "company": ""
-          }
-        ], 
-        "09:00" : [
-          {
-            "type": "",
-            "title": "",
-            "speaker": "",
-            "company": ""
-          },
-          {
-            "type": "",
-            "title": "",
-            "speaker": "",
-            "company": ""
-          },
-          {
-            "type": "",
-            "title": "",
-            "speaker": "",
-            "company": ""
-          },
-          {
-            "type": "",
-            "title": "",
-            "speaker": "",
-            "company": ""
-          }
-        ], 
-        "09:30" : [
-          {
-            "type": "",
-            "title": "",
-            "speaker": "",
-            "company": ""
-          },
-          {
-            "type": "",
-            "title": "",
-            "speaker": "",
-            "company": ""
-          },
-          {
-            "type": "",
-            "title": "",
-            "speaker": "",
-            "company": ""
-          },
-          {
-            "type": "",
-            "title": "",
-            "speaker": "",
-            "company": ""
-          }
-        ], 
+        ],
         "10:00" : [
           {
             "type": "",
@@ -1155,7 +1002,8 @@
             "type": "",
             "title": "Security panel",
             "speaker": "",
-            "company": ""
+            "company": "",
+            "slots": 2
           },
           {
             "type": "DeFi",
@@ -1179,21 +1027,10 @@
           },
           {
             "type": "",
-            "title": "",
+            "title": "Coffee break",
             "speaker": "",
-            "company": ""
-          },
-          {
-            "type": "",
-            "title": "",
-            "speaker": "",
-            "company": ""
-          },
-          {
-            "type": "",
-            "title": "",
-            "speaker": "",
-            "company": ""
+            "company": "",
+            "spaces": 2
           }
         ], 
         "16:00" : [
