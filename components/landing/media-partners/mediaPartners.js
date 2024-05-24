@@ -37,6 +37,15 @@ const MediaPartners = () => (
           <a href="https://jinse.cn/" target="_blank" rel="noreferrer noopener">
             <img src="/images/media-partners/jinse-cn.png" alt="Jinse logo" />
           </a>
+          <a href="https://web-mind.rs" target="_blank" rel="noreferrer noopener">
+            <img src="/images/media-partners/webmind-logo.png" alt="Webmind logo" />
+          </a>
+          <a href="https://rs.bloombergadria.com" target="_blank" rel="noreferrer noopener">
+            <img src="/images/media-partners/bloomberg-logo.png" alt="Bloomberg logo" />
+          </a>
+          <a href="https://cointelegraph.com/" target="_blank" rel="noreferrer noopener">
+            <img src="/images/media-partners/cointelegraph.svg" alt="Cointelegraph logo" />
+          </a>
           {/*<a href="https://itez.com/events" target="_blank" rel="noreferrer noopener">*/}
           {/*  <img src="/images/media-partners/itez-logo.png" alt="Itez logo" />*/}
           {/*</a>*/}
