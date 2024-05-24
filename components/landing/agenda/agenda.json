@@ -658,12 +658,500 @@
       "dayName": "Day 3",
       "date": "5 June",
       "programe": {
+        "08:00" : [
+          {
+            "type": "",
+            "title": "Registration",
+            "speaker": "",
+            "company": ""
+          },
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
+          },
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
+          },
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
+          }
+        ], 
+        "08:30" : [
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
+          },
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
+          },
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
+          },
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
+          }
+        ], 
+        "09:00" : [
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
+          },
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
+          },
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
+          },
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
+          }
+        ], 
+        "09:30" : [
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
+          },
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
+          },
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
+          },
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
+          }
+        ], 
+        "10:00" : [
+          {
+            "type": "",
+            "title": "TBD",
+            "speaker": "John Lilic",
+            "company": ""
+          },
+          {
+            "type": "",
+            "title": "Not Priced In: Security Footguns of Price Data",
+            "speaker": "Engin33r",
+            "company": "yAudit"
+          },
+          {
+            "type": "Infrastructure and scaling",
+            "title": "How to scale EVM dApps on Solana",
+            "speaker": "Simeon Kotashki",
+            "company": "Neon EVM"
+          },
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
+          }
+        ], 
+        "10:30" : [
+          {
+            "type": "DAOs and governance",
+            "title": "Crafting the Blueprint: Building an Engaged DAO",
+            "speaker": "Najdana Majors",
+            "company": "https://www.connext.network/"
+          },
+          {
+            "type": "DeFi, Security",
+            "title": "Secrets of Uniswap V4: A Deep Dive into Hooks Security",
+            "speaker": "Damian Rusinek",
+            "company": "Composable Security"
+          },
+          {
+            "type": "Infrastructure and scaling, Dev tooling",
+            "title": "MetaMask Snaps and permissionless innovation strategies",
+            "speaker": "Francesco",
+            "company": "MetaMask"
+          },
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
+          }
+        ], 
+        "11:00" : [
+          {
+            "type": "DAOs and governance",
+            "title": "Treasury management or how to do stonks when you are DAO",
+            "speaker": "Roman Kolpakov",
+            "company": "Lido"
+          },
+          {
+            "type": "Security",
+            "title": "New Security Approaches for Account Abstraction and Composability",
+            "speaker": "Oliver Hörr",
+            "company": "Hats Finance (DAO)"
+          },
+          {
+            "type": "Infrastructure and scaling, Dev tooling",
+            "title": "The evolution of blockchain explorers to meet the diverse needs of web3 users.",
+            "speaker": "Igor Barinov",
+            "company": "Blockscout"
+          },
+          {
+            "type": "Dev tooling",
+            "title": "Find any Smart Contract wit Cookbook.dev",
+            "speaker": "Lazar Bućan",
+            "company": "Cookbook.dev"
+          }
+        ], 
+        "11:30" : [
+          {
+            "type": "DAOs and governance",
+            "title": "How to DAO: Strategies for Resilient Decentralized Governance",
+            "speaker": "Evgeny Ponomarev",
+            "company": "Fluence Labs"
+          },
+          {
+            "type": "Security",
+            "title": "What you need to know before deploying on L2s",
+            "speaker": "Pietro Carta",
+            "company": "ChainSecurity"
+          },
+          {
+            "type": "Dev tooling",
+            "title": "Beyond RPC endpoints: Add-ons and extra services for blockchain APIs in 2024",
+            "speaker": "Vladislav Sopov",
+            "company": "GetBlock"
+          },
+          {
+            "type": "Infrastructure and scaling",
+            "title": "Processing of historic and current blockchain data",
+            "speaker": "Jason Smythe",
+            "company": "https://envio.dev"
+          }
+        ], 
         "12:00" : [
           {
-            "title": "Lunch"
+            "type": "I guess it’s DeSci in a way idk",
+            "title": "Geopolitics unchained: exploring web3’s global impact",
+            "speaker": "Andreea Cia",
+            "company": ""
+          },
+          {
+            "type": "",
+            "title": "Lunch",
+            "speaker": "",
+            "company": ""
+          },
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
+          },
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
+          }
+        ], 
+        "12:30" : [
+          {
+            "type": "",
+            "title": "Lunch",
+            "speaker": "",
+            "company": ""
+          },
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
+          },
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
+          },
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
+          }
+        ], 
+        "13:00" : [
+          {
+            "type": "",
+            "title": "Lunch",
+            "speaker": "",
+            "company": ""
+          },
+          {
+            "type": "Security",
+            "title": "Bug bounties - your Protocol's last line of defence",
+            "speaker": "gmhacker / Gonçalo Magalhães",
+            "company": "Immunefi"
+          },
+          {
+            "type": "Infrastructure and scaling",
+            "title": "\"Optimistic\" Outlook: Pioneering On-Chain AI",
+            "speaker": "Cathie",
+            "company": "ORA (ex Hyper Oracle)"
+          },
+          {
+            "type": "Dev tooling",
+            "title": "There is no undefined, I own you, writing high performance Rust",
+            "speaker": "Vukasin Gostovic/makemake",
+            "company": ""
+          }
+        ], 
+        "13:30" : [
+          {
+            "type": "",
+            "title": "Crypto points: Identity, incentives and you",
+            "speaker": "TBD LiFi",
+            "company": "Li.Fi"
+          },
+          {
+            "type": "Security",
+            "title": "Systematic security approach for blockchain-based software",
+            "speaker": "Yehor Balytskyi",
+            "company": "pessimistic.io"
+          },
+          {
+            "type": "Infrastructure and scaling, DAOs and governance, Decentralized AI",
+            "title": "Decentralized RAG framework enabling the Verifiable Internet for AI",
+            "speaker": "Branimir Rakic",
+            "company": "OriginTrail"
+          },
+          {
+            "type": "Dev tooling",
+            "title": "Huff low level stuff",
+            "speaker": "Rastko Misulic",
+            "company": ""
+          }
+        ], 
+        "14:00" : [
+          {
+            "type": "",
+            "title": "TBD",
+            "speaker": "Simon Emanuel Schmid",
+            "company": "The Graph"
+          },
+          {
+            "type": "Security",
+            "title": "TBD",
+            "speaker": "Josselin Feist",
+            "company": "Trail of Bits"
+          },
+          {
+            "type": "",
+            "title": "",
+            "speaker": "Dragan Rakita",
+            "company": "Paradigm"
+          },
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
+          }
+        ], 
+        "14:30" : [
+          {
+            "type": "",
+            "title": "F*ck Memes: Foundational Marketing Templates for Early Stage Founders",
+            "speaker": "Claire Kart",
+            "company": "RISC Zero"
+          },
+          {
+            "type": "Security",
+            "title": "Wallet OpSec for the pragmatic",
+            "speaker": "Anirudha Bose",
+            "company": "Brave"
+          },
+          {
+            "type": "",
+            "title": "Connectivity between Ledger Hardware Device and Ethereum",
+            "speaker": "Akram El Milligy",
+            "company": "Ledger"
+          },
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
+          }
+        ], 
+        "15:00" : [
+          {
+            "type": "",
+            "title": "",
+            "speaker": "Solange Gueiros",
+            "company": "Chainlink"
+          },
+          {
+            "type": "",
+            "title": "Security panel",
+            "speaker": "",
+            "company": ""
+          },
+          {
+            "type": "DeFi",
+            "title": "Intro to DEX Arbitrage: Algorithms & Math",
+            "speaker": "Aleksei Babenkov",
+            "company": ""
+          },
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
+          }
+        ], 
+        "15:30" : [
+          {
+            "type": "",
+            "title": "Coffee break",
+            "speaker": "",
+            "company": ""
+          },
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
+          },
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
+          },
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
+          }
+        ], 
+        "16:00" : [
+          {
+            "type": "",
+            "title": "",
+            "speaker": "Sam Richards",
+            "company": "Ethereum Foundation"
+          },
+          {
+            "type": "Security, Dev tooling",
+            "title": "Solidity Debugging meets Formal Methods",
+            "speaker": "Raoul Schaffranek",
+            "company": "Runtime Verification, Inc."
+          },
+          {
+            "type": "DeFi, Infrastructure and scaling, Dev tooling",
+            "title": "RaaS <> Oracles: How do they interact",
+            "speaker": "Jakub Jaworski",
+            "company": "Redstone"
+          },
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
+          }
+        ], 
+        "16:30" : [
+          {
+            "type": "",
+            "title": "",
+            "speaker": "Jelena Djuric",
+            "company": "Noble"
+          },
+          {
+            "type": "Infrastructure and scaling",
+            "title": "Universal, scalable and trustless verifiable computing",
+            "speaker": "Ilja Zakharov",
+            "company": "Pi Squared"
+          },
+          {
+            "type": "Infrastructure and scaling",
+            "title": "Tellor Layer: Decentralized Oracles for the Next Era",
+            "speaker": "Brenda Loya",
+            "company": "Tellor"
+          },
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
+          }
+        ], 
+        "17:00" : [
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
+          },
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
+          },
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
+          },
+          {
+            "type": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
           }
         ] 
-
       }
     }     
   ],
