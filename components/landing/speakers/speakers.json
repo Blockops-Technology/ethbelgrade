@@ -315,11 +315,11 @@
       "category": "DeSci"
     },
     {
-      "name": "Jan Zibelnik",
-      "twitter": "https://twitter.com/zibmacher",
-      "position": "Lossless",
-      "photo": "jan-zibelnik.png",
-      "category": "Security"
+      "name": "Jimmy Zhao",
+      "twitter": "https://twitter.com/bnbchain",
+      "position": "BNB Chain",
+      "photo": "jimmy-zhao.png",
+      "category": "Core protocol and Infra"
     },
     {
       "name": "Petar Atanasovski",
