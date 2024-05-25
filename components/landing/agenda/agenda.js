@@ -5,16 +5,43 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import agenda from "./agenda.json";
 import speakers from "../speakers/speakers.json";
 
+const twitter = new Map();
+
+speakers.list.forEach(element => {
+  twitter.set(element.name, element.twitter);
+});
+
+const SpeakerList = (props) => {
+  return props.name.split(",").map(name => {
+    const handle = twitter.get(name.trim());
+    if (handle) {
+      return <><Link href={`${handle}`} target="_blank" rel="noreferrer noopener">{name}</Link></>;
+    } else {
+      return <>{name}</>;
+    }
+  });
+}
+
 function Detail({item}) {
   const style = {
     "--duration": item.slots ? item.slots : 1,
     "--spaces": item.spaces ? item.spaces : 1,
   };
-  return (          
-    <div className={styles.details} style={style}>
-      {item.title}
-    </div>  
-  )
+
+  if (item.title || item.speaker || item.type) 
+    return (          
+      <div className={styles.details} style={style}>
+        <div className={`${styles.talk} ${styles["talkCategory" + item.category.replaceAll(" ", "")]}`}>
+          {item.category ? <div className={styles.talkType}>{item.category}</div> : <></>}
+          <div className={styles.talkTitle}>{item.title ? item.title : "TBA"}</div>
+          {item.speaker ? <div className={styles.talkSpeaker}><SpeakerList name={`${item.speaker}`} /></div> : <></>}
+        </div>
+      </div>  
+    )
+  else
+    return (
+      <div className={styles.details} style={style}></div>
+    )
 }
 
 function TimeSlot({time, programe}) {
@@ -30,30 +57,12 @@ function TimeSlot({time, programe}) {
   )
 }
 
-const twitter = new Map();
-
-speakers.list.forEach(element => {
-  twitter.set(element.name, element.twitter);
-});
-
-const SpeakerList = (props) => {
-  var first = true;
-  return props.name.split(",").map(name => {
-    const handle = twitter.get(name.trim());
-    const comma = first ? "" : ", ";
-    first = false;
-    if (handle) {
-      return <>{comma}<Link href={`${handle}`} target="_blank" rel="noreferrer noopener">{name}</Link></>;
-    } else {
-      return <>{comma}{name}</>;
-    }
-  });
-}
-
-const startTime = 9;
+const startTime = 10;
 const endTime = 17;
 const timeSlots = [
-  "08:30"
+  "08:30",
+  "09:00",
+  "09:30"
 ];
 
 for (let hour = startTime; hour < endTime; hour++) {
