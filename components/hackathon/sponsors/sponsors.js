@@ -51,6 +51,11 @@ const Sponsors = () => (
               <img src="/images/partners/ton_logo.svg" alt="TON logo" />
             </a>
           </div>
+          <div className={styles.sponsor}>
+            <a href="https://www.mantle.xyz/" target="_blank" rel="noreferrer noopener">
+              <img src="/images/partners/mantle-logo.svg" alt="Mantle logo" />
+            </a>
+          </div>
         </div>
       </div>
       <div className={styles.cta}>
