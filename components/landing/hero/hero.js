@@ -23,15 +23,15 @@ const Hero = () => (
 
         <div className={styles.buttons}>
           <a href={HACKATHON_APPLICATION_FORM_URL} target="_blank" rel="noreferrer noopener">
-            <Button styleType="emerald">
+            <Button styleType="blue">
               Apply to hack
             </Button>
           </a>
-          <a href={SPONSOR_APPLICATION_FORM_URL} target="_blank" rel="noreferrer noopener">
-            <Button styleType="blue">
-              Become a sponsor
-            </Button>
-          </a>
+          {/*<a href={SPONSOR_APPLICATION_FORM_URL} target="_blank" rel="noreferrer noopener">*/}
+          {/*  <Button styleType="blue">*/}
+          {/*    Become a sponsor*/}
+          {/*  </Button>*/}
+          {/*</a>*/}
           {/*<a href={SPEAKER_APPLICATION_FORM_URL} target="_blank" rel="noreferrer noopener">*/}
           {/*  <Button styleType="blue">*/}
           {/*      Apply as a speaker*/}
