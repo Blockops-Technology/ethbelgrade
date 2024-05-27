@@ -321,7 +321,7 @@
           },
           {
             "category": "ZK",
-            "title": "Common Vulnerabilities in ZK Proofs: from bugs to fixes",
+            "title": "Developers guide to ZK Security: from Bugs to Fixes",
             "speaker": "Petr Korolev",
             "company": "OXORIO"
           },
@@ -743,7 +743,7 @@
             "category": "Product",
             "title": "Interoperability thesis: building cheap & useful",
             "speaker": "Artem Dubinin",
-            "company": "@mighty_study (twitter)"
+            "company": ""
           },
           {
             "category": "DeFi",
