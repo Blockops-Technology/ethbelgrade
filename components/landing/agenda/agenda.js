@@ -40,7 +40,7 @@ function Detail({item}) {
     return (
       <div className={styles.details} style={style}>
         <div className={`${styles.talk} ${classes}`}>
-          {item.category.replaceAll("Break", "") && item.category.replaceAll("Break", "").split(', ').map(cat => (<div className={styles.talkType}>{cat}</div>))}
+          {item.category.replaceAll("Break", "") && item.category.replaceAll("Break", "").split(', ').map(cat => (<div key={cat} className={styles.talkType}>{cat}</div>))}
           <div className={styles.talkTitle}>{item.title ? item.title : "TBA"}</div>
           {item.speaker && (
             <div className={styles.talkSpeaker}>
@@ -63,7 +63,7 @@ function TimeSlot({time, programe}) {
       <div className={styles.time}>{time}</div>
       {programe ?
         programe.map((element, i) => (
-          <Detail item={element} />
+          <Detail key={i} item={element} />
         )) : <></>
       }
     </>
@@ -117,7 +117,7 @@ const Agenda = () => (
                   <div className={styles.header}>Stage 3</div>
                   <div className={styles.header}>Workshop</div>
                   {timeSlots.map((time, index) => (
-                    <TimeSlot programe={day.programe[time]} time={time} index={index} start={1} duration={1} />
+                    <TimeSlot key={time} programe={day.programe[time]} time={time} index={index} start={1} duration={1} />
                   ))}
                 </div>
                 {/* {
