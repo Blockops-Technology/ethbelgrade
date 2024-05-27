@@ -12,12 +12,13 @@ speakers.list.forEach(element => {
 });
 
 const SpeakerList = (props) => {
-  return props.name.split(",").map(name => {
+  return props.name.split(",").map((name, i) => {
     const handle = twitter.get(name.trim());
+    const comma = i > 0 ? ", " : "";
     if (handle) {
-      return <><Link href={`${handle}`} target="_blank" rel="noreferrer noopener">{name}</Link></>;
+      return <>{comma}<Link href={`${handle}`} target="_blank" rel="noreferrer noopener">{name}</Link></>;
     } else {
-      return <>{name}</>;
+      return <>{comma}{name}</>;
     }
   });
 }
@@ -28,15 +29,27 @@ function Detail({item}) {
     "--spaces": item.spaces ? item.spaces : 1,
   };
 
-  if (item.title || item.speaker || item.type) 
-    return (          
+  const classes = item.category?.toLowerCase()
+    .replaceAll(" ", "")
+    .replaceAll("/", "")
+    .split(",")
+    .map(cat => styles["talkCategory" + cat])
+    .join(' ');
+
+  if (item.title || item.speaker || item.type)
+    return (
       <div className={styles.details} style={style}>
-        <div className={`${styles.talk} ${styles["talkCategory" + item.category.replaceAll(" ", "")]}`}>
-          {item.category ? <div className={styles.talkType}>{item.category}</div> : <></>}
+        <div className={`${styles.talk} ${classes}`}>
+          {item.category.replaceAll("Break", "") && item.category.replaceAll("Break", "").split(', ').map(cat => (<div className={styles.talkType}>{cat}</div>))}
           <div className={styles.talkTitle}>{item.title ? item.title : "TBA"}</div>
-          {item.speaker ? <div className={styles.talkSpeaker}><SpeakerList name={`${item.speaker}`} /></div> : <></>}
+          {item.speaker && (
+            <div className={styles.talkSpeaker}>
+              <SpeakerList name={`${item.speaker}`} />
+              {item.company && <span>, {item.company}</span>}
+            </div>
+          )}
         </div>
-      </div>  
+      </div>
     )
   else
     return (

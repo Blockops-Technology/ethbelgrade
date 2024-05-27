@@ -140,19 +140,25 @@
   margin-top: 20px;
   display: grid;
   align-items: stretch;
-  grid-template-columns: 105px repeat(4, 1fr); /* First column for time, rest for details */
+  grid-template-columns: 105px repeat(4, minmax(120px, 1fr)); /* First column for time, rest for details */
+  grid-template-rows: auto repeat(18, minmax(130px, 1fr));
   border-right: 1px solid var(--primary-blue);
+  border-bottom: 1px solid var(--primary-blue);
 }
 
 .details {
   grid-row: span var(--duration);
   grid-column: span var(--spaces);
-  border-left: 1px dashed var(--primary-blue);
-  border-bottom: 1px dashed var(--primary-blue);
+  border: 1px dashed var(--primary-blue);
+  border-width: 1px 0 0 1px;;
   text-align: left;
   padding: 2px;
   display: flex;
   flex-direction: column;
+
+  a:hover {
+    text-decoration: underline !important;
+  }
 }
 
 .talk {
@@ -173,21 +179,28 @@
   line-height: 12px;
   padding: 2px 4px;
   background-color: var(--background-color);
-  color: var(--primary-blue);
-  margin-bottom: 10px;
+  color: white;
+  margin-bottom: 5px;
+  margin-right: 5px;
 }
 
 .talkSpeaker {
   display: block;
   margin-top: 10px;
 }
+.talkCompany {
+  display: block;
+  margin-top: 10px;
+}
 
 .talkTitle {
   display: block;
+  font-weight: bold;
 }
 
 .header {
   border: 1px solid var(--primary-blue);
+  border-width: 1px 0 0 1px;;
   color: var(--primary-blue);
   text-align: center;
   font-family: var(--anton);
@@ -254,6 +267,7 @@
 
 .time {
   border: 1px solid var(--primary-blue);
+  border-width: 1px 0 0 1px;;
   color: var(--primary-blue);
   font-family: var(--space-grotesk);
   font-size: 12.47px;
@@ -305,47 +319,52 @@
 //   font-size: 12px;
 // }
 
-.talkCategoryZeroKnowledge {
+.talkCategorybreak {
+  background-color: #555;
+}
+
+.talkCategorydefi {
   background-color: var(--primary-emerald);
 }
 
-.talkCategoryDeFi {
-  background-color: lightpink;
+.talkCategoryzk {
+  background-color: var(--primary-purple);
 }
 
-.talkCategoryNFT {
-  background-color: #fdf903;
+//.talkCategorynft {
+//  background-color: #fdf903;
+//}
+
+.talkCategoryinfrascaling,
+.talkCategorydepin {
+  background-color: var(--primary-yellow);
 }
 
-.talkCategoryInfrastructureandscaling {
-  background-color: lightgreen;
+.talkCategorypublicgoods,
+.talkCategorycommunity,
+.talkCategorydaosandgovernance {
+  background-color: var(--primary-pinkish);
 }
 
-.talkCategoryPublicgoodsandcommunity {
-  background-color: mediumpurple;
-}
-
-.talkCategoryDAOsandgovernance {
-  background-color: lightskyblue;
-}
-
-.talkCategorySecurity {
+.talkCategorysecurity {
   background-color: var(--primary-red);
 }
 
-.talkCategoryEntrepreneurship {
+.talkCategoryentrepreneurship,
+.talkCategoryproduct,
+.talkCategorymarketing {
   background-color: rebeccapurple;
 }
 
-.talkCategoryDevTooling {
+.talkCategorydevtooling {
   background-color: darkgrey;
 }
 
-.talkCategoryUX {
-  background-color: darkgreen;
+.talkCategoryux {
+  background-color: var(--primary-orange);
 }
 
-.talkCategoryRegulations {
+.talkCategoryregulations {
   background-color: dodgerblue;
 }
 
