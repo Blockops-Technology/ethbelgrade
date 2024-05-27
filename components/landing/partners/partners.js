@@ -102,6 +102,9 @@ const Partners = () => (
           <a href="https://gateway.fm/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/gateway.svg" alt="Gateway logo" />
           </a>
+          <a href="https://sidechain.pro/" target="_blank" rel="noreferrer noopener">
+            <img style={{maxHeight: 90}} src="/images/partners/sidechain-logo.svg" alt="Gateway logo" />
+          </a>
         </div>
 
         <p className={styles.tier}>Supported by</p>
