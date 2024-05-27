@@ -99,6 +99,9 @@ const Partners = () => (
           <a href="https://fluence.network/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/fluence-logo.svg" alt="Fluence logo" />
           </a>
+          <a href="https://gateway.fm/" target="_blank" rel="noreferrer noopener">
+            <img src="/images/partners/gateway.svg" alt="Gateway logo" />
+          </a>
         </div>
 
         <p className={styles.tier}>Supported by</p>
