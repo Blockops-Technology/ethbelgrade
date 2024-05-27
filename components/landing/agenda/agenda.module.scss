@@ -4,44 +4,39 @@
   padding: 120px 0;
 }
 
-.titleWrapper {
-  width: fit-content;
-  margin: 0 auto 50px;
-  text-align: center;
-  @include breakpoint(big-tablet) {
-    text-align: center;
-  }
-}
-
 .title {
-  font-weight: 700;
-  font-size: 40px;
-  text-transform: uppercase;
+  font-size: 300px;
   margin: 0;
+  text-align: center;
+  font-family: var(--anton);
+  color: var(--primary-yellow);
+  text-transform: uppercase;
 
-  @include breakpoint(big-tablet) {
-    font-size: 30px;
+  @include breakpoint(medium-screen) {
+    font-size: 200px;
   }
-}
 
-.subtitle {
-  font-size: 32px;
-  //text-transform: uppercase;
-  color: var(--primary-red);
-  transform: rotate(-2.84deg);
-  margin-top: 0;
-  margin-right: -100px;
-  margin-bottom: 0;
+  @include breakpoint(medium-screen) {
+    font-size: 200px;
+  }
 
-  @include breakpoint(big-tablet) {
-    margin-right: -30px;
-    font-size: 20px;
+  @include breakpoint(tablet) {
+    font-size: 150px;
+  }
+
+  @include breakpoint(landscape) {
+    font-size: 100px;
+  }
+
+  @include breakpoint(big-mobile) {
+    font-size: 70px;
   }
 }
 
 .agendaContainer {
-  max-width: 960px;
+  width: 960px;
   margin: 0 auto;
+  overflow-x: scroll;
 }
 
 .tablist {
@@ -50,20 +45,6 @@
   //position: sticky;
   top: 0;
   z-index: 1;
-
-  @include breakpoint(landscape) {
-    margin: 0 -40px;
-  }
-}
-
-.tablistTitle {
-  font-family: var(--roboto-mono);
-  font-size: 32px;
-  text-transform: uppercase;
-  transform: rotate(-3deg);
-  margin-bottom: 20px;
-  margin-left: -20px;
-  color: var(--primary-red);
 }
 
 .tabsContainer {
@@ -73,22 +54,14 @@
 }
 
 .tab {
-  padding: 20px 30px;
-  font-weight: 700;
-  font-size: 30px;
+  padding: 15px 30px;
   border-left: 1px solid var(--primary-yellow);
   border-top: 1px solid var(--primary-yellow);
   border-bottom: 1px solid var(--primary-yellow);
   flex-grow: 1;
-  text-align: center;
-  text-transform: uppercase;
 
   &:hover {
     cursor: pointer;
-  }
-
-  @include breakpoint(landscape) {
-    padding: 3px;
   }
 
   &:nth-last-child(1) {
@@ -100,25 +73,8 @@
     content: none;
   }
 
-  @include breakpoint(small-screen) {
-    font-size: 20px;
-  }
-
-  @include breakpoint(big-tablet) {
-    font-size: 18px;
-  }
-
-  @include breakpoint(tablet) {
-    font-size: 16px;
-  }
-
-  @include breakpoint(landscape) {
-    font-size: 16px;
-    border-left: none;
-
-    &:nth-last-child(1) {
-      border-right: none;
-    }
+  @include breakpoint(big-mobile) {
+    padding: 15px 20px;
   }
 }
 
@@ -127,164 +83,43 @@
   color: black;
 }
 
-.dayWrapper {
-  background: #0078FF;
-  padding: 45px 30px 20px;
-
-  @include breakpoint(big-tablet) {
-    padding: 37px 30px 20px;
-  }
-}
-
-.dayDate {
-  position: relative;
+.tabTitle {
+  font-size: 36px;
+  font-family: var(--anton);
   margin: 0;
-}
-
-.day {
-  font-weight: 700;
-  font-size: 40px;
   text-transform: uppercase;
-  color: #0F1821;
-  transform: rotate(-3deg);
-  display: inline-block;
-  margin: 0;
-  position: absolute;
-  top: -30px;
 
-  @include breakpoint(big-tablet) {
-    font-size: 30px;
-    top: -20px
-  }
-}
-
-.date {
-  font-family: var(--robot-mono) !important;  transform: rotate(0deg);
-  font-size: 32px;
-  text-transform: uppercase;
-  margin-left: 70px;
-  display: inline-block;
-
-  @include breakpoint(big-tablet) {
+  @include breakpoint(landscape) {
     font-size: 24px;
   }
-}
-
-.talk {
-  border: 1.5px solid var(--primary-yellow);
-  display: flex;
-  align-items: center;
 
   @include breakpoint(big-mobile) {
-    display: block;
+    font-size: 20px;
   }
 }
 
-.time {
-  padding: 29px 33px;
-  width: 150px;
-  min-width: 150px;
-  text-align: center;
-
-  @include breakpoint(landscape) {
-    padding: 29px 10px;
-    max-width: 120px;
-    min-width: 120px;
-  }
-
-  @include breakpoint(big-mobile) {
-    max-width: 100%;
-    padding: 10px 10px 0px;
-    text-align: left;
-  }
-}
-
-.talkDetails {
-  padding: 29px 33px;
-  border-left: 1.5px solid var(--primary-yellow);
-
-  @include breakpoint(big-mobile) {
-    border-left: none;
-    padding: 10px;
-  }
-}
-
-.talkTitle {
-  font-size: 24px;
+.tabSubtitle {
+  font-size: 14px;
+  text-transform: uppercase;
   margin: 0;
-
-  @include breakpoint(landscape) {
-    font-size: 18px;
-  }
 }
 
-.talkCategory {
-  margin: 10px 0;
-  padding: 10px 15px;
-  background-color: white;
-  color: black;
-  display: inline-block;
-  font-weight: 400;
-  font-size: 12px;
+.table {
+  display: grid;
+  grid-template-columns: 100px repeat(3, 1fr);
+  grid-auto-rows: 1fr;
+  grid-auto-flow: row;
 }
 
-.talkCategoryZeroKnowledge {
-  background-color: var(--primary-emerald);
+.timeSlotBorder {
+  border: 1px solid var(--primary-yellow);
+  text-align: center;
 }
 
-.talkCategoryDeFi {
-  background-color: lightpink;
-}
-
-.talkCategoryNFT {
-  background-color: #fdf903;
-}
-
-.talkCategoryInfrastructureandscaling {
-  background-color: lightgreen;
-}
-
-.talkCategoryPublicgoodsandcommunity {
-  background-color: mediumpurple;
-}
-
-.talkCategoryDAOsandgovernance {
-  background-color: lightskyblue;
-}
-
-.talkCategorySecurity {
-  background-color: var(--primary-red);
-}
-
-.talkCategoryEntrepreneurship {
-  background-color: rebeccapurple;
-}
-
-.talkCategoryDevTooling {
-  background-color: darkgrey;
-}
-
-.talkCategoryUX {
-  background-color: darkgreen;
-}
-
-.talkCategoryRegulations {
-  background-color: dodgerblue;
-}
-
-
-.speaker {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 20px;
-  margin: 15px 0 0;
-
-  p {
-    margin: 0;
-  }
-
-  img {
-    width: 30px;
-  }
+.stageName {
+  border: 1px solid var(--primary-yellow);
+  text-align: center;
+  font-family: var(--anton);
+  text-transform: uppercase;
+  font-size: 24px;
 }

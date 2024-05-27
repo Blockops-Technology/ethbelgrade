@@ -2,8 +2,10 @@ import Link from "next/link";
 import styles from "./agenda.module.scss";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 
+import agenda1 from "./agenda1.json";
 import agenda from "./agenda.json";
 import speakers from "../speakers/speakers.json";
+import { useState } from "react";
 
 const twitter = new Map();
 
@@ -25,68 +27,84 @@ const SpeakerList = (props) => {
   });
 }
 
-const Agenda = () => (
-  <div id="agenda" className={styles.agenda}>
-    <div className="container">
-      <div className={styles.titleWrapper}>
-        <p className={styles.title}>Conference</p>
-        <p className={styles.subtitle}>Agenda</p>
-      </div>
-      <div className={styles.agendaContainer}>
-        <Tabs className={styles.tabs}>
-          <TabList className={styles.tablist}>
-            {/*<div className={styles.tablistTitle}>Stages</div>*/}
-            <div className={styles.tabsContainer}>
-              {
-                agenda.stages.map((stage, i) => (
-                  <Tab key={i} className={styles.tab} selectedClassName={styles.selectedTab}>{stage.stageName}</Tab>
-                ))
-              }
-            </div>
-          </TabList>
+const Agenda = () => {
+  const [tabIndex, setTabIndex] = useState(0);
+
+  return (
+    <div id="agenda" className={styles.agenda}>
+      <div className="container">
+        <p className={styles.title}>Agenda</p>
+        <div className={styles.agendaContainer}>
+          <Tabs className={styles.tabs} selectedIndex={tabIndex} onSelect={(index) => setTabIndex(index)}>
+            <TabList className={styles.tablist}>
+              <div className={styles.tabsContainer}>
+                {
+                  agenda.days.map((day, i) => (
+                    <Tab key={i} className={styles.tab} selectedClassName={styles.selectedTab}>
+                      <p className={styles.tabTitle}>{day.name}</p>
+                      <p className={styles.tabSubtitle}>{day.date}</p>
+                    </Tab>
+                  ))
+                }
+              </div>
+            </TabList>
 
           {
-            agenda.stages.map((stage, i) => (
+            agenda.days.map((day, i) => (
               <TabPanel key={i}>
                 {
-                  stage.programme.map((day, i) => (
-                    <div key={i}>
-                      <div className={styles.dayWrapper}>
-                        <p className={styles.dayDate}>
-                          <span className={styles.day}>{day.day}</span>
-                          <span className={styles.date}>{day.date}</span>
-                        </p>
-                      </div>
-                      {
-                        day.talks.map((talk, i) => (
-                          <div className={`${styles.talk} ${styles[day.day.toLowerCase().replace(' ', '')]}`} key={i}>
-                            <div className={styles.time}>{talk.time}</div>
-                            <div className={styles.talkDetails}>
-                              <p className={styles.talkTitle}>{talk.recording ? <Link href={`${talk.recording}`} target="_blank" rel="noreferrer noopener">{talk.title}</Link> : talk.title}</p>
-                              {
-                                talk.category &&
-                                <p className={`${styles.talkCategory} ${styles["talkCategory" + talk.category.replaceAll(" ", "")]}`}>{talk.category}</p>
-                              }
-                              {
-                                talk.speaker &&
-                                <div className={styles.speaker}>
-                                  {
-                                    talk.speakerImage &&
-                                    <img src={`/images/Speakers/${talk.speakerImage}`} alt={talk.speaker} />
-                                  }
-                                  <p>
-                                    <SpeakerList name={`${talk.speaker}`} />
-                                  </p>
-                                  <span>|</span>
-                                  <p>{talk.company}</p>
-                                </div>
-                              }
-                            </div>
-                          </div>
-                        ))
-                      }
-                    </div>
-                  ))
+                  <div className={styles.table}>
+                    {
+                      [""].concat(agenda.timeSlots).map((timeslot, j) => (
+                        timeslot === "" ? (
+                            [""].concat(agenda.stages).map((stage, k) => (
+                              <div className={`${stage && styles.stageName}`} key={k}>
+                                {stage?.name}
+                              </div>
+                            ))
+
+                      ) : (
+                          [""].concat(agenda.stages).map((stage, l) => {
+                            switch (l) {
+                              case 0:
+                                return (
+                                  <div className={styles.timeSlotBorder} key={l}>
+                                    <p>{timeslot}</p>
+                                  </div>
+                                );
+                              case 1:
+                                return (
+                                  <div className={`${styles.timeSlotBorder}`} key={l + 1}>
+                                    <p>
+                                      {agenda.days[i].mainStage?.talks[j - 1]?.title}
+                                    </p>
+                                  </div>
+                                );
+                              case 2:
+                                return (
+                                  <div className={styles.timeSlotBorder} key={l + 2}>
+                                    <p>
+                                      {agenda.days[i].secondStage?.talks[j - 1]?.title}
+                                    </p>
+                                  </div>
+                                );
+                              case 3:
+                                return (
+                                  <div style={{gridRow: `span ${agenda.days[i].thirdStage?.talks[j - 1]?.span}`}} className={styles.timeSlotBorder} key={l + 2}>
+                                    <p>
+                                      {agenda.days[i].thirdStage?.talks[j - 1]?.title}
+                                    </p>
+                                  </div>
+                                );
+                            }
+                          })
+                          // <div className={styles.timeSlotBorder} key={j}>
+                          //   <p>{timeslot}</p>
+                          // </div>
+                        )
+                      ))
+                    }
+                  </div>
                 }
               </TabPanel>
             ))
@@ -94,8 +112,9 @@ const Agenda = () => (
         </Tabs>
       </div>
 
+      </div>
     </div>
-  </div>
-);
+  );
+}
 
 export default Agenda;

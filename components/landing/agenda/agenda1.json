@@ -1,0 +1,1136 @@
+{
+  "stages": [
+    {
+      "stageName": "Main (Stage 1)",
+      "programme": [
+        {
+          "day": "Day 1",
+          "date": "Fri, June 2",
+          "talks": [
+            {
+              "time": "8:30 AM",
+              "title": "Registration + coffee",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "category": "",
+              "recording": ""
+            },
+            {
+              "time": "9:25 AM",
+              "title": "Really short opening talk \uD83D\uDE01",
+              "speaker": "Petar Popovic",
+              "speakerImage": "",
+              "company": "ETH Belgrade",
+              "category": "",
+              "recording": ""
+            },
+            {
+              "time": "9:30 AM",
+              "title": "Keynote - Lost in the Hype - From Innovation to Million-Dollar JPEGs",
+              "speaker": "Bogdan Habic",
+              "speakerImage": "bogdan-habic.png",
+              "company": "Tenderly",
+              "category": "",
+              "recording": "https://youtu.be/K3RhTJtgFjc"
+            },
+            {
+              "time": "10:10 AM",
+              "title": "Connecting Smart Contracts to the Real World",
+              "speaker": "Solange Gueiros",
+              "speakerImage": "solange.png",
+              "company": "Chainlink",
+              "category": "Infrastructure and scaling",
+              "recording": "https://youtu.be/XBBGM609-C4"
+            },
+            {
+              "time": "10:50 AM",
+              "title": "Zero Knowledge in 2023",
+              "speaker": "Andrija Novakovic",
+              "speakerImage": "andrija-novakovic.png",
+              "company": "Geometry",
+              "category": "Zero Knowledge",
+              "recording": "https://youtu.be/VQs0YemzjXE"
+            },
+            {
+              "time": "11:20 AM",
+              "title": "Coffee break (20 min)",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "recording": ""
+            },
+            {
+              "time": "11:40 AM",
+              "title": "Non-Native Field Arithmetic",
+              "speaker": "Özgür Armanc Yiğit",
+              "speakerImage": "ozgur-armanc-yigit.png",
+              "company": "Ethereum Foundation",
+              "category": "Zero Knowledge",
+              "recording": "https://youtu.be/82_oYIxkalg"
+            },
+            {
+              "time": "12:20 PM",
+              "title": "Tales of a sleepy dev: Common pitfalls, exploits, and other lessons learned building in the DeFi space for 3+ years",
+              "speaker": "Nenad Palinkasevic",
+              "speakerImage": "nenad-palinkasevic.png",
+              "company": "DeFi Saver",
+              "category": "DeFi",
+              "recording": "https://youtu.be/ZyeUZIrAK7I"
+            },
+            {
+              "time": "1:00 PM",
+              "title": "Stablecoins, built for DeFi: introducing the stablecoin pentemma",
+              "speaker": "TokenBrice",
+              "speakerImage": "token-brice.png",
+              "company": "Liquity",
+              "category": "DeFi",
+              "recording": "https://youtu.be/pfq7Veswtro"
+            },
+            {
+              "time": "1:30 PM",
+              "title": "Lunch break (40 min)",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "category": "",
+              "recording": ""
+            },
+            {
+              "time": "2:10 PM",
+              "title": "NFT Panel: Exploring NFT Usecases",
+              "speaker": "Dave Lockie, Fxnction",
+              "speakerImage": "",
+              "company": "Automattic, Ratio",
+              "category": "NFT",
+              "recording": "https://youtu.be/Emrl3Z7vRQo"
+            },
+            {
+              "time": "3:10 PM",
+              "title": "Introduction to DeSci",
+              "speaker": "Joshua Bate",
+              "speakerImage": "joshua-bate.png",
+              "company": "DeSciWorld",
+              "category": "Public goods and community",
+              "recording": "https://youtu.be/pasTHMvmmxo"
+            },
+            {
+              "time": "3:50 PM",
+              "title": "The Marketplace of trusted credentials in Web3",
+              "speaker": "Sebastian Rodriguez",
+              "speakerImage": "sebastian-rodrigez.png",
+              "company": "Polygon",
+              "category": "Zero Knowledge",
+              "recording": "https://youtu.be/eAdfpQ7zKPM"
+            },
+            {
+              "time": "4:20 PM",
+              "title": "Closing Day 1",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "category": "",
+              "recording": ""
+            }
+          ]
+        },
+        {
+          "day": "Day 2",
+          "date": "Sat, June 3",
+          "talks": [
+            {
+              "time": "9:00 AM",
+              "title": "GM + Coffee",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "category": "",
+              "recording": ""
+            },
+            {
+              "time": "9:30 AM",
+              "title": "Trust, Value, and Honour: What Are Blockchains Actually Good For?",
+              "speaker": "Andy Tudhope, Anna Alexa",
+              "speakerImage": "",
+              "company": "Kernel, Celo Foundation",
+              "category": "DAOs and governance",
+              "recording": "https://youtu.be/ijbdUhKMUc4"
+            },
+            {
+              "time": "10:50 AM",
+              "title": "The immediate next steps of ZKML",
+              "speaker": "Cathie So",
+              "speakerImage": "cathie-so.png",
+              "company": "Ethereum Foundation",
+              "category": "Zero Knowledge",
+              "recording": "https://youtu.be/my_mGaIeWdE"
+            },
+            {
+              "time": "11:20 AM",
+              "title": "Coffee break (20 min)",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "recording": ""
+            },
+            {
+              "time": "11:40 AM",
+              "title": "Intro to Web3 Profiles with ENS",
+              "speaker": "Muhammed Tanrikulu",
+              "speakerImage": "muhammed-ens.png",
+              "company": "Ethereum Name Service",
+              "category": "Infrastructure and scaling",
+              "recording": "https://youtu.be/a1ymUnJEF0Q"
+            },
+            {
+              "time": "12:20 PM",
+              "title": "NFT collections at scale",
+              "speaker": "Marius Balaj + Vlad Temian",
+              "speakerImage": "marius-balaj.png",
+              "company": "Sandbox",
+              "category": "NFT",
+              "recording": "https://youtu.be/6LIE6LiKHxc"
+            },
+            {
+              "time": "1:00 PM",
+              "title": "NFT - beyond the hype.",
+              "speaker": "Abena Asante",
+              "speakerImage": "abena-asante.png",
+              "company": "SheFi, DeFi Africa and Bankless Africa",
+              "category": "NFT",
+              "recording": "https://youtu.be/3BZFdLX8a_M"
+            },
+            {
+              "time": "1:30 PM",
+              "title": "Lunch break (40 min)",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "category": "",
+              "recording": ""
+            },
+            {
+              "time": "2:10 PM",
+              "title": "Zero Knowledge Panel: Validity rollups and beyond (potential for Cloud 2.0)",
+              "speaker": "Edi Sinovcic, Cathie So, Andrija Novakovic",
+              "speakerImage": "",
+              "company": "Shard Labs, Ethereum Foundation, Geometry",
+              "category": "Zero Knowledge",
+              "recording": "https://youtu.be/F3P3pD8PHZc"
+            },
+            {
+              "time": "3:10 PM",
+              "title": "Latest developments in DeFi: A comprehensive overview of developing trends in the decentralized finance space",
+              "speaker": "definikola",
+              "speakerImage": "defi-nikola.png",
+              "company": "DeFi Saver",
+              "category": "DeFi",
+              "recording": "https://youtu.be/BjOGKC1aAEw"
+            },
+            {
+              "time": "3:50 PM",
+              "title": "Interoperability as a premise to better sharing assets, seamless onboarding, lower costs and higher value generation for all stakeholders",
+              "speaker": "Vikas Pandey",
+              "speakerImage": "vikas-pandey.png",
+              "company": "NEAR Protocol",
+              "category": "Infrastructure and scaling",
+              "recording": "https://youtu.be/h9XJdzsMpc0"
+            },
+            {
+              "time": "4:30 PM",
+              "title": "From Apples to Objectives: Directing Decentralized Autonomous Organizations with a Focus on Work",
+              "speaker": "Juan",
+              "speakerImage": "juan-makerdao.png",
+              "company": "MakerDAO",
+              "category": "DAOs and governance",
+              "recording": "https://youtu.be/079N9Jm3Q-A"
+            },
+            {
+              "time": "5:00 PM",
+              "title": "Closing Day 2",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "category": "",
+              "recording": ""
+            }
+          ]
+        },
+        {
+          "day": "Day 3",
+          "date": "Sun, June 4",
+          "talks": [
+            {
+              "time": "9:00 AM",
+              "title": "GM + Coffee",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "category": "",
+              "recording": ""
+            },
+            {
+              "time": "9:30 AM",
+              "title": "How to get the most out of your smart contract audit",
+              "speaker": "Tomas Bayer",
+              "speakerImage": "",
+              "company": "Ackee Blockchain Security",
+              "category": "Security",
+              "recording": "https://youtu.be/x8h0T9jKXUA"
+            },
+            {
+              "time": "10:10 AM",
+              "title": "From bytecode to bugs: how security analysis and decompilation help us find vulnerabilities in smart contracts",
+              "speaker": "Sifis Lagouvardos",
+              "speakerImage": "sifis.png",
+              "company": "Dedaub",
+              "category": "Security",
+              "recording": "https://youtu.be/TDCbLoDtsv0"
+            },
+            {
+              "time": "10:50 AM",
+              "title": "What's next for The Graph?",
+              "speaker": "Simon Emanuel Schmid",
+              "speakerImage": "simon-emanuel-schmid.png",
+              "company": "The Graph",
+              "category": "Dev Tooling",
+              "recording": "https://youtu.be/tOhYU3OTfsk"
+            },
+            {
+              "time": "11:20 AM",
+              "title": "Coffee break (20 min)",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "recording": ""
+            },
+            {
+              "time": "11:40 AM",
+              "title": "ZKPs: Future VS Reality",
+              "speaker": "Edi Sinovcic",
+              "speakerImage": "edi-sinovcic.png",
+              "company": "SpaceShard",
+              "category": "Zero Knowledge",
+              "recording": "https://youtu.be/7urRQcmYQRU"
+            },
+            {
+              "time": "12:20 PM",
+              "title": "How L2 are scaling Ethereum one batch at a time",
+              "speaker": "Sahil Sen",
+              "speakerImage": "sahil-sen.png",
+              "company": "QuickNode",
+              "category": "Infrastructure and scaling ",
+              "recording": "https://youtu.be/TFZgLDCiUGY"
+            },
+            {
+              "time": "1:00 PM",
+              "title": "Secure Crosschain Apps: the next wave of innovation",
+              "speaker": "Max Lomuscio",
+              "speakerImage": "max-lomuscio.png",
+              "company": "Connext",
+              "category": "Infrastructure and scaling ",
+              "recording": "https://youtu.be/67AInQEltlg"
+            },
+            {
+              "time": "1:40 PM",
+              "title": "Building the next generation of DeFi",
+              "speaker": "Albert Chon",
+              "speakerImage": "",
+              "company": "Injective Labs",
+              "category": "DeFi",
+              "recording": "https://youtu.be/IBCSldb39bE"
+            },
+            {
+              "time": "2:10 PM",
+              "title": "DeFi Panel: Navigating Risk in DeFi in the last 12 months (through UST and FTX fallouts, USDC depeg & more)",
+              "speaker": "Definikola, TokenBrice, Daria Shakhbazova, Primož Kordež",
+              "speakerImage": "",
+              "company": "DeFi Saver, Liquity, 0x, Block Analitica",
+              "category": "DeFi",
+              "recording": "https://youtu.be/ZStBvVp1V0Y"
+            },
+            {
+              "time": "3:10 PM",
+              "title": "DeFi & Infrastructure (Swaps – regular and gasless ones)",
+              "speaker": "Daria Shakhbazova",
+              "speakerImage": "daria-shakhbazova.png",
+              "company": "0x",
+              "category": "DeFi",
+              "recording": "https://youtu.be/BH2YHC8VM4M"
+            },
+            {
+              "time": "3:50 PM",
+              "title": "Securely scaling web3: Exploring shared security responsibilities",
+              "speaker": "Stefan Sopic",
+              "speakerImage": "",
+              "company": "Parity",
+              "category": "Infrastructure and scaling",
+              "recording": "https://youtu.be/6rt6_jvlYys"
+            },
+            {
+              "time": "4:30 PM",
+              "title": "Aligning incentives to enable decentralized storage and compute",
+              "speaker": "Vukasin Vukoje",
+              "speakerImage": "vukasin-vukoje.png",
+              "company": "Alt Labs",
+              "category": "Infrastructure and scaling",
+              "recording": "https://youtu.be/dgZ2vXfgDRA"
+            },
+            {
+              "time": "5:00 PM",
+              "title": "Closing Day 3",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "category": "",
+              "recording": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageName": "Builders (Stage 6)",
+      "programme": [
+        {
+          "day": "Day 1",
+          "date": "Fri, June 2",
+          "talks": [
+            {
+              "time": "8:30 AM",
+              "title": "Registration + coffee",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "category": "",
+              "recording": ""
+            },
+            {
+              "time": "9:30 AM",
+              "title": "Opening talk - Main stage",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "category": "",
+              "recording": ""
+            },
+            {
+              "time": "10:10 AM",
+              "title": "Build Smarter and Faster with a Chief of Staff",
+              "speaker": "Michelle Wu",
+              "speakerImage": "michelle-wu.png",
+              "company": "MetaMask",
+              "category": "Entrepreneurship",
+              "recording": "https://youtu.be/CNU-mSU8UZY"
+            },
+            {
+              "time": "10:50 AM",
+              "title": "Anonymous Engineering",
+              "speaker": "parazyd",
+              "speakerImage": "parazyd.png",
+              "company": "DarkFi",
+              "category": "Security",
+              "recording": "https://youtu.be/sohXXWKqGzk"
+            },
+            {
+              "time": "11:30 AM",
+              "title": "Honeypots - Hacker traps on the blockchain",
+              "speaker": "Noah Jelich",
+              "speakerImage": "noah-jelich.png",
+              "company": "Hacken",
+              "category": "Security",
+              "recording": "https://youtu.be/sR3bxIIl1sg"
+            },
+            {
+              "time": "12:00 PM",
+              "title": "Lunch break (40 min)",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "category": "",
+              "recording": ""
+            },
+            {
+              "time": "1:10 PM",
+              "title": "How Web3 Ecosystems and Protocols evolve?",
+              "speaker": "Lazar Travica",
+              "speakerImage": "lazartravica.png",
+              "company": "Route3",
+              "category": "Infrastructure and scaling ",
+              "recording": "https://youtu.be/u8-2heU9eWc"
+            },
+            {
+              "time": "1:50 PM",
+              "title": "",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "category": "",
+              "recording": ""
+            },
+            {
+              "time": "2:30 PM",
+              "title": "Tips and tricks for generating vanity addresses",
+              "speaker": "Andrej Rakic",
+              "speakerImage": "andrej-rakic.png",
+              "company": "Chainlink",
+              "category": "Dev Tooling",
+              "recording": "https://youtu.be/8UBpTLYevZs"
+            },
+            {
+              "time": "3:10 PM",
+              "title": "Fixing Defi with Open Data",
+              "speaker": "James Corbett",
+              "speakerImage": "james-corbett.png",
+              "company": "Superchain",
+              "category": "DeFi",
+              "recording": "https://youtu.be/XjuWHoCgIWw"
+            },
+            {
+              "time": "3:50 PM",
+              "title": "Why is DeFI still a sandbox, and how do we integrate it into traditional finance natively",
+              "speaker": "Anton Mozghovoi",
+              "speakerImage": "anton-mozghovoi.png",
+              "company": "Mover",
+              "category": "DeFi",
+              "recording": "https://youtu.be/YYwALhZxEaE"
+            },
+            {
+              "time": "4:20 PM",
+              "title": "Infrastructure Panel: Developer tools and infrastructure in a multichain world",
+              "speaker": "Bogdan Habic, Sahil Sen, Lei Wu",
+              "speakerImage": "",
+              "company": "Tenderly, QuickNode, BlockSec",
+              "category": "Infrastructure and scaling",
+              "recording": "https://youtu.be/V-wjpLRNwmU"
+            }
+          ]
+        },
+        {
+          "day": "Day 2",
+          "date": "Sat, June 3",
+          "talks": [
+            {
+              "time": "9:00 AM",
+              "title": "GM + coffee",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "category": "",
+              "recording": ""
+            },
+            {
+              "time": "9:30 AM",
+              "title": "Stateless Ethereum - the benefits for users, node operators and bridge",
+              "speaker": "Valentin Mihov",
+              "speakerImage": "valentin-mixov.png",
+              "company": "Daedalus",
+              "category": "Infrastructure and scaling",
+              "recording": "https://youtu.be/CSqqmIh9_hI"
+            },
+            {
+              "time": "10:10 AM",
+              "title": "Reth, new Rust Ethereum client",
+              "speaker": "Dragan Rakita",
+              "speakerImage": "dragan-rakita.png",
+              "company": "Paradigm",
+              "category": "Infrastructure and scaling",
+              "recording": "https://youtu.be/pxhq7YrySRM"
+            },
+            {
+              "time": "10:50 AM",
+              "title": "Smart Contract Development with Vyper: A Deep Dive into the Pythonic Language",
+              "speaker": "Mladen Milankovic",
+              "speakerImage": "mladen-milankovic.png",
+              "company": "HTEC Group",
+              "category": "Dev Tooling",
+              "recording": "https://youtu.be/BPAcZ5rnECI"
+            },
+            {
+              "time": "11:20 AM",
+              "title": "Coffee break (20 min)",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "recording": ""
+            },
+            {
+              "time": "11:40 AM",
+              "title": "Houston, We Have a Quality Problem: Why Security Auditing Needs an Upgrade",
+              "speaker": "engn33r",
+              "speakerImage": "engn33r.png",
+              "company": "yAudit",
+              "category": "Security",
+              "recording": "https://youtu.be/grpy_GtIhRU"
+            },
+            {
+              "time": "12:20 PM",
+              "title": "Security Panel: Scalable ideas for reducing smart contract hacks in the next 3 years",
+              "speaker": "Nebojsa Urosevic, Nenad Palinkasevic, engn33r, Noah Jelich",
+              "speakerImage": "",
+              "company": "Tenderly, DeFi Saver, Web3SecurityDAO, yAudit, Hacken",
+              "category": "Security",
+              "recording": "https://youtu.be/1OIScyASkkQ"
+            },
+            {
+              "time": "1:10 PM",
+              "title": "Lunch break (40 min)",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "category": "",
+              "recording": ""
+            },
+            {
+              "time": "1:50 PM",
+              "title": "Exploring the Past, Present, and Future of DAOs: Governance, Formation, and Growth",
+              "speaker": "Michael Jacobs",
+              "speakerImage": "fxnction.png",
+              "company": "Ratio",
+              "category": "DAOs and governance",
+              "recording": "https://youtu.be/lFxt4mWGud4"
+            },
+            {
+              "time": "2:30 PM",
+              "title": "Automating MakerDAO's Economic Risk Assessment",
+              "speaker": "Jan Osolnik",
+              "speakerImage": "jan-solnik.png",
+              "company": "Block Analitica",
+              "category": "DeFi",
+              "recording": "https://youtu.be/cJvpBp6uZT4"
+            },
+            {
+              "time": "3:10 PM",
+              "title": "Oracles on EVMs: risks, misconceptions and tips \uD83D\uDD2E",
+              "speaker": "Marcin Kazmierczak",
+              "speakerImage": "marcin-kazmierczak.png",
+              "company": "RedStone & Warp.cc",
+              "category": "Infrastructure and scaling",
+              "recording": "https://youtu.be/1XlyAY8UUWM"
+            },
+            {
+              "time": "3:50 PM",
+              "title": "NFTs and DAOs: how can they grow together?",
+              "speaker": "Daniela Zschaber",
+              "speakerImage": "daniela-zschaber.png",
+              "company": "Nouns BR, NFTFY, Chainlink",
+              "category": "DAOs and governance",
+              "recording": "https://youtu.be/S60UEGyqXxM"
+            },
+            {
+              "time": "4:30 PM",
+              "title": "User-Friendly Interfaces for Non-Techies: Strategies for Mass Adoption and Communication",
+              "speaker": "Mikhail Krupin",
+              "speakerImage": "mikhail-krupin.png",
+              "company": "zkBob",
+              "category": "UX",
+              "recording": "https://youtu.be/ID3av0xJzKc"
+            },
+            {
+              "time": "5:00 PM",
+              "title": "Closing Day 2",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "category": "",
+              "recording": ""
+            }
+          ]
+        },
+        {
+          "day": "Day 3",
+          "date": "Sun, June 4",
+          "talks": [
+            {
+              "time": "9:00 AM",
+              "title": "GM + coffee",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "category": "",
+              "recording": ""
+            },
+            {
+              "time": "9:30 AM",
+              "title": "How we can front run crypto exploits before they even happen",
+              "speaker": "Evgeny Marchenko",
+              "speakerImage": "",
+              "company": "Pessimistic Security",
+              "category": "Security",
+              "recording": "https://youtu.be/Q6spoIiA4IM"
+            },
+            {
+              "time": "10:10 AM",
+              "title": "Symbolic testing in Solidity using KEVM and Foundry",
+              "speaker": "Andrei Văcaru",
+              "speakerImage": "andrei-vacaru.png",
+              "company": "Runtime Verification, Inc.",
+              "category": "Security",
+              "recording": "https://youtu.be/eRUFNnZmNmk"
+            },
+            {
+              "time": "10:50 AM",
+              "title": "AMMs for Dummies",
+              "speaker": "Aleeza Howitt",
+              "speakerImage": "aleeza-howitt.png",
+              "company": "Cowri Labs",
+              "category": "DeFi",
+              "recording": "https://youtu.be/JTNa2bLkzpw"
+            },
+            {
+              "time": "11:20 AM",
+              "title": "The Marketplace of trusted credentials in Web3",
+              "speaker": "Sebastian Rodriguez",
+              "speakerImage": "sebastian-rodrigez.png",
+              "company": "Polygon",
+              "category": "Zero Knowledge",
+              "recording": "https://youtu.be/eAdfpQ7zKPM"
+            },
+            {
+              "time": "11:40 AM",
+              "title": "Wallet Core - An open source wallet for L1 & L2 implementors and wallet creators",
+              "speaker": "Sergei Boiko",
+              "speakerImage": "sergei-boiko.png",
+              "company": "Binance, Trust Wallet",
+              "category": "Dev Tooling",
+              "recording": "https://youtu.be/HcIavRydfBc"
+            },
+            {
+              "time": "12:20 PM",
+              "title": "Regulations Panel: Edgy and hot sticks - disentangling EU regulatory conundrum.",
+              "speaker": "Aleksandar Begovic, Thibault Schrepel, Xenofon Kontouris, Nena Dokuzov",
+              "speakerImage": "",
+              "company": "",
+              "category": "Regulations",
+              "recording": "https://youtu.be/2ass08l_Vc0"
+            },
+            {
+              "time": "1:10 PM",
+              "title": "Lunch break (40 min)",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "category": "",
+              "recording": ""
+            },
+            {
+              "time": "1:50 PM",
+              "title": "Digital Identity Trust (How to implement KYC and Proof of uniqueness with Polygon ID)",
+              "speaker": "Miros",
+              "speakerImage": "miros.png",
+              "company": "PolygonID",
+              "category": "Infrastructure and scaling",
+              "recording": "https://youtu.be/lBdaDTkyyoU"
+            },
+            {
+              "time": "2:30 PM",
+              "title": "Why web3 is failing",
+              "speaker": "Malisa Pusonja",
+              "speakerImage": "malisa-pusonja.png",
+              "company": "Attic42",
+              "category": "Infrastructure and scaling",
+              "recording": "https://youtu.be/Tz-IVC8_dQo"
+            },
+            {
+              "time": "3:10 PM",
+              "title": "",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "category": "",
+              "recording": ""
+            },
+            {
+              "time": "3:50 PM",
+              "title": "The challenges of analytics on multi-chain web3 apps",
+              "speaker": "Mislav Javor",
+              "speakerImage": "mislav-javor.png",
+              "company": "DEV3",
+              "category": "Dev Tooling",
+              "recording": "https://youtu.be/fWa67SUkDbI"
+            },
+            {
+              "time": "5:00 PM",
+              "title": "Closing Day 3",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "category": "",
+              "recording": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageName": "Community (Stage 3)",
+      "programme": [
+        {
+          "day": "Day 1",
+          "date": "Fri, June 2",
+          "talks": [
+            {
+              "time": "8:30 AM",
+              "title": "Registration + coffee",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "category": "",
+              "recording": ""
+            },
+            {
+              "time": "9:30 AM",
+              "title": "Opening talk - Main stage",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "category": "",
+              "recording": ""
+            },
+            {
+              "time": "10:10 AM",
+              "title": "",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "category": "",
+              "recording": ""
+            },
+            {
+              "time": "10:50 AM",
+              "title": "Making DAOs Actually Decentralized and Autonomous",
+              "speaker": "John Shutt",
+              "speakerImage": "john-shutt.png",
+              "company": "UMA",
+              "category": "DAOs and governance",
+              "recording": "https://youtu.be/kRnB5JMf42E"
+            },
+            {
+              "time": "11:20 AM",
+              "title": "Coffee break (20 min)",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "recording": ""
+            },
+            {
+              "time": "11:40 AM",
+              "title": "The Next Generation of Blockchain: A Conversation about Opportunities and Challenges for Young Adults",
+              "speaker": "Zeynep Ecenaz Altınok",
+              "speakerImage": "zeynep.png",
+              "company": "CoinTR, Turkiye Chapter Lead of SheFi",
+              "category": "Public goods and community",
+              "recording": "https://youtu.be/qDJ93Op76KU"
+            },
+            {
+              "time": "12:20 PM",
+              "title": "Crossing the Chasm - How to bring Enterprise to Web3",
+              "speaker": "Aleksandar Bijelic",
+              "speakerImage": "aleksandar-bijelic.png",
+              "company": "MVP Workshop",
+              "category": "Entrepreneurship",
+              "recording": "https://youtu.be/dqpLjDKuH3M"
+            },
+            {
+              "time": "1:00 PM",
+              "title": "WorkFi: The Future of Employment on Ethereum",
+              "speaker": "Mario Alves",
+              "speakerImage": "mario-alves.png",
+              "company": "LayerX",
+              "category": "Public goods and community",
+              "recording": "https://youtu.be/Jmcnwg2l67A"
+            },
+            {
+              "time": "1:30 PM",
+              "title": "Lunch break (40 min)",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "category": "",
+              "recording": ""
+            },
+            {
+              "time": "2:10 PM",
+              "title": "Navigating the Legal Landscape of Decentralized Exchanges: Challenges and Opportunities",
+              "speaker": "@itsdevilcrypto",
+              "speakerImage": "maria-begona-cuesta.png",
+              "company": "GMX",
+              "category": "Regulations",
+              "recording": "https://youtu.be/WFuLH7zL5sY"
+            },
+            {
+              "time": "2:50 PM",
+              "title": "Modular vs Monolithic Scaling",
+              "speaker": "Pavle Batuta, James Corbett, Marija Matic",
+              "speakerImage": "pavle-batuta.png",
+              "company": "Moonstruck / Renfter, Superchain",
+              "category": "Infrastructure and scaling",
+              "recording": "https://youtu.be/aScT0OAFpQ8"
+            },
+            {
+              "time": "3:20 PM",
+              "title": "Efforts to create transparency in Decentralized Finance (DeFi) through the use of statistics and machine learning",
+              "speaker": "Marijo Radman",
+              "speakerImage": "marijo-radman.png",
+              "company": "Solity Network",
+              "category": "DeFi",
+              "recording": "https://youtu.be/aScT0OAFpQ8"
+            },
+            {
+              "time": "4:00 PM",
+              "title": "",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "category": "",
+              "recording": ""
+            },
+            {
+              "time": "4:30 PM",
+              "title": "Closing Day 1",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "category": "",
+              "recording": ""
+            }
+          ]
+        },
+        {
+          "day": "Day 2",
+          "date": "Sat, June 3",
+          "talks": [
+            {
+              "time": "9:00 AM",
+              "title": "GM + coffee",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "category": "",
+              "recording": ""
+            },
+            {
+              "time": "9:30 AM",
+              "title": "Whoa, easy there!: communicating DLT",
+              "speaker": "Blendor Sefaj",
+              "speakerImage": "blendor.png",
+              "company": "Clover Labs",
+              "category": "Public goods and community",
+              "recording": "https://youtu.be/MabXb-b49-s"
+            },
+            {
+              "time": "10:10 AM",
+              "title": "Fireside Chat: Serbian - Croatian regulatory recap (Pravne mudrolijeth)",
+              "speaker": "Ilija + Vlaho",
+              "speakerImage": "ilija-rilakovic.png",
+              "company": "",
+              "category": "Regulations",
+              "recording": "https://youtu.be/qT6IlN9Qkvs"
+            },
+            {
+              "time": "11:20 AM",
+              "title": "Coffee break (20 min)",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "recording": ""
+            },
+            {
+              "time": "11:40 AM",
+              "title": "Investing in Web3 and Blockchain: Opportunities and Challenges",
+              "speaker": "Timur Daudpota",
+              "speakerImage": "",
+              "company": "2080 Ventures",
+              "category": "Enterpreneurship",
+              "recording": "https://youtu.be/NrzCS2pDr1U"
+            },
+            {
+              "time": "12:20 PM",
+              "title": "AI and Blockchain and how does it all fit together",
+              "speaker": "Miljan Martic",
+              "speakerImage": "miljan-martic.png",
+              "company": "Kosen Labs",
+              "category": "Infrastructure and scaling",
+              "recording": "https://youtu.be/pLo44vb0oCM"
+            },
+            {
+              "time": "1:00 PM",
+              "title": "Getting ready for the investment talks",
+              "speaker": "Petar Atanasovski",
+              "speakerImage": "petar.png",
+              "company": "Attic42",
+              "category": "Entrepreneurship",
+              "recording": "https://youtu.be/kQtyeKdhImQ"
+            },
+            {
+              "time": "1:30 PM",
+              "title": "Lunch break (40 min)",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "category": "",
+              "recording": ""
+            },
+            {
+              "time": "2:10 PM",
+              "title": "Anonymity in MACI",
+              "speaker": "Marija Mikic",
+              "speakerImage": "marija-mikic.png",
+              "company": "3327",
+              "category": "Zero Knowledge",
+              "recording": "https://youtu.be/CF9NxMSsg1E"
+            },
+            {
+              "time": "2:50 PM",
+              "title": "Fork, Spoon and Spaghetti",
+              "speaker": "Zeki",
+              "speakerImage": "zeki.png",
+              "company": "Arcadia Finance",
+              "category": "Dev Tooling",
+              "recording": "https://youtu.be/sBJOArvYYDA"
+            },
+            {
+              "time": "3:20 PM",
+              "title": "Coffee break (20 min)",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "recording": ""
+            },
+            {
+              "time": "3:40 PM",
+              "title": "Knowledge Assets and AI-based Search in Web3",
+              "speaker": "Branimir Rakic",
+              "speakerImage": "branimir-rakic.png",
+              "company": "OriginTrail",
+              "category": "Infrastructure and scaling",
+              "recording": "https://youtu.be/vYc-AbdnjMo"
+            },
+            {
+              "time": "4:20 PM",
+              "title": "Phygital: Bridging physical and blockchain world",
+              "speaker": "Irina Andelic (Grinkina)",
+              "speakerImage": "irina-andelic.png",
+              "company": "Varius Systems",
+              "category": "NFT",
+              "recording": "https://youtu.be/jOm96v7NQec"
+            },
+            {
+              "time": "5:00 PM",
+              "title": "Closing Day 2",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "category": "",
+              "recording": ""
+            }
+          ]
+        },
+        {
+          "day": "Day 3",
+          "date": "Sun, June 4",
+          "talks": [
+            {
+              "time": "9:00 AM",
+              "title": "GM + coffee",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "category": "",
+              "recording": ""
+            },
+            {
+              "time": "9:30 AM",
+              "title": "",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "category": "",
+              "recording": ""
+            },
+            {
+              "time": "10:10 AM",
+              "title": "How web3 changed open source",
+              "speaker": "Ivan Bjelajac",
+              "speakerImage": "ivan-bjelajac.png",
+              "company": "Attic42",
+              "category": "Public goods and community",
+              "recording": "https://youtu.be/0EWByUJngJ8"
+            },
+            {
+              "time": "10:50 AM",
+              "title": "NFTs as Web2 to Web3 bridge",
+              "speaker": "Danijel Gornjakovic",
+              "speakerImage": "danijel-gornjakovic.png",
+              "company": "Thales",
+              "category": "NFT",
+              "recording": "https://youtu.be/Xnb3o-mBMK4"
+            },
+            {
+              "time": "11:20 AM",
+              "title": "Coffee break (20 min)",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "recording": ""
+            },
+            {
+              "time": "11:40 AM",
+              "title": "Adoption of Slither for enhancing smart contracts security",
+              "speaker": "Nikita Kirillov",
+              "speakerImage": "nikita-kirilov.png",
+              "company": "Pessimistic Security",
+              "category": "Security",
+              "recording": "https://youtu.be/CU9JAqGY5h8"
+            },
+            {
+              "time": "12:20 PM",
+              "title": "Incentive Structures in Web3 Security",
+              "speaker": "Oliver Hörr",
+              "speakerImage": "",
+              "company": "Hats Finance",
+              "category": "Security",
+              "recording": "https://youtu.be/fRuavBQ4iAw"
+            },
+            {
+              "time": "1:00 PM",
+              "title": "The anatomy of a web3 application: A janitor’s dream",
+              "speaker": "Johannes Kern",
+              "speakerImage": "johannes-kern.png",
+              "company": "Nerif Network",
+              "category": "Dev Tooling",
+              "recording": "https://youtu.be/IjPsWtPRQLU"
+            },
+            {
+              "time": "1:30 PM",
+              "title": "Lunch break (40 min)",
+              "speaker": "",
+              "speakerImage": "",
+              "company": "",
+              "category": "",
+              "recording": ""
+            },
+            {
+              "time": "2:10 PM",
+              "title": "Solidity considered harmful",
+              "speaker": "Vukasin Gostovic",
+              "speakerImage": "vukasin-gostovic.png",
+              "company": "Rainshower",
+              "category": "Dev Tooling",
+              "recording": "https://youtu.be/XO_nbzvpcQY"
+            },
+            {
+              "time": "2:50 PM",
+              "title": "The art of re-marketing - data driven marketing for crypto",
+              "speaker": "Lejla Muratčauš Blagojević",
+              "speakerImage": "lejla.png",
+              "company": "Be in Crypto",
+              "category": "Public goods and community",
+              "recording": "https://youtu.be/PPK-ZcGuI0M"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
