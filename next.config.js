@@ -13,11 +13,6 @@ module.exports = {
         destination: 'https://neon-pick-d1c.notion.site/ETH-Belgrade-2024-Speaker-s-Kit-1e07d7cf775c41a89fa7f7f01f8255da',
         permanent: false,
       },
-      {
-        source: '/agenda',
-        destination: '/#agenda',
-        permanent: false,
-      },
     ];
   },
   webpack(config) {

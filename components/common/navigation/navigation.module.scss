@@ -2,7 +2,7 @@
 
 .wrapper {
   border-bottom: 1px solid var(--primary-blue);
-  background: var(--backgroung-color);
+  background: var(--background-color);
   width: 100%;
   //position: fixed;
   //  z-index: 10000;
@@ -62,7 +62,7 @@
     left: 0;
     right: 0;
     height: 100vh;
-    background: var(--backgroung-color);
+    background: var(--background-color);
   }
 }
 

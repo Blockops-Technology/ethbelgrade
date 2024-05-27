@@ -1,7 +1,7 @@
 @import "styles/breakpoints";
 
 .agenda {
-  padding: 120px 0;
+  padding: 50px 0;
 }
 
 .titleWrapper {
@@ -14,8 +14,11 @@
 }
 
 .title {
-  font-weight: 700;
-  font-size: 40px;
+  color: var(--primary-blue);
+  font-family: var(--anton);
+  font-weight: 400;
+  font-size: 194.16px;
+  line-height: 194.16px;
   text-transform: uppercase;
   margin: 0;
 
@@ -40,19 +43,23 @@
 }
 
 .agendaContainer {
-  max-width: 960px;
+  max-width: 1060px;
   margin: 0 auto;
+  overflow: auto;
+}
+
+.tabs {
+  min-width: 800px;
+  width: 100%;
+  position: relative;
 }
 
 .tablist {
   padding: 0;
   margin: 0;
-  //position: sticky;
-  top: 0;
-  z-index: 1;
 
   @include breakpoint(landscape) {
-    margin: 0 -40px;
+    text-align: center;
   }
 }
 
@@ -69,18 +76,17 @@
 .tabsContainer {
   display: flex;
   align-items: center;
-  background-color: var(--backgroung-color);
+  background-color: var(--background-color);
 }
 
 .tab {
   padding: 20px 30px;
   font-weight: 700;
   font-size: 30px;
-  border-left: 1px solid var(--primary-yellow);
-  border-top: 1px solid var(--primary-yellow);
-  border-bottom: 1px solid var(--primary-yellow);
+  border-left: 1px solid var(--primary-blue);
+  border-top: 1px solid var(--primary-blue);
+  border-bottom: 1px solid var(--primary-blue);
   flex-grow: 1;
-  text-align: center;
   text-transform: uppercase;
 
   &:hover {
@@ -92,7 +98,7 @@
   }
 
   &:nth-last-child(1) {
-    border-right: 1px solid var(--primary-yellow);
+    border-right: 1px solid var(--primary-blue);
   }
 
   &::marker {
@@ -123,8 +129,94 @@
 }
 
 .selectedTab {
-  background-color: var(--primary-yellow);
+  background-color: var(--primary-blue);
+}
+
+.selectedTab .tabName {
   color: black;
+}
+
+.tabName {
+  color: var(--primary-blue);
+}
+
+.timeTable {
+  margin-top: 20px;
+  display: grid;
+  align-items: stretch;
+  grid-template-columns: 105px repeat(4, minmax(120px, 1fr)); /* First column for time, rest for details */
+  @include breakpoint(big-tablet) {
+    grid-template-columns: 50px repeat(4, minmax(120px, 1fr));
+  }
+  grid-template-rows: auto repeat(18, minmax(130px, 1fr));
+  border-right: 1px solid var(--primary-blue);
+  border-bottom: 1px solid var(--primary-blue);
+}
+
+.details {
+  grid-row: span var(--duration);
+  grid-column: span var(--spaces);
+  border: 1px dashed var(--primary-blue);
+  border-width: 1px 0 0 1px;;
+  text-align: left;
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+
+  a:hover {
+    text-decoration: underline !important;
+  }
+}
+
+.talk {
+  background-color: var(--primary-blue);
+  color: var(--background-color);
+  flex: 1;
+  padding: 10px;
+  font-family: var(--space-grotesk);
+  font-size: 14.5px;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.talkType {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 10.88px;
+  line-height: 12px;
+  padding: 2px 4px;
+  background-color: var(--background-color);
+  color: white;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+
+.talkSpeaker {
+  display: block;
+  margin-top: 10px;
+}
+.talkCompany {
+  display: block;
+  margin-top: 10px;
+}
+
+.talkTitle {
+  display: block;
+  font-weight: bold;
+}
+
+.header {
+  border: 1px solid var(--primary-blue);
+  border-width: 1px 0 0 1px;;
+  color: var(--primary-blue);
+  text-align: center;
+  font-family: var(--anton);
+  font-size: 24px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: left;
+  padding: 32px 0px 32px 30px;
 }
 
 .dayWrapper {
@@ -170,33 +262,31 @@
   }
 }
 
-.talk {
-  border: 1.5px solid var(--primary-yellow);
-  display: flex;
-  align-items: center;
+// .talk {
+//   border: 1.5px solid var(--primary-yellow);
+//   display: flex;
+//   align-items: center;
 
-  @include breakpoint(big-mobile) {
-    display: block;
-  }
-}
+//   @include breakpoint(big-mobile) {
+//     display: block;
+//   }
+// }
 
 .time {
-  padding: 29px 33px;
-  width: 150px;
-  min-width: 150px;
+  border: 1px solid var(--primary-blue);
+  border-width: 1px 0 0 1px;;
+  color: var(--primary-blue);
+  font-family: var(--space-grotesk);
+  font-size: 12.47px;
+  padding: 20px 0px;
+  font-weight: 700;
   text-align: center;
 
-  @include breakpoint(landscape) {
-    padding: 29px 10px;
-    max-width: 120px;
-    min-width: 120px;
-  }
-
-  @include breakpoint(big-mobile) {
-    max-width: 100%;
-    padding: 10px 10px 0px;
-    text-align: left;
-  }
+  //position: sticky;
+  //top: 0;
+  //left: 0;
+  //z-index: 1;
+  //background-color: black;
 }
 
 .talkDetails {
@@ -209,66 +299,71 @@
   }
 }
 
-.talkTitle {
-  font-size: 24px;
-  margin: 0;
+// .talkTitle {
+//   font-size: 24px;
+//   margin: 0;
 
-  @include breakpoint(landscape) {
-    font-size: 18px;
-  }
+//   @include breakpoint(landscape) {
+//     font-size: 18px;
+//   }
+// }
+
+// .talkCategory {
+//   margin: 10px 0;
+//   padding: 10px 15px;
+//   background-color: white;
+//   color: black;
+//   display: inline-block;
+//   font-weight: 400;
+//   font-size: 12px;
+// }
+
+.talkCategorybreak {
+  background-color: #555;
 }
 
-.talkCategory {
-  margin: 10px 0;
-  padding: 10px 15px;
-  background-color: white;
-  color: black;
-  display: inline-block;
-  font-weight: 400;
-  font-size: 12px;
-}
-
-.talkCategoryZeroKnowledge {
+.talkCategorydefi {
   background-color: var(--primary-emerald);
 }
 
-.talkCategoryDeFi {
-  background-color: lightpink;
+.talkCategoryzk {
+  background-color: var(--primary-purple);
 }
 
-.talkCategoryNFT {
-  background-color: #fdf903;
+//.talkCategorynft {
+//  background-color: #fdf903;
+//}
+
+.talkCategoryinfrascaling,
+.talkCategorydepin {
+  background-color: var(--primary-yellow);
 }
 
-.talkCategoryInfrastructureandscaling {
-  background-color: lightgreen;
+.talkCategorypublicgoods,
+.talkCategorycommunity,
+.talkCategorydaosandgovernance {
+  background-color: var(--primary-pinkish);
 }
 
-.talkCategoryPublicgoodsandcommunity {
-  background-color: mediumpurple;
-}
-
-.talkCategoryDAOsandgovernance {
-  background-color: lightskyblue;
-}
-
-.talkCategorySecurity {
+.talkCategorysecurity {
   background-color: var(--primary-red);
 }
 
-.talkCategoryEntrepreneurship {
+.talkCategoryentrepreneurship,
+.talkCategoryproduct,
+.talkCategorymarketing {
   background-color: rebeccapurple;
 }
 
-.talkCategoryDevTooling {
+.talkCategorydevtooling {
   background-color: darkgrey;
 }
 
-.talkCategoryUX {
-  background-color: darkgreen;
+.talkCategoryux {
+  background-color: var(--primary-orange);
 }
 
-.talkCategoryRegulations {
+.talkCategoryregulations {
   background-color: dodgerblue;
 }
 
