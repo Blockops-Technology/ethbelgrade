@@ -88,7 +88,7 @@ timeSlots.push("17:00")
 
 const Agenda = () => (
   <div id="agenda" className={styles.agenda}>
-    <div className="container">
+    <div className="container no-padding">
       <div className={styles.titleWrapper}>
         <p className={styles.title}>Agenda</p>
       </div>
