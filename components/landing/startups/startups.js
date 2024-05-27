@@ -33,9 +33,9 @@ const Startups = () => (
           </div>
         </div>
         <div className={styles.ctaWrapper}>
-          <a href="https://forms.gle/2MUCURz3RHdPDtew5" target="_blank" rel="noopener noreferrer">
-            <Button className={styles.button} styleType="red">Apply</Button>
-          </a>
+          {/*<a href="https://forms.gle/2MUCURz3RHdPDtew5" target="_blank" rel="noopener noreferrer">*/}
+            <Button className={styles.button} styleType="red">Applications closed</Button>
+          {/*</a>*/}
         </div>
       </div>
 
