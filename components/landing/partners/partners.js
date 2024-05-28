@@ -107,6 +107,13 @@ const Partners = () => (
           </a>
         </div>
 
+        <p className={styles.tier}>Coffee sponsor</p>
+        <div className={styles.sponsorsList}>
+          <a href="https://venus.io/" target="_blank" rel="noreferrer noopener">
+            <img style={{maxHeight: 90}} src="/images/partners/venus-logo.svg" alt="Venus Protocol logo" />
+          </a>
+        </div>
+
         <p className={styles.tier}>Supported by</p>
         <div className={styles.sponsorsList}>
           <a href="https://blockops.technology/" target="_blank" rel="noreferrer noopener">
