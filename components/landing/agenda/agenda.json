@@ -38,7 +38,7 @@
         ],
         "10:00": [
           {
-            "category": "Public goods",
+            "category": "Public goods, DeFi",
             "title": "Opening keynote",
             "speaker": "Nenad Palinkasevic",
             "company": "DeFi Saver"
@@ -96,10 +96,10 @@
             "company": "Spark/MakerDAO"
           },
           {
-            "category": "Regulations",
-            "title": "How To: On-Chain AML Compliance",
-            "speaker": "Noah Jelich",
-            "company": ""
+            "category": "Infra/scaling",
+            "title": "How to scale EVM dApps on Solana",
+            "speaker": "Simeon Kotashki",
+            "company": "Neon EVM"
           },
           {
             "category": "ZK",
@@ -116,7 +116,7 @@
         ],
         "11:30": [
           {
-            "category": "Public goods",
+            "category": "Public goods, DeFi",
             "title": "Privacy is not a crime, centralization is. Build self-sovereign apps you dummy!",
             "speaker": "Lefteris Karapetsas",
             "company": "rotki"
@@ -255,7 +255,7 @@
           {
             "category": "DePIN",
             "title": "Making DePIN Work for Developers of Web3 Consumer applications.",
-            "speaker": "Ben Biedermann (benedictvs)",
+            "speaker": "Ben Biedermann",
             "company": "Raid Guild PORTERS"
           },
           {
@@ -287,7 +287,7 @@
           {
             "category": "Infra/scaling, Dev tooling",
             "title": "Diving into Meta-Transactions",
-            "speaker": "TBA Mantle",
+            "speaker": "John Nguyen",
             "company": "Mantle"
           }
         ],
@@ -308,8 +308,8 @@
         ],
         "16:00": [
           {
-            "category": "",
-            "title": "TBA",
+            "category": "Dev tooling",
+            "title": "Breaking the Code: Ethdebug for Smart Contract Debugging",
             "speaker": "Nebojša Urošević",
             "company": "Tenderly"
           },
@@ -526,10 +526,10 @@
             "company": "Chronicle Labs/MakerDAO"
           },
           {
-            "category": "Security, UX",
-            "title": "Better UX == Better Security",
-            "speaker": "Jan Zibelnik",
-            "company": "Lossless.io"
+            "category": "",
+            "title": "Unleash The Graph's data",
+            "speaker": "Simon Emanuel Schmid",
+            "company": "The Graph"
           },
           {
             "category": "Regulations",
@@ -617,7 +617,7 @@
           },
           {
             "category": "",
-            "title": "Virtual TestNets Workshop",
+            "title": "Build, Stage, Deploy: Continuous Integration in Web3",
             "speaker": "Nenad Vitorovic",
             "company": "Tenderly",
             "slots": 2
@@ -657,9 +657,9 @@
             "company": ""
           },
           {
-            "category": "DAOs and governance",
-            "title": "Is contributor group design flawed?",
-            "speaker": "Rotorless",
+            "category": "Regulations",
+            "title": "How To: On-Chain AML Compliance",
+            "speaker": "Noah Jelich",
             "company": ""
           },
           {
@@ -842,22 +842,22 @@
         ],
         "10:00" : [
           {
-            "category": "",
-            "title": "TBA",
+            "category": "Infra/scaling",
+            "title": "Pushing Blockchain Limits with Hardware Accelerated Provable Computation",
             "speaker": "John Lilic",
             "company": ""
           },
           {
             "category": "Security",
             "title": "Not Priced In: Security Footguns of Price Data",
-            "speaker": "Engin33r",
+            "speaker": "engn33r",
             "company": "yAudit"
           },
           {
-            "category": "Infra/scaling",
-            "title": "How to scale EVM dApps on Solana",
-            "speaker": "Simeon Kotashki",
-            "company": "Neon EVM"
+            "category": "DAOs and governance",
+            "title": "Is contributor group design flawed?",
+            "speaker": "Rotorless",
+            "company": ""
           },
           {
             "category": "",
@@ -882,7 +882,7 @@
           {
             "category": "Infra/scaling, Dev tooling",
             "title": "MetaMask Snaps and permissionless innovation strategies",
-            "speaker": "Francesco",
+            "speaker": "Francesco Andreoli",
             "company": "MetaMask"
           },
           {
@@ -989,9 +989,9 @@
             "company": "Immunefi"
           },
           {
-            "category": "",
-            "title": "TBA Telos",
-            "speaker": "TBA",
+            "category": "Infra/scaling",
+            "title": "A Decentralized Protocol for Scaling SNARKs Verification in Blockchains",
+            "speaker": "Alberto Garoffolo",
             "company": "Telos"
           },
           {
@@ -1005,8 +1005,8 @@
           {
             "category": "DAOs and governance",
             "title": "Crypto points: Identity, incentives and you",
-            "speaker": "TBA LiFi",
-            "company": "Li.Fi"
+            "speaker": "Marko Jurina",
+            "company": "Jumper.exchange"
           },
           {
             "category": "Security",
@@ -1029,10 +1029,10 @@
         ],
         "14:00" : [
           {
-            "category": "",
-            "title": "Unleash The Graph's data",
-            "speaker": "Simon Emanuel Schmid",
-            "company": "The Graph"
+            "category": "Infra/scaling",
+            "title": "Ethereum in next two years: Prague & Osaka hardforks",
+            "speaker": "Dragan Rakita",
+            "company": "Paradigm"
           },
           {
             "category": "Security",
@@ -1041,10 +1041,10 @@
             "company": "Trail of Bits"
           },
           {
-            "category": "Infra/scaling",
-            "title": "Ethereum in next two years: Prague & Osaka hardforks",
-            "speaker": "Dragan Rakita",
-            "company": "Paradigm"
+            "category": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
           },
           {
             "category": "",
@@ -1156,7 +1156,7 @@
         "16:30" : [
           {
             "category": "",
-            "title": "",
+            "title": "TBA",
             "speaker": "Jelena Djuric",
             "company": "Noble"
           },
