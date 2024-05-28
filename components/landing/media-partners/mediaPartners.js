@@ -46,6 +46,9 @@ const MediaPartners = () => (
           <a href="https://cointelegraph.com/" target="_blank" rel="noreferrer noopener">
             <img src="/images/media-partners/cointelegraph.svg" alt="Cointelegraph logo" />
           </a>
+          <a href="https://cryptoken.media/" target="_blank" rel="noreferrer noopener">
+            <img src="/images/media-partners/cryptoken-logo.png" alt="Cryptoken logo" />
+          </a>
           {/*<a href="https://itez.com/events" target="_blank" rel="noreferrer noopener">*/}
           {/*  <img src="/images/media-partners/itez-logo.png" alt="Itez logo" />*/}
           {/*</a>*/}
