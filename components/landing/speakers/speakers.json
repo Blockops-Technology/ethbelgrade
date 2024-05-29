@@ -22,13 +22,6 @@
       "category": "Core protocol and Infra"
     },
     {
-      "name": "Maja Vujinovic",
-      "twitter": "https://twitter.com/mvparadigm",
-      "position": "OGroup",
-      "photo": "maja-vujinovic.png",
-      "category": "Entrepreneurship"
-    },
-    {
       "name": "Simon Emanuel Schmid",
       "twitter": "https://twitter.com/schmid_si",
       "position": "The Graph",
@@ -95,13 +88,6 @@
       "twitter": "https://twitter.com/liquid4teur",
       "position": "Ledger",
       "photo": "akram.png",
-      "category": "Dev Tooling"
-    },
-    {
-      "name": "Bogdan Habic",
-      "twitter": "https://twitter.com/BogdanHabic",
-      "position": "Tenderly",
-      "photo": "bogdan-habic.png",
       "category": "Dev Tooling"
     },
     {
@@ -187,13 +173,6 @@
       "position": "Neon EVM",
       "photo": "simeon-kotashki.png",
       "category": "Core protocol and Infra"
-    },
-    {
-      "name": "Oliver Hörr",
-      "twitter": "https://twitter.com/0xAngler",
-      "position": "Hats Finance",
-      "photo": "oliver-horr.png",
-      "category": "Security"
     },
     {
       "name": "Jelena Djuric",
@@ -427,7 +406,7 @@
       "category": "NFT"
     },
     {
-      "name": "Simone Engel",
+      "name": "Simon Engel",
       "twitter": "https://twitter.com/Engel_Simon",
       "position": "SAP",
       "photo": "simon-engel.png",
@@ -540,21 +519,21 @@
     },
     {
       "name": "Aleksei Babenkov",
-      "twitter": "https://twitter.com/",
+      "twitter": "",
       "position": "",
       "photo": "aleksei-babenkov.png",
       "category": "DeFi"
     },
     {
-      "name": "Mirdul",
-      "twitter": "https://twitter.com/",
+      "name": "Mridul Garg",
+      "twitter": "",
       "position": "Ethereum Foundation",
       "photo": "mirdul.png",
       "category": "Zero Knowledge"
     },
     {
       "name": "Daniel Sobol",
-      "twitter": "https://twitter.com/",
+      "twitter": "",
       "position": "libportal.net",
       "photo": "daniel-sobol.png",
       "category": "Core protocol and Infra"
@@ -582,7 +561,7 @@
     },
     {
       "name": "Özgür Armanc Yiğit",
-      "twitter": "https://twitter.com/",
+      "twitter": "",
       "position": "Ethereum Foundation",
       "photo": "armanc.png",
       "category": "Zero Knowledge"
@@ -666,7 +645,7 @@
     },
     {
       "name": "Pavle Krivokuca",
-      "twitter": "https://twitter.com/",
+      "twitter": "",
       "position": "Fireblocks",
       "photo": "pavle-krivokuca.png",
       "category": "Security"
@@ -680,10 +659,115 @@
     },
     {
       "name": "Kimberly Rowland",
-      "twitter": "https://twitter.com/",
+      "twitter": "",
       "position": "Blockchain Balancers",
       "photo": "kimberly-rowland.png",
       "category": "Regulations"
+    },
+    {
+      "name": "0xmikko",
+      "twitter": "https://twitter.com/0xmikko_eth",
+      "position": "Gearbox Protocol",
+      "photo": "0xmikko.png",
+      "category": "DeFi"
+    },
+    {
+      "name": "Claire Kart",
+      "twitter": "https://twitter.com/clairekart",
+      "position": "RISC Zero",
+      "photo": "claire-kart.png",
+      "category": "Marketing"
+    },
+    {
+      "name": "Sam Richards",
+      "twitter": "https://twitter.com/samonchain",
+      "position": "Ethereum Foundation",
+      "photo": "sam-richards.png",
+      "category": "Public goods"
+    },
+    {
+      "name": "Noah Jelich",
+      "twitter": "https://twitter.com/NoahJelich",
+      "position": "",
+      "photo": "noah-jelich.png",
+      "category": "Regulations"
+    },
+    {
+      "name": "Marko Jurina",
+      "twitter": "https://twitter.com/zord4n",
+      "position": "Jumper.exchange",
+      "photo": "zordan.png",
+      "category": "Regulations"
+    },
+    {
+      "name": "Swapnil Raj",
+      "twitter": "https://twitter.com/swp0x0",
+      "position": "Nethermind",
+      "photo": "swapnil-raj.png",
+      "category": "Regulations"
+    },
+    {
+      "name": "Kirill Fedoseev",
+      "twitter": "https://x.com/k1rill_fedoseev",
+      "position": "Blockscout",
+      "photo": "kiril.png",
+      "category": ""
+    },
+    {
+      "name": "Nebojša Urošević",
+      "twitter": "",
+      "position": "Tenderly",
+      "photo": "nebojsa.png",
+      "category": ""
+    },
+    {
+      "name": "Timo Lehes",
+      "twitter": "https://twitter.com/timolehes",
+      "position": "Swarm",
+      "photo": "timo-lehes.png",
+      "category": ""
+    },
+    {
+      "name": "Nenad Vitorovic",
+      "twitter": "https://twitter.com/nenadvitt",
+      "position": "Tenderly",
+      "photo": "nenad-vitorovic.png",
+      "category": ""
+    },
+    {
+      "name": "Aleksandar Matanović",
+      "twitter": "",
+      "position": "ECD",
+      "photo": "aleksandar-matanovic.png",
+      "category": ""
+    },
+    {
+      "name": "Morana Vukić Perak",
+      "twitter": "",
+      "position": "Electrocoin",
+      "photo": "morana.png",
+      "category": ""
+    },
+    {
+      "name": "Nemanja Nedic",
+      "twitter": "https://twitter.com/NemanjaNedic_",
+      "position": "Ethernal",
+      "photo": "nemanja-nedic.png",
+      "category": ""
+    },
+    {
+      "name": "Emilija Vuković",
+      "twitter": "",
+      "position": "Agile Dynamics Tech",
+      "photo": "emilija-vukovic.png",
+      "category": ""
+    },
+    {
+      "name": "Alberto Garoffolo",
+      "twitter": "",
+      "position": "Telos",
+      "photo": "alberto.png",
+      "category": ""
     }
   ]
 }

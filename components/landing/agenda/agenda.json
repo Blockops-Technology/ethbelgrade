@@ -326,7 +326,7 @@
             "company": "OXORIO"
           },
           {
-            "category": "Dev Tooling",
+            "category": "Dev tooling",
             "title": "Processing of historic and current blockchain data",
             "speaker": "Jason Smythe",
             "company": "Envio"
@@ -348,7 +348,7 @@
           {
             "category": "ZK",
             "title": "Tips for secure Circom circuits",
-            "speaker": "Mridul",
+            "speaker": "Mridul Garg",
             "company": ""
           },
           {
@@ -460,10 +460,11 @@
             "company": "itez.com"
           },
           {
-            "category": "",
-            "title": "",
+            "category": "Startups",
+            "title": "ETH Belgrade Ventures program",
             "speaker": "",
-            "company": ""
+            "company": "",
+            "slots": 4
           }
         ],
         "10:30" : [
@@ -484,12 +485,6 @@
             "title": "Navigating Privacy in Crypto: Current Challenges and (Future) Solutions",
             "speaker": "Vyara Savova",
             "company": "EUCI"
-          },
-          {
-            "category": "",
-            "title": "",
-            "speaker": "",
-            "company": ""
           }
         ],
         "11:00" : [
@@ -510,12 +505,6 @@
             "title": "Building Bridges: Harmonising Security and Compliance in Digital Asset Infrastructure",
             "speaker": "Pavle Krivokuca",
             "company": "Fireblocks"
-          },
-          {
-            "category": "",
-            "title": "",
-            "speaker": "",
-            "company": ""
           }
         ],
         "11:30" : [
@@ -526,7 +515,7 @@
             "company": "Chronicle Labs/MakerDAO"
           },
           {
-            "category": "",
+            "category": "Infra/scaling, Dev tooling",
             "title": "Unleash The Graph's data",
             "speaker": "Simon Emanuel Schmid",
             "company": "The Graph"
@@ -536,12 +525,6 @@
             "title": "A Law Enforcement Approach To Digital Assets",
             "speaker": "Michael Halepas",
             "company": "BlockAML"
-          },
-          {
-            "category": "",
-            "title": "",
-            "speaker": "",
-            "company": ""
           }
         ],
         "12:00" : [
@@ -900,10 +883,10 @@
             "company": "Lido"
           },
           {
-            "category": "Security",
-            "title": "New Security Approaches for Account Abstraction and Composability",
-            "speaker": "Oliver Hörr",
-            "company": "Hats Finance (DAO)"
+            "category": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
           },
           {
             "category": "Infra/scaling, Dev tooling",
@@ -1041,10 +1024,10 @@
             "company": "Trail of Bits"
           },
           {
-            "category": "",
-            "title": "",
-            "speaker": "",
-            "company": ""
+            "category": "Infra/scaling",
+            "title": "TBA",
+            "speaker": "TBA",
+            "company": "Polkadot"
           },
           {
             "category": "",
