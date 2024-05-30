@@ -6,13 +6,14 @@ import {
   SPONSOR_APPLICATION_FORM_URL,
   TICKETING_PLATFORM_URL
 } from "../../../constants";
+import Link from "next/link";
 
 const Hero = () => (
   <div className={styles.hero}>
     <div className={`${styles.relative} container`}>
       <div className={styles.heroContent}>
         <p className={styles.title}>MOST WELCOMING CONFERENCE</p>
-        <p className={styles.dates}>3 - 5 June, 2024</p>
+        <p className={styles.dates}>3 - 5 June, 2024 @ <Link href="https://maps.app.goo.gl/9WFMcjzrtVeYy9Za6" target="_blank" rel="noreferrer noopener">MTS Dvorana</Link></p>
         <div className={styles.subtitle}>
           <p>ETH event in the heart of the Balkans.</p>
           <p>Part of Belgrade Blockchain Week.</p>
