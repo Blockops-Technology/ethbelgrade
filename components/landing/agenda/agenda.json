@@ -274,9 +274,9 @@
           },
           {
             "category": "Infra/scaling",
-            "title": "Disrupting the Cloud with dePIN",
-            "speaker": "Vukasin Vukoje",
-            "company": "web3mine"
+            "title": "Evolution of Ethereum Infrastructure",
+            "speaker": "Sahil Sen",
+            "company": ""
           },
           {
             "category": "ZK",
@@ -293,11 +293,17 @@
         ],
         "15:30": [
           {
+            "category": "Infra/scaling",
+            "title": "Disrupting the Cloud with dePIN",
+            "speaker": "Vukasin Vukoje",
+            "company": "web3mine"
+          },
+          {
             "category": "Break",
             "title": "Coffee break",
             "speaker": "",
             "company": "",
-            "spaces": 3
+            "spaces": 2
           },
           {
             "category": "",
@@ -366,9 +372,9 @@
             "company": "ETHAccra & SheFi"
           },
           {
-            "category": "Infra/scaling",
-            "title": "Evolution of Ethereum Infrastructure",
-            "speaker": "Sahil Sen",
+            "category": "",
+            "title": "",
+            "speaker": "",
             "company": ""
           },
           {
@@ -883,10 +889,10 @@
             "company": "Lido"
           },
           {
-            "category": "",
-            "title": "",
-            "speaker": "",
-            "company": ""
+            "category": "Security, DeFi",
+            "title": "Resilient oracles: enhancing economic security with multiple price feeds",
+            "speaker": "Brad Harrison",
+            "company": "Venus Protocol"
           },
           {
             "category": "Infra/scaling, Dev tooling",
