@@ -186,7 +186,7 @@
           },
           {
             "category": "ZK",
-            "title": "STEEL: Ethereum View Calls on the RISC Zero zkCoprocessor",
+            "title": "Proofs of STEEL: View Calls using RISC Zero",
             "speaker": "Rami Khalil",
             "company": "RISC Zero"
           },
@@ -897,7 +897,7 @@
           {
             "category": "Infra/scaling, Dev tooling",
             "title": "The evolution of blockchain explorers to meet the diverse needs of web3 users.",
-            "speaker": "Igor Barinov",
+            "speaker": "Nikita Savik",
             "company": "Blockscout"
           },
           {
