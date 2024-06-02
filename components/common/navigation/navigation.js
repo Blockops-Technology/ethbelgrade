@@ -11,10 +11,10 @@ import Button from "../button/button";
 import { TICKETING_PLATFORM_URL } from "../../../constants";
 import Banner from "../banner/banner";
 
-const MainMenu = () => (
+const MainMenu = ({ setOpenMobileMenu = () => {} }) => (
   <>
     <Menu>
-      <div className={styles.menuLinks}>
+      <div className={styles.menuLinks} onClick={() => setOpenMobileMenu(false)}>
         <Link href="/">
           <span className={styles.menuItem}>Conference</span>
         </Link>
@@ -30,7 +30,7 @@ const MainMenu = () => (
         <Link href="/community">
           <span className={styles.menuItem}>Community</span>
         </Link>
-        <div className={styles.dropdownWrapper}>
+        <div className={styles.dropdownWrapper} onClick={(e) => e.stopPropagation()}>
           <Menu.Button className={styles.menuItem}>Past Events </Menu.Button>
           <Menu.Items className={styles.dropdown}>
             <Menu.Item>
@@ -93,7 +93,7 @@ const Navigation = () => {
                 <div className={styles.closeIconWrapper}>
                   <CloseIcon className={styles.closeIcon} onClick={toggleMobileMenu} />
                 </div>
-                <MainMenu />
+                <MainMenu setOpenMobileMenu={setOpenMobileMenu} />
               </div>
             ) :
               <></>
