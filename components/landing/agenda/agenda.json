@@ -39,7 +39,7 @@
         "10:00": [
           {
             "category": "Public goods, DeFi",
-            "title": "Opening keynote",
+            "title": "Failing successfully: Crypto’s complicated story",
             "speaker": "Nenad Palinkasevic",
             "company": "DeFi Saver"
           },
@@ -1025,7 +1025,7 @@
           },
           {
             "category": "Security",
-            "title": "TBA",
+            "title": "Introduction to fuzzing",
             "speaker": "Josselin Feist",
             "company": "Trail of Bits"
           },

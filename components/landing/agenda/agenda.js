@@ -113,10 +113,22 @@ const Agenda = () => (
               <TabPanel key={i}>
                 <div className={styles.timeTable}>
                   <div></div>
-                  <div className={styles.header}>Stage 1</div>
-                  <div className={styles.header}>Stage 2</div>
-                  <div className={styles.header}>Stage 3</div>
-                  <div className={styles.header}>Workshop</div>
+                  <div className={styles.header}>
+                    <h3>Avala <span>[âv̞ala]</span></h3>
+                    <h4>Hall 1</h4>
+                  </div>
+                  <div className={styles.header}>
+                    <h3>Beograd <span>[beǒɡrad]</span></h3>
+                    <h4>Hall 6</h4>
+                  </div>
+                  <div className={styles.header}>
+                    <h3>Cer <span>[tsɛr]</span></h3>
+                    <h4>Hall 2</h4>
+                  </div>
+                  <div className={styles.header}>
+                    <h3>Dunav <span>[dǔnaʋ]</span></h3>
+                    <h4>Hall 3</h4>
+                  </div>
                   {timeSlots.map((time, index) => (
                     <TimeSlot key={time} programe={day.programe[time]} time={time} index={index} start={1} duration={1} />
                   ))}
