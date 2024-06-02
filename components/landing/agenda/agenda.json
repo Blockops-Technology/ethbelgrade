@@ -327,9 +327,9 @@
           },
           {
             "category": "ZK",
-            "title": "Developers guide to ZK Security: from Bugs to Fixes",
-            "speaker": "Petr Korolev",
-            "company": "OXORIO"
+            "title": "Zero Knowledge proofs on Mina, zkPassport and SoulBound NFTs",
+            "speaker": "Pavel Fedotov",
+            "company": "PinSave"
           },
           {
             "category": "Dev tooling",
@@ -353,9 +353,9 @@
           },
           {
             "category": "ZK",
-            "title": "Tips for secure Circom circuits",
-            "speaker": "Mridul Garg",
-            "company": ""
+            "title": "Developers guide to ZK Security: from Bugs to Fixes",
+            "speaker": "Petr Korolev",
+            "company": "OXORIO"
           },
           {
             "category": "",
@@ -378,10 +378,10 @@
             "company": ""
           },
           {
-            "category": "ZK",
-            "title": "Zero Knowledge proofs on Mina, zkPassport and SoulBound NFTs",
-            "speaker": "Pavel Fedotov",
-            "company": "PinSave"
+            "category": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
           },
           {
             "category": "",
@@ -668,16 +668,16 @@
             "slots": 2
           },
           {
-            "category": "Regulations",
-            "title": "TBA",
-            "speaker": "Aleksandar Matanović, Morana Vukić Perak",
-            "company": "ECD & Electrocoin"
-          },
-          {
             "category": "Entrepreneurship",
             "title": "Cracking the code: navigating tokenomics for successful fundraising",
             "speaker": "Konstantin Molodykh",
             "company": "Mezen.io"
+          },
+          {
+            "category": "Regulations",
+            "title": "TBA",
+            "speaker": "Aleksandar Matanović, Morana Vukić Perak",
+            "company": "ECD & Electrocoin"
           }
         ],
         "15:30" : [
@@ -710,9 +710,9 @@
           },
           {
             "category": "DeFi",
-            "title": "Risk Management and Economic Security in DeFi",
-            "speaker": "Abhimanyu Nag",
-            "company": "Yes, ChainRisk"
+            "title": "I'll Share Some Alpha: No, [INSERT TOKEN TICKER] is not Beta on ETH",
+            "speaker": "Denis Vuckovac",
+            "company": "very early Ventures"
           },
           {
             "category": "",
@@ -735,10 +735,10 @@
             "company": ""
           },
           {
-            "category": "DeFi",
-            "title": "I'll Share Some Alpha: No, [INSERT TOKEN TICKER] is not Beta on ETH",
-            "speaker": "Denis Vuckovac",
-            "company": "very early Ventures"
+            "category": "Regulations",
+            "title": "FDI powered by blockchain",
+            "speaker": "Emilija Vuković",
+            "company": "Agile Dynamics Tech"
           },
           {
             "category": "",
@@ -761,10 +761,10 @@
             "company": ""
           },
           {
-            "category": "Regulations",
-            "title": "FDI powered by blockchain",
-            "speaker": "Emilija Vuković",
-            "company": "Agile Dynamics Tech"
+            "category": "",
+            "title": "",
+            "speaker": "",
+            "company": ""
           },
           {
             "category": "",
@@ -1171,7 +1171,7 @@
         "17:00" : [
           {
             "category": "",
-            "title": "",
+            "title": "Closing Ceremony & Thank-yous",
             "speaker": "",
             "company": ""
           },

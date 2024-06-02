@@ -316,13 +316,6 @@
       "category": "DAOs and governance"
     },
     {
-      "name": "Abhimanyu Nag",
-      "twitter": "https://twitter.com/AbhiMan1601",
-      "position": "ChainRisk",
-      "photo": "abhimanyu-nag.png",
-      "category": "Security"
-    },
-    {
       "name": "Jakub Jaworski",
       "twitter": "https://twitter.com/0xjvrsky",
       "position": "RedStone",
@@ -531,13 +524,6 @@
       "position": "",
       "photo": "aleksei-babenkov.png",
       "category": "DeFi"
-    },
-    {
-      "name": "Mridul Garg",
-      "twitter": "",
-      "position": "Ethereum Foundation",
-      "photo": "mirdul.png",
-      "category": "Zero Knowledge"
     },
     {
       "name": "Daniel Sobol",
