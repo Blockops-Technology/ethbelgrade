@@ -12,15 +12,16 @@ speakers.list.forEach(element => {
 });
 
 const SpeakerList = (props) => {
-  return props.name.split(",").map((name, i) => {
-    const handle = twitter.get(name.trim());
-    const comma = i > 0 ? ", " : "";
-    if (handle) {
-      return <>{comma}<Link href={`${handle}`} target="_blank" rel="noreferrer noopener">{name}</Link></>;
-    } else {
-      return <>{comma}{name}</>;
-    }
-  });
+  return props.name
+    .split(",").map((name, i) => {
+      const handle = twitter.get(name.replace('moderated by', '').replace(/\(.+\)/, '').trim());
+      const comma = i > 0 ? ", " : "";
+      if (handle) {
+        return <>{comma}<Link href={`${handle}`} target="_blank" rel="noreferrer noopener">{name}</Link></>;
+      } else {
+        return <>{comma}{name}</>;
+      }
+    });
 }
 
 function Detail({item}) {

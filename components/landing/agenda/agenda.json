@@ -200,8 +200,8 @@
         "13:30": [
           {
             "category": "DeFi, Panel",
-            "title": "DeFi Panel",
-            "speaker": "",
+            "title": "Enabling DeFi to be more",
+            "speaker": "James Corbett (Superchain), Mariia Yatskovska (CoW DAO), TokenBrice (The DeFi Collective), Daniela Zschaber (Blockful & Chainlink Advocate), moderated by Nicky Chalabi (Telos)",
             "company": "",
             "slots": 2
           },
@@ -261,7 +261,7 @@
           {
             "category": "Infra/scaling",
             "title": "\"Optimistic\" Outlook: Pioneering On-Chain AI",
-            "speaker": "Cathie",
+            "speaker": "Cathie So",
             "company": "ORA (ex Hyper Oracle)"
           }
         ],
@@ -451,7 +451,7 @@
             "category": "DeFi, DAOs and governance",
             "title": "Becoming an External Solver & Contributing to DAO Grants",
             "speaker": "Mariia Yatskovska",
-            "company": "CoW Dao (CoW Swap)"
+            "company": "CoW DAO (CoW Swap)"
           },
           {
             "category": "Product",
@@ -661,9 +661,9 @@
         ],
         "15:00" : [
           {
-            "category": "Panel, Infra/scaling",
+            "category": "Infra/scaling, Panel",
             "title": "What the F**k to do now that we will have thousands of rollups?",
-            "speaker": "",
+            "speaker": "Bogdan Habic (Tenderly), Sahil Sen (Quicknode), Nikita Savik (Blockscout), Francesco Andreoli (Metamask), moderated by Hubert Kotliński (L2BEAT)",
             "company": "",
             "slots": 2
           },
@@ -986,7 +986,7 @@
           {
             "category": "Dev tooling",
             "title": "There is no undefined, I own you, writing high performance Rust",
-            "speaker": "Vukasin Gostovic/makemake",
+            "speaker": "Vukasin Gostovic / makemake",
             "company": ""
           }
         ],
@@ -1076,7 +1076,7 @@
             "company": "Chainlink"
           },
           {
-            "category": "Panel",
+            "category": "Security, Panel",
             "title": "Security panel",
             "speaker": "",
             "company": "",
