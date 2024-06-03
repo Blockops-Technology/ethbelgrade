@@ -17,9 +17,10 @@ const Banner = () => {
       <div className="container">
         <div className={styles.content}>
           <div className={styles.textWrapper}>
-            <p className={styles.text}>ETH Belgrade starts in</p>
+            <p className={styles.text}>Welcome to ETH Belgrade</p>
+            {/*<p className={styles.text}>ETH Belgrade starts in</p>*/}
             {/*<p className={styles.text}>Ticket sale (30% off) available for</p>*/}
-            <p className={styles.time}>{days} days  {hours} hours  {minutes} minutes {seconds} seconds</p>
+            {/*<p className={styles.time}>{days} days  {hours} hours  {minutes} minutes {seconds} seconds</p>*/}
           </div>
         </div>
       </div>
