@@ -945,7 +945,13 @@
             "title": "Lunch",
             "speaker": "",
             "company": "",
-            "spaces": 2,
+            "slots": 3
+          },
+          {
+            "category": "Break",
+            "title": "Lunch",
+            "speaker": "",
+            "company": "",
             "slots": 2
           },
           {
@@ -971,12 +977,6 @@
           }
         ],
         "13:00" : [
-          {
-            "category": "Security",
-            "title": "Bug bounties - your Protocol's last line of defence",
-            "speaker": "gmhacker / Gonçalo Magalhães",
-            "company": "Immunefi"
-          },
           {
             "category": "Infra/scaling",
             "title": "Scaling Up Without Breaking the Bank: Polkadot's Secret Weapon",
