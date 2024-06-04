@@ -843,9 +843,9 @@
             "company": "yAudit"
           },
           {
-            "category": "DAOs and governance",
-            "title": "Is contributor group design flawed?",
-            "speaker": "Rotorless",
+            "category": "",
+            "title": "",
+            "speaker": "",
             "company": ""
           },
           {
@@ -979,9 +979,9 @@
           },
           {
             "category": "Infra/scaling",
-            "title": "A Decentralized Protocol for Scaling SNARKs Verification in Blockchains",
-            "speaker": "Alberto Garoffolo",
-            "company": "Telos"
+            "title": "Scaling Up Without Breaking the Bank: Polkadot's Secret Weapon",
+            "speaker": "Nikola Mandic",
+            "company": "Polkadot"
           },
           {
             "category": "Dev tooling",
@@ -1031,9 +1031,9 @@
           },
           {
             "category": "Infra/scaling",
-            "title": "Scaling Up Without Breaking the Bank: Polkadot's Secret Weapon",
-            "speaker": "Aleksandar Dimitrijevic",
-            "company": "Polkadot"
+            "title": "A Decentralized Protocol for Scaling SNARKs Verification in Blockchains",
+            "speaker": "Alberto Garoffolo",
+            "company": "Telos"
           },
           {
             "category": "",
@@ -1078,7 +1078,7 @@
           {
             "category": "Security, Panel",
             "title": "Security panel",
-            "speaker": "",
+            "speaker": "Pietro Carta (ChainSecurity), Brad Harrison (Venus Protocol), Brenda Loya (Tellor), Bogdan Habic (Tenderly), moderated by Emilie Raffo (ChainSecurity)",
             "company": "",
             "slots": 2
           },
@@ -1103,11 +1103,10 @@
             "company": ""
           },
           {
-            "category": "Break",
-            "title": "Coffee break",
-            "speaker": "",
-            "company": "",
-            "spaces": 1
+            "category": "DAOs and governance",
+            "title": "Is contributor group design flawed?",
+            "speaker": "Rotorless",
+            "company": ""
           },
           {
             "category": "",
