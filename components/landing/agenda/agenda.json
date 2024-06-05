@@ -978,8 +978,8 @@
         ],
         "13:00" : [
           {
-            "category": "Infra/scaling",
-            "title": "Scaling Up Without Breaking the Bank: Polkadot's Secret Weapon",
+            "category": "Break",
+            "title": "RESCHEDULED FOR 16:00 - Scaling Up Without Breaking the Bank: Polkadot's Secret Weapon",
             "speaker": "Nikola Mandic",
             "company": "Polkadot"
           },
@@ -1135,10 +1135,10 @@
             "company": "Redstone"
           },
           {
-            "category": "",
-            "title": "",
-            "speaker": "",
-            "company": ""
+            "category": "Infra/scaling",
+            "title": "Scaling Up Without Breaking the Bank: Polkadot's Secret Weapon",
+            "speaker": "Nikola Mandic",
+            "company": "Polkadot"
           }
         ],
         "16:30" : [
