@@ -106,7 +106,7 @@
             "title": "Building collaborative lending infrastructure",
             "speaker": "Tadeo",
             "company": "",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=ms-5iTsCroI"
           },
           {
             "category": "Infra/scaling",
@@ -136,7 +136,7 @@
             "title": "Privacy is not a crime, centralization is. Build self-sovereign apps you dummy!",
             "speaker": "Lefteris Karapetsas",
             "company": "rotki",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=Cx8MDduFxlI"
           },
           {
             "category": "Infra/scaling",
@@ -150,7 +150,7 @@
             "title": "Scaling Ethereum with Proof Verification Preconfirmations",
             "speaker": "Swapnil Raj",
             "company": "Nethermind",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=zntb24DpH90"
           },
           {
             "category": "",
@@ -166,7 +166,7 @@
             "title": "Scaling composable DEFI protocol to 400M from dev side",
             "speaker": "0xmikko",
             "company": "Gearbox Protocol",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=F7IMlGl7o28"
           },
           {
             "category": "Break",
@@ -215,7 +215,7 @@
             "title": "Proofs of STEEL: View Calls using RISC Zero",
             "speaker": "Rami Khalil",
             "company": "RISC Zero",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=KBUjeFv5H2w"
           },
           {
             "category": "",
@@ -231,7 +231,7 @@
             "title": "Enabling DeFi to be more",
             "speaker": "James Corbett (Superchain), Mariia Yatskovska (CoW DAO), TokenBrice (The DeFi Collective), Daniela Zschaber (Blockful & Chainlink Advocate), moderated by Nicky Chalabi (Telos)",
             "company": "",
-            "youtube": "",
+            "youtube": "https://www.youtube.com/watch?v=T0nVePr-CCo",
             "slots": 2
           },
           {
@@ -286,7 +286,7 @@
             "title": "Navigating the Complexities of Restaking in Web3: Risks, Impacts, and Mitigation Strategies",
             "speaker": "Marijo Radman",
             "company": "Alterscope",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=645IQmMVCsk"
           },
           {
             "category": "DePIN",
@@ -309,7 +309,7 @@
             "title": "Economics and Evolution of the Ethereum Staking Landscape",
             "speaker": "adcv",
             "company": "Steakhouse/Lido",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=AtL9O0y4S6o"
           },
           {
             "category": "Infra/scaling",
@@ -339,7 +339,7 @@
             "title": "Disrupting the Cloud with dePIN",
             "speaker": "Vukasin Vukoje",
             "company": "web3mine",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=hvnbrvXNZ9w"
           },
           {
             "category": "Break",
@@ -363,7 +363,7 @@
             "title": "Breaking the Code: Ethdebug for Smart Contract Debugging",
             "speaker": "Nebojša Urošević",
             "company": "Tenderly",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=FG6ww2jbnWw"
           },
           {
             "category": "Infra/scaling",
@@ -393,7 +393,7 @@
             "title": "A eulogy to Frankensteins tech stack",
             "speaker": "James Corbett",
             "company": "Superchain",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=cHYOMPSfkFs"
           },
           {
             "category": "Public goods, DAOs and governance",
@@ -423,7 +423,7 @@
             "title": "Designing Culture-Sensitive Hackathons for Empowering African Youth with Ethereum",
             "speaker": "Abena Asante",
             "company": "ETHAccra & SheFi",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=lc3JDR8O3ho"
           },
           {
             "category": "",
@@ -516,7 +516,7 @@
             "title": "Becoming an External Solver & Contributing to DAO Grants",
             "speaker": "Mariia Yatskovska",
             "company": "CoW DAO (CoW Swap)",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=pm1roYdh9zQ"
           },
           {
             "category": "Product",
@@ -570,7 +570,7 @@
             "title": "Living only from crypto assets",
             "speaker": "Bojan",
             "company": "Liquity",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=N2UkZxI-2DQ"
           },
           {
             "category": "DeFi, UX",
@@ -593,7 +593,7 @@
             "title": "Are RWAs the answer to the DeFi boom-bust cycle?",
             "speaker": "Niklas Kunkel",
             "company": "Chronicle Labs/MakerDAO",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=wsZFX70eLoU"
           },
           {
             "category": "Infra/scaling, Dev tooling",
@@ -616,7 +616,7 @@
             "title": "Tokenized RWAs - brave new world or unnecessary fad?",
             "speaker": "Timo Lehes",
             "company": "Swarm",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=JFHBPVtaHMU"
           },
           {
             "category": "Break",
@@ -682,7 +682,7 @@
             "title": "The Big Bang of Stable Currencies",
             "speaker": "James Glasscock",
             "company": "reserve protocol",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=CKXVtjT77dw"
           },
           {
             "category": "UX",
@@ -706,7 +706,7 @@
             "title": "All roads lead to liquidity",
             "speaker": "Figue",
             "company": "Paladin",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=hxX7g4iF5B4"
           },
           {
             "category": "UX",
@@ -729,7 +729,7 @@
             "title": "Marketing side of MEME coins",
             "speaker": "Ilya Koshelev",
             "company": "Gotbit Hedge Fund",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=j6tHkmX2LIE"
           },
           {
             "category": "Product, NFT",
@@ -760,7 +760,7 @@
             "title": "What the F**k to do now that we will have thousands of rollups?",
             "speaker": "Bogdan Habic (Tenderly), Sahil Sen (Quicknode), Kirill Fedoseev (Blockscout), Francesco Andreoli (Metamask), moderated by Hubert Kotliński (L2BEAT)",
             "company": "",
-            "youtube": "",
+            "youtube": "https://www.youtube.com/watch?v=HinODCJDJLY",
             "slots": 2
           },
           {
@@ -801,7 +801,7 @@
             "title": "Collaborative Investments - Can DAOs shape the fundraising future",
             "speaker": "Petar Atanasovski",
             "company": "Attic42",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=OxewHXoIbZY"
           },
           {
             "category": "Product",
@@ -831,7 +831,7 @@
             "title": "BONSAI - the culture currency of Lens Protocol",
             "speaker": "Markus B. (seliqui)",
             "company": "BONSAI",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=BdP5lz0O6nA"
           },
           {
             "category": "Product",
@@ -861,7 +861,7 @@
             "title": "The reserve-backed stablecoin: a paradigm shift.",
             "speaker": "Cyrille",
             "company": "f(x) protocol",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=ZZwLin16KIs"
           },
           {
             "category": "Product",
@@ -954,7 +954,7 @@
             "title": "Pushing Blockchain Limits with Hardware Accelerated Provable Computation",
             "speaker": "John Lilic",
             "company": "",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=8MJuRl0e0mY"
           },
           {
             "category": "Security",
@@ -984,7 +984,7 @@
             "title": "Crafting the Blueprint: Building an Engaged DAO",
             "speaker": "Najdana Majors",
             "company": "Connext Network",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=Iyy44KBN7VE"
           },
           {
             "category": "DeFi, Security",
@@ -1014,7 +1014,7 @@
             "title": "Treasury management or how to do stonks when you are DAO",
             "speaker": "Roman Kolpakov",
             "company": "Lido",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=YwIgEC9GUGk"
           },
           {
             "category": "Security, DeFi",
@@ -1044,7 +1044,7 @@
             "title": "How to DAO: Strategies for Resilient Decentralized Governance",
             "speaker": "Alexey Pyshnenko",
             "company": "Fluence",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=15YQ9pQ5bec"
           },
           {
             "category": "Security",
@@ -1074,7 +1074,7 @@
             "title": "Geopolitics unchained: exploring web3’s global impact",
             "speaker": "Andreea Cia",
             "company": "",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=5FzvHBRihQI"
           },
           {
             "category": "Break",
@@ -1139,7 +1139,7 @@
             "title": "Crypto points: Identity, incentives and you",
             "speaker": "Marko Jurina",
             "company": "Jumper.exchange",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=7HKtEopwvcc"
           },
           {
             "category": "Security",
@@ -1169,7 +1169,7 @@
             "title": "Ethereum in next two years: Prague & Osaka hardforks",
             "speaker": "Dragan Rakita",
             "company": "Paradigm",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=C3St_flJrgs"
           },
           {
             "category": "Security",
@@ -1199,7 +1199,7 @@
             "title": "F*ck Memes: Foundational Marketing Templates for Early Stage Founders",
             "speaker": "Claire Kart",
             "company": "RISC Zero",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=g4M0SpnsziA"
           },
           {
             "category": "Security",
@@ -1229,7 +1229,7 @@
             "title": "Unlocking blockchain frontiers with Chainlink",
             "speaker": "Solange Gueiros",
             "company": "Chainlink",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=fN4bWCxIlSw"
           },
           {
             "category": "Security, Panel",
@@ -1283,7 +1283,7 @@
             "title": "The Promise of Blockchain Voting",
             "speaker": "Sam Richards",
             "company": "Ethereum Foundation",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=TQxR7U52ne0"
           },
           {
             "category": "Security, Dev tooling",
@@ -1313,7 +1313,7 @@
             "title": "Solving native asset issuance in a modular ecosystem",
             "speaker": "Jelena Djuric",
             "company": "Noble",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=I8JzW2aWfcA"
           },
           {
             "category": "Infra/scaling",
