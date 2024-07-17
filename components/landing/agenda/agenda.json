@@ -83,14 +83,14 @@
             "title": "Oasis Sapphire: Privacy in Use",
             "speaker": "Matej Janez",
             "company": "Oasis",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=tCiwkHvtch0"
           },
           {
             "category": "ZK",
             "title": "ZK, past, present and future ZK",
             "speaker": "Edi Sinovcic",
             "company": "Shard labs, SpaceShard, Nimbora",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=9VTG33qAHQo"
           },
           {
             "category": "",
@@ -113,14 +113,14 @@
             "title": "How to scale EVM dApps on Solana",
             "speaker": "Simeon Kotashki",
             "company": "Neon EVM",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=0FyyplTJ6mE"
           },
           {
             "category": "ZK",
             "title": "Elliptic Curves and ZK Proofs",
             "speaker": "Özgür Armanc Yiğit",
             "company": "",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=lueaV76z9Kg"
           },
           {
             "category": "",
@@ -143,7 +143,7 @@
             "title": "BNB Chain: Scaling for the next billion users",
             "speaker": "Jimmy Zhao",
             "company": "BNB Chain",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=yB8sMe3iIAo"
           },
           {
             "category": "ZK",
@@ -208,7 +208,7 @@
             "title": "Portal Network and libportalnet",
             "speaker": "Daniel Sobol",
             "company": "libportalnet",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=RH1cJbndyBs"
           },
           {
             "category": "ZK",
@@ -239,14 +239,14 @@
             "title": "Heroglyphs - Incentives to transforming Ethereum validator dynamics",
             "speaker": "Glovin",
             "company": "Heroglyphs",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=EfVYCz7IswM"
           },
           {
             "category": "ZK",
             "title": "Ring and Module LWE Stealth Address Protocol",
             "speaker": "Marija Mikić",
             "company": "3327 / Attic42, University of Belgrade",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=NX0bLzyNR1s"
           },
           {
             "category": "Infra/scaling, Dev tooling",
@@ -262,14 +262,14 @@
             "title": "State of DePIN 2024",
             "speaker": "Alex Mukhin",
             "company": "Cryptomeria Capital",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=Kl0jBAdvf-U"
           },
           {
             "category": "ZK",
             "title": "On proving of pairings",
             "speaker": "Andrija Novakovic",
             "company": "Geometry Research",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=Ku1GIZl2NyU"
           },
           {
             "category": "Dev tooling",
@@ -293,14 +293,14 @@
             "title": "Making DePIN Work for Developers of Web3 Consumer applications.",
             "speaker": "Ben Biedermann",
             "company": "Raid Guild PORTERS",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=nno1XLFoQTI"
           },
           {
             "category": "Infra/scaling",
             "title": "\"Optimistic\" Outlook: Pioneering On-Chain AI",
             "speaker": "Cathie So",
             "company": "ORA (ex Hyper Oracle)",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=rZU61OnNPLc"
           }
         ],
         "15:00": [
@@ -316,14 +316,14 @@
             "title": "Evolution of Ethereum Infrastructure",
             "speaker": "Sahil Sen",
             "company": "",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=-4TrA2tSfjo"
           },
           {
             "category": "ZK",
             "title": "Solving Vitalik's trilemma with zk-driven DA&Storage",
             "speaker": "Igor Gulamov",
             "company": "ZeroPool",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=9mR1zHiW9tk"
           },
           {
             "category": "Infra/scaling, Dev tooling",
@@ -370,14 +370,14 @@
             "title": "Should everyone launch their own rollup?",
             "speaker": "Hubert Kotliński",
             "company": "L2BEAT",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=hAEMSTliPCo"
           },
           {
             "category": "ZK",
             "title": "Zero Knowledge proofs on Mina, zkPassport and SoulBound NFTs",
             "speaker": "Pavel Fedotov",
             "company": "PinSave",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=QmVJkYCfhak"
           },
           {
             "category": "Dev tooling",
@@ -400,14 +400,14 @@
             "title": "Onchain Reputation: From Plutocracy to Valocracy",
             "speaker": "Daniela Zschaber",
             "company": "Blockful, Chainlink Advocate",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=dsqsgt0fLhs"
           },
           {
             "category": "ZK",
             "title": "Developers guide to ZK Security: from Bugs to Fixes",
             "speaker": "Petr Korolev",
             "company": "OXORIO",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=5qe4PhR9pjY"
           },
           {
             "category": "",
@@ -523,14 +523,14 @@
             "title": "The Intersection of Blockchain and Gaming",
             "speaker": "Emir Kurtovic",
             "company": "",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=la2KrdtKdiU"
           },
           {
             "category": "Public goods and community, Regulations",
             "title": "Crypto mass-adoption, are we there yet?",
             "speaker": "Armin Bosto",
             "company": "itez.com",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=bIkoQtcCK3A"
           },
           {
             "category": "Startups",
@@ -547,21 +547,21 @@
             "title": "Latest developments in DeFi 2024",
             "speaker": "definikola",
             "company": "DeFi Saver",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=QhdSHUkn-sc"
           },
           {
             "category": "UX, Product",
             "title": "The Importance of User Needs in web3",
             "speaker": "Stilyan Mitrev (fungibletaco)",
             "company": "Consensys / VillageDAO",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=LSUFXHAeIEg"
           },
           {
             "category": "Regulations",
             "title": "Navigating Privacy in Crypto: Current Challenges and (Future) Solutions",
             "speaker": "Vyara Savova",
             "company": "EUCI",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=4ZCrHFx3ZrY"
           }
         ],
         "11:00" : [
@@ -577,14 +577,14 @@
             "title": "DeFi and smart accounts: resolving UX challenges",
             "speaker": "Andrei Kirkkonen",
             "company": "Safe{Wallet}",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=ha9MVIleYkU"
           },
           {
             "category": "Security, Regulations",
             "title": "Building Bridges: Harmonising Security and Compliance in Digital Asset Infrastructure",
             "speaker": "Pavle Krivokuca",
             "company": "Fireblocks",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=JHfLYV6q1X8"
           }
         ],
         "11:30" : [
@@ -600,14 +600,14 @@
             "title": "Unleash The Graph's data",
             "speaker": "Simon Emanuel Schmid",
             "company": "The Graph",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=mDK9KA3as_0"
           },
           {
             "category": "Regulations",
             "title": "A Law Enforcement Approach To Digital Assets",
             "speaker": "Michael Halepas",
             "company": "BlockAML",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=8VLBHAj261M"
           }
         ],
         "12:00" : [
@@ -658,14 +658,14 @@
             "title": "Designing the Future: Empowering Web3 Adoption Through Intuitive UX",
             "speaker": "Sundaram Jha (exwhyzee)",
             "company": "",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=gRZpwYdN_wg"
           },
           {
             "category": "Regulations",
             "title": "Lessons learned from years of having a DeFi incorporated in the US: fireside chat",
             "speaker": "Kimberly Rowland, Sandra Stojanov, Aleksandar Begović",
             "company": "Blockchain Balancers, DeFi Saver",
-            "youtube": "",
+            "youtube": "https://www.youtube.com/watch?v=rHhvqfUZUdk",
             "slots": 2
           },
           {
@@ -689,7 +689,7 @@
             "title": "Simplifying The User Experience Is The Key To Mass Onboarding",
             "speaker": "Wayne Marcel",
             "company": "FIO Protocol (DAO)",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=18_ct_Fvcy8"
           },
           {
             "category": "",
@@ -713,14 +713,14 @@
             "title": "Enabling the Future of Blockchain UX with Session Keys",
             "speaker": "Luka Isailovic",
             "company": "WalletConnect",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=HNHW3aV4p8M"
           },
           {
             "category": "Regulations",
             "title": "Frontend providers for DeFi as operators under MiCA",
             "speaker": "Ilija Rilakovic",
             "company": "",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=tKqvsk6AzS4"
           }
         ],
         "14:30" : [
@@ -736,14 +736,14 @@
             "title": "Why no one cares about your NFT project.",
             "speaker": "Jacob Haap",
             "company": "",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=cZ9HTIKFe6o"
           },
           {
             "category": "Regulations",
             "title": "How To: On-Chain AML Compliance",
             "speaker": "Noah Jelich",
             "company": "",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=65cEvyW8VPY"
           },
           {
             "category": "Infra/scaling, Security, Dev tooling",
@@ -768,14 +768,14 @@
             "title": "Cracking the code: navigating tokenomics for successful fundraising",
             "speaker": "Konstantin Molodykh",
             "company": "Mezen.io",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=OkOXQ4o-NU0"
           },
           {
             "category": "Regulations",
             "title": "Regulatory environment for CASPs in Croatia and Serbia",
             "speaker": "Aleksandar Matanović, Morana Vukić Perak",
             "company": "ECD & Electrocoin",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=Ah95oEUbj6Y"
           }
         ],
         "15:30" : [
@@ -808,14 +808,14 @@
             "title": "Enterprise Adoption in the Ethereum Ecosystem",
             "speaker": "Simon Engel",
             "company": "SAP",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=EXMQgrceVUE"
           },
           {
             "category": "DeFi",
             "title": "I'll Share Some Alpha: No, [INSERT TOKEN TICKER] is not Beta on ETH",
             "speaker": "Denis Vuckovac",
             "company": "very early Ventures",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=zovalhgigLA"
           },
           {
             "category": "",
@@ -838,14 +838,14 @@
             "title": "Decision making when building Web2.5 apps",
             "speaker": "Artem Dubinin",
             "company": "",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=WqZ-Dcpxro8"
           },
           {
             "category": "Regulations",
             "title": "FDI powered by blockchain",
             "speaker": "Emilija Vuković",
             "company": "Agile Dynamics Tech",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=znpVxspK1WY"
           },
           {
             "category": "",
@@ -868,7 +868,7 @@
             "title": "Enterprise EVM Blockchain - Blade",
             "speaker": "Nemanja Nedic",
             "company": "",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=JJLtap-c_vE"
           },
           {
             "category": "",
@@ -961,7 +961,7 @@
             "title": "Not Priced In: Security Footguns of Price Data",
             "speaker": "engn33r",
             "company": "yAudit",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=N_-UR10iiSk"
           },
           {
             "category": "",
@@ -991,14 +991,14 @@
             "title": "Secrets of Uniswap V4: A Deep Dive into Hooks Security",
             "speaker": "Damian Rusinek",
             "company": "Composable Security",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=Fbxsv8rxHZw"
           },
           {
             "category": "Infra/scaling, Dev tooling",
             "title": "MetaMask Snaps and permissionless innovation strategies",
             "speaker": "Francesco Andreoli",
             "company": "MetaMask",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=Ho3sDdAZtEo"
           },
           {
             "category": "",
@@ -1021,14 +1021,14 @@
             "title": "Resilient oracles: enhancing economic security with multiple price feeds",
             "speaker": "Brad Harrison",
             "company": "Venus Protocol",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=F90zXI8hx60"
           },
           {
             "category": "Infra/scaling, Dev tooling",
             "title": "The evolution of blockchain explorers to meet the diverse needs of web3 users.",
             "speaker": "Nikita Savik",
             "company": "Blockscout",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=H4znqzaZGR8"
           },
           {
             "category": "Dev tooling",
@@ -1051,14 +1051,14 @@
             "title": "What you need to know before deploying on L2s",
             "speaker": "Pietro Carta",
             "company": "ChainSecurity",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=OiZKfN_qOfU"
           },
           {
             "category": "Dev tooling",
             "title": "Beyond RPC endpoints: Add-ons and extra services for blockchain APIs in 2024",
             "speaker": "Vladislav Sopov",
             "company": "GetBlock",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=THGp7hiYg-M"
           },
           {
             "category": "",
@@ -1146,14 +1146,14 @@
             "title": "Systematic security approach for blockchain-based software",
             "speaker": "Yehor Balytskyi",
             "company": "pessimistic.io",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=vPN7AYDl0tw"
           },
           {
             "category": "Infra/scaling, DAOs and governance, Decentralized AI",
             "title": "Decentralized RAG framework enabling the Verifiable Internet for AI",
             "speaker": "Branimir Rakic",
             "company": "OriginTrail",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=N0Yicu8ZvNM"
           },
           {
             "category": "Dev tooling",
@@ -1176,14 +1176,14 @@
             "title": "Introduction to fuzzing",
             "speaker": "Josselin Feist",
             "company": "Trail of Bits",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=wW-RhVJs8KM"
           },
           {
             "category": "Infra/scaling",
             "title": "A Decentralized Protocol for Scaling SNARKs Verification in Blockchains",
             "speaker": "Alberto Garoffolo",
             "company": "Telos",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=iOYchqjPqWQ"
           },
           {
             "category": "",
@@ -1206,14 +1206,14 @@
             "title": "Wallet OpSec for the pragmatic",
             "speaker": "Anirudha Bose",
             "company": "Brave",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=Lp7cVWwTcpY"
           },
           {
             "category": "Dev tooling",
             "title": "Connectivity between Ledger Hardware Device and Ethereum",
             "speaker": "Akram El Milligy",
             "company": "Ledger",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=HH2iEaru7Iw"
           },
           {
             "category": "",
@@ -1236,7 +1236,7 @@
             "title": "Security panel",
             "speaker": "Pietro Carta (ChainSecurity), Brad Harrison (Venus Protocol), Brenda Loya (Tellor), Bogdan Habic (Tenderly), moderated by Emilie Raffo (ChainSecurity)",
             "company": "",
-            "youtube": "",
+            "youtube": "https://www.youtube.com/watch?v=egyqv3cb3TQ",
             "slots": 2
           },
           {
@@ -1244,7 +1244,7 @@
             "title": "Intro to DEX Arbitrage: Algorithms & Math",
             "speaker": "Aleksei Babenkov",
             "company": "",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=42E0PFKTF3Y"
           },
           {
             "category": "",
@@ -1267,7 +1267,7 @@
             "title": "Is contributor group design flawed?",
             "speaker": "Rotorless",
             "company": "",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=6oe85WzYQTU"
           },
           {
             "category": "",
@@ -1290,14 +1290,14 @@
             "title": "Solidity Debugging meets Formal Methods",
             "speaker": "Raoul Schaffranek",
             "company": "Runtime Verification, Inc.",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=6Kl4UvWjO8Y"
           },
           {
             "category": "DeFi, Infra/scaling, Dev tooling",
             "title": "RaaS <> Oracles: How do they interact",
             "speaker": "Jakub Jaworski",
             "company": "Redstone",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=l70bTksL3pg"
           },
           {
             "category": "Infra/scaling",
@@ -1320,14 +1320,14 @@
             "title": "Universal, scalable and trustless verifiable computing",
             "speaker": "Ilja Zakharov",
             "company": "Pi Squared",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=KdrBjktiSA4"
           },
           {
             "category": "Infra/scaling",
             "title": "Tellor Layer: Decentralized Oracles for the Next Era",
             "speaker": "Brenda Loya",
             "company": "Tellor",
-            "youtube": ""
+            "youtube": "https://www.youtube.com/watch?v=n0s0_Do7FQ8"
           },
           {
             "category": "",
