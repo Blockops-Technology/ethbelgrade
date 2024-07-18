@@ -106,7 +106,7 @@ const Agenda = () => (
         <p className={styles.title}>Agenda</p>
       </div>
       <div className={styles.agendaContainer}>
-        <Tabs className={styles.tabs} defaultIndex={2}>
+        <Tabs className={styles.tabs} defaultIndex={0}>
           <TabList className={styles.tablist}>
             <div className={styles.tabsContainer}>
               {
