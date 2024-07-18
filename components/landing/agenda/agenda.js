@@ -2,6 +2,7 @@ import Link from "next/link";
 import styles from "./agenda.module.scss";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 
+import Button from "../../common/button/button";
 import agenda from "./agenda.json";
 import speakers from "../speakers/speakers.json";
 
@@ -49,6 +50,17 @@ function Detail({item}) {
               {item.company && <span>, {item.company}</span>}
             </div>
           )}
+          {
+            item.youtube &&
+            <div>
+              <Link href={`${item.youtube}`} target="_blank" rel="noreferrer noopener">
+                <Button className={styles.viewOnYt}>
+                  <img className={styles.playIcon} src="/icons/play.svg" alt="Play icon" />
+                  Watch on YouTube
+                </Button>
+              </Link>
+            </div>
+          }
         </div>
       </div>
     )
