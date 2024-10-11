@@ -15,15 +15,15 @@ const MainMenu = ({ setOpenMobileMenu = () => {} }) => (
   <>
     <Menu>
       <div className={styles.menuLinks} onClick={() => setOpenMobileMenu(false)}>
-        <Link href="/">
-          <span className={styles.menuItem}>Conference</span>
-        </Link>
-        <Link href="/agenda">
-          <span className={styles.menuItem}>Agenda</span>
-        </Link>
-        <Link href="/#startups">
-          <span className={styles.menuItem}>Startups</span>
-        </Link>
+        {/*<Link href="/">*/}
+        {/*  <span className={styles.menuItem}>Conference</span>*/}
+        {/*</Link>*/}
+        {/*<Link href="/agenda">*/}
+        {/*  <span className={styles.menuItem}>Agenda</span>*/}
+        {/*</Link>*/}
+        {/*<Link href="/#startups">*/}
+        {/*  <span className={styles.menuItem}>Startups</span>*/}
+        {/*</Link>*/}
         <Link href="/hackathon">
           <span className={styles.menuItem}>Hackathon</span>
         </Link>
@@ -34,17 +34,27 @@ const MainMenu = ({ setOpenMobileMenu = () => {} }) => (
           <Menu.Button className={styles.menuItem}>Past Events </Menu.Button>
           <Menu.Items className={styles.dropdown}>
             <Menu.Item>
-              {({ active }) => (
-                <Link
-                  href="https://2023.ethbelgrade.rs"
+                <a
+                  href="https://2024.ethbelgrade.rs"
                   target="_blank"
                   rel="noreferrer noopener"
                   className={styles.dropdownLink}
                 >
                   <img src="/icons/play-arrow.svg" alt="arrow icon" />
-                  2023
-                </Link>
-              )}
+                  2024
+                </a>
+            </Menu.Item>
+            <Menu.Item>
+                <a
+                  href="https://2023.ethbelgrade.rs"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  <div className={styles.dropdownLink}>
+                    <img src="/icons/play-arrow.svg" alt="arrow icon" />
+                    2023
+                  </div>
+                </a>
             </Menu.Item>
           </Menu.Items>
         </div>
@@ -52,9 +62,9 @@ const MainMenu = ({ setOpenMobileMenu = () => {} }) => (
           <Link href={BGBW_URL} target="_blank" rel="noreferrer noopener">
             <span className={styles.menuItem}>Side Events</span>
           </Link>
-          <Link className={styles.ticketLink} href={TICKETING_PLATFORM_URL} target="_blank" rel="noreferrer noopener">
-            <Button className={styles.button}>Get Tickets</Button>
-          </Link>
+          {/*<Link className={styles.ticketLink} href={TICKETING_PLATFORM_URL} target="_blank" rel="noreferrer noopener">*/}
+          {/*  <Button className={styles.button}>Get Tickets</Button>*/}
+          {/*</Link>*/}
         </div>
         <div className={styles.hideOnHamburger}>
           <Link className={styles.ticketLink} href={BGBW_URL} target="_blank" rel="noreferrer noopener">
