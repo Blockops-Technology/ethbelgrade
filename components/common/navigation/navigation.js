@@ -30,31 +30,31 @@ const MainMenu = ({ setOpenMobileMenu = () => {} }) => (
         <Link href="/community">
           <span className={styles.menuItem}>Community</span>
         </Link>
-        <div className={styles.dropdownWrapper} onClick={(e) => e.stopPropagation()}>
-          <Menu.Button className={styles.menuItem}>Past Events </Menu.Button>
-          <Menu.Items className={styles.dropdown}>
-            <Menu.Item>
-              {({ active }) => (
-                <Link
-                  href="https://2023.ethbelgrade.rs"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  className={styles.dropdownLink}
-                >
-                  <img src="/icons/play-arrow.svg" alt="arrow icon" />
-                  2023
-                </Link>
-              )}
-            </Menu.Item>
-          </Menu.Items>
-        </div>
+        {/*<div className={styles.dropdownWrapper} onClick={(e) => e.stopPropagation()}>*/}
+        {/*  <Menu.Button className={styles.menuItem}>Past Events </Menu.Button>*/}
+        {/*  <Menu.Items className={styles.dropdown}>*/}
+        {/*    <Menu.Item>*/}
+        {/*      {({ active }) => (*/}
+        {/*        <Link*/}
+        {/*          href="https://2023.ethbelgrade.rs"*/}
+        {/*          target="_blank"*/}
+        {/*          rel="noreferrer noopener"*/}
+        {/*          className={styles.dropdownLink}*/}
+        {/*        >*/}
+        {/*          <img src="/icons/play-arrow.svg" alt="arrow icon" />*/}
+        {/*          2023*/}
+        {/*        </Link>*/}
+        {/*      )}*/}
+        {/*    </Menu.Item>*/}
+        {/*  </Menu.Items>*/}
+        {/*</div>*/}
         <div className={styles.showOnHamburger}>
           <Link href={BGBW_URL} target="_blank" rel="noreferrer noopener">
             <span className={styles.menuItem}>Side Events</span>
           </Link>
-          <Link className={styles.ticketLink} href={TICKETING_PLATFORM_URL} target="_blank" rel="noreferrer noopener">
-            <Button className={styles.button}>Get Tickets</Button>
-          </Link>
+          {/*<Link className={styles.ticketLink} href={TICKETING_PLATFORM_URL} target="_blank" rel="noreferrer noopener">*/}
+          {/*  <Button className={styles.button}>Get Tickets</Button>*/}
+          {/*</Link>*/}
         </div>
         <div className={styles.hideOnHamburger}>
           <Link className={styles.ticketLink} href={BGBW_URL} target="_blank" rel="noreferrer noopener">

@@ -176,14 +176,14 @@ const Partners = () => (
         </div>
       </div>
 
-      <div className={styles.ctaSection}>
-        <p className={styles.ctaTitle}><span>Consider</span> becoming a sponsor?</p>
-        <div className={styles.buttonWrapper}>
-          <a href={SPONSOR_APPLICATION_FORM_URL} target="_blank" rel="noreferrer noopener">
-            <Button className={styles.button} styleType="yellow">Get in touch</Button>
-          </a>
-        </div>
-      </div>
+      {/*<div className={styles.ctaSection}>*/}
+      {/*  <p className={styles.ctaTitle}><span>Consider</span> becoming a sponsor?</p>*/}
+      {/*  <div className={styles.buttonWrapper}>*/}
+      {/*    <a href={SPONSOR_APPLICATION_FORM_URL} target="_blank" rel="noreferrer noopener">*/}
+      {/*      <Button className={styles.button} styleType="yellow">Get in touch</Button>*/}
+      {/*    </a>*/}
+      {/*  </div>*/}
+      {/*</div>*/}
     </div>
   </div>
 );

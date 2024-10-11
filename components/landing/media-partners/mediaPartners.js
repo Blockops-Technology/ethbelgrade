@@ -58,9 +58,9 @@ const MediaPartners = () => (
 
     <div className="container">
       <div className={styles.buttonWrapper}>
-        <a href="mailto:tanja@ethbelgrade.rs">
-          <Button ghost styleType="purple">Become a media partner</Button>
-        </a>
+        {/*<a href="mailto:tanja@ethbelgrade.rs">*/}
+        {/*  <Button ghost styleType="purple">Become a media partner</Button>*/}
+        {/*</a>*/}
       </div>
     </div>
 

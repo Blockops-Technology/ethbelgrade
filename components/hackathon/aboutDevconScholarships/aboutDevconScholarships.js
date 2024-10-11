@@ -18,9 +18,9 @@ const AboutDevconScholarships = () => (
           </ul>
 
           <a href={HACKATHON_APPLICATION_FORM_URL} target="_blank" rel="noreferrer noopener">
-            <Button className={styles.button}>
-              Apply to hack
-            </Button>
+            {/*<Button className={styles.button}>*/}
+            {/*  Apply to hack*/}
+            {/*</Button>*/}
           </a>
         </div>
       </div>

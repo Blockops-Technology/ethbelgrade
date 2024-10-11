@@ -23,11 +23,11 @@ const Hero = () => (
         {/*</div>*/}
 
         <div className={styles.buttons}>
-          <a href={HACKATHON_APPLICATION_FORM_URL} target="_blank" rel="noreferrer noopener">
-            <Button styleType="blue">
-              Apply to hack
-            </Button>
-          </a>
+          {/*<a href={HACKATHON_APPLICATION_FORM_URL} target="_blank" rel="noreferrer noopener">*/}
+          {/*  <Button styleType="blue">*/}
+          {/*    Apply to hack*/}
+          {/*  </Button>*/}
+          {/*</a>*/}
           {/*<a href={SPONSOR_APPLICATION_FORM_URL} target="_blank" rel="noreferrer noopener">*/}
           {/*  <Button styleType="blue">*/}
           {/*    Become a sponsor*/}
@@ -38,9 +38,9 @@ const Hero = () => (
           {/*      Apply as a speaker*/}
           {/*  </Button>*/}
           {/*</a>*/}
-          <a href={TICKETING_PLATFORM_URL} target="_blank" rel="noreferrer noopener">
-            <Button>Get Tickets</Button>
-          </a>
+          {/*<a href={TICKETING_PLATFORM_URL} target="_blank" rel="noreferrer noopener">*/}
+          {/*  <Button>Get Tickets</Button>*/}
+          {/*</a>*/}
         </div>
       </div>
     </div>

@@ -31,9 +31,9 @@ const Hackathon = () => (
         </div>
       </div>
       <div className={styles.buttonWrapper}>
-        <a href={HACKATHON_APPLICATION_FORM_URL}>
-          <Button ghost styleType="emerald">Apply to hack</Button>
-        </a>
+        {/*<a href={HACKATHON_APPLICATION_FORM_URL}>*/}
+        {/*  <Button ghost styleType="emerald">Apply to hack</Button>*/}
+        {/*</a>*/}
       </div>
     </div>
   </div>

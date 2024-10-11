@@ -18,19 +18,19 @@ const Hero = () => (
         {/*</div>*/}
 
         <div className={styles.buttons}>
-          <a href={HACKATHON_APPLICATION_FORM_URL} target="_blank" rel="noreferrer noopener">
-            <Button styleType="blue">
-              Apply to hack
-            </Button>
-          </a>
-          <a href={MENTOR_APPLICATION_FORM_URL} target="_blank" rel="noreferrer noopener">
-            <Button styleType="blue">
-                Apply to mentor
-            </Button>
-          </a>
-          <a href={DISCORD_URL} target="_blank" rel="noreferrer noopener">
-            <Button>Join Discord</Button>
-          </a>
+          {/*<a href={HACKATHON_APPLICATION_FORM_URL} target="_blank" rel="noreferrer noopener">*/}
+          {/*  <Button styleType="blue">*/}
+          {/*    Apply to hack*/}
+          {/*  </Button>*/}
+          {/*</a>*/}
+          {/*<a href={MENTOR_APPLICATION_FORM_URL} target="_blank" rel="noreferrer noopener">*/}
+          {/*  <Button styleType="blue">*/}
+          {/*      Apply to mentor*/}
+          {/*  </Button>*/}
+          {/*</a>*/}
+          {/*<a href={DISCORD_URL} target="_blank" rel="noreferrer noopener">*/}
+          {/*  <Button>Join Discord</Button>*/}
+          {/*</a>*/}
         </div>
       </div>
     </div>
