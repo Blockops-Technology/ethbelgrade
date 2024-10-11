@@ -9,7 +9,7 @@ const Hero = () => (
     <div className={`${styles.relative} container`}>
       <div className={styles.heroContent}>
         <p className={styles.title}>ETH Belgrade Hackathon</p>
-        <p className={styles.dates}>31 May - 2 June, 2024</p>
+        <p className={styles.dates}>3o May - 1 June, 2025</p>
         <div className={styles.subtitle}>
           <p>Participate IRL from Belgrade or online from all over the world.</p>
         </div>
@@ -18,19 +18,19 @@ const Hero = () => (
         {/*</div>*/}
 
         <div className={styles.buttons}>
-          <a href={HACKATHON_APPLICATION_FORM_URL} target="_blank" rel="noreferrer noopener">
-            <Button styleType="blue">
-              Apply to hack
-            </Button>
-          </a>
-          <a href={MENTOR_APPLICATION_FORM_URL} target="_blank" rel="noreferrer noopener">
-            <Button styleType="blue">
-                Apply to mentor
-            </Button>
-          </a>
-          <a href={DISCORD_URL} target="_blank" rel="noreferrer noopener">
-            <Button>Join Discord</Button>
-          </a>
+          {/*<a href={HACKATHON_APPLICATION_FORM_URL} target="_blank" rel="noreferrer noopener">*/}
+          {/*  <Button styleType="blue">*/}
+          {/*    Apply to hack*/}
+          {/*  </Button>*/}
+          {/*</a>*/}
+          {/*<a href={MENTOR_APPLICATION_FORM_URL} target="_blank" rel="noreferrer noopener">*/}
+          {/*  <Button styleType="blue">*/}
+          {/*      Apply to mentor*/}
+          {/*  </Button>*/}
+          {/*</a>*/}
+          {/*<a href={DISCORD_URL} target="_blank" rel="noreferrer noopener">*/}
+          {/*  <Button>Join Discord</Button>*/}
+          {/*</a>*/}
         </div>
       </div>
     </div>

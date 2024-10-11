@@ -33,11 +33,11 @@ export default function Hackathon() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero />
-      <Prizes />
-      <About />
-      <AboutDevconScholarships />
+      {/*<Prizes />*/}
+      {/*<About />*/}
+      {/*<AboutDevconScholarships />*/}
       {/*<MentorsAndJudges />*/}
-      <Sponsors />
+      {/*<Sponsors />*/}
       {/*<Prizes />*/}
       {/*<Agenda />*/}
     </div>

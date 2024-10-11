@@ -13,7 +13,8 @@ const Hero = () => (
     <div className={`${styles.relative} container`}>
       <div className={styles.heroContent}>
         <p className={styles.title}>MOST WELCOMING CONFERENCE</p>
-        <p className={styles.dates}>3 - 5 June, 2024 @ <Link href="https://maps.app.goo.gl/9WFMcjzrtVeYy9Za6" target="_blank" rel="noreferrer noopener">MTS Dvorana</Link></p>
+        {/*<p className={styles.dates}>3 - 5 June, 2024 @ <Link href="https://maps.app.goo.gl/9WFMcjzrtVeYy9Za6" target="_blank" rel="noreferrer noopener">MTS Dvorana</Link></p>*/}
+        <p className={styles.dates}>2 - 4 June, 2025</p>
         <div className={styles.subtitle}>
           <p>ETH event in the heart of the Balkans.</p>
           <p>Part of Belgrade Blockchain Week.</p>
@@ -23,11 +24,11 @@ const Hero = () => (
         {/*</div>*/}
 
         <div className={styles.buttons}>
-          <a href={HACKATHON_APPLICATION_FORM_URL} target="_blank" rel="noreferrer noopener">
-            <Button styleType="blue">
-              Apply to hack
-            </Button>
-          </a>
+          {/*<a href={HACKATHON_APPLICATION_FORM_URL} target="_blank" rel="noreferrer noopener">*/}
+          {/*  <Button styleType="blue">*/}
+          {/*    Apply to hack*/}
+          {/*  </Button>*/}
+          {/*</a>*/}
           {/*<a href={SPONSOR_APPLICATION_FORM_URL} target="_blank" rel="noreferrer noopener">*/}
           {/*  <Button styleType="blue">*/}
           {/*    Become a sponsor*/}
@@ -38,9 +39,9 @@ const Hero = () => (
           {/*      Apply as a speaker*/}
           {/*  </Button>*/}
           {/*</a>*/}
-          <a href={TICKETING_PLATFORM_URL} target="_blank" rel="noreferrer noopener">
-            <Button>Get Tickets</Button>
-          </a>
+          {/*<a href={TICKETING_PLATFORM_URL} target="_blank" rel="noreferrer noopener">*/}
+          {/*  <Button>Get Tickets</Button>*/}
+          {/*</a>*/}
         </div>
       </div>
     </div>

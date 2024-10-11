@@ -39,14 +39,14 @@ export default function Home() {
       <Hero />
       {/*<Agenda />*/}
       <About />
-      <Speakers />
-      <Partners />
-      <Startups />
+      {/*<Speakers />*/}
+      {/*<Partners />*/}
+      {/*<Startups />*/}
       <Hackathon />
-      <MediaPartners />
-      <Quote />
+      {/*<MediaPartners />*/}
+      {/*<Quote />*/}
       <Newsletter />
-      <Venue />
+      {/*<Venue />*/}
     </div>
   )
 }
