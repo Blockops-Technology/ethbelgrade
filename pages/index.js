@@ -13,7 +13,7 @@ import Startups from "../components/landing/startups/startups";
 import Agenda from "../components/landing/agenda/agenda";
 
 export default function Home() {
-  const description = "The most welcoming ETH event in the heart of the Balkans. Part of Belgrade Blockchain Week. 30 May - 4 June 2024 - see you in Belgrade!";
+  const description = "The most welcoming ETH event in the heart of the Balkans. Part of Belgrade Blockchain Week. 30 May - 4 June 2025 - see you in Belgrade!";
   return (
     <div style={{overflow: "hidden"}}>
       <Head>
