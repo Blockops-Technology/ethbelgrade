@@ -13,7 +13,7 @@ import Startups from "../components/landing/startups/startups";
 import Agenda from "../components/landing/agenda/agenda";
 
 export default function Home() {
-  const description = "The most welcoming ETH event in the heart of the Balkans. Part of Belgrade Blockchain Week. 3-5 June 2024 - see you in Belgrade!";
+  const description = "The most welcoming ETH event in the heart of the Balkans. Part of Belgrade Blockchain Week. 30 May - 4 June 2024 - see you in Belgrade!";
   return (
     <div style={{overflow: "hidden"}}>
       <Head>
@@ -24,7 +24,7 @@ export default function Home() {
         <meta property="og:description" content={description} />
 
         {/*TODO:*/}
-        <meta property="og:image" content="https://ethbelgrade.rs/eth-belgrade-og3.jpg"/>
+        <meta property="og:image" content="https://ethbelgrade.rs/eth-belgrade-og-2025.jpg"/>
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="ETH Belgrade" />
@@ -32,7 +32,7 @@ export default function Home() {
         <meta property="og:type" content="website" />
         <meta name="twitter:site" content="@ethbelgrade" />
         {/*TODO:*/}
-        <meta name="twitter:image" content="https://ethbelgrade.rs/eth-belgrade-og3.jpg" />
+        <meta name="twitter:image" content="https://ethbelgrade.rs/eth-belgrade-og-2025.jpg" />
 
         <link rel="icon" href="/favicon.ico" />
       </Head>

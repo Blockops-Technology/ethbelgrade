@@ -20,7 +20,7 @@ export default function Hackathon() {
         <meta property="og:description" content={description} />
 
         {/*TODO:*/}
-        <meta property="og:image" content="https://ethbelgrade.rs/eth-belgrade-og3.jpg"/>
+        <meta property="og:image" content="https://ethbelgrade.rs/eth-belgrade-og-2025.jpg"/>
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="ETH Belgrade Hackathon" />
@@ -28,7 +28,7 @@ export default function Hackathon() {
         <meta property="og:type" content="website" />
         <meta name="twitter:site" content="@ethbelgrade" />
         {/*TODO:*/}
-        <meta name="twitter:image" content="https://ethbelgrade.rs/eth-belgrade-og3.jpg" />
+        <meta name="twitter:image" content="https://ethbelgrade.rs/eth-belgrade-og-2025.jpg" />
 
         <link rel="icon" href="/favicon.ico" />
       </Head>
