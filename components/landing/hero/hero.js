@@ -14,7 +14,8 @@ const Hero = () => (
       <div className={styles.heroContent}>
         <p className={styles.title}>MOST WELCOMING CONFERENCE</p>
         {/*<p className={styles.dates}>3 - 5 June, 2024 @ <Link href="https://maps.app.goo.gl/9WFMcjzrtVeYy9Za6" target="_blank" rel="noreferrer noopener">MTS Dvorana</Link></p>*/}
-        <p className={styles.dates}>2 - 4 June, 2025</p>
+        <p className={styles.dates2}>Hackathon 30 May - 1 June, 2025</p>
+        <p className={styles.dates}>Conference 2 - 4 June, 2025</p>
         <div className={styles.subtitle}>
           <p>ETH event in the heart of the Balkans.</p>
           <p>Part of Belgrade Blockchain Week.</p>
