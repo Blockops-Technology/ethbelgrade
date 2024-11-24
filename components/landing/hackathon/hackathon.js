@@ -8,7 +8,7 @@ const Hackathon = () => (
     <div className={styles.pageTitleContainer}>
       <div className={styles.pageTitleWrapper}>
         <p className={styles.pageTitle}>Hackathon</p>
-        <p className={styles.pageSubtitle}>30. MAY — 1. JUNE <span>Online and IRL event</span></p>
+        <p className={styles.pageSubtitle}>6 - 8 JUNE <span>The first ever decentralized hackathon. Online and IRL</span></p>
       </div>
     </div>
     <div className="container">
