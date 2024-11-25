@@ -3,16 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "bcms --pull types --lng ts && next dev",
+    "build": "bcms --pull types --lng ts && next build",
+    "start": "bcms --pull types --lng ts && next start",
+    "lint": "bcms --pull types --lng ts && next lint"
   },
   "dependencies": {
     "@formspark/use-formspark": "^0.1.39",
     "@headlessui/react": "^1.7.17",
     "@next/font": "^13.2.4",
     "@svgr/webpack": "^6.5.1",
+    "@thebcms/cli": "^1.2.6",
+    "@thebcms/client": "^1.4.1",
+    "@thebcms/components-react": "^1.2.2",
     "classnames": "^2.3.2",
     "dynamic-marquee-react": "^1.0.2",
     "next": "^13.2.4",
