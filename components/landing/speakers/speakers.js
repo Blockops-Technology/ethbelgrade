@@ -11,6 +11,7 @@ const Speakers = () => {
     bcms.entry.getAll("Speaker")
       .then((res) => {
         console.log(res)
+        setSpeakers(res)
         return res;
       });
   }, []);
