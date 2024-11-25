@@ -1,12 +1,19 @@
 import { bcms } from "../../../bcms";
+import { useState, useEffect } from 'react';
 import styles from "./speakers.module.scss";
 import Button from "../../common/button/button";
 import speakers from "./speakers.json";
 import { SPEAKER_APPLICATION_FORM_URL } from "../../../constants";
 
 const Speakers = () => {
-  const speakers = bcms.entry.getAll("Speaker");
-  console.log(speakers)
+  const [speakers, setSpeakers] = useState([]);
+  useEffect(() => {
+    bcms.entry.getAll("Speaker")
+      .then((res) => {
+        console.log(res)
+        return res;
+      });
+  }, []);
   return (
     <div id="speakers">
       <div className={styles.pageTitleContainer}>
