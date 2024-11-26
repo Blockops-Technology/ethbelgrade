@@ -1,4 +1,5 @@
 import { bcms } from "../../../bcms";
+import { BCMSImage } from "@thebcms/components-react";
 import { useState, useEffect } from 'react';
 import styles from "./speakers.module.scss";
 import Button from "../../common/button/button";
@@ -8,7 +9,7 @@ import { SPEAKER_APPLICATION_FORM_URL } from "../../../constants";
 const Speakers = () => {
   const [speakers, setSpeakers] = useState([]);
   useEffect(() => {
-    bcms.entry.getAll("Speaker")
+    bcms.entry.getAll("speakers")
       .then((res) => {
         console.log(res)
         setSpeakers(res)
@@ -33,24 +34,27 @@ const Speakers = () => {
           {/*</div>*/}
         </div>
         <div className={styles.speakerList}>
-          {/* {
+          {
             speakers.map((speaker, i) => (
               <div key={i}>
-                <a href={speaker.twitter} target="_blank" rel="noreferrer noopener">
-                  <img src={`/images/Speakers/${speaker.photo}`} alt={speaker.name + " photo"} />
+                <a href={speaker.meta.en.twitter} target="_blank" rel="noreferrer noopener">
+                  <BCMSImage
+                    media={speaker.meta.en.photo}
+                    clientConfig={bcms.getConfig()}
+                  />
                   {
-                    speaker.category && (
+                    speaker.meta.en.category && (
                       <div>
-                        <div className={`${styles.category} ${styles["category" + speaker.category.replaceAll(" ", "")]}`}>{speaker.category}</div>
+                        <div className={`${styles.category} ${styles["category" + speaker.meta.en.category.replaceAll(" ", "")]}`}>{speaker.meta.en.category}</div>
                       </div>
                     )
                   }
-                  <p className={styles.name}>{speaker.name}</p>
-                  <p className={styles.position}>{speaker.position}</p>
+                  <p className={styles.name}>{speaker.meta.en.name}</p>
+                  <p className={styles.position}>{speaker.meta.en.position}</p>
                 </a>
               </div>
             ))
-          } */}
+          }
         </div>
       </div>
     </div>
