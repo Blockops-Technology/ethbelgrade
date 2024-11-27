@@ -1,3 +1,4 @@
+import { bcms } from "../bcms";
 import Head from "next/head";
 import mainLayout from "../components/common/layout/mainLayout";
 import Hero from "../components/landing/hero/hero";
@@ -12,7 +13,7 @@ import Venue from "../components/landing/venue/venue";
 import Startups from "../components/landing/startups/startups";
 import Agenda from "../components/landing/agenda/agenda";
 
-export default function Home() {
+export default function Home({speakers}) {
   const description = "The most welcoming ETH event in the heart of the Balkans. Part of Belgrade Blockchain Week. 30 May - 4 June 2025 - see you in Belgrade!";
   return (
     <div style={{overflow: "hidden"}}>
@@ -39,7 +40,7 @@ export default function Home() {
       <Hero />
       {/*<Agenda />*/}
       <About />
-      {/*<Speakers />*/}
+      {<Speakers speakers={speakers} />}
       {/*<Partners />*/}
       {/*<Startups />*/}
       <Hackathon />
@@ -49,6 +50,14 @@ export default function Home() {
       {/*<Venue />*/}
     </div>
   )
+}
+
+export async function getServerSideProps() {
+  // Fetch data from external API
+  const speakers = await bcms.entry.getAll("speakers")
+
+  // Pass data to the page via props
+  return { props: { speakers } }
 }
 
 Home.getLayout = mainLayout;

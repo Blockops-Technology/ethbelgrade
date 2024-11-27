@@ -6,16 +6,7 @@ import Button from "../../common/button/button";
 import speakers from "./speakers.json";
 import { SPEAKER_APPLICATION_FORM_URL } from "../../../constants";
 
-const Speakers = () => {
-  const [speakers, setSpeakers] = useState([]);
-  useEffect(() => {
-    bcms.entry.getAll("speakers")
-      .then((res) => {
-        console.log(res)
-        setSpeakers(res)
-        return res;
-      });
-  }, []);
+const Speakers = ({speakers}) => {
   return (
     <div id="speakers">
       <div className={styles.pageTitleContainer}>
