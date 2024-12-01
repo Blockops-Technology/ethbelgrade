@@ -11,7 +11,7 @@ const About = () => (
         <span className={styles.pink}>1200+ Attendees</span>
         <span className={styles.emerald}>250+ hackers</span>
         <span className={styles.green}>40+ web3 companies</span>
-        <span className={styles.orange}>20+ investors</span>
+        <span className={styles.orange}>30+ investors</span>
       </p>
     </Marquee>
 
@@ -24,12 +24,12 @@ const About = () => (
       <div className={styles.content}>
         <div className={styles.section}>
           <p className={styles.sectionTitle}>THE MOST WELCOMING CONFERENCE</p>
-          <p className={styles.sectionText}>For builders. For Web3 enthusiasts. For Ethereum believers. ETH Belgrade extends a warm embrace to all creatives and explorers eager to share knowledge that will ignite the entire ecosystem. Both the conference and hackathon are crafted to connect like-minded people, providing opportunities for their wildest ideas to come to life. Let&apos;s build together!</p>
+          <p>For builders. For Web3 enthusiasts. For Ethereum believers. ETH Belgrade extends a warm embrace to all creatives and explorers eager to share knowledge that will ignite the entire ecosystem. Both the conference and hackathon are crafted to connect like-minded people, providing opportunities for their wildest ideas to come to life. Let&apos;s build together!</p>
         </div>
         <div className={styles.section}>
           <p className={styles.sectionTitle}>Why Belgrade?</p>
-          <p className={styles.sectionText}>The past and future have been flirting in Belgrade for centuries. Located where the Danube hugs Sava and the East clashes with the West, the city blends different cultures to create eclectic charm. Authentic, vibrant, and sometimes chaotic, Belgrade is built upon tradition, cosmopolitan spirit, and booming technologies.</p>
-          <p className={styles.sectionText}>Belgrade is home to 50+ Web3 companies creating a fruitful and fast-expanding local community. Many OGs, buidlers, and heavyweights like <strong>Polygon</strong>, <strong>Tenderly</strong>, and <strong>DeFi Saver</strong>, were born and raised in the city. But — one thing is for sure — they are not the last Web3 Belgraders you’ll hear about.</p>
+          <p>The past and future have been flirting in Belgrade for centuries. Located where the Danube hugs Sava and the East clashes with the West, the city blends different cultures to create eclectic charm. Authentic, vibrant, and sometimes chaotic, Belgrade is built upon tradition, cosmopolitan spirit, and booming technologies.</p>
+          <p>Belgrade is home to 50+ Web3 companies creating a fruitful and fast-expanding local community. Many OGs, buidlers, and heavyweights like <strong>Polygon</strong>, <strong>Tenderly</strong>, and <strong>DeFi Saver</strong>, were born and raised in the city. But — one thing is for sure — they are not the last Web3 Belgraders you’ll hear about.</p>
         </div>
       </div>
       <div className={styles.buttonWrapper}>

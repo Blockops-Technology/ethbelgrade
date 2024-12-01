@@ -8,5 +8,7 @@ export const HACKATHON_APPLICATION_FORM_URL = "https://taikai.network/ethbelgrad
 export const MENTOR_APPLICATION_FORM_URL = "https://forms.gle/FAdzDMEohT7ueeQb9"
 export const MEETUP_SPEAKER_FORM_URL = "https://forms.gle/4p5sQNTQsZmwcSJR7"
 export const JUDGE_APPLICATION_FORM_URL = ""
+export const STARTUP_PROGRAMME_STARTUP_APPLICATION_FORM_URL = "https://forms.gle/hiwzj5KDeKygVbBP9"
+export const VENTURES_PARTNER_APPLICATION_FORM="https://forms.gle/47LZX8viSwQ4LN9F7"
 
 export const DISCORD_URL = "https://discord.gg/jQvtXAFHmS"
