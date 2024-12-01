@@ -35,8 +35,7 @@ export default function Hackathon() {
       <Hero />
       {/*<Prizes />*/}
       {/*<About />*/}
-      {/*<Partners />*/}
-      {/*<MentorsAndJudges />*/}
+      {/*<AboutDevconScholarships />*/}
       {/*<Sponsors />*/}
       {/*<Prizes />*/}
       {/*<Agenda />*/}
