@@ -16,26 +16,26 @@ const Startups = () => (
             <p className={styles.title}>
               Pitch your project and meet world-class investors
             </p>
-            <p>Your project is innovative and can help resolve a real-world problem? We have great news for you. <b>ETH Belgrade Ventures</b> allows startups in all funding stages to establish relationships with top-tier VC funds and get funding.</p>
-            <p>ETH Belgrade Ventures Startup Programme is an exclusive track for the most promising startups and carefully selected VCs and investors.</p>
+            <p>Are you building something innovative that solves real-world problems? This is your opportunity to shine.</p>
+            <p>The <strong>ETH Belgrade Ventures Startup Programme</strong> connects startups at any funding stage with top-tier VCs and investors. This exclusive track is designed for the most promising projects to build relationships, gain exposure, and secure funding.</p>
           </div>
           <div>
-            <p style={{fontWeight: "bold", fontSize: 24, marginTop: 0}}>What will selected startups get:</p>
+            <p style={{fontWeight: "bold", fontSize: 24, marginTop: 0}}>What’s in it for you?</p>
             <ul style={{fontSize: 20}}>
-              <li>Free booth at the conference venue</li>
-              <li>Opportunity to pitch in front of 30+ selected investors</li>
-              <li>1-1 with investors and speed dating</li>
-              <li>A seat at the exclusive speakers dinner with all investors, speakers and sponsors</li>
-              <li>Three tickets for the conference</li>
-              <li>Talk or workshop at the conference</li>
-              <li>Special mentor sessions with top mentors from web3 industry</li>
-              <li>Media coverage</li>
+              <li>A free booth at the conference venue</li>
+              <li>The chance to pitch to 30+ top investors</li>
+              <li>1-on-1 meetings and speed dating with VCs</li>
+              <li>A seat at the exclusive speakers&apos; dinner with investors, speakers, and sponsors</li>
+              <li>Three complimentary conference tickets</li>
+              <li>A speaking or workshop slot at the conference</li>
+              <li>Mentorship from top web3 industry leaders</li>
+              <li>Media coverage to amplify your story</li>
             </ul>
           </div>
         </div>
         <div className={styles.ctaWrapper}>
           <Link href="/ventures" target="_blank" rel="noreferrer noopener">
-            <Button className={styles.button} styleType="red">Go to ventures page to apply</Button>
+            <Button className={styles.button} styleType="red">DISCOVER MORE AND APPLY</Button>
           </Link>
         </div>
       </div>
