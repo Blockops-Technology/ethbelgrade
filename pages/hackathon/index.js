@@ -13,7 +13,7 @@ export default function Hackathon() {
   return (
     <div>
       <Head>
-        <title>ETH Belgrade</title>
+        <title>ETH Belgrade Hackathon</title>
         <meta name="description" content={description} />
 
         <meta property="og:title" content="ETH Belgrade Hackathon"/>
@@ -36,7 +36,6 @@ export default function Hackathon() {
       {/*<Prizes />*/}
       {/*<About />*/}
       {/*<AboutDevconScholarships />*/}
-      {/*<MentorsAndJudges />*/}
       {/*<Sponsors />*/}
       {/*<Prizes />*/}
       {/*<Agenda />*/}

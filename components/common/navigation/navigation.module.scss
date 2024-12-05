@@ -1,5 +1,11 @@
 @import "styles/breakpoints";
 
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
 .wrapper {
   border-bottom: 1px solid var(--primary-blue);
   background: var(--background-color);
@@ -23,7 +29,7 @@
 .menuLinks {
   display: flex;
   align-items: center;
-  gap: 25px;
+  gap: 18px;
 
   @include breakpoint(medium-screen) {
     display: initial;

@@ -1,5 +1,6 @@
 import styles from "./startups.module.scss";
 import Button from "../../common/button/button";
+import Link from "next/link";
 
 const Startups = () => (
   <div id="startups">
@@ -8,34 +9,34 @@ const Startups = () => (
     </div>
     <div className="container">
       <div>
-        <p className={styles.sectionTitle}>For startups</p>
+        <p className={styles.sectionTitle}>Startup Programme</p>
         <p className={styles.subtitle}>ETH Belgrade Ventures</p>
         <div className={styles.mainGrid}>
           <div>
             <p className={styles.title}>
               Pitch your project and meet world-class investors
             </p>
-            <p>Your project is innovative and can help resolve a real-world problem? We have great news for you. <b>ETH Belgrade</b> allows startups in all funding stages to establish relationships with top-tier VC funds and get funding.</p>
-            <p>ETH Belgrade Ventures is an exclusive track for the most promising startups and carefully selected VCs and investors.</p>
+            <p>Are you building something innovative that solves real-world problems? This is your opportunity to shine.</p>
+            <p>The <strong>ETH Belgrade Ventures Startup Programme</strong> connects startups at any funding stage with top-tier VCs and investors. This exclusive track is designed for the most promising projects to build relationships, gain exposure, and secure funding.</p>
           </div>
           <div>
-            <p style={{fontWeight: "bold", fontSize: 24, marginTop: 0}}>What will selected startups get:</p>
+            <p style={{fontWeight: "bold", fontSize: 24, marginTop: 0}}>What’s in it for you?</p>
             <ul style={{fontSize: 20}}>
-              <li style={{marginBottom: 7}}>Opportunity to pitch in front of selected investors</li>
-              <li style={{marginBottom: 7}}>1-1 with investors and speed dating</li>
-              <li style={{marginBottom: 7}}>A seat at the exclusive speakers dinner with all investors, speakers and sponsors</li>
-              <li style={{marginBottom: 7}}>Three tickets for the conference</li>
-              <li style={{marginBottom: 7}}>Booth at the conference venue</li>
-              <li style={{marginBottom: 7}}>Talk or workshop at the conference</li>
-              <li style={{marginBottom: 7}}>Special mentor sessions with top mentors from web3 industry</li>
-              <li style={{marginBottom: 7}}>Media coverage</li>
+              <li>A free booth at the conference venue</li>
+              <li>The chance to pitch to 30+ top investors</li>
+              <li>1-on-1 meetings and speed dating with VCs</li>
+              <li>A seat at the exclusive speakers&apos; dinner with investors, speakers, and sponsors</li>
+              <li>Three complimentary conference tickets</li>
+              <li>A speaking or workshop slot at the conference</li>
+              <li>Mentorship from top web3 industry leaders</li>
+              <li>Media coverage to amplify your story</li>
             </ul>
           </div>
         </div>
         <div className={styles.ctaWrapper}>
-          {/*<a href="https://forms.gle/2MUCURz3RHdPDtew5" target="_blank" rel="noopener noreferrer">*/}
-            <Button className={styles.button} styleType="red">Applications closed</Button>
-          {/*</a>*/}
+          <Link href="/ventures" target="_blank" rel="noreferrer noopener">
+            <Button className={styles.button} styleType="red">DISCOVER MORE AND APPLY</Button>
+          </Link>
         </div>
       </div>
 

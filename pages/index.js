@@ -41,8 +41,8 @@ export default function Home() {
       <About />
       {/*<Speakers />*/}
       {/*<Partners />*/}
-      {/*<Startups />*/}
       <Hackathon />
+      <Startups />
       {/*<MediaPartners />*/}
       {/*<Quote />*/}
       <Newsletter />
