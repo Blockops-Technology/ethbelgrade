@@ -1,0 +1,66 @@
+@import "styles/breakpoints";
+
+.about {
+  padding: 0 0;
+}
+
+.deadlineContainer {
+  text-align: center;
+}
+
+.deadline {
+  margin: 0;
+  display: inline-block;
+  padding: 26px 0;
+  border-bottom: 2px solid var(--primary-purple);
+}
+
+.content {
+  padding: 0 0 150px;
+}
+
+.sectionTitle {
+  font-family: var(--anton);
+  font-size: 40px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.sectionText {
+  margin-bottom: 46px;
+}
+
+.button {
+  margin-top: 10px;
+  background: var(--primary-red);
+  border-color: var(--primary-red);
+}
+
+.links {
+  color: var(--primary-red);
+}
+
+.partners {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 70px;
+  align-items: center;
+  text-align: center;
+
+  img {
+    max-width: 100%;
+    max-height: 50px;
+  }
+
+  @include breakpoint(tablet) {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+  }
+
+  @include breakpoint(big-mobile) {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+}

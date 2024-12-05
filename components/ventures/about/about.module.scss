@@ -84,7 +84,7 @@
 }
 
 .highlight {
-  color: var(--primary-blue);
+  color: var(--primary-red);
 }
 
 .content {
@@ -103,7 +103,7 @@
 }
 
 .section {
-  border: 1px solid var(--primary-blue);
+  border: 1px solid var(--primary-red);
   padding: 49px;
 
   &:nth-last-child(2) {
@@ -119,9 +119,15 @@
 
 .sectionTitle {
   font-family: var(--anton);
-  color: var(--primary-blue);
+  color: var(--primary-red);
   font-size: 24px;
   text-transform: uppercase;
+}
+
+.sectionText {
+  font-family: var(--space-grotesk);
+  font-size: 14px;
+  line-height: 20px;
 }
 
 .buttonWrapper {
@@ -130,7 +136,12 @@
 }
 
 .button {
+  background: var(--primary-red);
   display: flex;
   align-items: center;
   gap: 20px;
+}
+
+.bold {
+  font-weight: bold;
 }

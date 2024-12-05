@@ -15,17 +15,17 @@ const MainMenu = ({ setOpenMobileMenu = () => {} }) => (
   <>
     <Menu>
       <div className={styles.menuLinks} onClick={() => setOpenMobileMenu(false)}>
-        {/*<Link href="/">*/}
-        {/*  <span className={styles.menuItem}>Conference</span>*/}
-        {/*</Link>*/}
+        <Link href="/">
+          <span className={styles.menuItem}>Conference</span>
+        </Link>
         {/*<Link href="/agenda">*/}
         {/*  <span className={styles.menuItem}>Agenda</span>*/}
         {/*</Link>*/}
-        {/*<Link href="/#startups">*/}
-        {/*  <span className={styles.menuItem}>Startups</span>*/}
-        {/*</Link>*/}
         <Link href="/hackathon">
           <span className={styles.menuItem}>Hackathon</span>
+        </Link>
+        <Link href="/ventures">
+          <span className={styles.menuItem}>For Startups</span>
         </Link>
         <Link href="/community">
           <span className={styles.menuItem}>Community</span>
@@ -88,7 +88,7 @@ const Navigation = () => {
   return (
     <div className={styles.wrapper}>
       {/*<Banner />*/}
-      <div className="container">
+      <div className="">
         <div className={styles.container}>
         <nav className={styles.navigation}>
           <Link href="/">
