@@ -1,4 +1,4 @@
-export const YEAR = 2024;
+export const YEAR = 2025;
 export const HACKATHON_PRIZE_AMOUNT = "40.000";
 export const SPEAKER_APPLICATION_FORM_URL = "https://forms.gle/QJgjcHfNrthaNwmf6";
 export const SPONSOR_APPLICATION_FORM_URL = "https://forms.gle/c9g8f4m6N2Fi5FiY6";
