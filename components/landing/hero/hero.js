@@ -21,7 +21,7 @@ const Hero = () => (
           <p>Part of Belgrade Blockchain Week.</p>
         </div>
         {/*<div className={styles.labelContainer}>*/}
-          <img className={styles.sticker} src="/images/hero-sticker.svg" alt="ETH Belgrade conference sticker" />
+        <img className={styles.sticker} src="/images/hero-sticker.svg" alt="ETH Belgrade conference sticker" />
         {/*</div>*/}
 
         <div className={styles.buttons}>
@@ -37,11 +37,11 @@ const Hero = () => (
           </a>
           <a href={SPEAKER_APPLICATION_FORM_URL} target="_blank" rel="noreferrer noopener">
             <Button styleType="blue">
-                Apply as a speaker
+              Apply as a speaker
             </Button>
           </a>
           <a href={TICKETING_PLATFORM_URL} target="_blank" rel="noreferrer noopener">
-            <Button>Get Tickets (66% off)</Button>
+            <Button>Get Tickets (50% off)</Button>
           </a>
         </div>
       </div>
