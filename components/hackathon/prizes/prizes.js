@@ -9,11 +9,11 @@ const Prizes = () => (
           <p className={`${styles.totalAmount} !text-[100px] leading-none !mb-5`}>${HACKATHON_PRIZE_AMOUNT}</p>
           <p className={styles.prizeTitle}>Available in prizes</p>
         </div>
-        <p className={styles.plus}>+</p>
+        {/* <p className={styles.plus}>+</p>
         <div>
           <img className="w-[90px] mx-auto mb-5" src="/images/devconnect-logo.svg" alt="Devcon logo" />
           <p className={styles.prizeTitle}>Devconnect Scholarships</p>
-        </div>
+        </div> */}
       </div>
       {/*<div>*/}
       {/*  <div className={styles.topRow}>*/}
