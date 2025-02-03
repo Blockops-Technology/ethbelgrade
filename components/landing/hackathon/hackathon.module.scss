@@ -1,8 +1,6 @@
 @import "styles/breakpoints";
 
-.hackathon {
-
-}
+.hackathon {}
 
 .heroImage {
   height: 570px;
@@ -106,7 +104,6 @@
 
 .amount {
   font-family: var(--anton);
-  margin: 90px 0 0;
   font-size: 50px;
   text-transform: uppercase;
   color: var(--primary-emerald);
@@ -120,7 +117,9 @@
   font-weight: 700;
   font-size: 40px;
   text-transform: uppercase;
-  margin: 50px 0 0;
+  display: flex;
+  align-items: center;
+  gap: 36px;
 
   @include breakpoint(big-tablet) {
     font-size: 30px;
@@ -136,10 +135,8 @@
 }
 
 .image {
-  @include breakpoint(big-tablet) {
-    width: 100%;
-    max-width: 400px;
-  }
+  max-width: 50px;
+  margin-bottom: 6px;
 }
 
 .buttonWrapper {

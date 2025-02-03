@@ -4,12 +4,16 @@ import { HACKATHON_PRIZE_AMOUNT } from "../../../constants";
 const Prizes = () => (
   <div className={styles.prizes}>
     <div className="container">
-      <div className={styles.header}>
-        <p className={styles.totalAmount}>${HACKATHON_PRIZE_AMOUNT}</p>
-        <p className={styles.prizeTitle}>Available in prizes</p>
-        <p className={styles.plus}>+</p>
-        <img className={styles.devconLogo} src="/images/hackathon/devcon-logo.png" alt="Devcon logo" />
-        <p className={styles.prizeTitle}>Scholarships</p>
+      <div className="text-center flex flex-col md:flex-row justify-center gap-10 items-center">
+        <div>
+          <p className={`${styles.totalAmount} !text-[100px] leading-none !mb-5`}>${HACKATHON_PRIZE_AMOUNT}</p>
+          <p className={styles.prizeTitle}>Available in prizes</p>
+        </div>
+        {/* <p className={styles.plus}>+</p>
+        <div>
+          <img className="w-[90px] mx-auto mb-5" src="/images/devconnect-logo.svg" alt="Devcon logo" />
+          <p className={styles.prizeTitle}>Devconnect Scholarships</p>
+        </div> */}
       </div>
       {/*<div>*/}
       {/*  <div className={styles.topRow}>*/}

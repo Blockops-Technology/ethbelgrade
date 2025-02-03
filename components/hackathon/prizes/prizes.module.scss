@@ -4,16 +4,12 @@
   padding: 0 0 100px;
 }
 
-.header {
-  text-align: center;
-}
 
 .totalAmount {
   font-family: var(--anton);
   font-weight: 700;
   font-size: 64px;
   text-transform: uppercase;
-  color: var(--primary-emerald);
   margin: 0;
 
   @include breakpoint(tablet) {
