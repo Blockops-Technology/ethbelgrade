@@ -20,9 +20,9 @@ const About = () => (
           </a>
         </div>
       </div>
-      {/*<div className={styles.deadlineContainer}>*/}
-      {/*  <p className={styles.deadline}>Registration will close on May 20, 2024</p>*/}
-      {/*</div>*/}
+      <div className={styles.deadlineContainer}>
+        <p className={styles.deadline}>Registration will close on June 2, 2025</p>
+      </div>
     </div>
   </div>
 );

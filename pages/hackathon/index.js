@@ -16,11 +16,11 @@ export default function Hackathon() {
         <title>ETH Belgrade Hackathon</title>
         <meta name="description" content={description} />
 
-        <meta property="og:title" content="ETH Belgrade Hackathon"/>
+        <meta property="og:title" content="ETH Belgrade Hackathon" />
         <meta property="og:description" content={description} />
 
         {/*TODO:*/}
-        <meta property="og:image" content="https://ethbelgrade.rs/eth-belgrade-og-2025.jpg"/>
+        <meta property="og:image" content="https://ethbelgrade.rs/eth-belgrade-og-2025.jpg" />
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="ETH Belgrade Hackathon" />
@@ -33,9 +33,9 @@ export default function Hackathon() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero />
-      {/*<Prizes />*/}
-      {/*<About />*/}
-      {/*<AboutDevconScholarships />*/}
+      <Prizes />
+      {/* <About /> */}
+      <AboutDevconScholarships />
       {/*<Sponsors />*/}
       {/*<Prizes />*/}
       {/*<Agenda />*/}
