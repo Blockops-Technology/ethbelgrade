@@ -10,7 +10,7 @@ module.exports = {
     return [
       {
         source: '/speakerskit',
-        destination: 'https://neon-pick-d1c.notion.site/ETH-Belgrade-2024-Speaker-s-Kit-1e07d7cf775c41a89fa7f7f01f8255da',
+        destination: 'https://rightful-root-4b2.notion.site/ETH-Belgrade-2025-Speaker-s-Kit-5e1bfaa46273453cbf441793427ea7ab',
         permanent: false,
       },
     ];

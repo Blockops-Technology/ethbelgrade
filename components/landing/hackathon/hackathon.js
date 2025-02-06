@@ -12,32 +12,32 @@ const Hackathon = () => (
       </div>
     </div>
     <div className="container">
-      <p></p>
-      {/*<p className={styles.amount}>${HACKATHON_PRIZE_AMOUNT}</p>*/}
-      {/*<p className={styles.amountDescription}>Available in prizes</p>*/}
-      {/*<div className={styles.mainGrid}>*/}
-      {/*  <div>*/}
-      {/*    <p className={styles.title}>+ Devcon Scholarships</p>*/}
-      {/*    <p className={styles.listTitle}>ETH Belgrade Hackathon winners will get:</p>*/}
-      {/*    <ul style={{fontSize: 20}}>*/}
-      {/*      <li style={{marginBottom: 7}}>Tickets for Devcon</li>*/}
-      {/*      <li style={{marginBottom: 7}}>Free accommodation in Bangkok</li>*/}
-      {/*      <li style={{marginBottom: 7}}>$500 per team member for the airplane tickets</li>*/}
-      {/*    </ul>*/}
-      {/*  </div>*/}
-      {/*  <div>*/}
-      {/*    <a href="https://devcon.org/" target="_blank" rel="noreferrer noopener">*/}
-      {/*      <img className={styles.image} src="/images/devcon-mono-logo.png" alt="Devcon logo" />*/}
-      {/*    </a>*/}
-      {/*  </div>*/}
-      {/*</div>*/}
-      {/*<div className={styles.buttonWrapper}>*/}
-      {/*  <a href={HACKATHON_APPLICATION_FORM_URL}>*/}
-      {/*    <Button ghost styleType="emerald">Apply to hack</Button>*/}
-      {/*  </a>*/}
-      {/*</div>*/}
+      <div className="flex flex-col md:flex-row items-center justify-center gap-10 md:gap-15 mt-20">
+        <div>
+          <p className={`${styles.amount} !text-[80px] md:!text-[120px] leading-none mb-5`}>${HACKATHON_PRIZE_AMOUNT}</p>
+          <p className="text-2xl text-center">Available in prizes</p>
+        </div>
+        {/* <div>
+          <p className={styles.title} >+</p>
+        </div>
+
+        <div>
+          <img className={styles.image} src="/images/devconnect-logo.svg" alt="Devconnect logo" />
+          <p className={styles.title}>Devconnect Scholarships</p>
+          <ul style={{ fontSize: 20 }}>
+            <li style={{ marginBottom: 7 }}>Tickets for various events at Devconnect</li>
+            <li style={{ marginBottom: 7 }}>Free accommodation</li>
+            <li style={{ marginBottom: 7 }}>$500 per team member for the airplane tickets</li>
+          </ul>
+        </div> */}
+      </div>
+      <div className="flex justify-center mt-10 mb-20">
+        <a target="_blank" rel="noreferrer noopener" href={HACKATHON_APPLICATION_FORM_URL}>
+          <Button ghost styleType="emerald">Apply to hack</Button>
+        </a>
+      </div>
     </div>
-  </div>
+  </div >
 );
 
 export default Hackathon;

@@ -1,7 +1,7 @@
 import styles from "./hero.module.scss";
 import Button from "../../common/button/button";
 import {
-  HACKATHON_APPLICATION_FORM_URL, MENTOR_APPLICATION_FORM_URL, DISCORD_URL
+  HACKATHON_APPLICATION_FORM_URL, MENTOR_APPLICATION_FORM_URL, JUDGE_APPLICATION_FORM_URL, DISCORD_URL
 } from "../../../constants";
 
 const Hero = () => (
@@ -13,21 +13,23 @@ const Hero = () => (
         <div className={styles.subtitle}>
           <p>Participate IRL from Belgrade or online from all over the world.</p>
         </div>
-        {/*<div className={styles.labelContainer}>*/}
-        {/*  <img className={styles.sticker} src="/images/hero2-sticker.svg" alt="ETH Belgrade conference sticker" />*/}
-        {/*</div>*/}
 
         <div className={styles.buttons}>
-          {/*<a href={HACKATHON_APPLICATION_FORM_URL} target="_blank" rel="noreferrer noopener">*/}
-          {/*  <Button styleType="blue">*/}
-          {/*    Apply to hack*/}
-          {/*  </Button>*/}
-          {/*</a>*/}
-          {/*<a href={MENTOR_APPLICATION_FORM_URL} target="_blank" rel="noreferrer noopener">*/}
-          {/*  <Button styleType="blue">*/}
-          {/*      Apply to mentor*/}
-          {/*  </Button>*/}
-          {/*</a>*/}
+          <a href={HACKATHON_APPLICATION_FORM_URL} target="_blank" rel="noreferrer noopener">
+            <Button>
+              Apply to hack
+            </Button>
+          </a>
+          <a href={MENTOR_APPLICATION_FORM_URL} target="_blank" rel="noreferrer noopener">
+            <Button styleType="blue">
+              Apply to mentor
+            </Button>
+          </a>
+          <a href={JUDGE_APPLICATION_FORM_URL} target="_blank" rel="noreferrer noopener">
+            <Button styleType="blue">
+              Apply to judge
+            </Button>
+          </a>
           {/*<a href={DISCORD_URL} target="_blank" rel="noreferrer noopener">*/}
           {/*  <Button>Join Discord</Button>*/}
           {/*</a>*/}
