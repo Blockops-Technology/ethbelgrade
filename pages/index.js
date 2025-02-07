@@ -54,7 +54,8 @@ export default function Home({speakers}) {
 
 export async function getServerSideProps() {
   // Fetch data from external API
-  const speakers = await bcms.entry.getAll("speakers")
+  const home = await bcms.entry.getAll("home")
+  const speakers = home[0].meta.en.speakers
 
   // Pass data to the page via props
   return { props: { speakers } }
