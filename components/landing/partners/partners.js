@@ -1,8 +1,10 @@
+import { bcms } from "../../../bcms";
+import { BCMSImage } from "@thebcms/components-react";
 import styles from "./partners.module.scss";
 import Button from "../../common/button/button";
 import { SPONSOR_APPLICATION_FORM_URL, YEAR } from "../../../constants";
 
-const Partners = () => (
+const Partners = ({ partners }) => (
   <div id="partners">
     <div className={styles.pageTitleContainer}>
       <p className={styles.pageTitle}>Sponsors</p>
@@ -14,6 +16,16 @@ const Partners = () => (
       <div>
         <p className={styles.tier}>Supersponsors</p>
         <div className={styles.superSponsorsList}>
+          {
+            partners.supersponsors.map((partner, i) => (
+              <a href="{partner.meta.en.url}" target="_blank" rel="noreferrer noopener">
+                <BCMSImage
+                  media={partner.meta.en.logo}
+                  clientConfig={bcms.getConfig()}
+                />
+              </a>
+            ))
+          }
           <a href="https://tenderly.co/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/tenderly.svg" alt="Tenderly logo" />
           </a>
@@ -76,7 +88,7 @@ const Partners = () => (
             <img src="/images/partners/ledger-logo.svg" alt="Ledger logo" />
           </a>
           <a href="https://li.fi/" target="_blank" rel="noreferrer noopener">
-            <img style={{width: "100%"}} src="/images/partners/lifi-logo.svg" alt="LiFi logo" />
+            <img style={{ width: "100%" }} src="/images/partners/lifi-logo.svg" alt="LiFi logo" />
           </a>
           <a href="https://oasisprotocol.org/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/oasis-logo.svg" alt="Oasis logo" />
@@ -103,14 +115,14 @@ const Partners = () => (
             <img src="/images/partners/gateway.svg" alt="Gateway logo" />
           </a>
           <a href="https://sidechain.pro/" target="_blank" rel="noreferrer noopener">
-            <img style={{maxHeight: 90}} src="/images/partners/sidechain-logo.svg" alt="Gateway logo" />
+            <img style={{ maxHeight: 90 }} src="/images/partners/sidechain-logo.svg" alt="Gateway logo" />
           </a>
         </div>
 
         <p className={styles.tier}>Coffee sponsor</p>
         <div className={styles.sponsorsList}>
           <a href="https://venus.io/" target="_blank" rel="noreferrer noopener">
-            <img style={{maxHeight: 90}} src="/images/partners/venus-logo.svg" alt="Venus Protocol logo" />
+            <img style={{ maxHeight: 90 }} src="/images/partners/venus-logo.svg" alt="Venus Protocol logo" />
           </a>
         </div>
 
@@ -135,7 +147,7 @@ const Partners = () => (
             <img src="/images/partners/rust-summit-logo.svg" alt="Rust Summit logo" />
           </a>
           <a href="https://jumper.exchange/" target="_blank" rel="noreferrer noopener">
-            <img style={{width: "100%"}} src="/images/partners/jumper-logo.svg" alt="Jumper logo" />
+            <img style={{ width: "100%" }} src="/images/partners/jumper-logo.svg" alt="Jumper logo" />
           </a>
           <a href="https://www.txfusion.io/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/tx-fusion.svg" alt="TX Fusion logo" />
@@ -150,7 +162,7 @@ const Partners = () => (
             <img src="/images/partners/ethsofia-logo.svg" alt="ETH Sofia logo" />
           </a>
           <a href="https://www.ethaccra.xyz/" target="_blank" rel="noreferrer noopener">
-            <img style={{maxHeight: 90}} src="/images/partners/eth-accra-logo.svg" alt="ETH Accra logo" />
+            <img style={{ maxHeight: 90 }} src="/images/partners/eth-accra-logo.svg" alt="ETH Accra logo" />
           </a>
           <a href="https://layerx.xyz/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/LayerX-logo.svg" alt="LayerX logo" />
@@ -168,10 +180,10 @@ const Partners = () => (
             <img src="/images/partners/moonstruck-logo.svg" alt="Moonstruck logo" />
           </a>
           <a href="https://www.ethtallinn.org/" target="_blank" rel="noreferrer noopener">
-            <img style={{maxHeight: 120}} src="/images/partners/ETHTallinn-logo.svg" alt="ETH Tallinn logo" />
+            <img style={{ maxHeight: 120 }} src="/images/partners/ETHTallinn-logo.svg" alt="ETH Tallinn logo" />
           </a>
           <a href="https://metaschool.so/" target="_blank" rel="noreferrer noopener">
-            <img style={{maxHeight: 120}} src="/images/partners/metaschool-logo.png" alt="Metaschool logo" />
+            <img style={{ maxHeight: 120 }} src="/images/partners/metaschool-logo.png" alt="Metaschool logo" />
           </a>
         </div>
       </div>

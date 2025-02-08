@@ -13,7 +13,7 @@ import Venue from "../components/landing/venue/venue";
 import Startups from "../components/landing/startups/startups";
 import Agenda from "../components/landing/agenda/agenda";
 
-export default function Home({speakers}) {
+export default function Home({speakers, partners}) {
   const description = "The most welcoming ETH event in the heart of the Balkans. Part of Belgrade Blockchain Week. 30 May - 4 June 2025 - see you in Belgrade!";
   return (
     <div style={{overflow: "hidden"}}>
@@ -41,7 +41,7 @@ export default function Home({speakers}) {
       {/*<Agenda />*/}
       <About />
       {<Speakers speakers={speakers} />}
-      {/*<Partners />*/}
+      <Partners partners={partners} />
       <Hackathon />
       <Startups />
       {/*<MediaPartners />*/}
@@ -56,9 +56,11 @@ export async function getServerSideProps() {
   // Fetch data from external API
   const home = await bcms.entry.getAll("home")
   const speakers = home[0].meta.en.speakers
-
+  const partnersCms = await bcms.entry.getAll("partners")
+  const partners = partnersCms[0].meta.en
+  console.log(partners)
   // Pass data to the page via props
-  return { props: { speakers } }
+  return { props: { speakers, partners} }
 }
 
 Home.getLayout = mainLayout;
