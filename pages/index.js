@@ -58,7 +58,7 @@ export async function getServerSideProps() {
   const speakers = home[0].meta.en.speakers
   const partnersCms = await bcms.entry.getAll("partners")
   const partners = partnersCms[0].meta.en
-  console.log(partners)
+
   // Pass data to the page via props
   return { props: { speakers, partners} }
 }

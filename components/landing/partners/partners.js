@@ -17,8 +17,8 @@ const Partners = ({ partners }) => (
         <p className={styles.tier}>Supersponsors</p>
         <div className={styles.superSponsorsList}>
           {
-            partners.supersponsors.map((partner, i) => (
-              <a href="{partner.meta.en.url}" target="_blank" rel="noreferrer noopener">
+            partners.supersponsors.map((partner, i) => (              
+              <a key={i} href={partner.meta.en.url} target="_blank" rel="noreferrer noopener">
                 <BCMSImage
                   media={partner.meta.en.logo}
                   clientConfig={bcms.getConfig()}

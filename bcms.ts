@@ -6,7 +6,4 @@ export const bcms = new Client(
     id: "API_KEY_ID",
     secret: "API_KEY_SECRET",
   },
-  {
-    injectSvg: true,
-  }
 );
