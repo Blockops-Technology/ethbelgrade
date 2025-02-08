@@ -12,19 +12,20 @@ import Venue from "../components/landing/venue/venue";
 import Startups from "../components/landing/startups/startups";
 import Agenda from "../components/landing/agenda/agenda";
 
+import { DATE, YEAR } from "../constants";
 export default function Home() {
-  const description = "The most welcoming ETH event in the heart of the Balkans. Part of Belgrade Blockchain Week. 30 May - 4 June 2025 - see you in Belgrade!";
+  const description = `The most welcoming ETH event in the heart of the Balkans. Part of Belgrade Blockchain Week.${DATE} ${YEAR} - see you in Belgrade!`;
   return (
-    <div style={{overflow: "hidden"}}>
+    <div style={{ overflow: "hidden" }}>
       <Head>
         <title>ETH Belgrade</title>
         <meta name="description" content={description} />
 
-        <meta property="og:title" content="ETH Belgrade"/>
+        <meta property="og:title" content="ETH Belgrade" />
         <meta property="og:description" content={description} />
 
         {/*TODO:*/}
-        <meta property="og:image" content="https://ethbelgrade.rs/eth-belgrade-og-2025.jpg"/>
+        <meta property="og:image" content="https://ethbelgrade.rs/eth-belgrade-og-2025.jpg" />
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="ETH Belgrade" />
