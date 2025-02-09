@@ -1,6 +1,5 @@
 import { bcms } from "../../../bcms";
 import { BCMSImage } from "@thebcms/components-react";
-import styles from "./partners.module.scss";
 
 const Partner = ({url, logo}) => (
     <a href={url} target="_blank" rel="noreferrer noopener">
@@ -9,7 +8,6 @@ const Partner = ({url, logo}) => (
       clientConfig={bcms.getConfig()}
     />
   </a>
-
 );
 
 export default Partner;

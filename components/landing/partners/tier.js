@@ -1,5 +1,5 @@
 import styles from "./partners.module.scss";
-import Partner from "./partner"
+import Partner from "../../common/partner/partner"
 
 const Tier = ({name, className = styles.sponsorsList, partners}) => (
   (partners && partners.length != 0) ?
