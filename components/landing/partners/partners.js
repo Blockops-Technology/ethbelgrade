@@ -1,9 +1,7 @@
-import { bcms } from "../../../bcms";
-import { BCMSImage } from "@thebcms/components-react";
 import styles from "./partners.module.scss";
 import Button from "../../common/button/button";
 import { SPONSOR_APPLICATION_FORM_URL, YEAR } from "../../../constants";
-import Partner from "./partner";
+import Tier from "./tier";
 
 
 const Partners = ({ partners }) => (
@@ -16,13 +14,13 @@ const Partners = ({ partners }) => (
       <p className={styles.subtitle}>Shout out to key industry players for supporting ETH Belgrade {YEAR}!</p>
 
       <div>
-        <Partner name="Supersponsors" className={styles.superSponsorsList} partners={partners.supersponsors} />
-        <Partner name="Tier 2 sponsors" partners={partners.tier_2_sponsors} />
-        <Partner name="Tier 3 sponsors" partners={partners.tier_3_sponsors} />
-        <Partner name="Tier 4 sponsors" partners={partners.tier_4_sponsors} />
-        <Partner name="Coffee sponsor" partners={partners.coffee_sponsors} />
-        <Partner name="Supported by" partners={partners.supported_by} />
-        <Partner name="Partners" partners={partners.partners} />
+        <Tier name="Supersponsors" className={styles.superSponsorsList} partners={partners.supersponsors} />
+        <Tier name="Tier 2 sponsors" partners={partners.tier_2_sponsors} />
+        <Tier name="Tier 3 sponsors" partners={partners.tier_3_sponsors} />
+        <Tier name="Tier 4 sponsors" partners={partners.tier_4_sponsors} />
+        <Tier name="Coffee sponsor" partners={partners.coffee_sponsors} />
+        <Tier name="Supported by" partners={partners.supported_by} />
+        <Tier name="Partners" partners={partners.partners} />
       </div>
 
       <div className={styles.ctaSection}>
