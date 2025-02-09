@@ -9,18 +9,18 @@ const Banner = () => {
     days,
     seconds,
     isRunning,
-  } = useTimer({ expiryTimestamp: new Date('03 June 2024 00:00:00 GMT+0200 (Central European Summer Time)'), onExpire: () => console.warn('onExpire called') });
+  } = useTimer({ expiryTimestamp: new Date('1 March 2025 00:00:00 GMT+0200 (Central European Summer Time)'), onExpire: () => console.warn('onExpire called') });
 
 
   return (
     <div className={styles.banner}>
       <div className="container">
         <div className={styles.content}>
-          <div className={styles.textWrapper}>
-            <p className={styles.text}>Welcome to ETH Belgrade</p>
-            {/*<p className={styles.text}>ETH Belgrade starts in</p>*/}
-            {/*<p className={styles.text}>Ticket sale (30% off) available for</p>*/}
-            {/*<p className={styles.time}>{days} days  {hours} hours  {minutes} minutes {seconds} seconds</p>*/}
+          <div className={`${styles.textWrapper} py-5`}>
+            {/* <p className={styles.text}>Welcome to ETH Belgrade</p> */}
+            {/* <p className={styles.text}>ETH Belgrade starts in</p> */}
+            <p className={styles.text}>Ticket sale (60% off) available for</p>
+            <p className={styles.time}>{days} days  {hours} hours  {minutes} minutes {seconds} seconds</p>
           </div>
         </div>
       </div>

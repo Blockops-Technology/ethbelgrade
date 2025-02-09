@@ -11,7 +11,7 @@ import Button from "../button/button";
 import { TICKETING_PLATFORM_URL } from "../../../constants";
 import Banner from "../banner/banner";
 
-const MainMenu = ({ setOpenMobileMenu = () => {} }) => (
+const MainMenu = ({ setOpenMobileMenu = () => { } }) => (
   <>
     <Menu>
       <div className={styles.menuLinks} onClick={() => setOpenMobileMenu(false)}>
@@ -34,27 +34,27 @@ const MainMenu = ({ setOpenMobileMenu = () => {} }) => (
           <Menu.Button className={styles.menuItem}>Past Events </Menu.Button>
           <Menu.Items className={styles.dropdown}>
             <Menu.Item>
-                <a
-                  href="https://2024.ethbelgrade.rs"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  className={styles.dropdownLink}
-                >
-                  <img src="/icons/play-arrow.svg" alt="arrow icon" />
-                  2024
-                </a>
+              <a
+                href="https://2024.ethbelgrade.rs"
+                target="_blank"
+                rel="noreferrer noopener"
+                className={styles.dropdownLink}
+              >
+                <img src="/icons/play-arrow.svg" alt="arrow icon" />
+                2024
+              </a>
             </Menu.Item>
             <Menu.Item>
-                <a
-                  href="https://2023.ethbelgrade.rs"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  <div className={styles.dropdownLink}>
-                    <img src="/icons/play-arrow.svg" alt="arrow icon" />
-                    2023
-                  </div>
-                </a>
+              <a
+                href="https://2023.ethbelgrade.rs"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <div className={styles.dropdownLink}>
+                  <img src="/icons/play-arrow.svg" alt="arrow icon" />
+                  2023
+                </div>
+              </a>
             </Menu.Item>
           </Menu.Items>
         </div>
@@ -87,29 +87,29 @@ const Navigation = () => {
 
   return (
     <div className={styles.wrapper}>
-      {/*<Banner />*/}
+      <Banner />
       <div className="">
         <div className={styles.container}>
-        <nav className={styles.navigation}>
-          <Link href="/">
-            <img className={styles.logo} src="/logo.svg" alt="ETH Belgrade logo" />
-          </Link>
-          <div className={styles.menu}>
-            <MainMenu />
-          </div>
-          {
-            openMobileMenu ? (
-              <div className={styles.mobileMenu}>
-                <div className={styles.closeIconWrapper}>
-                  <CloseIcon className={styles.closeIcon} onClick={toggleMobileMenu} />
+          <nav className={styles.navigation}>
+            <Link href="/">
+              <img className={styles.logo} src="/logo.svg" alt="ETH Belgrade logo" />
+            </Link>
+            <div className={styles.menu}>
+              <MainMenu />
+            </div>
+            {
+              openMobileMenu ? (
+                <div className={styles.mobileMenu}>
+                  <div className={styles.closeIconWrapper}>
+                    <CloseIcon className={styles.closeIcon} onClick={toggleMobileMenu} />
+                  </div>
+                  <MainMenu setOpenMobileMenu={setOpenMobileMenu} />
                 </div>
-                <MainMenu setOpenMobileMenu={setOpenMobileMenu} />
-              </div>
-            ) :
-              <></>
-          }
-          <HamburgerMenu className={styles.hamburgerIcon} onClick={toggleMobileMenu} />
-        </nav>
+              ) :
+                <></>
+            }
+            <HamburgerMenu className={styles.hamburgerIcon} onClick={toggleMobileMenu} />
+          </nav>
         </div>
       </div>
     </div>

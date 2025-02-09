@@ -13,8 +13,9 @@ import Venue from "../components/landing/venue/venue";
 import Startups from "../components/landing/startups/startups";
 import Agenda from "../components/landing/agenda/agenda";
 
+import { DATE, YEAR } from "../constants";
 export default function Home({speakers, partners}) {
-  const description = "The most welcoming ETH event in the heart of the Balkans. Part of Belgrade Blockchain Week. 30 May - 4 June 2025 - see you in Belgrade!";
+  const description = `The most welcoming ETH event in the heart of the Balkans. Part of Belgrade Blockchain Week.${DATE} ${YEAR} - see you in Belgrade!`;
   return (
     <div style={{overflow: "hidden"}}>
       <Head>
