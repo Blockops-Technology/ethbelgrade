@@ -25,7 +25,7 @@ const SpeakerList = (props) => {
     });
 }
 
-function Detail({item}) {
+function Detail({ item }) {
   const style = {
     "--duration": item.slots ? item.slots : 1,
     "--spaces": item.spaces ? item.spaces : 1,
@@ -70,7 +70,7 @@ function Detail({item}) {
     )
 }
 
-function TimeSlot({time, programe}) {
+function TimeSlot({ time, programe }) {
   return (
     <>
       <div className={styles.time}>{time}</div>
@@ -99,7 +99,33 @@ for (let hour = startTime; hour < endTime; hour++) {
 
 timeSlots.push("17:00")
 
-const Agenda = ({agenda}) => {
+const Agenda = ({ agenda }) => {
+  let days = {};
+  let spaces = {};
+  agenda.map((day_and_space, i) => {
+    const data = day_and_space.meta.en
+    const day = data.day.meta.en
+    const space = data.space.meta.en
+
+    if (!(day.title in days)) {
+      const date = new Date(day.date.timestamp)
+      days[day.title] = {
+        dayName: day.title,
+        date: date.toLocaleDateString('en-US', { day: 'numeric', month: 'long' })
+      }
+    }
+
+    if (!(space.title in spaces)) {
+      spaces[space.title] = {
+        name: space.title,
+        pronounciation: space.pronounciation,
+        location: space.location
+      }
+    }
+  });
+  days = Object.values(days)
+  spaces = Object.values(spaces)
+
   return <div id="agenda" className={styles.agenda}>
     <div className="container no-padding">
       <div className={styles.titleWrapper}>
@@ -110,7 +136,7 @@ const Agenda = ({agenda}) => {
           <TabList className={styles.tablist}>
             <div className={styles.tabsContainer}>
               {
-                agenda.days.map((day, i) => (
+                days.map((day, i) => (
                   <Tab key={i} className={styles.tab} selectedClassName={styles.selectedTab}>
                     <div className={styles.tabName}>{day.dayName}</div>
                     <div className={styles.tabDate}>{day.date}</div>
@@ -121,31 +147,24 @@ const Agenda = ({agenda}) => {
           </TabList>
 
           {
-            agenda.days.map((day, i) => (
+            days.map((day, i) => (
               <TabPanel key={i}>
                 <div className={styles.timeTable}>
                   <div></div>
-                  <div className={styles.header}>
-                    <h3>Avala <span>[âv̞ala]</span></h3>
-                    <h4>Hall 1</h4>
-                  </div>
-                  <div className={styles.header}>
-                    <h3>Beograd <span>[beǒɡrad]</span></h3>
-                    <h4>Hall 6</h4>
-                  </div>
-                  <div className={styles.header}>
-                    <h3>Cer <span>[tsɛr]</span></h3>
-                    <h4>Hall 2</h4>
-                  </div>
-                  <div className={styles.header}>
-                    <h3>Dunav <span>[dǔnaʋ]</span></h3>
-                    <h4>Hall 3</h4>
-                  </div>
-                  {timeSlots.map((time, index) => (
+                  {
+                    spaces.map((space, i) => (
+                      <div className={styles.header}>
+                        <h3>{space.name} <span>[{space.pronounciation}]</span></h3>
+                        <h4>{space.location}</h4>
+                      </div>
+
+                    ))
+                  }
+                  {/*timeSlots.map((time, index) => (
                     <TimeSlot key={time} programe={day.programe[time]} time={time} index={index} start={1} duration={1} />
-                  ))}
+                  ))*/}
                 </div>
-                {}
+                { }
               </TabPanel>
             ))
           }
