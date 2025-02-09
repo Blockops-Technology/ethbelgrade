@@ -14,7 +14,7 @@ import Startups from "../components/landing/startups/startups";
 import Agenda from "../components/landing/agenda/agenda";
 
 import { DATE, YEAR } from "../constants";
-export default function Home({speakers, partners, media }) {
+export default function Home({speakers, partners, media, agenda }) {
   const description = `The most welcoming ETH event in the heart of the Balkans. Part of Belgrade Blockchain Week.${DATE} ${YEAR} - see you in Belgrade!`;
   return (
     <div style={{ overflow: "hidden" }}>
@@ -39,7 +39,7 @@ export default function Home({speakers, partners, media }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero />
-      {/*<Agenda />*/}
+      {/*<Agenda agenda={agenda} />*/}
       <About />
       {/*<Speakers speakers={speakers} />*/}
       {/*<Partners partners={partners} />*/}
@@ -56,14 +56,15 @@ export default function Home({speakers, partners, media }) {
 export async function getServerSideProps() {
   // Fetch data from external API
   const home = await bcms.entry.getAll("home")
-  const speakers = home[0].meta.en.speakers
+  const speakers = (home && home.length && home[0].meta.en.speakers) ? home[0].meta.en.speakers : {}
+  const media = (home && home.length && home[0].meta.en.media_partners) ? home[0].meta.en.media_partners : {}
+  const agenda = (home && home.length && home[0].meta.en.agenda) ? home[0].meta.en.agenda : {}
+
   const partnersCms = await bcms.entry.getAll("partners")
-  const partners = partnersCms[0].meta.en
-  const mediaCms = await bcms.entry.getAll("media-partners")
-  const media = mediaCms[0].meta.en.partners
+  const partners = (partnersCms && partnersCms.length && partnersCms[0].meta.en) ? partnersCms[0].meta.en : {}
 
   // Pass data to the page via props
-  return { props: { speakers, partners, media } }
+  return { props: { speakers, partners, media, agenda } }
 }
 
 Home.getLayout = mainLayout;

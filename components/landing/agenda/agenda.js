@@ -99,8 +99,8 @@ for (let hour = startTime; hour < endTime; hour++) {
 
 timeSlots.push("17:00")
 
-const Agenda = () => (
-  <div id="agenda" className={styles.agenda}>
+const Agenda = ({agenda}) => {
+  return <div id="agenda" className={styles.agenda}>
     <div className="container no-padding">
       <div className={styles.titleWrapper}>
         <p className={styles.title}>Agenda</p>
@@ -145,46 +145,7 @@ const Agenda = () => (
                     <TimeSlot key={time} programe={day.programe[time]} time={time} index={index} start={1} duration={1} />
                   ))}
                 </div>
-                {/* {
-                  stage.programme.map((day, i) => (
-                    <div key={i}>
-                      <div className={styles.dayWrapper}>
-                        <p className={styles.dayDate}>
-                          <span className={styles.day}>{day.day}</span>
-                          <span className={styles.date}>{day.date}</span>
-                        </p>
-                      </div>
-                      {
-                        day.talks.map((talk, i) => (
-                          <div className={`${styles.talk} ${styles[day.day.toLowerCase().replace(' ', '')]}`} key={i}>
-                            <div className={styles.time}>{talk.time}</div>
-                            <div className={styles.talkDetails}>
-                              <p className={styles.talkTitle}>{talk.recording ? <Link href={`${talk.recording}`} target="_blank" rel="noreferrer noopener">{talk.title}</Link> : talk.title}</p>
-                              {
-                                talk.category &&
-                                <p className={`${styles.talkCategory} ${styles["talkCategory" + talk.category.replaceAll(" ", "")]}`}>{talk.category}</p>
-                              }
-                              {
-                                talk.speaker &&
-                                <div className={styles.speaker}>
-                                  {
-                                    talk.speakerImage &&
-                                    <img src={`/images/Speakers/${talk.speakerImage}`} alt={talk.speaker} />
-                                  }
-                                  <p>
-                                    <SpeakerList name={`${talk.speaker}`} />
-                                  </p>
-                                  <span>|</span>
-                                  <p>{talk.company}</p>
-                                </div>
-                              }
-                            </div>
-                          </div>
-                        ))
-                      }
-                    </div>
-                  ))
-                } */}
+                {}
               </TabPanel>
             ))
           }
@@ -193,6 +154,6 @@ const Agenda = () => (
 
     </div>
   </div>
-);
+};
 
 export default Agenda;
