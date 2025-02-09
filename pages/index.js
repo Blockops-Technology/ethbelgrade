@@ -14,19 +14,19 @@ import Startups from "../components/landing/startups/startups";
 import Agenda from "../components/landing/agenda/agenda";
 
 import { DATE, YEAR } from "../constants";
-export default function Home({speakers, partners}) {
+export default function Home({speakers, partners, media }) {
   const description = `The most welcoming ETH event in the heart of the Balkans. Part of Belgrade Blockchain Week.${DATE} ${YEAR} - see you in Belgrade!`;
   return (
-    <div style={{overflow: "hidden"}}>
+    <div style={{ overflow: "hidden" }}>
       <Head>
         <title>ETH Belgrade</title>
         <meta name="description" content={description} />
 
-        <meta property="og:title" content="ETH Belgrade"/>
+        <meta property="og:title" content="ETH Belgrade" />
         <meta property="og:description" content={description} />
 
         {/*TODO:*/}
-        <meta property="og:image" content="https://ethbelgrade.rs/eth-belgrade-og-2025.jpg"/>
+        <meta property="og:image" content="https://ethbelgrade.rs/eth-belgrade-og-2025.jpg" />
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="ETH Belgrade" />
@@ -41,11 +41,11 @@ export default function Home({speakers, partners}) {
       <Hero />
       {/*<Agenda />*/}
       <About />
-      {<Speakers speakers={speakers} />}
-      <Partners partners={partners} />
+      {/*<Speakers speakers={speakers} />*/}
+      {/*<Partners partners={partners} />*/}
       <Hackathon />
       <Startups />
-      {/*<MediaPartners />*/}
+      {/*<MediaPartners media={media} />*/}
       {/*<Quote />*/}
       <Newsletter />
       {/*<Venue />*/}
@@ -59,9 +59,11 @@ export async function getServerSideProps() {
   const speakers = home[0].meta.en.speakers
   const partnersCms = await bcms.entry.getAll("partners")
   const partners = partnersCms[0].meta.en
+  const mediaCms = await bcms.entry.getAll("media-partners")
+  const media = mediaCms[0].meta.en.partners
 
   // Pass data to the page via props
-  return { props: { speakers, partners} }
+  return { props: { speakers, partners, media } }
 }
 
 Home.getLayout = mainLayout;
