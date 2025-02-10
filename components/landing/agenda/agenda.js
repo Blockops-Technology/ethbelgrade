@@ -26,47 +26,47 @@ const SpeakerList = (props) => {
 }
 
 function Detail({ item }) {
-  const style = {
-    "--duration": item.slots ? item.slots : 1,
-    "--spaces": item.spaces ? item.spaces : 1,
-  };
+  // const style = {
+  //   "--duration": item.slots ? item.slots : 1,
+  //   "--spaces": item.spaces ? item.spaces : 1,
+  // };
 
-  const classes = item.category?.toLowerCase()
-    .replaceAll(" ", "")
-    .replaceAll("/", "")
-    .split(",")
-    .map(cat => styles["talkCategory" + cat])
-    .join(' ');
+  // const classes = item.category?.toLowerCase()
+  //   .replaceAll(" ", "")
+  //   .replaceAll("/", "")
+  //   .split(",")
+  //   .map(cat => styles["talkCategory" + cat])
+  //   .join(' ');
 
-  if (item.title || item.speaker || item.type)
+  // if (item.title || item.speaker || item.type)
+  //   return (
+  //     <div className={styles.details} style={style}>
+  //       <div className={`${styles.talk} ${classes}`}>
+  //         {item.category.replaceAll("Break", "") && item.category.replaceAll("Break", "").split(', ').map(cat => (<div key={cat} className={styles.talkType}>{cat}</div>))}
+  //         <div className={styles.talkTitle}>{item.title ? item.title : "TBA"}</div>
+  //         {item.speaker && (
+  //           <div className={styles.talkSpeaker}>
+  //             <SpeakerList name={`${item.speaker}`} />
+  //             {item.company && <span>, {item.company}</span>}
+  //           </div>
+  //         )}
+  //         {
+  //           item.youtube &&
+  //           <div>
+  //             <Link href={`${item.youtube}`} target="_blank" rel="noreferrer noopener">
+  //               <Button className={styles.viewOnYt}>
+  //                 <img className={styles.playIcon} src="/icons/play.svg" alt="Play icon" />
+  //                 Watch on YouTube
+  //               </Button>
+  //             </Link>
+  //           </div>
+  //         }
+  //       </div>
+  //     </div>
+  //   )
+  // else
     return (
-      <div className={styles.details} style={style}>
-        <div className={`${styles.talk} ${classes}`}>
-          {item.category.replaceAll("Break", "") && item.category.replaceAll("Break", "").split(', ').map(cat => (<div key={cat} className={styles.talkType}>{cat}</div>))}
-          <div className={styles.talkTitle}>{item.title ? item.title : "TBA"}</div>
-          {item.speaker && (
-            <div className={styles.talkSpeaker}>
-              <SpeakerList name={`${item.speaker}`} />
-              {item.company && <span>, {item.company}</span>}
-            </div>
-          )}
-          {
-            item.youtube &&
-            <div>
-              <Link href={`${item.youtube}`} target="_blank" rel="noreferrer noopener">
-                <Button className={styles.viewOnYt}>
-                  <img className={styles.playIcon} src="/icons/play.svg" alt="Play icon" />
-                  Watch on YouTube
-                </Button>
-              </Link>
-            </div>
-          }
-        </div>
-      </div>
-    )
-  else
-    return (
-      <div className={styles.details} style={style}></div>
+      <div className={styles.details}></div>
     )
 }
 
@@ -160,9 +160,11 @@ const Agenda = ({ agenda }) => {
 
                     ))
                   }
-                  {/*timeSlots.map((time, index) => (
-                    <TimeSlot key={time} programe={day.programe[time]} time={time} index={index} start={1} duration={1} />
-                  ))*/}
+                  {
+                    timeSlots.map((time, index) => (
+                      <TimeSlot key={time} programe={[null, null, null, null]} time={time} index={index} start={1} duration={1} />
+                    ))
+                  }
                 </div>
                 { }
               </TabPanel>
