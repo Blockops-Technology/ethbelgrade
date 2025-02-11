@@ -37,7 +37,6 @@ export async function getServerSideProps() {
   // Fetch data from external API
   const home = await bcms.entry.getAll("home")
   const agenda = (home && home.length && home[0].meta.en.agenda) ? home[0].meta.en.agenda : {}
-  console.log(agenda[0].meta.en)
 
   // Pass data to the page via props
   return { props: { agenda } }

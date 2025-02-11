@@ -1,93 +1,7 @@
-import Link from "next/link";
 import styles from "./agenda.module.scss";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 
-import Button from "../../common/button/button";
-import agenda from "./agenda.json";
-import speakers from "../speakers/speakers.json";
-
-const twitter = new Map();
-
-speakers.list.forEach(element => {
-  twitter.set(element.name, element.twitter);
-});
-
-const SpeakerList = (props) => {
-  return props.name
-    .split(",").map((name, i) => {
-      const handle = twitter.get(name.replace('moderated by', '').replace(/\(.+\)/, '').trim());
-      const comma = i > 0 ? ", " : "";
-      if (handle) {
-        return <>{comma}<Link href={`${handle}`} target="_blank" rel="noreferrer noopener">{name}</Link></>;
-      } else {
-        return <>{comma}{name}</>;
-      }
-    });
-}
-
-function Detail({ item }) {
-  if (item === undefined) {
-    return (
-      <div className={styles.details}></div>
-    )
-  }
-  const style = {
-    "--duration": item.slots ? item.slots : 1,
-    "--spaces": item.spaces ? item.spaces : 1,
-  };
-
-  const classes = item.category?.toLowerCase()
-    .replaceAll(" ", "")
-    .replaceAll("/", "")
-    .split(",")
-    .map(cat => styles["talkCategory" + cat])
-    .join(' ');
-
-  console.log(item)
-  if (item.slug != "empty" || item.speakers.length)
-    return (
-      <div className={styles.details} style={style}>
-        <div className={`${styles.talk} ${classes}`}>
-          {/* {item.category.replaceAll("Break", "") && item.category.replaceAll("Break", "").split(', ').map(cat => (<div key={cat} className={styles.talkType}>{cat}</div>))} */}
-          <div className={styles.talkTitle}>{item.title ? item.title : "TBA"}</div>
-          {item.speaker && (
-            <div className={styles.talkSpeaker}>
-              <SpeakerList name={`${item.speaker}`} />
-              {item.company && <span>, {item.company}</span>}
-            </div>
-          )}
-          {
-            item.youtube &&
-            <div>
-              <Link href={`${item.youtube}`} target="_blank" rel="noreferrer noopener">
-                <Button className={styles.viewOnYt}>
-                  <img className={styles.playIcon} src="/icons/play.svg" alt="Play icon" />
-                  Watch on YouTube
-                </Button>
-              </Link>
-            </div>
-          }
-        </div>
-      </div>
-    )
-  else
-    return (
-      <div className={styles.details}></div>
-    )
-}
-
-function TimeSlot({ time, programe }) {
-  return (
-    <>
-      <div className={styles.time}>{time}</div>
-      {programe ?
-        programe.map((element, i) => (
-          <Detail key={i} item={element} />
-        )) : <></>
-      }
-    </>
-  )
-}
+import TimeSlot from "./timeslot";
 
 const startTime = 9;
 const endTime = 17;
@@ -125,28 +39,35 @@ const Agenda = ({ agenda }) => {
       spaces[space.title] = space
     }
 
+    if (!(day.slug in talks))
+      talks[day.slug] = {}
+    talks[day.slug][space.slug] = {}
     data.talks.map((talkData, i) => {
-      console.log(talkData)
-      if (!(day.slug in talks))
-        talks[day.slug] = {}
-      talks[day.slug][space.slug] = talkData.meta.en
-
+      talks[day.slug][space.slug][timeSlots[i]] = talkData.meta.en
     })
   });
   days = Object.values(days)
   spaces = Object.values(spaces)
-  console.log(talks)
+
   days.map((day, i) => {
-    var timeSlotIndex = 0
     spaces.map((space, i) => {
-      const timeSlot = timeSlots[timeSlotIndex]
-      if (!(timeSlot in day.programe))
-        day.programe[timeSlot] = []
-      day.programe[timeSlot].push(talks[day.slug][space.slug])
+      timeSlots.map((timeSlot, _) => {
+        if (!(timeSlot in day.programe))
+          day.programe[timeSlot] = []
+        if (timeSlot in talks[day.slug][space.slug])
+          day.programe[timeSlot].push(talks[day.slug][space.slug][timeSlot])
+        else
+          day.programe[timeSlot].push({
+            "category": "",
+            "title": "",
+            "slug": "",
+            "speakers": [],
+            "company": "",
+            "youtube": ""
+          })   
+      })
     })
-    ++timeSlotIndex
   })
-  console.log(days[0].programe)
 
   return <div id="agenda" className={styles.agenda}>
     <div className="container no-padding">
