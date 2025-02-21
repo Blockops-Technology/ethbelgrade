@@ -40,7 +40,7 @@ export default function Home() {
       <Hero />
       {/*<Agenda />*/}
       <About />
-      {/*<Speakers />*/}
+      <Speakers />
       {/*<Partners />*/}
       <Hackathon />
       <Startups />
