@@ -32,7 +32,7 @@ const spaceGrotesk = Space_Grotesk({
 
 export default function MainLayout({ children }) {
   return (
-    <html lang="en" className={`${spaceGrotesk.variable} ${rubik.variable} ${anton.variable} ${robotoMono.variable}`}>
+    <html lang="en" className={`${spaceGrotesk.variable} ${rubik.variable} ${anton.variable} ${robotoMono.variable} dark`}>
       <body>
         <HeroUIProvider>
           {children}
