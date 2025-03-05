@@ -1,5 +1,5 @@
 import { useTimer } from "react-timer-hook";
-
+import { DISCOUNT } from "../../../constants";
 import styles from "./banner.module.scss";
 
 const Banner = () => {
@@ -19,7 +19,7 @@ const Banner = () => {
           <div className={`${styles.textWrapper} py-5`}>
             {/* <p className={styles.text}>Welcome to ETH Belgrade</p> */}
             {/* <p className={styles.text}>ETH Belgrade starts in</p> */}
-            <p className={styles.text}>Ticket sale (50% off) available for</p>
+            <p className={styles.text}>Ticket sale ({DISCOUNT} off) available for</p>
             <p className={styles.time}>{days} days  {hours} hours  {minutes} minutes {seconds} seconds</p>
           </div>
         </div>
