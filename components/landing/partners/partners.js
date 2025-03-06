@@ -95,7 +95,7 @@ const Partners = () => (
         <p className={styles.tier}>Hackathon sponsors</p>
         <div className={styles.sponsorsList}>
           <a href="https://chain.link/" target="_blank" rel="noreferrer noopener">
-            <img src="/images/partners/chainlink-logo.svg" alt="Chainlink logo" />
+            <img className="!w-full" src="/images/partners/chainlink-logo.svg" alt="Chainlink logo" />
           </a>
           <a href="https://www.iex.ec/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/iexec-logo.svg" alt="iExec logo" />
