@@ -4,7 +4,8 @@ import {
   HACKATHON_APPLICATION_FORM_URL,
   SPEAKER_APPLICATION_FORM_URL,
   SPONSOR_APPLICATION_FORM_URL,
-  TICKETING_PLATFORM_URL, YEAR
+  TICKETING_PLATFORM_URL, YEAR,
+  DISCOUNT
 } from "../../../constants";
 import Link from "next/link";
 
@@ -41,7 +42,7 @@ const Hero = () => (
             </Button>
           </a>
           <a href={TICKETING_PLATFORM_URL} target="_blank" rel="noreferrer noopener">
-            <Button>Get Tickets (60% off)</Button>
+            <Button>Get Tickets ({DISCOUNT} off)</Button>
           </a>
         </div>
       </div>
