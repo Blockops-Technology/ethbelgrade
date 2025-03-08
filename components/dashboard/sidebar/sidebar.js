@@ -12,7 +12,7 @@ const Sidebar = () => {
         <Link className={`uppercase text-sm !text-gray-300 font-bold ${pathname === '/dashboard/speakers' ? "!bg-gray-900 !text-white" : ""} hover:bg-gray-900/50 py-4 px-6 rounded-sm`} href="/dashboard/speakers">Speakers</Link>
         <Link className={`uppercase text-sm !text-gray-300 font-bold ${pathname === '/dashboard/sponsors' ? "!bg-gray-900 !text-white" : ""} hover:bg-gray-900/50 py-4 px-6 rounded-sm`} href="/dashboard/sponsors">Sponsors</Link>
         <Link className={`uppercase text-sm !text-gray-300 font-bold ${pathname === '/dashboard/agenda' ? "!bg-gray-900 !text-white" : ""} hover:bg-gray-900/50 py-4 px-6 rounded-sm`} href="/dashboard/agenda">Agenda</Link>
-        <Link className={`uppercase text-sm !text-gray-300 font-bold ${pathname === '/dashboard/members' ? "!bg-gray-900 !text-white" : ""} hover:bg-gray-900/50 py-4 px-6 rounded-sm`} href="/dashboard/members">Members</Link>
+        <Link className={`uppercase text-sm !text-gray-300 font-bold ${pathname === '/dashboard/moderators' ? "!bg-gray-900 !text-white" : ""} hover:bg-gray-900/50 py-4 px-6 rounded-sm`} href="/dashboard/moderators">Moderators</Link>
       </nav>
       <div className="mt-auto justify-self-end">
         <div className="text-sm text-gray-500 text-center py-4 px-6 rounded-sm bg-gray-900/50 hover:bg-gray-900/70 hover:text-white cursor-pointer">Logout</div>
