@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@auth/mongodb-adapter": "^3.8.0",
     "@formspark/use-formspark": "^0.1.39",
     "@headlessui/react": "^1.7.17",
     "@heroui/button": "^2.2.13",
@@ -23,10 +24,12 @@
     "classnames": "^2.3.2",
     "dynamic-marquee-react": "^1.0.2",
     "framer-motion": "^12.4.7",
-    "next": "13.5.8",
+    "mongodb": "^6.14.2",
+    "next": "^14.2.24",
+    "next-auth": "^5.0.0-beta.25",
     "postcss": "^8.5.3",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-slick": "^0.29.0",
     "react-tabs": "^6.0.1",
     "react-timer-hook": "^3.0.5",
@@ -37,7 +40,7 @@
   "devDependencies": {
     "autoprefixer": "^10.4.20",
     "eslint": "8.26.0",
-    "eslint-config-next": "13.0.0",
+    "eslint-config-next": "^14.2.24",
     "sass": "^1.55.0"
   }
 }

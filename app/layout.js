@@ -1,6 +1,7 @@
 "use client";
 
 import { Rubik, Anton, Roboto_Mono, Space_Grotesk } from 'next/font/google';
+import { SessionProvider } from "next-auth/react";
 import { ToastContainer } from "react-toastify";
 import { HeroUIProvider } from '@heroui/react';
 import "react-toastify/dist/ReactToastify.css";
@@ -34,13 +35,15 @@ export default function MainLayout({ children }) {
   return (
     <html lang="en" className={`${spaceGrotesk.variable} ${rubik.variable} ${anton.variable} ${robotoMono.variable} dark`}>
       <body>
-        <HeroUIProvider>
-          {children}
-          <ToastContainer
-            position="top-right"
-            theme="dark"
-          />
-        </HeroUIProvider>
+        <SessionProvider>
+          <HeroUIProvider>
+            {children}
+            <ToastContainer
+              position="top-right"
+              theme="dark"
+            />
+          </HeroUIProvider>
+        </SessionProvider>
       </body>
     </html>
   );
