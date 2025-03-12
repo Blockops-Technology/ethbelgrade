@@ -1,66 +1,22 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import SpeakerCard from "@/components/dashboard/speaker-card/speaker-card";
 
-const dummySpeakers = [
-  {
-    name: "John Doe",
-    image: "/images/Speakers/john-lilic.png",
-    company: "Company 1",
-    category: "Zero Knowledge",
-  },
-  {
-    name: "Defi Nikola",
-    image: "/images/Speakers/definikola.png",
-    company: "Company 2",
-    category: "DeFi",
-  },
-  {
-    name: "Viraz Malhotra",
-    image: "/images/Speakers/viraz-malhotra.png",
-    company: "Company 3",
-    category: "NFT",
-  }, {
-    name: "John Doe",
-    image: "/images/Speakers/john-lilic.png",
-    company: "Company 1",
-    category: "Zero Knowledge",
-  },
-  {
-    name: "Defi Nikola",
-    image: "/images/Speakers/definikola.png",
-    company: "Company 2",
-    category: "DeFi",
-  },
-  {
-    name: "Viraz Malhotra",
-    image: "/images/Speakers/viraz-malhotra.png",
-    company: "Company 3",
-    category: "NFT",
-  }, {
-    name: "John Doe",
-    image: "/images/Speakers/john-lilic.png",
-    company: "Company 1",
-    category: "Zero Knowledge",
-  },
-  {
-    name: "Defi Nikola",
-    image: "/images/Speakers/definikola.png",
-    company: "Company 2",
-    category: "DeFi",
-  },
-  {
-    name: "Viraz Malhotra",
-    image: "/images/Speakers/viraz-malhotra.png",
-    company: "Company 3",
-    category: "NFT",
-  },
-];
-
 const Speakers = () => {
-  const [speakers, setSpeakers] = useState(dummySpeakers);
+  const [speakers, setSpeakers] = useState([]);
+
+  const fetchSpeakers = async () => {
+    const response = await fetch("/api/speaker");
+    const data = await response.json();
+    console.log(data);
+    setSpeakers(data);
+  };
+
+  useEffect(() => {
+    fetchSpeakers();
+  }, []);
 
   return (
     <div>

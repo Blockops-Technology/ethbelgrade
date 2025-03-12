@@ -14,7 +14,7 @@ const cateogryToColor = {
   "regulations": "text-[dodgerblue]",
 }
 
-const SpeakerCard = ({ speaker: { name, image, company, category } }) => {
+const SpeakerCard = ({ speaker: { name, image, company, category, link } }) => {
   return (
     <div className="flex items-center gap-4 bg-gray-900/50 p-4 rounded-sm">
       <Image src={image} alt={name} width={100} height={100} />
@@ -22,6 +22,7 @@ const SpeakerCard = ({ speaker: { name, image, company, category } }) => {
         <p className="text-sm font-bold">{name}</p>
         <p className="text-sm">{company}</p>
         <p className={`text-sm ${cateogryToColor[category.toLowerCase().replace(/\s+/g, "-")]}`}>{category}</p>
+        {link && <a href={link} target="_blank" rel="noopener noreferrer" className="text-sm">{link}</a>}
       </div>
     </div>
   );
