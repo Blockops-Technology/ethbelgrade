@@ -15,11 +15,11 @@
       "category": "DeFi"
     },
     {
-      "name": "Dragan Rakita",
-      "twitter": "https://twitter.com/rakitadragan",
-      "position": "Paradigm",
-      "photo": "dragan-rakita.png",
-      "category": "Core protocol"
+      "name": "Ivan",
+      "twitter": "https://twitter.com/TheTakenUser",
+      "position": "Aragon",
+      "photo": "ivan.png",
+      "category": "DAOs and Governance"
     },
     {
       "name": "TokenBrice",
@@ -57,11 +57,11 @@
       "category": "UX"
     },
     {
-      "name": "Sylvia Sanchez",
-      "twitter": "https://twitter.com/SylviaSanchez33",
-      "position": "Ava Labs",
-      "photo": "sylvia-sanchez.png",
-      "category": "Regulations"
+      "name": "tincho",
+      "twitter": "https://twitter.com/tinchoabbate",
+      "position": "The Red Guild",
+      "photo": "tincho.png",
+      "category": "Security"
     },
     {
       "name": "Uttam Singh",
@@ -76,6 +76,13 @@
       "position": "Ethereum Foundation",
       "photo": "milos-stankovic.png",
       "category": "Infrastructure and Scaling"
+    },
+    {
+      "name": "Angus Tookey",
+      "twitter": "https://twitter.com/angustookey",
+      "position": "Chronicle",
+      "photo": "angus-tookey.png",
+      "category": "DeFi"
     },
     {
       "name": "definikola",
@@ -111,6 +118,13 @@
       "position": "Inco",
       "photo": "furkan-akal.png",
       "category": "Privacy"
+    },
+    {
+      "name": "Sylvia Sanchez",
+      "twitter": "https://twitter.com/SylviaSanchez33",
+      "position": "Ava Labs",
+      "photo": "sylvia-sanchez.png",
+      "category": "Regulations"
     },
     {
       "name": "Ilija Rilakovic",
