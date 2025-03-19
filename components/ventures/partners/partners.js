@@ -25,10 +25,18 @@ const Partners = () => (
             <a href="https://www.veryearly.xyz/" target="_blank" rel="noreferrer noopener">
               <img src="/images/ventures/veryearly.svg" alt="" />
             </a>
-
+            <a href="https://www.yay.network/" target="_blank" rel="noreferrer noopener">
+              <img src="/images/ventures/yay-network-logo.svg" alt="Yay.network logo" />
+            </a>
+            <a href="https://polymorphic.capital/" target="_blank" rel="noreferrer noopener">
+              <img src="/images/ventures/polymorphic-capital.svg" alt="Polymorphic Capital logo" />
+            </a>
+            <a href="https://mostcapital.ch/" target="_blank" rel="noreferrer noopener">
+              <img style={{ maxHeight: 80 }} src="/images/ventures/most-capital.png" alt="Most Capital logo" />
+            </a>
           </div>
-          <p>What do you get as a partner?</p>
-          <ul style={{ marginBottom: 50 }}>
+          <p className={styles.sectionTitle}>What do you get as a partner?</p>
+          <ul style={{ marginBottom: 50, marginTop: 20, listStyleType: "disc" }}>
             <li style={{ marginBottom: 7 }}>
               Invitation to all ETH Belgrade Ventures events happening through out the year
               <br />
