@@ -1,7 +1,7 @@
 import styles from "./hero.module.scss";
 import Button from "../../common/button/button";
 import {
-  HACKATHON_APPLICATION_FORM_URL, MENTOR_APPLICATION_FORM_URL, JUDGE_APPLICATION_FORM_URL, DISCORD_URL
+  HACKATHON_APPLICATION_FORM_URL, MENTOR_APPLICATION_FORM_URL, JUDGE_APPLICATION_FORM_URL, DISCORD_URL, HACKATHON_DATE
 } from "../../../constants";
 
 const Hero = () => (
@@ -9,7 +9,7 @@ const Hero = () => (
     <div className={`${styles.relative} container`}>
       <div className={styles.heroContent}>
         <p className={styles.title}>ETH Belgrade Hackathon</p>
-        <p className={styles.dates}>6 - 8 June, 2025</p>
+        <p className={styles.dates}>{HACKATHON_DATE}, 2025</p>
         <div className={styles.subtitle}>
           <p>Participate IRL from Belgrade or online from all over the world.</p>
         </div>
