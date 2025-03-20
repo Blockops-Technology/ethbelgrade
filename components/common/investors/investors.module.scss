@@ -1,0 +1,28 @@
+@import "styles/breakpoints.scss";
+
+.investorsGrid {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 70px;
+  align-items: center;
+  text-align: center;
+  justify-items: center;
+
+  img {
+    max-width: 100%;
+    max-height: 50px;
+    height: 100%;
+  }
+
+  @include breakpoint(tablet) {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+  }
+
+  @include breakpoint(big-mobile) {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+}
