@@ -25,6 +25,9 @@ const Partners = () => (
             <a href="https://www.veryearly.xyz/" target="_blank" rel="noreferrer noopener">
               <img src="/images/ventures/veryearly.svg" alt="" />
             </a>
+            <a href="https://www.cherry.xyz/" target="_blank" rel="noreferrer noopener">
+              <img src="/images/ventures/cherry-logo.svg" alt="Cherry Crypto logo" />
+            </a>
             <a href="https://www.yay.network/" target="_blank" rel="noreferrer noopener">
               <img src="/images/ventures/yay-network-logo.svg" alt="Yay.network logo" />
             </a>
