@@ -6,8 +6,9 @@
 
 .heroImage {
   height: 670px;
-  background: url("/images/venue/dvorana.jpeg") no-repeat center center;
+  background: url("/images/venue/sc2.jpg") no-repeat center center;
   background-size: cover;
+  background-position: center;
 
   @include breakpoint(big-screen) {
     height: 500px;

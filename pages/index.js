@@ -47,7 +47,7 @@ export default function Home() {
       {/*<MediaPartners />*/}
       {/*<Quote />*/}
       <Newsletter />
-      {/*<Venue />*/}
+      <Venue />
     </div>
   )
 }
