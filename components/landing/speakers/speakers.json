@@ -85,11 +85,25 @@
       "category": "DeFi"
     },
     {
+      "name": "Alex Dimitrijevic",
+      "twitter": "https://x.com/alexdimes7",
+      "position": "Web3 Foundation",
+      "photo": "alex-dimitrijevic.png",
+      "category": "Infrastructure and Scaling"
+    },
+    {
       "name": "definikola",
       "twitter": "https://twitter.com/definikola",
       "position": "Blockanalitica",
       "photo": "definikola.png",
       "category": "DeFi"
+    },
+    {
+      "name": "Jim",
+      "twitter": "https://twitter.com/0xjim",
+      "position": "Li.Fi",
+      "photo": "jim-chang.png",
+      "category": "Infrastructure and Scaling"
     },
     {
       "name": "engn33r",
@@ -125,6 +139,13 @@
       "position": "Ava Labs",
       "photo": "sylvia-sanchez.png",
       "category": "Regulations"
+    },
+    {
+      "name": "Cupojoseph",
+      "twitter": "https://twitter.com/cupojoseph",
+      "position": "Nerite.org",
+      "photo": "cupojoseph.png",
+      "category": "Security"
     },
     {
       "name": "Ilija Rilakovic",
