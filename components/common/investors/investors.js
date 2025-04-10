@@ -21,11 +21,15 @@ const Investors = () => {
     <a href="https://www.yay.network/" target="_blank" rel="noreferrer noopener">
       <img src="/images/ventures/yay-network-logo.svg" alt="Yay.network logo" />
     </a>
-    <a href="https://polymorphic.capital/" target="_blank" rel="noreferrer noopener">
-      <img src="/images/ventures/polymorphic-capital.svg" alt="Polymorphic Capital logo" />
+    <a href="https://www.fifthquarter.vc/" target="_blank" rel="noreferrer noopener">
+      <img src="/images/ventures/5qv-logo.svg" alt="Fifth Quarter Venturee logo" />
     </a>
+
     <a href="https://mostcapital.ch/" target="_blank" rel="noreferrer noopener">
       <img style={{ maxHeight: 80 }} src="/images/ventures/most-capital.png" alt="Most Capital logo" />
+    </a>
+    <a href="https://polymorphic.capital/" target="_blank" rel="noreferrer noopener">
+      <img src="/images/ventures/polymorphic-capital.svg" alt="Polymorphic Capital logo" />
     </a>
   </div>);
 };
