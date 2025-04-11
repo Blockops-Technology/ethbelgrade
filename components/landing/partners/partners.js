@@ -103,6 +103,9 @@ const Partners = () => (
           <a href="https://flare.network/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/flare-logo.png" alt="Flare logo" />
           </a>
+          <a href="https://oasis.net/" target="_blank" rel="noreferrer noopener">
+            <img className="!w-full" src="/images/partners/oasis-logo.svg" alt="Oasis logo" />
+          </a>
           <a href="https://buidlguidl.com/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/buidlguidl-logo.svg" alt="BuidlGuidl logo" />
           </a>
