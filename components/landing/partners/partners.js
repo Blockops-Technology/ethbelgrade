@@ -72,6 +72,9 @@ const Partners = () => (
           <a href="https://www.blockscout.com/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/blockscout-logo.svg" alt="Blockscout logo" />
           </a> */}
+          <a href="https://www.rareskills.io/" target="_blank" rel="noreferrer noopener">
+            <img className="!w-full" src="/images/partners/rareskills-logo-dark.svg" alt="RareSkills logo" />
+          </a>
           <a href="https://ethernal.tech/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/ethernal-logo-white.svg" alt="Ethernal logo" />
           </a>
