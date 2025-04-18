@@ -265,6 +265,13 @@
       "position": "Decurity.io",
       "photo": "tatiana-kuznetsova.png",
       "category": "Entrepreneurship"
+    },
+    {
+      "name": "Oxytocin",
+      "twitter": "https://twitter.com/Ytocin_",
+      "position": "ParaSwap DAO",
+      "photo": "oxytocin.png",
+      "category": "DAOs and Governance"
     }
   ]
 }
