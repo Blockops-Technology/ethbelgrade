@@ -23,7 +23,7 @@ const About = () => (
 
       <div className={styles.content}>
         <div className={styles.section}>
-          <p className={styles.sectionTitle}>THE MOST WELCOMING CONFERENCE</p>
+          <p className={styles.sectionTitle}>THE MOST WELCOMING ETH EVENT</p>
           <p>For builders. For Web3 enthusiasts. For Ethereum believers. ETH Belgrade extends a warm embrace to all creatives and explorers eager to share knowledge that will ignite the entire ecosystem. Both the conference and hackathon are crafted to connect like-minded people, providing opportunities for their wildest ideas to come to life. Let&apos;s build together!</p>
         </div>
         <div className={styles.section}>

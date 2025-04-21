@@ -20,10 +20,10 @@ const Partners = () => (
           <a href="https://defisaver.com/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/defi-saver.png" alt="DeFi Saver logo" />
           </a>
-          <a style={{ display: "flex", gap: 20, alignItems: "center", justifyContent: "center" }} href="https://www.johnlilic.info/" target="_blank" rel="noreferrer noopener">
+          {/* <a style={{ display: "flex", gap: 20, alignItems: "center", justifyContent: "center" }} href="https://www.johnlilic.info/" target="_blank" rel="noreferrer noopener">
             <img className="!w-auto" src="/images/partners/johnlilic.jpg" alt="John Lilic logo" />
             <p style={{ fontWeight: "bold", fontSize: 20, textTransform: "uppercase" }}>John Lilic</p>
-          </a>
+          </a> */}
           {/* <a href="https://www.telos.net/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/telos.svg" alt="Telos logo" />
           </a> */}
@@ -72,6 +72,9 @@ const Partners = () => (
           <a href="https://www.blockscout.com/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/blockscout-logo.svg" alt="Blockscout logo" />
           </a> */}
+          <a href="https://www.rareskills.io/" target="_blank" rel="noreferrer noopener">
+            <img className="!w-full" src="/images/partners/rareskills-logo-dark.svg" alt="RareSkills logo" />
+          </a>
           <a href="https://ethernal.tech/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/ethernal-logo-white.svg" alt="Ethernal logo" />
           </a>
@@ -102,6 +105,9 @@ const Partners = () => (
           </a>
           <a href="https://flare.network/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/flare-logo.png" alt="Flare logo" />
+          </a>
+          <a href="https://oasis.net/" target="_blank" rel="noreferrer noopener">
+            <img className="!w-full" src="/images/partners/oasis-logo.svg" alt="Oasis logo" />
           </a>
           <a href="https://buidlguidl.com/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/buidlguidl-logo.svg" alt="BuidlGuidl logo" />

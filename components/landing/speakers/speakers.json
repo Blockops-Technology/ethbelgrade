@@ -1,11 +1,11 @@
 {
   "list": [
     {
-      "name": "John Lilic",
-      "twitter": "https://www.johnlilic.info/",
-      "position": "johnlilic.info",
-      "photo": "john-lilic.png",
-      "category": "Entrepreneurship"
+      "name": "Martin Krung",
+      "twitter": "https://x.com/CurveFinance",
+      "position": "Curve Finance",
+      "photo": "martin-krung.png",
+      "category": "DeFi"
     },
     {
       "name": "Jeffrey Scholz",
@@ -15,11 +15,11 @@
       "category": "DeFi"
     },
     {
-      "name": "Dragan Rakita",
-      "twitter": "https://twitter.com/rakitadragan",
-      "position": "Paradigm",
-      "photo": "dragan-rakita.png",
-      "category": "Core protocol"
+      "name": "Ivan",
+      "twitter": "https://twitter.com/TheTakenUser",
+      "position": "Aragon",
+      "photo": "ivan.png",
+      "category": "DAOs and Governance"
     },
     {
       "name": "TokenBrice",
@@ -57,11 +57,11 @@
       "category": "UX"
     },
     {
-      "name": "Sylvia Sanchez",
-      "twitter": "https://twitter.com/SylviaSanchez33",
-      "position": "Ava Labs",
-      "photo": "sylvia-sanchez.png",
-      "category": "Regulations"
+      "name": "tincho",
+      "twitter": "https://twitter.com/tinchoabbate",
+      "position": "The Red Guild",
+      "photo": "tincho.png",
+      "category": "Security"
     },
     {
       "name": "Uttam Singh",
@@ -71,10 +71,52 @@
       "category": "Infrastructure and Scaling"
     },
     {
+      "name": "Martin Leclercq",
+      "twitter": "https://twitter.com/martinlecl",
+      "position": "iExec",
+      "photo": "martin-leclercq.png",
+      "category": "Privacy"
+    },
+    {
+      "name": "Jim",
+      "twitter": "https://twitter.com/0xjim",
+      "position": "Li.Fi",
+      "photo": "jim-chang.png",
+      "category": "Infrastructure and Scaling"
+    },
+    {
       "name": "Milos Stankovic",
       "twitter": "https://twitter.com/MorphNetrunner",
       "position": "Ethereum Foundation",
       "photo": "milos-stankovic.png",
+      "category": "Infrastructure and Scaling"
+    },
+    {
+      "name": "Anna Kaic",
+      "twitter": "https://x.com/kaicanna",
+      "position": "General Magic / Giveth",
+      "photo": "ana-kaic.png",
+      "category": "Public goods and community"
+    },
+    {
+      "name": "Angus Tookey",
+      "twitter": "https://twitter.com/angustookey",
+      "position": "Chronicle",
+      "photo": "angus-tookey.png",
+      "category": "DeFi"
+    },
+    {
+      "name": "Alex Dimitrijevic",
+      "twitter": "https://x.com/alexdimes7",
+      "position": "Web3 Foundation",
+      "photo": "alex-dimitrijevic.png",
+      "category": "Infrastructure and Scaling"
+    },
+    {
+      "name": "Aayush Giri",
+      "twitter": "https://twitter.com/AayushStack",
+      "position": "Nethermind",
+      "photo": "aayush-giri.png",
       "category": "Infrastructure and Scaling"
     },
     {
@@ -113,6 +155,20 @@
       "category": "Privacy"
     },
     {
+      "name": "Sylvia Sanchez",
+      "twitter": "https://twitter.com/SylviaSanchez33",
+      "position": "Ava Labs",
+      "photo": "sylvia-sanchez.png",
+      "category": "Regulations"
+    },
+    {
+      "name": "Cupojoseph",
+      "twitter": "https://twitter.com/cupojoseph",
+      "position": "Nerite.org",
+      "photo": "cupojoseph.png",
+      "category": "Security"
+    },
+    {
       "name": "Ilija Rilakovic",
       "twitter": "https://twitter.com/LawyerWooden",
       "position": "Attorney at Rilakovic office",
@@ -141,6 +197,20 @@
       "category": "Career Development"
     },
     {
+      "name": "Aleksa Opacic",
+      "twitter": "https://twitter.com/0xAleksaOpacic",
+      "position": "Nil Foundation",
+      "photo": "aleksa-opacic.png",
+      "category": "Infrastructure and Scaling"
+    },
+    {
+      "name": "Lukasz Stoczynski",
+      "twitter": "https://twitter.com/stoczek_eth",
+      "position": "Mimic Protocol",
+      "photo": "lukasz-stoczynski.png",
+      "category": "DeFi"
+    },
+    {
       "name": "Michael Halepas",
       "twitter": "https://twitter.com/MikeHalepas",
       "position": "BlockAML",
@@ -160,6 +230,48 @@
       "position": "Paddle Battle",
       "photo": "loring-harkness.png",
       "category": "Public goods and community"
+    },
+    {
+      "name": "Dejan Radic",
+      "twitter": "https://twitter.com/dejanradicmedejanradicme",
+      "position": "ResolverSys.com",
+      "photo": "dejan-radic.png",
+      "category": "DeFi"
+    },
+    {
+      "name": "Noah Jelich",
+      "twitter": "",
+      "position": "Independent",
+      "photo": "noah-jelic.png",
+      "category": "Security"
+    },
+    {
+      "name": "Jha Sundaram",
+      "twitter": "https://twitter.com/exwhyzeth",
+      "position": "",
+      "photo": "exwhyzee.png",
+      "category": "UX"
+    },
+    {
+      "name": "Damian Rusinek",
+      "twitter": "https://twitter.com/drdr_zz",
+      "position": "Composable Security",
+      "photo": "damian-rusinek.png",
+      "category": "Security"
+    },
+    {
+      "name": "Tatiana Kuznetsova",
+      "twitter": "https://twitter.com/tati_in_crypto",
+      "position": "Decurity.io",
+      "photo": "tatiana-kuznetsova.png",
+      "category": "Entrepreneurship"
+    },
+    {
+      "name": "Oxytocin",
+      "twitter": "https://twitter.com/Ytocin_",
+      "position": "ParaSwap DAO",
+      "photo": "oxytocin.png",
+      "category": "DAOs and Governance"
     }
   ]
 }

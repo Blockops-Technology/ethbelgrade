@@ -1,6 +1,7 @@
 import styles from "./startups.module.scss";
 import Button from "../../common/button/button";
 import Link from "next/link";
+import Investors from "../../common/investors/investors";
 
 const Startups = () => (
   <div id="startups">
@@ -9,7 +10,7 @@ const Startups = () => (
     </div>
     <div className="container">
       <div>
-        <p className={styles.sectionTitle}>Startup Programme</p>
+        <h2 className={styles.sectionTitle}>Startup Programme</h2>
         <p className={styles.subtitle}>ETH Belgrade Ventures</p>
         <div className={styles.mainGrid}>
           <div>
@@ -20,8 +21,8 @@ const Startups = () => (
             <p>The <strong>ETH Belgrade Ventures Startup Programme</strong> connects startups at any funding stage with top-tier VCs and investors. This exclusive track is designed for the most promising projects to build relationships, gain exposure, and secure funding.</p>
           </div>
           <div>
-            <p style={{fontWeight: "bold", fontSize: 24, marginTop: 0}}>What’s in it for you?</p>
-            <ul style={{fontSize: 20}}>
+            <p style={{ fontWeight: "bold", fontSize: 24, marginTop: 0, marginBottom: 20 }}>What’s in it for you?</p>
+            <ul style={{ fontSize: 20, listStyleType: "disc" }}>
               <li>A free booth at the conference venue</li>
               <li>The chance to pitch to 30+ top investors</li>
               <li>1-on-1 meetings and speed dating with VCs</li>
@@ -40,27 +41,13 @@ const Startups = () => (
         </div>
       </div>
 
-      {/*<div className={styles.investors}>*/}
-      {/*  <div className={styles.investorsTitle}>*/}
-      {/*    The investors*/}
-      {/*  </div>*/}
+      <div className={styles.investors}>
+        <h3 className={styles.sectionTitle}>
+          The investors
+        </h3>
 
-      {/*  <div className={styles.investorsGrid}>*/}
-      {/*    <div><img src="/images/partners/BlockSplit_logo.png" alt=""/></div>*/}
-      {/*    <div><img src="/images/partners/Unusual-Sour-Logo.png" alt=""/></div>*/}
-      {/*    <div><img src="/images/hackathon-label.png" alt=""/></div>*/}
-      {/*    <div>test2</div>*/}
-      {/*    <div>test3</div>*/}
-      {/*    <div>test1</div>*/}
-      {/*    <div>test2</div>*/}
-      {/*    <div>test3</div>*/}
-      {/*    <div>test1</div>*/}
-      {/*    <div>test2</div>*/}
-      {/*    <div>test3</div>*/}
-      {/*    <div>test3</div>*/}
-      {/*    <div>test3</div>*/}
-      {/*  </div>*/}
-      {/*</div>*/}
+        <Investors />
+      </div>
     </div>
   </div>
 );

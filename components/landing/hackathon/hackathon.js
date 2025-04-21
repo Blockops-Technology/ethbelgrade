@@ -1,6 +1,6 @@
 import styles from "./hackathon.module.scss";
 import Button from "../../common/button/button";
-import { HACKATHON_APPLICATION_FORM_URL, HACKATHON_PRIZE_AMOUNT } from "../../../constants";
+import { HACKATHON_APPLICATION_FORM_URL, HACKATHON_DATE, HACKATHON_PRIZE_AMOUNT } from "../../../constants";
 
 const Hackathon = () => (
   <div id="hackathon" className={styles.hackathon}>
@@ -8,7 +8,7 @@ const Hackathon = () => (
     <div className={styles.pageTitleContainer}>
       <div className={styles.pageTitleWrapper}>
         <p className={styles.pageTitle}>Hackathon</p>
-        <p className={styles.pageSubtitle}>6 - 8 JUNE <span>The first ever decentralized hackathon. Online and IRL</span></p>
+        <p className={styles.pageSubtitle}>{HACKATHON_DATE.toUpperCase()} <span>The first ever decentralized hackathon. Online and IRL</span></p>
       </div>
     </div>
     <div className="container">

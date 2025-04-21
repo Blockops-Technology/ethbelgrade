@@ -1,6 +1,7 @@
 export const YEAR = 2025;
-export const DATE = "3 - 8 June";
-export const DISCOUNT = "50%";
+export const DATE = "3 - 5 June";
+export const HACKATHON_DATE = "3 - 5 June";
+export const DISCOUNT = "30%";
 export const HACKATHON_PRIZE_AMOUNT = "30.000";
 export const SPEAKER_APPLICATION_FORM_URL = "https://forms.gle/QJgjcHfNrthaNwmf6";
 export const SPONSOR_APPLICATION_FORM_URL = "https://forms.gle/c9g8f4m6N2Fi5FiY6";

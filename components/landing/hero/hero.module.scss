@@ -21,7 +21,7 @@
 
   @include breakpoint(medium-screen) {
     font-size: 120px;
-    max-width: 400px;
+    max-width: 500px;
   }
 
   @include breakpoint(tablet) {
@@ -116,7 +116,7 @@
   }
 
   @include breakpoint(medium-mobile) {
-   top: -20px;
+    top: -20px;
   }
 }
 
@@ -128,10 +128,10 @@
   }
 
   100% {
-     -webkit-transform: rotate(1turn);
-     -moz-transform: rotate(1turn);
-     transform: rotate(1turn);
-   }
+    -webkit-transform: rotate(1turn);
+    -moz-transform: rotate(1turn);
+    transform: rotate(1turn);
+  }
 }
 
 .buttons {
@@ -148,4 +148,3 @@
     width: 100%;
   }
 }
-
