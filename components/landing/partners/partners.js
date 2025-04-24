@@ -56,13 +56,10 @@ const Partners = () => (
           </a>
           <a href="https://linea.build/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/linea-logo.svg" alt="Linea logo" />
-          </a>
+          </a> */}
           <a href="https://lido.fi/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/lido-logo.svg" alt="Lido logo" />
           </a>
-          <a href="https://ledger.com/" target="_blank" rel="noreferrer noopener">
-            <img src="/images/partners/ledger-logo.svg" alt="Ledger logo" />
-          </a> */}
           <a href="https://li.fi/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/lifi-logo.svg" alt="LiFi logo" />
           </a>
@@ -108,6 +105,9 @@ const Partners = () => (
           </a>
           <a href="https://oasis.net/" target="_blank" rel="noreferrer noopener">
             <img className="!w-full" src="/images/partners/oasis-logo.svg" alt="Oasis logo" />
+          </a>
+          <a href="https://ledger.com/" target="_blank" rel="noreferrer noopener">
+            <img src="/images/partners/ledger-logo.svg" alt="Ledger logo" />
           </a>
           <a href="https://buidlguidl.com/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/buidlguidl-logo.svg" alt="BuidlGuidl logo" />
