@@ -1,3 +1,4 @@
+import React from "react";
 import Image from "next/image";
 
 const cateogryToColor = {
@@ -14,9 +15,9 @@ const cateogryToColor = {
   "regulations": "text-[dodgerblue]",
 }
 
-const SpeakerCard = ({ speaker: { name, image, company, category, link } }) => {
+const SpeakerCard = React.forwardRef(({ speaker: { name, image, company, category, link } }, ref) => {
   return (
-    <div className="flex items-center gap-4 bg-gray-900/50 p-4 rounded-sm">
+    <div ref={ref} className="flex items-center gap-4 bg-gray-900/50 p-4 rounded-sm">
       <Image src={image} alt={name} width={100} height={100} />
       <div>
         <p className="text-sm font-bold">{name}</p>
@@ -26,6 +27,6 @@ const SpeakerCard = ({ speaker: { name, image, company, category, link } }) => {
       </div>
     </div>
   );
-};
+});
 
 export default SpeakerCard;

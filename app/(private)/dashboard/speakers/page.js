@@ -1,6 +1,8 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import SortableList, { SortableItem } from 'react-easy-sort';
+import arrayMove from 'array-move';
 import Link from "next/link";
 import SpeakerCard from "@/components/dashboard/speaker-card/speaker-card";
 
@@ -17,9 +19,14 @@ const Speakers = () => {
   useEffect(() => {
     fetchSpeakers();
   }, []);
+  
+  const onSortEnd = (oldIndex, newIndex) => {
+    console.log(oldIndex, newIndex);
+    setSpeakers((array) => arrayMove(array, oldIndex, newIndex));
+  }
 
   return (
-    <div>
+    <SortableList onSortEnd={onSortEnd} className="list" draggedItemClassName="dragged">
       <div className="flex justify-between items-center">
         <h1 className="text-2xl font-bold">Speakers</h1>
         <Link href="/dashboard/speakers/new">
@@ -27,11 +34,13 @@ const Speakers = () => {
         </Link>
       </div>
       <div className="mt-8 grid grid-cols-5 gap-4">
-        {speakers.map((speaker) => (
-          <SpeakerCard key={speaker.name} speaker={speaker} />
+        {speakers.map((speaker, index) => (
+          <SortableItem key={index}>
+            <SpeakerCard speaker={speaker} />
+          </SortableItem>
         ))}
       </div>
-    </div>
+    </SortableList>
   );
 };
 
