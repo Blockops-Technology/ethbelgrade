@@ -78,6 +78,13 @@
       "category": "Privacy"
     },
     {
+      "name": "Matej Janez",
+      "twitter": "https://twitter.com/matejanez",
+      "position": "Oasis",
+      "photo": "matej-janez.png",
+      "category": "Privacy"
+    },
+    {
       "name": "Jim",
       "twitter": "https://twitter.com/0xjim",
       "position": "Li.Fi",
@@ -97,6 +104,13 @@
       "position": "General Magic / Giveth",
       "photo": "ana-kaic.png",
       "category": "Public goods and community"
+    },
+    {
+      "name": "Vukasin Vukoje",
+      "twitter": "https://twitter.com/wukoje",
+      "position": "Ramo",
+      "photo": "vukasin-vukoje.png",
+      "category": "Infrastructure and Scaling"
     },
     {
       "name": "Angus Tookey",
@@ -127,13 +141,6 @@
       "category": "DeFi"
     },
     {
-      "name": "engn33r",
-      "twitter": "https://twitter.com/bl4ckb1rd71",
-      "position": "twyne",
-      "photo": "engn33r.png",
-      "category": "Security"
-    },
-    {
       "name": "Zigtur",
       "twitter": "https://twitter.com/zigtur",
       "position": "Spearbit",
@@ -160,6 +167,13 @@
       "position": "Ava Labs",
       "photo": "sylvia-sanchez.png",
       "category": "Regulations"
+    },
+    {
+      "name": "engn33r",
+      "twitter": "https://twitter.com/bl4ckb1rd71",
+      "position": "twyne",
+      "photo": "engn33r.png",
+      "category": "Security"
     },
     {
       "name": "Cupojoseph",
@@ -197,11 +211,11 @@
       "category": "Career Development"
     },
     {
-      "name": "Aleksa Opacic",
-      "twitter": "https://twitter.com/0xAleksaOpacic",
-      "position": "Nil Foundation",
-      "photo": "aleksa-opacic.png",
-      "category": "Infrastructure and Scaling"
+      "name": "Petar Atanasovski",
+      "twitter": "https://twitter.com/AtanasovskiP",
+      "position": "Curvy",
+      "photo": "petar-atanasovski.png",
+      "category": "Privacy"
     },
     {
       "name": "Lukasz Stoczynski",
@@ -216,6 +230,13 @@
       "position": "BlockAML",
       "photo": "michael-halepas.png",
       "category": "Regulations"
+    },
+    {
+      "name": "Aleksa Opacic",
+      "twitter": "https://twitter.com/0xAleksaOpacic",
+      "position": "Nil Foundation",
+      "photo": "aleksa-opacic.png",
+      "category": "Infrastructure and Scaling"
     },
     {
       "name": "Marina Petrichenko",
