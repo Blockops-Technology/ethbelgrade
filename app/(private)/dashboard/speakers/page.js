@@ -6,13 +6,14 @@ import arrayMove from 'array-move';
 import Link from "next/link";
 import SpeakerCard from "@/components/dashboard/speaker-card/speaker-card";
 
+const ORDER_SPACING = 1000000000;
+
 const Speakers = () => {
   const [speakers, setSpeakers] = useState([]);
 
   const fetchSpeakers = async () => {
     const response = await fetch("/api/speaker");
     const data = await response.json();
-    console.log(data);
     setSpeakers(data);
   };
 
@@ -20,8 +21,18 @@ const Speakers = () => {
     fetchSpeakers();
   }, []);
   
-  const onSortEnd = (oldIndex, newIndex) => {
-    console.log(oldIndex, newIndex);
+  const onSortEnd = async (oldIndex, newIndex) => {
+    if (newIndex === 0) {
+      speakers[oldIndex].order = Math.ceil(speakers[newIndex].order / 2);
+    } else if (newIndex === speakers.length - 1) {
+      speakers[oldIndex].order = speakers[newIndex].order + ORDER_SPACING;
+    } else {
+      speakers[oldIndex].order = Math.ceil((speakers[newIndex + 1].order - speakers[newIndex].order)  / 2 + speakers[newIndex].order);
+    }
+    const response = await fetch("/api/speaker", {
+      method: "PUT",
+      body: JSON.stringify(speakers[oldIndex]),
+    });
     setSpeakers((array) => arrayMove(array, oldIndex, newIndex));
   }
 

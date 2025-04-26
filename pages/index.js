@@ -60,7 +60,7 @@ Home.getLayout = mainLayout;
 export const getServerSideProps = async () => {
   try {
     await connectMongo();
-    const speakers = await Speaker.find();
+    const speakers = await Speaker.find().sort({order: 1});
     return {
       props: { speakers: JSON.parse(JSON.stringify(speakers)) },
     };

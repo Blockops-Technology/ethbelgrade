@@ -2,7 +2,7 @@ import connectMongo from "@/lib/mongoose";
 import Speaker from "@/models/Speaker";
 import { NextResponse } from "next/server";
 
-const ORDER_SPACING = 1000000;
+const ORDER_SPACING = 1000000000;
 
 export async function GET(request) {
   await connectMongo();
