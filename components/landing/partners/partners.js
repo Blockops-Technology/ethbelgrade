@@ -95,7 +95,7 @@ const Partners = () => (
         <p className={styles.tier}>Community supporter</p>
         <div className={styles.sponsorsList}>
           <a href="https://www.liquity.org/" target="_blank" rel="noreferrer noopener">
-            <img src="/images/partners/liquity.png" alt="Liquity logo" />
+            <img src="/images/partners/liquity-logo-white2.svg" alt="Liquity logo" />
           </a>
         </div>
 
