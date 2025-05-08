@@ -92,6 +92,13 @@ const Partners = () => (
           </a> */}
         </div>
 
+        <p className={styles.tier}>Community supporter</p>
+        <div className={styles.sponsorsList}>
+          <a href="https://www.liquity.org/" target="_blank" rel="noreferrer noopener">
+            <img src="/images/partners/liquity.png" alt="Liquity logo" />
+          </a>
+        </div>
+
         <p className={styles.tier}>Hackathon sponsors</p>
         <div className={styles.sponsorsList}>
           <a href="https://chain.link/" target="_blank" rel="noreferrer noopener">
@@ -106,15 +113,21 @@ const Partners = () => (
           <a href="https://oasis.net/" target="_blank" rel="noreferrer noopener">
             <img className="!w-full" src="/images/partners/oasis-logo.svg" alt="Oasis logo" />
           </a>
+          <a href="https://xsolla.com/" target="_blank" rel="noreferrer noopener">
+            <img src="/images/partners/xsolla-logo.svg" alt="Xsolla logo" />
+          </a>
+          <a href="https://quex.tech/" target="_blank" rel="noreferrer noopener">
+            <img src="/images/partners/quex2.png" alt="Quex logo" />
+          </a>
+          <a href="https://neonevm.org/" target="_blank" rel="noreferrer noopener">
+            <img src="/images/partners/neon-evm.png" alt="Neon EVM logo" />
+          </a>
           <a href="https://ledger.com/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/ledger-logo.svg" alt="Ledger logo" />
           </a>
           <a href="https://buidlguidl.com/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/buidlguidl-logo.svg" alt="BuidlGuidl logo" />
           </a>
-          {/* <a href="https://neonevm.org/" target="_blank" rel="noreferrer noopener">
-            <img src="/images/partners/neon-evm.png" alt="Neon EVM logo" />
-          </a> */}
         </div>
 
         <p className={styles.tier}>Coffee sponsor</p>
@@ -137,42 +150,39 @@ const Partners = () => (
           </a>
         </div>
 
-        {/* <p className={styles.tier}>Partners</p>
-        <div className={styles.sponsorsList}> */}
-        {/* <a href="https://web3securitysummit.com/" target="_blank" rel="noreferrer noopener">
+        <p className={styles.tier}>Partners</p>
+        <div className={styles.sponsorsList}>
+          <a href="https://web3securitysummit.com/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/web3-sec-summit-logo-light.png" alt="Web3 Security Summit logo" />
           </a>
           <a href="https://rustsummit.com/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/rust-summit-logo.svg" alt="Rust Summit logo" />
           </a>
-          <a href="https://www.ethbucharest.xyz/" target="_blank" rel="noreferrer noopener">
-            <img src="/images/partners/eth-bucharest-logo-white.svg" alt="ETH Bucharest logo" />
-          </a>
           <a href="https://blocksplit.net/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/BlockSplit_logo.png" alt="BlockSplit logo" />
           </a>
           <a href="https://www.ethsofia.com/" target="_blank" rel="noreferrer noopener">
-            <img src="/images/partners/ethsofia-logo.svg" alt="ETH Sofia logo" />
+            <img src="/images/partners/eth-sofia.png" alt="ETH Sofia logo" />
           </a>
           <a href="https://www.ethaccra.xyz/" target="_blank" rel="noreferrer noopener">
-            <img style={{ maxHeight: 90 }} src="/images/partners/eth-accra-logo.svg" alt="ETH Accra logo" />
+            <img src="/images/partners/eth-accra.png" alt="ETH Accra logo" />
           </a>
-          <a href="https://layerx.xyz/" target="_blank" rel="noreferrer noopener">
-            <img src="/images/partners/LayerX-logo.svg" alt="LayerX logo" />
-          </a> */}
-        {/* <a href="https://mvpworkshop.co/" target="_blank" rel="noreferrer noopener">
-            <img src="/images/partners/mvp-logo.png" alt="MVP Workshop logo" />
+          <a href="https://ethbratislava.com/" target="_blank" rel="noreferrer noopener">
+            <img src="/images/partners/eth-bratislava.webp" alt="ETH Bratislava logo" />
           </a>
-          <a href="https://attic42.com/" target="_blank" rel="noreferrer noopener">
-            <img src="/images/partners/attic42-logo.svg" alt="Attic 42 logo" />
+          <a href="https://www.ethbucharest.xyz/" target="_blank" rel="noreferrer noopener">
+            <img src="/images/partners/eth-bucharest-logo-white.svg" alt="ETH Bucharest logo" />
           </a>
-          <a href="https://moonstruck.io/" target="_blank" rel="noreferrer noopener">
-            <img src="/images/partners/moonstruck-logo.svg" alt="Moonstruck logo" />
-          </a> */}
-        {/* <a href="https://www.ethtallinn.org/" target="_blank" rel="noreferrer noopener">
-            <img style={{ maxHeight: 120 }} src="/images/partners/ETHTallinn-logo.svg" alt="ETH Tallinn logo" />
-          </a> */}
-        {/* </div> */}
+          <a href="https://ethrwanda.rw/" target="_blank" rel="noreferrer noopener">
+            <img src="/images/partners/eth-rwanda.png" alt="ETH Rwanda logo" />
+          </a>
+          <a href="https://www.aliceinblockchains.io/" target="_blank" rel="noreferrer noopener">
+            <img src="/images/partners/AIB.png" alt="Alice in Blockchain logo" />
+          </a>
+          <a href="https://www.ethbelgium.com/" target="_blank" rel="noreferrer noopener">
+            <img src="/images/partners/eth-belgium.png" alt="ETH Belgium logo" />
+          </a>
+        </div>
       </div>
 
       <div className={styles.ctaSection}>
