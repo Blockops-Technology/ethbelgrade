@@ -44,7 +44,7 @@ export default function Home() {
       <Partners />
       <Hackathon />
       <Startups />
-      {/*<MediaPartners />*/}
+      <MediaPartners />
       {/*<Quote />*/}
       <Newsletter />
       <Venue />
