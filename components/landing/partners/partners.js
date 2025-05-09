@@ -114,7 +114,7 @@ const Partners = () => (
             <img className="!w-full" src="/images/partners/oasis-logo.svg" alt="Oasis logo" />
           </a>
           <a href="https://xsolla.com/" target="_blank" rel="noreferrer noopener">
-            <img src="/images/partners/xsolla-logo.svg" alt="Xsolla logo" />
+            <img src="/images/partners/xsolla-zk.svg" alt="Xsolla logo" />
           </a>
           <a href="https://quex.tech/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/quex2.png" alt="Quex logo" />
@@ -127,6 +127,14 @@ const Partners = () => (
           </a>
           <a href="https://buidlguidl.com/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/buidlguidl-logo.svg" alt="BuidlGuidl logo" />
+          </a>
+        </div>
+
+
+        <p className={styles.tier}>ETH Belgrade Venutres Startup Programme sponsor</p>
+        <div className={styles.sponsorsList}>
+          <a href="https://www.riseworks.io/" target="_blank" rel="noreferrer noopener">
+            <img src="/images/partners/rise-logo.png" alt="Rise logo" />
           </a>
         </div>
 
