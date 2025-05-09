@@ -113,7 +113,7 @@ const Partners = () => (
           <a href="https://oasis.net/" target="_blank" rel="noreferrer noopener">
             <img className="!w-full" src="/images/partners/oasis-logo.svg" alt="Oasis logo" />
           </a>
-          <a href="https://xsolla.com/" target="_blank" rel="noreferrer noopener">
+          <a href="https://xsolla.com/zk" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/xsolla-zk.svg" alt="Xsolla logo" />
           </a>
           <a href="https://quex.tech/" target="_blank" rel="noreferrer noopener">
