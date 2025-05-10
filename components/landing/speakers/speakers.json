@@ -178,7 +178,14 @@
     {
       "name": "Cupojoseph",
       "twitter": "https://twitter.com/cupojoseph",
-      "position": "Nerite.org",
+      "position": "Ackee Blockchain Security",
+      "photo": "cupojoseph.png",
+      "category": "Security"
+    },
+    {
+      "name": "Michal Prevratil",
+      "twitter": "https://twitter.com/michprev",
+      "position": "michal-prevratil.org",
       "photo": "cupojoseph.png",
       "category": "Security"
     },
@@ -267,13 +274,6 @@
       "category": "Security"
     },
     {
-      "name": "Jha Sundaram",
-      "twitter": "https://twitter.com/exwhyzeth",
-      "position": "",
-      "photo": "exwhyzee.png",
-      "category": "UX"
-    },
-    {
       "name": "Damian Rusinek",
       "twitter": "https://twitter.com/drdr_zz",
       "position": "Composable Security",
@@ -290,9 +290,86 @@
     {
       "name": "Oxytocin",
       "twitter": "https://twitter.com/Ytocin_",
-      "position": "ParaSwap DAO",
+      "position": "Velora",
       "photo": "oxytocin.png",
       "category": "DAOs and Governance"
+    },
+    {
+      "name": "David Scheidl",
+      "twitter": "https://twitter.com/DaGscheid",
+      "position": "Stereum",
+      "photo": "david-scheidl.png",
+      "category": "Dev Tooling"
+    },
+    {
+      "name": "Paulo Fonseca",
+      "twitter": "https://twitter.com/paulofonseca__",
+      "position": "proposals.app",
+      "photo": "paulo-fonseca.png",
+      "category": "DAOs and Governance"
+    },
+    {
+      "name": "Guilherme Jovanovic",
+      "twitter": "https://twitter.com/yayprotocol",
+      "position": "YAY Network",
+      "photo": "guilherme-jovanovic.png",
+      "category": "Entrepreneurship"
+    },
+    {
+      "name": "Ovidiu Damian",
+      "twitter": "https://twitter.com/Ovcd27",
+      "position": "Pi Squared",
+      "photo": "ovidiu-damian.png",
+      "category": "Infrastructure and Scaling"
+    },
+    {
+      "name": "Artem",
+      "twitter": "https://twitter.com/artem_mighty",
+      "position": "Mighty",
+      "photo": "artem-mighty.png",
+      "category": "NFT"
+    },
+    {
+      "name": "Jacob Haap",
+      "twitter": "https://twitter.com/jacobhaap",
+      "position": "Anomaly Science",
+      "photo": "jacob-haap.png",
+      "category": "UX"
+    },
+    {
+      "name": "Tobias van Amstel",
+      "twitter": "https://twitter.com/tobiasvanamstel",
+      "position": "Altitude.fi",
+      "photo": "tobias-van-amstel.png",
+      "category": "DeFi"
+    },
+    {
+      "name": "Balint Ujvari",
+      "twitter": "https://github.com/bosi95",
+      "position": "SolarPunk Ltd.",
+      "photo": "balint-ujvari.png",
+      "category": "Dev Tooling"
+    },
+    {
+      "name": "Laurence Kirk",
+      "twitter": "https://github.com/Extropy",
+      "position": "Extropy.IO",
+      "photo": "laurence-kirk.png",
+      "category": "Security"
+    },
+    {
+      "name": "Rastko Misulic",
+      "twitter": "https://github.com/rmisulic",
+      "position": "Ceres Blockchain Solutions",
+      "photo": "rastko-misulic.png",
+      "category": "Infrastructure and Scaling"
+    },
+    {
+      "name": "makemake",
+      "twitter": "https://github.com/makemake_kbo",
+      "position": "Phylax",
+      "photo": "makemake-vukasin.png",
+      "category": "Infrastructure and Scaling"
     }
   ]
 }
