@@ -31,6 +31,9 @@ const Investors = () => {
     <a href="https://polymorphic.capital/" target="_blank" rel="noreferrer noopener">
       <img src="/images/ventures/polymorphic-capital.svg" alt="Polymorphic Capital logo" />
     </a>
+    <a href="https://easycapital.io/" target="_blank" rel="noreferrer noopener">
+      <img className="w-full" src="/images/ventures/easy-capital-logo.svg" alt="Easy Capital logo" />
+    </a>
   </div>);
 };
 
