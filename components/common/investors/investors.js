@@ -34,6 +34,9 @@ const Investors = () => {
     <a href="https://easycapital.io/" target="_blank" rel="noreferrer noopener">
       <img className="w-full" src="/images/ventures/easy-capital-logo.svg" alt="Easy Capital logo" />
     </a>
+    <a href="https://v3v.com/" target="_blank" rel="noreferrer noopener">
+      <img className="w-full" src="/images/ventures/v3v-logo.svg" alt="V3V Ventures logo" />
+    </a>
   </div>);
 };
 
