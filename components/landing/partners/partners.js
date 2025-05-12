@@ -117,7 +117,7 @@ const Partners = () => (
             <img className="!w-full" src="/images/partners/oasis-logo.svg" alt="Oasis logo" />
           </a>
           <a href="https://xsolla.com/zk" target="_blank" rel="noreferrer noopener">
-            <img src="/images/partners/xsolla-zk.svg" alt="Xsolla logo" />
+            <img src="/images/partners/xsolla-zk-logo.svg" alt="Xsolla logo" />
           </a>
           <a href="https://quex.tech/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/quex2.png" alt="Quex logo" />
