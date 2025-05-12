@@ -104,6 +104,9 @@ const Partners = () => (
           <a href="https://chain.link/" target="_blank" rel="noreferrer noopener">
             <img className="!w-full" src="/images/partners/chainlink-logo.svg" alt="Chainlink logo" />
           </a>
+          <a href="https://polkadot.com/" target="_blank" rel="noreferrer noopener">
+            <img src="/images/partners/polkadot.svg" alt="Polkadot logo" />
+          </a>
           <a href="https://www.iex.ec/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/iexec-logo.svg" alt="iExec logo" />
           </a>
@@ -120,7 +123,7 @@ const Partners = () => (
             <img src="/images/partners/quex2.png" alt="Quex logo" />
           </a>
           <a href="https://neonevm.org/" target="_blank" rel="noreferrer noopener">
-            <img src="/images/partners/neon-evm.png" alt="Neon EVM logo" />
+            <img className="w-full" src="/images/partners/neonEVM-logo.svg" alt="Neon EVM logo" />
           </a>
           <a href="https://ledger.com/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/ledger-logo.svg" alt="Ledger logo" />
@@ -128,9 +131,9 @@ const Partners = () => (
           <a href="https://origintrail.io/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/origin-trail.svg" alt="Origin Trail logo" />
           </a>
-          <a href="https://buidlguidl.com/" target="_blank" rel="noreferrer noopener">
+          {/* <a href="https://buidlguidl.com/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/buidlguidl-logo.svg" alt="BuidlGuidl logo" />
-          </a>
+          </a> */}
         </div>
 
 
