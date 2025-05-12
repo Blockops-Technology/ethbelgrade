@@ -196,6 +196,9 @@ const Partners = () => (
           <a href="https://www.ethbelgium.com/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/eth-belgium.png" alt="ETH Belgium logo" />
           </a>
+          <a href="https://www.ethcluj.org/" target="_blank" rel="noreferrer noopener">
+            <img src="/images/partners/ethcluj.png" alt="ETH Cluj logo" />
+          </a>
         </div>
       </div>
 
