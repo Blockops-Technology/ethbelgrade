@@ -36,11 +36,11 @@ const Hero = () => (
               Become a sponsor
             </Button>
           </a>
-          <a href={SPEAKER_APPLICATION_FORM_URL} target="_blank" rel="noreferrer noopener">
+          {/* <a href={SPEAKER_APPLICATION_FORM_URL} target="_blank" rel="noreferrer noopener">
             <Button styleType="blue">
               Apply as a speaker
             </Button>
-          </a>
+          </a> */}
           <a href={TICKETING_PLATFORM_URL} target="_blank" rel="noreferrer noopener">
             <Button>Get Tickets ({DISCOUNT} off)</Button>
           </a>

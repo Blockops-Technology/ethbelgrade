@@ -15,11 +15,11 @@ const Speakers = () => {
             <p className={styles.title}>The brightest Web3 minds</p>
             <p className={styles.subtitle}>have something to say</p>
           </div>
-          <div>
+          {/* <div>
             <a href={SPEAKER_APPLICATION_FORM_URL} target="_blank" rel="noreferrer noopener">
               <Button styleType="purple">Apply as a speaker</Button>
             </a>
-          </div>
+          </div> */}
         </div>
         <div className={styles.speakerList}>
           {
