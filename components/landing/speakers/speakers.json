@@ -22,6 +22,13 @@
       "category": "DAOs and Governance"
     },
     {
+      "name": "Kate Zueva",
+      "twitter": "https://twitter.com/zuzu_eeka",
+      "position": "Lido",
+      "photo": "kate-zueva.png",
+      "category": "DAOs and Governance"
+    },
+    {
       "name": "TokenBrice",
       "twitter": "https://twitter.com/TokenBrice",
       "position": "The DeFi Collective",
@@ -36,10 +43,10 @@
       "category": "Infrastructure and Scaling"
     },
     {
-      "name": "Viraz Malhotra",
-      "twitter": "https://twitter.com/Viraz04",
-      "position": "Fuel Labs",
-      "photo": "viraz-malhotra.png",
+      "name": "Hugo Cavaleiro",
+      "twitter": "https://twitter.com/hughlechevalier",
+      "position": "Neon EVM",
+      "photo": "hugo-cavaleiro.png",
       "category": "Infrastructure and Scaling"
     },
     {
@@ -90,6 +97,13 @@
       "position": "Li.Fi",
       "photo": "jim-chang.png",
       "category": "Infrastructure and Scaling"
+    },
+    {
+      "name": "Jen",
+      "twitter": "https://twitter.com/TariQuin",
+      "position": "Lido",
+      "photo": "jen-lido.png",
+      "category": "DAOs and Governance"
     },
     {
       "name": "Milos Stankovic",
@@ -178,15 +192,15 @@
     {
       "name": "Cupojoseph",
       "twitter": "https://twitter.com/cupojoseph",
-      "position": "Ackee Blockchain Security",
+      "position": "Nerite.org",
       "photo": "cupojoseph.png",
       "category": "Security"
     },
     {
       "name": "Michal Prevratil",
       "twitter": "https://twitter.com/michprev",
-      "position": "michal-prevratil.org",
-      "photo": "cupojoseph.png",
+      "position": "Ackee Blockchain Security",
+      "photo": "michal-prevratil.png",
       "category": "Security"
     },
     {
