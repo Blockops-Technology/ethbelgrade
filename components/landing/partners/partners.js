@@ -75,6 +75,9 @@ const Partners = () => (
           <a href="https://ethernal.tech/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/ethernal-logo-white.svg" alt="Ethernal logo" />
           </a>
+          <a href="https://cosmoverse.org/" target="_blank" rel="noreferrer noopener">
+            <img className="!max-h-[70px]" src="/images/partners/cosmoverse-vertical.png" alt="Cosmoverse 2025 logo" />
+          </a>
           {/* <a href="https://metamask.io/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/metamask-logo.svg" alt="MetaMask logo" />
           </a>
@@ -96,6 +99,12 @@ const Partners = () => (
         <div className={styles.sponsorsList}>
           <a href="https://www.liquity.org/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/liquity-logo-white2.svg" alt="Liquity logo" />
+          </a>
+          <a href="https://www.txfusion.io/" target="_blank" rel="noreferrer noopener">
+            <img className="w-full" src="/images/partners/tx-fusion.svg" alt="txFusion logo" />
+          </a>
+          <a href="https://shardlabs.io/" target="_blank" rel="noreferrer noopener">
+            <img className="w-full" src="/images/partners/shardlabs.svg" alt="Shardlabs logo" />
           </a>
         </div>
 
