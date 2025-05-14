@@ -37,6 +37,9 @@ const Investors = () => {
     <a href="https://v3v.com/" target="_blank" rel="noreferrer noopener">
       <img className="w-full" src="/images/ventures/v3v-logo.svg" alt="V3V Ventures logo" />
     </a>
+    <a href="https://funders.vc/" target="_blank" rel="noreferrer noopener">
+      <img className="w-full" src="/images/ventures/funders.svg" alt="Funders Ventures logo" />
+    </a>
   </div>);
 };
 
