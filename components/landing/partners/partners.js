@@ -100,6 +100,9 @@ const Partners = () => (
           <a href="https://www.liquity.org/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/liquity-logo-white2.svg" alt="Liquity logo" />
           </a>
+          <a href="https://citrea.xyz/" target="_blank" rel="noreferrer noopener">
+            <img className="w-full" src="/images/partners/citrea.svg" alt="Citrea logo" />
+          </a>
           <a href="https://www.txfusion.io/" target="_blank" rel="noreferrer noopener">
             <img className="w-full" src="/images/partners/tx-fusion.svg" alt="txFusion logo" />
           </a>
