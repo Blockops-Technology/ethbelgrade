@@ -43,18 +43,39 @@
       "category": "Infrastructure and Scaling"
     },
     {
-      "name": "Hugo Cavaleiro",
-      "twitter": "https://twitter.com/hughlechevalier",
-      "position": "Neon EVM",
-      "photo": "hugo-cavaleiro.png",
+      "name": "Sergey Potekhin",
+      "twitter": "https://twitter.com/potekhin_sergey",
+      "position": "Pimlico",
+      "photo": "sergey-potekhin.png",
+      "category": "Dev Tooling"
+    },
+    {
+      "name": "Uttam Singh",
+      "twitter": "https://twitter.com/uttam_singhk",
+      "position": "Alchemy",
+      "photo": "uttam-singh.png",
       "category": "Infrastructure and Scaling"
     },
     {
-      "name": "Brenda Loya",
-      "twitter": "https://twitter.com/JustBrendax",
-      "position": "Tellor",
-      "photo": "brenda-loya.png",
-      "category": "DeFi"
+      "name": "Milos Stankovic",
+      "twitter": "https://twitter.com/MorphNetrunner",
+      "position": "Ethereum Foundation",
+      "photo": "milos-stankovic.png",
+      "category": "Infrastructure and Scaling"
+    },
+    {
+      "name": "Julia Gallen",
+      "twitter": "https://twitter.com/Jules_Gallen",
+      "position": "Neon EVM",
+      "photo": "julia-gallen.png",
+      "category": "Infrastructure and Scaling"
+    },
+    {
+      "name": "Jen",
+      "twitter": "https://twitter.com/TariQuin",
+      "position": "Lido",
+      "photo": "jen-lido.png",
+      "category": "DAOs and Governance"
     },
     {
       "name": "Luka Isailovic",
@@ -69,13 +90,6 @@
       "position": "The Red Guild",
       "photo": "tincho.png",
       "category": "Security"
-    },
-    {
-      "name": "Uttam Singh",
-      "twitter": "https://twitter.com/uttam_singhk",
-      "position": "Alchemy",
-      "photo": "uttam-singh.png",
-      "category": "Infrastructure and Scaling"
     },
     {
       "name": "Martin Leclercq",
@@ -99,25 +113,25 @@
       "category": "Infrastructure and Scaling"
     },
     {
-      "name": "Jen",
-      "twitter": "https://twitter.com/TariQuin",
-      "position": "Lido",
-      "photo": "jen-lido.png",
-      "category": "DAOs and Governance"
-    },
-    {
-      "name": "Milos Stankovic",
-      "twitter": "https://twitter.com/MorphNetrunner",
-      "position": "Ethereum Foundation",
-      "photo": "milos-stankovic.png",
-      "category": "Infrastructure and Scaling"
-    },
-    {
       "name": "Anna Kaic",
       "twitter": "https://x.com/kaicanna",
       "position": "General Magic / Giveth",
       "photo": "ana-kaic.png",
       "category": "Public goods and community"
+    },
+    {
+      "name": "Sasha Pitkevich",
+      "twitter": "https://x.com/APitkevich",
+      "position": "EPAM",
+      "photo": "sasha-pitkevich.png",
+      "category": "DAOs and Governance"
+    },
+    {
+      "name": "Brenda Loya",
+      "twitter": "https://twitter.com/JustBrendax",
+      "position": "Tellor",
+      "photo": "brenda-loya.png",
+      "category": "DeFi"
     },
     {
       "name": "Vukasin Vukoje",
