@@ -109,6 +109,9 @@ const Partners = () => (
           <a href="https://shardlabs.io/" target="_blank" rel="noreferrer noopener">
             <img className="w-full" src="/images/partners/shardlabs.svg" alt="Shardlabs logo" />
           </a>
+          <a href="https://poap.xyz//" target="_blank" rel="noreferrer noopener">
+            <img className="!max-h-[70px] w-full" src="/images/partners/poap.svg" alt="POAP logo" />
+          </a>
         </div>
 
         <p className={styles.tier}>Hackathon sponsors</p>
@@ -142,6 +145,9 @@ const Partners = () => (
           </a>
           <a href="https://origintrail.io/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/origin-trail.svg" alt="Origin Trail logo" />
+          </a>
+          <a href="https://www.civic.com/" target="_blank" rel="noreferrer noopener">
+            <img src="/images/partners/civic.svg" alt="Civic logo" />
           </a>
           {/* <a href="https://buidlguidl.com/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/buidlguidl-logo.svg" alt="BuidlGuidl logo" />
