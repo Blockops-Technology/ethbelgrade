@@ -173,9 +173,10 @@
 
 .name {
   font-family: var(--anton);
-  font-size: 28px;
+  font-size: 24px;
   text-transform: uppercase;
-  margin: 0;
+  line-height: 1.2;
+  margin: 10px 0 0;
 
   @include breakpoint(medium-screen) {
     font-size: 20px;
@@ -188,7 +189,8 @@
 
 .position {
   font-size: 20px;
-  margin: 0;
+  line-height: 1.1;
+  margin: 3px 0 0;
 
   @include breakpoint(medium-screen) {
     font-size: 16px;
