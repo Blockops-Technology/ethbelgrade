@@ -50,13 +50,6 @@
       "category": "Dev Tooling"
     },
     {
-      "name": "Uttam Singh",
-      "twitter": "https://twitter.com/uttam_singhk",
-      "position": "Alchemy",
-      "photo": "uttam-singh.png",
-      "category": "Infrastructure and Scaling"
-    },
-    {
       "name": "Milos Stankovic",
       "twitter": "https://twitter.com/MorphNetrunner",
       "position": "Ethereum Foundation",
@@ -489,6 +482,27 @@
       "position": "Ketler & Partners",
       "photo": "kevin-rihtar.png",
       "category": "DAOs and Governance"
+    },
+    {
+      "name": "David Veselinovic",
+      "twitter": "",
+      "position": "Crypto12",
+      "photo": "david-veselinovic.png",
+      "category": "Regulations"
+    },
+    {
+      "name": "Aleksa Urosevic",
+      "twitter": "https://twitter.com/AleksaUrosevic7",
+      "position": "Decenter",
+      "photo": "aleksa-urosevic.png",
+      "category": "DeFi"
+    },
+    {
+      "name": "mmlado.eth",
+      "twitter": "https://twitter.com/mladenmilankovi",
+      "position": "HTEC",
+      "photo": "mladen.png",
+      "category": "Privacy"
     }
   ]
 }
