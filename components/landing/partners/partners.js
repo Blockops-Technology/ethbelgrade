@@ -106,8 +106,8 @@ const Partners = () => (
           <a href="https://www.txfusion.io/" target="_blank" rel="noreferrer noopener">
             <img className="w-full" src="/images/partners/tx-fusion.svg" alt="txFusion logo" />
           </a>
-          <a href="https://shardlabs.io/" target="_blank" rel="noreferrer noopener">
-            <img className="w-full" src="/images/partners/shardlabs.svg" alt="Shardlabs logo" />
+          <a href="https://www.spaceshard.io/" target="_blank" rel="noreferrer noopener">
+            <img className="w-full" src="/images/partners/spaceshard.png" alt="Space Shard logo" />
           </a>
           <a href="https://poap.xyz//" target="_blank" rel="noreferrer noopener">
             <img className="!max-h-[70px] w-full" src="/images/partners/poap.svg" alt="POAP logo" />
