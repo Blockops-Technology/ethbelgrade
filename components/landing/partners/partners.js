@@ -149,6 +149,9 @@ const Partners = () => (
           <a href="https://www.civic.com/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/civic.svg" alt="Civic logo" />
           </a>
+          <a href="https://lisk.com/" target="_blank" rel="noreferrer noopener">
+            <img className="w-full" src="/images/partners/lisk.svg" alt="Lisk logo" />
+          </a>
           {/* <a href="https://buidlguidl.com/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/buidlguidl-logo.svg" alt="BuidlGuidl logo" />
           </a> */}
