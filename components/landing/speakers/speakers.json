@@ -169,6 +169,13 @@
       "category": "Security"
     },
     {
+      "name": "Bojan Peček",
+      "twitter": "https://twitter.com/bjnpck",
+      "position": "Liquity",
+      "photo": "bojan-liquity.png",
+      "category": "DeFi"
+    },
+    {
       "name": "Moody",
       "twitter": "",
       "position": "IFT (Institute of Free Technology)",
@@ -279,13 +286,6 @@
       "position": "Nil Foundation",
       "photo": "aleksa-opacic.png",
       "category": "Infrastructure and Scaling"
-    },
-    {
-      "name": "Marina Petrichenko",
-      "twitter": "https://twitter.com/Crypto_marina",
-      "position": "IFT (Institute of Free Technology)",
-      "photo": "marina-petrichenko.png",
-      "category": "Privacy"
     },
     {
       "name": "Loring Harkness",
