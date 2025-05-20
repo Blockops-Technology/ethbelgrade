@@ -503,6 +503,27 @@
       "position": "HTEC",
       "photo": "mladen.png",
       "category": "Privacy"
+    },
+    {
+      "name": "Vladimir Cvejic",
+      "twitter": "",
+      "position": "Treesury",
+      "photo": "vladimir-cvejic.png",
+      "category": "Entrepreneurship"
+    },
+    {
+      "name": "Yangwao",
+      "twitter": "https://twitter.com/yangwao",
+      "position": "SpaceComputer",
+      "photo": "yangwao.png",
+      "category": "Infrastructure and Scaling"
+    },
+    {
+      "name": "Damjan Dimitrov",
+      "twitter": "https://twitter.com/zkdamien",
+      "position": "Apillon",
+      "photo": "damjan-dimitrov.png",
+      "category": "Dev Tooling"
     }
   ]
 }

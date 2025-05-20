@@ -78,6 +78,9 @@ const Partners = () => (
           <a href="https://cosmoverse.org/" target="_blank" rel="noreferrer noopener">
             <img className="!max-h-[70px]" src="/images/partners/cosmoverse-vertical.png" alt="Cosmoverse 2025 logo" />
           </a>
+          <a href="https://sidechain.pro/" target="_blank" rel="noreferrer noopener">
+            <img style={{ maxHeight: 90 }} src="/images/partners/sidechain-logo.svg" alt="Sidechain logo" />
+          </a>
           {/* <a href="https://metamask.io/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/metamask-logo.svg" alt="MetaMask logo" />
           </a>
@@ -90,9 +93,7 @@ const Partners = () => (
           <a href="https://gateway.fm/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/gateway.svg" alt="Gateway logo" />
           </a>
-          <a href="https://sidechain.pro/" target="_blank" rel="noreferrer noopener">
-            <img style={{ maxHeight: 90 }} src="/images/partners/sidechain-logo.svg" alt="Sidechain logo" />
-          </a> */}
+           */}
         </div>
 
         <p className={styles.tier}>Community supporter</p>
