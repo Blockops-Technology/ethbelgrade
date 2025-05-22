@@ -1,9 +1,10 @@
 import styles from "./speakers.module.scss";
 import Button from "../../common/button/button";
-import speakers from "./speakers.json";
+// import speakers from "./speakers.json";
 import { SPEAKER_APPLICATION_FORM_URL } from "../../../constants";
 
-const Speakers = () => {
+const Speakers = ({speakers}) => {
+  console.log(speakers)
   return (
     <div id="speakers">
       <div className={styles.pageTitleContainer}>
@@ -23,10 +24,10 @@ const Speakers = () => {
         </div>
         <div className={styles.speakerList}>
           {
-            speakers.list.map((speaker, i) => (
+            speakers.map((speaker, i) => (
               <div key={i}>
-                <a href={speaker.twitter} target="_blank" rel="noreferrer noopener">
-                  <img src={`/images/Speakers/${speaker.photo}`} alt={speaker.name + " photo"} />
+                <a href={speaker.link} target="_blank" rel="noreferrer noopener">
+                  <img src={speaker.image} alt={speaker.name + " photo"} />
                   {
                     speaker.category && (
                       <div>
@@ -35,7 +36,7 @@ const Speakers = () => {
                     )
                   }
                   <p className={styles.name}>{speaker.name}</p>
-                  <p className={styles.position}>{speaker.position}</p>
+                  <p className={styles.position}>{speaker.company}</p>
                 </a>
               </div>
             ))

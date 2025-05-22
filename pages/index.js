@@ -1,3 +1,6 @@
+import connectMongo from "@/lib/mongoose";
+import Speaker from "@/models/Speaker";
+
 import Head from "next/head";
 import mainLayout from "../components/common/layout/mainLayout";
 import Hero from "../components/landing/hero/hero";
@@ -13,7 +16,7 @@ import Startups from "../components/landing/startups/startups";
 import Agenda from "../components/landing/agenda/agenda";
 
 import { DATE, YEAR } from "../constants";
-export default function Home() {
+export default function Home({speakers}) {
   const description = `The most welcoming ETH event in the heart of the Balkans. Part of Belgrade Blockchain Week.${DATE} ${YEAR} - see you in Belgrade!`;
   return (
     <div style={{ overflow: "hidden" }}>
@@ -40,7 +43,7 @@ export default function Home() {
       <Hero />
       {/*<Agenda />*/}
       <About />
-      <Speakers />
+      <Speakers speakers={speakers} />
       <Partners />
       <Hackathon />
       <Startups />
@@ -53,3 +56,17 @@ export default function Home() {
 }
 
 Home.getLayout = mainLayout;
+
+export const getServerSideProps = async () => {
+  try {
+    await connectMongo();
+    const speakers = await Speaker.find().sort({order: 1});
+    return {
+      props: { speakers: JSON.parse(JSON.stringify(speakers)) },
+    };
+  } catch (e) {
+      console.error(e);
+      return { props: { speakers: [] } };
+  }
+
+};

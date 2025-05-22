@@ -1,3 +1,14 @@
 @import "./variables.scss";
 @import "./breakpoints.scss";
 @import "./globals.scss";
+
+:root {
+  --rubik: var(--rubik);
+  --roboto-mono: var(--roboto-mono);
+  --anton: var(--anton);
+  --space-grotesk: var(--space-grotesk);
+}
+
+html {
+  font-family: var(--space-grotesk);
+}
