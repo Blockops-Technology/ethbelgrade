@@ -25,7 +25,7 @@ const SpeakerList = (props) => {
     });
 }
 
-function Detail({item}) {
+function Detail({ item }) {
   const style = {
     "--duration": item.slots ? item.slots : 1,
     "--spaces": item.spaces ? item.spaces : 1,
@@ -70,7 +70,7 @@ function Detail({item}) {
     )
 }
 
-function TimeSlot({time, programe}) {
+function TimeSlot({ time, programe }) {
   return (
     <>
       <div className={styles.time}>{time}</div>
@@ -126,7 +126,7 @@ const Agenda = () => (
                 <div className={styles.timeTable}>
                   <div></div>
                   <div className={styles.header}>
-                    <h3> <span></span></h3>
+                    <h3><span></span></h3>
                     <h4>Space 1</h4>
                   </div>
                   <div className={styles.header}>
@@ -135,7 +135,8 @@ const Agenda = () => (
                   </div>
                   <div className={styles.header}>
                     <h3><span></span></h3>
-                    <h4>Space 3</h4>
+                    {/* <img className="w-full !max-w-[110px]" src="/images/partners/rise-logo.png" /> */}
+                    <h4>Rise stage</h4>
                   </div>
                   {timeSlots.map((time, index) => (
                     <TimeSlot key={time} programe={day.programe[time]} time={time} index={index} start={1} duration={1} />
