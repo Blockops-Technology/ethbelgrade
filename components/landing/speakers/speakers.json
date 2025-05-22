@@ -99,6 +99,13 @@
       "category": "Privacy"
     },
     {
+      "name": "Omer Talip Akalin",
+      "twitter": "https://twitter.com/otaliptus",
+      "position": "Citrea",
+      "photo": "talip.png",
+      "category": "Infrastructure and Scaling"
+    },
+    {
       "name": "Jim",
       "twitter": "https://twitter.com/0xjim",
       "position": "Li.Fi",
@@ -120,6 +127,27 @@
       "category": "DAOs and Governance"
     },
     {
+      "name": " Francesco Andreoli",
+      "twitter": "https://twitter.com/wukoje",
+      "position": "Consensys",
+      "photo": "francesco-andreoli.png",
+      "category": "Infrastructure and Scaling"
+    },
+    {
+      "name": " Mirko Garozzo",
+      "twitter": "https://twitter.com/mirkogarozzo",
+      "position": "Zircuit",
+      "photo": "mirko-garozzo.png",
+      "category": "Infrastructure and Scaling"
+    },
+    {
+      "name": "Angus Tookey",
+      "twitter": "https://twitter.com/angustookey",
+      "position": "Chronicle",
+      "photo": "angus-tookey.png",
+      "category": "DeFi"
+    },
+    {
       "name": "Brenda Loya",
       "twitter": "https://twitter.com/JustBrendax",
       "position": "Tellor",
@@ -132,20 +160,6 @@
       "position": "Ramo",
       "photo": "vukasin-vukoje.png",
       "category": "Infrastructure and Scaling"
-    },
-    {
-      "name": "Omer Talip Akalin",
-      "twitter": "https://twitter.com/otaliptus",
-      "position": "Citrea",
-      "photo": "talip.png",
-      "category": "Infrastructure and Scaling"
-    },
-    {
-      "name": "Angus Tookey",
-      "twitter": "https://twitter.com/angustookey",
-      "position": "Chronicle",
-      "photo": "angus-tookey.png",
-      "category": "DeFi"
     },
     {
       "name": "Alex Dimitrijevic",
