@@ -79,8 +79,7 @@
             "title": "Not Another Regulation Talk: What Founders Actually Need to Know",
             "speaker": "David Veselinovic, Ilija Rilakovic",
             "company": "",
-            "youtube": "",
-            "slots": 2
+            "youtube": ""
           }
         ],
         "11:30": [
@@ -89,6 +88,13 @@
             "title": "Stateless Ethereum Clients",
             "speaker": "Milos Stankovic",
             "company": "Ethereum Foundation",
+            "youtube": ""
+          },
+          {
+            "category": "Privacy",
+            "title": "Confidential ERC20: Using FHE to Bring Privacy to DeFi",
+            "speaker": "Furkan Akal",
+            "company": "Inco",
             "youtube": ""
           }
         ],
@@ -151,8 +157,7 @@
             "title": "Promises and Limitations of Passkey-Based Smart Accounts",
             "speaker": "Sergey Potekhin",
             "company": "Pimlico",
-            "youtube": "",
-            "slots": 2
+            "youtube": ""
           },
           {
             "category": "DeFi, Security",
@@ -163,6 +168,13 @@
           }
         ],
         "14:30": [
+          {
+            "category": "Infra/scaling, Dev tooling",
+            "title": "How We Built a Local Cross-Chain Simulator",
+            "speaker": "Andrej Rakic",
+            "company": "ChainlinkNoah Jelich",
+            "youtube": ""
+          },
           {
             "category": "Security",
             "title": "Killing with Keyboards – How Your Digital Footprint Can Be Weaponized",
@@ -215,26 +227,26 @@
         ],
         "16:30": [
           {
-            "category": "",
-            "title": "Securing Ethereum Pectra before mainnet",
-            "speaker": "Zigtur",
-            "company": "Spearbit & Cantina",
+            "category": "DeFi, Security, AI Agents",
+            "title": "AI Agent Custody and Fund Access",
+            "speaker": "Dejan Radic",
+            "company": "ResolverSys.com",
             "youtube": ""
           },
           {
-            "category": "Privacy",
-            "title": "Confidential ERC20: Using FHE to Bring Privacy to DeFi",
-            "speaker": "Furkan Akal",
-            "company": "Inco",
+            "category": "",
+            "title": "",
+            "speaker": "Mariia",
+            "company": "Cow DAO",
             "youtube": ""
           }
         ],
         "17:00": [
           {
-            "category": "Security, Dev tooling",
-            "title": "State of Python Tooling for Solidity Development",
-            "speaker": "Michal Převrátil",
-            "company": "Ackee Blockchain Security",
+            "category": "DeFi",
+            "title": "",
+            "speaker": "Defi Nikola",
+            "company": "Blockanalitica",
             "youtube": ""
           },
           {
@@ -289,10 +301,10 @@
         ],
         "10:00" : [
           {
-            "category": "",
-            "title": "",
-            "speaker": "",
-            "company": "",
+            "category": "Public goods and community, Security, User privacy",
+            "title": "Nescience: A User-Centric State-Separation Architecture",
+            "speaker": "Moody",
+            "company": "Status",
             "youtube": ""
           },
           {
@@ -390,10 +402,10 @@
         ],
         "13:30" : [
           {
-            "category": "Public goods and community, Security, User privacy",
-            "title": "Nescience: A User-Centric State-Separation Architecture",
-            "speaker": "Moody",
-            "company": "Status",
+            "category": "DeFi, AI",
+            "title": "AI without the black box",
+            "speaker": "Matej Janez",
+            "company": "Oasis",
             "youtube": ""
           },
           {
@@ -516,10 +528,10 @@
         ],
         "16:30" : [
           {
-            "category": "DeFi, Security, AI Agents",
-            "title": "AI Agent Custody and Fund Access",
-            "speaker": "Dejan Radic",
-            "company": "ResolverSys.com",
+            "category": "Infra/scaling",
+            "title": "Rollups on Bitcoin",
+            "speaker": "Omer Talip Akalin",
+            "company": "Citrea",
             "youtube": ""
           },
           {
@@ -539,10 +551,10 @@
         ],
         "17:00" : [
           {
-            "category": "DeFi",
+            "category": "",
             "title": "",
-            "speaker": "Defi Nikola",
-            "company": "Blockanalitica",
+            "speaker": "Filip",
+            "company": "Tanari",
             "youtube": ""
           },
           {
@@ -786,11 +798,11 @@
         "16:00" : [
           {
             "category": "",
-            "title": "Citrea",
-            "speaker": "Omer Talip Akalin",
-            "company": "Citrea",
+            "title": "Securing Ethereum Pectra before mainnet",
+            "speaker": "Zigtur",
+            "company": "Spearbit & Cantina",
             "youtube": ""
-          },
+          }, 
           {
             "category": "Dev tooling, UX",
             "title": "The way to fully decentralized dApps",
@@ -801,10 +813,10 @@
         ],
         "16:30" : [
           {
-            "category": "",
-            "title": "",
-            "speaker": "Filip",
-            "company": "Tanari",
+            "category": "Security, Dev tooling",
+            "title": "State of Python Tooling for Solidity Development",
+            "speaker": "Michal Převrátil",
+            "company": "Ackee Blockchain Security",
             "youtube": ""
           },
           {
