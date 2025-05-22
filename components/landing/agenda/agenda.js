@@ -86,7 +86,6 @@ function TimeSlot({ time, programe }) {
 const startTime = 10;
 const endTime = 17;
 const timeSlots = [
-  "08:30",
   "09:00",
   "09:30"
 ];

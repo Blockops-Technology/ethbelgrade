@@ -4,7 +4,7 @@
       "dayName": "Day 1",
       "date": "3 June",
       "programe": {
-        "08:30": [
+        "09:00": [
           {
             "category": "Break",
             "title": "Registration",
@@ -12,10 +12,8 @@
             "company": "",
             "youtube": "",
             "spaces": 3,
-            "slots": 3
+            "slots": 2
           }
-        ],
-        "09:00": [
         ],
         "09:30": [
         ],
@@ -263,29 +261,6 @@
       "dayName": "Day 2",
       "date": "4 June",
       "programe": {
-        "08:30": [
-          {
-            "category": "",
-            "title": "",
-            "speaker": "",
-            "company": "",
-            "youtube": ""
-          },
-          {
-            "category": "",
-            "title": "",
-            "speaker": "",
-            "company": "",
-            "youtube": ""
-          },
-          {
-            "category": "",
-            "title": "",
-            "speaker": "",
-            "company": "",
-            "youtube": ""
-          }
-        ],
         "09:00": [
           {
             "category": "Break",
@@ -578,29 +553,6 @@
       "dayName": "Day 3",
       "date": "5 June",
       "programe": {
-        "08:30": [
-          {
-            "category": "",
-            "title": "",
-            "speaker": "",
-            "company": "",
-            "youtube": ""
-          },
-          {
-            "category": "",
-            "title": "",
-            "speaker": "",
-            "company": "",
-            "youtube": ""
-          },
-          {
-            "category": "",
-            "title": "",
-            "speaker": "",
-            "company": "",
-            "youtube": ""
-          }
-        ],
         "09:00": [
           {
             "category": "Break",
