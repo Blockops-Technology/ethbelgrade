@@ -149,7 +149,7 @@
   @include breakpoint(big-tablet) {
     grid-template-columns: 50px repeat(4, minmax(120px, 1fr));
   }
-  grid-template-rows: auto repeat(18, minmax(130px, 1fr));
+  grid-template-rows: auto repeat(17, minmax(130px, 1fr));
   border-right: 1px solid var(--primary-blue);
   border-bottom: 1px solid var(--primary-blue);
 }
