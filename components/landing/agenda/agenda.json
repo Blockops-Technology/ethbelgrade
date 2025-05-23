@@ -284,7 +284,7 @@
           },
           {
             "category": "DeFi, Dev tooling",
-            "title": "Onchain Minds: Building Blockchain-Aware AI with MCP",
+            "title": "AI Agents, MCP & Blockchain: The New Interaction Paradigm",
             "speaker": "Damjan Dimitrov",
             "company": "",
             "youtube": ""
@@ -676,10 +676,10 @@
             "youtube": ""
           },
           {
-            "category": "Infra/scaling, UX",
-            "title": "Sharding an EVM Chain: The Pitfalls Nobody Warns You About",
-            "speaker": "Aleksa Opacic",
-            "company": "Nil Foundation",
+            "category": "DeFi, Regulations, Entrepreneurship & management",
+            "title": "VC coins VS community coins - how the market is changing",
+            "speaker": "Guilherme Jovanovic",
+            "company": "YAY Network",
             "youtube": ""
           }
         ],
@@ -692,10 +692,10 @@
             "youtube": ""
           },
           {
-            "category": "Infra/scaling, Public goods and community, Dev tooling",
-            "title": "Infinite Languages, One Chain: Expanding Ethereum’s Developer Horizons",
-            "speaker": "Ovidiu Damian",
-            "company": "Pi Squared",
+            "category": "Infra/scaling, UX",
+            "title": "Sharding an EVM Chain: The Pitfalls Nobody Warns You About",
+            "speaker": "Aleksa Opacic",
+            "company": "Nil Foundation",
             "youtube": ""
           }
         ],
@@ -708,10 +708,10 @@
             "youtube": ""
           },
           {
-            "category": "DAOs and governance, Public goods and community, Project & Delivery management",
-            "title": "Distributed Harmony: Unlocking Agile Delivery in a Multi-Source World",
-            "speaker": "Sasha Pitkevich",
-            "company": "EPAM",
+            "category": "Infra/scaling, Public goods and community, Dev tooling",
+            "title": "Infinite Languages, One Chain: Expanding Ethereum’s Developer Horizons",
+            "speaker": "Ovidiu Damian",
+            "company": "Pi Squared",
             "youtube": ""
           }
         ],
@@ -724,10 +724,10 @@
             "youtube": ""
           },
           {
-            "category": "DAOs and governance, UX",
-            "title": "Dramatic Anarchic Organizations",
-            "speaker": "Paulo Fonseca",
-            "company": "proposals.app",
+            "category": "DAOs and governance, Public goods and community, Project & Delivery management",
+            "title": "Distributed Harmony: Unlocking Agile Delivery in a Multi-Source World",
+            "speaker": "Sasha Pitkevich",
+            "company": "EPAM",
             "youtube": ""
           }
         ],
@@ -740,10 +740,10 @@
             "youtube": ""
           },
           {
-            "category": "UX",
-            "title": "The Human Problem: Is Web3 UX Ready for Normal People?",
-            "speaker": "Jacob Haap",
-            "company": "Anomaly Science",
+            "category": "DAOs and governance, UX",
+            "title": "Dramatic Anarchic Organizations",
+            "speaker": "Paulo Fonseca",
+            "company": "proposals.app",
             "youtube": ""
           }
         ],
@@ -756,10 +756,10 @@
             "youtube": ""
           }, 
           {
-            "category": "Dev tooling, UX",
-            "title": "The way to fully decentralized dApps",
-            "speaker": "Balint Ujvari",
-            "company": "SolarPunk Ltd.",
+            "category": "UX",
+            "title": "The Human Problem: Is Web3 UX Ready for Normal People?",
+            "speaker": "Jacob Haap",
+            "company": "Anomaly Science",
             "youtube": ""
           }
         ],
@@ -772,10 +772,10 @@
             "youtube": ""
           },
           {
-            "category": "Entrepreneurship & management, UX, NFTs",
-            "title": "Will NFTs and GameFi make a comeback?",
-            "speaker": "Artem",
-            "company": "Mighty",
+            "category": "Dev tooling, UX",
+            "title": "The way to fully decentralized dApps",
+            "speaker": "Balint Ujvari",
+            "company": "SolarPunk Ltd.",
             "youtube": ""
           }
         ],
@@ -788,10 +788,10 @@
             "youtube": ""
           },
           {
-            "category": "DeFi, Regulations, Entrepreneurship & management",
-            "title": "VC coins VS community coins - how the market is changing",
-            "speaker": "Guilherme Jovanovic",
-            "company": "YAY Network",
+            "category": "Entrepreneurship & management, UX, NFTs",
+            "title": "Will NFTs and GameFi make a comeback?",
+            "speaker": "Artem",
+            "company": "Mighty",
             "youtube": ""
           }
         ]
