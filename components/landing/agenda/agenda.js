@@ -126,11 +126,11 @@ const Agenda = () => (
                   <div></div>
                   <div className={styles.header}>
                     <h3><span></span></h3>
-                    <h4>Space 1</h4>
+                    <h4>Danube stage</h4>
                   </div>
                   <div className={styles.header}>
                     <h3> <span></span></h3>
-                    <h4>Space 2</h4>
+                    <h4>Sava stage</h4>
                   </div>
                   <div className={styles.header}>
                     <h3><span></span></h3>
