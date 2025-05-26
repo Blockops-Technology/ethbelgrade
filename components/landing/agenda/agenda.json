@@ -191,10 +191,10 @@
             "slots": 2
           },
           {
-            "category": "Security",
-            "title": "How to be secure by design and not pay millions?",
-            "speaker": "Damian Rusinek",
-            "company": "Composable Security",
+            "category": "",
+            "title": "",
+            "speaker": "",
+            "company": "",
             "youtube": ""
           }
         ],
@@ -252,6 +252,29 @@
             "title": "Beyond L2 limits: How Polkadot scales dApps on a resilient infrastructure",
             "speaker": "Alex Dimitrijevic",
             "company": "Web3 Foundation",
+            "youtube": ""
+          }
+        ],
+        "17:30": [
+          {
+            "category": "",
+            "title": "",
+            "speaker": "",
+            "company": "",
+            "youtube": ""
+          },
+          {
+            "category": "Security",
+            "title": "How to be secure by design and not pay millions?",
+            "speaker": "Damian Rusinek",
+            "company": "Composable Security",
+            "youtube": ""
+          },
+          {
+            "category": "",
+            "title": "",
+            "speaker": "",
+            "company": "",
             "youtube": ""
           }
         ]
@@ -546,6 +569,29 @@
             "company": "LimeChain",
             "youtube": ""
           }
+        ],
+        "17:30": [
+          {
+            "category": "",
+            "title": "",
+            "speaker": "",
+            "company": "",
+            "youtube": ""
+          },
+          {
+            "category": "",
+            "title": "",
+            "speaker": "",
+            "company": "",
+            "youtube": ""
+          },
+          {
+            "category": "",
+            "title": "",
+            "speaker": "",
+            "company": "",
+            "youtube": ""
+          }
         ]
       }
     },
@@ -594,8 +640,8 @@
           {
             "category": "DeFi, Infra/scaling",
             "title": "How to create a blockchain in 20 minutes",
-            "speaker": "Grigorii KAir",
-            "company": "Aurora, Pontem, Fuel.",
+            "speaker": "Grigorii Kair",
+            "company": "Aurora, Web3 researcher",
             "youtube": ""
           },
           {
@@ -792,6 +838,29 @@
             "title": "Will NFTs and GameFi make a comeback?",
             "speaker": "Artem",
             "company": "Mighty",
+            "youtube": ""
+          }
+        ],
+        "17:30": [
+          {
+            "category": "",
+            "title": "",
+            "speaker": "",
+            "company": "",
+            "youtube": ""
+          },
+          {
+            "category": "",
+            "title": "",
+            "speaker": "",
+            "company": "",
+            "youtube": ""
+          },
+          {
+            "category": "",
+            "title": "",
+            "speaker": "",
+            "company": "",
             "youtube": ""
           }
         ]

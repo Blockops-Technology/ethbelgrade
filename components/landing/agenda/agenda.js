@@ -84,7 +84,7 @@ function TimeSlot({ time, programe }) {
 }
 
 const startTime = 10;
-const endTime = 17;
+const endTime = 18;
 const timeSlots = [
   "09:00",
   "09:30"
@@ -95,8 +95,6 @@ for (let hour = startTime; hour < endTime; hour++) {
   timeSlots.push(`${hour}:00`);
   timeSlots.push(`${hour}:30`);
 }
-
-timeSlots.push("17:00")
 
 const Agenda = () => (
   <div id="agenda" className={styles.agenda}>
