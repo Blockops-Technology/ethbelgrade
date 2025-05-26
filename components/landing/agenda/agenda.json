@@ -185,7 +185,7 @@
           {
             "category": "Panel",
             "title": "Liquity",
-            "speaker": "Bojan Liquity, Token Brice, Cupofjoseph - Nerite",
+            "speaker": "Bojan Liquity, Token Brice, CupoJoseph - Nerite",
             "company": "",
             "youtube": "",
             "slots": 2
@@ -463,10 +463,10 @@
         ],
         "15:00" : [
           {
-            "category": "Public goods and community, Funding",
-            "title": "WThe Future of AI Project Funding",
-            "speaker": "Anna Kaic",
-            "company": "General Magic/Giveth",
+            "category": "Panel, AA/Al/infra",
+            "title": "",
+            "speaker": "Francesco Andreoli Director of Developer relations (Consensys), Mirko Garozzo, (Ecosystem Lead, Zircuit), Bogdan Habic, CTO, Tenderly",
+            "company": "",
             "youtube": "",
             "slots": 2
           },
