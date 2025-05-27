@@ -4,7 +4,7 @@
       "dayName": "Day 1",
       "date": "3 June",
       "programe": {
-        "08:30": [
+        "09:00": [
           {
             "category": "Break",
             "title": "Registration",
@@ -12,10 +12,8 @@
             "company": "",
             "youtube": "",
             "spaces": 3,
-            "slots": 3
+            "slots": 2
           }
-        ],
-        "09:00": [
         ],
         "09:30": [
         ],
@@ -23,7 +21,7 @@
           {
             "category": "",
             "title": "Opening keynote",
-            "speaker": "Nokola Vukovic",
+            "speaker": "Nikola Vukovic",
             "company": "DeFi Saver",
             "youtube": ""
           },
@@ -187,16 +185,16 @@
           {
             "category": "Panel",
             "title": "Liquity",
-            "speaker": "Bojan Liquity, Token Brice, Cupofjoseph - Nerite",
+            "speaker": "Bojan Liquity, Token Brice, CupoJoseph - Nerite",
             "company": "",
             "youtube": "",
             "slots": 2
           },
           {
-            "category": "Security",
-            "title": "How to be secure by design and not pay millions?",
-            "speaker": "Damian Rusinek",
-            "company": "Composable Security",
+            "category": "",
+            "title": "",
+            "speaker": "",
+            "company": "",
             "youtube": ""
           }
         ],
@@ -218,10 +216,10 @@
             "youtube": ""
           },
           {
-            "category": "DeFi, Security, Entrepreneurship & management, UX",
-            "title": "Why DeFi is inevitable",
-            "speaker": "Tobias van Amstel",
-            "company": "Altitude.fi",
+            "category": "Public goods and community, Entrepreneurship & management",
+            "title": "Top 10 must-see opportunities for students",
+            "speaker": "Solene Daviaud",
+            "company": "Dev3pack",
             "youtube": ""
           }
         ],
@@ -236,7 +234,7 @@
           {
             "category": "",
             "title": "",
-            "speaker": "Mariia",
+            "speaker": "Mariia Yatskovska",
             "company": "Cow DAO",
             "youtube": ""
           }
@@ -256,14 +254,8 @@
             "company": "Web3 Foundation",
             "youtube": ""
           }
-        ]
-      }
-    },
-    {
-      "dayName": "Day 2",
-      "date": "4 June",
-      "programe": {
-        "08:30": [
+        ],
+        "17:30": [
           {
             "category": "",
             "title": "",
@@ -272,10 +264,10 @@
             "youtube": ""
           },
           {
-            "category": "",
-            "title": "",
-            "speaker": "",
-            "company": "",
+            "category": "Security",
+            "title": "How to be secure by design and not pay millions?",
+            "speaker": "Damian Rusinek",
+            "company": "Composable Security",
             "youtube": ""
           },
           {
@@ -285,7 +277,13 @@
             "company": "",
             "youtube": ""
           }
-        ],
+        ]
+      }
+    },
+    {
+      "dayName": "Day 2",
+      "date": "4 June",
+      "programe": {
         "09:00": [
           {
             "category": "Break",
@@ -309,7 +307,7 @@
           },
           {
             "category": "DeFi, Dev tooling",
-            "title": "Onchain Minds: Building Blockchain-Aware AI with MCP",
+            "title": "AI Agents, MCP & Blockchain: The New Interaction Paradigm",
             "speaker": "Damjan Dimitrov",
             "company": "",
             "youtube": ""
@@ -465,9 +463,9 @@
         ],
         "15:00" : [
           {
-            "category": "AA/AI/infra, Panel",
+            "category": "Panel, AA/Al/infra",
             "title": "What the F**k to do now that we will have thousands of rollups?",
-            "speaker": "Francesko (MetaMask, Linea, Consensys), Mirko (Zircuit)",
+            "speaker": "Francesco Andreoli Director of Developer relations (Consensys), Mirko Garozzo, (Ecosystem Lead, Zircuit), Bogdan Habic, CTO, Tenderly",
             "company": "",
             "youtube": "",
             "slots": 2
@@ -558,10 +556,10 @@
             "youtube": ""
           },
           {
-            "category": "Public goods and community, Entrepreneurship & management",
-            "title": "Top 10 must-see opportunities for students",
-            "speaker": "Solene Daviaud",
-            "company": "Dev3pack",
+            "category": "DeFi, Security, Entrepreneurship & management, UX",
+            "title": "Why DeFi is inevitable",
+            "speaker": "Tobias van Amstel",
+            "company": "Altitude.fi",
             "youtube": ""
           },
           {
@@ -571,14 +569,8 @@
             "company": "LimeChain",
             "youtube": ""
           }
-        ]
-      }
-    },
-    {
-      "dayName": "Day 3",
-      "date": "5 June",
-      "programe": {
-        "08:30": [
+        ],
+        "17:30": [
           {
             "category": "",
             "title": "",
@@ -600,7 +592,13 @@
             "company": "",
             "youtube": ""
           }
-        ],
+        ]
+      }
+    },
+    {
+      "dayName": "Day 3",
+      "date": "5 June",
+      "programe": {
         "09:00": [
           {
             "category": "Break",
@@ -642,8 +640,8 @@
           {
             "category": "DeFi, Infra/scaling",
             "title": "How to create a blockchain in 20 minutes",
-            "speaker": "Grigorii KAir",
-            "company": "Aurora, Pontem, Fuel.",
+            "speaker": "Grigorii Kair",
+            "company": "Aurora, Web3 researcher",
             "youtube": ""
           },
           {
@@ -724,10 +722,10 @@
             "youtube": ""
           },
           {
-            "category": "Infra/scaling, UX",
-            "title": "Sharding an EVM Chain: The Pitfalls Nobody Warns You About",
-            "speaker": "Aleksa Opacic",
-            "company": "Nil Foundation",
+            "category": "DeFi, Regulations, Entrepreneurship & management",
+            "title": "VC coins VS community coins - how the market is changing",
+            "speaker": "Guilherme Jovanovic",
+            "company": "YAY Network",
             "youtube": ""
           }
         ],
@@ -740,10 +738,10 @@
             "youtube": ""
           },
           {
-            "category": "Infra/scaling, Public goods and community, Dev tooling",
-            "title": "Infinite Languages, One Chain: Expanding Ethereum’s Developer Horizons",
-            "speaker": "Ovidiu Damian",
-            "company": "Pi Squared",
+            "category": "Infra/scaling, UX",
+            "title": "Sharding an EVM Chain: The Pitfalls Nobody Warns You About",
+            "speaker": "Aleksa Opacic",
+            "company": "Nil Foundation",
             "youtube": ""
           }
         ],
@@ -756,10 +754,10 @@
             "youtube": ""
           },
           {
-            "category": "DAOs and governance, Public goods and community, Project & Delivery management",
-            "title": "Distributed Harmony: Unlocking Agile Delivery in a Multi-Source World",
-            "speaker": "Sasha Pitkevich",
-            "company": "EPAM",
+            "category": "Infra/scaling, Public goods and community, Dev tooling",
+            "title": "Infinite Languages, One Chain: Expanding Ethereum’s Developer Horizons",
+            "speaker": "Ovidiu Damian",
+            "company": "Pi Squared",
             "youtube": ""
           }
         ],
@@ -772,10 +770,10 @@
             "youtube": ""
           },
           {
-            "category": "DAOs and governance, UX",
-            "title": "Dramatic Anarchic Organizations",
-            "speaker": "Paulo Fonseca",
-            "company": "proposals.app",
+            "category": "DAOs and governance, Public goods and community, Project & Delivery management",
+            "title": "Distributed Harmony: Unlocking Agile Delivery in a Multi-Source World",
+            "speaker": "Sasha Pitkevich",
+            "company": "EPAM",
             "youtube": ""
           }
         ],
@@ -788,10 +786,10 @@
             "youtube": ""
           },
           {
-            "category": "UX",
-            "title": "The Human Problem: Is Web3 UX Ready for Normal People?",
-            "speaker": "Jacob Haap",
-            "company": "Anomaly Science",
+            "category": "DAOs and governance, UX",
+            "title": "Dramatic Anarchic Organizations",
+            "speaker": "Paulo Fonseca",
+            "company": "proposals.app",
             "youtube": ""
           }
         ],
@@ -804,10 +802,10 @@
             "youtube": ""
           }, 
           {
-            "category": "Dev tooling, UX",
-            "title": "The way to fully decentralized dApps",
-            "speaker": "Balint Ujvari",
-            "company": "SolarPunk Ltd.",
+            "category": "UX",
+            "title": "The Human Problem: Is Web3 UX Ready for Normal People?",
+            "speaker": "Jacob Haap",
+            "company": "Anomaly Science",
             "youtube": ""
           }
         ],
@@ -820,10 +818,10 @@
             "youtube": ""
           },
           {
-            "category": "Entrepreneurship & management, UX, NFTs",
-            "title": "Will NFTs and GameFi make a comeback?",
-            "speaker": "Artem",
-            "company": "Mighty",
+            "category": "Dev tooling, UX",
+            "title": "The way to fully decentralized dApps",
+            "speaker": "Balint Ujvari",
+            "company": "SolarPunk Ltd.",
             "youtube": ""
           }
         ],
@@ -836,10 +834,33 @@
             "youtube": ""
           },
           {
-            "category": "DeFi, Regulations, Entrepreneurship & management",
-            "title": "VC coins VS community coins - how the market is changing",
-            "speaker": "Guilherme Jovanovic",
-            "company": "YAY Network",
+            "category": "Entrepreneurship & management, UX, NFTs",
+            "title": "Will NFTs and GameFi make a comeback?",
+            "speaker": "Artem",
+            "company": "Mighty",
+            "youtube": ""
+          }
+        ],
+        "17:30": [
+          {
+            "category": "",
+            "title": "",
+            "speaker": "",
+            "company": "",
+            "youtube": ""
+          },
+          {
+            "category": "",
+            "title": "",
+            "speaker": "",
+            "company": "",
+            "youtube": ""
+          },
+          {
+            "category": "",
+            "title": "",
+            "speaker": "",
+            "company": "",
             "youtube": ""
           }
         ]
