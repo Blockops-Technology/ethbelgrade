@@ -191,19 +191,19 @@
             "slots": 2
           },
           {
-            "category": "",
-            "title": "",
-            "speaker": "",
-            "company": "",
+            "category": "DeFi, Security",
+            "title": "From red team to blue team: the hard life of DeFi protocols",
+            "speaker": "engn33r",
+            "company": "Twyne",
             "youtube": ""
           }
         ],
         "15:30": [
           {
-            "category": "DeFi, Security",
-            "title": "From red team to blue team: the hard life of DeFi protocols",
-            "speaker": "engn33r",
-            "company": "Twyne",
+            "category": "Public goods and community, Entrepreneurship & management",
+            "title": "Top 10 must-see opportunities for students",
+            "speaker": "Solene Daviaud",
+            "company": "Dev3pack",
             "youtube": ""
           }
         ],
@@ -216,10 +216,10 @@
             "youtube": ""
           },
           {
-            "category": "Public goods and community, Entrepreneurship & management",
-            "title": "Top 10 must-see opportunities for students",
-            "speaker": "Solene Daviaud",
-            "company": "Dev3pack",
+            "category": "",
+            "title": "",
+            "speaker": "Mariia Yatskovska",
+            "company": "Cow DAO",
             "youtube": ""
           }
         ],
@@ -232,10 +232,10 @@
             "youtube": ""
           },
           {
-            "category": "",
-            "title": "",
-            "speaker": "Mariia Yatskovska",
-            "company": "Cow DAO",
+            "category": "Infra/scaling, DAOs and governance, Security",
+            "title": "Beyond L2 limits: How Polkadot scales dApps on a resilient infrastructure",
+            "speaker": "Alex Dimitrijevic",
+            "company": "Web3 Foundation",
             "youtube": ""
           }
         ],
@@ -248,33 +248,10 @@
             "youtube": ""
           },
           {
-            "category": "Infra/scaling, DAOs and governance, Security",
-            "title": "Beyond L2 limits: How Polkadot scales dApps on a resilient infrastructure",
-            "speaker": "Alex Dimitrijevic",
-            "company": "Web3 Foundation",
-            "youtube": ""
-          }
-        ],
-        "17:30": [
-          {
-            "category": "",
-            "title": "",
-            "speaker": "",
-            "company": "",
-            "youtube": ""
-          },
-          {
             "category": "Security",
             "title": "How to be secure by design and not pay millions?",
             "speaker": "Damian Rusinek",
             "company": "Composable Security",
-            "youtube": ""
-          },
-          {
-            "category": "",
-            "title": "",
-            "speaker": "",
-            "company": "",
             "youtube": ""
           }
         ]
@@ -569,29 +546,6 @@
             "company": "LimeChain",
             "youtube": ""
           }
-        ],
-        "17:30": [
-          {
-            "category": "",
-            "title": "",
-            "speaker": "",
-            "company": "",
-            "youtube": ""
-          },
-          {
-            "category": "",
-            "title": "",
-            "speaker": "",
-            "company": "",
-            "youtube": ""
-          },
-          {
-            "category": "",
-            "title": "",
-            "speaker": "",
-            "company": "",
-            "youtube": ""
-          }
         ]
       }
     },
@@ -838,29 +792,6 @@
             "title": "Will NFTs and GameFi make a comeback?",
             "speaker": "Artem",
             "company": "Mighty",
-            "youtube": ""
-          }
-        ],
-        "17:30": [
-          {
-            "category": "",
-            "title": "",
-            "speaker": "",
-            "company": "",
-            "youtube": ""
-          },
-          {
-            "category": "",
-            "title": "",
-            "speaker": "",
-            "company": "",
-            "youtube": ""
-          },
-          {
-            "category": "",
-            "title": "",
-            "speaker": "",
-            "company": "",
             "youtube": ""
           }
         ]
