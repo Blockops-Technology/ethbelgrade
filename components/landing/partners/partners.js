@@ -35,6 +35,9 @@ const Partners = () => (
           <a href="https://esp.ethereum.foundation/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/EF-ESP-logo.svg" alt="Ethereum Foundation Ecosystem Support Program logo" />
           </a>
+          <a href="https://geodework.com/" target="_blank" rel="noreferrer noopener">
+            <img src="/images/partners/geodework.svg" alt="Geodework logo" />
+          </a>
           {/* <a href="https://blockanalitica.com/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/BlockAnalitica-logo.png" alt="Block Analitica logo" />
           </a>
@@ -81,19 +84,9 @@ const Partners = () => (
           <a href="https://sidechain.pro/" target="_blank" rel="noreferrer noopener">
             <img style={{ maxHeight: 90 }} src="/images/partners/sidechain-logo.svg" alt="Sidechain logo" />
           </a>
-          {/* <a href="https://metamask.io/" target="_blank" rel="noreferrer noopener">
-            <img src="/images/partners/metamask-logo.svg" alt="MetaMask logo" />
+          <a href="https://perpflow.xyz/" target="_blank" rel="noreferrer noopener">
+            <img className="" src="/images/partners/perpflow-logo.svg" alt="Perpflow logo" />
           </a>
-          <a href="https://www.risczero.com/" target="_blank" rel="noreferrer noopener">
-            <img src="/images/partners/risc-zero-logo.png" alt="RISC Zero logo" />
-          </a>
-          <a href="https://fluence.network/" target="_blank" rel="noreferrer noopener">
-            <img src="/images/partners/fluence-logo.svg" alt="Fluence logo" />
-          </a>
-          <a href="https://gateway.fm/" target="_blank" rel="noreferrer noopener">
-            <img src="/images/partners/gateway.svg" alt="Gateway logo" />
-          </a>
-           */}
         </div>
 
         <p className={styles.tier}>Community supporter</p>
@@ -188,6 +181,9 @@ const Partners = () => (
 
         <p className={styles.tier}>Partners</p>
         <div className={styles.sponsorsList}>
+          <a href="https://www.vidikovac.space/" target="_blank" rel="noreferrer noopener">
+            <img src="/images/partners/vidikovac.svg" alt="Vidikovac logo" />
+          </a>
           <a href="https://web3securitysummit.com/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/web3-sec-summit-logo-light.png" alt="Web3 Security Summit logo" />
           </a>
