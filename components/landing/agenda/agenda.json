@@ -532,9 +532,9 @@
         ],
         "17:00" : [
           {
-            "category": "",
-            "title": "",
-            "speaker": "Filip",
+            "category": "DeFi",
+            "title": "When Solidity Meets Satoshi: Redefining Bitcoin Finance Using Ethereum’s Breakthroughs",
+            "speaker": "Filip Baturan",
             "company": "Tanari",
             "youtube": ""
           },
