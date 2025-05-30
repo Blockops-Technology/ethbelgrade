@@ -29,6 +29,13 @@
       "category": "DeFi"
     },
     {
+      "name": "Bogdan Habic",
+      "twitter": "https://twitter.com/BogdanHabic",
+      "position": "Tenderly",
+      "photo": "bogdan-habic.png",
+      "category": "Infrastructure and Scaling"
+    },
+    {
       "name": "Kate Zueva",
       "twitter": "https://twitter.com/zuzu_eeka",
       "position": "Lido",
@@ -64,13 +71,6 @@
       "category": "Infrastructure and Scaling"
     },
     {
-      "name": "Georgy Sokolov",
-      "twitter": "",
-      "position": "Wirex Pay",
-      "photo": "georgy-sokolov.png",
-      "category": "DeFi"
-    },
-    {
       "name": "Julia Gallen",
       "twitter": "https://twitter.com/Jules_Gallen",
       "position": "Neon EVM",
@@ -83,6 +83,13 @@
       "position": "Lido",
       "photo": "jen-lido.png",
       "category": "DAOs and Governance"
+    },
+    {
+      "name": "Mark Richardson",
+      "twitter": "https://twitter.com/mbrichardson87",
+      "position": "Bancor",
+      "photo": "mark-richardson.png",
+      "category": "DeFi"
     },
     {
       "name": "Luka Isailovic",
@@ -377,6 +384,13 @@
       "position": "proposals.app",
       "photo": "paulo-fonseca.png",
       "category": "DAOs and Governance"
+    },
+    {
+      "name": "Georgy Sokolov",
+      "twitter": "",
+      "position": "Wirex Pay",
+      "photo": "georgy-sokolov.png",
+      "category": "DeFi"
     },
     {
       "name": "Guilherme Jovanovic",
