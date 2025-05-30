@@ -84,7 +84,7 @@ function TimeSlot({ time, programe }) {
 }
 
 const startTime = 10;
-const endTime = 17;
+const endTime = 18;
 const timeSlots = [
   "09:00",
   "09:30"
@@ -95,7 +95,6 @@ for (let hour = startTime; hour < endTime; hour++) {
   timeSlots.push(`${hour}:00`);
   timeSlots.push(`${hour}:30`);
 }
-timeSlots.push(`17:00`);
 
 const Agenda = () => (
   <div id="agenda" className={styles.agenda}>
@@ -121,7 +120,7 @@ const Agenda = () => (
           {
             agenda.days.map((day, i) => (
               <TabPanel key={i}>
-                <div className={styles.timeTable}>
+                <div className={styles.timeTable} style={{gridTemplateRows: 'auto repeat(' + (day.programe['17:30'] ? 18 : 17) +', minmax(130px, 1fr))'}}>
                   <div></div>
                   <div className={styles.header}>
                     <h3><span></span></h3>
@@ -136,9 +135,11 @@ const Agenda = () => (
                     {/* <img className="w-full !max-w-[110px]" src="/images/partners/rise-logo.png" /> */}
                     <h4>Rise stage</h4>
                   </div>
-                  {timeSlots.map((time, index) => (
-                    <TimeSlot key={time} programe={day.programe[time]} time={time} index={index} start={1} duration={1} />
-                  ))}
+                  {timeSlots.map((time, index) => {
+                    if (day.programe[time])
+                      return <TimeSlot key={time} programe={day.programe[time]} time={time} index={index} start={1} duration={1} />;
+                    return null;
+                  })}
                 </div>
                 {/* {
                   stage.programme.map((day, i) => (
