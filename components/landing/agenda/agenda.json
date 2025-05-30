@@ -575,7 +575,7 @@
             "speaker": "",
             "company": "",
             "youtube": "",
-            "slots": 20
+            "slots": 18
           }
         ],
         "09:30": [
@@ -798,6 +798,22 @@
             "title": "Will NFTs and GameFi make a comeback?",
             "speaker": "Artem",
             "company": "Mighty",
+            "youtube": ""
+          }
+        ],
+        "17:30" : [
+          {
+            "category": "",
+            "title": "Closing Ceremony and Hackaton Winners Announcement",
+            "speaker": "",
+            "company": "",
+            "youtube": ""
+          },
+          {
+            "category": "",
+            "title": "",
+            "speaker": "",
+            "company": "",
             "youtube": ""
           }
         ]
