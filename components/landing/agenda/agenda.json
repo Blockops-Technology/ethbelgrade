@@ -183,10 +183,10 @@
         ],
         "15:00": [
           {
-            "category": "Panel, Forkonomics",
-            "title": "Forkonomics - A Collaborative Forking Model",
-            "speaker": "Bojan - Liquity, Token Brice - DeFiCollective + DeFiScan, Cupofjoseph - Nerite",
-            "company": "",
+            "category": "",
+            "title": "",
+            "speaker": "Marc Ricardson",
+            "company": "Bancor",
             "youtube": ""
           },
           {
@@ -199,10 +199,10 @@
         ],
         "15:30": [
           {
-            "category": "",
-            "title": "",
-            "speaker": "Marc Ricardson",
-            "company": "Bancor",
+            "category": "Panel, Forkonomics",
+            "title": "Forkonomics - A Collaborative Forking Model",
+            "speaker": "Bojan - Liquity, Token Brice - DeFiCollective + DeFiScan, Cupofjoseph - Nerite",
+            "company": "",
             "youtube": ""
           },
           {
@@ -315,8 +315,8 @@
           {
             "category": "",
             "title": "",
-            "speaker": "",
-            "company": "",
+            "speaker": "Aleksandar Matanovic",
+            "company": "ECD",
             "youtube": ""
           }
         ],
