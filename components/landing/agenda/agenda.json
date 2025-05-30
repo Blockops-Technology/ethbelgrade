@@ -183,12 +183,11 @@
         ],
         "15:00": [
           {
-            "category": "Panel",
-            "title": "Liquity",
-            "speaker": "Bojan Liquity, Token Brice, CupoJoseph - Nerite",
-            "company": "",
-            "youtube": "",
-            "slots": 2
+            "category": "",
+            "title": "",
+            "speaker": "Marc Ricardson",
+            "company": "Bancor",
+            "youtube": ""
           },
           {
             "category": "DeFi, Security",
@@ -199,6 +198,13 @@
           }
         ],
         "15:30": [
+          {
+            "category": "Panel, Forkonomics",
+            "title": "Forkonomics - A Collaborative Forking Model",
+            "speaker": "Bojan - Liquity, Token Brice - DeFiCollective + DeFiScan, Cupofjoseph - Nerite",
+            "company": "",
+            "youtube": ""
+          },
           {
             "category": "Public goods and community, Entrepreneurship & management",
             "title": "Top 10 must-see opportunities for students",
@@ -309,8 +315,8 @@
           {
             "category": "",
             "title": "",
-            "speaker": "",
-            "company": "",
+            "speaker": "Aleksandar Matanovic",
+            "company": "ECD",
             "youtube": ""
           }
         ],
