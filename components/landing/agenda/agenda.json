@@ -739,8 +739,8 @@
         ],
         "15:30" : [
           {
-            "category": "",
-            "title": "Ramo",
+            "category": "Infra/scaling",
+            "title": "Democratizing the World’s Compute",
             "speaker": "Vukasin Vukoje",
             "company": "Ramo",
             "youtube": ""
