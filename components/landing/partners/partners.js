@@ -38,6 +38,9 @@ const Partners = () => (
           <a href="https://geodework.com/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/geodework.svg" alt="Geodework logo" />
           </a>
+          <a href="https://www.vidikovac.space/" target="_blank" rel="noreferrer noopener">
+            <img src="/images/partners/vidikovac.svg" alt="Vidikovac logo" />
+          </a>
           {/* <a href="https://blockanalitica.com/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/BlockAnalitica-logo.png" alt="Block Analitica logo" />
           </a>
@@ -181,9 +184,6 @@ const Partners = () => (
 
         <p className={styles.tier}>Partners</p>
         <div className={styles.sponsorsList}>
-          <a href="https://www.vidikovac.space/" target="_blank" rel="noreferrer noopener">
-            <img src="/images/partners/vidikovac.svg" alt="Vidikovac logo" />
-          </a>
           <a href="https://web3securitysummit.com/" target="_blank" rel="noreferrer noopener">
             <img src="/images/partners/web3-sec-summit-logo-light.png" alt="Web3 Security Summit logo" />
           </a>
