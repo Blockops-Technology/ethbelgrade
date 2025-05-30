@@ -15,10 +15,13 @@ speakers.list.forEach(element => {
 const SpeakerList = (props) => {
   return props.name
     .split(",").map((name, i) => {
-      const handle = twitter.get(name.replace('moderated by', '').replace(/\(.+\)/, '').trim());
+      let handle = twitter.get(name.replace('moderated by', '').replace(/\(.+\)/, '').trim());
       const comma = i > 0 ? ", " : "";
+      if (!handle && props.twitter_fallback) {
+        handle = props.twitter_fallback;
+      }
       if (handle) {
-        return <>{comma}<Link href={`${handle}`} target="_blank" rel="noreferrer noopener">{name}</Link></>;
+        return <>{comma}<Link href={handle} target="_blank" rel="noreferrer noopener">{name}</Link></>;
       } else {
         return <>{comma}{name}</>;
       }
@@ -46,7 +49,7 @@ function Detail({ item }) {
           <div className={styles.talkTitle}>{item.title ? item.title : "TBA"}</div>
           {item.speaker && (
             <div className={styles.talkSpeaker}>
-              <SpeakerList name={`${item.speaker}`} />
+              <SpeakerList name={`${item.speaker}`} twitter_fallback={item.twitter_fallback} />
               {item.company && <span>, {item.company}</span>}
             </div>
           )}
