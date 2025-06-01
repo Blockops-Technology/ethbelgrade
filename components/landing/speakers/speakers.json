@@ -106,6 +106,13 @@
       "category": "Security"
     },
     {
+      "name": "Branimir Rakić",
+      "twitter": "https://x.com/BranaRakic",
+      "position": "OriginTrail",
+      "photo": "branimir-rakic.png",
+      "category": "Infrastructure and scaling, AI"
+    },
+    {
       "name": "Martin Leclercq",
       "twitter": "https://twitter.com/martinlecl",
       "position": "iExec",
