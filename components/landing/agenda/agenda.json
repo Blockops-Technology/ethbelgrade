@@ -183,9 +183,9 @@
         ],
         "15:00": [
           {
-            "category": "",
-            "title": "",
-            "speaker": "Marc Ricardson",
+            "category": "DeFi, Security, Dev tooling",
+            "title": "DEX MEV",
+            "speaker": "Mark B Richardson",
             "company": "Bancor",
             "youtube": ""
           },
