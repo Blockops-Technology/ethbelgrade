@@ -183,9 +183,9 @@
         ],
         "15:00": [
           {
-            "category": "",
-            "title": "",
-            "speaker": "Marc Ricardson",
+            "category": "DeFi, Security, Dev tooling",
+            "title": "DEX MEV",
+            "speaker": "Mark B Richardson",
             "company": "Bancor",
             "youtube": ""
           },
@@ -222,8 +222,8 @@
             "youtube": ""
           },
           {
-            "category": "",
-            "title": "",
+            "category": "DeFi",
+            "title": "Let the Best Solvers Win: Fair Combinatorial Auctions in Intent-Based DeXs",
             "speaker": "Mariia Yatskovska",
             "company": "Cow DAO",
             "youtube": ""
@@ -284,8 +284,8 @@
           {
             "category": "Public goods and community, Security, User privacy",
             "title": "Nescience: A User-Centric State-Separation Architecture",
-            "speaker": "Moody",
-            "company": "Status",
+            "speaker": "Moudy",
+            "company": "IFT",
             "youtube": ""
           },
           {
@@ -415,7 +415,7 @@
           {
             "category": "Regulations, Panel",
             "title": "Should/How DAOs deploy AI governance agents? The paradox of using black-box AI to run 'transparent' decentralized organizations",
-            "speaker": "Aleksandra Cvorovic (Karanovic&Partners), Kevin Rihtar (Ketler & Partners), Ilija Rilakovic (Law Decoded)",
+            "speaker": "Aleksandra Cvorovic (Karanovic&Partners), Kevin Rihtar (Ketler & Partners), Dejan Radic (ResolverSys.com)",
             "company": "",
             "youtube": "",
             "slots": 2

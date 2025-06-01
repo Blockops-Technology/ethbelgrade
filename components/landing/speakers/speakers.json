@@ -85,7 +85,7 @@
       "category": "DAOs and Governance"
     },
     {
-      "name": "Mark Richardson",
+      "name": "Mark B Richardson",
       "twitter": "https://twitter.com/mbrichardson87",
       "position": "Bancor",
       "photo": "mark-richardson.png",
@@ -104,6 +104,13 @@
       "position": "The Red Guild",
       "photo": "tincho.png",
       "category": "Security"
+    },
+    {
+      "name": "Branimir Rakić",
+      "twitter": "https://x.com/BranaRakic",
+      "position": "OriginTrail",
+      "photo": "branimir-rakic.png",
+      "category": "Infrastructure and scaling, AI"
     },
     {
       "name": "Martin Leclercq",
@@ -218,10 +225,10 @@
       "category": "DeFi"
     },
     {
-      "name": "Moody",
+      "name": "Moudy",
       "twitter": "",
       "position": "IFT (Institute of Free Technology)",
-      "photo": "moody.png",
+      "photo": "moudy.png",
       "category": "Privacy"
     },
     {
