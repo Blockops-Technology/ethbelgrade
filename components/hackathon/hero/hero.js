@@ -30,6 +30,11 @@ const Hero = () => (
               Apply to judge
             </Button>
           </a>
+          <a href="/hackatonagenda" target="_blank" rel="noreferrer noopener">
+            <Button styleType="blue">
+              See Agenda
+            </Button>
+          </a>
           {/*<a href={DISCORD_URL} target="_blank" rel="noreferrer noopener">*/}
           {/*  <Button>Join Discord</Button>*/}
           {/*</a>*/}

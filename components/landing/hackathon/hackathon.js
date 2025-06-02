@@ -35,6 +35,9 @@ const Hackathon = () => (
         <a target="_blank" rel="noreferrer noopener" href={HACKATHON_APPLICATION_FORM_URL}>
           <Button ghost styleType="emerald">Apply to hack</Button>
         </a>
+        <a href="hackatonagenda" style={{paddingLeft: "30px"}}>
+          <Button ghost styleType="emerald">Hackaton Agenda</Button>
+        </a>
       </div>
     </div>
   </div >
