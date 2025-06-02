@@ -1,9 +1,9 @@
 import Head from "next/head";
 import mainLayout from "../../components/common/layout/mainLayout";
-import HackatonAgenda from "../../components/landing/hackatonagenda/hackatonagenda";
+import HackathonAgenda from "../../components/landing/hackathonagenda/hackathonagenda";
 
 
-export default function HackathonAgenda() {
+export default function HackathonAgendaPage() {
   const description = "ETH Belgrade Hackathon offers a three-day hacking experience with a primary focus on building on Ethereum. We're opening the doors for builders from all around the globe to join us both in-person and online (hybrid).";
   return (
     <div>
@@ -27,9 +27,9 @@ export default function HackathonAgenda() {
 
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <HackatonAgenda />
+      <HackathonAgenda />
     </div>
   )
 }
 
-HackathonAgenda.getLayout = mainLayout;
+HackathonAgendaPage.getLayout = mainLayout;
