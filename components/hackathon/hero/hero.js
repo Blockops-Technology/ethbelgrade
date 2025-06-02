@@ -30,9 +30,9 @@ const Hero = () => (
               Apply to judge
             </Button>
           </a>
-          <a href="/hackatonagenda" target="_blank" rel="noreferrer noopener">
+          <a href="/hackathonagenda" target="_blank" rel="noreferrer noopener">
             <Button styleType="blue">
-              See Agenda
+              Workshop Agenda
             </Button>
           </a>
           {/*<a href={DISCORD_URL} target="_blank" rel="noreferrer noopener">*/}
