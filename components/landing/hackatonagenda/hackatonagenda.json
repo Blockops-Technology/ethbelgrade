@@ -1,0 +1,42 @@
+[
+  {
+    "time" : "11:00",
+    "sponsor": "iExec"
+  },
+  {
+    "time" : "11:40",
+    "sponsor": "Flare"
+  },
+  {
+    "time" : "12:20",
+    "sponsor": "Quex"
+  },
+  {
+    "time" : "12:50",
+    "sponsor": "XsollaZK"
+  },
+  {
+    "time" : "13:30",
+    "sponsor": "Polkadot"
+  },
+  {
+    "time" : "14:10",
+    "sponsor": "OriginTrail"
+  },
+  {
+    "time" : "14:50",
+    "sponsor": "Oasis"
+  },
+  {
+    "time" : "15:20",
+    "sponsor": "Neon EVM"
+  },
+  {
+    "time" : "15:50",
+    "sponsor": "Chainlink*"
+  },
+  {
+    "time" : "16:20",
+    "sponsor": "Civic"
+  }
+]

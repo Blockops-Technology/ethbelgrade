@@ -57,11 +57,10 @@
           },
           {
             "category": "",
-            "title": "hackathon workshops",
+            "title": "",
             "speaker": "",
             "company": "",
-            "youtube": "",
-            "slots": 4
+            "youtube": ""
           }
         ],
         "11:00": [
@@ -78,6 +77,15 @@
             "speaker": "David Veselinovic (Crypto12), Ilija Rilakovic (Law Decoded)",
             "company": "",
             "youtube": ""
+          },
+          {
+            "category": "",
+            "title": "Hackathon Workshops (Click to see detailed agenda)",
+            "speaker": "",
+            "company": "",
+            "youtube": "",
+            "slots": 14,
+            "link": "/hackatonagenda"
           }
         ],
         "11:30": [
@@ -120,7 +128,7 @@
             "company": "",
             "youtube": "",
             "slots": 2,
-            "spaces": 3
+            "spaces": 2
           }
         ],
         "13:00": [
@@ -139,14 +147,6 @@
             "speaker": "Agustin Lavarello",
             "company": "Mimic Protocol",
             "youtube": ""
-          },
-          {
-            "category": "",
-            "title": "hackathon workshops",
-            "speaker": "",
-            "company": "",
-            "youtube": "",
-            "slots": 8
           }
         ],
         "14:00": [

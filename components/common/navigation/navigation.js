@@ -24,6 +24,9 @@ const MainMenu = ({ setOpenMobileMenu = () => { } }) => (
         <Link href="/hackathon">
           <span className={styles.menuItem}>Hackathon</span>
         </Link>
+        <Link href="/hackathonagenda">
+          <span className={styles.menuItem}>Hackathon Agenda</span>
+        </Link>
         <Link href="/ventures">
           <span className={styles.menuItem}>For Startups</span>
         </Link>
