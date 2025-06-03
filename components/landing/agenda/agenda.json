@@ -49,10 +49,10 @@
             "youtube": ""
           },
           {
-            "category": "Law Enforcement, Financial Crime, Money Laundering, Asset Recovery.",
-            "title": "A Law Enforcement Approach to Digital Assets",
-            "speaker": "Michael Halepas",
-            "company": "BlockAML",
+            "category": "",
+            "title": "",
+            "speaker": "",
+            "company": "",
             "youtube": ""
           },
           {
@@ -72,10 +72,10 @@
             "youtube": ""
           },
           {
-            "category": "Regulations, Fireside chat",
-            "title": "Not Another Regulation Talk: What Founders Actually Need to Know",
-            "speaker": "David Veselinovic (Crypto12), Ilija Rilakovic (Law Decoded)",
-            "company": "",
+            "category": "Law Enforcement, Financial Crime, Money Laundering, Asset Recovery.",
+            "title": "A Law Enforcement Approach to Digital Assets",
+            "speaker": "Michael Halepas",
+            "company": "BlockAML",
             "youtube": ""
           },
           {
@@ -97,10 +97,10 @@
             "youtube": ""
           },
           {
-            "category": "Privacy",
-            "title": "Confidential ERC20: Using FHE to Bring Privacy to DeFi",
-            "speaker": "Furkan Akal",
-            "company": "Inco",
+            "category": "Regulations, Fireside chat",
+            "title": "Not Another Regulation Talk: What Founders Actually Need to Know",
+            "speaker": "David Veselinovic (Crypto12), Ilija Rilakovic (Law Decoded)",
+            "company": "",
             "youtube": ""
           }
         ],
@@ -113,10 +113,10 @@
             "youtube": ""
           },
           {
-            "category": "Dev tooling",
-            "title": "Set up your first Ethereum Node with Stereum",
-            "speaker": "David Scheidl",
-            "company": "Stereum Services FlexCO",
+            "category": "Privacy",
+            "title": "Confidential ERC20: Using FHE to Bring Privacy to DeFi",
+            "speaker": "Furkan Akal",
+            "company": "Inco",
             "youtube": ""
           }
         ],

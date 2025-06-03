@@ -93,7 +93,7 @@ const Navigation = () => {
 
   return (
     <div className={styles.wrapper}>
-      <Banner />
+      {/* <Banner /> */}
       <div className="">
         <div className={styles.container}>
           <nav className={styles.navigation}>
