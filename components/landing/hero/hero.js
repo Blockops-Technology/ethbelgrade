@@ -26,7 +26,7 @@ const Hero = () => (
         {/*</div>*/}
 
         <div className={styles.buttons}>
-          <a href={HACKATHON_APPLICATION_FORM_URL} target="_blank" rel="noreferrer noopener">
+          {/* <a href={HACKATHON_APPLICATION_FORM_URL} target="_blank" rel="noreferrer noopener">
             <Button styleType="blue">
               Apply to hack
             </Button>
@@ -35,7 +35,7 @@ const Hero = () => (
             <Button styleType="blue">
               Become a sponsor
             </Button>
-          </a>
+          </a> */}
           {/* <a href={SPEAKER_APPLICATION_FORM_URL} target="_blank" rel="noreferrer noopener">
             <Button styleType="blue">
               Apply as a speaker
@@ -43,7 +43,7 @@ const Hero = () => (
           </a> */}
           <a href={TICKETING_PLATFORM_URL} target="_blank" rel="noreferrer noopener">
             {/* <Button>Get Tickets ({DISCOUNT} off)</Button> */}
-            <Button>Get Tickets</Button>
+            <Button>Get Tickets for day 2 and 3 (40% off)</Button>
           </a>
         </div>
       </div>
