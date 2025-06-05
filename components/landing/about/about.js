@@ -8,10 +8,10 @@ const About = () => (
       <p className={styles.stats}>
         <span className={styles.purple}>3 days</span>
         <span className={styles.blue}>100+ speakers</span>
-        <span className={styles.pink}>1200+ Attendees</span>
-        <span className={styles.emerald}>250+ hackers</span>
-        <span className={styles.green}>40+ web3 companies</span>
-        <span className={styles.orange}>30+ investors</span>
+        <span className={styles.pink}>1000+ Attendees</span>
+        <span className={styles.emerald}>280+ hackers</span>
+        <span className={styles.green}>150+ web3 companies</span>
+        <span className={styles.orange}>15+ investors</span>
       </p>
     </Marquee>
 

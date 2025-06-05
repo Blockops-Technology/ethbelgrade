@@ -43,7 +43,8 @@ const Hero = () => (
           </a> */}
           <a href={TICKETING_PLATFORM_URL} target="_blank" rel="noreferrer noopener">
             {/* <Button>Get Tickets ({DISCOUNT} off)</Button> */}
-            <Button>Get Tickets for day 2 and 3 (40% off)</Button>
+            {/* <Button>Get Tickets</Button> */}
+            {/* <Button>Get Tickets for day 2 and 3 (40% off)</Button> */}
           </a>
         </div>
       </div>
