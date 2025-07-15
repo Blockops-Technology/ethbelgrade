@@ -19,11 +19,14 @@ const MainMenu = ({ setOpenMobileMenu = () => { } }) => (
           <span className={styles.menuItem}>Conference</span>
         </Link>
         <Link href="/agenda">
-         <span className={styles.menuItem}>Agenda</span>
+          <span className={styles.menuItem}>Agenda</span>
         </Link>
         <Link href="/hackathon">
           <span className={styles.menuItem}>Hackathon</span>
         </Link>
+        {/* <Link href="/hackathonagenda">
+          <span className={styles.menuItem}><span className={styles.mobileOnly}>Hackathon </span>Workshops Agenda</span>
+        </Link> */}
         <Link href="/ventures">
           <span className={styles.menuItem}>For Startups</span>
         </Link>
@@ -90,7 +93,7 @@ const Navigation = () => {
 
   return (
     <div className={styles.wrapper}>
-      <Banner />
+      {/* <Banner /> */}
       <div className="">
         <div className={styles.container}>
           <nav className={styles.navigation}>

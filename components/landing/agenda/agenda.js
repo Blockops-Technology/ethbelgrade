@@ -46,7 +46,7 @@ function Detail({ item }) {
       <div className={styles.details} style={style}>
         <div className={`${styles.talk} ${classes}`}>
           {item.category.replaceAll("Break", "") && item.category.replaceAll("Break", "").split(', ').map(cat => (<div key={cat} className={styles.talkType}>{cat}</div>))}
-          <div className={styles.talkTitle}>{item.title ? item.title : "TBA"}</div>
+          {item.link ? <a href={item.link}><div className={styles.talkTitle}>{item.title ? item.title : "TBA"}</div></a> : <div className={styles.talkTitle}>{item.title ? item.title : "TBA"}</div>}
           {item.speaker && (
             <div className={styles.talkSpeaker}>
               <SpeakerList name={`${item.speaker}`} twitter_fallback={item.twitter_fallback} />
@@ -106,7 +106,7 @@ const Agenda = () => (
         <p className={styles.title}>Agenda</p>
       </div>
       <div className={styles.agendaContainer}>
-        <Tabs className={styles.tabs} defaultIndex={0}>
+        <Tabs className={styles.tabs} defaultIndex={2}>
           <TabList className={styles.tablist}>
             <div className={styles.tabsContainer}>
               {
@@ -144,46 +144,6 @@ const Agenda = () => (
                     return null;
                   })}
                 </div>
-                {/* {
-                  stage.programme.map((day, i) => (
-                    <div key={i}>
-                      <div className={styles.dayWrapper}>
-                        <p className={styles.dayDate}>
-                          <span className={styles.day}>{day.day}</span>
-                          <span className={styles.date}>{day.date}</span>
-                        </p>
-                      </div>
-                      {
-                        day.talks.map((talk, i) => (
-                          <div className={`${styles.talk} ${styles[day.day.toLowerCase().replace(' ', '')]}`} key={i}>
-                            <div className={styles.time}>{talk.time}</div>
-                            <div className={styles.talkDetails}>
-                              <p className={styles.talkTitle}>{talk.recording ? <Link href={`${talk.recording}`} target="_blank" rel="noreferrer noopener">{talk.title}</Link> : talk.title}</p>
-                              {
-                                talk.category &&
-                                <p className={`${styles.talkCategory} ${styles["talkCategory" + talk.category.replaceAll(" ", "")]}`}>{talk.category}</p>
-                              }
-                              {
-                                talk.speaker &&
-                                <div className={styles.speaker}>
-                                  {
-                                    talk.speakerImage &&
-                                    <img src={`/images/Speakers/${talk.speakerImage}`} alt={talk.speaker} />
-                                  }
-                                  <p>
-                                    <SpeakerList name={`${talk.speaker}`} />
-                                  </p>
-                                  <span>|</span>
-                                  <p>{talk.company}</p>
-                                </div>
-                              }
-                            </div>
-                          </div>
-                        ))
-                      }
-                    </div>
-                  ))
-                } */}
               </TabPanel>
             ))
           }

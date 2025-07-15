@@ -15,7 +15,7 @@ const Hero = () => (
         </div>
 
         <div className={styles.buttons}>
-          <a href={HACKATHON_APPLICATION_FORM_URL} target="_blank" rel="noreferrer noopener">
+          {/* <a href={HACKATHON_APPLICATION_FORM_URL} target="_blank" rel="noreferrer noopener">
             <Button>
               Apply to hack
             </Button>
@@ -30,6 +30,11 @@ const Hero = () => (
               Apply to judge
             </Button>
           </a>
+          <a href="/hackathonagenda" target="_blank" rel="noreferrer noopener">
+            <Button styleType="blue">
+              Workshop Agenda
+            </Button>
+          </a> */}
           {/*<a href={DISCORD_URL} target="_blank" rel="noreferrer noopener">*/}
           {/*  <Button>Join Discord</Button>*/}
           {/*</a>*/}

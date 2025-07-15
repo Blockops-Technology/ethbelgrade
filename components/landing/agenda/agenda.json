@@ -49,19 +49,18 @@
             "youtube": ""
           },
           {
-            "category": "Law Enforcement, Financial Crime, Money Laundering, Asset Recovery.",
-            "title": "A Law Enforcement Approach to Digital Assets",
-            "speaker": "Michael Halepas",
-            "company": "BlockAML",
+            "category": "",
+            "title": "",
+            "speaker": "",
+            "company": "",
             "youtube": ""
           },
           {
             "category": "",
-            "title": "hackathon workshops",
+            "title": "",
             "speaker": "",
             "company": "",
-            "youtube": "",
-            "slots": 4
+            "youtube": ""
           }
         ],
         "11:00": [
@@ -73,11 +72,20 @@
             "youtube": ""
           },
           {
-            "category": "Regulations, Fireside chat",
-            "title": "Not Another Regulation Talk: What Founders Actually Need to Know",
-            "speaker": "David Veselinovic (Crypto12), Ilija Rilakovic (Law Decoded)",
-            "company": "",
+            "category": "Law Enforcement, Financial Crime, Money Laundering, Asset Recovery.",
+            "title": "A Law Enforcement Approach to Digital Assets",
+            "speaker": "Michael Halepas",
+            "company": "BlockAML",
             "youtube": ""
+          },
+          {
+            "category": "",
+            "title": "Hackathon Workshops (Click to see detailed agenda)",
+            "speaker": "",
+            "company": "",
+            "youtube": "",
+            "slots": 14,
+            "link": "/hackathonagenda"
           }
         ],
         "11:30": [
@@ -89,10 +97,10 @@
             "youtube": ""
           },
           {
-            "category": "Privacy",
-            "title": "Confidential ERC20: Using FHE to Bring Privacy to DeFi",
-            "speaker": "Furkan Akal",
-            "company": "Inco",
+            "category": "Regulations, Fireside chat",
+            "title": "Not Another Regulation Talk: What Founders Actually Need to Know",
+            "speaker": "David Veselinovic (Crypto12), Ilija Rilakovic (Law Decoded)",
+            "company": "",
             "youtube": ""
           }
         ],
@@ -105,10 +113,10 @@
             "youtube": ""
           },
           {
-            "category": "Dev tooling",
-            "title": "Set up your first Ethereum Node with Stereum",
-            "speaker": "David Scheidl",
-            "company": "Stereum Services FlexCO",
+            "category": "Privacy",
+            "title": "Confidential ERC20: Using FHE to Bring Privacy to DeFi",
+            "speaker": "Furkan Akal",
+            "company": "Inco",
             "youtube": ""
           }
         ],
@@ -120,7 +128,7 @@
             "company": "",
             "youtube": "",
             "slots": 2,
-            "spaces": 3
+            "spaces": 2
           }
         ],
         "13:00": [
@@ -136,17 +144,9 @@
           {
             "category": "DeFi, Infra/scaling",
             "title": "Scaling Ethereum development with trustless automation",
-            "speaker": "Lukasz Stoczynski",
+            "speaker": "Agustin Lavarello",
             "company": "Mimic Protocol",
             "youtube": ""
-          },
-          {
-            "category": "",
-            "title": "hackathon workshops",
-            "speaker": "",
-            "company": "",
-            "youtube": "",
-            "slots": 8
           }
         ],
         "14:00": [
@@ -523,10 +523,10 @@
             "youtube": ""
           },
           {
-            "category": "Infra/scaling, Space Industry",
-            "title": "Orbital Root of Trust",
-            "speaker": "Yangwao",
-            "company": "SpaceComputer",
+            "category": "Fireside chat",
+            "title": "Koji nam je djavo ovo trebalo?/ Why the hell are we doing this?",
+            "speaker": "Miros (PrivadoID), Lazar Travica (Route3)",
+            "company": "",
             "youtube": ""
           }
         ],
@@ -621,10 +621,10 @@
             "youtube": ""
           },
           {
-            "category": "NFTs, GTM strategies, web3 data-driven marketing approach",
-            "title": "The Web3 Marketing Playbook: Data-Driven Growth and the Power of Iteration",
-            "speaker": "Bilyana",
-            "company": "BLOCKBUZZ & Nolus Protocol",
+            "category": "",
+            "title": "",
+            "speaker": "",
+            "company": "",
             "youtube": ""
           }
         ],
@@ -804,7 +804,7 @@
         "17:30" : [
           {
             "category": "",
-            "title": "Closing Ceremony and Hackaton Winners Announcement",
+            "title": "Closing Ceremony and Hackathon Winners Announcement",
             "speaker": "",
             "company": "",
             "youtube": ""

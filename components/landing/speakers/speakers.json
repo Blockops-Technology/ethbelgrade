@@ -379,13 +379,6 @@
       "category": "DAOs and Governance"
     },
     {
-      "name": "David Scheidl",
-      "twitter": "https://twitter.com/DaGscheid",
-      "position": "Stereum",
-      "photo": "david-scheidl.png",
-      "category": "Dev Tooling"
-    },
-    {
       "name": "Paulo Fonseca",
       "twitter": "https://twitter.com/paulofonseca__",
       "position": "proposals.app",
@@ -468,13 +461,6 @@
       "position": "Recon",
       "photo": "alex-the-entreprenerd.png",
       "category": "DeFi"
-    },
-    {
-      "name": "Bilyana",
-      "twitter": "https://twitter.com/bilyanachristov",
-      "position": "BLOCKBUZZ",
-      "photo": "bilyana.png",
-      "category": "Marketing"
     },
     {
       "name": "Grigorii Kair",
@@ -580,13 +566,6 @@
       "position": "Treesury",
       "photo": "vladimir-cvejic.png",
       "category": "Entrepreneurship"
-    },
-    {
-      "name": "Yangwao",
-      "twitter": "https://twitter.com/yangwao",
-      "position": "SpaceComputer",
-      "photo": "yangwao.png",
-      "category": "Infrastructure and Scaling"
     },
     {
       "name": "Damjan Dimitrov",
