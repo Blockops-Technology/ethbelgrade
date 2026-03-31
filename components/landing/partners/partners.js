@@ -67,7 +67,7 @@ const Partners = () => (
 
     </div>
     <div className="container">
-      <p className={styles.title}>They've helped us BIG TIME!</p>
+      <p className={styles.title}>They&apos;ve helped us BIG TIME!</p>
       <p className={styles.subtitle}>Shout out to key industry players for supporting previous editions of ETH Belgrade!</p>
 
       <div className={styles.grid}>
