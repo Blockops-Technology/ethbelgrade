@@ -16,26 +16,37 @@ const MainMenu = ({ setOpenMobileMenu = () => { } }) => (
     <Menu>
       <div className={styles.menuLinks} onClick={() => setOpenMobileMenu(false)}>
         <Link href="/">
-          <span className={styles.menuItem}>Conference</span>
+          <span className={styles.menuItem}>ETH Belgrade 2026</span>
         </Link>
-        <Link href="/agenda">
+        {/* <Link href="/agenda">
           <span className={styles.menuItem}>Agenda</span>
         </Link>
         <Link href="/hackathon">
           <span className={styles.menuItem}>Hackathon</span>
-        </Link>
+        </Link> */}
         {/* <Link href="/hackathonagenda">
           <span className={styles.menuItem}><span className={styles.mobileOnly}>Hackathon </span>Workshops Agenda</span>
         </Link> */}
         <Link href="/ventures">
           <span className={styles.menuItem}>For Startups</span>
         </Link>
-        <Link href="/community">
+        {/* <Link href="/community">
           <span className={styles.menuItem}>Community</span>
-        </Link>
+        </Link> */}
         <div className={styles.dropdownWrapper} onClick={(e) => e.stopPropagation()}>
           <Menu.Button className={styles.menuItem}>Past Events </Menu.Button>
           <Menu.Items className={styles.dropdown}>
+            <Menu.Item>
+              <a
+                href="https://2025.ethbelgrade.rs"
+                target="_blank"
+                rel="noreferrer noopener"
+                className={styles.dropdownLink}
+              >
+                <img src="/icons/play-arrow.svg" alt="arrow icon" />
+                2025
+              </a>
+            </Menu.Item>
             <Menu.Item>
               <a
                 href="https://2024.ethbelgrade.rs"

@@ -12,7 +12,7 @@ const Partners = () => (
           <p className={styles.sectionText}>
             ETH Belgrade Ventures has a long list of partners, VCs, Angels, other investors, and individuals that are supporting the program and are ready to invest in the best projects.
           </p>
-          <Investors />
+          {/* <Investors /> */}
           <p className={styles.sectionTitle}>What do you get as a partner?</p>
           <ul style={{ marginBottom: 50, marginTop: 20, listStyleType: "disc" }}>
             <li style={{ marginBottom: 7 }}>
