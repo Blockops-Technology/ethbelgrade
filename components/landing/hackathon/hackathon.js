@@ -32,9 +32,12 @@ const Hackathon = () => (
         </div> */}
       </div>
       <div className="flex justify-center mt-10 mb-20">
-        <a target="_blank" rel="noreferrer noopener" href={HACKATHON_APPLICATION_FORM_URL}>
+        {/* <a target="_blank" rel="noreferrer noopener" href={HACKATHON_APPLICATION_FORM_URL}>
           <Button ghost styleType="emerald">Apply to hack</Button>
         </a>
+        <a href="hackathonagenda" style={{paddingLeft: "30px"}}>
+          <Button ghost styleType="emerald">Hackathon Workshop Agenda</Button>
+        </a> */}
       </div>
     </div>
   </div >

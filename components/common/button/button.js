@@ -2,7 +2,7 @@ import classNames from "classnames";
 
 import styles from "./button.module.scss";
 
-const Button = ({primary, ghost, children, className, disabled, styleType, ...props}) => {
+const Button = ({ primary, ghost, children, className, disabled, styleType, ...props }) => {
   let applyStyle;
 
   switch (styleType) {
@@ -37,7 +37,7 @@ const Button = ({primary, ghost, children, className, disabled, styleType, ...pr
   return (
     <button
       disabled={disabled}
-      className={classNames(className, styles.button, {[styles.buttonPrimary]: primary && !ghost, [styles.buttonGhost]: ghost, [applyStyle]: applyStyle })}
+      className={classNames(styles.button, { [styles.buttonPrimary]: primary && !ghost, [styles.buttonGhost]: ghost, [applyStyle]: applyStyle }, className)}
       {...props}
     >
       {children}

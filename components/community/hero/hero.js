@@ -17,14 +17,14 @@ const Hero = () => (
         {/*</div>*/}
 
         <div className={styles.buttons}>
-          <a href="mailto:partnerships@ethbelgrade.rs" target="_blank" rel="noreferrer noopener">
+          <a href="mailto:petar@ethbelgrade.rs" target="_blank" rel="noreferrer noopener">
             <Button styleType="blue">
               Become a sponsor
             </Button>
           </a>
           <a href={MEETUP_SPEAKER_FORM_URL} target="_blank" rel="noreferrer noopener">
             <Button styleType="blue">
-                Apply as a speaker
+              Apply as a speaker
             </Button>
           </a>
         </div>

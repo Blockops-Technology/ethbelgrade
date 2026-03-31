@@ -22,18 +22,23 @@ const Sponsors = () => (
             </a>
           </div>
           <div className={styles.sponsor}>
-            <a style={{display: "flex", gap: 20, alignItems: "center", justifyContent: "center"}} href="https://www.johnlilic.info/" target="_blank" rel="noreferrer noopener">
-              <img src="/images/partners/johnlilic.jpg" alt="John Lilic logo" />
-              <p style={{fontWeight: "bold", fontSize: 20, textTransform: "uppercase"}}>John Lilic</p>
+            <a href="https://gno.land/" target="_blank" rel="noreferrer noopener">
+              <img className="w-full" src="/images/partners/gnoland-logo.svg" alt="Gno.land logo" />
             </a>
           </div>
+          {/* <div className={styles.sponsor}>
+            <a style={{ display: "flex", gap: 20, alignItems: "center", justifyContent: "center" }} href="https://www.johnlilic.info/" target="_blank" rel="noreferrer noopener">
+              <img src="/images/partners/johnlilic.jpg" alt="John Lilic logo" />
+              <p style={{ fontWeight: "bold", fontSize: 20, textTransform: "uppercase" }}>John Lilic</p>
+            </a>
+          </div> */}
         </div>
       </div>
-      {/*<div className={styles.cta}>*/}
-      {/*  <a href="mailto:partnerships@ethbelgrade.rs">*/}
-      {/*    <Button className={styles.button}>Sponsor the hackathon</Button>*/}
-      {/*  </a>*/}
-      {/*</div>*/}
+      <div className={styles.cta}>
+        <a href="mailto:petar@ethbelgrade.rs">
+          <Button className={styles.button}>Sponsor ETH Belgrade Community</Button>
+        </a>
+      </div>
     </div>
   </div>
 );

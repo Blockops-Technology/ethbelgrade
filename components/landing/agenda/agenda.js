@@ -15,17 +15,20 @@ speakers.list.forEach(element => {
 const SpeakerList = (props) => {
   return props.name
     .split(",").map((name, i) => {
-      const handle = twitter.get(name.replace('moderated by', '').replace(/\(.+\)/, '').trim());
+      let handle = twitter.get(name.replace('moderated by', '').replace(/\(.+\)/, '').trim());
       const comma = i > 0 ? ", " : "";
+      if (!handle && props.twitter_fallback) {
+        handle = props.twitter_fallback;
+      }
       if (handle) {
-        return <>{comma}<Link href={`${handle}`} target="_blank" rel="noreferrer noopener">{name}</Link></>;
+        return <>{comma}<Link href={handle} target="_blank" rel="noreferrer noopener">{name}</Link></>;
       } else {
         return <>{comma}{name}</>;
       }
     });
 }
 
-function Detail({item}) {
+function Detail({ item }) {
   const style = {
     "--duration": item.slots ? item.slots : 1,
     "--spaces": item.spaces ? item.spaces : 1,
@@ -43,10 +46,10 @@ function Detail({item}) {
       <div className={styles.details} style={style}>
         <div className={`${styles.talk} ${classes}`}>
           {item.category.replaceAll("Break", "") && item.category.replaceAll("Break", "").split(', ').map(cat => (<div key={cat} className={styles.talkType}>{cat}</div>))}
-          <div className={styles.talkTitle}>{item.title ? item.title : "TBA"}</div>
+          {item.link ? <a href={item.link}><div className={styles.talkTitle}>{item.title ? item.title : "TBA"}</div></a> : <div className={styles.talkTitle}>{item.title ? item.title : "TBA"}</div>}
           {item.speaker && (
             <div className={styles.talkSpeaker}>
-              <SpeakerList name={`${item.speaker}`} />
+              <SpeakerList name={`${item.speaker}`} twitter_fallback={item.twitter_fallback} />
               {item.company && <span>, {item.company}</span>}
             </div>
           )}
@@ -70,7 +73,7 @@ function Detail({item}) {
     )
 }
 
-function TimeSlot({time, programe}) {
+function TimeSlot({ time, programe }) {
   return (
     <>
       <div className={styles.time}>{time}</div>
@@ -84,9 +87,8 @@ function TimeSlot({time, programe}) {
 }
 
 const startTime = 10;
-const endTime = 17;
+const endTime = 18;
 const timeSlots = [
-  "08:30",
   "09:00",
   "09:30"
 ];
@@ -96,8 +98,6 @@ for (let hour = startTime; hour < endTime; hour++) {
   timeSlots.push(`${hour}:00`);
   timeSlots.push(`${hour}:30`);
 }
-
-timeSlots.push("17:00")
 
 const Agenda = () => (
   <div id="agenda" className={styles.agenda}>
@@ -123,68 +123,27 @@ const Agenda = () => (
           {
             agenda.days.map((day, i) => (
               <TabPanel key={i}>
-                <div className={styles.timeTable}>
+                <div className={styles.timeTable} style={{gridTemplateRows: 'auto repeat(' + (day.programe['17:30'] ? 18 : 17) +', minmax(130px, 1fr))'}}>
                   <div></div>
                   <div className={styles.header}>
-                    <h3>Avala <span>[âv̞ala]</span></h3>
-                    <h4>Hall 1</h4>
+                    <h3><span></span></h3>
+                    <h4>Danube stage</h4>
                   </div>
                   <div className={styles.header}>
-                    <h3>Beograd <span>[beǒɡrad]</span></h3>
-                    <h4>Hall 6</h4>
+                    <h3> <span></span></h3>
+                    <h4>Sava stage</h4>
                   </div>
                   <div className={styles.header}>
-                    <h3>Cer <span>[tsɛr]</span></h3>
-                    <h4>Hall 2</h4>
+                    <h3><span></span></h3>
+                    {/* <img className="w-full !max-w-[110px]" src="/images/partners/rise-logo.png" /> */}
+                    <h4>Rise stage</h4>
                   </div>
-                  <div className={styles.header}>
-                    <h3>Dunav <span>[dǔnaʋ]</span></h3>
-                    <h4>Hall 3</h4>
-                  </div>
-                  {timeSlots.map((time, index) => (
-                    <TimeSlot key={time} programe={day.programe[time]} time={time} index={index} start={1} duration={1} />
-                  ))}
+                  {timeSlots.map((time, index) => {
+                    if (day.programe[time])
+                      return <TimeSlot key={time} programe={day.programe[time]} time={time} index={index} start={1} duration={1} />;
+                    return null;
+                  })}
                 </div>
-                {/* {
-                  stage.programme.map((day, i) => (
-                    <div key={i}>
-                      <div className={styles.dayWrapper}>
-                        <p className={styles.dayDate}>
-                          <span className={styles.day}>{day.day}</span>
-                          <span className={styles.date}>{day.date}</span>
-                        </p>
-                      </div>
-                      {
-                        day.talks.map((talk, i) => (
-                          <div className={`${styles.talk} ${styles[day.day.toLowerCase().replace(' ', '')]}`} key={i}>
-                            <div className={styles.time}>{talk.time}</div>
-                            <div className={styles.talkDetails}>
-                              <p className={styles.talkTitle}>{talk.recording ? <Link href={`${talk.recording}`} target="_blank" rel="noreferrer noopener">{talk.title}</Link> : talk.title}</p>
-                              {
-                                talk.category &&
-                                <p className={`${styles.talkCategory} ${styles["talkCategory" + talk.category.replaceAll(" ", "")]}`}>{talk.category}</p>
-                              }
-                              {
-                                talk.speaker &&
-                                <div className={styles.speaker}>
-                                  {
-                                    talk.speakerImage &&
-                                    <img src={`/images/Speakers/${talk.speakerImage}`} alt={talk.speaker} />
-                                  }
-                                  <p>
-                                    <SpeakerList name={`${talk.speaker}`} />
-                                  </p>
-                                  <span>|</span>
-                                  <p>{talk.company}</p>
-                                </div>
-                              }
-                            </div>
-                          </div>
-                        ))
-                      }
-                    </div>
-                  ))
-                } */}
               </TabPanel>
             ))
           }

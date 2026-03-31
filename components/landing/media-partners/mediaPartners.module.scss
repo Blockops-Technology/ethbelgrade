@@ -2,6 +2,7 @@
 
 .pageTitleContainer {
   padding: 150px 16px 100px;
+  padding: 150px 16px 0px;
   background-color: var(--primary-purple);
 
   @include breakpoint(landscape) {
@@ -52,7 +53,7 @@
 }
 
 .mediaPartnersListWrapper {
-  margin-top: 25px;
+  // margin-top: 25px;
   padding: 60px 0;
   background: var(--primary-purple);
 }

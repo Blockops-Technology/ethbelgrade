@@ -16,16 +16,16 @@ const MediaPartners = () => (
           <a href="https://beincrypto.com" target="_blank" rel="noreferrer noopener">
             <img src="/images/media-partners/beincrypto-logo.svg" alt="Be in Crypto logo" />
           </a>
-          <a href="https://startit.rs/" target="_blank" rel="noreferrer noopener">
+          {/* <a href="https://startit.rs/" target="_blank" rel="noreferrer noopener">
             <img src="/images/media-partners/startit_logo.svg" alt="Startit logo" />
           </a>
           <a href="https://itindustrija.com/" target="_blank" rel="noreferrer noopener">
             <img src="/images/media-partners/IT_Industrija_logo_beli.svg" alt="It Industrija logo" />
-          </a>
+          </a> */}
           <a href="https://www.netokracija.rs/" target="_blank" rel="noreferrer noopener">
             <img src="/images/media-partners/netokracija-logo.svg" alt="Netokracija logo" />
           </a>
-          <a href="https://listing.help/" target="_blank" rel="noreferrer noopener">
+          {/* <a href="https://listing.help/" target="_blank" rel="noreferrer noopener">
             <img src="/images/media-partners/listing-help.svg" alt="Listing help logo" />
           </a>
           <a href="https://u.today/" target="_blank" rel="noreferrer noopener">
@@ -48,7 +48,7 @@ const MediaPartners = () => (
           </a>
           <a href="https://cryptoken.media/" target="_blank" rel="noreferrer noopener">
             <img src="/images/media-partners/cryptoken-logo.png" alt="Cryptoken logo" />
-          </a>
+          </a> */}
           {/*<a href="https://itez.com/events" target="_blank" rel="noreferrer noopener">*/}
           {/*  <img src="/images/media-partners/itez-logo.png" alt="Itez logo" />*/}
           {/*</a>*/}
@@ -56,13 +56,13 @@ const MediaPartners = () => (
       </div>
     </div>
 
-    <div className="container">
+    {/* <div className="container">
       <div className={styles.buttonWrapper}>
         <a href="mailto:tanja@ethbelgrade.rs">
           <Button ghost styleType="purple">Become a media partner</Button>
         </a>
       </div>
-    </div>
+    </div> */}
 
   </div>
 );

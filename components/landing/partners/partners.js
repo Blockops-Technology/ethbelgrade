@@ -2,184 +2,93 @@ import styles from "./partners.module.scss";
 import Button from "../../common/button/button";
 import { SPONSOR_APPLICATION_FORM_URL, YEAR } from "../../../constants";
 
+const partners = [
+  { href: "https://tenderly.co/", img: "/images/partners/tenderly.svg", alt: "Tenderly logo" },
+  { href: "https://defisaver.com/", img: "/images/partners/defi-saver.png", alt: "DeFi Saver logo" },
+  { href: "https://esp.ethereum.foundation/", img: "/images/partners/EF-ESP-logo.svg", alt: "Ethereum Foundation Ecosystem Support Program logo" },
+  { href: "https://geodework.com/", img: "/images/partners/geodework.svg", alt: "Geodework logo" },
+  { href: "https://polkadot.com/", img: "/images/partners/polkadot.svg", alt: "Polkadot logo" },
+  // { href: "https://www.vidikovac.space/", img: "/images/partners/vidikovac.svg", alt: "Vidikovac logo" },
+  { href: "https://chain.link/", img: "/images/partners/chainlink-logo.svg", alt: "Chainlink logo" },
+  { href: "https://metamask.io/", img: "/images/partners/metamask-logo.svg", alt: "MetaMask logo" },
+  { href: "https://ledger.com/", img: "/images/partners/ledger-logo.svg", alt: "Ledger logo" },
+  { href: "https://lido.fi/", img: "/images/partners/lido-logo.svg", alt: "Lido logo" },
+  { href: "https://li.fi/", img: "/images/partners/lifi-logo.svg", alt: "LiFi logo" },
+  { href: "https://www.bnbchain.org/en", img: "/images/partners/bnb-chain-logo.svg", alt: "BNB Chain logo" },
+  { href: "https://linea.build/", img: "/images/partners/linea-logo.svg", alt: "Linea logo" },
+  { href: "https://neonevm.org/", img: "/images/partners/NeonEVM-logo.svg", alt: "Neon EVM logo" },
+  { href: "https://oasis.net/", img: "/images/partners/oasis-logo.svg", alt: "Oasis logo" },
+  { href: "https://www.liquity.org/", img: "/images/partners/liquity-logo-white2.svg", alt: "Liquity logo" },
+  { href: "https://www.rareskills.io/", img: "/images/partners/rareskills-logo-dark.svg", alt: "RareSkills logo" },
+  { href: "https://citrea.xyz/", img: "/images/partners/citrea.svg", alt: "Citrea logo" },
+  { href: "https://origintrail.io/", img: "/images/partners/origin-trail.svg", alt: "Origin Trail logo" },
+  { href: "https://www.optimism.io/", img: "/images/partners/optimism.svg", alt: "Optimism logo" },
+  { href: "https://www.mantle.xyz/", img: "/images/partners/mantle-logo.svg", alt: "Mantle logo" },
+  { href: "https://www.risczero.com/", img: "/images/partners/risc-zero-logo.png", alt: "RISC Zero logo" },
+  { href: "https://www.blockscout.com/", img: "/images/partners/blockscout-logo.svg", alt: "Blockscout logo" },
+  // { href: "https://ethernal.tech/", img: "/images/partners/ethernal-logo-white.svg", alt: "Ethernal logo" },
+  // { href: "https://cosmoverse.org/", img: "/images/partners/cosmoverse-vertical.png", alt: "Cosmoverse 2025 logo" },
+  // { href: "https://sidechain.pro/", img: "/images/partners/sidechain-logo.svg", alt: "Sidechain logo" },
+  // { href: "https://perpflow.xyz/", img: "/images/partners/perpflow-logo.svg", alt: "Perpflow logo" },
+  // { href: "https://www.txfusion.io/", img: "/images/partners/tx-fusion.svg", alt: "txFusion logo" },
+  // { href: "https://www.spaceshard.io/", img: "/images/partners/spaceshard.png", alt: "Space Shard logo" },
+  // { href: "https://poap.xyz/", img: "/images/partners/poap.svg", alt: "POAP logo" },
+  // { href: "https://www.iex.ec/", img: "/images/partners/iexec-logo.svg", alt: "iExec logo" },
+  // { href: "https://flare.network/", img: "/images/partners/flare-logo.png", alt: "Flare logo" },
+  // { href: "https://xsolla.com/zk", img: "/images/partners/xsolla-zk-logo.svg", alt: "Xsolla logo" },
+  // { href: "https://quex.tech/", img: "/images/partners/quex2.png", alt: "Quex logo" },
+  // { href: "https://www.civic.com/", img: "/images/partners/civic.svg", alt: "Civic logo" },
+  // { href: "https://lisk.com/", img: "/images/partners/lisk.svg", alt: "Lisk logo" },
+  // { href: "https://www.riseworks.io/", img: "/images/partners/rise-logo.png", alt: "Rise logo" },
+  // { href: "https://crypto12.com/en/", img: "/images/partners/crypto12-logo.webp", alt: "Crypto12 logo" },
+  // { href: "https://blockops.technology/", img: "/images/partners/blockops-logo.png", alt: "Blockops logo" },
+  // { href: "https://unusualsour.com/", img: "/images/partners/Unusual-Sour-Logo.png", alt: "Unusual Sour logo" },
+  // { href: "https://www.decenter.com/", img: "/images/partners/decenter.svg", alt: "Decenter logo" },
+  // { href: "https://web3securitysummit.com/", img: "/images/partners/web3-sec-summit-logo-light.png", alt: "Web3 Security Summit logo" },
+  // { href: "https://rustsummit.com/", img: "/images/partners/rust-summit-logo.svg", alt: "Rust Summit logo" },
+  // { href: "https://blocksplit.net/", img: "/images/partners/BlockSplit_logo.png", alt: "BlockSplit logo" },
+  // { href: "https://www.ethsofia.com/", img: "/images/partners/eth-sofia.png", alt: "ETH Sofia logo" },
+  // { href: "https://www.ethaccra.xyz/", img: "/images/partners/eth-accra.png", alt: "ETH Accra logo" },
+  // { href: "https://ethbratislava.com/", img: "/images/partners/eth-bratislava.webp", alt: "ETH Bratislava logo" },
+  // { href: "https://www.ethbucharest.xyz/", img: "/images/partners/eth-bucharest-logo-white.svg", alt: "ETH Bucharest logo" },
+  // { href: "https://ethrwanda.rw/", img: "/images/partners/eth-rwanda.png", alt: "ETH Rwanda logo" },
+  // { href: "https://www.aliceinblockchains.io/", img: "/images/partners/AIB.png", alt: "Alice in Blockchain logo" },
+  // { href: "https://www.ethbelgium.com/", img: "/images/partners/eth-belgium.png", alt: "ETH Belgium logo" },
+  // { href: "https://www.ethcluj.org/", img: "/images/partners/ethcluj.png", alt: "ETH Cluj logo" },
+];
+
 const Partners = () => (
   <div id="partners">
     <div className={styles.pageTitleContainer}>
-      <p className={styles.pageTitle}>Sponsors</p>
+      <div className={styles.pageTitleWrapper}>
+        <p className={styles.pageTitle}>Sponsors</p>
+        {/* <p className={styles.pageSubtitle}></p> */}
+      </div>
+
     </div>
     <div className="container">
-      <p className={styles.title}>They’ve helped us BIG TIME!</p>
-      <p className={styles.subtitle}>Shout out to key industry players for supporting ETH Belgrade {YEAR}!</p>
+      <p className={styles.title}>They&apos;ve helped us BIG TIME!</p>
+      <p className={styles.subtitle}>Shout out to key industry players for supporting previous editions of ETH Belgrade!</p>
 
-      <div>
-        <p className={styles.tier}>Community Legends</p>
-        <div className={styles.superSponsorsList}>
-          <a href="https://tenderly.co/" target="_blank" rel="noreferrer noopener">
-            <img src="/images/partners/tenderly.svg" alt="Tenderly logo" />
+      <div className={styles.grid}>
+        {partners.map((partner) => (
+          <a
+            key={partner.href}
+            className={styles.gridCell}
+            href={partner.href}
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <img src={partner.img} alt={partner.alt} />
           </a>
-          <a href="https://defisaver.com/" target="_blank" rel="noreferrer noopener">
-            <img src="/images/partners/defi-saver.png" alt="DeFi Saver logo" />
-          </a>
-          {/* <a style={{ display: "flex", gap: 20, alignItems: "center", justifyContent: "center" }} href="https://www.johnlilic.info/" target="_blank" rel="noreferrer noopener">
-            <img className="!w-auto" src="/images/partners/johnlilic.jpg" alt="John Lilic logo" />
-            <p style={{ fontWeight: "bold", fontSize: 20, textTransform: "uppercase" }}>John Lilic</p>
-          </a> */}
-          {/* <a href="https://www.telos.net/" target="_blank" rel="noreferrer noopener">
-            <img src="/images/partners/telos.svg" alt="Telos logo" />
-          </a> */}
-        </div>
-
-
-        <p className={styles.tier}>Community Builders</p>
-        <div className={styles.sponsorsList}>
-          <a href="https://esp.ethereum.foundation/" target="_blank" rel="noreferrer noopener">
-            <img src="/images/partners/EF-ESP-logo.svg" alt="Ethereum Foundation Ecosystem Support Program logo" />
-          </a>
-          {/* <a href="https://blockanalitica.com/" target="_blank" rel="noreferrer noopener">
-            <img src="/images/partners/BlockAnalitica-logo.png" alt="Block Analitica logo" />
-          </a>
-          <a href="https://www.superchain.network/" target="_blank" rel="noreferrer noopener">
-            <img src="/images/partners/superchain-logo.png" alt="Superchain logo" />
-          </a>
-          <a href="https://www.bnbchain.org/en" target="_blank" rel="noreferrer noopener">
-            <img src="/images/partners/bnb-chain-logo.svg" alt="BNB Chain logo" />
-          </a>
-          <a href="https://www.mantle.xyz/" target="_blank" rel="noreferrer noopener">
-            <img src="/images/partners/mantle-logo.svg" alt="Mantle logo" />
-          </a> */}
-        </div>
-
-        <p className={styles.tier}>Community Gardeners</p>
-        <div className={styles.sponsorsList}>
-          {/* <a href="https://www.optimism.io/" target="_blank" rel="noreferrer noopener">
-            <img src="/images/partners/optimism.svg" alt="Optimism logo" />
-          </a>
-          <a href="https://linea.build/" target="_blank" rel="noreferrer noopener">
-            <img src="/images/partners/linea-logo.svg" alt="Linea logo" />
-          </a>
-          <a href="https://lido.fi/" target="_blank" rel="noreferrer noopener">
-            <img src="/images/partners/lido-logo.svg" alt="Lido logo" />
-          </a>
-          <a href="https://ledger.com/" target="_blank" rel="noreferrer noopener">
-            <img src="/images/partners/ledger-logo.svg" alt="Ledger logo" />
-          </a> */}
-          <a href="https://li.fi/" target="_blank" rel="noreferrer noopener">
-            <img src="/images/partners/lifi-logo.svg" alt="LiFi logo" />
-          </a>
-          {/* <a href="https://oasisprotocol.org/" target="_blank" rel="noreferrer noopener">
-            <img src="/images/partners/oasis-logo.svg" alt="Oasis logo" />
-          </a>
-          <a href="https://www.blockscout.com/" target="_blank" rel="noreferrer noopener">
-            <img src="/images/partners/blockscout-logo.svg" alt="Blockscout logo" />
-          </a> */}
-          <a href="https://www.rareskills.io/" target="_blank" rel="noreferrer noopener">
-            <img className="!w-full" src="/images/partners/rareskills-logo-dark.svg" alt="RareSkills logo" />
-          </a>
-          <a href="https://ethernal.tech/" target="_blank" rel="noreferrer noopener">
-            <img src="/images/partners/ethernal-logo-white.svg" alt="Ethernal logo" />
-          </a>
-          {/* <a href="https://metamask.io/" target="_blank" rel="noreferrer noopener">
-            <img src="/images/partners/metamask-logo.svg" alt="MetaMask logo" />
-          </a>
-          <a href="https://www.risczero.com/" target="_blank" rel="noreferrer noopener">
-            <img src="/images/partners/risc-zero-logo.png" alt="RISC Zero logo" />
-          </a>
-          <a href="https://fluence.network/" target="_blank" rel="noreferrer noopener">
-            <img src="/images/partners/fluence-logo.svg" alt="Fluence logo" />
-          </a>
-          <a href="https://gateway.fm/" target="_blank" rel="noreferrer noopener">
-            <img src="/images/partners/gateway.svg" alt="Gateway logo" />
-          </a>
-          <a href="https://sidechain.pro/" target="_blank" rel="noreferrer noopener">
-            <img style={{ maxHeight: 90 }} src="/images/partners/sidechain-logo.svg" alt="Sidechain logo" />
-          </a> */}
-        </div>
-
-        <p className={styles.tier}>Hackathon sponsors</p>
-        <div className={styles.sponsorsList}>
-          <a href="https://chain.link/" target="_blank" rel="noreferrer noopener">
-            <img className="!w-full" src="/images/partners/chainlink-logo.svg" alt="Chainlink logo" />
-          </a>
-          <a href="https://www.iex.ec/" target="_blank" rel="noreferrer noopener">
-            <img src="/images/partners/iexec-logo.svg" alt="iExec logo" />
-          </a>
-          <a href="https://flare.network/" target="_blank" rel="noreferrer noopener">
-            <img src="/images/partners/flare-logo.png" alt="Flare logo" />
-          </a>
-          <a href="https://oasis.net/" target="_blank" rel="noreferrer noopener">
-            <img className="!w-full" src="/images/partners/oasis-logo.svg" alt="Oasis logo" />
-          </a>
-          <a href="https://buidlguidl.com/" target="_blank" rel="noreferrer noopener">
-            <img src="/images/partners/buidlguidl-logo.svg" alt="BuidlGuidl logo" />
-          </a>
-          {/* <a href="https://neonevm.org/" target="_blank" rel="noreferrer noopener">
-            <img src="/images/partners/neon-evm.png" alt="Neon EVM logo" />
-          </a> */}
-        </div>
-
-        <p className={styles.tier}>Coffee sponsor</p>
-        <div className={styles.sponsorsList}>
-          <a href="https://crypto12.com/en/" target="_blank" rel="noreferrer noopener">
-            <img style={{ maxHeight: 90 }} src="/images/partners/crypto12-logo.webp" alt="Crypto12 logo" />
-          </a>
-        </div>
-
-        <p className={styles.tier}>Supported by</p>
-        <div className={styles.sponsorsList}>
-          <a href="https://blockops.technology/" target="_blank" rel="noreferrer noopener">
-            <img src="/images/partners/blockops-logo.png" alt="Blockops logo" />
-          </a>
-          <a href="https://unusualsour.com/" target="_blank" rel="noreferrer noopener">
-            <img src="/images/partners/Unusual-Sour-Logo.png" alt="Unusual Sour logo" />
-          </a>
-          <a href="https://www.decenter.com/" target="_blank" rel="noreferrer noopener">
-            <img src="/images/partners/decenter.svg" alt="Decenter logo" />
-          </a>
-        </div>
-
-        {/* <p className={styles.tier}>Partners</p>
-        <div className={styles.sponsorsList}> */}
-        {/* <a href="https://web3securitysummit.com/" target="_blank" rel="noreferrer noopener">
-            <img src="/images/partners/web3-sec-summit-logo-light.png" alt="Web3 Security Summit logo" />
-          </a>
-          <a href="https://rustsummit.com/" target="_blank" rel="noreferrer noopener">
-            <img src="/images/partners/rust-summit-logo.svg" alt="Rust Summit logo" />
-          </a>
-          <a href="https://www.ethbucharest.xyz/" target="_blank" rel="noreferrer noopener">
-            <img src="/images/partners/eth-bucharest-logo-white.svg" alt="ETH Bucharest logo" />
-          </a>
-          <a href="https://blocksplit.net/" target="_blank" rel="noreferrer noopener">
-            <img src="/images/partners/BlockSplit_logo.png" alt="BlockSplit logo" />
-          </a>
-          <a href="https://www.ethsofia.com/" target="_blank" rel="noreferrer noopener">
-            <img src="/images/partners/ethsofia-logo.svg" alt="ETH Sofia logo" />
-          </a>
-          <a href="https://www.ethaccra.xyz/" target="_blank" rel="noreferrer noopener">
-            <img style={{ maxHeight: 90 }} src="/images/partners/eth-accra-logo.svg" alt="ETH Accra logo" />
-          </a>
-          <a href="https://layerx.xyz/" target="_blank" rel="noreferrer noopener">
-            <img src="/images/partners/LayerX-logo.svg" alt="LayerX logo" />
-          </a> */}
-        {/* <a href="https://mvpworkshop.co/" target="_blank" rel="noreferrer noopener">
-            <img src="/images/partners/mvp-logo.png" alt="MVP Workshop logo" />
-          </a>
-          <a href="https://attic42.com/" target="_blank" rel="noreferrer noopener">
-            <img src="/images/partners/attic42-logo.svg" alt="Attic 42 logo" />
-          </a>
-          <a href="https://moonstruck.io/" target="_blank" rel="noreferrer noopener">
-            <img src="/images/partners/moonstruck-logo.svg" alt="Moonstruck logo" />
-          </a> */}
-        {/* <a href="https://www.ethtallinn.org/" target="_blank" rel="noreferrer noopener">
-            <img style={{ maxHeight: 120 }} src="/images/partners/ETHTallinn-logo.svg" alt="ETH Tallinn logo" />
-          </a> */}
-        {/* </div> */}
+        ))}
       </div>
 
       <div className={styles.ctaSection}>
         <p className={styles.ctaTitle}>Consider becoming a <span>sponsor</span>?</p>
         <div className={styles.buttonWrapper}>
           <a href={SPONSOR_APPLICATION_FORM_URL} target="_blank" rel="noreferrer noopener">
-            <Button className={styles.button} styleType="yellow">Get in touch</Button>
+            <Button className={styles.button} styleType="red">Get in touch</Button>
           </a>
         </div>
       </div>
