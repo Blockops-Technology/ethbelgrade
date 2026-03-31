@@ -1,7 +1,6 @@
 import styles from "./speakers.module.scss";
 import Button from "../../common/button/button";
 // import speakers from "./speakers.json";
-import { SPEAKER_APPLICATION_FORM_URL } from "../../../constants";
 
 const Speakers = ({speakers}) => {
   console.log(speakers)
