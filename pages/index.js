@@ -1,5 +1,4 @@
-import connectMongo from "@/lib/mongoose";
-import Speaker from "@/models/Speaker";
+import getSpeakers from "@/lib/getSpeakers";
 
 import Head from "next/head";
 import mainLayout from "../components/common/layout/mainLayout";
@@ -16,7 +15,7 @@ import Startups from "../components/landing/startups/startups";
 import Agenda from "../components/landing/agenda/agenda";
 
 import { DATE, YEAR } from "../constants";
-export default function Home({ speakers = [] }) {
+export default function Home({ speakers = [], speakersFromDb = false }) {
   const description = `The premier Ethereum event in the heart of the Balkans. Part of Belgrade Blockchain Week. ${DATE} ${YEAR} - see you in Belgrade!`;
   return (
     <div style={{ overflow: "hidden" }}>
@@ -39,6 +38,7 @@ export default function Home({ speakers = [] }) {
         <meta name="twitter:image" content="https://ethbelgrade.rs/eth-belgrade-og-2026.jpg" />
 
         <link rel="icon" href="/favicon.ico" />
+        {speakersFromDb && <meta name="speakers-source" content="database" />}
       </Head>
       <Hero />
       {/*<Agenda />*/}
@@ -57,16 +57,10 @@ export default function Home({ speakers = [] }) {
 
 Home.getLayout = mainLayout;
 
-export const getServerSideProps = async () => {
-  try {
-    await connectMongo();
-    const speakers = await Speaker.find().sort({order: 1});
-    return {
-      props: { speakers: JSON.parse(JSON.stringify(speakers)) },
-    };
-  } catch (e) {
-      console.error(e);
-      return { props: { speakers: [] } };
-  }
-
+export const getStaticProps = async () => {
+  const { speakers, speakersFromDb } = await getSpeakers();
+  return {
+    props: { speakers, speakersFromDb },
+    revalidate: 60,
+  };
 };

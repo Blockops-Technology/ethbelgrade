@@ -1,8 +1,8 @@
-import { signIn, auth } from "auth";
+import { signIn, auth, DEV_AUTH_BYPASS, getDevSession } from "auth";
 import { redirect } from 'next/navigation';
 
 export default async function SignIn() {
-  const session = await auth();
+  const session = DEV_AUTH_BYPASS ? getDevSession() : await auth();
 
   if (session?.user) {
     redirect("/dashboard/speakers");
@@ -27,4 +27,3 @@ export default async function SignIn() {
     </form>
   )
 };
-

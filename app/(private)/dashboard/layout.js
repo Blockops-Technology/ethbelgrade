@@ -1,6 +1,5 @@
-import { auth } from "@/auth";
+import { auth, DEV_AUTH_BYPASS, getDevSession } from "@/auth";
 import Sidebar from "@/components/dashboard/sidebar/sidebar";
-// import { useSession } from "next-auth/react";
 import { redirect } from "next/navigation";
 
 export const metadata = {
@@ -13,9 +12,7 @@ export const metadata = {
 }
 
 const DashboardLayout = async ({ children }) => {
-  const user = await auth();
-
-  console.log("user", user);
+  const user = DEV_AUTH_BYPASS ? getDevSession() : await auth();
 
   if (!user) {
     redirect("/sign-in");
@@ -23,7 +20,7 @@ const DashboardLayout = async ({ children }) => {
 
   return (
     <div className="flex min-h-screen">
-      <Sidebar />
+      <Sidebar user={user.user} />
       <div className="flex-1 px-8 py-14">
         {children}
       </div>
