@@ -53,4 +53,6 @@ const SpeakerCard = React.forwardRef(({ speaker: { _id, name, image, company, ca
   );
 });
 
+SpeakerCard.displayName = "SpeakerCard";
+
 export default SpeakerCard;

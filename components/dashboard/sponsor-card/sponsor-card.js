@@ -37,4 +37,6 @@ const SponsorCard = React.forwardRef(({ sponsor: { _id, name, link, image, tier,
   );
 });
 
+SponsorCard.displayName = "SponsorCard";
+
 export default SponsorCard;
