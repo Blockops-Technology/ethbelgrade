@@ -3,7 +3,6 @@ import Button from "../../common/button/button";
 // import speakers from "./speakers.json";
 
 const Speakers = ({speakers}) => {
-  console.log(speakers)
   return (
     <div id="speakers">
       <div className={styles.pageTitleContainer}>
