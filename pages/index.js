@@ -17,7 +17,13 @@ import Startups from "../components/landing/startups/startups";
 import Agenda from "../components/landing/agenda/agenda";
 
 import { DATE, YEAR } from "../constants";
-export default function Home({ speakers = [], sponsors = [], fromDb = false }) {
+export default function Home({
+  speakers = [],
+  sponsors = [],
+  speakersError = null,
+  sponsorsError = null,
+  fromDb = false,
+}) {
   const description = `The premier Ethereum event in the heart of the Balkans. Part of Belgrade Blockchain Week. ${DATE} ${YEAR} - see you in Belgrade!`;
   return (
     <div style={{ overflow: "hidden" }}>
@@ -43,10 +49,23 @@ export default function Home({ speakers = [], sponsors = [], fromDb = false }) {
         {fromDb && <meta name="data-source" content="database" />}
       </Head>
       <Hero />
-      {/*<Agenda />*/}
       <About />
-      <Speakers speakers={speakers} />
-      <Partners sponsors={sponsors} />
+      {speakersError ? (
+        <div className="container" style={{ paddingTop: "48px", paddingBottom: "48px" }}>
+          <h2 style={{ color: "var(--primary-red)", marginBottom: "12px" }}>Speakers unavailable</h2>
+          <p>{speakersError}</p>
+        </div>
+      ) : (
+        <Speakers speakers={speakers} />
+      )}
+      {sponsorsError ? (
+        <div className="container" style={{ paddingTop: "48px", paddingBottom: "48px" }}>
+          <h2 style={{ color: "var(--primary-red)", marginBottom: "12px" }}>Sponsors unavailable</h2>
+          <p>{sponsorsError}</p>
+        </div>
+      ) : (
+        <Partners sponsors={sponsors} />
+      )}
       {/* <Hackathon /> */}
       <Startups />
       {/* <MediaPartners /> */}
@@ -61,12 +80,22 @@ Home.getLayout = mainLayout;
 
 export const getStaticProps = async () => {
   const source = await getDataSource();
-  const [{ speakers }, { sponsors }] = await Promise.all([
+
+  const [speakersResult, sponsorsResult] = await Promise.allSettled([
     getSpeakers(source),
     getSponsors(source),
   ]);
+
   return {
-    props: { speakers, sponsors, fromDb: source === "db" },
+    props: {
+      speakers: speakersResult.status === "fulfilled" ? speakersResult.value : [],
+      sponsors: sponsorsResult.status === "fulfilled" ? sponsorsResult.value : [],
+      speakersError:
+        speakersResult.status === "rejected" ? speakersResult.reason.message : null,
+      sponsorsError:
+        sponsorsResult.status === "rejected" ? sponsorsResult.reason.message : null,
+      fromDb: source === "db",
+    },
     revalidate: 60,
   };
 };
