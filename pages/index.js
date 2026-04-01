@@ -1,4 +1,6 @@
 import getSpeakers from "@/lib/getSpeakers";
+import getSponsors from "@/lib/getSponsors";
+import getDataSource from "@/lib/getDataSource";
 
 import Head from "next/head";
 import mainLayout from "../components/common/layout/mainLayout";
@@ -15,7 +17,7 @@ import Startups from "../components/landing/startups/startups";
 import Agenda from "../components/landing/agenda/agenda";
 
 import { DATE, YEAR } from "../constants";
-export default function Home({ speakers = [], speakersFromDb = false }) {
+export default function Home({ speakers = [], sponsors = [], fromDb = false }) {
   const description = `The premier Ethereum event in the heart of the Balkans. Part of Belgrade Blockchain Week. ${DATE} ${YEAR} - see you in Belgrade!`;
   return (
     <div style={{ overflow: "hidden" }}>
@@ -38,13 +40,13 @@ export default function Home({ speakers = [], speakersFromDb = false }) {
         <meta name="twitter:image" content="https://ethbelgrade.rs/eth-belgrade-og-2026.jpg" />
 
         <link rel="icon" href="/favicon.ico" />
-        {speakersFromDb && <meta name="speakers-source" content="database" />}
+        {fromDb && <meta name="data-source" content="database" />}
       </Head>
       <Hero />
       {/*<Agenda />*/}
       <About />
       <Speakers speakers={speakers} />
-      <Partners />
+      <Partners sponsors={sponsors} />
       {/* <Hackathon /> */}
       <Startups />
       {/* <MediaPartners /> */}
@@ -58,9 +60,13 @@ export default function Home({ speakers = [], speakersFromDb = false }) {
 Home.getLayout = mainLayout;
 
 export const getStaticProps = async () => {
-  const { speakers, speakersFromDb } = await getSpeakers();
+  const source = await getDataSource();
+  const [{ speakers }, { sponsors }] = await Promise.all([
+    getSpeakers(source),
+    getSponsors(source),
+  ]);
   return {
-    props: { speakers, speakersFromDb },
+    props: { speakers, sponsors, fromDb: source === "db" },
     revalidate: 60,
   };
 };
