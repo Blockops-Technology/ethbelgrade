@@ -351,18 +351,30 @@ const AgendaPage = () => {
     resetScheduleModal();
   };
 
-  const handleDeleteSchedule = async () => {
-    if (!scheduleForm.id) {
+  const handleDeleteSchedule = async (scheduleId = scheduleForm.id) => {
+    if (!scheduleId) {
+      return;
+    }
+
+    const scheduleToDelete = agenda.schedules.find((schedule) => schedule.id === scheduleId);
+    const shouldDelete = window.confirm(
+      `Delete "${scheduleToDelete?.title || "this agenda item"}"?`
+    );
+
+    if (!shouldDelete) {
       return;
     }
 
     const nextAgenda = {
       ...agenda,
-      schedules: agenda.schedules.filter((schedule) => schedule.id !== scheduleForm.id),
+      schedules: agenda.schedules.filter((schedule) => schedule.id !== scheduleId),
     };
 
     await persistAgenda(nextAgenda, "Schedule deleted");
-    resetScheduleModal();
+
+    if (scheduleId === scheduleForm.id) {
+      resetScheduleModal();
+    }
   };
 
   if (loading) {
@@ -427,11 +439,20 @@ const AgendaPage = () => {
                       className="border border-gray-200/10 p-0 align-top"
                     >
                       {cell.schedule ? (
-                        <button
-                          type="button"
-                          onClick={() => openEditScheduleModal(cell.schedule)}
-                          className="w-full h-full min-h-[110px] text-left bg-gray-900/60 hover:bg-gray-900/80 p-4"
-                        >
+                        <div className="relative w-full h-full min-h-[110px] bg-gray-900/60 hover:bg-gray-900/80">
+                          <button
+                            type="button"
+                            onClick={() => handleDeleteSchedule(cell.schedule.id)}
+                            className="absolute right-3 top-3 z-10 rounded-sm border border-red-500/30 bg-red-500/10 px-2 py-1 text-xs font-semibold text-red-200 hover:bg-red-500/20"
+                            aria-label={`Delete ${cell.schedule.title}`}
+                          >
+                            Delete
+                          </button>
+                          <button
+                            type="button"
+                            onClick={() => openEditScheduleModal(cell.schedule)}
+                            className="w-full h-full min-h-[110px] text-left p-4"
+                          >
                           <div className="text-xs uppercase tracking-wide text-gray-400">
                             {cell.schedule.category || "Schedule"}
                           </div>
@@ -446,7 +467,8 @@ const AgendaPage = () => {
                             {cell.slotSpan > 1 ? `${cell.slotSpan} slots` : "1 slot"}
                             {cell.spaceSpan > 1 ? ` • ${cell.spaceSpan} spaces` : ""}
                           </div>
-                        </button>
+                          </button>
+                        </div>
                       ) : (
                         <button
                           type="button"
