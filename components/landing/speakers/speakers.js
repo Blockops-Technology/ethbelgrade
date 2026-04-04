@@ -1,9 +1,8 @@
 import styles from "./speakers.module.scss";
 import Button from "../../common/button/button";
-import speakers from "./speakers.json";
-import { SPEAKER_APPLICATION_FORM_URL } from "../../../constants";
+// import speakers from "./speakers.json";
 
-const Speakers = () => {
+const Speakers = ({speakers}) => {
   return (
     <div id="speakers">
       <div className={styles.pageTitleContainer}>
@@ -11,35 +10,23 @@ const Speakers = () => {
       </div>
       <div className="container">
         <div className={styles.header}>
-          <div>
-            <p className={styles.title}>The brightest Web3 minds</p>
-            <p className={styles.subtitle}>have something to say</p>
-          </div>
-          {/* <div>
-            <a href={SPEAKER_APPLICATION_FORM_URL} target="_blank" rel="noreferrer noopener">
-              <Button styleType="purple">Apply as a speaker</Button>
-            </a>
-          </div> */}
+          <p className={styles.title}>They&apos;ve spoken at ETH Belgrade</p>
+          <p className={styles.subtitle}>The brightest Web3 minds</p>
         </div>
-        <div className={styles.speakerList}>
-          {
-            speakers.list.map((speaker, i) => (
-              <div key={i}>
-                <a href={speaker.twitter} target="_blank" rel="noreferrer noopener">
-                  <img src={`/images/Speakers/${speaker.photo}`} alt={speaker.name + " photo"} />
-                  {
-                    speaker.category && (
-                      <div>
-                        <div className={`${styles.category} ${styles["category" + speaker.category.replaceAll(" ", "")]}`}>{speaker.category}</div>
-                      </div>
-                    )
-                  }
-                  <p className={styles.name}>{speaker.name}</p>
-                  <p className={styles.position}>{speaker.position}</p>
-                </a>
-              </div>
-            ))
-          }
+        <div className={styles.grid}>
+          {speakers.map((speaker, i) => (
+            <a
+              key={i}
+              className={styles.gridCell}
+              href={speaker.link}
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <img src={speaker.image} alt={speaker.name + " photo"} />
+              <p className={styles.name}>{speaker.name}</p>
+              <p className={styles.position}>{speaker.company}</p>
+            </a>
+          ))}
         </div>
       </div>
     </div>

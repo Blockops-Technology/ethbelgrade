@@ -6,9 +6,8 @@
 
 .heroImage {
   height: 670px;
-  background: url("/images/venue/sc2.jpg") no-repeat center center;
+  background: url("/images/venue/sava-centar.jpg") no-repeat center bottom;
   background-size: cover;
-  background-position: center;
 
   @include breakpoint(big-screen) {
     height: 500px;
@@ -29,7 +28,7 @@
 
 .pageTitleContainer {
   padding: 150px 16px 100px;
-  background-color: var(--primary-pinkish);
+  background-color: var(--primary-red);
   text-align: center;
 
   @include breakpoint(landscape) {
@@ -91,7 +90,7 @@
 .text {
   max-width: 950px;
   padding: 60px 45px;
-  border: 1px solid var(--primary-pinkish);
+  border: 1px solid var(--primary-red);
   border-top: none;
 }
 
@@ -103,5 +102,6 @@
 .button {
   display: flex;
   align-items: center;
+  background: var(--primary-red);
   gap: 20px;
 }

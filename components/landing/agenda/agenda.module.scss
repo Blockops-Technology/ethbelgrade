@@ -14,7 +14,7 @@
 }
 
 .title {
-  color: var(--primary-blue);
+  color: var(--primary-red);
   font-family: var(--anton);
   font-weight: 400;
   font-size: 194.16px;
@@ -83,9 +83,9 @@
   padding: 20px 30px;
   font-weight: 700;
   font-size: 30px;
-  border-left: 1px solid var(--primary-blue);
-  border-top: 1px solid var(--primary-blue);
-  border-bottom: 1px solid var(--primary-blue);
+  border-left: 1px solid var(--primary-red);
+  border-top: 1px solid var(--primary-red);
+  border-bottom: 1px solid var(--primary-red);
   flex-grow: 1;
   text-transform: uppercase;
   list-style-type: none;
@@ -99,7 +99,7 @@
   }
 
   &:nth-last-child(1) {
-    border-right: 1px solid var(--primary-blue);
+    border-right: 1px solid var(--primary-red);
   }
 
   &::marker {
@@ -130,7 +130,7 @@
 }
 
 .selectedTab {
-  background-color: var(--primary-blue);
+  background-color: var(--primary-red);
 }
 
 .selectedTab .tabName {
@@ -138,7 +138,7 @@
 }
 
 .tabName {
-  color: var(--primary-blue);
+  color: var(--primary-red);
 }
 
 .timeTable {
@@ -150,14 +150,14 @@
     grid-template-columns: 50px repeat(3, minmax(120px, 1fr));
   }
   grid-template-rows: auto repeat(17, minmax(130px, 1fr));
-  border-right: 1px solid var(--primary-blue);
-  border-bottom: 1px solid var(--primary-blue);
+  border-right: 1px solid var(--primary-red);
+  border-bottom: 1px solid var(--primary-red);
 }
 
 .details {
   grid-row: span var(--duration);
   grid-column: span var(--spaces);
-  border: 1px dashed var(--primary-blue);
+  border: 1px dashed var(--primary-red);
   border-width: 1px 0 0 1px;;
   text-align: left;
   padding: 2px;
@@ -170,7 +170,7 @@
 }
 
 .talk {
-  background-color: var(--primary-blue);
+  background-color: var(--primary-red);
   color: var(--background-color);
   flex: 1;
   padding: 10px;
@@ -207,9 +207,9 @@
 }
 
 .header {
-  border: 1px solid var(--primary-blue);
+  border: 1px solid var(--primary-red);
   border-width: 1px 0 0 1px;;
-  color: var(--primary-blue);
+  color: var(--primary-red);
   text-align: center;
   font-family: var(--anton);
   font-size: 24px;
@@ -300,9 +300,9 @@
 // }
 
 .time {
-  border: 1px solid var(--primary-blue);
+  border: 1px solid var(--primary-red);
   border-width: 1px 0 0 1px;;
-  color: var(--primary-blue);
+  color: var(--primary-red);
   font-family: var(--space-grotesk);
   font-size: 12.47px;
   padding: 20px 0px;

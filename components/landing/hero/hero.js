@@ -15,10 +15,11 @@ const Hero = () => (
       <div className={styles.heroContent}>
         <p className={styles.title}>MOST WELCOMING ETH EVENT</p>
         {/*<p className={styles.dates}>3 - 5 June, 2024 @ <Link href="https://maps.app.goo.gl/9WFMcjzrtVeYy9Za6" target="_blank" rel="noreferrer noopener">MTS Dvorana</Link></p>*/}
-        <p className={styles.dates}>Conference & Hackathon 3 - 5 June, {YEAR} @ Sava Congress Center</p>
+        <p className={styles.dates}>26 - 27 August, {YEAR} @ Sava Congress Center</p>
+        {/* <p className={styles.dates}>Conference & Hackathon 26 - 27 August, {YEAR} @ Sava Congress Center</p> */}
         {/* <p className={styles.dates}>Hackathon 6 - 8 June, {YEAR}</p> */}
         <div className={styles.subtitle}>
-          <p>ETH event in the heart of the Balkans.</p>
+          <p>The premier Ethereum event in the heart of the Balkans.</p>
           <p>Part of Belgrade Blockchain Week.</p>
         </div>
         {/*<div className={styles.labelContainer}>*/}
@@ -30,22 +31,22 @@ const Hero = () => (
             <Button styleType="blue">
               Apply to hack
             </Button>
-          </a>
+          </a> */}
           <a href={SPONSOR_APPLICATION_FORM_URL} target="_blank" rel="noreferrer noopener">
-            <Button styleType="blue">
+            <Button styleType="red">
               Become a sponsor
             </Button>
-          </a> */}
-          {/* <a href={SPEAKER_APPLICATION_FORM_URL} target="_blank" rel="noreferrer noopener">
-            <Button styleType="blue">
+          </a>
+          <a href={SPEAKER_APPLICATION_FORM_URL} target="_blank" rel="noreferrer noopener">
+            <Button styleType="red">
               Apply as a speaker
             </Button>
-          </a> */}
-          <a href={TICKETING_PLATFORM_URL} target="_blank" rel="noreferrer noopener">
-            {/* <Button>Get Tickets ({DISCOUNT} off)</Button> */}
-            {/* <Button>Get Tickets</Button> */}
-            {/* <Button>Get Tickets for day 2 and 3 (40% off)</Button> */}
           </a>
+          {/* <a href={TICKETING_PLATFORM_URL} target="_blank" rel="noreferrer noopener"> */}
+          {/* <Button>Get Tickets ({DISCOUNT} off)</Button> */}
+          {/* <Button className="text-red">Tickets Coming Soon</Button> */}
+          {/* <Button>Get Tickets for day 2 and 3 (40% off)</Button> */}
+          {/* </a> */}
         </div>
       </div>
     </div>

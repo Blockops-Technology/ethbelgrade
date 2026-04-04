@@ -84,7 +84,7 @@
 }
 
 .highlight {
-  color: var(--primary-blue);
+  color: var(--primary-red);
 }
 
 .content {
@@ -103,7 +103,7 @@
 }
 
 .section {
-  border: 1px solid var(--primary-blue);
+  border: 1px solid var(--primary-red);
   padding: 49px;
 
   &:nth-last-child(2) {
@@ -119,7 +119,7 @@
 
 .sectionTitle {
   font-family: var(--anton);
-  color: var(--primary-blue);
+  color: var(--primary-red);
   font-size: 24px;
   text-transform: uppercase;
 }

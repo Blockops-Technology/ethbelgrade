@@ -6,12 +6,12 @@ const About = () => (
   <>
     <Marquee rate={-70} startOnScreen>
       <p className={styles.stats}>
-        <span className={styles.purple}>3 days</span>
-        <span className={styles.blue}>100+ speakers</span>
-        <span className={styles.pink}>1000+ Attendees</span>
-        <span className={styles.emerald}>280+ hackers</span>
-        <span className={styles.green}>150+ web3 companies</span>
-        <span className={styles.orange}>15+ investors</span>
+        <span>30+ institutions</span>
+        <span>100+ speakers</span>
+        <span>1500+ Attendees</span>
+        <span>450+ hackers</span>
+        <span>250+ web3 companies</span>
+        <span>50+ investors</span>
       </p>
     </Marquee>
 
@@ -29,12 +29,12 @@ const About = () => (
         <div className={styles.section}>
           <p className={styles.sectionTitle}>Why Belgrade?</p>
           <p>The past and future have been flirting in Belgrade for centuries. Located where the Danube hugs Sava and the East clashes with the West, the city blends different cultures to create eclectic charm. Authentic, vibrant, and sometimes chaotic, Belgrade is built upon tradition, cosmopolitan spirit, and booming technologies.</p>
-          <p>Belgrade is home to 50+ Web3 companies creating a fruitful and fast-expanding local community. Many OGs, buidlers, and heavyweights like <strong>Polygon</strong>, <strong>Tenderly</strong>, and <strong>DeFi Saver</strong>, were born and raised in the city. But — one thing is for sure — they are not the last Web3 Belgraders you’ll hear about.</p>
+          <p>Belgrade is home to 50+ Web3 companies creating a fruitful and fast-expanding local community. Many OGs, buidlers, and heavyweights like <strong>DeFi Saver</strong>, <strong>Tenderly</strong>, and <strong>Solflare</strong>, were born and raised in the city. But — one thing is for sure — they are not the last Web3 Belgraders you’ll hear about.</p>
         </div>
       </div>
       <div className={styles.buttonWrapper}>
         <a href="https://belgradeblockchainweek.com/discover-belgrade" target="_blank" rel="noreferrer noopener">
-          <Button className={styles.button} styleType="blue">
+          <Button className={styles.button} styleType="red">
             Discover Belgrade
             <img src="/icons/arrow-right.svg" alt="Arrow right direction icon" />
           </Button>

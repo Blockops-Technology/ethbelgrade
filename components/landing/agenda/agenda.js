@@ -3,8 +3,8 @@ import styles from "./agenda.module.scss";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 
 import Button from "../../common/button/button";
-import agenda from "./agenda.json";
 import speakers from "../speakers/speakers.json";
+import { DEFAULT_AGENDA_SPACES, getDefaultAgenda, toLegacyAgendaShape } from "@/lib/agenda";
 
 const twitter = new Map();
 
@@ -86,72 +86,55 @@ function TimeSlot({ time, programe }) {
   )
 }
 
-const startTime = 10;
-const endTime = 18;
-const timeSlots = [
-  "09:00",
-  "09:30"
-];
+const AgendaComponent = ({ agendaData }) => {
+  const normalizedAgenda = agendaData || getDefaultAgenda();
+  const legacyAgenda = toLegacyAgendaShape(normalizedAgenda);
+  const spaces = (normalizedAgenda?.spaces || DEFAULT_AGENDA_SPACES).slice().sort((a, b) => a.order - b.order);
+  const timeSlots = normalizedAgenda?.timeSlots || [];
 
-for (let hour = startTime; hour < endTime; hour++) {
-  // Adding two slots per hour: XX:00 and XX:30
-  timeSlots.push(`${hour}:00`);
-  timeSlots.push(`${hour}:30`);
-}
-
-const Agenda = () => (
-  <div id="agenda" className={styles.agenda}>
-    <div className="container no-padding">
-      <div className={styles.titleWrapper}>
-        <p className={styles.title}>Agenda</p>
-      </div>
-      <div className={styles.agendaContainer}>
-        <Tabs className={styles.tabs} defaultIndex={0}>
-          <TabList className={styles.tablist}>
-            <div className={styles.tabsContainer}>
-              {
-                agenda.days.map((day, i) => (
+  return (
+    <div id="agenda" className={styles.agenda}>
+      <div className="container no-padding">
+        <div className={styles.titleWrapper}>
+          <p className={styles.title}>Agenda</p>
+        </div>
+        <div className={styles.agendaContainer}>
+          <Tabs className={styles.tabs} defaultIndex={0}>
+            <TabList className={styles.tablist}>
+              <div className={styles.tabsContainer}>
+                {legacyAgenda.days.map((day, i) => (
                   <Tab key={i} className={styles.tab} selectedClassName={styles.selectedTab}>
                     <div className={styles.tabName}>{day.dayName}</div>
                     <div className={styles.tabDate}>{day.date}</div>
                   </Tab>
-                ))
-              }
-            </div>
-          </TabList>
+                ))}
+              </div>
+            </TabList>
 
-          {
-            agenda.days.map((day, i) => (
+            {legacyAgenda.days.map((day, i) => (
               <TabPanel key={i}>
-                <div className={styles.timeTable} style={{gridTemplateRows: 'auto repeat(' + (day.programe['17:30'] ? 18 : 17) +', minmax(130px, 1fr))'}}>
+                <div className={styles.timeTable} style={{ gridTemplateRows: `auto repeat(${timeSlots.length}, minmax(130px, 1fr))` }}>
                   <div></div>
-                  <div className={styles.header}>
-                    <h3><span></span></h3>
-                    <h4>Danube stage</h4>
-                  </div>
-                  <div className={styles.header}>
-                    <h3> <span></span></h3>
-                    <h4>Sava stage</h4>
-                  </div>
-                  <div className={styles.header}>
-                    <h3><span></span></h3>
-                    {/* <img className="w-full !max-w-[110px]" src="/images/partners/rise-logo.png" /> */}
-                    <h4>Rise stage</h4>
-                  </div>
+                  {spaces.map((space) => (
+                    <div key={space.id} className={styles.header}>
+                      <h3><span></span></h3>
+                      <h4>{space.name}</h4>
+                    </div>
+                  ))}
                   {timeSlots.map((time, index) => {
-                    if (day.programe[time])
+                    if (day.programe[time]) {
                       return <TimeSlot key={time} programe={day.programe[time]} time={time} index={index} start={1} duration={1} />;
+                    }
                     return null;
                   })}
                 </div>
               </TabPanel>
-            ))
-          }
-        </Tabs>
+            ))}
+          </Tabs>
+        </div>
       </div>
-
     </div>
-  </div>
-);
+  );
+};
 
-export default Agenda;
+export default AgendaComponent;
