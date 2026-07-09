@@ -79,9 +79,9 @@ const MainMenu = ({ setOpenMobileMenu = () => { } }) => (
           <Link href={BGBW_URL} target="_blank" rel="noreferrer noopener">
             <span className={styles.menuItem}>Side Events</span>
           </Link>
-          {/*<Link className={styles.ticketLink} href={TICKETING_PLATFORM_URL} target="_blank" rel="noreferrer noopener">*/}
-          {/*  <Button className={styles.button}>Get Tickets</Button>*/}
-          {/*</Link>*/}
+          <Link className={styles.ticketLink} href={TICKETING_PLATFORM_URL} target="_blank" rel="noreferrer noopener">
+            <Button className={styles.button}>Get Tickets</Button>
+          </Link>
         </div>
         <div className={styles.hideOnHamburger}>
           <Link className={styles.ticketLink} href={BGBW_URL} target="_blank" rel="noreferrer noopener">
