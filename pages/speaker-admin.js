@@ -42,6 +42,8 @@ const api = (body) =>
     return data;
   });
 
+const SILHOUETTE = "/images/speaker-silhouette.svg";
+
 function AddSpeaker({ password, onPublished }) {
   const [processing, setProcessing] = useState(false);
   const [progress, setProgress] = useState("");
@@ -51,6 +53,7 @@ function AddSpeaker({ password, onPublished }) {
   const [name, setName] = useState("");
   const [position, setPosition] = useState("");
   const [link, setLink] = useState("");
+  const [anon, setAnon] = useState(false);
 
   const [submitting, setSubmitting] = useState(false);
   const [result, setResult] = useState(null);
@@ -91,27 +94,32 @@ function AddSpeaker({ password, onPublished }) {
 
   const submit = async (e) => {
     e.preventDefault();
-    if (!processedBlob.current) {
-      setError("Upload a photo first.");
+    if (!anon && !processedBlob.current) {
+      setError("Upload a photo first, or mark the speaker as anonymous.");
       return;
     }
     setSubmitting(true);
     setError("");
     try {
-      const imageBase64 = await blobToBase64(processedBlob.current);
+      const imageFields = anon
+        ? {}
+        : {
+            imageBase64: await blobToBase64(processedBlob.current),
+            filename: `${slugify(name)}.png`,
+          };
       const data = await api({
         action: "commit",
         password,
         name: name.trim(),
         position: position.trim(),
         link: link.trim(),
-        imageBase64,
-        filename: `${slugify(name)}.png`,
+        ...imageFields,
       });
       setResult(data);
       setName("");
       setPosition("");
       setLink("");
+      setAnon(false);
       setPreviewUrl(null);
       processedBlob.current = null;
       onPublished();
@@ -125,30 +133,41 @@ function AddSpeaker({ password, onPublished }) {
   return (
     <div className={styles.columns}>
       <div>
-        <div
-          className={`${styles.dropzone} ${dragOver ? styles.dragOver : ""}`}
-          onClick={() => fileInputRef.current?.click()}
-          onDragOver={(e) => { e.preventDefault(); setDragOver(true); }}
-          onDragLeave={() => setDragOver(false)}
-          onDrop={(e) => {
-            e.preventDefault();
-            setDragOver(false);
-            handleFile(e.dataTransfer.files[0]);
-          }}
-        >
-          {processing ? (
-            <p>{progress || "Processing…"}</p>
-          ) : (
-            <p>Drop a photo here<br />or click to choose a file</p>
-          )}
+        {!anon && (
+          <div
+            className={`${styles.dropzone} ${dragOver ? styles.dragOver : ""}`}
+            onClick={() => fileInputRef.current?.click()}
+            onDragOver={(e) => { e.preventDefault(); setDragOver(true); }}
+            onDragLeave={() => setDragOver(false)}
+            onDrop={(e) => {
+              e.preventDefault();
+              setDragOver(false);
+              handleFile(e.dataTransfer.files[0]);
+            }}
+          >
+            {processing ? (
+              <p>{progress || "Processing…"}</p>
+            ) : (
+              <p>Drop a photo here<br />or click to choose a file</p>
+            )}
+            <input
+              ref={fileInputRef}
+              type="file"
+              accept="image/*"
+              hidden
+              onChange={(e) => handleFile(e.target.files[0])}
+            />
+          </div>
+        )}
+
+        <label className={styles.anonToggle}>
           <input
-            ref={fileInputRef}
-            type="file"
-            accept="image/*"
-            hidden
-            onChange={(e) => handleFile(e.target.files[0])}
+            type="checkbox"
+            checked={anon}
+            onChange={(e) => setAnon(e.target.checked)}
           />
-        </div>
+          Anonymous — no photo, show a silhouette
+        </label>
 
         <form className={styles.form} onSubmit={submit}>
           <input
@@ -171,11 +190,21 @@ function AddSpeaker({ password, onPublished }) {
           />
           <button
             type="submit"
-            disabled={submitting || processing || !previewUrl || !name.trim() || !position.trim()}
+            disabled={submitting || processing || (!anon && !previewUrl) || !name.trim() || !position.trim()}
           >
             {submitting ? "Publishing…" : "Publish speaker"}
           </button>
         </form>
+
+        {!anon && previewUrl && (
+          <a
+            className={styles.downloadLink}
+            href={previewUrl}
+            download={`${slugify(name || "speaker")}.png`}
+          >
+            Download processed image
+          </a>
+        )}
 
         {error && <p className={styles.error}>{error}</p>}
         {result && (
@@ -190,7 +219,9 @@ function AddSpeaker({ password, onPublished }) {
         <p className={styles.previewLabel}>Preview (hover the card)</p>
         <div className={styles.card}>
           <div className={styles.cardPhoto}>
-            {previewUrl ? (
+            {anon ? (
+              <img src={SILHOUETTE} alt="Anonymous speaker silhouette" />
+            ) : previewUrl ? (
               <img src={previewUrl} alt="Speaker preview" />
             ) : (
               <div className={styles.cardPlaceholder} />
@@ -248,12 +279,31 @@ function ManageSpeakers({ password, refreshKey }) {
   };
 
   const remove = (i) => {
-    if (!window.confirm(`Remove ${list[i].name}? Their photo will also be deleted on save.`)) return;
+    const warning = list[i].photo
+      ? `Remove ${list[i].name}? Their photo will also be deleted on save.`
+      : `Remove ${list[i].name}?`;
+    if (!window.confirm(warning)) return;
     mutate((next) => {
       next.splice(i, 1);
       return next;
     });
     setEditing(null);
+  };
+
+  const download = async (photo) => {
+    try {
+      const res = await fetch(`${imageBaseUrl}/${photo}`);
+      if (!res.ok) throw new Error(`Image fetch failed (${res.status})`);
+      const blob = await res.blob();
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = photo;
+      a.click();
+      URL.revokeObjectURL(url);
+    } catch (err) {
+      setError(`Download failed: ${err.message}`);
+    }
   };
 
   const editField = (i, field, value) => {
@@ -286,9 +336,12 @@ function ManageSpeakers({ password, refreshKey }) {
 
       <ul className={styles.speakerList}>
         {list.map((s, i) => (
-          <li key={s.photo} className={styles.speakerRow}>
+          <li key={s.photo || `anon-${s.name}`} className={styles.speakerRow}>
             <span className={styles.rowIndex}>{i + 1}</span>
-            <img src={`${imageBaseUrl}/${s.photo}`} alt={s.name} />
+            <img
+              src={s.photo ? `${imageBaseUrl}/${s.photo}` : SILHOUETTE}
+              alt={s.name}
+            />
             {editing === i ? (
               <span className={styles.rowFields}>
                 <input
@@ -319,6 +372,11 @@ function ManageSpeakers({ password, refreshKey }) {
               <button onClick={() => setEditing(editing === i ? null : i)}>
                 {editing === i ? "Done" : "Edit"}
               </button>
+              <button
+                title="Download image"
+                onClick={() => download(s.photo)}
+                disabled={!s.photo}
+              >⬇</button>
               <button className={styles.deleteBtn} onClick={() => remove(i)}>✕</button>
             </span>
           </li>

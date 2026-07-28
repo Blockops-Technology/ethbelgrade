@@ -278,6 +278,32 @@
   }
 }
 
+.anonToggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #aaa;
+  font-size: 14px;
+  margin-bottom: 24px;
+  cursor: pointer;
+
+  input {
+    accent-color: var(--primary-red);
+  }
+}
+
+.downloadLink {
+  display: inline-block;
+  margin-top: 12px;
+  color: #aaa;
+  font-size: 14px;
+  text-decoration: underline;
+
+  &:hover {
+    color: var(--primary-red);
+  }
+}
+
 .error {
   color: #ff5555;
   margin-top: 12px;

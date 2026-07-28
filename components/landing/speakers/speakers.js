@@ -28,7 +28,11 @@ const Speakers = () => {
                 >
                   <span className={styles.cutout}>
                     <img
-                      src={`/images/Speakers2026/${speaker.photo}`}
+                      src={
+                        speaker.photo
+                          ? `/images/Speakers2026/${speaker.photo}`
+                          : "/images/speaker-silhouette.svg"
+                      }
                       alt={speaker.name + " photo"}
                     />
                   </span>

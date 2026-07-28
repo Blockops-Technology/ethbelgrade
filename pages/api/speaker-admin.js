@@ -70,38 +70,43 @@ const jsonBlobEntry = async (speakers) => {
 
 async function addSpeaker({ name, position, link, imageBase64, filename }) {
   const speakers = await fetchSpeakers();
-  if (speakers.list.some((s) => s.photo === filename)) {
-    throw new Error(`A speaker with photo "${filename}" already exists.`);
+  const files = [];
+
+  if (filename) {
+    if (speakers.list.some((s) => s.photo === filename)) {
+      throw new Error(`A speaker with photo "${filename}" already exists.`);
+    }
+    const imageBlob = await gh(`/git/blobs`, {
+      method: "POST",
+      body: JSON.stringify({ content: imageBase64, encoding: "base64" }),
+    });
+    files.push({ path: `${IMAGES_DIR}/${filename}`, mode: "100644", type: "blob", sha: imageBlob.sha });
+  } else if (speakers.list.some((s) => !s.photo && s.name.toLowerCase() === name.toLowerCase())) {
+    throw new Error(`An anonymous speaker named "${name}" already exists.`);
   }
-  speakers.list.push({ name, position, link, photo: filename });
 
-  const imageBlob = await gh(`/git/blobs`, {
-    method: "POST",
-    body: JSON.stringify({ content: imageBase64, encoding: "base64" }),
-  });
+  speakers.list.push({ name, position, link, photo: filename || "" });
+  files.push(await jsonBlobEntry(speakers));
 
-  const result = await commitFiles(`Add speaker: ${name}`, [
-    { path: `${IMAGES_DIR}/${filename}`, mode: "100644", type: "blob", sha: imageBlob.sha },
-    await jsonBlobEntry(speakers),
-  ]);
+  const result = await commitFiles(`Add speaker: ${name}`, files);
   return { ...result, speakerCount: speakers.list.length };
 }
 
 async function updateSpeakers(newList) {
   const current = await fetchSpeakers();
-  const currentPhotos = new Set(current.list.map((s) => s.photo));
+  const currentPhotos = new Set(current.list.map((s) => s.photo).filter(Boolean));
 
   for (const s of newList) {
-    if (!s.name || !s.position || !s.photo) {
-      throw new Error("Every speaker needs a name, position and photo.");
+    if (!s.name || !s.position) {
+      throw new Error("Every speaker needs a name and position.");
     }
-    if (!currentPhotos.has(s.photo)) {
+    if (s.photo && !currentPhotos.has(s.photo)) {
       throw new Error(`Unknown photo "${s.photo}" — new speakers must be added via the Add tab.`);
     }
   }
 
-  const newPhotos = new Set(newList.map((s) => s.photo));
-  const removed = current.list.filter((s) => !newPhotos.has(s.photo));
+  const newPhotos = new Set(newList.map((s) => s.photo).filter(Boolean));
+  const removed = current.list.filter((s) => s.photo && !newPhotos.has(s.photo));
 
   const files = [
     await jsonBlobEntry({
@@ -110,7 +115,7 @@ async function updateSpeakers(newList) {
         name,
         position,
         link: link || "",
-        photo,
+        photo: photo || "",
       })),
     }),
     // Deleting a speaker also deletes their image (sha: null removes the file)
@@ -164,10 +169,14 @@ export default async function handler(req, res) {
 
     if (action === "commit") {
       const { name, position, link, imageBase64, filename } = req.body;
-      if (!name || !position || !imageBase64 || !filename) {
-        return res.status(400).json({ error: "Missing required fields (name, position, image)" });
+      if (!name || !position) {
+        return res.status(400).json({ error: "Missing required fields (name, position)" });
       }
-      if (!/^[a-z0-9-]+\.png$/.test(filename)) {
+      // Photo is optional (anonymous speaker), but image and filename must come together
+      if (!!imageBase64 !== !!filename) {
+        return res.status(400).json({ error: "Image and filename must both be provided" });
+      }
+      if (filename && !/^[a-z0-9-]+\.png$/.test(filename)) {
         return res.status(400).json({ error: "Invalid filename" });
       }
       const result = await addSpeaker({ name, position, link: link || "", imageBase64, filename });
