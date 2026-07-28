@@ -13,16 +13,10 @@
       "photo": "jatin-pandya.png"
     },
     {
-      "name": "Michal Převrátil",
-      "position": "Ack3",
-      "link": "http://twitter.com/michprev",
+      "name": "engn33r",
+      "position": "Yearn Finance",
+      "link": "https://x.com/bl4ckb1rd71",
       "photo": ""
-    },
-    {
-      "name": "Nikola Matic",
-      "position": "Argot Collective",
-      "link": "",
-      "photo": "nikola-matic.png"
     },
     {
       "name": "Sasha",
@@ -31,10 +25,28 @@
       "photo": "sasha.png"
     },
     {
+      "name": "Michal Převrátil",
+      "position": "Ack3",
+      "link": "http://twitter.com/michprev",
+      "photo": "michal-prevratil.png"
+    },
+    {
+      "name": "Nikola Matic",
+      "position": "Argot Collective",
+      "link": "",
+      "photo": "nikola-matic.png"
+    },
+    {
       "name": "Petar Atanasovski",
       "position": "Curvy",
       "link": "https://x.com/AtanasovskiP",
       "photo": "petar-atanasovski.png"
+    },
+    {
+      "name": "Lazar Travica",
+      "position": "Curvy",
+      "link": "http://x.com/lazartravica",
+      "photo": "lazar-travica.png"
     }
   ]
 }
