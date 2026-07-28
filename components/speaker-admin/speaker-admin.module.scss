@@ -167,6 +167,32 @@
   }
 }
 
+.photoControls {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-top: 4px;
+
+  button {
+    padding: 6px 10px;
+    background: transparent;
+    border: 1px solid var(--primary-red);
+    color: var(--primary-red);
+    font-size: 12px;
+    cursor: pointer;
+
+    &:hover:not(:disabled) {
+      background: var(--primary-red);
+      color: #0A0A12;
+    }
+
+    &:disabled {
+      opacity: 0.5;
+      cursor: default;
+    }
+  }
+}
+
 .rowActions {
   display: flex;
   gap: 4px;
@@ -413,7 +439,7 @@
 
 .cardName {
   font-family: var(--anton);
-  font-size: 18px;
+  font-size: 22px;
   text-transform: uppercase;
   line-height: 1.2;
   margin: 0;
@@ -421,9 +447,9 @@
 }
 
 .cardPosition {
-  font-size: 14px;
-  line-height: 1.2;
+  font-size: 17px;
+  line-height: 1.25;
   color: #fff;
-  opacity: 0.7;
-  margin: 4px 0 0;
+  opacity: 0.85;
+  margin: 6px 0 0;
 }

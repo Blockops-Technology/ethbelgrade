@@ -1,3 +1,40 @@
 {
-  "list": []
+  "list": [
+    {
+      "name": "TokenBrice",
+      "position": "Polaris & Pharos",
+      "link": "https://x.com/TokenBrice",
+      "photo": ""
+    },
+    {
+      "name": "Jatin Pandya",
+      "position": "Canton Foundation",
+      "link": "https://x.com/Jpandya26",
+      "photo": "jatin-pandya.png"
+    },
+    {
+      "name": "Michal Převrátil",
+      "position": "Ack3",
+      "link": "http://twitter.com/michprev",
+      "photo": ""
+    },
+    {
+      "name": "Nikola Matic",
+      "position": "Argot Collective",
+      "link": "",
+      "photo": "nikola-matic.png"
+    },
+    {
+      "name": "Sasha",
+      "position": "cow.fi",
+      "link": "",
+      "photo": "sasha.png"
+    },
+    {
+      "name": "Petar Atanasovski",
+      "position": "Curvy",
+      "link": "https://x.com/AtanasovskiP",
+      "photo": "petar-atanasovski.png"
+    }
+  ]
 }

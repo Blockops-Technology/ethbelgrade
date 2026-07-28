@@ -279,8 +279,14 @@ function ManageSpeakers({ password, refreshKey }) {
   const [dirty, setDirty] = useState(false);
   const [editing, setEditing] = useState(null); // index being edited
   const [saving, setSaving] = useState(false);
+  const [processingId, setProcessingId] = useState(null);
+  const [progress, setProgress] = useState("");
   const [error, setError] = useState("");
   const [result, setResult] = useState(null);
+  // Pending (unsaved) image changes, keyed by row _id:
+  // { original, cutout, current, url, usingCutout }
+  const pendingImages = useRef(new Map());
+  const photoInputRef = useRef(null);
 
   const load = useCallback(async () => {
     setError("");
@@ -288,9 +294,10 @@ function ManageSpeakers({ password, refreshKey }) {
     setDirty(false);
     setEditing(null);
     setList(null);
+    pendingImages.current = new Map();
     try {
       const data = await api({ action: "list", password });
-      setList(data.list);
+      setList(data.list.map((s, i) => ({ ...s, _id: i })));
       setImageBaseUrl(data.imageBaseUrl);
     } catch (err) {
       setError(err.message);
@@ -321,6 +328,7 @@ function ManageSpeakers({ password, refreshKey }) {
       ? `Remove ${list[i].name}? Their photo will also be deleted on save.`
       : `Remove ${list[i].name}?`;
     if (!window.confirm(warning)) return;
+    pendingImages.current.delete(list[i]._id);
     mutate((next) => {
       next.splice(i, 1);
       return next;
@@ -351,14 +359,102 @@ function ManageSpeakers({ password, refreshKey }) {
     });
   };
 
+  const choosePhoto = async (id, file) => {
+    if (!file || !file.type.startsWith("image/")) return;
+    setError("");
+    try {
+      const small = await downscale(file);
+      pendingImages.current.set(id, {
+        original: small,
+        cutout: null,
+        current: small,
+        url: URL.createObjectURL(small),
+        usingCutout: false,
+      });
+      mutate((next) => [...next]);
+    } catch (err) {
+      setError(`Could not read image: ${err.message}`);
+    }
+  };
+
+  const toggleBg = async (id) => {
+    const p = pendingImages.current.get(id);
+    if (!p) return;
+    if (p.usingCutout) {
+      pendingImages.current.set(id, {
+        ...p,
+        current: p.original,
+        url: URL.createObjectURL(p.original),
+        usingCutout: false,
+      });
+      mutate((next) => [...next]);
+      return;
+    }
+    setProcessingId(id);
+    setError("");
+    try {
+      let cutout = p.cutout;
+      if (!cutout) {
+        setProgress("Loading background removal model…");
+        const { removeBackground } = await import("@imgly/background-removal");
+        const raw = await removeBackground(p.original, {
+          progress: (key, current, total) => {
+            if (key.startsWith("fetch")) {
+              setProgress(`Downloading model… ${Math.round((current / total) * 100)}%`);
+            } else {
+              setProgress("Removing background…");
+            }
+          },
+        });
+        cutout = await downscale(raw);
+      }
+      pendingImages.current.set(id, {
+        ...p,
+        cutout,
+        current: cutout,
+        url: URL.createObjectURL(cutout),
+        usingCutout: true,
+      });
+      mutate((next) => [...next]);
+    } catch (err) {
+      console.error(err);
+      setError(`Background removal failed: ${err.message}`);
+    } finally {
+      setProcessingId(null);
+      setProgress("");
+    }
+  };
+
+  const removePhoto = (i) => {
+    pendingImages.current.delete(list[i]._id);
+    mutate((next) => {
+      next[i] = { ...next[i], photo: "" };
+      return next;
+    });
+  };
+
   const save = async () => {
     setSaving(true);
     setError("");
     try {
-      const data = await api({ action: "update", password, list });
+      const payload = [];
+      for (const s of list) {
+        const p = pendingImages.current.get(s._id);
+        const entry = {
+          name: s.name.trim(),
+          position: s.position.trim(),
+          link: (s.link || "").trim(),
+          photo: p ? `${slugify(s.name)}.png` : s.photo || "",
+        };
+        if (p) entry.imageBase64 = await blobToBase64(p.current);
+        payload.push(entry);
+      }
+      const data = await api({ action: "update", password, list: payload });
       setResult(data);
       setDirty(false);
       setEditing(null);
+      // Sync local rows with what was committed; pending previews stay valid
+      setList((prev) => prev.map((s, i) => ({ ...s, photo: payload[i].photo })));
     } catch (err) {
       setError(err.message);
     } finally {
@@ -372,11 +468,26 @@ function ManageSpeakers({ password, refreshKey }) {
     <div>
       {list.length === 0 && <p className={styles.loading}>No speakers yet.</p>}
 
+      <input
+        ref={photoInputRef}
+        type="file"
+        accept="image/*"
+        hidden
+        onChange={(e) => {
+          if (editing !== null) choosePhoto(list[editing]._id, e.target.files[0]);
+          e.target.value = "";
+        }}
+      />
+
       <ul className={styles.speakerList}>
-        {list.map((s, i) => (
-          <li key={s.photo || `anon-${s.name}`} className={styles.speakerRow}>
+        {list.map((s, i) => {
+          const pending = pendingImages.current.get(s._id);
+          return (
+          <li key={s._id} className={styles.speakerRow}>
             <span className={styles.rowIndex}>{i + 1}</span>
-            {s.photo ? (
+            {pending ? (
+              <img src={pending.url} alt={s.name} />
+            ) : s.photo ? (
               <img src={`${imageBaseUrl}/${s.photo}`} alt={s.name} />
             ) : (
               <Silhouette className={styles.rowSilhouette} aria-label={s.name} />
@@ -398,6 +509,29 @@ function ManageSpeakers({ password, refreshKey }) {
                   onChange={(e) => editField(i, "link", e.target.value)}
                   placeholder="X / LinkedIn URL"
                 />
+                <span className={styles.photoControls}>
+                  <button type="button" onClick={() => photoInputRef.current?.click()}>
+                    {s.photo || pending ? "Change photo…" : "Add photo…"}
+                  </button>
+                  {pending && (
+                    <button
+                      type="button"
+                      onClick={() => toggleBg(s._id)}
+                      disabled={processingId !== null}
+                    >
+                      {processingId === s._id
+                        ? progress || "Processing…"
+                        : pending.usingCutout
+                        ? "Use original"
+                        : "Remove background"}
+                    </button>
+                  )}
+                  {(s.photo || pending) && (
+                    <button type="button" onClick={() => removePhoto(i)}>
+                      Remove photo
+                    </button>
+                  )}
+                </span>
               </span>
             ) : (
               <span className={styles.rowInfo}>
@@ -419,7 +553,8 @@ function ManageSpeakers({ password, refreshKey }) {
               <button className={styles.deleteBtn} onClick={() => remove(i)}>✕</button>
             </span>
           </li>
-        ))}
+          );
+        })}
       </ul>
 
       <div className={styles.manageFooter}>
