@@ -95,20 +95,43 @@ async function addSpeaker({ name, position, link, imageBase64, filename }) {
 async function updateSpeakers(newList) {
   const current = await fetchSpeakers();
   const currentPhotos = new Set(current.list.map((s) => s.photo).filter(Boolean));
+  const seen = new Set();
 
   for (const s of newList) {
     if (!s.name || !s.position) {
       throw new Error("Every speaker needs a name and position.");
     }
-    if (s.photo && !currentPhotos.has(s.photo)) {
+    if (s.photo) {
+      if (seen.has(s.photo)) {
+        throw new Error(`Two speakers can't share the photo "${s.photo}" — rename one of them.`);
+      }
+      seen.add(s.photo);
+    }
+    if (s.imageBase64) {
+      // New/replacement image uploaded from the manage tab
+      if (!s.photo || !/^[a-z0-9-]+\.png$/.test(s.photo)) {
+        throw new Error("Invalid filename for a new image.");
+      }
+    } else if (s.photo && !currentPhotos.has(s.photo)) {
       throw new Error(`Unknown photo "${s.photo}" — new speakers must be added via the Add tab.`);
     }
   }
 
-  const newPhotos = new Set(newList.map((s) => s.photo).filter(Boolean));
-  const removed = current.list.filter((s) => s.photo && !newPhotos.has(s.photo));
+  const keptPhotos = new Set(newList.map((s) => s.photo).filter(Boolean));
+  const removed = current.list.filter((s) => s.photo && !keptPhotos.has(s.photo));
 
-  const files = [
+  const files = [];
+  for (const s of newList) {
+    if (s.imageBase64) {
+      const blob = await gh(`/git/blobs`, {
+        method: "POST",
+        body: JSON.stringify({ content: s.imageBase64, encoding: "base64" }),
+      });
+      files.push({ path: `${IMAGES_DIR}/${s.photo}`, mode: "100644", type: "blob", sha: blob.sha });
+    }
+  }
+
+  files.push(
     await jsonBlobEntry({
       ...current,
       list: newList.map(({ name, position, link, photo }) => ({
@@ -118,14 +141,14 @@ async function updateSpeakers(newList) {
         photo: photo || "",
       })),
     }),
-    // Deleting a speaker also deletes their image (sha: null removes the file)
+    // Photos no longer referenced by any speaker get deleted (sha: null removes the file)
     ...removed.map((s) => ({
       path: `${IMAGES_DIR}/${s.photo}`,
       mode: "100644",
       type: "blob",
       sha: null,
-    })),
-  ];
+    }))
+  );
 
   const message = removed.length
     ? `Update speakers (removed: ${removed.map((s) => s.name).join(", ")})`
