@@ -14,8 +14,8 @@ const Speakers = () => {
       </div>
       <div className="container">
         <div className={styles.header}>
-          <p className={styles.title}>They&apos;ve spoken at ETH Belgrade</p>
-          <p className={styles.subtitle}>The brightest Web3 minds</p>
+          <p className={styles.title}>The brightest Web3 minds</p>
+          <p className={styles.subtitle}>have something to say</p>
         </div>
         <div className={styles.grid}>
           {useNew
