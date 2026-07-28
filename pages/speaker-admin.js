@@ -47,7 +47,10 @@ function AddSpeaker({ password, onPublished }) {
   const [processing, setProcessing] = useState(false);
   const [progress, setProgress] = useState("");
   const [previewUrl, setPreviewUrl] = useState(null);
-  const processedBlob = useRef(null);
+  const [bgRemoved, setBgRemoved] = useState(false);
+  const originalBlob = useRef(null);
+  const cutoutBlob = useRef(null);
+  const processedBlob = useRef(null); // whichever version will be published
 
   const [name, setName] = useState("");
   const [position, setPosition] = useState("");
@@ -64,24 +67,40 @@ function AddSpeaker({ password, onPublished }) {
     if (!file || !file.type.startsWith("image/")) return;
     setError("");
     setResult(null);
-    setProcessing(true);
-    setPreviewUrl(null);
-    processedBlob.current = null;
+    setBgRemoved(false);
+    cutoutBlob.current = null;
     try {
-      setProgress("Loading background removal model…");
-      const { removeBackground } = await import("@imgly/background-removal");
-      const cutout = await removeBackground(file, {
-        progress: (key, current, total) => {
-          if (key.startsWith("fetch")) {
-            setProgress(`Downloading model… ${Math.round((current / total) * 100)}%`);
-          } else {
-            setProgress("Removing background…");
-          }
-        },
-      });
-      const small = await downscale(cutout);
+      const small = await downscale(file);
+      originalBlob.current = small;
       processedBlob.current = small;
       setPreviewUrl(URL.createObjectURL(small));
+    } catch (err) {
+      console.error(err);
+      setError(`Could not read image: ${err.message}`);
+    }
+  }, []);
+
+  const removeBg = async () => {
+    setError("");
+    setProcessing(true);
+    try {
+      if (!cutoutBlob.current) {
+        setProgress("Loading background removal model…");
+        const { removeBackground } = await import("@imgly/background-removal");
+        const cutout = await removeBackground(originalBlob.current, {
+          progress: (key, current, total) => {
+            if (key.startsWith("fetch")) {
+              setProgress(`Downloading model… ${Math.round((current / total) * 100)}%`);
+            } else {
+              setProgress("Removing background…");
+            }
+          },
+        });
+        cutoutBlob.current = await downscale(cutout);
+      }
+      processedBlob.current = cutoutBlob.current;
+      setPreviewUrl(URL.createObjectURL(cutoutBlob.current));
+      setBgRemoved(true);
     } catch (err) {
       console.error(err);
       setError(`Background removal failed: ${err.message}`);
@@ -89,7 +108,13 @@ function AddSpeaker({ password, onPublished }) {
       setProcessing(false);
       setProgress("");
     }
-  }, []);
+  };
+
+  const useOriginal = () => {
+    processedBlob.current = originalBlob.current;
+    setPreviewUrl(URL.createObjectURL(originalBlob.current));
+    setBgRemoved(false);
+  };
 
   const submit = async (e) => {
     e.preventDefault();
@@ -119,8 +144,11 @@ function AddSpeaker({ password, onPublished }) {
       setPosition("");
       setLink("");
       setAnon(false);
+      setBgRemoved(false);
       setPreviewUrl(null);
       processedBlob.current = null;
+      originalBlob.current = null;
+      cutoutBlob.current = null;
       onPublished();
     } catch (err) {
       setError(err.message);
@@ -144,11 +172,7 @@ function AddSpeaker({ password, onPublished }) {
               handleFile(e.dataTransfer.files[0]);
             }}
           >
-            {processing ? (
-              <p>{progress || "Processing…"}</p>
-            ) : (
-              <p>Drop a photo here<br />or click to choose a file</p>
-            )}
+            <p>Drop a photo here<br />or click to choose a file</p>
             <input
               ref={fileInputRef}
               type="file"
@@ -157,6 +181,21 @@ function AddSpeaker({ password, onPublished }) {
               onChange={(e) => handleFile(e.target.files[0])}
             />
           </div>
+        )}
+
+        {!anon && previewUrl && (
+          <button
+            type="button"
+            className={styles.bgButton}
+            onClick={bgRemoved ? useOriginal : removeBg}
+            disabled={processing}
+          >
+            {processing
+              ? progress || "Processing…"
+              : bgRemoved
+              ? "Use original photo"
+              : "Remove background"}
+          </button>
         )}
 
         <label className={styles.anonToggle}>
@@ -201,7 +240,7 @@ function AddSpeaker({ password, onPublished }) {
             href={previewUrl}
             download={`${slugify(name || "speaker")}.png`}
           >
-            Download processed image
+            Download image
           </a>
         )}
 

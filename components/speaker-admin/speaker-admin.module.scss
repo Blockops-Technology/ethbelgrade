@@ -278,6 +278,29 @@
   }
 }
 
+.bgButton {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 24px;
+  background: transparent;
+  border: 1px solid var(--primary-red);
+  color: var(--primary-red);
+  font-family: var(--anton);
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  &:hover:not(:disabled) {
+    background: var(--primary-red);
+    color: #0A0A12;
+  }
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: default;
+  }
+}
+
 .anonToggle {
   display: flex;
   align-items: center;
