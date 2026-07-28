@@ -1,23 +1,9 @@
 import Script from "next/script";
-import { Anton, Roboto_Mono, Rubik, Space_Grotesk } from "@next/font/google";
 import { ToastContainer } from "react-toastify";
 
-const rubik = Rubik({
-  subsets: ["latin", "latin-ext"],
-  weight: ["300", "400", "500", "600", "700", "800"],
-});
-const robotoMono = Roboto_Mono({
-  subsets: ["latin"],
-});
-const anton = Anton({
-  subsets: ["latin", "latin-ext"],
-  weight: ["400"],
-})
-const spaceGrotesk = Space_Grotesk({
-  subsets: ["latin", "latin-ext"],
-  weight: ["400"],
-})
-
+// Fonts are self-hosted from public/fonts (see styles/fonts.css) so builds
+// don't depend on Google Fonts being reachable
+import "../styles/fonts.css";
 import "react-toastify/dist/ReactToastify.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -43,14 +29,14 @@ function MyApp({ Component, pageProps }) {
       <style jsx global>
         {`
           html {
-            font-family: ${spaceGrotesk.style.fontFamily};
+            font-family: 'Space Grotesk', sans-serif;
           }
-          
+
           :root {
-            --roboto-mono: ${robotoMono.style.fontFamily};
-            --rubik: ${rubik.style.fontFamily};
-            --anton: ${anton.style.fontFamily};
-            --space-grotesk: ${spaceGrotesk.style.fontFamily};
+            --roboto-mono: 'Roboto Mono', monospace;
+            --rubik: 'Rubik', sans-serif;
+            --anton: 'Anton', sans-serif;
+            --space-grotesk: 'Space Grotesk', sans-serif;
           }
         `}
       </style>
