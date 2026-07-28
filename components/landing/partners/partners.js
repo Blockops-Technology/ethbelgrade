@@ -68,7 +68,7 @@ const Partners = () => (
     </div>
     <div className="container">
       <p className={styles.title}>They&apos;ve helped us BIG TIME!</p>
-      <p className={styles.subtitle}>Shout out to key industry players for supporting previous editions of ETH Belgrade!</p>
+      <p className={styles.subtitle}>Shout out to key industry players for supporting ETH Belgrade 2026!</p>
 
       <div className={styles.grid}>
         {partners.map((partner) => (
