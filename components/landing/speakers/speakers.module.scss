@@ -140,6 +140,20 @@
   filter: none;
 }
 
+// Anonymous speakers: silhouette colors up on hover like the photos do
+.silhouette {
+  height: 100%;
+  width: auto;
+  color: #1E1E26;
+  transition: color 0.3s ease;
+  mask-image: linear-gradient(to bottom, black 82%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, black 82%, transparent 100%);
+}
+
+.gridCell:hover .cutout .silhouette {
+  color: var(--primary-red);
+}
+
 .name {
   font-family: var(--anton);
   font-size: 18px;

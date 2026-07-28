@@ -360,6 +360,27 @@
   filter: none;
 }
 
+.silhouette {
+  height: 100%;
+  width: auto;
+  color: #1E1E26;
+  transition: color 0.3s ease;
+  mask-image: linear-gradient(to bottom, black 82%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, black 82%, transparent 100%);
+}
+
+.card:hover .silhouette {
+  color: var(--primary-red);
+}
+
+.rowSilhouette {
+  width: 48px;
+  height: 48px;
+  color: #2A2A36;
+  background: #16161f;
+  flex-shrink: 0;
+}
+
 .cardPlaceholder {
   width: 150px;
   height: 170px;

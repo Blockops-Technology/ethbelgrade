@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import Head from "next/head";
 import styles from "../components/speaker-admin/speaker-admin.module.scss";
+import Silhouette from "../components/common/silhouette.svg";
 
 const MAX_IMAGE_SIZE = 800;
 
@@ -41,8 +42,6 @@ const api = (body) =>
     if (!res.ok) throw new Error(data.error || "Request failed");
     return data;
   });
-
-const SILHOUETTE = "/images/speaker-silhouette.svg";
 
 function AddSpeaker({ password, onPublished }) {
   const [processing, setProcessing] = useState(false);
@@ -220,7 +219,7 @@ function AddSpeaker({ password, onPublished }) {
         <div className={styles.card}>
           <div className={styles.cardPhoto}>
             {anon ? (
-              <img src={SILHOUETTE} alt="Anonymous speaker silhouette" />
+              <Silhouette className={styles.silhouette} aria-label="Anonymous speaker silhouette" />
             ) : previewUrl ? (
               <img src={previewUrl} alt="Speaker preview" />
             ) : (
@@ -338,10 +337,11 @@ function ManageSpeakers({ password, refreshKey }) {
         {list.map((s, i) => (
           <li key={s.photo || `anon-${s.name}`} className={styles.speakerRow}>
             <span className={styles.rowIndex}>{i + 1}</span>
-            <img
-              src={s.photo ? `${imageBaseUrl}/${s.photo}` : SILHOUETTE}
-              alt={s.name}
-            />
+            {s.photo ? (
+              <img src={`${imageBaseUrl}/${s.photo}`} alt={s.name} />
+            ) : (
+              <Silhouette className={styles.rowSilhouette} aria-label={s.name} />
+            )}
             {editing === i ? (
               <span className={styles.rowFields}>
                 <input

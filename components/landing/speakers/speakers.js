@@ -1,6 +1,7 @@
 import styles from "./speakers.module.scss";
 import speakers from "./speakers.json";
 import speakers2026 from "./speakers2026.json";
+import Silhouette from "../../common/silhouette.svg";
 
 // Until 2026 speakers are published via /speaker-admin, show last year's list
 const useNew = speakers2026.list.length > 0;
@@ -27,14 +28,14 @@ const Speakers = () => {
                   rel="noreferrer noopener"
                 >
                   <span className={styles.cutout}>
-                    <img
-                      src={
-                        speaker.photo
-                          ? `/images/Speakers2026/${speaker.photo}`
-                          : "/images/speaker-silhouette.svg"
-                      }
-                      alt={speaker.name + " photo"}
-                    />
+                    {speaker.photo ? (
+                      <img
+                        src={`/images/Speakers2026/${speaker.photo}`}
+                        alt={speaker.name + " photo"}
+                      />
+                    ) : (
+                      <Silhouette className={styles.silhouette} aria-label={speaker.name + " silhouette"} />
+                    )}
                   </span>
                   <p className={styles.name}>{speaker.name}</p>
                   <p className={styles.position}>{speaker.position}</p>
