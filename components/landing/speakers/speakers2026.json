@@ -1,6 +1,12 @@
 {
   "list": [
     {
+      "name": "TokenBrice",
+      "position": "Polaris & Pharos",
+      "link": "https://x.com/TokenBrice",
+      "photo": ""
+    },
+    {
       "name": "Jatin Pandya",
       "position": "Canton Foundation",
       "link": "https://x.com/Jpandya26",
@@ -10,12 +16,6 @@
       "name": "Michal Převrátil",
       "position": "Ack3",
       "link": "http://twitter.com/michprev",
-      "photo": ""
-    },
-    {
-      "name": "TokenBrice",
-      "position": "Polaris & Pharos",
-      "link": "https://x.com/TokenBrice",
       "photo": ""
     }
   ]
