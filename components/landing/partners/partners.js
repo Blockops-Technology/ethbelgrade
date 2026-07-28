@@ -8,6 +8,7 @@ const partners = [
   { href: "https://defisaver.com/", img: "/images/partners/defi-saver.png", alt: "DeFi Saver logo" },
   { href: "https://geodework.com/", img: "/images/partners/geodework.svg", alt: "Geodework logo" },
   { href: "https://www.decenter.com/", img: "/images/partners/decenter.svg", alt: "Decenter logo" },
+  { href: "https://www.ambire.com/", img: "/images/partners/ambire.svg", alt: "Ambire logo" },
   // { href: "https://esp.ethereum.foundation/", img: "/images/partners/EF-ESP-logo.svg", alt: "Ethereum Foundation Ecosystem Support Program logo" },
   // { href: "https://polkadot.com/", img: "/images/partners/polkadot.svg", alt: "Polkadot logo" },
   // { href: "https://www.vidikovac.space/", img: "/images/partners/vidikovac.svg", alt: "Vidikovac logo" },
