@@ -79,20 +79,26 @@
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  // minmax(0, 1fr) lets cells shrink below their content's min size,
+  // otherwise the fixed-width logos blow the grid out of the viewport
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   border-top: 1px solid var(--primary-red);
   border-left: 1px solid var(--primary-red);
 
   @include breakpoint(medium-screen) {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   @include breakpoint(tablet) {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  @include breakpoint(landscape) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   @include breakpoint(big-mobile) {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: minmax(0, 1fr);
   }
 }
 
@@ -105,16 +111,17 @@
   border-bottom: 1px solid var(--primary-red);
 
   img {
-    max-width: 120px;
+    max-width: min(120px, 100%);
     max-height: 32px;
     object-fit: contain;
   }
 }
 
-// Square emblems (no wordmark) need more height to match the
-// visual weight of the wide logos capped at 32px
+// Square emblems (no wordmark) need more height than the 32px cap on
+// wide logos, but not so much that they outweigh the wordmarks
 .squareLogo img {
-  max-height: 56px;
+  max-width: 42px;
+  max-height: 42px;
 }
 
 .ctaSection {
