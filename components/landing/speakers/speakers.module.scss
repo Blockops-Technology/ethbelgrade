@@ -89,6 +89,10 @@
   border-right: 1px solid var(--primary-red);
   border-bottom: 1px solid var(--primary-red);
 
+  @include breakpoint(big-mobile) {
+    padding: 20px 12px;
+  }
+
   img {
     width: 100px;
     height: 100px;
@@ -125,9 +129,14 @@
     mask-image: linear-gradient(to bottom, black 82%, transparent 100%);
     -webkit-mask-image: linear-gradient(to bottom, black 82%, transparent 100%);
 
+    // Phones: photos vary a lot in natural size, so fill the cutout box
+    // uniformly instead of rendering each at its own scale
     @include breakpoint(big-mobile) {
-      width: auto;
-      height: auto;
+      width: 100%;
+      height: 100%;
+      max-width: 100%;
+      object-fit: contain;
+      object-position: bottom center;
     }
   }
 

@@ -4,7 +4,7 @@ import { SPONSOR_APPLICATION_FORM_URL, YEAR } from "../../../constants";
 
 const partners = [
   { href: "https://polarisfinance.io/", img: "/images/partners/polaris.svg", alt: "Polaris logo" },
-  { href: "https://pharos.watch/", img: "/images/partners/pharos.svg", alt: "Pharos logo" },
+  { href: "https://pharos.watch/", img: "/images/partners/pharos.svg", alt: "Pharos logo", square: true },
   { href: "https://tenderly.co/", img: "/images/partners/tenderly.svg", alt: "Tenderly logo" },
   { href: "https://defisaver.com/", img: "/images/partners/defi-saver.png", alt: "DeFi Saver logo" },
   { href: "https://geodework.com/", img: "/images/partners/geodework.svg", alt: "Geodework logo" },
@@ -78,7 +78,7 @@ const Partners = () => (
         {partners.map((partner) => (
           <a
             key={partner.href}
-            className={styles.gridCell}
+            className={partner.square ? `${styles.gridCell} ${styles.squareLogo}` : styles.gridCell}
             href={partner.href}
             target="_blank"
             rel="noreferrer noopener"

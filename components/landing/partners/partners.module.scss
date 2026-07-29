@@ -111,6 +111,12 @@
   }
 }
 
+// Square emblems (no wordmark) need more height to match the
+// visual weight of the wide logos capped at 32px
+.squareLogo img {
+  max-height: 56px;
+}
+
 .ctaSection {
   max-width: 860px;
   margin: 150px auto 120px;
