@@ -1,0 +1,143 @@
+@import "styles/breakpoints";
+
+.imGoing {
+  padding: 150px 0 130px;
+
+  @include breakpoint(landscape) {
+    padding: 100px 0 80px;
+  }
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: 50px;
+
+  @include breakpoint(landscape) {
+    margin-bottom: 30px;
+  }
+}
+
+.title {
+  font-family: var(--anton);
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 1.1;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0 0 16px;
+
+  @include breakpoint(big-tablet) {
+    font-size: 48px;
+  }
+
+  @include breakpoint(big-mobile) {
+    font-size: 36px;
+  }
+}
+
+.subtitle {
+  font-size: 20px;
+  color: var(--primary-gray);
+  margin: 0;
+
+  @include breakpoint(big-mobile) {
+    font-size: 16px;
+  }
+}
+
+.cardWrapper {
+  max-width: 960px;
+  margin: 0 auto 40px;
+
+  @include breakpoint(landscape) {
+    margin-bottom: 30px;
+  }
+}
+
+.card {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.fileInput {
+  display: none;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.orText {
+  font-family: var(--roboto-mono);
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--primary-gray);
+  margin: 0;
+}
+
+.connectButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.shareRow {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  @include breakpoint(big-mobile) {
+    width: 100%;
+    flex-direction: column;
+    gap: 12px;
+  }
+}
+
+.shareButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.secondaryRow {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.dot {
+  color: var(--primary-gray);
+}
+
+.textButton {
+  font-family: var(--roboto-mono);
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--primary-red);
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+
+  &:hover {
+    color: #ff5a6e;
+  }
+}
+
+.hint {
+  font-family: var(--roboto-mono);
+  font-size: 13px;
+  text-align: center;
+  color: rgba(251, 246, 238, 0.6);
+  max-width: 480px;
+  margin: 0;
+}
