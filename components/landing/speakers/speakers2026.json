@@ -59,6 +59,24 @@
       "position": "Lido",
       "link": "https://x.com/chtotonet",
       "photo": ""
+    },
+    {
+      "name": "Marija Mikic",
+      "position": "Faculty of Mathematics, University of Belgrade",
+      "link": "",
+      "photo": "marija-mikic.png"
+    },
+    {
+      "name": "Ilija RIlakovic",
+      "position": "Law Decoded Law Firm",
+      "link": "http://x.com/LawyerWooden",
+      "photo": "ilija-rilakovic.png"
+    },
+    {
+      "name": "Aleksandra Cvorovic",
+      "position": "Independent lawyer",
+      "link": "",
+      "photo": "aleksandra-cvorovic.png"
     }
   ]
 }
