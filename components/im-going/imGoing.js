@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { toast } from "react-toastify";
+import classNames from "classnames";
 
 import Button from "../common/button/button";
 
@@ -12,6 +13,7 @@ const CANVAS_HEIGHT = 900;
 const CUTOUT = { x: 933, y: 85, width: 591, height: 730 };
 const FILE_NAME = "im-going-to-eth-belgrade.jpg";
 const PENDING_KEY = "ebg_pending";
+const MAX_ZOOM = 3;
 
 // X copy — fits the 280 weighted-char limit (@handles are clickable, link is
 // free in the intent / Web Share)
@@ -58,20 +60,51 @@ const LinkedInLogo = () => (
 );
 
 const ImGoing = () => {
-  const [previewUrl, setPreviewUrl] = useState(null);
   const [hasPhoto, setHasPhoto] = useState(false);
   const [connecting, setConnecting] = useState(false);
   const [touch, setTouch] = useState(false);
+  const [zoom, setZoom] = useState(1);
 
-  const blobRef = useRef(null);
+  const canvasRef = useRef(null);
+  const templateRef = useRef(null);
+  const photoRef = useRef(null);
+  // Photo placement: zoom multiplies the cover-fit scale, x/y offset the
+  // photo from center, in canvas pixels
+  const viewRef = useRef({ zoom: 1, x: 0, y: 0 });
+  const dragRef = useRef(null);
   const fileInputRef = useRef(null);
   const popupTimerRef = useRef(null);
   const handledConnectRef = useRef(false);
 
-  const compose = async (photo) => {
-    const canvas = document.createElement("canvas");
-    canvas.width = CANVAS_WIDTH;
-    canvas.height = CANVAS_HEIGHT;
+  const photoRect = (photo, view) => {
+    const base = Math.max(CUTOUT.width / photo.width, CUTOUT.height / photo.height);
+    const width = photo.width * base * view.zoom;
+    const height = photo.height * base * view.zoom;
+    return {
+      width,
+      height,
+      x: CUTOUT.x + (CUTOUT.width - width) / 2 + view.x,
+      y: CUTOUT.y + (CUTOUT.height - height) / 2 + view.y,
+    };
+  };
+
+  // Keep the cutout fully covered by the photo
+  const clampView = (view) => {
+    const photo = photoRef.current;
+    if (!photo) return view;
+    const base = Math.max(CUTOUT.width / photo.width, CUTOUT.height / photo.height);
+    const maxX = (photo.width * base * view.zoom - CUTOUT.width) / 2;
+    const maxY = (photo.height * base * view.zoom - CUTOUT.height) / 2;
+    return {
+      zoom: view.zoom,
+      x: Math.min(maxX, Math.max(-maxX, view.x)),
+      y: Math.min(maxY, Math.max(-maxY, view.y)),
+    };
+  };
+
+  const draw = () => {
+    const canvas = canvasRef.current;
+    if (!canvas) return;
     const ctx = canvas.getContext("2d");
     ctx.imageSmoothingEnabled = true;
     ctx.imageSmoothingQuality = "high";
@@ -79,37 +112,32 @@ const ImGoing = () => {
     ctx.fillStyle = "#ffffff";
     ctx.fillRect(0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);
 
+    const photo = photoRef.current;
     if (photo) {
-      const scale = Math.max(CUTOUT.width / photo.width, CUTOUT.height / photo.height);
-      const drawWidth = photo.width * scale;
-      const drawHeight = photo.height * scale;
+      const rect = photoRect(photo, viewRef.current);
       ctx.save();
       ctx.beginPath();
       ctx.rect(CUTOUT.x, CUTOUT.y, CUTOUT.width, CUTOUT.height);
       ctx.clip();
-      ctx.drawImage(
-        photo,
-        CUTOUT.x + (CUTOUT.width - drawWidth) / 2,
-        CUTOUT.y + (CUTOUT.height - drawHeight) / 2,
-        drawWidth,
-        drawHeight
-      );
+      ctx.drawImage(photo, rect.x, rect.y, rect.width, rect.height);
       ctx.restore();
     }
 
-    const template = await loadImage(TEMPLATE_SRC);
-    ctx.drawImage(template, 0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);
+    if (templateRef.current) {
+      ctx.drawImage(templateRef.current, 0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);
+    }
+  };
 
-    setPreviewUrl(canvas.toDataURL("image/jpeg", 0.92));
-    canvas.toBlob((blob) => {
-      blobRef.current = blob;
-    }, "image/jpeg", 0.92);
+  const setPhoto = (photo) => {
+    photoRef.current = photo;
+    viewRef.current = { zoom: 1, x: 0, y: 0 };
+    setZoom(1);
     setHasPhoto(!!photo);
+    draw();
   };
 
   const setPhotoFromSrc = async (src) => {
-    const photo = await loadImage(src);
-    await compose(photo);
+    setPhoto(await loadImage(src));
   };
 
   const stopConnecting = () => {
@@ -140,7 +168,12 @@ const ImGoing = () => {
 
   useEffect(() => {
     setTouch(isTouchDevice());
-    compose(null).catch(() => toast.error("Failed to load the card template"));
+    loadImage(TEMPLATE_SRC)
+      .then((template) => {
+        templateRef.current = template;
+        draw();
+      })
+      .catch(() => toast.error("Failed to load the card template"));
 
     // The OAuth callback delivers the avatar via postMessage (desktop popup)
     // or localStorage (mobile same-tab redirect)
@@ -178,6 +211,57 @@ const ImGoing = () => {
       clearInterval(popupTimerRef.current);
     };
   }, []);
+
+  // ---- drag to reposition ----
+  const canvasPoint = (event) => {
+    const rect = canvasRef.current.getBoundingClientRect();
+    return {
+      x: ((event.clientX - rect.left) / rect.width) * CANVAS_WIDTH,
+      y: ((event.clientY - rect.top) / rect.height) * CANVAS_HEIGHT,
+    };
+  };
+
+  const onPointerDown = (event) => {
+    if (!photoRef.current) return;
+    const point = canvasPoint(event);
+    const inCutout =
+      point.x >= CUTOUT.x &&
+      point.x <= CUTOUT.x + CUTOUT.width &&
+      point.y >= CUTOUT.y &&
+      point.y <= CUTOUT.y + CUTOUT.height;
+    if (!inCutout) return;
+    event.currentTarget.setPointerCapture(event.pointerId);
+    dragRef.current = {
+      startX: event.clientX,
+      startY: event.clientY,
+      x: viewRef.current.x,
+      y: viewRef.current.y,
+    };
+  };
+
+  const onPointerMove = (event) => {
+    const drag = dragRef.current;
+    if (!drag) return;
+    const rect = canvasRef.current.getBoundingClientRect();
+    const scale = CANVAS_WIDTH / rect.width;
+    viewRef.current = clampView({
+      zoom: viewRef.current.zoom,
+      x: drag.x + (event.clientX - drag.startX) * scale,
+      y: drag.y + (event.clientY - drag.startY) * scale,
+    });
+    draw();
+  };
+
+  const onPointerUp = () => {
+    dragRef.current = null;
+  };
+
+  const onZoomChange = (event) => {
+    const value = Number(event.target.value);
+    viewRef.current = clampView({ ...viewRef.current, zoom: value });
+    setZoom(value);
+    draw();
+  };
 
   const onFileChange = async (event) => {
     const file = event.target.files?.[0];
@@ -224,9 +308,11 @@ const ImGoing = () => {
     }, 500);
   };
 
-  const download = () => {
-    if (!blobRef.current) return;
-    const url = URL.createObjectURL(blobRef.current);
+  const getBlob = () =>
+    new Promise((resolve) => canvasRef.current.toBlob(resolve, "image/jpeg", 0.92));
+
+  const downloadBlob = (blob) => {
+    const url = URL.createObjectURL(blob);
     const link = document.createElement("a");
     link.href = url;
     link.download = FILE_NAME;
@@ -234,9 +320,13 @@ const ImGoing = () => {
     setTimeout(() => URL.revokeObjectURL(url), 1000);
   };
 
+  const download = async () => {
+    downloadBlob(await getBlob());
+  };
+
   const shareTo = async (platform) => {
     const text = platform === "x" ? X_TEXT : LINKEDIN_TEXT;
-    const blob = blobRef.current;
+    const blob = await getBlob();
 
     // Phone: the OS share sheet hands the card straight into X's composer.
     // LinkedIn silently drops the image on mobile, so only X shares this way.
@@ -253,7 +343,7 @@ const ImGoing = () => {
     }
 
     // Desktop: download the card + open the prefilled composer; user attaches it
-    download();
+    downloadBlob(blob);
     if (platform === "x") {
       window.open(`https://x.com/intent/tweet?text=${encodeURIComponent(text)}`, "_blank", "noopener");
     } else {
@@ -266,7 +356,7 @@ const ImGoing = () => {
   };
 
   const changePhoto = () => {
-    compose(null);
+    setPhoto(null);
   };
 
   return (
@@ -280,14 +370,17 @@ const ImGoing = () => {
         </div>
 
         <div className={styles.cardWrapper}>
-          {previewUrl && (
-            /* eslint-disable-next-line @next/next/no-img-element */
-            <img
-              src={previewUrl}
-              className={styles.card}
-              alt="I'm going to ETH Belgrade card"
-            />
-          )}
+          <canvas
+            ref={canvasRef}
+            width={CANVAS_WIDTH}
+            height={CANVAS_HEIGHT}
+            className={classNames(styles.card, { [styles.cardDraggable]: hasPhoto })}
+            aria-label="I'm going to ETH Belgrade card"
+            onPointerDown={onPointerDown}
+            onPointerMove={onPointerMove}
+            onPointerUp={onPointerUp}
+            onPointerCancel={onPointerUp}
+          />
         </div>
 
         <input
@@ -316,6 +409,20 @@ const ImGoing = () => {
           </div>
         ) : (
           <div className={styles.controls}>
+            <div className={styles.zoomRow}>
+              <span className={styles.zoomLabel}>Zoom</span>
+              <input
+                type="range"
+                min="1"
+                max={MAX_ZOOM}
+                step="0.01"
+                value={zoom}
+                onChange={onZoomChange}
+                className={styles.zoomSlider}
+                aria-label="Zoom photo"
+              />
+            </div>
+            <p className={styles.dragHint}>Drag the photo to reposition it</p>
             <div className={styles.shareRow}>
               <Button styleType="red" className={styles.shareButton} onClick={() => shareTo("x")}>
                 <XLogo /> Share on X
