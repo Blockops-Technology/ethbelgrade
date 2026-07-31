@@ -60,6 +60,45 @@
   height: auto;
 }
 
+.cardDraggable {
+  cursor: grab;
+  // Keep the browser from scrolling/zooming the page while dragging the photo
+  touch-action: none;
+
+  &:active {
+    cursor: grabbing;
+  }
+}
+
+.zoomRow {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  width: 100%;
+  max-width: 420px;
+}
+
+.zoomLabel {
+  font-family: var(--roboto-mono);
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--primary-gray);
+}
+
+.zoomSlider {
+  flex: 1;
+  accent-color: var(--primary-red);
+  cursor: pointer;
+}
+
+.dragHint {
+  font-family: var(--roboto-mono);
+  font-size: 13px;
+  color: rgba(251, 246, 238, 0.6);
+  margin: 0;
+}
+
 .fileInput {
   display: none;
 }
