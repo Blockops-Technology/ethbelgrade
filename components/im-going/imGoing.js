@@ -62,7 +62,6 @@ const LinkedInLogo = () => (
 const ImGoing = () => {
   const [hasPhoto, setHasPhoto] = useState(false);
   const [connecting, setConnecting] = useState(false);
-  const [touch, setTouch] = useState(false);
   const [zoom, setZoom] = useState(1);
 
   const canvasRef = useRef(null);
@@ -167,7 +166,6 @@ const ImGoing = () => {
   };
 
   useEffect(() => {
-    setTouch(isTouchDevice());
     loadImage(TEMPLATE_SRC)
       .then((template) => {
         templateRef.current = template;
@@ -427,15 +425,13 @@ const ImGoing = () => {
               <Button styleType="red" className={styles.shareButton} onClick={() => shareTo("x")}>
                 <XLogo /> Share on X
               </Button>
-              {!touch && (
-                <Button
-                  styleType="red"
-                  className={styles.shareButton}
-                  onClick={() => shareTo("linkedin")}
-                >
-                  <LinkedInLogo /> Share on LinkedIn
-                </Button>
-              )}
+              <Button
+                styleType="red"
+                className={styles.shareButton}
+                onClick={() => shareTo("linkedin")}
+              >
+                <LinkedInLogo /> Share on LinkedIn
+              </Button>
             </div>
             <div className={styles.secondaryRow}>
               <button type="button" className={styles.textButton} onClick={download}>
@@ -447,9 +443,8 @@ const ImGoing = () => {
               </button>
             </div>
             <p className={styles.hint}>
-              {touch
-                ? "Post text is ready — X attaches the card for you."
-                : "Post text is ready. X attaches the card for you; for LinkedIn, add the downloaded card to your post."}
+              Post text is ready. X attaches the card for you; for LinkedIn, add the downloaded
+              card to your post.
             </p>
           </div>
         )}
