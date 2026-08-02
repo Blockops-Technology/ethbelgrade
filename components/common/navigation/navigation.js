@@ -75,6 +75,9 @@ const MainMenu = ({ setOpenMobileMenu = () => { } }) => (
         <Link href="https://joobpool.com/" target="_blank" rel="noreferrer noopener">
           <span className={styles.menuItem}>Jobs</span>
         </Link>
+        <Link href="/verify">
+          <span className={styles.menuItem}>Verify</span>
+        </Link>
         <div className={styles.showOnHamburger}>
           <Link href={BGBW_URL} target="_blank" rel="noreferrer noopener">
             <span className={styles.menuItem}>Side Events</span>
