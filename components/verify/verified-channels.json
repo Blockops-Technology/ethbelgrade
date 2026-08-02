@@ -1,0 +1,195 @@
+{
+  "emailDomains": [
+    "ethbelgrade.rs"
+  ],
+  "kdf": {
+    "salt": "a392976796a95994a4bba7f6bf4295dc",
+    "iterations": 600000
+  },
+  "channels": [
+    {
+      "type": "x",
+      "handle": "@ethbelgrade",
+      "name": "ETH Belgrade",
+      "role": "Official account",
+      "url": "https://x.com/ethbelgrade"
+    },
+    {
+      "type": "telegram",
+      "handle": "https://t.me/+JHSH1qc-W85kYzdk",
+      "name": "ETH Belgrade Community",
+      "role": "Official group (invite link)",
+      "url": "https://t.me/+JHSH1qc-W85kYzdk"
+    },
+    {
+      "type": "linkedin",
+      "handle": "linkedin.com/company/eth-belgrade",
+      "name": "ETH Belgrade",
+      "role": "Official company page",
+      "url": "https://www.linkedin.com/company/eth-belgrade/"
+    },
+    {
+      "type": "telegram",
+      "hashes": [
+        "4c3766048ffcef692c467bbc1949da773a40cb5fa5252614a65d5e54dcee72db"
+      ],
+      "name": "Petar Popovic",
+      "role": "ETH Belgrade team"
+    },
+    {
+      "type": "x",
+      "hashes": [
+        "4c1ad6b1d5dd8c68f618b154c87a39430edfbeae4bd8c8a9caf890a8576003ee"
+      ],
+      "name": "Petar Popovic",
+      "role": "ETH Belgrade team"
+    },
+    {
+      "type": "telegram",
+      "hashes": [
+        "5af75ce64625b287c462b674fd1f2e171279c9db5dee28b2e15726b0369c0273"
+      ],
+      "name": "Tanja Mladenovic",
+      "role": "ETH Belgrade team"
+    },
+    {
+      "type": "x",
+      "hashes": [
+        "ed943cf90eb45958eb41bd4d9889ba6d1114a816ef136b23e25bcfbb4204627d"
+      ],
+      "name": "Tanja Mladenovic",
+      "role": "ETH Belgrade team"
+    },
+    {
+      "type": "phone",
+      "hashes": [
+        "e84ad35ada5aebae17596e12488b83c7c4d299910d5c58bffb4d1d54c6585da0",
+        "1a47ba5302325171f7ea7f8975e73d16a942ad1e28e7d84a10d76b246da6e1af"
+      ],
+      "name": "Tanja Mladenovic",
+      "role": "ETH Belgrade team"
+    },
+    {
+      "type": "email",
+      "hashes": [
+        "fa69532d28ea7aaca2b44be34620112657a627bf353e46100d966085ae2a071f"
+      ],
+      "name": "Tanja Mladenovic",
+      "role": "ETH Belgrade team"
+    },
+    {
+      "type": "telegram",
+      "hashes": [
+        "f9064695618c71e5d2cad7c9b1735bed26229a64400b206a6948dff2fc47a1a0"
+      ],
+      "name": "Lejla Muratcaus",
+      "role": "ETH Belgrade team"
+    },
+    {
+      "type": "telegram",
+      "hashes": [
+        "a5152a43d5a227fb58abead065430e13491fbad12bf8de377d29f8e2eb599401"
+      ],
+      "name": "Miros",
+      "role": "ETH Belgrade team"
+    },
+    {
+      "type": "x",
+      "hashes": [
+        "76f92283d3eb5e47a02437299b6e1fb894b401762470a55430bae30abd942a2a"
+      ],
+      "name": "Miros",
+      "role": "ETH Belgrade team"
+    },
+    {
+      "type": "telegram",
+      "hashes": [
+        "f083a0559a24ba60787521be90c276fc318b74adcdd9063446315b5ee8939a10"
+      ],
+      "name": "Ana",
+      "role": "ETH Belgrade team"
+    },
+    {
+      "type": "x",
+      "hashes": [
+        "474c83253aefbbbf6d27b2cf5c3b8cbdd805ffa5906247d5ebbb379aa37530f4"
+      ],
+      "name": "Ana",
+      "role": "ETH Belgrade team"
+    },
+    {
+      "type": "telegram",
+      "hashes": [
+        "f074863963009f31f37d8944dde53231adab092939053d086600abe969bc91b1"
+      ],
+      "name": "Lav Leon Hudak",
+      "role": "ETH Belgrade team"
+    },
+    {
+      "type": "x",
+      "hashes": [
+        "d93a131d319fe537a9183ac4cfe0c3550ac26e0c655bf62dc5d685aa53fde839"
+      ],
+      "name": "Lav Leon Hudak",
+      "role": "ETH Belgrade team"
+    },
+    {
+      "type": "phone",
+      "hashes": [
+        "4fb92204b5c2e7564120f93b69be7ebb6ac5ab10bac64017956c19d90ffa5735",
+        "145299f8751dd2da5f508ca007138d068c77220bdb0c88bd33feffa22a763590"
+      ],
+      "name": "Lav Leon Hudak",
+      "role": "ETH Belgrade team"
+    },
+    {
+      "type": "telegram",
+      "hashes": [
+        "24d3f2c133aa6a90f3f7b9d1b350f91be9cf34b7f7a2b9f4cd4ebbe55b8d1f8d"
+      ],
+      "name": "Filip Pajic",
+      "role": "ETH Belgrade team"
+    },
+    {
+      "type": "x",
+      "hashes": [
+        "e9bb5722fbe23f3975429f7ed3b1e750c3eb33d2961960fda78572642771658f"
+      ],
+      "name": "Filip Pajic",
+      "role": "ETH Belgrade team"
+    },
+    {
+      "type": "phone",
+      "hashes": [
+        "317ba3ad685f77a19c4cf9528641908ce51d2d49177efcbc676840f6f490e996",
+        "084fece2a85404d10e2c90e33924b30a33aff0b2a88e46e2c381634b623585b8"
+      ],
+      "name": "Filip Pajic",
+      "role": "ETH Belgrade team"
+    },
+    {
+      "type": "email",
+      "hashes": [
+        "1aa106242d60a4b0eb3d35c53ca6d7eb2e74d7695214340d54e6c59733567998"
+      ],
+      "name": "Speakers",
+      "role": "Official speakers inbox"
+    },
+    {
+      "type": "email",
+      "hashes": [
+        "dedc16306f1b20fad3925444e0b53057f8f1e66c7daad33dee19c15fc38c31e3"
+      ],
+      "name": "Partnerships",
+      "role": "Official partnerships inbox"
+    },
+    {
+      "type": "email",
+      "hashes": [
+        "2c1a2bed09447bcc2a1f8c651c8bb0c69b222ec5ef49dd9a6aa552c0901898c6"
+      ],
+      "name": "General inquiries",
+      "role": "Official general inbox"
+    }
+  ]
+}
