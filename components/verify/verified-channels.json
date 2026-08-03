@@ -190,6 +190,14 @@
       ],
       "name": "General inquiries",
       "role": "Official general inbox"
+    },
+    {
+      "type": "telegram",
+      "hashes": [
+        "8be6d3eb668ea8dc042278996c8e771e3cafad0599299235a342b5bc0f9a6b5c"
+      ],
+      "name": "Natasa Bujosevic",
+      "role": "ETH Belgrade team"
     }
   ]
 }
