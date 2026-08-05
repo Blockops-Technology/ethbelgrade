@@ -67,6 +67,12 @@
       "photo": ""
     },
     {
+      "name": "definikola",
+      "position": "Block Analitica",
+      "link": "https://x.com/definikola",
+      "photo": "definikola.png"
+    },
+    {
       "name": "Marija Mikic",
       "position": "Faculty of Mathematics, University of Belgrade",
       "link": "",
@@ -89,12 +95,6 @@
       "position": "Independent Legal Advisor",
       "link": "https://x.com/blocktheotter",
       "photo": "anne-grace-kleczewski.png"
-    },
-    {
-      "name": "definikola",
-      "position": "Block Analitica",
-      "link": "https://x.com/definikola",
-      "photo": "definikola.png"
     }
   ]
 }
