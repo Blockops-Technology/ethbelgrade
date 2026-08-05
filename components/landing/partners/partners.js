@@ -20,7 +20,7 @@ const partners = [
   // { href: "https://chain.link/", img: "/images/partners/chainlink-logo.svg", alt: "Chainlink logo" },
   // { href: "https://metamask.io/", img: "/images/partners/metamask-logo.svg", alt: "MetaMask logo" },
   // { href: "https://ledger.com/", img: "/images/partners/ledger-logo.svg", alt: "Ledger logo" },
-  // { href: "https://li.fi/", img: "/images/partners/lifi-logo.svg", alt: "LiFi logo" },
+  { href: "https://li.fi/", img: "/images/partners/lifi-logo.svg", alt: "LiFi logo" },
   // { href: "https://www.bnbchain.org/en", img: "/images/partners/bnb-chain-logo.svg", alt: "BNB Chain logo" },
   // { href: "https://linea.build/", img: "/images/partners/linea-logo.svg", alt: "Linea logo" },
   // { href: "https://neonevm.org/", img: "/images/partners/NeonEVM-logo.svg", alt: "Neon EVM logo" },
