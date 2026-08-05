@@ -6,7 +6,7 @@ const partners = [
   { href: "https://polarisfinance.io/", img: "/images/partners/polaris.svg", alt: "Polaris logo" },
   { href: "https://pharos.watch/", img: "/images/partners/pharos.svg", alt: "Pharos logo", square: true },
   { href: "https://tenderly.co/", img: "/images/partners/tenderly.svg", alt: "Tenderly logo" },
-  { href: "https://defisaver.com/", img: "/images/partners/defi-saver.png", alt: "DeFi Saver logo" },
+  { href: "https://defisaver.com/", img: "/images/partners/defi-saver.svg", alt: "DeFi Saver logo" },
   { href: "https://www.decenter.com/", img: "/images/partners/decenter.svg", alt: "Decenter logo" },
   { href: "https://yearn.fi/", img: "/images/partners/yearn.svg", alt: "Yearn logo" },
   { href: "https://www.ambire.com/", img: "/images/partners/ambire.svg", alt: "Ambire logo" },
