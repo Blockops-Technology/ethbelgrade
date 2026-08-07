@@ -73,6 +73,12 @@
       "photo": "definikola.png"
     },
     {
+      "name": "Milos Stankovic",
+      "position": "ex-Ethereum Foundation",
+      "link": "http://x.com/MorphNetrunner",
+      "photo": "milos-stankovic.png"
+    },
+    {
       "name": "Marija Mikic",
       "position": "Faculty of Mathematics, University of Belgrade",
       "link": "",
@@ -107,12 +113,6 @@
       "position": "Independent Security Researcher",
       "link": "http://x.com/NoahJelich",
       "photo": "noah-jelich.png"
-    },
-    {
-      "name": "Milos Stankovic",
-      "position": "ex-Ethereum Foundation",
-      "link": "http://x.com/MorphNetrunner",
-      "photo": "milos-stankovic.png"
     }
   ]
 }
