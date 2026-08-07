@@ -79,6 +79,12 @@
       "photo": "milos-stankovic.png"
     },
     {
+      "name": "Dima Burov",
+      "position": "EPAM Systems",
+      "link": "http://x.com/dbburov",
+      "photo": "dima-burov.png"
+    },
+    {
       "name": "Marija Mikic",
       "position": "Faculty of Mathematics, University of Belgrade",
       "link": "",
@@ -113,6 +119,24 @@
       "position": "Independent Security Researcher",
       "link": "http://x.com/NoahJelich",
       "photo": "noah-jelich.png"
+    },
+    {
+      "name": "Semir Gobeljic",
+      "position": "Gobeljic Group",
+      "link": "https://x.com/semirgabeljic",
+      "photo": "semir-gobeljic.png"
+    },
+    {
+      "name": "Vladimir Cvejic",
+      "position": "Treesury",
+      "link": "",
+      "photo": "vladimir-cvejic.png"
+    },
+    {
+      "name": "Chris Biele",
+      "position": "OpenMatter Network",
+      "link": "https://x.com/thenfthinker",
+      "photo": "chris-biele.png"
     }
   ]
 }
