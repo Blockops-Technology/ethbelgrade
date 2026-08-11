@@ -13,7 +13,7 @@ const partners = [
   { href: "https://lido.fi/", img: "/images/partners/lido-logo.svg", alt: "Lido logo" },
   { href: "https://curvy.box/", img: "/images/partners/curvy.svg", alt: "Curvy logo" },
   { href: "https://geode.build/", img: "/images/partners/geode-labs.svg", alt: "Geode Labs logo" },
-  // { href: "https://tangem.com/", img: "/images/partners/tangem.svg", alt: "Tangem logo" },
+  { href: "https://tangem.com/", img: "/images/partners/tangem.svg", alt: "Tangem logo" },
   // { href: "https://esp.ethereum.foundation/", img: "/images/partners/EF-ESP-logo.svg", alt: "Ethereum Foundation Ecosystem Support Program logo" },
   // { href: "https://polkadot.com/", img: "/images/partners/polkadot.svg", alt: "Polkadot logo" },
   // { href: "https://www.vidikovac.space/", img: "/images/partners/vidikovac.svg", alt: "Vidikovac logo" },
