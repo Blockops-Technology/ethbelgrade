@@ -22,6 +22,7 @@ const partners = [
   // { href: "https://ledger.com/", img: "/images/partners/ledger-logo.svg", alt: "Ledger logo" },
   { href: "https://li.fi/", img: "/images/partners/lifi-logo.svg", alt: "LiFi logo" },
   { href: "https://stableschool.org/", img: "/images/partners/stable-school.svg", alt: "Stable School logo" },
+  { img: "/images/partners/ordocode.svg", alt: "OrdoCode logo" },
   // { href: "https://www.bnbchain.org/en", img: "/images/partners/bnb-chain-logo.svg", alt: "BNB Chain logo" },
   // { href: "https://linea.build/", img: "/images/partners/linea-logo.svg", alt: "Linea logo" },
   // { href: "https://neonevm.org/", img: "/images/partners/NeonEVM-logo.svg", alt: "Neon EVM logo" },
@@ -78,17 +79,25 @@ const Partners = () => (
       <p className={styles.subtitle}>Shout out to key industry players for supporting ETH Belgrade 2026!</p>
 
       <div className={styles.grid}>
-        {partners.map((partner) => (
-          <a
-            key={partner.href}
-            className={partner.square ? `${styles.gridCell} ${styles.squareLogo}` : styles.gridCell}
-            href={partner.href}
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            <img src={partner.img} alt={partner.alt} />
-          </a>
-        ))}
+        {partners.map((partner) => {
+          const className = partner.square ? `${styles.gridCell} ${styles.squareLogo}` : styles.gridCell;
+
+          return partner.href ? (
+            <a
+              key={partner.img}
+              className={className}
+              href={partner.href}
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <img src={partner.img} alt={partner.alt} />
+            </a>
+          ) : (
+            <div key={partner.img} className={className}>
+              <img src={partner.img} alt={partner.alt} />
+            </div>
+          );
+        })}
       </div>
 
       <div className={styles.ctaSection}>
