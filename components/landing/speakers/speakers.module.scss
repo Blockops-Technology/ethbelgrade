@@ -122,28 +122,19 @@
   height: 180px;
   margin-bottom: 12px;
 
+  // Photos vary a lot in natural size, so fill the cutout box
+  // uniformly instead of rendering each at its own scale
   img {
-    width: auto;
-    height: auto;
-    max-width: 85%;
-    max-height: 100%;
+    width: 100%;
+    height: 100%;
     border-radius: 0;
     object-fit: contain;
+    object-position: bottom center;
     margin-bottom: 0;
     filter: grayscale(1);
     transition: filter 0.3s ease;
     mask-image: linear-gradient(to bottom, black 82%, transparent 100%);
     -webkit-mask-image: linear-gradient(to bottom, black 82%, transparent 100%);
-
-    // Phones: photos vary a lot in natural size, so fill the cutout box
-    // uniformly instead of rendering each at its own scale
-    @include breakpoint(big-mobile) {
-      width: 100%;
-      height: 100%;
-      max-width: 100%;
-      object-fit: contain;
-      object-position: bottom center;
-    }
   }
 
   @include breakpoint(big-mobile) {
