@@ -26,6 +26,7 @@ const partners = [
   { href: "https://wirexapp.com/", img: "/images/partners/wirex.png", alt: "Wirex logo" },
   { href: "https://copycat.cash/", img: "/images/partners/copycat.svg", alt: "Copycat logo" },
   { href: "https://raven-trading.com/", img: "/images/partners/raven-trading.svg", alt: "Raven Trading logo" },
+  { href: "https://ens.domains/", img: "/images/partners/ens.svg", alt: "ENS logo" },
   // { href: "https://www.bnbchain.org/en", img: "/images/partners/bnb-chain-logo.svg", alt: "BNB Chain logo" },
   // { href: "https://linea.build/", img: "/images/partners/linea-logo.svg", alt: "Linea logo" },
   // { href: "https://neonevm.org/", img: "/images/partners/NeonEVM-logo.svg", alt: "Neon EVM logo" },
