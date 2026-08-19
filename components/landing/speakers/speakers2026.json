@@ -73,6 +73,12 @@
       "photo": "pavle-krivokuca.png"
     },
     {
+      "name": "Paolo Di Stefano",
+      "position": "Frankencoin Association",
+      "link": "http://x.com/PaoloDiStef",
+      "photo": "paolo-di-stefano.png"
+    },
+    {
       "name": "Filip Pajic",
       "position": "Consensys",
       "link": "https://x.com/PajicF",
@@ -203,12 +209,6 @@
       "position": "Stealth",
       "link": "http://x.com/ox_shaman",
       "photo": "mislav-javor.png"
-    },
-    {
-      "name": "Paolo Di Stefano",
-      "position": "Frankencoin Association",
-      "link": "http://x.com/PaoloDiStef",
-      "photo": "paolo-di-stefano.png"
     }
   ]
 }
