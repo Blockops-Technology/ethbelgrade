@@ -209,6 +209,54 @@
       "position": "Stealth",
       "link": "http://x.com/ox_shaman",
       "photo": "mislav-javor.png"
+    },
+    {
+      "name": "Stanislaw Koper",
+      "position": "Canary Protocol",
+      "link": "http://x.com/Gigagoblin",
+      "photo": "stanislaw-koper.png"
+    },
+    {
+      "name": "Buse Kaya",
+      "position": "Content creator",
+      "link": "https://x.com/0xbuse",
+      "photo": "buse-kaya.png"
+    },
+    {
+      "name": "Radina",
+      "position": "L2BEAT",
+      "link": "http://x.com/radina_nt",
+      "photo": "radina.png"
+    },
+    {
+      "name": "Alex Radu",
+      "position": "Pulsar Money",
+      "link": "https://x.com/Alex__Radu",
+      "photo": "alex-radu.png"
+    },
+    {
+      "name": "Vladislav Sopov",
+      "position": "GetBlock",
+      "link": "https://x.com/VanceWood18",
+      "photo": "vladislav-sopov.png"
+    },
+    {
+      "name": "Vladislav Sopovv",
+      "position": "GetBlock",
+      "link": "https://x.com/VanceWood18",
+      "photo": "vladislav-sopovv.png"
+    },
+    {
+      "name": "Andrea López de Vicuña",
+      "position": "GoMarket",
+      "link": "http://x.com/andlopvic",
+      "photo": "andrea-lopez-de-vicuna.png"
+    },
+    {
+      "name": "Artem Tersenov",
+      "position": "Wenaltseason Labs",
+      "link": "http://x.com/djtektonek",
+      "photo": "artem-tersenov.png"
     }
   ]
 }
