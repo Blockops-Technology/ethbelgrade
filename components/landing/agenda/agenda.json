@@ -68,9 +68,9 @@
         "11:30": [
           {
             "category": "",
-            "title": "Transaction Assertions (EIP-7906): The Next Step in Ethereum Security",
-            "speaker": "Mislav Javor",
-            "company": "",
+            "title": "Understanding Glamsterdam",
+            "speaker": "Milos Stankovic",
+            "company": "ex-Ethereum Foundation",
             "youtube": ""
           },
           {
@@ -84,9 +84,9 @@
         "12:00": [
           {
             "category": "",
-            "title": "Understanding Glamsterdam",
-            "speaker": "Milos Stankovic",
-            "company": "ex-Ethereum Foundation",
+            "title": "How Will I Explain This to My Daughters",
+            "speaker": "Petar Atanasovski",
+            "company": "Curvy Protocol",
             "youtube": ""
           },
           {
@@ -260,9 +260,9 @@
         "10:30": [
           {
             "category": "",
-            "title": "How Will I Explain This to My Daughters",
-            "speaker": "Petar Atanasovski",
-            "company": "Curvy Protocol",
+            "title": "Compliance Without a Human in the Loop",
+            "speaker": "Pavle Krivokuća",
+            "company": "Fireblocks",
             "youtube": ""
           },
           {
@@ -369,9 +369,9 @@
         "14:30": [
           {
             "category": "",
-            "title": "Compliance Without a Human in the Loop",
-            "speaker": "Pavle Krivokuća",
-            "company": "Fireblocks",
+            "title": "Transaction Assertions (EIP-7906): The Next Step in Ethereum Security",
+            "speaker": "Mislav Javor",
+            "company": "",
             "youtube": ""
           },
           {
