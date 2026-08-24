@@ -415,7 +415,13 @@
             "company": "",
             "youtube": ""
           },
-          {}
+          {
+            "category": "",
+            "title": "",
+            "speaker": "",
+            "company": "",
+            "youtube": ""
+          }
         ]
       }
     }
