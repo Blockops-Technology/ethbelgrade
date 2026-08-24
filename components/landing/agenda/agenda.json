@@ -177,7 +177,7 @@
         "15:30": [
           {
             "category": "",
-            "title": "The Complexity of DeFi, One SDK Away",
+            "title": "Build the Swap, Design the Protocol",
             "speaker": "Sasha Kazachenko",
             "company": "CoW Protocol",
             "youtube": ""
@@ -392,8 +392,8 @@
           },
           {
             "category": "",
-            "title": "Liquidity Fragmentation Within Prediction Market Smart Contracts",
-            "speaker": "Rastko Misulic",
+            "title": "Prediction Markets — Global Adoption in Action",
+            "speaker": "Spencer Fan",
             "company": "",
             "youtube": ""
           }
@@ -408,8 +408,24 @@
           },
           {
             "category": "",
-            "title": "Prediction Markets — Global Adoption in Action",
-            "speaker": "Spencer Fan",
+            "title": "",
+            "speaker": "",
+            "company": "",
+            "youtube": ""
+          }
+        ],
+        "16:00": [
+          {
+            "category": "",
+            "title": "Closing Keynote",
+            "speaker": "",
+            "company": "",
+            "youtube": ""
+          },
+          {
+            "category": "",
+            "title": "",
+            "speaker": "",
             "company": "",
             "youtube": ""
           }
