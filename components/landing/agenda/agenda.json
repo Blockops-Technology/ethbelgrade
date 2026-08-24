@@ -2,562 +2,7 @@
   "days" : [
     {
       "dayName": "Day 1",
-      "date": "3 June",
-      "programe": {
-        "09:00": [
-          {
-            "category": "Break",
-            "title": "Registration",
-            "speaker": "",
-            "company": "",
-            "youtube": "",
-            "spaces": 3,
-            "slots": 2
-          }
-        ],
-        "09:30": [
-        ],
-        "10:00": [
-          {
-            "category": "",
-            "title": "Opening keynote",
-            "speaker": "Nikola Vukovic",
-            "company": "DeFi Saver",
-            "youtube": "https://youtu.be/8RrBr1oHz4c"
-          },
-          {
-            "category": "",
-            "title": "",
-            "speaker": "",
-            "company": "",
-            "youtube": ""
-          },
-          {
-            "category": "",
-            "title": "",
-            "speaker": "",
-            "company": "",
-            "youtube": ""
-          }
-        ],
-        "10:30" : [
-          {
-            "category": "Entrepreneurship & management, Education",
-            "title": "The Secrets to Compelling Technical Writing",
-            "speaker": "Jeffrey Scholz",
-            "company": "RareSkills",
-            "youtube": "https://youtu.be/U9qWv0gfbLU"
-          },
-          {
-            "category": "",
-            "title": "",
-            "speaker": "",
-            "company": "",
-            "youtube": ""
-          },
-          {
-            "category": "",
-            "title": "",
-            "speaker": "",
-            "company": "",
-            "youtube": ""
-          }
-        ],
-        "11:00": [
-          {
-            "category": "DeFi",
-            "title": "Yield-Bearing Stablecoins: Balancing Returns, Risk, and Sustainability",
-            "speaker": "Martin Krung",
-            "company": "Curve Finance",
-            "youtube": "https://youtu.be/4zVIHmWyip4"
-          },
-          {
-            "category": "Law Enforcement, Financial Crime, Money Laundering, Asset Recovery.",
-            "title": "A Law Enforcement Approach to Digital Assets",
-            "speaker": "Michael Halepas",
-            "company": "BlockAML",
-            "youtube": "https://youtu.be/SVB7kAWrOKk"
-          },
-          {
-            "category": "",
-            "title": "Hackathon Workshops (Click to see detailed agenda)",
-            "speaker": "",
-            "company": "",
-            "youtube": "",
-            "slots": 14,
-            "link": "/hackathonagenda"
-          }
-        ],
-        "11:30": [
-          {
-            "category": "Public goods, Infra/scaling",
-            "title": "Stateless Ethereum Clients",
-            "speaker": "Milos Stankovic",
-            "company": "Ethereum Foundation",
-            "youtube": "https://youtu.be/mi627ZVZ6Q8"
-          },
-          {
-            "category": "Regulations, Fireside chat",
-            "title": "Not Another Regulation Talk: What Founders Actually Need to Know",
-            "speaker": "David Veselinovic (Crypto12), Ilija Rilakovic (Law Decoded)",
-            "company": "",
-            "youtube": "https://youtu.be/oji_ZdsIPpA"
-          }
-        ],
-        "12:00" : [
-          {
-            "category": "Infra/scaling, Public goods, UX",
-            "title": "WTF is Surge: The Based Rollup Template",
-            "speaker": "Aayush Giri",
-            "company": "Nethermind",
-            "youtube": "https://youtu.be/QdnlSxZg900"
-          },
-          {
-            "category": "Privacy",
-            "title": "Confidential ERC20: Using FHE to Bring Privacy to DeFi",
-            "speaker": "Furkan Akal",
-            "company": "Inco",
-            "youtube": "https://youtu.be/KftgtIny6Nk"
-          }
-        ],
-        "12:30": [
-          {
-            "category": "Break",
-            "title": "Lunch",
-            "speaker": "",
-            "company": "",
-            "youtube": "",
-            "slots": 2,
-            "spaces": 2
-          }
-        ],
-        "13:00": [
-        ],
-        "13:30": [
-          {
-            "category": "UX",
-            "title": "One Click, Any Chain - The Future of Crypto UX",
-            "speaker": "Luka Isailovic",
-            "company": "Reown",
-            "youtube": "https://youtu.be/FDcnwqn3Coc"
-          },
-          {
-            "category": "DeFi, Infra/scaling",
-            "title": "Scaling Ethereum development with trustless automation",
-            "speaker": "Agustin Lavarello",
-            "company": "Mimic Protocol",
-            "youtube": "https://youtu.be/UXu5_DpLeFA"
-          }
-        ],
-        "14:00": [
-          {
-            "category": "Dev tooling, UX",
-            "title": "Promises and Limitations of Passkey-Based Smart Accounts",
-            "speaker": "Sergey Potekhin",
-            "company": "Pimlico",
-            "youtube": "https://youtu.be/wjViB3bV_To"
-          },
-          {
-            "category": "DeFi, Security",
-            "title": "Fuzzing Liquity",
-            "speaker": "Alex The Entreprenerd",
-            "company": "Recon",
-            "youtube": "https://youtu.be/E-1O0BGh8JY"
-          }
-        ],
-        "14:30": [
-          {
-            "category": "Infra/scaling, Dev tooling",
-            "title": "How We Built a Local Cross-Chain Simulator",
-            "speaker": "Andrej Rakic",
-            "company": "Chainlink",
-            "youtube": "https://youtu.be/4ru692N_xrk"
-          },
-          {
-            "category": "Security",
-            "title": "Killing with Keyboards – How Your Digital Footprint Can Be Weaponized",
-            "speaker": "Noah Jelich",
-            "company": "Independent",
-            "youtube": "https://youtu.be/KvnMDTGhM9M"
-          }
-        ],
-        "15:00": [
-          {
-            "category": "DeFi, Security, Dev tooling",
-            "title": "DEX MEV",
-            "speaker": "Mark B Richardson",
-            "company": "Bancor",
-            "youtube": "https://youtu.be/WhOsbsjfrbM"
-          },
-          {
-            "category": "DeFi, Security",
-            "title": "From red team to blue team: the hard life of DeFi protocols",
-            "speaker": "engn33r",
-            "company": "Twyne",
-            "youtube": "https://youtu.be/AB4st_-3YCM"
-          }
-        ],
-        "15:30": [
-          {
-            "category": "Panel",
-            "title": "The Economics of Collaborative Forking",
-            "speaker": "Bojan Pecek (Liquity), TokenBrice (DeFiCollective + DeFiScan), Cupofjoseph (Nerite),",
-            "company": "",
-            "youtube": "https://youtu.be/L8ihAf7rn-4"
-          },
-          {
-            "category": "Public goods and community, Entrepreneurship & management",
-            "title": "Top 10 must-see opportunities for students",
-            "speaker": "Solene Daviaud",
-            "company": "Dev3pack",
-            "youtube": "https://youtu.be/Uvsg99d0FxM"
-          }
-        ],
-        "16:00": [
-          {
-            "category": "Infra/scaling, AI",
-            "title": "Build neuro-symbolic AI agents with OriginTrail Decentralized Knowledge Graph",
-            "speaker": "Branimir Rakic",
-            "company": "Origin Trail",
-            "youtube": "https://youtu.be/04wPfAZ4d2A"
-          },
-          {
-            "category": "DeFi",
-            "title": "Let the Best Solvers Win: Fair Combinatorial Auctions in Intent-Based DeXs",
-            "speaker": "Mariia Yatskovska",
-            "company": "Cow DAO",
-            "youtube": "https://youtu.be/Uvsg99d0FxM"
-          }
-        ],
-        "16:30": [
-          {
-            "category": "DeFi, Security, AI Agents",
-            "title": "AI Agent Custody and Fund Access",
-            "speaker": "Dejan Radic",
-            "company": "ResolverSys.com",
-            "youtube": "https://youtu.be/wYbsxc3FdS0"
-          },
-          {
-            "category": "Infra/scaling, DAOs and governance, Security",
-            "title": "Beyond L2 limits: How Polkadot scales dApps on a resilient infrastructure",
-            "speaker": "Alex Dimitrijevic",
-            "company": "Web3 Foundation",
-            "youtube": "https://youtu.be/W5SjkvHvuTE"
-          }
-        ],
-        "17:00": [
-          {
-            "category": "DeFi",
-            "title": "A comprehensive overview of developing trends in the decentralized finance space",
-            "speaker": "definikola",
-            "company": "Blockanalitica",
-            "youtube": "https://youtu.be/BRlcf16FfY8"
-          },
-          {
-            "category": "Security",
-            "title": "How to be secure by design and not pay millions?",
-            "speaker": "Damian Rusinek",
-            "company": "Composable Security",
-            "youtube": "https://youtu.be/9STaG0ihoA4"
-          }
-        ]
-      }
-    },
-    {
-      "dayName": "Day 2",
-      "date": "4 June",
-      "programe": {
-        "09:00": [
-          {
-            "category": "Break",
-            "title": "Registration",
-            "speaker": "",
-            "company": "",
-            "youtube": "",
-            "spaces": 3,
-            "slots": 2
-          }
-        ],
-        "09:30": [
-        ],
-        "10:00" : [
-          {
-            "category": "Public goods and community, Security, User privacy",
-            "title": "Nescience: A User-Centric State-Separation Architecture",
-            "speaker": "Moudy",
-            "company": "IFT",
-            "youtube": "https://youtu.be/B12IOvfxWn8"
-          },
-          {
-            "category": "DeFi, Dev tooling",
-            "title": "AI Agents, MCP & Blockchain: The New Interaction Paradigm",
-            "speaker": "Damjan Dimitrov",
-            "company": "Apillon",
-            "youtube": "https://youtu.be/WiHlKfZ82qI"
-          },
-          {
-            "category": "",
-            "title": "VC Track",
-            "speaker": "",
-            "company": "",
-            "youtube": "",
-            "slots": 5
-          }
-        ],
-        "10:30" : [
-          {
-            "category": "DAOs and governance",
-            "title": "Playing Jumanji: shipping upgrades of a DAO-governed protocol",
-            "speaker": "Kate Zueva",
-            "company": "Lido",
-            "youtube": "https://youtu.be/KVG-IIfWUvs"
-          },
-          {
-            "category": "DeFi",
-            "title": "Evolution of Stablecoins",
-            "speaker": "Aleksandar Matanovic",
-            "company": "ECD",
-            "youtube": "https://youtu.be/-qidz1ENc4s"
-          }
-        ],
-        "11:00" : [
-          {
-            "category": "DeFi, DAOs and governance, Public goods and community",
-            "title": "DAOs Professionalised - But at What Cost?",
-            "speaker": "Oxytocin",
-            "company": "ParaSwap, Laita Labs, Optimism Delegate",
-            "youtube": "https://youtu.be/px6WcQgIfDw"
-          },
-          {
-            "category": "DeFi, Infrastructure and scaling, Regulations, Entrepreneurship & management, self-custodial payments in real world",
-            "title": "Evolution of payments on the intersection of web3 and traditional finance​",
-            "speaker": "Georgy Sokolov",
-            "company": "Wirex / Wirex Pay",
-            "youtube": "https://youtu.be/5RhOBv-0jeA"
-          }
-        ],
-        "11:30" : [
-          {
-            "category": "Public goods and community, Funding",
-            "title": "The Future of AI Project Funding",
-            "speaker": "Anna Kaic",
-            "company": "General Magic/Giveth",
-            "youtube": "https://youtu.be/6C5GrTfokBM"
-          },
-          {
-            "category": "DeFi, Security",
-            "title": "Long-Tail Asset Oracles: Enabling Collateral Diversity in DeFi",
-            "speaker": "Brenda Loya",
-            "company": "Tellor",
-            "youtube": "https://youtu.be/nPA__5Kc8xk"
-          }
-        ],
-        "12:00" : [
-          {
-            "category": "Public goods and community, Security",
-            "title": "Don't get rekt: detecting phishing threats in crypto",
-            "speaker": "tincho",
-            "company": "The Red Guild @theredguild",
-            "youtube": "https://youtu.be/klqgBnhyU6A"
-          },
-          {
-            "category": "DeFi, Infrastructure and scaling, Entrepreneurship & management",
-            "title": "Embrace the power of investments in agriculture for a sustainable future",
-            "speaker": "Vladimir Cvejic",
-            "company": "treesury",
-            "youtube": "https://youtu.be/_MmF6gX_aAc"
-          }
-        ],
-        "12:30" : [
-          {
-            "category": "Break",
-            "title": "Lunch",
-            "speaker": "",
-            "company": "",
-            "youtube": "",
-            "slots": 2,
-            "spaces": 3
-          }
-        ],
-        "13:00" : [
-        ],
-        "13:30" : [
-          {
-            "category": "DeFi, AI",
-            "title": "AI without the black box",
-            "speaker": "Matej Janez",
-            "company": "Oasis",
-            "youtube": "https://youtu.be/QpVCyWxWhd0"
-          },
-          {
-            "category": "DeFi, Security",
-            "title": "Inflation Attacks: A deep dive on ERC-4626",
-            "speaker": "Cupojoseph",
-            "company": "Nerite.org",
-            "youtube": "https://youtu.be/4Z-seCZTrRg"
-          },
-          {
-            "category": "Privacy",
-            "title": "Code Against the Machine: How Cypherpunks, Technoanarchists, and Ethereum Build Post-State Futures",
-            "speaker": "mmlado.eth",
-            "company": "HTEC Group",
-            "youtube": "https://youtu.be/waByT_FUTQo"
-          }
-        ],
-        "14:00" : [
-          {
-            "category": "DeFi",
-            "title": "Building Derivative Products On Hyperliquid",
-            "speaker": "Aleksa Urosevic",
-            "company": "Decenter/PerpflowFigue",
-            "youtube": "https://youtu.be/CIh81SnqQxY"
-          },
-          {
-            "category": "Regulations, Panel",
-            "title": "Should/How DAOs deploy AI governance agents? The paradox of using black-box AI to run 'transparent' decentralized organizations",
-            "speaker": "Aleksandra Cvorovic (Karanovic&Partners), Kevin Rihtar (Ketler & Partners), Dejan Radic (ResolverSys.com)",
-            "company": "",
-            "youtube": "https://youtu.be/1UAs8ymbLck",
-            "slots": 2
-          },
-          {
-            "category": "Security, Privacy",
-            "title": "Private Machine Learning with zkML",
-            "speaker": "Laurence Kirk",
-            "company": "Extropy.IO",
-            "youtube": "https://youtu.be/LzQ9sbVYsfE"
-          }
-        ],
-        "14:30" : [
-          {
-            "category": "DeFi, Infrastructure and scaling, Dev tooling, EVM",
-            "title": "Neon EVM: Bringing Ethereum and Solana together",
-            "speaker": "Julia Gallen",
-            "company": "Neon EVM",
-            "youtube": "https://youtu.be/FhuMAgsMA6I"
-          },
-          {
-            "category": "ZK, Snarks",
-            "title": "Ligerito — a new multilinear polynomial commitment scheme and inner product argument",
-            "speaker": "Andrija Novakovic",
-            "company": "Bain Crypto Capital",
-            "youtube": "https://youtu.be/lWS4JTzaUwM"
-          }
-        ],
-        "15:00" : [
-          {
-            "category": "Panel, AA/Al/infra",
-            "title": "EIP-7702 and the Programmable Wallet Era: Redefining Infra for the Next User Wave",
-            "speaker": "Francesco Andreoli (Director of Developer relations, Consensys), Mirko Garozzo (Ecosystem Lead, Zircuit), Bogdan Habic (CTO, Tenderly)",
-            "company": "",
-            "youtube": "https://youtu.be/FlRqGtq4zTQ",
-            "slots": 2
-          },
-          {
-            "category": "DeFi, Regulations",
-            "title": "Blockchain Policy Simplified",
-            "speaker": "Sylvia Sanchez",
-            "company": "Ava Labs",
-            "youtube": "https://youtu.be/UOA9gqpFda0"
-          },
-          {
-            "category": "Infra/scaling, Dev tooling",
-            "title": "Why smart contracts speak Rust?",
-            "speaker": "Rastko Misulic",
-            "company": "Ceres Blockchain Solutions",
-            "youtube": "https://youtu.be/6S4yAnw5mxk"
-          }
-        ],
-        "15:30" : [
-          {
-            "category": "Regulations",
-            "title": "Reverse solicitation for crypto companies",
-            "speaker": "Diana Stetiu",
-            "company": "Diana Stetiu Law Office",
-            "youtube": "https://youtu.be/Kboocnj9yYY"
-          },
-          {
-            "category": "Infra/scaling, Security, MEV",
-            "title": "Build-a-builder: Intro to building performant block builders",
-            "speaker": "makemake",
-            "company": "Phylax",
-            "youtube": "https://youtu.be/3PAoqRVf1gg"
-          }
-        ],
-        "16:00" : [
-          {
-            "category": "Confidential AI",
-            "title": "Unlocking the Potential of Confidential AI: The Synergy of AI and Trusted Execution Environments (TEEs)",
-            "speaker": "Martin Leclercq",
-            "company": "IEXEC BLOCKCHAIN TECH",
-            "youtube": "https://youtu.be/76LFFvu6QXg"
-          },
-          {
-            "category": "DAOs and governance",
-            "title": "Shaking up DAO governance with delegates",
-            "speaker": "Jen",
-            "company": "Lido",
-            "youtube": "https://youtu.be/455Y9OrhFLk"
-          },
-          {
-            "category": "Infra/scaling",
-            "title": "Immutable Future: Crafting Trustworthy AI with Blockchain",
-            "speaker": "Kosa Nenadic",
-            "company": "Ethernal",
-            "youtube": "https://youtu.be/4Jihxq8xSLs"
-          }
-        ],
-        "16:30" : [
-          {
-            "category": "Infra/scaling",
-            "title": "Rollups on Bitcoin",
-            "speaker": "Omer Talip Akalin",
-            "company": "Citrea",
-            "youtube": "https://youtu.be/lYhtMY75bSM"
-          },
-          {
-            "category": "Public goods and community",
-            "title": "Impactful Auctions: Web3’s Opportunity to Revolutionize Public Goods Funding",
-            "speaker": "Loring Harkness",
-            "company": "brainbot gmbh",
-            "youtube": "https://youtu.be/CPh3FJc3S98"
-          },
-          {
-            "category": "Fireside chat",
-            "title": "Koji nam je djavo ovo trebalo?/ Why the hell are we doing this?",
-            "speaker": "Miros (PrivadoID), Lazar Travica (Route3)",
-            "company": "",
-            "youtube": "https://youtu.be/lBIQbL87FeA"
-          }
-        ],
-        "17:00" : [
-          {
-            "category": "DeFi",
-            "title": "When Solidity Meets Satoshi: Redefining Bitcoin Finance Using Ethereum’s Breakthroughs",
-            "speaker": "Filip Baturan",
-            "company": "Tanari",
-            "youtube": "https://youtu.be/sFnB6CHG-wU"
-          },
-          {
-            "category": "DeFi, Security, Entrepreneurship & management, UX",
-            "title": "Why DeFi is inevitable",
-            "speaker": "Tobias van Amstel",
-            "company": "Altitude.fi",
-            "youtube": "https://youtu.be/vgI11tIJKks"
-          },
-          {
-            "category": "Infra/scaling",
-            "title": "The rise of alternative VMs in Ethereum",
-            "speaker": "Zhivko Todorov",
-            "company": "LimeChain",
-            "youtube": "https://youtu.be/9kBHofIneMU"
-          }
-        ]
-      }
-    },
-    {
-      "dayName": "Day 3",
-      "date": "5 June",
+      "date": "26 August",
       "programe": {
         "09:00": [
           {
@@ -568,57 +13,17 @@
             "youtube": "",
             "spaces": 2,
             "slots": 2
-          },
-          {
-            "category": "Break",
-            "title": " ",
-            "speaker": "",
-            "company": "",
-            "youtube": "",
-            "slots": 18
           }
         ],
         "09:30": [
         ],
-        "10:00" : [
+        "10:00": [
           {
-            "category": "Entrepreneurship & management",
-            "title": "From Normie to Power User: TG Tips for Crypto Wizards",
-            "speaker": "Tatiana Kuznetsova",
-            "company": "Decurity.io",
-            "youtube": "https://youtu.be/iqWjq_NcEaI"
-          },
-          {
-            "category": "DeFi, Entrepreneurship & management",
-            "title": "Builder’s Guide to LP Partnerships: Attracting Liquidity",
-            "speaker": "Aleksandr Nechaev",
-            "company": "Funders VC",
-            "youtube": "https://youtu.be/NW0NCpY_r2A"
-          }
-        ],
-        "10:30" : [
-          {
-            "category": "DeFi, Infra/scaling",
-            "title": "How to create a blockchain in 20 minutes",
-            "speaker": "Grigorii Kair",
-            "company": "Aurora, Web3 researcher",
-            "youtube": "https://youtu.be/lMGDtlLW5VU"
-          },
-          {
-            "category": "DeFi, Infra/scaling, Stablecoins",
-            "title": "Stablecoins are eating finance: A frontline report from the new money stack",
-            "speaker": "Timon",
-            "company": "very early Ventures",
-            "youtube": "https://youtu.be/wYIEejhdSsg"
-          }
-        ],
-        "11:00" : [
-          {
-            "category": "Infrastructure and scaling",
-            "title": "Multi-Chain Bridges: Uniting Blockchain Ecosystems",
-            "speaker": "Nemanja Nedic",
-            "company": "Ethernal",
-            "youtube": "https://youtu.be/rCtgX8nklaw"
+            "category": "",
+            "title": "Keynote",
+            "speaker": "Token Brice",
+            "company": "",
+            "youtube": ""
           },
           {
             "category": "",
@@ -628,184 +33,219 @@
             "youtube": ""
           }
         ],
-        "11:30" : [
+        "10:30": [
           {
-            "category": "Infra/scaling, UX",
-            "title": "Open Intents Framework: Solving Interop",
-            "speaker": "Jim",
-            "company": "LI.FI",
-            "youtube": "https://youtu.be/IU6GQIIP9zk"
+            "category": "",
+            "title": "State Archival: Expiring the State Without Telling Anyone, and Getting Away With It",
+            "speaker": "Guillaume Ballet",
+            "company": "geth",
+            "youtube": ""
           },
           {
-            "category": "Marketing",
-            "title": "How to Degen Without Losing Your Cool (or Your Cred)",
-            "speaker": "Paula Vulić",
-            "company": "Underground Agency",
-            "youtube": "https://youtu.be/1IaTipdRTIA"
+            "category": "",
+            "title": "Breaking Narratives: How Code Review Beats Marketing Decks",
+            "speaker": "Noah Jelich",
+            "company": "",
+            "youtube": ""
           }
         ],
-        "12:00" : [
+        "11:00": [
           {
-            "category": "DeFi",
-            "title": "Resolving the Future: A Comparative Analysis of Prediction Markets and Their Resolution Mechanisms",
-            "speaker": "Borut",
-            "company": "Kalmia",
-            "youtube": "https://youtu.be/9dwHvDRgShY"
+            "category": "",
+            "title": "What Is Next for Solidity?",
+            "speaker": "Nikola Matic",
+            "company": "Argot Collective",
+            "youtube": ""
           },
           {
-            "category": "Blockchain Talent",
-            "title": "Finding a Job in Web3",
-            "speaker": "Owen Healy",
-            "company": "Owen Healy Blockchain Talent",
-            "youtube": "https://youtu.be/iACHwP1pRoA"
+            "category": "",
+            "title": "Who Validates You: Your Choice, or Someone Else's Code?",
+            "speaker": "Stepan Tkach",
+            "company": "United Network",
+            "youtube": ""
           }
         ],
-        "12:30" : [
+        "11:30": [
+          {
+            "category": "",
+            "title": "Transaction Assertions (EIP-7906): The Next Step in Ethereum Security",
+            "speaker": "Mislav Javor",
+            "company": "",
+            "youtube": ""
+          },
+          {
+            "category": "",
+            "title": "Interoperability in the Ethereum Ecosystem: Current State, Challenges and What's Ahead",
+            "speaker": "Radina Talanova",
+            "company": "L2BEAT",
+            "youtube": ""
+          }
+        ],
+        "12:00": [
+          {
+            "category": "",
+            "title": "Understanding Glamsterdam",
+            "speaker": "Milos Stankovic",
+            "company": "ex-Ethereum Foundation",
+            "youtube": ""
+          },
+          {
+            "category": "",
+            "title": "When Your Employees Have Wallets: Governing the Autonomous Enterprise",
+            "speaker": "Nikola Mandic",
+            "company": "DualX",
+            "youtube": ""
+          }
+        ],
+        "12:30": [
           {
             "category": "Break",
-            "title": "Lunch",
+            "title": "Break",
             "speaker": "",
             "company": "",
             "youtube": "",
-            "slots": 2,
-            "spaces": 2
+            "spaces": 2,
+            "slots": 2
           }
         ],
-        "13:00" : [
+        "13:00": [
         ],
-        "13:30" : [
+        "13:30": [
           {
-            "category": "DAOs and governance, Security, Dev tooling, UX",
-            "title": "Don’t Sign Blindly: Fast-Track Tools & Tactics for Multisig Transaction Verification",
-            "speaker": "Alex",
+            "category": "",
+            "title": "When Elliptic Curves Break: The Transition to Post-Quantum Signatures",
+            "speaker": "Marija Mikić",
+            "company": "University of Belgrade",
+            "youtube": ""
+          },
+          {
+            "category": "",
+            "title": "Stablecoin Infrastructure: Who Will Win?",
+            "speaker": "Georgy Sokolov",
+            "company": "Wirex",
+            "youtube": ""
+          }
+        ],
+        "14:00": [
+          {
+            "category": "",
+            "title": "Your npm Dependencies Can See Everything. Here's How We Lock Them Down!",
+            "speaker": "Kaloyan Kosev",
+            "company": "Ambire",
+            "youtube": ""
+          },
+          {
+            "category": "",
+            "title": "The Trillion-Dollar Question: What Actually Belongs Onchain?",
+            "speaker": "Brandon Kazakoff",
+            "company": "Real Finance",
+            "youtube": ""
+          }
+        ],
+        "14:30": [
+          {
+            "category": "",
+            "title": "The Expanding Spectrum of Stablecoin Yield Sources in DeFi",
+            "speaker": "definikola",
+            "company": "Block Analitica",
+            "youtube": ""
+          },
+          {
+            "category": "",
+            "title": "Assess Once, Verifiable by All: Building an Open Protocol for Originating Digital Assets (DIFO)",
+            "speaker": "Ognjen Kurtic",
+            "company": "Finspot",
+            "youtube": ""
+          }
+        ],
+        "15:00": [
+          {
+            "category": "",
+            "title": "Safe Yield? Navigating the DeFi Minefield",
+            "speaker": "engn33r",
+            "company": "Yearn",
+            "youtube": ""
+          },
+          {
+            "category": "",
+            "title": "From Tokenization to Real Yield: Scaling Agriculture as a Regulated Asset Class",
+            "speaker": "Vladimir Cvejic",
+            "company": "Treesury",
+            "youtube": ""
+          }
+        ],
+        "15:30": [
+          {
+            "category": "",
+            "title": "The Complexity of DeFi, One SDK Away",
+            "speaker": "Sasha Kazachenko",
+            "company": "CoW Protocol",
+            "youtube": ""
+          },
+          {
+            "category": "",
+            "title": "How to Borrow Onchain Against Illiquid RWAs Without Oracles",
+            "speaker": "Paolo Di Stefano",
+            "company": "Frankencoin",
+            "youtube": ""
+          }
+        ],
+        "16:00": [
+          {
+            "category": "",
+            "title": "Fixing Compounding Rewards Liquidity with EIP-8148",
+            "speaker": "Dmitry C",
             "company": "Lido",
-            "youtube": "https://youtu.be/E-daHiHmKYo"
+            "youtube": ""
           },
-          {
-            "category": "DeFi, Regulations, Entrepreneurship & management",
-            "title": "VC coins VS community coins - how the market is changing",
-            "speaker": "Guilherme Jovanovic",
-            "company": "YAY Network",
-            "youtube": "https://youtu.be/NBgwgugYdig"
-          }
-        ],
-        "14:00" : [
-          {
-            "category": "DeFi, DAOs and governance",
-            "title": "Value accrual: innovation at the intersection of tokenomics and governance",
-            "speaker": "Ivan",
-            "company": "Aragon, Hydra Ventures DAO",
-            "youtube": "https://youtu.be/qbgyxf87SLI"
-          },
-          {
-            "category": "Infra/scaling, UX",
-            "title": "Sharding an EVM Chain: The Pitfalls Nobody Warns You About",
-            "speaker": "Aleksa Opacic",
-            "company": "Nil Foundation",
-            "youtube": "https://youtu.be/rqBMwzpODEk"
-          }
-        ],
-        "14:30" : [
-          {
-            "category": "DeFi, DAOs and governance, Public goods and community, Security",
-            "title": "DeFiScan: Verifiable insights into DeFi risks and decentralization",
-            "speaker": "TokenBrice",
-            "company": "DeFiCollective + DeFiScan",
-            "youtube": "https://youtu.be/2Dh3R3PEHng"
-          },
-          {
-            "category": "Infra/scaling, Public goods and community, Dev tooling",
-            "title": "Infinite Languages, One Chain: Expanding Ethereum’s Developer Horizons",
-            "speaker": "Ovidiu Damian",
-            "company": "Pi Squared",
-            "youtube": "https://youtu.be/gQmcxCY_Hzg"
-          }
-        ],
-        "15:00" : [
-          {
-            "category": "DeFi, Infra/scaling",
-            "title": "Building Privacy Protocols in Web3: Lessons from the Frontlines",
-            "speaker": "Petar Atanasovski",
-            "company": "Curvy",
-            "youtube": "https://youtu.be/OM92AE2WnxA"
-          },
-          {
-            "category": "DAOs and governance, Public goods and community, Project & Delivery management",
-            "title": "Distributed Harmony: Unlocking Agile Delivery in a Multi-Source World",
-            "speaker": "Sasha Pitkevich",
-            "company": "EPAM",
-            "youtube": "https://youtu.be/VDnwx4rY-yQ"
-          }
-        ],
-        "15:30" : [
-          {
-            "category": "Infra/scaling",
-            "title": "Democratizing the World’s Compute",
-            "speaker": "Vukasin Vukoje",
-            "company": "Ramo",
-            "youtube": "https://youtu.be/GSmSe4agDjI"
-          },
-          {
-            "category": "DAOs and governance, UX",
-            "title": "Dramatic Anarchic Organizations",
-            "speaker": "Paulo Fonseca",
-            "company": "proposals.app",
-            "youtube": "https://youtu.be/a2fmf73ku6s"
-          }
-        ],
-        "16:00" : [
           {
             "category": "",
-            "title": "Securing Ethereum Pectra before mainnet",
-            "speaker": "Zigtur",
-            "company": "Spearbit & Cantina",
-            "youtube": "https://youtu.be/xdSLFAso1Kc"
-          }, 
-          {
-            "category": "UX",
-            "title": "The Human Problem: Is Web3 UX Ready for Normal People?",
-            "speaker": "Jacob Haap",
-            "company": "Anomaly Science",
-            "youtube": "https://youtu.be/yYBpzD1NX-s"
+            "title": "RWAs: What Comes After Tokenised Treasuries",
+            "speaker": "Jacopo Buriollo",
+            "company": "Megawatt",
+            "youtube": ""
           }
         ],
-        "16:30" : [
-          {
-            "category": "Security, Dev tooling",
-            "title": "State of Python Tooling for Solidity Development",
-            "speaker": "Michal Převrátil",
-            "company": "Ackee Blockchain Security",
-            "youtube": "https://youtu.be/mAcoz6XEOME"
-          },
-          {
-            "category": "Dev tooling, UX",
-            "title": "The way to fully decentralized dApps",
-            "speaker": "Balint Ujvari",
-            "company": "SolarPunk Ltd.",
-            "youtube": "https://youtu.be/n0jh_inznck"
-          }
-        ],
-        "17:00" : [
-          {
-            "category": "Security, Dev tooling",
-            "title": "Solidity Internals",
-            "speaker": "Raoul Schaffranek",
-            "company": "Runtime Verification",
-            "youtube": "https://youtu.be/ujBgLNxPKSM"
-          },
-          {
-            "category": "Entrepreneurship & management, UX, NFTs",
-            "title": "Will NFTs and GameFi make a comeback?",
-            "speaker": "Artem",
-            "company": "Mighty",
-            "youtube": "https://youtu.be/4SJ9F5WMJhY"
-          }
-        ],
-        "17:30" : [
+        "16:30": [
           {
             "category": "",
-            "title": "Closing Ceremony and Hackathon Winners Announcement",
+            "title": "From Lira to Ledger: Where Blockchain-Based CBDCs Fit in a Stablecoin World",
+            "speaker": "Mete Koray Gergin",
+            "company": "node101",
+            "youtube": ""
+          },
+          {
+            "category": "",
+            "title": "Tokenization & Growth: From TradFi to DeFi",
+            "speaker": "Semir Gabeljic",
+            "company": "Gabeljic Group",
+            "youtube": ""
+          }
+        ]
+      }
+    },
+    {
+      "dayName": "Day 2",
+      "date": "27 August",
+      "programe": {
+        "09:00": [
+          {
+            "category": "Break",
+            "title": "Registration",
             "speaker": "",
+            "company": "",
+            "youtube": "",
+            "spaces": 2,
+            "slots": 2
+          }
+        ],
+        "09:30": [
+        ],
+        "10:00": [
+          {
+            "category": "",
+            "title": "Welcome, Survivors",
+            "speaker": "Lazar Travica",
             "company": "",
             "youtube": ""
           },
@@ -813,6 +253,163 @@
             "category": "",
             "title": "",
             "speaker": "",
+            "company": "",
+            "youtube": ""
+          }
+        ],
+        "10:30": [
+          {
+            "category": "",
+            "title": "How Will I Explain This to My Daughters",
+            "speaker": "Petar Atanasovski",
+            "company": "Curvy Protocol",
+            "youtube": ""
+          },
+          {
+            "category": "",
+            "title": "The Creator Economy Nobody Budgeted For",
+            "speaker": "Buse Kaya",
+            "company": "",
+            "youtube": ""
+          }
+        ],
+        "11:00": [
+          {
+            "category": "",
+            "title": "Beyond Global State Blockchains: Solving DeFi's Privacy Trilemma",
+            "speaker": "Jatin Pandya",
+            "company": "Canton Foundation",
+            "youtube": ""
+          },
+          {
+            "category": "",
+            "title": "Attention Is a Liquidity Game: How Crypto Projects Actually Win Mindshare",
+            "speaker": "Artem Tersenov",
+            "company": "Wenaltseason Labs",
+            "youtube": ""
+          }
+        ],
+        "11:30": [
+          {
+            "category": "",
+            "title": "Privacy on Ethereum in 2026: What Actually Works in Production?",
+            "speaker": "Dima Burov",
+            "company": "EPAM Systems",
+            "youtube": ""
+          },
+          {
+            "category": "",
+            "title": "Telling Stories That Matter",
+            "speaker": "Stanislaw Koper",
+            "company": "Canary Protocol",
+            "youtube": ""
+          }
+        ],
+        "12:00": [
+          {
+            "category": "",
+            "title": "Trust Models for AI-Generated Code",
+            "speaker": "Andrey Lyashin",
+            "company": "Ordocode",
+            "youtube": ""
+          },
+          {
+            "category": "",
+            "title": "Everyone Codes Now: What Happens When Marketers Get an IDE",
+            "speaker": "Vladislav Sopov",
+            "company": "GetBlock",
+            "youtube": ""
+          }
+        ],
+        "12:30": [
+          {
+            "category": "Break",
+            "title": "Break",
+            "speaker": "",
+            "company": "",
+            "youtube": "",
+            "spaces": 2,
+            "slots": 2
+          }
+        ],
+        "13:00": [
+        ],
+        "13:30": [
+          {
+            "category": "",
+            "title": "Neither Reckless nor Over-Lawyered",
+            "speaker": "Anne-Grace Kleczewski",
+            "company": "",
+            "youtube": ""
+          },
+          {
+            "category": "",
+            "title": "The Stablecoin Sandwich: Building the Bank of the Future",
+            "speaker": "Jorge Selva",
+            "company": "Altitude",
+            "youtube": ""
+          }
+        ],
+        "14:00": [
+          {
+            "category": "",
+            "title": "AI Agents Are Already Paying: Why EU Law Still Cannot Verify Their Mandate",
+            "speaker": "Ilija Rilakovic & Aleksandra Cvorovic",
+            "company": "",
+            "youtube": ""
+          },
+          {
+            "category": "",
+            "title": "Building Consumer Fintech on Stablecoin Rails",
+            "speaker": "Alex Radu",
+            "company": "Pulsar Money",
+            "youtube": ""
+          }
+        ],
+        "14:30": [
+          {
+            "category": "",
+            "title": "Compliance Without a Human in the Loop",
+            "speaker": "Pavle Krivokuća",
+            "company": "Fireblocks",
+            "youtube": ""
+          },
+          {
+            "category": "",
+            "title": "Put Your Money Where the Truth Is",
+            "speaker": "Andrea López de Vicuña",
+            "company": "GoMarket",
+            "youtube": ""
+          }
+        ],
+        "15:00": [
+          {
+            "category": "",
+            "title": "Does Static Analysis Actually Help AI?",
+            "speaker": "Michal Převrátil",
+            "company": "Ack3",
+            "youtube": ""
+          },
+          {
+            "category": "",
+            "title": "Liquidity Fragmentation Within Prediction Market Smart Contracts",
+            "speaker": "Rastko Misulic",
+            "company": "",
+            "youtube": ""
+          }
+        ],
+        "15:30": [
+          {
+            "category": "",
+            "title": "Don't Trust, Prove: Building the Post-Quantum Verification Layer for Agentic AI",
+            "speaker": "Chris Biele",
+            "company": "OpenMatter",
+            "youtube": ""
+          },
+          {
+            "category": "",
+            "title": "Prediction Markets — Global Adoption in Action",
+            "speaker": "Spencer Fan",
             "company": "",
             "youtube": ""
           }

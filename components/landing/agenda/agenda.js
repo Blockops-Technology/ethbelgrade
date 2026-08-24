@@ -123,20 +123,15 @@ const Agenda = () => (
           {
             agenda.days.map((day, i) => (
               <TabPanel key={i}>
-                <div className={styles.timeTable} style={{gridTemplateRows: 'auto repeat(' + (day.programe['17:30'] ? 18 : 17) +', minmax(130px, 1fr))'}}>
+                <div className={styles.timeTable} style={{gridTemplateRows: 'auto repeat(' + Object.keys(day.programe).length + ', minmax(130px, 1fr))'}}>
                   <div></div>
                   <div className={styles.header}>
                     <h3><span></span></h3>
-                    <h4>Danube stage</h4>
+                    <h4>Stage 1 (Amfiteatar)</h4>
                   </div>
                   <div className={styles.header}>
                     <h3> <span></span></h3>
-                    <h4>Sava stage</h4>
-                  </div>
-                  <div className={styles.header}>
-                    <h3><span></span></h3>
-                    {/* <img className="w-full !max-w-[110px]" src="/images/partners/rise-logo.png" /> */}
-                    <h4>Rise stage</h4>
+                    <h4>Stage 2 (MR 9)</h4>
                   </div>
                   {timeSlots.map((time, index) => {
                     if (day.programe[time])
