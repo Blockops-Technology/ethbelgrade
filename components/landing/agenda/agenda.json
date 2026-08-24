@@ -177,7 +177,7 @@
         "15:30": [
           {
             "category": "",
-            "title": "The Complexity of DeFi, One SDK Away",
+            "title": "Build the Swap, Design the Protocol",
             "speaker": "Sasha Kazachenko",
             "company": "CoW Protocol",
             "youtube": ""
@@ -405,9 +405,16 @@
             "speaker": "Chris Biele",
             "company": "OpenMatter",
             "youtube": ""
+          },
+          {
+            "category": "",
+            "title": "",
+            "speaker": "",
+            "company": "",
+            "youtube": ""
           }
         ],
-          "16:00": [
+        "16:00": [
           {
             "category": "",
             "title": "Closing Keynote",
