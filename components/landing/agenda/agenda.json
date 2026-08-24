@@ -392,8 +392,8 @@
           },
           {
             "category": "",
-            "title": "Liquidity Fragmentation Within Prediction Market Smart Contracts",
-            "speaker": "Rastko Misulic",
+            "title": "Prediction Markets — Global Adoption in Action",
+            "speaker": "Spencer Fan",
             "company": "",
             "youtube": ""
           }
@@ -405,11 +405,13 @@
             "speaker": "Chris Biele",
             "company": "OpenMatter",
             "youtube": ""
-          },
+          }
+        ],
+          "16:00": [
           {
             "category": "",
-            "title": "Prediction Markets — Global Adoption in Action",
-            "speaker": "Spencer Fan",
+            "title": "Closing Keynote",
+            "speaker": "",
             "company": "",
             "youtube": ""
           }
