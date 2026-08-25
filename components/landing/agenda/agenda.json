@@ -43,8 +43,8 @@
           },
           {
             "category": "",
-            "title": "Breaking Narratives: How Code Review Beats Marketing Decks",
-            "speaker": "Noah Jelich",
+            "title": "",
+            "speaker": "",
             "company": "",
             "youtube": ""
           }
@@ -120,7 +120,7 @@
           },
           {
             "category": "",
-            "title": "Stablecoin Infrastructure: Who Will Win?",
+            "title": "Reframing the Bear Market ",
             "speaker": "Georgy Sokolov",
             "company": "Wirex",
             "youtube": ""
@@ -219,6 +219,22 @@
             "title": "Tokenization & Growth: From TradFi to DeFi",
             "speaker": "Semir Gabeljic",
             "company": "Gabeljic Group",
+            "youtube": ""
+          }
+        ],
+        "17:00": [
+          {
+            "category": "",
+            "title": "",
+            "speaker": "",
+            "company": "",
+            "youtube": ""
+          },
+          {
+            "category": "",
+            "title": "Breaking Narratives: How Code Review Beats Marketing Decks",
+            "speaker": "Noah Jelich",
+            "company": "",
             "youtube": ""
           }
         ]
