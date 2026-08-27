@@ -232,8 +232,8 @@
           },
           {
             "category": "",
-            "title": "Breaking Narratives: How Code Review Beats Marketing Decks",
-            "speaker": "Noah Jelich",
+            "title": "",
+            "speaker": "",
             "company": "",
             "youtube": ""
           }
@@ -313,11 +313,11 @@
             "company": "EPAM Systems",
             "youtube": ""
           },
-          {
+         {
             "category": "",
-            "title": "Telling Stories That Matter",
-            "speaker": "Stanislaw Koper",
-            "company": "Canary Protocol",
+            "title": "Everyone Codes Now: What Happens When Marketers Get an IDE",
+            "speaker": "Vladislav Sopov",
+            "company": "GetBlock",
             "youtube": ""
           }
         ],
@@ -329,13 +329,14 @@
             "company": "Ordocode",
             "youtube": ""
           },
-          {
+           {
             "category": "",
-            "title": "Everyone Codes Now: What Happens When Marketers Get an IDE",
-            "speaker": "Vladislav Sopov",
-            "company": "GetBlock",
+            "title": "",
+            "speaker": "",
+            "company": "",
             "youtube": ""
           }
+          
         ],
         "12:30": [
           {
@@ -422,10 +423,10 @@
             "company": "OpenMatter",
             "youtube": ""
           },
-          {
+         {
             "category": "",
-            "title": "",
-            "speaker": "",
+            "title": "Breaking Narratives: How Code Review Beats Marketing Decks",
+            "speaker": "Noah Jelich",
             "company": "",
             "youtube": ""
           }
